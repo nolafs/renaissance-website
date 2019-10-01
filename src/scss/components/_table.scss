@@ -1,0 +1,13 @@
+table {
+  margin-top: rem-calc(10);
+  th{
+    font-family: "Gill Sans", "Gill Sans MT", GillSans, Calibri, "Trebuchet MS", sans-serif;
+    font-size: rem-calc(14);
+    font-weight: 700;
+    border-right: $table-border;
+  }
+
+  td {
+    border-right: $table-border;
+  }
+}

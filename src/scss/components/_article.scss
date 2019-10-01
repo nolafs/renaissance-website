@@ -1,0 +1,136 @@
+.field-name-field-article-media {
+  img{
+    width:100%;
+  }
+}
+
+
+
+.section-wrapper-content-wrapper {
+  .article-title{
+    background: $light-gray;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 2.5rem  2.5rem rem-calc(0) 2.5rem;
+
+    @include breakpoint(small only){
+      padding: 2.5rem  1.5rem rem-calc(0) 1.5rem;
+    }
+  }
+
+  .field-name-custom-author {
+    background: $light-gray;
+    padding: 0  2.5rem rem-calc(0) 2.5rem;
+
+    @include breakpoint(small only){
+      padding: 0  1.5rem 0 1.5rem;
+    }
+
+    .article_detail {
+      @extend h5;
+      margin-bottom: 0;
+      .posted_by {
+        @extend h5;
+        text-align: center;
+        display:block;
+        font-family: "Gill Sans W04", "Gill Sans", "Gill Sans MT", GillSans, Calibri, "Trebuchet MS", sans-serif;
+        color: $body-font-color;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+header {
+  &.header-primary {
+    padding: 0;
+    text-align: center;
+    box-shadow: none;
+    background: none;
+    background: $primary-color;
+    &:before {
+      display: none;
+    }
+    h2 {
+      @extend h4;
+      margin-bottom: 0;
+      padding: rem-calc(15);
+
+      color: $white;
+      padding-left: rem-calc(20);
+      padding-right: rem-calc(20);
+    }
+  }
+}
+
+.author-profile {
+  text-align: center;
+  margin-bottom: rem-calc(20);
+
+  .profile{
+    display: inline-block;
+    margin-bottom: 0;
+  }
+
+  span {
+    @extend h4;
+    color:$black;
+
+  }
+}
+
+.article-block {
+  background: $light-gray;
+  margin-bottom: rem-calc(15);
+
+  .divider {
+    margin-top: 0;
+    margin-bottom: rem-calc(18);
+  }
+}
+
+.article-section-block {
+  padding-top: rem-calc(10);
+  padding-bottom: rem-calc(10);
+}
+
+
+
+.article-patch-block {
+  header{
+
+    small{
+      font-family: $header-font-family;
+      font-weight: 700;
+      letter-spacing: rem-calc(2);
+      text-align: center;
+      display: block;
+
+    }
+  }
+
+}
+
+.attribute-change {
+
+  margin-bottom: rem-calc(25);
+
+  .attribute-change{
+    font-weight: 700;
+    color: $primary-color;
+    font-family: "Gill Sans";
+    font-size: rem-calc(14);
+    text-transform: uppercase;
+    padding-right: rem-calc(10);
+    letter-spacing: rem-calc(2);
+  }
+  .attribute-after {
+    letter-spacing: rem-calc(0.5);
+  }
+}
+
+del{
+  color: $dark-gray
+}
+
+

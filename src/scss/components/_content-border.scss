@@ -1,0 +1,31 @@
+.content-border {
+  box-shadow: none;
+  border: none;
+  background: none;
+  padding: 0;
+
+  .content-border-content {
+    box-shadow: none;
+
+    .accent-after:after {
+      display: none;
+    }
+
+    .accent-before:before {
+      display: none;
+    }
+  }
+}
+
+.white-stone {
+  background: $light-gray;
+
+  .white-stone-content {
+    h3{
+      background: none;
+      text-align: center;
+      font-size: rem-calc(20);
+      color: $body-font-color;
+    }
+  }
+}

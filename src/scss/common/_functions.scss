@@ -1,0 +1,572 @@
+// =============================================================================
+// String Replace
+// =============================================================================
+
+@function str-replace($string, $search, $replace: "") {
+  $index: str-index($string, $search);
+
+  @if $index {
+    @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+  }
+
+  @return $string;
+}
+
+// =============================================================================
+// Font Face
+// =============================================================================
+
+@mixin font-face($name, $path, $weight: null, $style: null, $exts: eot woff2 woff ttf svg) {
+  $src: null;
+
+  $extmods: (
+    eot: "?",
+    svg: "#" + str-replace($name, " ", "_")
+  );
+
+  $formats: (
+    otf: "opentype",
+    ttf: "truetype"
+  );
+
+  @each $ext in $exts {
+    $extmod: if(map-has-key($extmods, $ext), $ext + map-get($extmods, $ext), $ext);
+    $format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+    $src: append($src, url(quote($path + "." + $extmod)) format(quote($format)), comma);
+  }
+
+  @font-face {
+    font-family: quote($name);
+    font-style: $style;
+    font-weight: $weight;
+    src: $src;
+  }
+}
+
+/// Stroke font-character
+/// @param  {Integer} $stroke - Stroke width
+/// @param  {Color}   $color  - Stroke color
+/// @return {List}            - text-shadow list
+@function stroke($stroke, $color) {
+  $shadow: ();
+  $from: $stroke*-1;
+  @for $i from $from through $stroke {
+    @for $j from $from through $stroke {
+      $shadow: append($shadow, $i*1px $j*1px 0 $color, comma);
+    }
+  }
+  @return $shadow;
+}
+
+/// Stroke font-character
+/// @param  {Integer} $stroke - Stroke width
+/// @param  {Color}   $color  - Stroke color
+/// @return {Style}           - text-shadow
+@mixin stroke($stroke, $color) {
+  text-shadow: stroke($stroke, $color);
+}
+
+// =============================================================================
+// Background
+// =============================================================================
+
+@function img-url($img) {
+  @return '#{$image-path}/#{$img}';
+}
+
+// =============================================================================
+// Background
+// =============================================================================
+
+@mixin img-background($imgname,$position:0 0,$repeat: no-repeat) {
+  background: {
+    url: img-url($imgname);
+    position: $position;
+    repeat: $repeat;
+  }
+}
+
+@mixin background($bgcolor: $primary-color,$fontcolor:$white,$position:center,$repeat: no-repeat, $size:cover) {
+  background-size: $size;
+  background-repeat: $repeat;
+  background-position: $position;
+  background-color: $bgcolor;
+  color: $fontcolor;
+}
+
+// =============================================================================
+// Responsive ratio
+// =============================================================================
+
+@mixin responsive-ratio($x,$y, $pseudo: false) {
+  $padding: unquote(( $y / $x ) * 100 + '%');
+  @if $pseudo {
+    &:before {
+      @include pseudo($pos: relative);
+      width: 100%;
+      padding-top: $padding;
+    }
+  } @else {
+    padding-top: $padding;
+  }
+}
+
+// =============================================================================
+// Pseudo
+// =============================================================================
+
+@mixin pseudo($display: block, $pos: absolute, $content: '') {
+  content: $content;
+  display: $display;
+  position: $pos;
+}
+
+// =============================================================================
+// CSS Triangle
+// =============================================================================
+
+@mixin css-triangle($color, $direction, $size: 6px, $position: absolute, $round: false) {
+  @include pseudo($pos: $position);
+  width: 0;
+  height: 0;
+  @if $round {
+    border-radius: 3px;
+  }
+  @if $direction == down {
+    border-left: $size solid transparent;
+    border-right: $size solid transparent;
+    border-top: $size solid $color;
+    margin-top: 0 - round( $size / 2.5 );
+  } @else if $direction == up {
+    border-left: $size solid transparent;
+    border-right: $size solid transparent;
+    border-bottom: $size solid $color;
+    margin-bottom: 0 - round( $size / 2.5 );
+  } @else if $direction == right {
+    border-top: $size solid transparent;
+    border-bottom: $size solid transparent;
+    border-left: $size solid $color;
+    margin-right: -$size;
+  } @else if $direction == left {
+    border-top: $size solid transparent;
+    border-bottom: $size solid transparent;
+    border-right: $size solid $color;
+    margin-left: -$size;
+  }
+}
+
+// =============================================================================
+// Z-INDEX
+// =============================================================================
+
+@function z($name) {
+  @if index($z-indexes, $name) {
+    @return (length($z-indexes) - index($z-indexes, $name)) + 1;
+  } @else {
+    @warn 'There is no item "#{$name}" in this list; choose one of: #{$z-indexes}';
+    @return null;
+  }
+}
+
+// =============================================================================
+// Trigger Hardware acceleration
+// =============================================================================
+
+@mixin hardware($backface: true, $perspective: 1000) {
+  @if $backface {
+    backface-visibility: hidden;
+  }
+  perspective: $perspective;
+}
+
+// =============================================================================
+// Truncate
+// =============================================================================
+
+@mixin truncate($truncation-boundary) {
+  max-width: $truncation-boundary;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// =============================================================================
+// Quick center element
+// =============================================================================
+
+@mixin center($position) {
+  position: absolute;
+
+  @if $position == 'vertical' {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  } @else if $position == 'horizontal' {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translate(-50%);
+  } @else if $position == 'both' {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+
+// =============================================================================
+// Retina images
+// =============================================================================
+
+@mixin image-2x($image, $width, $height) {
+  @media (min--moz-device-pixel-ratio: 1.3),
+  (-o-min-device-pixel-ratio: 2.6/2),
+  (-webkit-min-device-pixel-ratio: 1.3),
+  (min-device-pixel-ratio: 1.3),
+  (min-resolution: 1.3dppx) {
+    background-image: url($image);
+    background-size: $width $height;
+  }
+}
+
+// =============================================================================
+// Quick gradients
+// =============================================================================
+
+@mixin background-gradient($start-color, $end-color, $orientation) {
+  background: $start-color;
+
+  @if $orientation == 'vertical' {
+    background: -webkit-linear-gradient(top, $start-color, $end-color);
+    background: linear-gradient(to bottom, $start-color, $end-color);
+  } @else if $orientation == 'horizontal' {
+    background: -webkit-linear-gradient(left, $start-color, $end-color);
+    background: linear-gradient(to right, $start-color, $end-color);
+  } @else {
+    background: -webkit-radial-gradient(center, ellipse cover, $start-color, $end-color);
+    background: radial-gradient(ellipse at center, $start-color, $end-color);
+  }
+}
+
+// =============================================================================
+// Create atom padding and margins
+// =============================================================================
+
+@mixin padding-list($gap-size:10, $end:10) {
+
+  .p-no{
+    padding:0;
+  }
+
+  @for $i from 1 through 30 {
+    $num: $i * 10;
+    .p-t-b-#{$num} {
+      padding-top: rem-calc($num);
+      padding-bottom: rem-calc($num);
+      @include breakpoint(small only) {
+        padding-top: rem-calc($num/2);
+        padding-bottom: rem-calc($num/2);
+      }
+    }
+  }
+
+  @for $i from 1 through 30 {
+    $num: $i * 10;
+    .p-t-#{$num} {
+      padding-top: rem-calc($num);
+      @include breakpoint(small only) {
+        padding-top: rem-calc($num/2);
+      }
+    }
+  }
+
+  @for $i from 1 through 30 {
+    $num: $i * 10;
+    .p-b-#{$num} {
+      padding-bottom: rem-calc($num);
+      @include breakpoint(small only) {
+        padding-bottom: rem-calc($num/2);
+      }
+    }
+  }
+
+  @for $i from 1 through 30 {
+    $num: $i * 10;
+    .p-a-#{$num} {
+      padding: rem-calc($num);
+      @include breakpoint(small only) {
+        padding: rem-calc($num/2);
+      }
+    }
+  }
+}
+
+@mixin margin-list($gap-size:10, $end:10) {
+
+  @for $i from 1 through 30 {
+    $num: $i * 10;
+    .m-t-b-#{$num} {
+      margin-top: rem-calc($num);
+      margin-bottom: rem-calc($num);
+      @include breakpoint(small only) {
+        margin-top: rem-calc($num/2);
+        margin-bottom: rem-calc($num/2);
+      }
+    }
+  }
+
+  @for $i from 1 through 30 {
+    $num: $i * 10;
+    .m-t-#{$num} {
+      margin-top: rem-calc($num);
+      @include breakpoint(small only) {
+        margin-top: rem-calc($num/2);
+      }
+    }
+  }
+
+  @for $i from 1 through 30 {
+    $num: $i * 10;
+    .m-b-#{$num} {
+      margin-bottom: rem-calc($num);
+      @include breakpoint(small only) {
+        margin-bottom: rem-calc($num/2);
+      }
+    }
+  }
+
+  @for $i from 1 through 30 {
+    $num: $i * 10;
+    .m-r-#{$num} {
+      margin-right: rem-calc($num);
+      @include breakpoint(small only) {
+        margin-right: rem-calc($num/2);
+      }
+    }
+  }
+
+  @for $i from 1 through 15 {
+    $num: $i * 10;
+    .m-l-#{$num} {
+      margin-left: rem-calc($num);
+      @include breakpoint(small only) {
+        margin-left: rem-calc($num/2);
+      }
+    }
+  }
+}
+
+// =============================================================================
+// Background - colors
+// =============================================================================
+
+@mixin bgcolor-list() {
+
+  @each $current-color in $foundation-palette {
+    $key: nth($current-color, 1);
+    $value: nth($current-color, 2);
+    .b-c-#{$key} {
+      background-color: $value;
+    }
+  }
+
+  .b-c-dark-gray {
+    background-color: $dark-gray;
+  }
+  .b-c-medium-gray {
+    background-color: $medium-gray;
+  }
+  .b-c-light-gray {
+    background-color: $light-gray;
+  }
+
+  .b-c-black {
+    background-color: $black;
+  }
+
+  .b-c-white {
+    background-color: $white;
+  }
+}
+
+@mixin fontcolor-list() {
+  @each $current-color in $foundation-palette {
+    $key: nth($current-color, 1);
+    $value: nth($current-color, 2);
+    .f-c-#{$key} {
+      color: $value;
+    }
+  }
+  .f-c-dark-gray {
+    color: $dark-gray;
+  }
+  .f-c-medium-gray {
+    color: $medium-gray;
+  }
+  .f-c-light-gray {
+    color: $light-gray;
+  }
+
+  .f-c-black {
+    color: $black;
+  }
+
+  .f-c-white {
+    color: $white;
+  }
+}
+
+@mixin build_nav(
+  $menu-name,
+  $height,
+  $fontSize,
+  $fontColor,
+  $hoverColor,
+  $backgroundColor,
+  $backgroundColorButton,
+  $backgroundColorButtonHover,
+  $stickyHeight,
+  $stickyFontColor,
+  $stickyFontSize,
+  $stickyHoverColor,
+  $stickyBackgroundColor,
+  $fontColorActive:$menu-item-color-active,
+  $backgroundColorActive:$menu-item-background-active
+) {
+
+  #logo {
+    img {
+      max-height: rem-calc($height);
+    }
+  }
+
+
+
+
+  #top-header-large.sticky {
+
+      top:0;
+      left:0;
+
+    &:not(.is-stuck) {
+      ##{$menu-name} {
+
+        height: auto;
+        background-color: $backgroundColor;
+        transition: 0.5s all ease-in-out;
+
+        ul.menu {
+          &:not(#logo):not(.submenu) {
+
+              a, .item {
+                padding-top: rem-calc((($height - $base-font-size))/2);
+                padding-bottom: rem-calc((($height - $base-font-size))/2);
+                font-size: $fontSize;
+                color: $fontColor;
+                background-color: $backgroundColorButton;
+                transition: 0.5s all ease-in-out;
+                &:hover {
+                  color: $hoverColor;
+                  background-color: $backgroundColorButtonHover;
+                }
+
+                &.is-active{
+                  color:$fontColorActive;
+                  background-color:$backgroundColorActive;
+                }
+
+                &:after {
+                  display: none;
+                }
+              }
+
+            li.is-active{
+              background-color:$backgroundColorActive;
+            }
+          }
+
+          &#logo {
+            a {
+              background-color: transparent;
+              img {
+                max-height: rem-calc($height - ($base-font-size + 5));
+                transition: 0.5s all ease-in-out;
+              }
+            }
+          }
+        }
+
+
+      }
+
+    }
+    &.is-stuck {
+
+      ##{$menu-name} {
+
+        @if $stickyHeight == 0 {
+          overflow: hidden;
+        }
+        background-color: $stickyBackgroundColor;
+        transition: 0.5s all ease-in-out;
+
+        ul.menu {
+          &:not(#logo):not(.submenu){
+              a, .item {
+                padding-top: rem-calc((($stickyHeight - $base-font-size))/2);
+                padding-bottom: rem-calc((($stickyHeight - $base-font-size))/2);
+
+                font-size: $stickyFontSize;
+                color: $stickyFontColor;
+
+                background-color: $backgroundColorButton;
+                transition: 0.5s all ease-in-out;
+                &:hover {
+                  color: $hoverColor;
+                  background-color: $backgroundColorButtonHover;
+                }
+                &.is-active{
+                  color:$fontColorActive;
+                  background-color:$backgroundColorActive;
+                }
+              }
+
+            li.is-active{
+              background-color:$backgroundColorActive;
+            }
+
+          }
+
+          &#logo {
+            a {
+              background-color: transparent;
+              img {
+                max-height: rem-calc($stickyHeight - ($base-font-size+5));
+                transition: 0.5s all ease-in-out;
+              }
+            }
+          }
+        }
+      }
+    }
+    ul.menu.submenu:not(#logo) {
+      a {
+        background-color: transparent !important;
+        font-size: $dropdown-font-size!important;
+        padding-top: $dropdown-padding!important;
+        padding-bottom: $dropdown-padding!important;
+        color:  $dropdown-menu-item-color!important;;
+
+        &.is-active{
+          color: $dropdown-menu-item-color-active!important;;
+          background-color: $dropdown-menu-item-background-active!important;;
+        }
+      }
+    }
+  }
+}
+
+
+

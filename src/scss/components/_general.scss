@@ -1,0 +1,218 @@
+
+html {
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.0);
+}
+
+*:focus{
+  outline: none!important;
+}
+
+body {
+}
+
+a {
+  text-decoration: none;
+  img{
+    border: none;
+  }
+}
+
+.position-relative{
+  position: relative;
+}
+
+// text align
+// small align
+.text-small-center{
+  @include breakpoint(small){
+    text-align: center;
+  }
+}
+.text-small-left{
+  @include breakpoint(small){
+    text-align: left;
+  }
+}
+.text-small-right{
+  @include breakpoint(small){
+    text-align: right;
+  }
+}
+// medium align
+.text-medium-center{
+  @include breakpoint(medium){
+    text-align: center;
+  }
+}
+.text-medium-left{
+  @include breakpoint(medium){
+    text-align: left;
+  }
+}
+.text-medium-right{
+  @include breakpoint(medium){
+    text-align: right;
+  }
+}
+// large align
+.text-large-center{
+  @include breakpoint(large){
+    text-align: center;
+  }
+}
+.text-large-left{
+  @include breakpoint(large){
+    text-align: left;
+  }
+}
+.text-large-right{
+  @include breakpoint(large){
+    text-align: right;
+  }
+}
+
+// background colors
+.b-c-primary{
+  background-color: $primary-color;
+}
+.b-c-secondary{
+  background-color: $secondary-color;
+}
+.b-c-success{
+  background-color: $success-color;
+}
+.b-c-warning{
+  background-color: $warning-color;
+}
+.b-c-alert{
+  background-color: $alert-color;
+}
+
+.b-c-removed{
+  background-color: $alert-color;
+}
+
+.b-c-dark-gray{
+  background-color: $dark-gray;
+}
+.b-c-medium-gray{
+  background-color: $medium-gray;
+}
+.b-c-light-gray{
+  background-color: $light-gray;
+}
+.b-c-white{
+  background-color: $white;
+}
+.b-c-black{
+  background-color: $black;
+}
+.b-c-blue-gray{
+  background-color: $blue-gray;
+}
+
+// Font colors
+.f-c-primary{
+  color: $primary-color;
+  h1, h2, h3, h4, h5, h6{
+    color: $primary-color;
+  }
+}
+.f-c-secondary{
+  color: $secondary-color;
+  h1, h2, h3, h4, h5, h6{
+    color: $primary-color;
+  }
+}
+.f-c-success{
+  color: $success-color;
+  h1, h2, h3, h4, h5, h6{
+    color: $primary-color;
+  }
+}
+.f-c-warning{
+  color: $warning-color;
+  h1, h2, h3, h4, h5, h6{
+    color: $primary-color;
+  }
+}
+.f-c-alert{
+  color: $alert-color;
+  h1, h2, h3, h4, h5, h6{
+    color: $primary-color;
+  }
+}
+.f-c-dark-gray{
+  color: $dark-gray;
+  h1, h2, h3, h4, h5, h6{
+    color: $primary-color;
+  }
+}
+.f-c-medium-gray{
+  color: $medium-gray;
+  h1, h2, h3, h4, h5, h6{
+    color: $primary-color;
+  }
+}
+.f-c-light-gray{
+  color: $light-gray;
+  h1, h2, h3, h4, h5, h6{
+    color: $primary-color;
+  }
+}
+.f-c-white{
+  color: $white;
+  h1, h2, h3, h4, h5, h6{
+    color: $primary-color;
+  }
+}
+.f-c-black{
+  color: $black;
+  h1, h2, h3, h4, h5, h6{
+    color: $primary-color;
+  }
+}
+.f-c-blue-gray{
+  color: $blue-gray;
+  h1, h2, h3, h4, h5, h6{
+    color: $primary-color;
+  }
+}
+
+// divider
+hr.divider{
+  border-top: none;
+  border-bottom: none;
+  margin-bottom: rem-calc(40);
+}
+
+//Image around
+
+.image-round {
+  border: 1px solid $primary-color;
+  border-radius: 100%;
+  width: rem-calc(60);
+  height: rem-calc(60);
+  overflow: hidden;
+
+  &.profile {
+    width: rem-calc(60);
+    height: rem-calc(60);
+  }
+}
+
+// figcaption
+
+figcaption {
+  text-align: center;
+  padding: rem-calc(5);
+  font-family: "Gill Sans", "Gill Sans MT", GillSans, Calibri, "Trebuchet MS", sans-serif;
+  color: $primary-color;
+  font-size: rem-calc(14);
+  font-weight: 700;
+  letter-spacing: rem-calc(2.19);
+  text-transform: uppercase;
+}
+
+

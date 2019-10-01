@@ -1,0 +1,17 @@
+main{
+  width: 100%;
+
+  a {
+    color: $anchor-color!important;
+
+    &:visited {
+      color: $anchor-color!important;
+    }
+
+    &:hover {
+      color: $anchor-color-hover!important;
+    }
+  }
+}
+
+

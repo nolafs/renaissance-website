@@ -1,0 +1,126 @@
+// contact form
+#contact-form{
+  .form-cell{
+    margin-bottom: rem-calc(50);
+    input{
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px solid $form-color;
+      color: $white;
+      box-shadow: none;
+      @include breakpoint(small){
+        font-size: rem-calc(12);
+      }
+      @include breakpoint(large){
+        font-size: rem-calc(16);
+      }
+      &::placeholder{
+        color: $form-color;
+      }
+      &:focus{
+        border-color: $white;
+        color: $white;
+        &::placeholder{
+          color: $white;
+        }
+      }
+    }
+    textarea{
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px solid $form-color;
+      color: $white;
+      box-shadow: none;
+      width:100%!important;
+      @include breakpoint(small){
+        font-size: rem-calc(12);
+      }
+      @include breakpoint(large){
+        font-size: rem-calc(16);
+      }
+      &::placeholder{
+        color: $form-color;
+      }
+      &:focus{
+
+      }
+    }
+  }
+  .form-cell-textarea{
+    position: relative;
+    textarea{
+      height:217px;
+      border: none;
+
+    }
+    &:before{
+      display: block;
+      content:"";
+      position: absolute;
+      top:39px;
+      height:1px;
+      width:100%;
+      background-color: $form-color;
+      transition: all 0.25s ease;
+    }
+    &.form-cell-sel{
+      &:before{
+        top:100%;
+        //background-color: red;
+      }
+    }
+  }
+  .form-cell-check{
+    label {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      padding-left: 50px;
+      margin-right: 10px;
+      color: $white;
+      @include breakpoint(small){
+        font-size: rem-calc(12);
+      }
+      @include breakpoint(large){
+        font-size: rem-calc(18);
+      }
+      &:before{
+        content: "";
+        width: 34px;
+        height: 34px;
+        position: absolute;
+        top:0;
+        left: 0;
+        background: url('/images/checkbox.png') left center no-repeat;
+      }
+    }
+
+    input[type=checkbox] {
+      display: none;
+    }
+
+    input[type=checkbox]:checked + label:before {
+      background: url('/images/checkbox-checked.png') left center no-repeat;
+    }
+  }
+  .form-button-container{
+    a,p{
+      color: $white;
+      margin-bottom: 0;
+      @include breakpoint(small){
+        font-size: rem-calc(11);
+      }
+      @include breakpoint(medium){
+        font-size: rem-calc(18);
+      }
+    }
+    p{
+      @include breakpoint(large){
+        margin-left: rem-calc(20);
+      }
+    }
+    a{
+      color: $primary-color;
+    }
+  }
+}

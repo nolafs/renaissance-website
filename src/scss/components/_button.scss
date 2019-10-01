@@ -1,0 +1,333 @@
+#content-panel {
+  .button {
+    position: relative;
+    display: inline-block;
+    border: 2px solid $primary-color;
+    letter-spacing: rem-calc(2.19);
+    text-transform: uppercase;
+    color: $white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 250ms ease;
+    text-decoration: none;
+
+    &:hover {
+      background-color: white;
+      color: $primary-color!important;;
+    }
+
+    &:visited {
+      color: $white;
+    }
+
+    &.sweep-to-left {
+      transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+      border: 2px solid $primary-color;
+
+      &:before {
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 0px;
+        z-index: -1;
+        content: '';
+        color: $white !important;
+        background: $primary-color;
+        transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+      }
+
+      &:hover {
+        color: $primary-color;
+        background-color: transparent;
+
+        &:before {
+          right: 0%;
+          left: auto;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+// social buttons
+
+.social {
+  text-align: center;
+  ul {
+    margin: rem-calc(10) 0;
+    text-align: center;
+    display: inline-block;
+    li {
+      width: 100%;
+      max-width: 40px;
+      text-align: center;
+      display: inline-block;
+      margin: rem-calc(5) rem-calc(8);
+      a img {
+        display: block;
+        transition: all 250ms ease;
+      }
+      a {
+        position: relative;
+        border: 2px solid $primary-color;
+        border-radius: 50%;
+        display: block;
+        width: 40px;
+        height: 40px;
+        &:hover {
+          transform: scale(0.9);
+          transition: all 250ms ease;
+          img {
+            transform: translateY(-50%) scale(0.9);
+            transition: all 150ms ease;
+          }
+        }
+        img {
+          @include vertical-center;
+          left: 0;
+          right: 0;
+          margin: 0 auto;
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
+}
+
+// social icon contact
+
+.social-icon{
+  background-color: $white;
+  transition: all 0.25s ease;
+  @include breakpoint(small){
+    margin-bottom: rem-calc(12);
+  }
+  @include breakpoint(medium){
+    margin-bottom: rem-calc(16);
+  }
+  @include breakpoint(large){
+    margin-bottom: rem-calc(10);
+  }
+  .icon{
+    position: relative;
+    text-align: center;
+    color: $white;
+    @include breakpoint(small){
+      width:80px;
+    }
+    @include breakpoint(medium){
+      width: auto;
+    }
+    i{
+      @include vertical-center();
+      left:0;
+      right:0;
+      margin: 0 auto;
+      @include breakpoint(small){
+        font-size: rem-calc(20);
+      }
+      @include breakpoint(medium){
+        font-size: rem-calc(20);
+      }
+    }
+    &.icon-small{
+      width:50px;
+      height:50px;
+    }
+    &.icon-large{
+      width:100px;
+      height:100px;
+    }
+
+  }
+  .icon-text{
+    position: relative;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: $black;
+    @include breakpoint(small){
+      padding: rem-calc(10) rem-calc(16);
+      font-size: rem-calc(12);
+    }
+    @include breakpoint(medium){
+      padding: rem-calc(10) rem-calc(16);
+      font-size: rem-calc(14);
+    }
+    i{
+      @include vertical-center();
+      font-weight: bold;
+      right:16px;
+      font-size: rem-calc(20);
+    }
+  }
+  &.facebook{
+    .icon{
+      background-color: $sc-facebook;
+    }
+    &:hover{
+      background-color: $sc-facebook;
+      .icon-text{
+        color: $white;
+      }
+    }
+  }
+  &.twitter{
+    .icon{
+      background-color: $sc-twitter;
+    }
+    &:hover{
+      background-color: $sc-twitter;
+      .icon-text{
+        color: $white;
+      }
+    }
+  }
+  &.linkedin{
+    .icon{
+      background-color: $sc-linkedin
+    }
+    &:hover{
+      background-color: $sc-linkedin;
+      .icon-text{
+        color: $white;
+      }
+    }
+  }
+  &.instagram{
+    .icon{
+      background-color: $sc-instagram
+    }
+    &:hover{
+      background-color: $sc-instagram;
+      .icon-text{
+        color: $white;
+      }
+    }
+  }
+  &.vimeo{
+    .icon{
+      background-color: $sc-vimeo
+    }
+    &:hover{
+      background-color: $sc-vimeo;
+      .icon-text{
+        color: $white;
+      }
+    }
+  }
+  &.youtube{
+    .icon{
+      background-color: $sc-youtube
+    }
+    &:hover{
+      background-color: $sc-youtube;
+      .icon-text{
+        color: $white;
+      }
+    }
+  }
+}
+
+// social block icon
+
+.social-block{
+  position: relative;
+  overflow: hidden;
+  background-color: $primary-color;
+  transition: background-color 0.25s ease;
+  .icon,.icon-text{
+    position: absolute;
+    color: $white;
+    @include breakpoint(small){
+      left:5vw;
+    }
+    @include breakpoint(medium){
+      left:20px;
+    }
+  }
+  .icon{
+    @include breakpoint(small){
+      top:5vw;
+      font-size: rem-calc(24);
+    }
+    @include breakpoint(medium){
+      top:20px;
+      font-size: rem-calc(50);
+    }
+  }
+  .icon-text{
+    font-weight: bold;
+    text-transform: capitalize;
+    color: $white;
+    @include breakpoint(small){
+      bottom:5vw;
+      font-size: 3vw;
+    }
+    @include breakpoint(medium){
+      bottom:20px;
+      font-size: rem-calc(18);
+    }
+  }
+  &:hover{
+    background-color: $secondary-color;
+    .icon-text{
+      color: $white;
+    }
+  }
+  /*
+  &.facebook{
+    &:hover{
+      background-color: $sc-facebook;
+      .icon-text{
+        color: $white;
+      }
+    }
+  }
+  &.twitter{
+    &:hover{
+      background-color: $sc-twitter;
+      .icon-text{
+        color: $white;
+      }
+    }
+  }
+  &.linkedin{
+    &:hover{
+      background-color: $sc-linkedin;
+      .icon-text{
+        color: $white;
+      }
+    }
+  }
+  &.instagram{
+    &:hover{
+      background-color: $sc-instagram;
+      .icon-text{
+        color: $white;
+      }
+    }
+  }
+  &.vimeo{
+    &:hover{
+      background-color: $sc-vimeo;
+      .icon-text{
+        color: $white;
+      }
+    }
+  }
+  &.youtube{
+    &:hover{
+      background-color: $sc-youtube;
+      .icon-text{
+        color: $white;
+      }
+    }
+  }
+  */
+
+}
+

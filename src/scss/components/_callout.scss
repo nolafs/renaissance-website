@@ -1,0 +1,28 @@
+.callout{
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  font-weight: 700;
+
+  h5{
+    text-align: center;
+    font-size: rem-calc(20);
+    color: $primary-color;
+    padding-top: rem-calc(20);
+    margin-bottom: rem-calc(20);
+  }
+
+  &.primary, &.success, &.warning {
+    h5 {
+      color: $white;
+    }
+  }
+
+  &.secondary{
+    color: $white;
+  }
+
+  &.alert {
+    color: $white;
+  }
+}
