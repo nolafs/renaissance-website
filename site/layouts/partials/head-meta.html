@@ -1,0 +1,36 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2" />
+{{ "<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->" | safeHTML }}
+
+<meta http-equiv="X-UA-TextLayoutMetrics" content="gdi" />
+
+{{ if .Description }}
+<meta name="description" content="{{ .Description }}">
+{{ else if .IsPage }}
+<meta name="description" content="{{ .Summary | plainify }}">
+{{ else }}
+<meta name="description" content="{{ .Site.Params.description }}">
+{{ end }}
+
+{{ template "_internal/opengraph.html" . }}
+
+
+{{ if .Site.Params.og_image }}
+<meta property="og:image" content="{{ .Site.Params.og_image | absURL }}"/>
+<meta property="og:image:secure_url" content="{{ .Site.Params.og_image | absURL }}"/>
+{{ end }}
+
+{{ template "_internal/schema.html" . }}
+{{ template "_internal/twitter_cards.html" . }}
+
+{{ if .Site.Params.google_verify_meta }}
+<meta name="google-site-verification" content="{{ .Site.Params.google_verify_meta }}" />
+{{ end }}
+{{ if .Site.Params.bing_verify_meta }}
+<meta name="msvalidate.01" content="{{ .Site.Params.bing_verify_meta }}" />
+{{ end }}
+{{ if .Site.Params.yandex_verify_meta }}
+<meta name="yandex-verification" content="{{ .Site.Params.yandex_verify_meta }}" />
+{{ end }}
+
+{{ .Hugo.Generator }}

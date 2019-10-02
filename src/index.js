@@ -5,7 +5,7 @@ import "./scss/app.scss";
  =========================================================================== */
 import $ from 'jquery';
 
-import Foundation from 'foundation-sites';
+import Foundation from 'foundation-sites/dist/js/foundation';
 // import Rellax from 'rellax/rellax.min';
 // import 'slick-carousel/slick/slick';
 // import "magnific-popup";
@@ -20,10 +20,10 @@ import Foundation from 'foundation-sites';
 Foundation.addToJquery($);
 
 /* Foundation Imports */
-// import 'foundation-sites/js/foundation.core';
+import 'foundation-sites/dist/js/plugins/foundation.core';
 // import 'foundation-sites/js/foundation.util.keyboard';
 // import 'foundation-sites/js/foundation.accordion';
-import 'foundation-sites/js/foundation.sticky';
+//import 'foundation-sites/js/foundation.sticky';
 // import 'foundation-sites/js/foundation.util.mediaQuery';
 // import 'foundation-sites/js/foundation.offcanvas.js';
 // import 'foundation-sites/js/foundation.responsiveMenu';
