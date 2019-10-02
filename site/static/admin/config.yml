@@ -6,3 +6,14 @@ backend:
   app_id: RRwCMU8zeRhZZbEueg
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+
+collections:
+  - name: "pages"
+      label: "Pages"
+      files:
+        - file: "site/content/_index.md"
+          label: "Home Page"
+          name: "home"
+          fields:
+            - {label: Title, name: title, widget: string}
+            - {label: "Body", name: "body", widget: "markdown"}
