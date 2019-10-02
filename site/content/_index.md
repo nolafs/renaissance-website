@@ -1,8 +1,11 @@
 ---
-title: "home page"
+title: home page
 ---
+[Victor Hugo](https://github.com/netlify-templates/victor-hugo)
 
-# [Victor Hugo](https://github.com/netlify-templates/victor-hugo)
+
+
+test his now
 
 ## A Hugo boilerplate for creating truly epic websites
 
