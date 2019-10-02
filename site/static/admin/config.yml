@@ -9,11 +9,11 @@ public_folder: "/images/uploads" # The src attribute for uploaded media will beg
 
 collections:
   - name: "pages"
-      label: "Pages"
-      files:
-        - file: "site/content/_index.md"
-          label: "Home Page"
-          name: "home"
-          fields:
-            - {label: Title, name: title, widget: string}
-            - {label: "Body", name: "body", widget: "markdown"}
+    label: "Pages"
+    files:
+      - file: "site/content/_index.md"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: "Body", name: "body", widget: "markdown"}
