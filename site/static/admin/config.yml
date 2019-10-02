@@ -1,6 +1,6 @@
 backend:
-  name: bitbucket
-  repo: biffnewmedia/renaissance-website
+  name: github
+  repo: nolafs/renaissance-website
   branch: default
   auth_type: implicit
   app_id: GQ9pga9R8h8PysuLDJ
