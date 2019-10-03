@@ -26,13 +26,22 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Hero Image, name: hero_image, widget: image}
           - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Our Clients", name: blurb, widget: object, fields: [
+          - {label: "Services Section", name: services, widget: object, fields: [
+            {label: "Heading", name: "heading", widget: string},
+            {label: "Text", name: "text", widget: "text"},
+            {label: "Subheader", name: "subheader", widget: "text"},
+            {label: "Services List", name: "services_list", widget: "list", fields: [
+            {label: "Title" , name: "title" , widget: string},
+            {label: "text" , name: "text" , widget: string},
+            {label: "Icon" , name: "icon" , widget: image},
+          ]}
+          - {label: "Clients Section", name: clients, widget: object, fields: [
              {label: "Heading", name: "heading", widget: string},
              {label: "Text", name: "text", widget: "text"},
              {label: "Clients", name: "clients", widget: "list", fields: [
-             {label: "Name" , name: "Company" , widget: string},
-             {label: "Ling" , name: "Company Url" , widget: string},
-             {label: "Logo" , name: "Company Logo" , widget: image},
+             {label: "Name" , name: "company" , widget: string},
+             {label: "Ling" , name: "company_url" , widget: string},
+             {label: "Logo" , name: "company_logo" , widget: image},
              ]}
           ]}
       - file: "site/content/about/_index.md"
