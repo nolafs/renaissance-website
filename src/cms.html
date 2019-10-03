@@ -11,11 +11,5 @@
 </head>
 <body>
 <script src="<%= htmlWebpackPlugin.files.chunks.cms.entry %>"></script>
-
-{{ $stylesheet := .Site.Data.webpack.main }}
-{{ with $stylesheet.css }}
-<link href="{{ relURL . }}" rel="stylesheet">
-{{ end }}
-
 </body>
 </html>
