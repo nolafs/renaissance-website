@@ -25,6 +25,18 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: "Body", name: "body", widget: "markdown"}
+      - file: "site/content/about/_index.md"
+        label: "About Page"
+        name: "about"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "site/content/services/_index.md"
+        label: "Services Page"
+        name: "services"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: "Body", name: "body", widget: "markdown"}
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
@@ -42,3 +54,15 @@ collections:
               - label: Text
                 name: text
                 widget: text
+      - file: "site/content/privacy/_index.md"
+        label: "Privacy Page"
+        name: "privacy"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "site/content/terms_conditions/_index.md"
+        label: "Terms & Conditions Page"
+        name: "terms_conditions"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: "Body", name: "body", widget: "markdown"}
