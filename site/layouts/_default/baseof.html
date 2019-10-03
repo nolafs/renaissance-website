@@ -2,11 +2,14 @@
 
   {{ block "header" . }}{{ partial "header" . }}{{end}}
 
+  {{ block "navigation" . }}{{ partial "navigation" . }}{{end}}
+
   <main>
     <div class="grid-container full">
         {{ block "main" . }}{{end}}
     </div>
   </main>
+
   {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 
   {{ block "foot" . }}{{ partial "foot" . }}{{end}}

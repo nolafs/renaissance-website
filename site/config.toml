@@ -3,7 +3,59 @@ languageCode = "en-us"
 languageLang = "en"
 title = "Renaissance PR"
 
+# Google
+#
+googleAnalytics = "UA-3653156-1"
+#google_verify_meta = "//BAi57DROASu4b2mkVNA_EyUsobfA7Mq8BmSg7Rn-Zp9"
+
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details:
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+# site custom main menu
+[menu]
+    [[menu.navbar]]
+        identifier = "services"
+        name = "Services"
+        url = "/services"
+        weight = 1
+    [[menu.navbar]]
+        identifier = "case_studies"
+        name = "Case Studies"
+        url = "/solutions"
+        weight = 2
+    [[menu.navbar]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+        weight = 3
+    [[menu.navbar]]
+        identifier = "contact"
+        name = "Contact"
+        url = "/contact"
+        weight = 4
+
+# Privacy
+
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    anonymizeIP = false
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = false
+    simple = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = false
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = false

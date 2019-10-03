@@ -215,4 +215,43 @@ figcaption {
   text-transform: uppercase;
 }
 
+// OVERLAY
+
+// overlay
+.overlay,.overlay-primary,.overlay-secondary,.overlay-white{
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  &:before{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: $black;
+    opacity: .6;
+    z-index: 1;
+  }
+  &.overlay-primary{
+    &:before{
+      background: $primary-color;
+    }
+  }
+  &.overlay-secondary{
+    &:before{
+      background: $secondary-color;
+    }
+  }
+  &.overlay-white{
+    &:before{
+      background: $white;
+    }
+  }
+  .grid-container{
+    position: relative;
+    z-index: 1;
+  }
+}
+
 

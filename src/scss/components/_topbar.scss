@@ -1,0 +1,200 @@
+.sticky-container{
+  position:fixed;
+  width:100%;
+  z-index:999;
+}
+
+.hide-on-load{
+  display:none;
+}
+
+.top-bar{
+
+  .top-bar-left{
+    @include breakpoint(small){
+      display: none;
+    }
+    @include breakpoint(medium){
+      display: block;
+    }
+  }
+
+
+
+  .top-bar-right{
+    @include breakpoint(small){
+      position: fixed;
+      top:0;
+      left:0;
+      width:100%;
+      height:100vh;
+      background-color: $white;
+      text-align: center;
+    }
+    @include breakpoint(medium){
+      position: relative;
+      background-color: transparent;
+      top:initial;
+      left:initial;
+      width:auto;
+      height:auto;
+    }
+  }
+
+  .menu{
+    background-color: transparent;
+
+    li{
+      @include breakpoint(small){
+        width:100%;
+        display: block;
+      }
+      @include breakpoint(medium){
+        width:auto;
+      }
+
+      &.active{
+        a{
+          color: $black;
+        }
+      }
+      .dropdown.menu > li.opens-left > .is-dropdown-submenu{
+        right:auto!important;
+        left:0!important;
+      }
+      .submenu{
+        background: $black;
+        color:white;
+        text-align: left;
+        a{
+          color: white!important;
+        }
+      }
+    }
+  }
+  .menu-logo{
+    opacity: 1;
+    max-width:200px;
+    transition: 0.5s opacity ease-in-out;
+    transition-delay: 0.5s;
+  }
+
+  &.sticky{
+    &:not(.is-stuck){
+      padding: rem-calc(40) 0.5rem;
+      background-color: transparent;
+      transition: 0.5s all ease-in-out;
+
+      .menu{
+        color:$black;
+        a{
+          @include breakpoint(small){
+            color: $primary-color;
+          }
+          @include breakpoint(medium){
+            color:$black;
+          }
+        }
+        &.active{
+          a{
+            color:$black;
+          }
+        }
+      }
+
+    }
+    &.is-stuck{
+      color:$primary-color;
+      padding: 0.5rem;
+      background-color: white;
+      transition: 0.5s all ease-in-out;
+    }
+  }
+
+
+}
+
+body.default{
+  .logo-default{
+    display:none;
+  }
+  .top-bar {
+    .menu-logo{
+      opacity: 1;
+      max-width:200px;
+      transition: 0.5s opacity ease-in-out;
+      transition-delay: 0.5s;
+    }
+    &.sticky {
+      &:not(.is-stuck) {
+        .menu-logo{
+          opacity: 0;
+          transition: 0.5s all ease-in-out;
+        }
+      }
+    }
+  }
+}
+
+body:not(.default){
+  .top-bar {
+    &.sticky {
+      &:not(.is-stuck) {
+        .logo-main {
+          display: none;
+          opacity: 0;
+        }
+        .logo-default {
+          display: block;
+        }
+        .menu-logo {
+          .logo-default {
+            opacity: 1;
+            transition: 0.5s all ease-in-out;
+            transition-delay: 0.5s;
+          }
+        }
+      }
+    }
+    &.is-stuck {
+      .logo-main {
+        display: block;
+        opacity: 1;
+        transition: 0.5s all ease-in-out;
+        transition-delay: 0.5s;
+      }
+      .logo-default {
+        display: none;
+        opacity: 0;
+
+      }
+    }
+  }
+}
+
+#languages{
+  margin-left: 30px;
+  margin-right: 20px;
+  font-size: rem-calc(12);
+
+  a{
+    display: inline-block;
+    padding: rem-calc(14) rem-calc(3)
+  }
+}
+
+.top-bar-small{
+  position:fixed;
+  width:100%;
+  z-index: 100;
+  .logo-main > img{
+    max-width: rem-calc(180);
+  }
+
+}
+
+.off-canvas{
+  ul.sub{
+    padding-left: rem-calc(20);
+  }
+}

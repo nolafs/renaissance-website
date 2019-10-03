@@ -38,4 +38,8 @@
     {{ partial "google-analytics-script.html" . }}
 
 </head>
-<body>
+<body class="default" data-animation="true">
+{{ partial "old-browser.html" . }}
+<div class="off-canvas-wrapper">
+    <div class="off-canvas-content" data-off-canvas-content>
+

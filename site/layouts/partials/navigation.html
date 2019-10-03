@@ -1,0 +1,90 @@
+{{ "<!-- navigation - button -->" | safeHTML }}
+<div class="loading">
+    <div class="holder">
+        <div class="loader">Loading...</div>
+    </div>
+</div>
+
+<header class="nav">
+    <div data-sticky-container>
+        <div class="top-bar-small title-bar hide-on-load"  data-responsive-toggle="responsive-menu" data-hide-for="medium">
+            <div class="grid-x grid-margin-x">
+                <div class="auto cell">
+                    {{if .Site.Params.logo_images}}
+                    <a href="{{ .Site.BaseURL }}" rel="home" class="logo-main"><img src="{{ .Site.Params.logo_small}}" alt="{{ .Site.Title | safeHTML }}"></a>
+                    {{else}}
+                    <a href="{{ .Site.BaseURL | absLangURL }}">
+                        {{ .Site.Title | safeHTML }}
+                    </a>
+                    {{end}}
+                </div>
+                <div class="shrink cell align"><button class="menu-icon" type="button" data-toggle="offCanvas"></button></div>
+            </div>
+        </div>
+    </div>
+
+        <div class="top-bar sticky" id="responsive-menu" data-sticky data-options="marginTop:0;" data-top-anchor="1" >
+        <div class="top-bar-left">
+            <ul class="menu">
+                <li class="menu-logo">
+                    {{if .Site.Params.logo_images}}
+                    <a href="{{ .Site.BaseURL }}" rel="home" class="logo-main"><img src="{{ .Site.Params.logo_small}}" alt="{{ .Site.Title | safeHTML }}"></a>
+                    {{if .Site.Params.logo_small_invert}}
+                    <a href="{{ .Site.BaseURL }}" rel="home" class="logo-default"><img src="{{ .Site.Params.logo_small_invert}}" alt="{{ .Site.Title | safeHTML }}"></a>
+                    {{end}}
+                    {{else}}
+                    <a href="{{ .Site.BaseURL | absLangURL }}">
+                        {{ .Site.Title | safeHTML }}
+                    </a>
+                    {{end}}
+                </li>
+            </ul>
+        </div>
+
+        <div class="top-bar-right">
+            <ul class="dropdown menu" data-dropdown-menu>
+                {{ if not (.Site.Params.custom_navbar) }}
+                <li class="{{ if .IsHome }}active{{ end }}"><a href="{{ .Site.BaseURL | absLangURL }}">
+                    {{ i18n "home" }} </a>
+                    {{ if .Site.Menus.home}}
+                    <ul class="menu submenu" data-smooth-scroll>
+                        {{ range .Site.Menus.home }}
+                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                        {{end}}
+                    </ul>
+                    {{ end}}
+                </li>
+                {{ end }}
+                {{ if .Site.Params.custom_navbar }}
+                {{ range .Site.Menus.navbar }}
+
+                <li >
+                    <a href="{{.URL}}">
+                        {{ .Name }}
+                    </a>
+                </li>
+                {{ end }}
+                {{ else }}
+                {{ range where .Site.Pages "Type" "!=" "post" }}
+                <li><a href="{{ .Permalink }}">
+                    {{ .Title }} test
+                </a></li>
+                {{ end }}
+                {{ end }}
+                {{ if .IsTranslated }}
+                    <li>
+                        <div id="languages">
+
+                            {{ range $i, $e := .Translations }}
+                            {{ if $i }}|{{ end }}<a href="{{ .Permalink }}">{{ $e.Language.LanguageName }}</a>
+                            {{ end}}
+
+                        </div>
+                    </li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+    </div>
+</header>
+{{ "<!-- /navigation - button -->" | safeHTML }}
