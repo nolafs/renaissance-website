@@ -25,6 +25,16 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: "Body", name: "body", widget: "markdown"}
+          - label: Clients
+            name: clients_entries
+            widget: list
+            fields:
+              - label: Name
+                name: name
+                widget: string
+              - label: Logo
+                name: logo
+                widget: image
       - file: "site/content/about/_index.md"
         label: "About Page"
         name: "about"
