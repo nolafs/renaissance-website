@@ -1,5 +1,12 @@
 <head>
     <meta charset="utf-8">
+
+    {{ "<!-- CSS -->" | safeHTML }}
+    {{ $stylesheet := .Site.Data.webpack.main }}
+    {{ with $stylesheet.css }}
+    <link href="{{ relURL . }}" rel="stylesheet">
+    {{ end }}
+    
     {{ "<!-- META -->" | safeHTML }}
     {{ partial "head-meta.html" . }}
 
@@ -13,11 +20,7 @@
     {{ partial "favicons.html" . }}
 
 
-    {{ "<!-- CSS -->" | safeHTML }}
-    {{ $stylesheet := .Site.Data.webpack.main }}
-    {{ with $stylesheet.css }}
-    <link href="{{ relURL . }}" rel="stylesheet">
-    {{ end }}
+
 
     {{ if .RSSLink }}
     {{ "<!-- RSS 2.0 feed -->" | safeHTML }}
