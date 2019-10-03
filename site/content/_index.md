@@ -1,18 +1,33 @@
 ---
 title: home page
+hero_image: /images/uploads/hero.jpg
+services:
+  heading: >-
+    Creating the best conditions for your project, product or corporate
+    activities to succeed through strategic media planning.
+  subheader: Core Services
+  text: >-
+    Creating the best conditions for your project, product or corporate
+    activities to succeed through strategic media planning.
+clients:
+  heading: Our Clients
+  text: >-
+    Since our inception in 2015 we are proud to have worked with a variety of
+    clients, many of whom are still valued partners today.
+testimonial:
+  name: Steve Folwell
+  position: CEO of GREEN MAN GAMING
+  profile: /images/uploads/83431551-funny-chihuahua-dog-in-superman-costume.jpg
+  text: >-
+    "It was so easy working with Stefano and the Renaissance team. They really
+    seek to understand your specific objectives, listen to users and provide
+    early challenge. They are brilliant and thoughtful collaborators."
+contact:
+  heading: Got a project? Let’s work together!
+  text: >-
+    Since our inception in 2015 we are proud to have worked with a variety of
+    clients, many of whom are still valued partners today.
 ---
-[Victor Hugo](https://github.com/netlify-templates/victor-hugo)
+## Ethical Communications for Indie Developers & Ethical Communications for
 
-
-
-test his now
-
-## A Hugo boilerplate for creating truly epic websites
-
-<img src="https://d33wubrfki0l68.cloudfront.net/30790d6888bd8af863fb2b5c33a7f337cdbda243/4e867/images/hugo-logo-wide.svg" style="width: 40%" />
-
-This is a boilerplate for using [Hugo](https://gohugo.io/) as a static site generator and [Webpack](https://webpack.js.org/) as your asset pipeline. Victor Hugo setup to use [PostCSS](http://postcss.org/) and [Babel](https://babeljs.io/) for CSS and JavaScript compiling/transpiling. This project is released under the [MIT license](LICENSE). Please make sure you understand its implications and guarantees.
-
-## Enjoy!! 😸
-
-MAKE IT WORK
+Creating the best conditions for your project, product or corporate activities to succeed through strategic media planning.
