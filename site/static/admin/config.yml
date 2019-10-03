@@ -20,36 +20,34 @@ collections:
     label: "Pages"
     files:
       - file: "site/content/_index.md"
-        label: "Home Page"
-        name: "home"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "site/content/services.md"
+      - file: "site/content/services/_index.md"
         label: "Services Page"
         name: "services"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "site/content/about.md"
+      - file: "site/content/about/_index.md"
         label: "About Page"
         name: "about"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "site/content/contact.md"
+      - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "site/content/privacy.md"
+      - file: "site/content/privacy/_index.md"
         label: "Privacy Page"
         name: "privacy"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "site/content/terms_conditions.md"
+      - file: "site/content/terms_conditions/_index.md"
         label: "Terms & Conditions Page"
         name: "terms_conditions"
         fields:
