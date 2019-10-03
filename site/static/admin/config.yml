@@ -20,6 +20,8 @@ collections:
     label: "Pages"
     files:
       - file: "site/content/_index.md"
+        label: "Home Page"
+        name: "home"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: "Body", name: "body", widget: "markdown"}
