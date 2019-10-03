@@ -2,15 +2,14 @@
 {{ "<!-- hero header -->" | safeHTML }}
 <div class="hero-header container">
     <div class="hero-header-inner">
-        <div class="grid-x contentWrapper rellax" data-rellax-speed="-3">
-            {{if not .events.hideherotitle }}
-            <div class="cell">
-                {{ if .title }} <h1 class="m-b-50 content-title-animate" data-aos="fade-up" data-aos-delay="1000">{{ .title | safeHTML }}</h1> {{ end }}
+        <div class="grid-x contentWrapper rellax align-middle" data-rellax-speed="-3">
+
+            <div class="cell small-12 medium-8">
                 {{ if .body }}
-                    <h5 class="content-subtitle-animate"> {{ .body | markdownify }}</h5>
+                    <span class="content-subtitle-animate"> {{ .body | markdownify }}</span>
                 {{ end }}
             </div>
-            {{ end }}
+
         </div>
     </div>
     <div class="imageWrapper">

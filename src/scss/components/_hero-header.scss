@@ -4,10 +4,12 @@
   overflow: hidden;
 
   .hero-header-inner{
-    position: relative;
     max-width: $global-width;
     margin: 0 auto;
-    //overflow: hidden;
+    color: $white;
+    h2{
+      color: $white;
+    }
   }
 
   .hero-logo{
@@ -42,34 +44,6 @@
 
     .grid-container{
       width:100%;
-    }
-
-    .cell{
-      // max-width:580px;
-      h1{
-        @include breakpoint(small){
-          font-size: rem-calc(32);
-        }
-        @include breakpoint(medium){
-          font-size: rem-calc(54);
-        }
-        @include breakpoint(large){
-          font-size: rem-calc(76);
-        }
-      }
-      h3{
-        padding-top: rem-calc(20);
-        text-shadow: -1px 2px 3px rgba(0, 0, 0, 0.48);
-        @include breakpoint(small){
-          padding: rem-calc(16);
-        }
-        @include breakpoint(large){
-
-        }
-      }
-      h5{
-        font-weight: normal;
-      }
     }
   }
   .imageWrapper{
