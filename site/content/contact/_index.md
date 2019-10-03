@@ -1,6 +1,5 @@
 ---
-title: "Contact"
-date: 2019-10-03T08:54:35+01:00
-draft: true
+title: Contact
+logo: /images/uploads/image_2019_10_03t08_50_39_407z.png
 ---
-
+adaadadadadadad
