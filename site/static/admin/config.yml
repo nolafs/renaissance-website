@@ -3,14 +3,55 @@ backend:
   repo: nolafs/renaissance-website
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+publish_mode: editorial_workflow
 
 collections:
+  - name: "case-studies" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Case Studies" # Used in the UI, ie.: "New Post"
+    folder: "site/content/case-studies" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Intro Blurb", name: "description", widget: "text"}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages"
     label: "Pages"
     files:
       - file: "site/content/_index.md"
         label: "Home Page"
         name: "home"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "site/content/services.md"
+        label: "Services Page"
+        name: "services"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "site/content/about.md"
+        label: "About Page"
+        name: "about"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "site/content/contact.md"
+        label: "Contact Page"
+        name: "contact"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "site/content/privacy.md"
+        label: "Privacy Page"
+        name: "privacy"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "site/content/terms_conditions.md"
+        label: "Terms & Conditions Page"
+        name: "terms_conditions"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: "Body", name: "body", widget: "markdown"}
