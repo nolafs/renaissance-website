@@ -1,4 +1,4 @@
 ---
-title: Terms_conditions
+title: Terms and Contitions
 ---
 Test this
