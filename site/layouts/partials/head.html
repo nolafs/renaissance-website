@@ -5,7 +5,8 @@
     {{ "<!-- META -->" | safeHTML }}
     {{ partial "head-meta.html" . }}
 
-    <base href="{{ .Site.BaseURL }}">
+    <base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
+
     <link rel="canonical" href="{{ .Permalink }}">
     <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
 
