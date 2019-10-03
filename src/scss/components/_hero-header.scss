@@ -1,0 +1,117 @@
+.hero-header{
+
+  position:relative;
+  overflow: hidden;
+
+  .hero-header-inner{
+    position: relative;
+    max-width: $global-width;
+    margin: 0 auto;
+    //overflow: hidden;
+  }
+
+  .hero-logo{
+    @include vertical-center();
+    left:0;
+    right:0;
+    margin: 0 auto;
+    z-index: 2;
+    max-width: 60vw;
+  }
+
+  .contentWrapper{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    @include breakpoint(small) {
+      img{
+        max-width: 80px;
+      }
+    }
+    @include breakpoint(medium) {
+      img{
+        max-width: 120px;
+      }
+    }
+    @include breakpoint(large) {
+      img{
+        max-width: 100%;
+      }
+    }
+
+    .grid-container{
+      width:100%;
+    }
+
+    .cell{
+      // max-width:580px;
+      h1{
+        @include breakpoint(small){
+          font-size: rem-calc(32);
+        }
+        @include breakpoint(medium){
+          font-size: rem-calc(54);
+        }
+        @include breakpoint(large){
+          font-size: rem-calc(76);
+        }
+      }
+      h3{
+        padding-top: rem-calc(20);
+        text-shadow: -1px 2px 3px rgba(0, 0, 0, 0.48);
+        @include breakpoint(small){
+          padding: rem-calc(16);
+        }
+        @include breakpoint(large){
+
+        }
+      }
+      h5{
+        font-weight: normal;
+      }
+    }
+  }
+  .imageWrapper{
+    position:relative;
+    z-index: 1;
+    width:100%;
+    overflow: hidden;
+    > div {
+      position: absolute;
+      top:-10%;
+      left:0;
+      background-size: cover;
+      background-position: center;
+      background-color: $hero-header-bg-color;
+      width: 100%;
+      height: 120%;
+    }
+    img{
+      width:50%;
+    }
+
+    @include breakpoint(small) {
+      min-height: 480px;
+      .mobile{
+        display: block
+      }
+    }
+
+    @include breakpoint(medium) {
+      min-height: 640px;
+      .desktop{
+        display: block
+      }
+      .mobile{
+        display: none
+      }
+    }
+  }
+
+  &.full{
+    > .grid-x{
+      height: 100vh;
+    }
+  }
+}

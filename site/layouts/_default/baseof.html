@@ -1,4 +1,12 @@
-  {{ block "head" . }}{{ partial "head" . }}{{end}}
+<!doctype html>
+<html lang="{{ $.Site.Language.Lang }}">
+
+{{ block "head" . }}{{ partial "head" . }}{{end}}
+
+<body class="default" data-animation="true">
+{{ partial "old-browser.html" . }}
+<div class="off-canvas-wrapper">
+  <div class="off-canvas-content" data-off-canvas-content>
 
   {{ block "header" . }}{{ partial "header" . }}{{end}}
 
@@ -13,3 +21,7 @@
   {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 
   {{ block "foot" . }}{{ partial "foot" . }}{{end}}
+  </div>
+</div>
+</body>
+</html>
