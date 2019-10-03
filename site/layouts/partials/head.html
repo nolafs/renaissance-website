@@ -38,6 +38,10 @@
 
     {{ partial "google-analytics-script.html" . }}
 
+    {{ if .IsHome }}
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    {{ end }}
+
 </head>
 <body class="default" data-animation="true">
 {{ partial "old-browser.html" . }}
