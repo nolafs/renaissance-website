@@ -26,17 +26,15 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Hero Image, name: hero_image, widget: image}
           - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Our Clients", name: blurb, widget: object, fields: [{label: "Heading", name: "heading", widget: string},{label: "Text", name: "text", widget: "text"}]}
-          - label: Clients
-            name: clients_entries
-            widget: list
-            fields:
-              - label: Name
-                name: name
-                widget: string
-              - label: Logo
-                name: logo
-                widget: image
+          - {label: "Our Clients", name: blurb, widget: object, fields: [
+             {label: "Heading", name: "heading", widget: string},
+             {label: "Text", name: "text", widget: "text"}
+             {label: "Clients", name: "clients", widget: "list", fields: [
+             {label: "Name" , name: "Company" , widget: string},
+             {label: "Ling" , name: "Company Url" , widget: string},
+             {label: "Logo" , name: "Company Logo" , widget: image},
+             ]}
+          ]}
       - file: "site/content/about/_index.md"
         label: "About Page"
         name: "about"
