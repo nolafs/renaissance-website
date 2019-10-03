@@ -47,6 +47,16 @@ import 'foundation-sites/dist/js/plugins/foundation.tooltip';
 import 'foundation-sites/dist/js/plugins/foundation.util.imageLoader';
 
 
+if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", (user) => {
+        if (!user) {
+            window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+            });
+        }
+    });
+}
+
 $(document).foundation();
 // PAGE LOADING
 $( window ).on('load', function() {
@@ -59,3 +69,4 @@ $(document).ready(function () {
 
 
 });
+
