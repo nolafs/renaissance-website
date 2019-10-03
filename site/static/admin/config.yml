@@ -19,6 +19,10 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
+      - file: "site/content/_index.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: "Body", name: "body", widget: "markdown"}
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
