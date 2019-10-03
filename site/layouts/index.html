@@ -1,5 +1,8 @@
 {{ define "main" }}
+{{ block "hero_header" . }}
+    {{ partial "hero_header"  (dict "image" .Params.hero_image "title" .Title "body" .Content)}}
 
+{{end}}
 {{ .Content }}
 
 {{ end }}
