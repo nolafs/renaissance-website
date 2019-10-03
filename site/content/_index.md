@@ -2,9 +2,7 @@
 title: home page
 hero_image: /images/uploads/hero.jpg
 services:
-  heading: >-
-    Creating the best conditions for your project, product or corporate
-    activities to succeed through strategic media planning.
+  heading: How can we help your business?
   services_list:
     - icon: /images/uploads/image_2019_10_03t08_50_39_407z.png
       text: test
