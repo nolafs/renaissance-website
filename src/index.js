@@ -5,7 +5,7 @@ import "./scss/app.scss";
  =========================================================================== */
 import $ from 'jquery';
 
-import Foundation from 'foundation-sites/dist/js/foundation';
+import Foundation from 'foundation-sites/dist/js/foundation.min';
 // import Rellax from 'rellax/rellax.min';
 // import 'slick-carousel/slick/slick';
 // import "magnific-popup";
@@ -20,31 +20,31 @@ import Foundation from 'foundation-sites/dist/js/foundation';
 Foundation.addToJquery($);
 
 /* Foundation Imports */
-import 'foundation-sites/dist/js/plugins/foundation.core';
-import 'foundation-sites/dist/js/plugins/foundation.util.keyboard';
-import 'foundation-sites/dist/js/plugins/foundation.accordion';
-import 'foundation-sites/dist/js/plugins/foundation.sticky';
-import 'foundation-sites/dist/js/plugins/foundation.util.mediaQuery';
-import 'foundation-sites/dist/js/plugins/foundation.offcanvas.js';
-import 'foundation-sites/dist/js/plugins/foundation.responsiveMenu';
-import 'foundation-sites/dist/js/plugins/foundation.util.triggers';
-import 'foundation-sites/dist/js/plugins/foundation.util.box';
-import 'foundation-sites/dist/js/plugins/foundation.util.nest';
-import 'foundation-sites/dist/js/plugins/foundation.abide';
-import 'foundation-sites/dist/js/plugins/foundation.util.motion';
-import 'foundation-sites/dist/js/plugins/foundation.toggler';
-import 'foundation-sites/dist/js/plugins/foundation.drilldown';
-import 'foundation-sites/dist/js/plugins/foundation.equalizer';
-import 'foundation-sites/dist/js/plugins/foundation.responsiveAccordionTabs';
-import 'foundation-sites/dist/js/plugins/foundation.smoothScroll';
-import 'foundation-sites/dist/js/plugins/foundation.dropdown';
-import 'foundation-sites/dist/js/plugins/foundation.interchange';
-import 'foundation-sites/dist/js/plugins/foundation.magellan';
-import 'foundation-sites/dist/js/plugins/foundation.responsiveToggle';
-import 'foundation-sites/dist/js/plugins/foundation.reveal';
-import 'foundation-sites/dist/js/plugins/foundation.tabs';
-import 'foundation-sites/dist/js/plugins/foundation.tooltip';
-import 'foundation-sites/dist/js/plugins/foundation.util.imageLoader';
+import 'foundation-sites/dist/js/plugins/foundation.core.min';
+import 'foundation-sites/dist/js/plugins/foundation.util.keyboard.min';
+import 'foundation-sites/dist/js/plugins/foundation.accordion.min';
+import 'foundation-sites/dist/js/plugins/foundation.sticky.min';
+import 'foundation-sites/dist/js/plugins/foundation.util.mediaQuery.min';
+import 'foundation-sites/dist/js/plugins/foundation.offcanvas.min';
+import 'foundation-sites/dist/js/plugins/foundation.responsiveMenu.min';
+import 'foundation-sites/dist/js/plugins/foundation.util.triggers.min';
+import 'foundation-sites/dist/js/plugins/foundation.util.box.min';
+import 'foundation-sites/dist/js/plugins/foundation.util.nest.min';
+import 'foundation-sites/dist/js/plugins/foundation.abide.min';
+import 'foundation-sites/dist/js/plugins/foundation.util.motion.min';
+import 'foundation-sites/dist/js/plugins/foundation.toggler.min';
+import 'foundation-sites/dist/js/plugins/foundation.drilldown.min';
+import 'foundation-sites/dist/js/plugins/foundation.equalizer.min';
+import 'foundation-sites/dist/js/plugins/foundation.responsiveAccordionTabs.min';
+import 'foundation-sites/dist/js/plugins/foundation.smoothScroll.min';
+import 'foundation-sites/dist/js/plugins/foundation.dropdown.min';
+import 'foundation-sites/dist/js/plugins/foundation.interchange.min';
+import 'foundation-sites/dist/js/plugins/foundation.magellan.min';
+import 'foundation-sites/dist/js/plugins/foundation.responsiveToggle.min';
+import 'foundation-sites/dist/js/plugins/foundation.reveal.min';
+import 'foundation-sites/dist/js/plugins/foundation.tabs.min';
+import 'foundation-sites/dist/js/plugins/foundation.tooltip.min';
+import 'foundation-sites/dist/js/plugins/foundation.util.imageLoader.min';
 
 
 if (window.netlifyIdentity) {

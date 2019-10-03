@@ -3,6 +3,7 @@ languageCode = "en-us"
 languageLang = "en"
 title = "Renaissance PR"
 
+
 # Google
 #
 googleAnalytics = "UA-3653156-1"
@@ -59,3 +60,6 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
   [privacy.youtube]
     disable = false
     privacyEnhanced = false
+
+[params]
+    custom_navbar= true

@@ -1,7 +1,6 @@
 
 {{ "<!-- hero header -->" | safeHTML }}
 <div class="hero-header container">
-
     <div class="hero-header-inner">
         <div class="grid-x contentWrapper rellax" data-rellax-speed="-3">
             {{if not .events.hideherotitle }}
@@ -13,21 +12,22 @@
             </div>
             {{ end }}
         </div>
-        <div class="imageWrapper">
+    </div>
+    <div class="imageWrapper">
 
-            <img src="/images/header-placeholder.png" alt="hero background">
+        <img src="/images/header-placeholder.png" alt="hero background">
 
-            <div class="desktop {{ if .bg_image_mobile }}hide-for-small{{ end }} rellax"  style="background-image: url('{{ .image }}')" data-rellax-speed="-7"></div>
-            {{ if .bg_image_mobile }}<div class="mobile"   style="background-image: url('{{ .bg_image_mobile }}')"></div> {{ end }}
-        </div>
-        <div class="grid-container scroll-down-block-container">
-            <div class="grid-x">
-                <div class="cell">
-                    <div class="scroll-down-block">Scroll Down</div>
-                </div>
+        <div class="desktop {{ if .bg_image_mobile }}hide-for-small{{ end }} rellax"  style="background-image: url('{{ .image }}')" data-rellax-speed="-7"></div>
+        {{ if .bg_image_mobile }}<div class="mobile"   style="background-image: url('{{ .bg_image_mobile }}')"></div> {{ end }}
+    </div>
+    <div class="grid-container scroll-down-block-container">
+        <div class="grid-x">
+            <div class="cell">
+                <div class="scroll-down-block">Scroll Down</div>
             </div>
         </div>
     </div>
+
 </div>
 
 {{ "<!-- /hero header -->" | safeHTML }}
