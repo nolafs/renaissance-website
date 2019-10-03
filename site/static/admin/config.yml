@@ -4,6 +4,7 @@ backend:
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 # publish_mode: editorial_workflow
+site_url: https://eloquent-curran-2d10a7.netlify.com
 
 collections:
   - name: "case-studies" # Used in routes, ie.: /admin/collections/:slug/edit
