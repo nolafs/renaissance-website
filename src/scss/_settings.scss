@@ -63,6 +63,7 @@ $dark-gray: #999999;
 $black: #000000;
 $white: #FFFFFF;
 $blue: #4e638d;
+$green: #bbe3b7;
 $form-color: #A09ABC;
 $text-color: #1c1c1c;
 $body-background: transparent;
@@ -97,7 +98,7 @@ $breakpoints: (
         xxlarge: 1440px,
 );
 $print-breakpoint: large;
-$breakpoint-classes: (small medium large);
+$breakpoint-classes: (small medium large xlarge xxlarge);
 
 // 3. The Grid
 // -----------
@@ -860,18 +861,6 @@ $grid-container-padding: $grid-padding-gutters;
 $grid-container-max: $global-width;
 $xy-block-grid-max: 8;
 
-// 57. Hero Header
-$hero-header-bg-color: $medium-gray;
-
-// 58. Footer
-$footer-bg-color: $secondary-color;
-$footer-padding-top: 50px;
-$footer-padding-bottom: 50px;
-$footer-legal-bg-color: $secondary-color;
-$footer-legal-text-color: $white;
-$footer-legal-padding-top: 20px;
-$footer-legal-padding-bottom: 20px;
-
 // 59. Social Colors
 $sc-facebook: #3b5998;
 $sc-twitter: #00aced;
@@ -883,5 +872,7 @@ $sc-instagram: #517fa4;
 $sc-vimeo: #aad450;
 
 // 60. Navigation Button
-$button-navigation-b-c: $blue;
-$button-navigation-f-c: $secondary-color;
+$button-navigation-b-c: $green;
+$button-navigation-color: $white;
+$button-navigation-sticky-color: $black;
+

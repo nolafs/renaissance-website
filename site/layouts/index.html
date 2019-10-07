@@ -5,21 +5,21 @@
 {{ block "twitter_header" . }}
     {{ partial "block-twitter"}}
 {{end}}
-<div class="grid-container">
+<div id="home-services" class="grid-container block">
     <div class="grid-x grid-padding-x grid-margin-y">
-        <div class="cell small-12 medium-6">
+        <div class="cell small-12 medium-6 text-right section-heading">
             <h2>{{.Params.services.heading}}</h2>
             <p>{{.Params.services.text}}</p>
             <a href="/services" class="large button">All our Services</a>
         </div>
         <div class="cell small-12 medium-5 medium-offset-1">
             <h3>{{.Params.services.subheader}}</h3>
-            <ul>
+            <ul class="no-bullet">
                 {{ range .Params.services.services_list}}
                 <li>
                     <img src="{{.icon}}" alt="{{.title}}">
-                    <h4>{{.text}}</h4>
-                    <p>{{.Title}}</p>
+                    <h4>{{.title}}</h4>
+                    <p>{{.text}}</p>
                 </li>
                 {{ end }}
             </ul>

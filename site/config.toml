@@ -72,3 +72,6 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 [params]
     custom_navbar= true
+    logo_large="/images/logo-full.png"
+    logo_small="/images/logo-icon.png"
+    logo_large_invert="/images/logo-icon.png"

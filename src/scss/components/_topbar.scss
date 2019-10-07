@@ -8,41 +8,31 @@
   display:none;
 }
 
-.top-bar{
+.box-indicator {
+  @include pseudo();
+  width: 100%;
+  height: rem-calc(5);
+  bottom:- rem-calc(10);
+  left: 0;
+  background: $green;
+  transition: 200ms height ease-in-out;
+}
 
-  .top-bar-left{
-    @include breakpoint(small){
-      display: none;
-    }
-    @include breakpoint(medium){
-      display: block;
-    }
-  }
-
-  .top-bar-right{
-    @include breakpoint(small){
-      position: fixed;
-      top:0;
-      left:0;
-      width:100%;
-      height:100vh;
-      background-color: $white;
-      text-align: center;
-    }
-    @include breakpoint(medium){
-      position: relative;
-      background-color: transparent;
-      top:initial;
-      left:initial;
-      width:auto;
-      height:auto;
-    }
-  }
+.top-bar {
 
   .menu{
     background-color: transparent;
 
     li{
+      font-family: $header-font-family;
+      font-weight: 700;
+      position: relative;
+      margin-right: rem-calc(5);
+
+      &:last-child {
+        margin-right: rem-calc(0);
+      }
+
       @include breakpoint(small){
         width:100%;
         display: block;
@@ -51,9 +41,31 @@
         width:auto;
       }
 
+      a {
+        padding-top: rem-calc(25);
+        padding-bottom: rem-calc(25);
+
+        &:after {
+          @extend .box-indicator;
+          height: 0;
+          transition: 250ms height ease-in-out;
+        }
+      }
+
+      &:not(.menu-logo) :hover {
+        &:after {
+          @extend .box-indicator;
+          height: rem-calc(5);
+          transition: 250ms height ease-in-out;
+        }
+      }
+
       &.active{
         a{
-          color: $black;
+          color: $primary-color;
+        }
+        &:not(.menu-logo) :after {
+          @extend .box-indicator;
         }
       }
       .dropdown.menu > li.opens-left > .is-dropdown-submenu{
@@ -70,12 +82,6 @@
       }
     }
   }
-  .menu-logo{
-    opacity: 1;
-    max-width:200px;
-    transition: 0.5s opacity ease-in-out;
-    transition-delay: 0.5s;
-  }
 
   &.sticky{
     &:not(.is-stuck){
@@ -84,18 +90,18 @@
       transition: 0.5s all ease-in-out;
 
       .menu{
-        color:$black;
+        color:$button-navigation-color;
         a{
           @include breakpoint(small){
-            color: $primary-color;
+            color: $button-navigation-color;
           }
           @include breakpoint(medium){
-            color:$black;
+            color:$button-navigation-color;
           }
         }
         &.active{
           a{
-            color:$black;
+            color:$button-navigation-b-c;
           }
         }
       }
@@ -103,72 +109,59 @@
     }
     &.is-stuck{
       color:$primary-color;
-      padding: 0.5rem;
+      padding: 0;
       background-color: white;
       transition: 0.5s all ease-in-out;
     }
   }
-
-
 }
 
-body.default{
-  .logo-default{
-    display:none;
-  }
-  .top-bar {
-    .menu-logo{
-      opacity: 1;
-      max-width:200px;
-      transition: 0.5s opacity ease-in-out;
-      transition-delay: 0.5s;
+
+.top-bar {
+
+  .logo-main{
+    img {
+      max-width: 433px;
     }
-    &.sticky {
-      &:not(.is-stuck) {
-        .menu-logo{
-          opacity: 0;
+  }
+
+  .logo-invert{
+    img {
+      max-width: 35px;
+    }
+  }
+
+  &.sticky {
+
+    .logo-invert{
+      display: block;
+      opacity:1;
+      transition: 0.5s all ease-in-out;
+    }
+    .logo-main{
+      display: none;
+      opacity:0;
+      transition: 0.5s all ease-in-out;
+    }
+
+    &:not(.is-stuck) {
+      .menu-logo{
+        .logo-invert{
+          display: none;
+          opacity:0;
           transition: 0.5s all ease-in-out;
         }
-      }
-    }
-  }
-}
-
-body:not(.default){
-  .top-bar {
-    &.sticky {
-      &:not(.is-stuck) {
-        .logo-main {
-          display: none;
-          opacity: 0;
-        }
-        .logo-default {
+        .logo-main{
           display: block;
+          opacity:1;
+          transition: 0.5s all ease-in-out;
         }
-        .menu-logo {
-          .logo-default {
-            opacity: 1;
-            transition: 0.5s all ease-in-out;
-            transition-delay: 0.5s;
-          }
-        }
-      }
-    }
-    &.is-stuck {
-      .logo-main {
-        display: block;
-        opacity: 1;
-        transition: 0.5s all ease-in-out;
-        transition-delay: 0.5s;
-      }
-      .logo-default {
-        display: none;
-        opacity: 0;
 
       }
     }
   }
 }
+
 
 #languages{
   margin-left: 30px;

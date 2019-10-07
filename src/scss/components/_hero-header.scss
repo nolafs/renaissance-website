@@ -7,8 +7,14 @@
     max-width: $global-width;
     margin: 0 auto;
     color: $white;
-    h2{
+    h1{
       color: $white;
+      span {
+        color: $green
+      }
+    }
+    p{
+      font-size: rem-calc(22);
     }
   }
 
@@ -26,20 +32,15 @@
     width: 100%;
     height: 100%;
     z-index: 10;
+    padding-top: 100px;
     @include breakpoint(small) {
-      img{
-        max-width: 80px;
-      }
+
     }
     @include breakpoint(medium) {
-      img{
-        max-width: 120px;
-      }
+
     }
     @include breakpoint(large) {
-      img{
-        max-width: 100%;
-      }
+
     }
 
     .grid-container{
@@ -51,16 +52,27 @@
     z-index: 1;
     width:100%;
     overflow: hidden;
+
+    &:before {
+      @include pseudo();
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      background-blend-mode: darken;
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35));
+    }
+
     > div {
       position: absolute;
       top:-10%;
       left:0;
       background-size: cover;
       background-position: center;
-      background-color: $hero-header-bg-color;
+      background-color: $black;
       width: 100%;
       height: 120%;
     }
+
     img{
       width:50%;
     }
@@ -73,7 +85,7 @@
     }
 
     @include breakpoint(medium) {
-      min-height: 640px;
+      min-height: 840px;
       .desktop{
         display: block
       }

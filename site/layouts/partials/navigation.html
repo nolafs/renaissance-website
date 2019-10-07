@@ -27,10 +27,10 @@
         <div class="top-bar-left">
             <ul class="menu">
                 <li class="menu-logo">
-                    {{if .Site.Params.logo_images}}
-                    <a href="{{ .Site.BaseURL }}" rel="home" class="logo-main"><img src="{{ .Site.Params.logo_small}}" alt="{{ .Site.Title | safeHTML }}"></a>
-                    {{if .Site.Params.logo_small_invert}}
-                    <a href="{{ .Site.BaseURL }}" rel="home" class="logo-default"><img src="{{ .Site.Params.logo_small_invert}}" alt="{{ .Site.Title | safeHTML }}"></a>
+                    {{if .Site.Params.logo_large}}
+                    <a href="{{ .Site.BaseURL }}" rel="home" class="logo-main"><img src="{{ .Site.Params.logo_large}}" alt="{{ .Site.Title | safeHTML }}"></a>
+                    {{if .Site.Params.logo_large_invert}}
+                    <a href="{{ .Site.BaseURL }}" rel="home" class="logo-invert"><img src="{{ .Site.Params.logo_large_invert}}" alt="{{ .Site.Title | safeHTML }}"></a>
                     {{end}}
                     {{else}}
                     <a href="{{ .Site.BaseURL | absLangURL }}">

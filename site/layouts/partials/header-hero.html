@@ -3,19 +3,22 @@
 <div class="hero-header container">
     <div class="hero-header-inner">
         <div class="grid-x grid-padding-x contentWrapper rellax align-middle" data-rellax-speed="-3">
-
-            <div class="cell small-12 medium-8">
-                {{ if .body }}
-                    <span class="content-subtitle-animate"> {{ .body | markdownify }}</span>
-                {{ end }}
+            <div class="cell">
+                <div class="grid-x">
+                    <div class="cell small-12 large-10 xlarge-9 xxlarge-8">
+                        <h1>{{.title | safeHTML}}</h1>
+                    </div>
+                    <div class="cell small-12 medium-8 large-6">
+                        {{ if .body }}
+                        <p class="content-subtitle-animate"> {{ .body | markdownify }}</p>
+                        {{ end }}
+                    </div>
+                </div>
             </div>
-
         </div>
     </div>
     <div class="imageWrapper">
-
         <img src="/images/header-placeholder.png" alt="hero background">
-
         <div class="desktop {{ if .bg_image_mobile }}hide-for-small{{ end }} rellax"  style="background-image: url('{{ .image }}')" data-rellax-speed="-7"></div>
         {{ if .bg_image_mobile }}<div class="mobile"   style="background-image: url('{{ .bg_image_mobile }}')"></div> {{ end }}
     </div>
