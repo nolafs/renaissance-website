@@ -24,7 +24,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
     [[menu.navbar]]
         identifier = "case_studies"
         name = "Case Studies"
-        url = "/solutions"
+        url = "/case-studies"
         weight = 2
     [[menu.navbar]]
         identifier = "about"
