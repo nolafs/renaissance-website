@@ -1,5 +1,5 @@
 ---
-title: Ethical Communications for Indie Developers & Ethical Communications for
+title: Ethical Communications for <span> Indie Developers & Publisher</span>
 hero_image: /images/uploads/hero.jpg
 services:
   heading: How can we help your business?
