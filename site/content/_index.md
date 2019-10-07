@@ -34,8 +34,9 @@ services:
       title: Paid & Organic Influencer Planning
   subheader: Core Services
   text: >-
-    Creating the best conditions for your project, product or corporate
-    activities to succeed through strategic media planning.
+    Renaissance believes in working in an integrated fashion to support your
+    business in whatever way it is structured to support the appropriate areas
+    of the media mix for your game, project or corporate needs.
 clients:
   heading: Our Clients
   text: >-
