@@ -14,7 +14,10 @@ collections:
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Intro Blurb", name: "description", widget: "text"}
+      - {label: "Type", name: "type", widget: "select", options: [
+        {label: "Go-to-market", value: "GTM" }
+        ]}
+      - {label: "Intro", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages"
