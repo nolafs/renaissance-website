@@ -8,12 +8,11 @@
 <div class="off-canvas-wrapper">
   <div class="off-canvas-content" data-off-canvas-content>
 
-  {{ block "header" . }}{{ partial "header" . }}{{end}}
-
   {{ block "navigation" . }}{{ partial "navigation" . }}{{end}}
 
   <main>
     <div class="grid-container full">
+        {{ block "header" . }}{{ partial "header" . }}{{end}}
         {{ block "main" . }}{{end}}
     </div>
   </main>
