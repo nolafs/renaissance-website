@@ -1,4 +1,11 @@
 .block {
-  margin-top: rem-calc(100);
-  margin-bottom: rem-calc(100);
+  padding-top: rem-calc(100);
+  padding-bottom: rem-calc(100);
+}
+
+#block-twitter {
+  > div {
+    padding-top: rem-calc(60);
+    padding-bottom: rem-calc(60);
+  }
 }
