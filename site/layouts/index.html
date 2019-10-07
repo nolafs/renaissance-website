@@ -1,13 +1,16 @@
 {{ define "main" }}
 {{ block "hero_header" . }}
-    {{ partial "hero_header"  (dict "image" .Params.hero_image "title" .Title "body" .Content)}}
+    {{ partial "header-hero"  (dict "image" .Params.hero_image "title" .Title "body" .Content)}}
+{{end}}
+{{ block "twitter_header" . }}
+    {{ partial "block-twitter"}}
 {{end}}
 <div class="grid-container">
     <div class="grid-x grid-padding-x grid-margin-y">
         <div class="cell small-12 medium-6">
             <h2>{{.Params.services.heading}}</h2>
             <p>{{.Params.services.text}}</p>
-            <a href="/services" class="button"></a>
+            <a href="/services" class="large button">All our Services</a>
         </div>
         <div class="cell small-12 medium-5 medium-offset-1">
             <h3>{{.Params.services.subheader}}</h3>

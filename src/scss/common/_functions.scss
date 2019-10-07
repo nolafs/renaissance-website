@@ -391,6 +391,10 @@
   }
 }
 
+// =============================================================================
+// Font - colors
+// =============================================================================
+
 @mixin fontcolor-list() {
   @each $current-color in $foundation-palette {
     $key: nth($current-color, 1);
@@ -409,6 +413,10 @@
     color: $light-gray;
   }
 
+  .f-c-blue {
+    color: $blue;
+  }
+
   .f-c-black {
     color: $black;
   }
@@ -417,6 +425,10 @@
     color: $white;
   }
 }
+
+// =============================================================================
+// Nav - colors
+// =============================================================================
 
 @mixin build_nav(
   $menu-name,
@@ -441,9 +453,6 @@
       max-height: rem-calc($height);
     }
   }
-
-
-
 
   #top-header-large.sticky {
 

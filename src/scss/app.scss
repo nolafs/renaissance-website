@@ -67,6 +67,7 @@
 @import "components/menu";
 @import "components/comments";
 @import "components/content-border";
+@import "components/footer";
 @import "components/article";
 @import "components/statistics";
 @import "components/cards";
@@ -79,6 +80,4 @@
 @import "components/shame";
 
 
-/* stuff */
-@include padding-list();
-@include margin-list();
+

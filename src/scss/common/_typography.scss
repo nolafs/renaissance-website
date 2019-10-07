@@ -21,6 +21,10 @@ h1{
   line-height: 1;
 }
 
+h6{
+  color: $primary-color;
+}
+
 ul{
   &.icon-list{
     margin:0;
@@ -39,146 +43,62 @@ ul{
   }
 }
 
-#content-panel {
-
-  ul {
-  margin-top: 1rem;
-  list-style: none;
-  &:not(.menu) {
-    li {
-      margin-bottom: 1rem;
-
-      &:before {
-        content: "\2022";
-        color: $primary-color;
-        font-weight: bold;
-        display: inline-block;
-        width: 1em;
-        margin-left: -1em;
-      }
-
-      p {
-        display: inline;
-      }
-    }
-  }
+code{
+  background: $medium-gray;
+  display:block;
 }
 
+pre{
+  margin-bottom: 2rem;
+}
 
-
-
-
-  h1,h2,h3,h4,h5,h6{
-    text-align: center;
-    margin-bottom: 1.8rem;
-  }
-
-  font-size: rem-calc(18);
-
+blockquote {
+  font-style: italic;
+  line-height: 1.56;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
   @include breakpoint(small){
-    font-size: rem-calc(16);
+    padding-left: 0;
+    padding-right: 0;
   }
 
-  @include breakpoint(medium){
-    font-size: rem-calc(18);
-  }
-
-  p {
-    margin: 0;
-    margin-bottom: 1.9rem;
+  @include breakpoint(medium only){
+    span{
+      padding-left: rem-calc(10);
+      padding-right: rem-calc(10);;
+    }
 
   }
 
-  code{
-    background: $medium-gray;
-    display:block;
+  svg{
+    width: 26.2px;
+    height: 16px;
+    object-fit: contain;
+  }
+  span {
+    p:first-of-type{
+      display: inline;
+    }
+    p:nth-child(3){
+      margin-top: 1.8rem
+    }
+
+    p:last-of-type{
+      display: inline;
+    }
   }
 
-  pre{
-    margin-bottom: 2rem;
-  }
-
-  blockquote {
-    font-style: italic;
-    line-height: 1.56;
-    font-weight: 700;
-    letter-spacing: 1px;
+  cite {
+    @extend h5;
     text-align: center;
-    @include breakpoint(small){
-      padding-left: 0;
-      padding-right: 0;
+    margin-top: rem-calc(10);
+    .profile {
+      display: inline-block;
+      margin-bottom: 0;
     }
-
-    @include breakpoint(medium only){
-      span{
-        padding-left: rem-calc(10);
-        padding-right: rem-calc(10);;
-      }
-
-    }
-
-    svg{
-      width: 26.2px;
-      height: 16px;
-      object-fit: contain;
-    }
-    span {
-      p:first-of-type{
-        display: inline;
-      }
-      p:nth-child(3){
-        margin-top: 1.8rem
-      }
-
-      p:last-of-type{
-        display: inline;
-      }
-    }
-
-    cite {
-      @extend h5;
-      text-align: center;
-      margin-top: rem-calc(10);
-      .profile {
-        display: inline-block;
-        margin-bottom: 0;
-      }
-      &:before {
-        display: none;
-      }
+    &:before {
+      display: none;
     }
   }
-
-  .label{
-    font-size: rem-calc(14);
-  }
-
-  .type-removed{
-    @extend .f-c-dark-gray;
-  }
-
-  a {
-
-    &:not(.button) {
-      color: $anchor-color;
-      text-decoration: underline;
-
-      &:hover {
-        color: $anchor-color-hover;
-      }
-
-      &:visited {
-        color: $dark-gray;
-      }
-    }
-  }
-
-  a:visited.button{
-    color: $white!important;
-  }
-
-  a:hover.button{
-    color: $anchor-color-hover!important;;
-  }
-
 }

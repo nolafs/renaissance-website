@@ -51,18 +51,18 @@ $global-font-size: 18px;
 $global-width: rem-calc(1500);
 $global-lineheight: 1.5;
 $foundation-palette: (
-        primary: #cca759,
-        secondary: #2E2644,
+        primary: #60ad58,
+        secondary: #42827d,
         success: #91A85F,
         warning: #ffae00,
         alert: #842c10,
 );
-$light-gray: #eeeeee;
+$light-gray: #cccccc;
 $medium-gray: #d8d8d8;
 $dark-gray: #999999;
-$black: #0a0a0a;
-$white: #fefefe;
-$blue-gray: #E8F1F2;
+$black: #000000;
+$white: #FFFFFF;
+$blue: #4e638d;
 $form-color: #A09ABC;
 $text-color: #1c1c1c;
 $body-background: transparent;
@@ -74,7 +74,7 @@ $global-padding: 1rem;
 $global-position: 1rem;
 $global-weight-normal: normal;
 $global-weight-bold: bold;
-$global-radius: 0;
+$global-radius: 5px;
 $global-menu-padding: 0.8rem 1rem;
 $global-menu-nested-margin: 1rem;
 $global-text-direction: ltr;
@@ -124,29 +124,29 @@ $header-lineheight: 1.6;
 $header-margin-bottom: 1.2rem;
 $header-styles: (
         small: (
-                'h1': ('font-size': 40, 'line-height':50),
-                'h2': ('font-size': 36, 'line-height':42),
-                'h3': ('font-size': 28),
-                'h4': ('font-size': 20),
-                'h5': ('font-size': 16),
-                'h6': ('font-size': 11),
-        ),
+                'h1': ('font-size': 46, 'line-height':60),
+                'h2': ('font-size': 32, 'line-height':40),
+                'h3': ('font-size': 24, 'line-height':32),
+                'h4': ('font-size': 20, 'line-height':26),
+                'h5': ('font-size': 18, 'line-height':24),
+                'h6': ('font-size': 12, 'line-height':16),
+                ),
         medium: (
-                'h1': ('font-size': 70, 'line-height':86),
-                'h2': ('font-size': 50, 'line-height':66),
-                'h3': ('font-size': 46, 'line-height':54),
-                'h4': ('font-size': 26),
-                'h5': ('font-size': 20),
-                'h6': ('font-size': 14),
-        ),
+                'h1': ('font-size': 40, 'line-height':54),
+                'h2': ('font-size': 32, 'line-height':40),
+                'h3': ('font-size': 24, 'line-height':32),
+                'h4': ('font-size': 20, 'line-height':26),
+                'h5': ('font-size': 18, 'line-height':24),
+                'h6': ('font-size': 12, 'line-height':16),
+                ),
         large: (
-                'h1': ('font-size': 100, 'line-height':122),
-                'h2': ('font-size': 60, 'line-height':72),
-                'h3': ('font-size': 50, 'line-height':60),
-                'h4': ('font-size': 36),
-                'h5': ('font-size': 24),
-                'h6': ('font-size': 14),
-        ),
+                'h1': ('font-size': 70, 'line-height':94),
+                'h2': ('font-size': 42, 'line-height':60),
+                'h3': ('font-size': 30, 'line-height':46),
+                'h4': ('font-size': 24, 'line-height':36),
+                'h5': ('font-size': 22, 'line-height':34),
+                'h6': ('font-size': 14, 'line-height':18),
+                ),
 );
 $header-text-rendering: optimizeLegibility;
 $small-font-size: 80%;
@@ -160,10 +160,10 @@ $code-font-weight: $global-weight-normal;
 $code-background: $light-gray;
 $code-border: 1px solid $medium-gray;
 $code-padding: rem-calc(2 5 1);
-$anchor-color: $body-font-color;
+$anchor-color: $secondary-color;
 $anchor-color-hover: $primary-color;
-$anchor-text-decoration: underline;
-$anchor-text-decoration-hover: underline;
+$anchor-text-decoration: none;
+$anchor-text-decoration-hover: none;
 $hr-width: $global-width;
 $hr-border: 1px solid $medium-gray;
 $hr-margin: rem-calc(20) auto;
@@ -271,12 +271,12 @@ $breadcrumbs-item-separator-color: $medium-gray;
 // 11. Button
 // ----------
 
-$button-font-family: inherit;
-$button-padding: rem-calc(12) rem-calc(24);
+$button-font-family: $header-font-family;
+$button-padding: rem-calc(26) rem-calc(30);
 $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
 $button-background: $primary-color;
-$button-background-hover: $primary-color;
+$button-background-hover: $secondary-color;
 $button-color: $white;
 $button-color-alt: $black;
 $button-radius: $global-radius;
@@ -284,7 +284,7 @@ $button-hollow-border-width: 1px;
 $button-sizes: (
         tiny: 0.75rem,
         small: 0.91rem,
-        default: rem-calc(14),
+        default: rem-calc(12),
         large: rem-calc(14),
 );
 $button-palette: $foundation-palette;
@@ -883,5 +883,5 @@ $sc-instagram: #517fa4;
 $sc-vimeo: #aad450;
 
 // 60. Navigation Button
-$button-navigation-b-c: $blue-gray;
+$button-navigation-b-c: $blue;
 $button-navigation-f-c: $secondary-color;

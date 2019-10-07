@@ -1,0 +1,22 @@
+#footer {
+  border-top: 1px solid $light-gray;
+  padding-top: rem-calc(95);
+  margin-bottom: rem-calc(30);
+}
+
+
+.footer-contacts {
+  a {
+    color: $body-font-color
+  }
+
+  ul{
+    margin-bottom: rem-calc(50);
+  }
+}
+
+.footer-logo {
+  img{
+    max-width: rem-calc(80);
+  }
+}

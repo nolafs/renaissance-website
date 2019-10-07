@@ -1,0 +1,89 @@
+{{ "<!-- Footer -->" | safeHTML }}
+<footer>
+    <div id="footer" class="grid-container full">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x small-up-1 medium-up-4">
+                <div class="cell footer-logo">
+                    <a href="{{ .Site.BaseURL }}" aria-label="{{ .Site.Title }}">
+                        <img src="/images/logo-icon.png" alt="{{ .Site.Title }}">
+                    </a>
+                </div>
+                <div class="cell footer-menu">
+                    <ul class="menu vertical"  data-smooth-scroll>
+
+                        {{ if not (.Site.Params.custom_navbar) }}
+
+                        <li class="{{ if .IsHome }}active{{ end }}"><a href="{{ .Site.BaseURL | absLangURL }}">
+                            {{ i18n "home" }} </a>
+                            {{ if .Site.Menus.home}}
+                            <ul class="menu submenu" data-smooth-scroll>
+                                {{ range .Site.Menus.home }}
+                                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                                {{end}}
+                            </ul>
+                            {{ end}}
+                        </li>
+
+                        {{end}}
+
+                        {{ if .Site.Params.custom_navbar }}
+                            {{ range .Site.Menus.navbar }}
+                                <li >
+                                    <a href="{{.URL}}">
+                                        {{ .Name }}
+                                    </a>
+                                </li>
+                            {{ end }}
+                        {{end}}
+
+                    </ul>
+                </div>
+                <div class="cell footer-contacts">
+                    <h6>
+                        Telephone
+                    </h6>
+                    <ul class="no-bullet">
+                        {{ range $tel := $.Site.Data.contact.telephone}}
+                        <li><a href="tel:{{$tel}}">{{$tel}}</a></li>
+                        {{ end }}
+                    </ul>
+                    <h6>
+                        Email
+                    </h6>
+                    <ul class="no-bullet">
+                        {{ range $mail := $.Site.Data.contact.email}}
+                        <li><a href="mailto:{{$mail}}">{{$mail}}</a></li>
+                        {{ end }}
+                    </ul>
+                </div>
+                <div class="cell footer-social-media">
+                    <h6>
+                        Social Media
+                    </h6>
+                    <ul class="no-bullet">
+                        {{ range $media := $.Site.Data.socialmedia.links}}
+                            <li id="{{$media.id}}"><a href="{{$media.url}}">{{$media.type}}</a></li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+            <div class="grid-x">
+                <div class="cell small-12 medium-6">
+                    <ul class="menu">
+                        {{ range .Site.Menus.secondary }}
+                        <li >
+                            <a href="{{.URL}}">
+                                {{ .Name }}
+                            </a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+                <div class="cell small-12 medium-6 text-right">
+                    Website by <a href="https://www.biffnewmedia.com">Biff New Media</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+{{ "<!-- / Footer -->" | safeHTML }}
