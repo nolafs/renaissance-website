@@ -1,0 +1,19 @@
+{{ "<!-- Block contact -->" | safeHTML }}
+<section>
+    <div class="grid-container full  block contact">
+        <div class="grid-container">
+            <div class="grid-x gid-padding-x text-center align-center">
+                <div class="cell small-12 medium-9 large-8">
+                    <h2>{{ .Params.contact.heading}}</h2>
+                </div>
+            </div>
+            <div class="grid-x gid-padding-x text-center align-center">
+                <div class="cell small-12 medium-8 large-6">
+                    <p>{{ .Params.contact.text}}</p>
+                    <a href="/contact" class="large button">Contact us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ "<!-- Block Contact -->" | safeHTML }}

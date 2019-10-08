@@ -6,20 +6,21 @@
 <body class="default" data-animation="true">
 {{ partial "old-browser.html" . }}
 <div class="off-canvas-wrapper">
+
   <div class="off-canvas-content" data-off-canvas-content>
 
-  {{ block "navigation" . }}{{ partial "navigation" . }}{{end}}
+        {{ block "navigation" . }}{{ partial "navigation" . }}{{end}}
 
-  <main>
-    <div class="grid-container full">
-        {{ block "header" . }}{{ partial "header" . }}{{end}}
-        {{ block "main" . }}{{end}}
-    </div>
-  </main>
+        <main>
+          <div class="grid-container full">
+              {{ block "header" . }}{{ partial "header" . }}{{end}}
+              {{ block "main" . }}{{end}}
+          </div>
+        </main>
 
-  {{ block "footer" . }}{{ partial "footer" . }}{{end}}
+        {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 
-  {{ block "foot" . }}{{ partial "foot" . }}{{end}}
+        {{ block "foot" . }}{{ partial "foot" . }}{{end}}
   </div>
 </div>
 </body>
