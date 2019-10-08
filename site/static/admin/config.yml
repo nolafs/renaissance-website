@@ -75,7 +75,6 @@ collections:
             searchFields: ["name", "company"]
             valueField: "name"
             displayFields: ["name", "company"]
-          ]}
           - {label: "Contact Section", name: contact, widget: object, fields: [
             {label: "Heading", name: "heading", widget: string},
             {label: "Text", name: "text", widget: "text"},
