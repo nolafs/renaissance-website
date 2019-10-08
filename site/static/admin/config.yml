@@ -23,13 +23,6 @@ collections:
       - {label: "Client", name: "client", widget: "string"}
       - {label: "Intro", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - label: "Clients"
-        name: "project-client"
-        widget: "relation"
-        collection: "clients"
-        searchFields: ["company"]
-        valueField: "company"
-        displayFields: ["company"]
   - name: "testimonials"
     label: "Testimonials"
     folder: "site/content/testimonials"
@@ -40,6 +33,7 @@ collections:
       - {label: "Text", name: "text", widget: "text"}
       - {label: "Name", name: "name", widget: string}
       - {label: "Position", name: "position", widget: string}
+      - {label: "Company", name: "company", widget: string}
   - name: "pages"
     label: "Pages"
     files:
@@ -74,11 +68,13 @@ collections:
              {label: "Logo" , name: "company_logo" , widget: image},
              ]}
           ]}
-          - {label: "Testimonial Section", name: testimonial, widget: object, fields: [
-            {label: "Profile", name: "profile", widget: image},
-            {label: "Text", name: "text", widget: "text"},
-            {label: "Name", name: "name", widget: string},
-            {label: "Position", name: "position", widget: string},
+          - label: "Testimonial"
+            name: "testimonial"
+            widget: "relation"
+            collection: "clients"
+            searchFields: ["name", "company"]
+            valueField: "name"
+            displayFields: ["name", "company"]
           ]}
           - {label: "Contact Section", name: contact, widget: object, fields: [
             {label: "Heading", name: "heading", widget: string},
