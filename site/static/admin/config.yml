@@ -97,7 +97,7 @@ collections:
                 name: text
                 widget: text
       - file: "site/content/clients/_index.md"
-        label: "Clients"
+        label: "Clients Page"
         name: "clients"
         fields:
           - {label: Title, name: title, widget: string}
