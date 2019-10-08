@@ -23,6 +23,14 @@ collections:
       - {label: "Client", name: "client", widget: "text"}
       - {label: "Intro", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "clients"
+    label: "Clients"
+    folder: "site/content/clients"
+    create: true
+    fields:
+      - {label: "Name" , name: "company" , widget: string},
+      - {label: "Link" , name: "company_url" , widget: string}
+      - {label: "Logo" , name: "company_logo" , widget: image}
   - name: "pages"
     label: "Pages"
     files:
@@ -96,17 +104,6 @@ collections:
               - label: Text
                 name: text
                 widget: text
-      - file: "site/content/clients/_index.md"
-        label: "Clients Page"
-        name: "clients"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: "Clients", name: "clients", widget: "list", fields: [
-            {label: "Name" , name: "company" , widget: string},
-            {label: "Featured" , name: "featured" , widget: boolean, default: false},
-            {label: "Link" , name: "company_url" , widget: string},
-            {label: "Logo" , name: "company_logo" , widget: image},
-            ]}
       - file: "site/content/privacy/_index.md"
         label: "Privacy Page"
         name: "privacy"
