@@ -1,7 +1,7 @@
 ---
-company: eqeqeqq
-company_features: false
-company_url: eqweqeq
+company: Bulkhead
+company_features: true
+company_url: 'https://bulkheadinteractive.com/'
 company_logo: /images/uploads/client-bulkhead.jpg
 ---
 
