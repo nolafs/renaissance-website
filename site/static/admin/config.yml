@@ -23,6 +23,13 @@ collections:
       - {label: "Client", name: "client", widget: "text"}
       - {label: "Intro", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Clients"
+        name: "project-client"
+        widget: "relation"
+        collection: "clients"
+        searchFields: ["company"]
+        valueField: "company"
+        displayFields: ["company"]
   - name: "clients"
     label: "Clients"
     folder: "site/content/clients"
