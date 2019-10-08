@@ -96,6 +96,16 @@ collections:
               - label: Text
                 name: text
                 widget: text
+      - file: "site/content/clients/_index.md"
+          label: "Clients"
+          name: "clients"
+          fields:
+            {label: "Clients", name: "clients", widget: "list", fields: [
+            {label: "Name" , name: "company" , widget: string},
+            {label: "Featured" , name: "featured" , widget: boolean, default: false},
+            {label: "Link" , name: "company_url" , widget: string},
+            {label: "Logo" , name: "company_logo" , widget: image},
+            ]}
       - file: "site/content/privacy/_index.md"
         label: "Privacy Page"
         name: "privacy"
