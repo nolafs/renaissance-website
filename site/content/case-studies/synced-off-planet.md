@@ -9,3 +9,5 @@ description: >-
   Planet” to support their announcement at Gamescom.
 ---
 Despite the shortness of time, Renaissance managed to deliver an IGN exclusive across 30 countries.
+
+![IGN Exclusive](/images/uploads/case-syncedoffplanet-1.jpg "IGN Exclusive")
