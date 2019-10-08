@@ -20,7 +20,7 @@ collections:
         {label: "Go-to-market", value: "GTM" },
         {label: "Go-to-market", value: "GTM" },
         ]}
-      - {label: "Client", name: "client", widget: "text"}
+      - {label: "Client", name: "client", widget: "string"}
       - {label: "Intro", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
       - label: "Clients"
@@ -30,16 +30,16 @@ collections:
         searchFields: ["company"]
         valueField: "company"
         displayFields: ["company"]
-  - name: "clients"
-    label: "Clients"
-    folder: "site/content/clients"
+  - name: "testimonials"
+    label: "Testimonials"
+    folder: "site/content/testimonials"
     create: true
-    identifier_field: company
+    identifier_field: name
     fields:
-      - {label: "Name" , name: "company" , widget: string}
-      - {label: "features" , name: "company_features" , widget: boolean, default: false}
-      - {label: "Link" , name: "company_url" , widget: string}
-      - {label: "Logo" , name: "company_logo" , widget: image}
+      - {label: "Profile", name: "profile", widget: image}
+      - {label: "Text", name: "text", widget: "text"}
+      - {label: "Name", name: "name", widget: string}
+      - {label: "Position", name: "position", widget: string}
   - name: "pages"
     label: "Pages"
     files:
