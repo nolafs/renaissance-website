@@ -150,8 +150,8 @@ $header-styles: (
                 ),
 );
 $header-text-rendering: optimizeLegibility;
-$small-font-size: 80%;
-$header-small-font-color: $medium-gray;
+$small-font-size: 60%;
+$header-small-font-color: $primary-color;
 $paragraph-lineheight: 1.6;
 $paragraph-margin-bottom: rem-calc(30);
 $paragraph-text-rendering: optimizeLegibility;
@@ -325,7 +325,7 @@ $card-divider-background: $light-gray;
 $card-border: none;
 $card-shadow:  0 15px 30px 0 rgba(51, 51, 51, 0.4);
 $card-border-radius: none;
-$card-padding: 0;
+$card-padding: $global-padding;
 $card-margin-bottom: $global-margin;
 
 // 15. Close Button

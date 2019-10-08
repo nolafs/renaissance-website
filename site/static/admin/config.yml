@@ -20,7 +20,7 @@ collections:
         {label: "Go-to-market", value: "GTM" },
         {label: "Go-to-market", value: "GTM" },
         ]}
-      - {label: "Client", name: "client", widget: "string"}
+      - {label: "Client", name: "client", widget: "string", required: true}
       - {label: "Intro", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "testimonials"
