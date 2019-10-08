@@ -71,7 +71,7 @@ collections:
           - label: "Testimonial"
             name: "testimonial"
             widget: "relation"
-            collection: "clients"
+            collection: "testimonials"
             searchFields: ["name", "company"]
             valueField: "name"
             displayFields: ["name", "company"]
