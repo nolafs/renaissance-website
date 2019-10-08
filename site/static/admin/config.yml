@@ -28,7 +28,8 @@ collections:
     folder: "site/content/clients"
     create: true
     fields:
-      - {label: "Name" , name: "company" , widget: string},
+      - {label: "Name" , name: "company" , widget: string}
+      - {label: "features" , name: "company_features" , widget: boolean, default: false}
       - {label: "Link" , name: "company_url" , widget: string}
       - {label: "Logo" , name: "company_logo" , widget: image}
   - name: "pages"
