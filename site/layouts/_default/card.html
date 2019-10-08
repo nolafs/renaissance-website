@@ -1,5 +1,8 @@
 <article>
     <div class="card">
+        {{ with .Params.image }}
+            <img src="{{ . }}" alt="">
+        {{end}}
         <div class="card-section">
         <header>
             {{ .Title }}
