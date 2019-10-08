@@ -27,6 +27,7 @@ collections:
     label: "Clients"
     folder: "site/content/clients"
     create: true
+    identifier_field: company
     fields:
       - {label: "Name" , name: "company" , widget: string}
       - {label: "features" , name: "company_features" , widget: boolean, default: false}
