@@ -80,14 +80,7 @@ clients:
   text: >-
     Since our inception in 2015 we are proud to have worked with a variety of
     clients, many of whom are still valued partners today.
-testimonial:
-  name: Steve Folwell
-  position: CEO of GREEN MAN GAMING
-  profile: /images/uploads/testimonial-temp.png
-  text: >-
-    "It was so easy working with Stefano and the Renaissance team. They really
-    seek to understand your specific objectives, listen to users and provide
-    early challenge. They are brilliant and thoughtful collaborators."
+testimonial: Steve Folwell
 contact:
   heading: Got a project? Let’s work together!
   text: >-
