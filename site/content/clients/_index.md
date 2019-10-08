@@ -1,5 +1,4 @@
 title: clients
-hero_image: /images/uploads/hero.jpg
 clients:
   clients:
     - company: Green Man Gaming
@@ -39,4 +38,3 @@ clients:
       company_logo: /images/uploads/client-skyboundgames.jpg
       company_url: 'https://www.skybound.com'
 ---
-Creating the best conditions for your project, product or corporate activities to succeed through strategic media planning.
