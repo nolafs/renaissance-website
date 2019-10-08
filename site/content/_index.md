@@ -38,6 +38,25 @@ services:
     business in whatever way it is structured to support the appropriate areas
     of the media mix for your game, project or corporate needs.
 clients:
+  clients_featured:
+    - company: Edgecase
+      company_logo: /images/uploads/client-edgecase.jpg
+      company_url: 'http://www.edgecasegames.net/'
+    - company: Milestone
+      company_logo: /images/uploads/client-milestone.jpg
+      company_url: 'http://milestone.it/'
+    - company: Bulkhead
+      company_logo: /images/uploads/client-bulkhead.jpg
+      company_url: 'https://bulkheadinteractive.com/'
+    - company: Daedalic Entertainment
+      company_logo: /images/uploads/client-daedelic.jpg
+      company_url: 'https://www.daedalic.com/'
+    - company: Pqube
+      company_logo: /images/uploads/client-pqube.jpg
+      company_url: 'https://pqube.co.uk/'
+    - company: Skybound Games
+      company_logo: /images/uploads/client-skyboundgames.jpg
+      company_url: 'https://www.skybound.com'
   heading: Our Clients
   text: >-
     Since our inception in 2015 we are proud to have worked with a variety of
