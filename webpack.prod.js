@@ -19,10 +19,7 @@ module.exports = merge(common, {
       {
         test: /\.(sa|sc|c)ss$/,
         exclude: /node_modules/,
-        use: ["style-loader", MiniCssExtractPlugin.loader, "css-loader", "postcss-loader", {
-          loader: "sass-loader", options: {
-            sourceMap: false
-          }}]
+        use: ["style-loader", MiniCssExtractPlugin.loader, "css-loader", "postcss-loader","sass-loader"]
       }
     ]
   },
