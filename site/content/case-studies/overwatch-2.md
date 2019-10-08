@@ -1,8 +1,9 @@
 ---
-title: Overcooked 2
+title: Yooka-Laylee
 date: 2019-10-07T18:44:04.722Z
-image: /images/uploads/websitemain-1260x709.jpg
+image: /images/uploads/case-yookalaylee.jpg
 project: GTM
+client: Team 17
 description: >-
   Team17 approached Renaissance with launching Kickstarter fan favourite
   Yooka-Laylee with a Global launch campaign.
