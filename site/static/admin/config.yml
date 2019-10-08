@@ -45,6 +45,11 @@ collections:
           - {label: "Clients Section", name: clients, widget: object, fields: [
              {label: "Heading", name: "heading", widget: string},
              {label: "Text", name: "text", widget: "text"},
+             {label: "Clients Featured", name: "clients_featured", widget: "list", fields: [
+             {label: "Name" , name: "company" , widget: string},
+             {label: "Ling" , name: "company_url" , widget: string},
+             {label: "Logo" , name: "company_logo" , widget: image},
+             ]}
              {label: "Clients", name: "clients", widget: "list", fields: [
              {label: "Name" , name: "company" , widget: string},
              {label: "Ling" , name: "company_url" , widget: string},
