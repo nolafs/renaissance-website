@@ -113,9 +113,3 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "site/content/terms_conditions/_index.md"
-        label: "Terms & Conditions Page"
-        name: "terms_conditions"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
