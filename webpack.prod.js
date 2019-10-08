@@ -14,6 +14,19 @@ module.exports = merge(common, {
     chunkFilename: "[id].[hash:5].css"
   },
 
+  module: {
+    rules: [
+      {
+        test: /\.(sa|sc|c)ss$/,
+        exclude: /node_modules/,
+        use: ["style-loader", MiniCssExtractPlugin.loader, "css-loader", "postcss-loader", {
+          loader: "sass-loader", options: {
+            sourceMap: false
+          }}]
+      }
+    ]
+  },
+
   optimization: {
     minimizer: [
       new TerserPlugin({

@@ -7,6 +7,27 @@
   letter-spacing: 2px;
 }
 
+.icon-bottom{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  a {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: $primary-color;
+    color: $white;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      color: $primary-color;
+      background: $secondary-color;
+    }
+  }
+}
+
 
 // social buttons
 .social {

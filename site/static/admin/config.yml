@@ -58,12 +58,12 @@ collections:
              {label: "Heading", name: "heading", widget: string},
              {label: "Text", name: "text", widget: "text"},
              {label: "Clients Featured", name: "clients_featured", widget: "list", fields: [
-             {label: "Name" , name: "company" , widget: string},
+             {label: "Name" , name: "company" , widget: "text"},
              {label: "Link" , name: "company_url" , widget: string},
              {label: "Logo" , name: "company_logo" , widget: image},
              ]},
              {label: "Clients", name: "clients", widget: "list", fields: [
-             {label: "Name" , name: "company" , widget: string},
+             {label: "Name" , name: "company" , widget: "text"},
              {label: "Link" , name: "company_url" , widget: string},
              {label: "Logo" , name: "company_logo" , widget: image},
              ]}
@@ -73,7 +73,7 @@ collections:
             widget: "relation"
             collection: "testimonials"
             searchFields: ["name", "company"]
-            valueField: "name"
+            valueField: ["name", "profile", "position", "company"]
             displayFields: ["name", "company"]
           - {label: "Contact Section", name: contact, widget: object, fields: [
             {label: "Heading", name: "heading", widget: string},

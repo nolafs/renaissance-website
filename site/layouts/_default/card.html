@@ -1,5 +1,5 @@
 
-<div class="card card-button">
+<div class="card card-button" onclick="window.location='{{ .RelPermalink }}';">
         {{ with .Params.image }}
             <img src="{{ . }}" alt="">
         {{end}}
@@ -9,6 +9,9 @@
                         <h3>{{ with .Params.project }}<small>{{ . }}</small>{{end}}{{ .Title }}</h3>
                         {{ with .Params.client }} <div class="sub">{{ . }}</div>{{end}}
                     </header>
+            </div>
+            <div class="icon-bottom text-right m-t-100">
+                <a href="{{ .RelPermalink }}" aria-label="View"><i class="fa fa-chevron-right"></i></a>
             </div>
         </div>
 

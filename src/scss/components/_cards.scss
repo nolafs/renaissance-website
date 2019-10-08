@@ -40,6 +40,13 @@
         .sub{
           color: $white;
         }
+
+      }
+      .icon-bottom {
+        a {
+          color: $primary-color;
+          background: $white;
+        }
       }
     }
   }

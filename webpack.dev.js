@@ -13,6 +13,23 @@ module.exports = merge(common, {
     chunkFilename: "[id].css"
   },
 
+  module: {
+    rules: [
+      {
+        test: /\.(sa|sc|c)ss$/,
+        exclude: /node_modules/,
+        use: ["style-loader",  {
+          loader: "css-loader", options: {
+            sourceMap: true
+          }
+        }, {
+          loader: "sass-loader", options: {
+            sourceMap: true
+          }}]
+      }
+    ]
+  },
+
   devServer: {
     port: process.env.PORT || 3000,
     contentBase: path.join(process.cwd(), "./dist"),

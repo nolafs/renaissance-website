@@ -1,0 +1,40 @@
+{{ "<!-- Block Client -->" | safeHTML }}
+<section>
+    <div class="grid-container full  block">
+        <div class="grid-container">
+            <div class="grid-x gid-padding-x text-center align-center">
+                <div class="cell small-12 medium-10 large-8 section-heading">
+                    <h2>{{ .Params.clients.heading}}</h2>
+                    <p>{{ .Params.clients.text}}</p>
+                </div>
+            </div>
+        </div>
+        {{ "<!-- Featured -->" | safeHTML }}
+        <div class="grid-container client-feature-list">
+            <div class="grid-x gid-padding-x small-up-2 medium-up-4 large-up-6 align-center">
+                {{with .Params.clients.clients_featured}}
+                    {{ range  . }}
+                        <div class="cell">
+                           {{ partial "client-link" . }}
+                        </div>
+                    {{end}}
+                {{end}}
+            </div>
+        </div>
+        {{ "<!--/ Featured -->" | safeHTML }}
+    </div>
+    <div class="grid-container full  block client-list">
+        <div class="grid-container">
+            <div class="grid-x gid-padding-x small-up-2 medium-up-4 large-up-6 align-center">
+                {{with .Params.clients.clients}}
+                {{ range  . }}
+                <div class="cell">
+                    {{ partial "client-link" . }}
+                </div>
+                {{end}}
+                {{end}}
+            </div>
+        </div>
+    </div>
+</section>
+{{ "<!-- / Block Client -->" | safeHTML }}

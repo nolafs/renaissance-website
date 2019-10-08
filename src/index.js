@@ -1,24 +1,13 @@
 import "./scss/app.scss";
 
+
+
 /* ===========================================================================
  Foundation
  =========================================================================== */
 import $ from 'jquery';
 
 import Foundation from 'foundation-sites/dist/js/foundation.min';
-// import Rellax from 'rellax/rellax.min';
-// import 'slick-carousel/slick/slick';
-// import "magnific-popup";
-// import mixitup from 'mixitup';
-// import AOS from 'aos';
-// import 'gsap';
-// import ScrollMagic from 'ScrollMagic';
-// import 'animation.gsap';
-// import 'debug.addIndicators';
-// import SplitText from 'splittext';
-
-Foundation.addToJquery($);
-
 /* Foundation Imports */
 import 'foundation-sites/dist/js/plugins/foundation.core.min';
 import 'foundation-sites/dist/js/plugins/foundation.util.keyboard.min';
@@ -46,6 +35,32 @@ import 'foundation-sites/dist/js/plugins/foundation.tabs.min';
 import 'foundation-sites/dist/js/plugins/foundation.tooltip.min';
 import 'foundation-sites/dist/js/plugins/foundation.util.imageLoader.min';
 
+/* ===========================================================================
+ Fontawsome
+ =========================================================================== */
+
+import { library, dom } from "@fortawesome/fontawesome-svg-core";
+import { faCheck , faChevronRight } from "@fortawesome/free-solid-svg-icons";
+
+library.add(faCheck, faChevronRight);
+dom.watch();
+/* ===========================================================================
+ Packages
+ =========================================================================== */
+
+// import Rellax from 'rellax/rellax.min';
+// import 'slick-carousel/slick/slick';
+// import "magnific-popup";
+// import mixitup from 'mixitup';
+// import AOS from 'aos';
+// import 'gsap';
+// import ScrollMagic from 'ScrollMagic';
+// import 'animation.gsap';
+// import 'debug.addIndicators';
+// import SplitText from 'splittext';
+
+Foundation.addToJquery($);
+
 
 if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", (user) => {
@@ -65,8 +80,6 @@ $( window ).on('load', function() {
 
 // DOCUMENT READY
 $(document).ready(function () {
-
-
 
 });
 
