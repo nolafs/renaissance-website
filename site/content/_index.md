@@ -83,7 +83,7 @@ clients:
 testimonial:
   name: Steve Folwell
   position: CEO of GREEN MAN GAMING
-  profile: /images/uploads/83431551-funny-chihuahua-dog-in-superman-costume.jpg
+  profile: /images/uploads/testimonial-temp.png
   text: >-
     "It was so easy working with Stefano and the Renaissance team. They really
     seek to understand your specific objectives, listen to users and provide
