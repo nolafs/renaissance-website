@@ -107,7 +107,7 @@ collections:
               {label: "Team Members", name: "team_list", widget: "list", fields: [
               {label: "Title" , name: "title" , widget: string},
               {label: "text" , name: "text" , widget: text},
-              {label: "Icon" , name: "icon" , widget: image},
+              {label: "Image" , name: "image" , widget: image},
               ]}
           ]}
           - {label: "Why", name: why, widget: object, fields: [
