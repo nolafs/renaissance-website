@@ -105,17 +105,18 @@ collections:
               {label: "Heading", name: "heading", widget: string, default: "The Team"},
               {label: "Text", name: "text", widget: "text"},
               {label: "Team Members", name: "team_list", widget: "list", fields: [
-              {label: "Title" , name: "title" , widget: string},
-              {label: "text" , name: "text" , widget: text},
+              {label: "Name" , name: "name" , widget: string},
+              {label: "Position" , name: "position" , widget: text},
+              {label: "Text" , name: "text" , widget: text},
               {label: "Image" , name: "image" , widget: image},
               ]}
           ]}
           - {label: "Why", name: why, widget: object, fields: [
             {label: "Heading", name: "heading", widget: string},
             {label: "Text", name: "text", widget: "text"},
-            {label: "Services List", name: "services_list", widget: "list", fields: [
+            {label: "Why List", name: "why_list", widget: "list", fields: [
             {label: "Title" , name: "title" , widget: string},
-            {label: "text" , name: "text" , widget: text},
+            {label: "Text" , name: "text" , widget: text},
             {label: "Icon" , name: "icon" , widget: image},
             ]}
           ]}
