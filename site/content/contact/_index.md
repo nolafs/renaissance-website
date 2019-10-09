@@ -1,8 +1,12 @@
 ---
 title: Contact
-logo: /images/uploads/image_2019_10_03t08_50_39_407z.png
+services:
+  heading: Contact Information
+  tel_list:
+    - email: dadaaa
+    - email: dadada
 contact_entries:
   - heading: tests
     text: xfffsfs
 ---
-Test
+Please give us a call, drop us an email or fill out the contact form and we'll get back to you.
