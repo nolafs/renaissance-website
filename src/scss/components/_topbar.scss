@@ -20,6 +20,14 @@
 
 .top-bar {
 
+  &.scroll-up {
+    transform: translateY(0);
+  }
+
+  &.scroll-down {
+    transform: translateY(-100px);
+  }
+
   .menu{
     background-color: transparent;
 
@@ -85,7 +93,7 @@
 
   &.sticky{
     &:not(.is-stuck){
-      padding: rem-calc(40) 0.5rem;
+      padding: rem-calc(0) 0.5rem;
       background-color: transparent;
       transition: 0.5s all ease-in-out;
 
@@ -121,7 +129,7 @@
 
   .logo-main{
     img {
-      max-width: 433px;
+      max-width: 390px;
     }
   }
 
@@ -182,6 +190,10 @@
     max-width: rem-calc(180);
   }
 
+}
+
+.is-at-bottom {
+  top:10px !important;
 }
 
 .off-canvas{

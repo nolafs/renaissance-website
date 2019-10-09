@@ -5,9 +5,8 @@
     </div>
 </div>
 
-<header class="nav">
-    <div data-sticky-container>
-        <div class="top-bar sticky" id="responsive-menu"  data-sticky data-options="marginTop:0;" data-show-for="medium" data-top-anchor="1" >
+<header id="header-menu" class="nav">
+        <div class="top-bar sticky"  data-sticky data-options="marginTop:0;"  >
             <div class="top-bar-left">
                 <ul class="menu">
                     <li class="menu-logo">
@@ -69,9 +68,8 @@
             </ul>
             </div>
         </div>
-    </div>
-    <div data-sticky-container>
-        <div class="top-bar-small title-bar hide-on-load"  data-responsive-toggle="responsive-menu" data-hide-for="medium">
+
+        <div class="top-bar-small title-bar hide-on-load"  data-hide-for="medium">
             <div class="grid-x grid-margin-x">
                 <div class="auto cell">
                     {{if .Site.Params.logo_images}}
@@ -85,6 +83,6 @@
                 <div class="shrink cell align"><button class="menu-icon" type="button" data-toggle="offCanvas"></button></div>
             </div>
         </div>
-    </div>
+
 </header>
 {{ "<!-- /navigation - button -->" | safeHTML }}
