@@ -7,8 +7,24 @@
         </div>
         <div class="cell small-12 medium-5 medium-offset-1">
            {{ with .Params.contacts }}
-            <div>
                 <h2>{{ .heading }}</h2>
+            <div>
+                <h6>
+                    Telephone
+                </h6>
+                <ul class="no-bullet">
+                    {{ range $tel := $.Site.Data.contact.telephone}}
+                    <li><a href="tel:{{$tel}}">{{$tel}}</a></li>
+                    {{ end }}
+                </ul>
+                <h6>
+                    Email
+                </h6>
+                <ul class="no-bullet">
+                    {{ range $mail := $.Site.Data.contact.email}}
+                    <li><a href="mailto:{{$mail}}">{{$mail}}</a></li>
+                    {{ end }}
+                </ul>
             </div>
             {{ end }}
         </div>
