@@ -151,7 +151,7 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
-          - {label: "Contact Information", name: services, widget: object, fields: [
+          - {label: "Contact Information", name: contacts, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string, default: "Contact Information"},
               {label: "Telephone Numbers", name: "tel_list", widget: "list", fields: [
                 {label: "tel" , name: "tel" , widget: string},
@@ -160,16 +160,6 @@ collections:
                 {label: "Email" , name: "email" , widget: string},
               ]}
           ]}
-          - label: Contact Entries
-            name: contact_entries
-            widget: list
-            fields:
-              - label: Heading
-                name: heading
-                widget: string
-              - label: Text
-                name: text
-                widget: text
       - file: "site/content/privacy/_index.md"
         label: "Privacy Page"
         name: "privacy"

@@ -101,3 +101,20 @@
     }
   }
 }
+
+.header {
+  color: $white;
+
+  h1{
+    color:$green;
+    letter-spacing: normal;
+    font-size: rem-calc(22);
+  }
+
+  p {
+    font-family: $header-font-family;
+    font-weight: 700;
+    font-size: rem-calc(42);
+    line-height: 1.43;
+  }
+}

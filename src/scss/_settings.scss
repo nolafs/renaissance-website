@@ -117,11 +117,11 @@ $block-grid-max: 8;
 // ------------------
 
 $header-font-family:  'Montserrat', sans-serif;
-$header-font-weight: $global-weight-normal;
+$header-font-weight: 700;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-color: $text-color;
-$header-lineheight: 1.6;
+$header-lineheight: noma;
 $header-margin-bottom: rem-calc(30);
 $header-styles: (
         small: (
@@ -402,11 +402,11 @@ $flexbox-responsive-breakpoints: true;
 // 20. Forms
 // ---------
 
-$fieldset-border: 1px solid $medium-gray;
+$fieldset-border: 1px solid $light-gray;
 $fieldset-padding: rem-calc(20);
-$fieldset-margin: rem-calc(18 0);
+$fieldset-margin: rem-calc(50 0);
 $legend-padding: rem-calc(0 3);
-$form-spacing: rem-calc(16);
+$form-spacing: rem-calc(30);
 $helptext-color: $black;
 $helptext-font-size: rem-calc(13);
 $helptext-font-style: italic;
@@ -414,23 +414,23 @@ $input-prefix-color: $black;
 $input-prefix-background: $light-gray;
 $input-prefix-border: 1px solid $medium-gray;
 $input-prefix-padding: 1rem;
-$form-label-color: $black;
+$form-label-color: $primary-color;
 $form-label-font-size: rem-calc(14);
-$form-label-font-weight: $global-weight-normal;
-$form-label-line-height: 1.8;
+$form-label-font-weight: 700;
+$form-label-line-height: 3;
 $select-background: $white;
 $select-triangle-color: $dark-gray;
 $select-radius: $global-radius;
 $input-color: $black;
 $input-placeholder-color: $medium-gray;
 $input-font-family: inherit;
-$input-font-size: rem-calc(16);
+$input-font-size: rem-calc(18);
 $input-font-weight: $global-weight-normal;
 $input-line-height: $global-lineheight;
-$input-background: $light-gray;
+$input-background: $white;
 $input-background-focus: $white;
 $input-background-disabled: $light-gray;
-$input-border: 1px solid $dark-gray;
+$input-border: 2px solid $light-gray;
 $input-border-focus: 1px solid $primary-color;
 $input-padding: $form-spacing / 2;
 $input-shadow: none;
