@@ -1,7 +1,5 @@
 import "./scss/app.scss";
 
-
-
 /* ===========================================================================
  Foundation
  =========================================================================== */
@@ -40,9 +38,12 @@ import 'foundation-sites/dist/js/plugins/foundation.util.imageLoader.min';
  =========================================================================== */
 
 import { library, dom } from "@fortawesome/fontawesome-svg-core";
+import { faFacebook, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faCheck , faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faCheck, faChevronRight);
+
+library.add(faCheck, faChevronRight, faTwitter, faFacebook);
+
 dom.watch();
 /* ===========================================================================
  Packages
@@ -59,8 +60,10 @@ dom.watch();
 // import 'debug.addIndicators';
 // import SplitText from 'splittext';
 
-Foundation.addToJquery($);
 
+/* ===========================================================================
+ Netlify
+ =========================================================================== */
 
 if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", (user) => {
@@ -72,42 +75,8 @@ if (window.netlifyIdentity) {
     });
 }
 
-$(document).foundation();
-// PAGE LOADING
-$( window ).on('load', function() {
-    $('.loading').fadeOut('fast');
-});
-
 // DOCUMENT READY
-$(document).ready(function () {
-    let p_scroll=0;
-
-    if($(window).scrollTop() > 2){
-        console.log('check')
-        setTimeout(() => {
-            $('.top-bar').addClass('is-stuck')
-        }, 500)
-
-    }
+import "./js/apps";
 
 
-    $(window).scroll(function () {
-        console.log('scrolling',  $(window).scrollTop() , p_scroll)
-        if($(window).scrollTop() > 2 ) {
-            $('.top-bar').addClass('is-stuck')
-        } else {
-            $('.top-bar').removeClass('is-stuck')
-        }
-        if($(window).scrollTop() < p_scroll ) {
-            $('.top-bar').addClass('scroll-up')
-            $('.top-bar').removeClass('scroll-down')
-        } else {
-            $('.top-bar').addClass('scroll-down')
-            $('.top-bar').removeClass('scroll-up')
-        }
-
-        p_scroll = $(window).scrollTop();
-
-    })
-});
 

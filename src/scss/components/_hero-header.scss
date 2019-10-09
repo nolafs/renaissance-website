@@ -1,7 +1,7 @@
 .hero-header{
 
   position:relative;
-  overflow: hidden;
+  //overflow: hidden;
 
   .hero-header-inner{
     max-width: $global-width;
@@ -16,6 +16,13 @@
     p{
       font-size: rem-calc(22);
     }
+  }
+
+  .lightning {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    z-index: 10
   }
 
   .hero-logo{

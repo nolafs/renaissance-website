@@ -14,6 +14,42 @@
   > div {
     padding-top: rem-calc(60);
     padding-bottom: rem-calc(60);
+
+    > div {
+      position: relative;
+      z-index: 11;
+    }
+  }
+
+  .follow {
+    font-family: $header-font-family;
+    font-weight: 700;
+    font-size: rem-calc(14);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    svg{
+      width: 40px;
+      height: 40px;
+      margin-right: rem-calc(20);
+    }
+
+    .bt {
+      @extend button;
+      background: rgba($white, 0.5);
+      color: $white;
+      font-size: rem-calc(10);
+      font-weight: 800;
+      line-height: 1.4;
+      letter-spacing: 2px;
+      padding: 12px 15px;
+    }
+  }
+
+  .tweet {
+    font-size: rem-calc(24);
+    font-weight: 700;
+    font-style: italic;
   }
 }
 
