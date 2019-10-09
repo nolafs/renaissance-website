@@ -3,7 +3,7 @@
 
 {{ block "head" . }}{{ partial "head" . }}{{end}}
 
-<body class="default" data-animation="true">
+<body class="default {{ if .IsHome }}home{{else}}{{.Title}}{{end}}" data-animation="true">
 
 {{ partial "old-browser.html" . }}
 

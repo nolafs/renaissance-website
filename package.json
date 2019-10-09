@@ -76,7 +76,8 @@
     "react-dom": "^16.10.1",
     "slate-edit-list": "^0.12.1",
     "terser-webpack-plugin": "^2.1.2",
-    "to-string-loader": "^1.1.5"
+    "to-string-loader": "^1.1.5",
+    "twitter-fetcher": "^18.0.2"
   },
   "resolutions": {
     "natives": "1.1.6"

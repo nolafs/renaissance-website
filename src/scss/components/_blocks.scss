@@ -51,6 +51,19 @@
     font-weight: 700;
     font-style: italic;
   }
+
+  #tweet-post {
+    .interact{
+      display: none;
+    }
+    .tweet {
+      margin-bottom: 0;
+    }
+    ul {
+      @extend .no-bullet;
+      margin-bottom: 0;
+    }
+  }
 }
 
 .block-icon-list {
