@@ -1,4 +1,5 @@
 {{ "<!-- Block contact -->" | safeHTML }}
+{{ with .GetPage "/"}}
 <section>
     <div class="grid-container full  block contact">
         <div class="grid-container">
@@ -16,4 +17,5 @@
         </div>
     </div>
 </section>
+{{end}}
 {{ "<!-- Block Contact -->" | safeHTML }}

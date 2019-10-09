@@ -73,7 +73,7 @@ collections:
             widget: "relation"
             collection: "testimonials"
             searchFields: ["name", "company"]
-            valueField: ["name", "profile", "position", "company"]
+            valueField: "name"
             displayFields: ["name", "company"]
           - {label: "Contact Section", name: contact, widget: object, fields: [
             {label: "Heading", name: "heading", widget: string},
@@ -85,6 +85,31 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Mission", name: clients, widget: object, fields: [
+              {label: "Image", name: "image", widget: "image"},
+              {label: "Heading", name: "heading", widget: string},
+              {label: "Text", name: "text", widget: "text"}
+          ]}
+          - {label: "Values", name: clients, widget: object, fields: [
+              {label: "Image", name: "image", widget: "image"},
+              {label: "Heading", name: "heading", widget: string, default: "Our Values"},
+              {label: "Text", name: "text", widget: "text"}
+          ]}
+          - {label: "Founder", name: clients, widget: object, fields: [
+              {label: "Image", name: "image", widget: "image"},
+              {label: "Heading", name: "heading", widget: string, default: "About the Founder"},
+              {label: "Founder Name", name: "founder_name", widget: string, default: "Stefano Petrullo"},
+              {label: "Text", name: "text", widget: "markdown"}
+          ]}
+          - {label: "Team", name: clients, widget: object, fields: [
+              {label: "Heading", name: "heading", widget: string, default: "The Team"},
+              {label: "Text", name: "text", widget: "text"},
+              {label: "Services List", name: "services_list", widget: "list", fields: [
+              {label: "Title" , name: "title" , widget: string},
+              {label: "text" , name: "text" , widget: text},
+              {label: "Icon" , name: "icon" , widget: image},
+              ]}
+          ]}
       - file: "site/content/services/_index.md"
         label: "Services Page"
         name: "services"

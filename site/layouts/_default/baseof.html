@@ -9,7 +9,7 @@
 
   <div class="off-canvas-content" data-off-canvas-content>
 
-        {{ block "navigation" . }}{{ partial "navigation" . }}{{end}}
+      {{ block "navigation" . }}{{ partial "navigation" . }}{{end}}
 
         <main>
           <div class="grid-container full">
@@ -17,6 +17,8 @@
               {{ block "main" . }}{{end}}
           </div>
         </main>
+
+        {{ block "pusher" . }}{{ partial "block-contact" .}}{{end}}
 
         {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 
