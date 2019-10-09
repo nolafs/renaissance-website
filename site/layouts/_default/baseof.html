@@ -10,10 +10,11 @@
   <div class="off-canvas-content" data-off-canvas-content>
 
       {{ block "navigation" . }}{{ partial "navigation" . }}{{end}}
+      {{ block "header" . }}{{ partial "header" . }}{{end}}
 
         <main>
           <div class="grid-container full">
-              {{ block "header" . }}{{ partial "header" . }}{{end}}
+
               {{ block "main" . }}{{end}}
           </div>
         </main>

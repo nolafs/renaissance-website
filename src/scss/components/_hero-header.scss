@@ -103,7 +103,25 @@
 }
 
 .header {
+
   color: $white;
+  padding-top: rem-calc(150);
+
+  > div {
+    position: relative;
+
+    > div {
+      position: relative;
+      z-index: 10;
+    }
+  }
+
+  .lightning {
+    position: absolute;
+    top: - rem-calc(200);
+    right: 0;
+    z-index: 1
+  }
 
   h1{
     color:$green;
@@ -117,4 +135,9 @@
     font-size: rem-calc(42);
     line-height: 1.43;
   }
+}
+
+main {
+  position: relative;
+  z-index: 10;
 }

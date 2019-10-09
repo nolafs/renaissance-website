@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="321" height="370" viewBox="0 0 321 370">
+    <defs>
+        <filter id="a" width="195.4%" height="177.4%" x="-47.7%" y="-38.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="20" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="20"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <path id="b" d="M.153 131.565c0 59.065 16.888 136.198 120.295 164.92V0C116.053 1.621.153 46.326.153 46.326v85.24z"/>
+        <path id="d" d="M.154 131.565c0 59.065 16.911 136.198 120.464 164.92V0C116.217 1.621.154 46.326.154 46.326v85.24z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" filter="url(#a)" transform="translate(40 17)">
+        <path fill="#FFF" fill-rule="nonzero" d="M241 46.25c.231 0-117.488-45.094-120.5-46.25C118.183.925-.231 46.25 0 46.25v85.1C0 190.319 16.917 267.325 120.5 296c103.351-28.675 120.268-107.07 120.268-164.65.232-29.137.232-85.1.232-85.1z"/>
+        <path fill="#CCC" fill-rule="nonzero" d="M0 131.35C0 190.32 16.987 267.326 121 296V0C116.579 1.619 0 46.25 0 46.25v85.1z"/>
+        <path fill="#9DC3C0" fill-rule="nonzero" d="M217.826 62.12c.232 0-94.862-38.194-97.413-39.12-2.087.695-97.645 37.5-97.413 37.268v71.528c0 49.537 9.742 117.13 97.413 141.204 87.44-24.074 97.413-92.824 97.413-141.204.232-24.537.232-69.676 0-69.676z"/>
+        <path fill="#42827D" fill-rule="nonzero" d="M120 23c-2.079.695-97.23 37.5-97 37.268v71.528c0 49.537 9.7 117.13 97 141.204V23z"/>
+        <g transform="translate(120)">
+            <mask id="c" fill="#fff">
+                <use xlink:href="#b"/>
+            </mask>
+            <path fill="#FFF" d="M-69.898 78.808l88.317 46.244L.544 143.474l44.424 45.524-78.987-41.5 18.618-18.23zM27.951 99.239l29.169 43.696-14.584 2.176 9.892 31.261-26.26-38.566 13.779-2.53zM31.212 198.604l-46.726 3.709 3.473-11.384-37.91-21.444 52.655 9.632-4.046 11.812z" mask="url(#c)"/>
+        </g>
+        <g opacity=".8">
+            <mask id="e" fill="#fff">
+                <use xlink:href="#d"/>
+            </mask>
+            <path fill="#9DC3C0" d="M49.998 78.808l88.44 46.244-17.9 18.422 44.488 45.524-79.1-41.5 18.645-18.23zM147.985 99.239l29.21 43.696-14.605 2.176 9.906 31.261-26.297-38.566 13.798-2.53zM151.25 198.604l-46.792 3.709 3.478-11.384-37.964-21.444 52.73 9.632-4.052 11.812z" mask="url(#e)"/>
+        </g>
+    </g>
+</svg>
