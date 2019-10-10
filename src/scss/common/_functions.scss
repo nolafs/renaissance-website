@@ -374,6 +374,10 @@
 
   .b-c-dark-gray {
     background-color: $dark-gray;
+    color: $white;
+    h1, h2, h3, h4 {
+      color: $white;
+    }
   }
   .b-c-medium-gray {
     background-color: $medium-gray;
@@ -384,6 +388,7 @@
 
   .b-c-blue {
     background-color: $blue;
+    color: $white;
   }
 
   .b-c-green {
@@ -392,6 +397,7 @@
 
   .b-c-black {
     background-color: $black;
+    color: $white;
   }
 
   .b-c-white {

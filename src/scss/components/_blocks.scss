@@ -8,6 +8,35 @@
       @extend .m-b-50;
     }
   }
+
+  &.block-image {
+    header{
+      h2{
+        color: $primary-color;
+      }
+    }
+
+    .content{
+      &:not(.sub){
+        p{
+          font-size: rem-calc(30);
+          font-family: $header-font-family;
+          font-weight: bold;
+        }
+      }
+      &.sub {
+        header {
+          h2{
+            color: black;
+            margin-bottom: 0;
+          }
+          h4{
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
 }
 
 #block-twitter {

@@ -5,6 +5,6 @@ export default {
     console.log('test')
   },
   finalize() {
-    const cc = new CC();
+    //const cc = new CC();
   },
 };
