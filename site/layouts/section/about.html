@@ -3,40 +3,46 @@
     {{ partial "block-image"  (dict "Id" "values" "Content" .Params.Values "Class" "b-c-blue" "first" "2" "second" "1") . }}
     {{ partial "block-image"  (dict "Id" "founder" "Content" .Params.Founder "Class" "b-c-white"  "first" "1" "second" "2") . }}
 
-<section>
-{{with .Params.team }}
-<div id="team" class="grid-container full block b-c-dark-gray">
-    <div class="grid-container">
-        <div class="grid-x">
-            <div class="cell small-12 medium-6 section-heading">
-                <h2>{{.heading}}</h2>
-                <p>{{.text | markdownify }}</p>
-            </div>
-        </div>
-        <div class="grid-x">
-            <div class="cell grid-padding-x medium-9 medium-offset-3 team-list">
-                <h3>Core team</h3>
-                <div class="grid-x grid-padding-x grid-margin-y small-up-2 medium-up-3 ">
-                    {{with .team_list}}
-                        {{ range . }}
-                        <div class="cell">
-                            <article>
-                                <div class="image">
-                                    <img src="{{.image}}" alt="{{.name}}">
+    {{ "<!-- Block Team -->" | safeHTML }}
+    <section>
+        {{with .Params.team }}
+        <div id="team" class="grid-container full block b-c-dark-gray">
+            <div class="grid-container">
+                <div class="grid-x">
+                    <div class="cell small-12 medium-6 section-heading">
+                        <h2>{{.heading}}</h2>
+                        <p>{{.text | markdownify }}</p>
+                    </div>
+                </div>
+                <div class="grid-x">
+                    <div class="cell grid-padding-x medium-9 medium-offset-3 team-list">
+                        <h3>Core team</h3>
+                        <div class="grid-x grid-padding-x grid-margin-y small-up-2 medium-up-3 ">
+                            {{with .team_list}}
+                                {{ range . }}
+                                <div class="cell">
+                                    <article>
+                                        <div class="image">
+                                            <img src="{{.image}}" alt="{{.name}}">
+                                        </div>
+                                        <header>
+                                            <h5>{{.name}}</h5>
+                                            <div class="position">{{.position}}</div>
+                                        </header>
+                                        <p>{{.text | markdownify }}</p>
+                                    </article>
                                 </div>
-                                <header>
-                                    <h5>{{.name}}</h5>
-                                    <div class="position">{{.position}}</div>
-                                </header>
-                                <p>{{.text | markdownify }}</p>
-                            </article>
+                                {{end}}
+                            {{end}}
                         </div>
-                        {{end}}
-                    {{end}}
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-{{end}}
+        {{end}}
+    </section>
+    {{ "<!-- Block Team -->" | safeHTML }}
+
+    {{ partial "block-services" . }}
+
 {{ end }}

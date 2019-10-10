@@ -1,0 +1,35 @@
+{{ "<!-- Block Services -->" | safeHTML }}
+{{with .GetPage "about" }}
+<section>
+    <div class="grid-container full  block services">
+        <div class="grid-container">
+            <div class="grid-x gid-padding-x text-center align-center">
+                <div class="cell small-12 medium-9 large-8">
+                    <h2>{{ .Params.why.heading}}</h2>
+                </div>
+            </div>
+            <div class="grid-x gid-padding-x text-center align-center">
+                <div class="cell small-12 medium-8 large-6 section-heading">
+                    <p>{{ .Params.why.text}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-container full  block services">
+        <div class="grid-container">
+            <div class="grid-x small-up-2 medium-up-3 large-up-5">
+                {{ range .Params.why.why_list }}
+                <div class="cell">
+                    <div class="card ">
+                        <div class="card-section">
+                            <img src="{{.icon}}" alt="{{.title}}">
+                        </div>
+                    </div>
+                </div>
+                {{end}}
+            </div>
+        </div>
+    </div>
+</section>
+{{end}}
+{{ "<!-- Block Services-->" | safeHTML }}
