@@ -1,0 +1,19 @@
+.team-list {
+
+  h3{
+
+  }
+  .image {
+    margin-bottom: $global-margin;
+  }
+  header {
+    h5 {
+      color: $primary-color;
+      margin-bottom: 0;
+      .position{
+        font-weight: 700;
+      }
+    }
+    margin-bottom: rem-calc(40);
+  }
+}

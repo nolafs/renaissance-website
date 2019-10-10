@@ -14,12 +14,23 @@
             </div>
         </div>
         <div class="grid-x">
-            <div class="cell medium-9 medium-offset-3">
+            <div class="cell grid-padding-x medium-9 medium-offset-3 team-list">
                 <h3>Core team</h3>
-                <div class="grid-x grid-padding-x grid-margin-y small-up-2 medium-up-3">
+                <div class="grid-x grid-padding-x grid-margin-y small-up-2 medium-up-3 ">
                     {{with .team_list}}
                         {{ range . }}
-                        <div class="cell"> test</div>
+                        <div class="cell">
+                            <article>
+                                <div class="image">
+                                    <img src="{{.image}}" alt="{{.name}}">
+                                </div>
+                                <header>
+                                    <h5>{{.name}}</h5>
+                                    <div class="position">{{.position}}</div>
+                                </header>
+                                <p>{{.text | markdownify }}</p>
+                            </article>
+                        </div>
                         {{end}}
                     {{end}}
                 </div>
