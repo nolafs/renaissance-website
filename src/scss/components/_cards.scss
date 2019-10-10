@@ -59,3 +59,24 @@
   display: flex;
   height: 100% !important;
 }
+
+.service-list {
+
+  .cell:nth-child(odd) {
+    .card {
+      background: $primary-color;
+      color: $white;
+
+      h3 {
+        color: $white;
+      }
+    }
+  }
+
+  .card {
+    box-shadow: none;
+    img{
+      max-width: rem-calc(70);
+    }
+  }
+}

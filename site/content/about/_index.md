@@ -15,7 +15,7 @@ values:
     Influencer relations. We are active in educating the industry in best
     practices through seminars and talks.
 founder:
-  founder_name: Stefano Petrullo
+  subheading: Stefano Petrullo
   heading: About the Founder
   image: /images/uploads/founder.jpg
   text: >-

@@ -17,12 +17,14 @@
     </div>
     <div class="grid-container full  block services">
         <div class="grid-container">
-            <div class="grid-x small-up-2 medium-up-3 large-up-5">
-                {{ range .Params.why.why_list . }}
+            <div class="grid-x small-up-2 medium-up-3 large-up-5 service-list" >
+                {{ range .Params.why.why_list }}
                 <div class="cell">
                     <div class="card ">
                         <div class="card-section">
                             <img src="{{.icon}}" alt="{{.title}}">
+                            <h3>{{.title}}</h3>
+                            <p>{{.text}}</p>
                         </div>
                     </div>
                 </div>
