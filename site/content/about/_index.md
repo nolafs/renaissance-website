@@ -61,5 +61,8 @@ why:
     - icon: /images/uploads/analysis.svg
       text: We are big picture focussed.
       title: Strategic
+    - icon: /images/uploads/brainstorm.svg
+      text: We are big picture focussed.
+      title: Creative
 ---
 We believe in ethical communications & transparent support for media in the interest of the client.
