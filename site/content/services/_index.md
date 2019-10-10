@@ -1,7 +1,5 @@
 ---
-title: "Services"
-date: 2019-10-03T08:54:28+01:00
-draft: false
+title: Services
 services:
   heading: Core Services
   services_list:
@@ -33,5 +31,26 @@ services:
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
         commodo consequat.
       title: Paid & Organic Influencer Planning
+other_services:
+  heading: Other Services
+  services_other_list:
+    - text: >-
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur.
+      title: Paid Media - Planning & Buying
+    - text: >-
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur.
+      title: Legal Services
+  subheader: fsfsfs
+  text: >
+    We are proud to offer the following services via management with curated,
+    established and trusted partners.
 ---
-
+From small studios to international publishers, we deliver measureable results.
