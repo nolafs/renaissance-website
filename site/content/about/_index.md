@@ -15,7 +15,7 @@ values:
     Influencer relations. We are active in educating the industry in best
     practices through seminars and talks.
 founder:
-  subheading: Stefano Petrullo
+  founder_name: Stefano Petrullo
   heading: About the Founder
   image: /images/uploads/founder.jpg
   text: >-
@@ -57,5 +57,9 @@ why:
     Renaissance’s approach is to plan with the pillars which are analogous to
     media in any shape or form whilst endeavouring to keep thing simple,
     integrated, and measurable.
+  why_list:
+    - icon: /images/uploads/analysis.svg
+      text: We are big picture focussed.
+      title: Strategic
 ---
 We believe in ethical communications & transparent support for media in the interest of the client.
