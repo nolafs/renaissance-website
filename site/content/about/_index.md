@@ -34,6 +34,19 @@ founder:
     Battalion 1944, Forgotton Anne amongst others …
 team:
   heading: The Team
+  team_list:
+    - image: /images/uploads/team_1.jpg
+      name: Stefano Petrullo
+      position: |+
+        Founder
+
+      text: >
+        After studying Game Design and gathering work experience in journalism
+        and a few odd jobs to start out in the Montreal games industry, Nicolas
+        was brought on the Square Enix Montreal team by Geneviève to help out
+        with community management, events management, PR and the production of
+        marketing content. Nicolas brings with him his impressive encyclopedic
+        knowledge of the video games industry.
   text: >-
     Renaissance comprises a core team and contributing consultants who
     collectively have decades of experience in games marketing, PR, product
