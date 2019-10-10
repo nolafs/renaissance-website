@@ -57,6 +57,15 @@ clients:
     - company: Billy Goat
       company_logo: /images/uploads/client-billygoat.jpg
       company_url: 'https://www.billygoat.tv/'
+    - company: Billy Goat
+      company_logo: /images/uploads/client-billygoat.jpg
+      company_url: 'http://www.google.co.uk'
+    - company: Square Enix Collective
+      company_logo: /images/uploads/client-squareenixcollective.jpg
+      company_url: 'http://www.google.co.uk'
+    - company: Koch Media
+      company_logo: /images/uploads/client-kochmedia.jpg
+      company_url: 'http://www.google.co.uk'
   clients_featured:
     - company: Edgecase
       company_logo: /images/uploads/client-edgecase.jpg
