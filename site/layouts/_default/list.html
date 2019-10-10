@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="grid-container block">
+    <div class="grid-x grid-padding-x grid-margin-y">
+        <div class="cell small-12">
+            {{ $paginator := .Paginate (where .Pages "Type" "case-studies") }}
+            {{ range $paginator.Pages }}
+
+            {{ .Render "summary" }}
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+{{ end }}
+
