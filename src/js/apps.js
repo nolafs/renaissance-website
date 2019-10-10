@@ -47,7 +47,8 @@ import home from './routes/home';
 const routes = new Router({
     // All pages
     common,
-    home
+    home,
+    contact
 });
 
 // Load Events
