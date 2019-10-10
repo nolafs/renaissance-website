@@ -138,7 +138,7 @@ collections:
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: text},
               {label: "Subheader", name: "subheader", widget: string},
-              {label: "Services List", name: "services_list", widget: "list", fields: [
+              {label: "Services List", name: "services_other_list", widget: "list", fields: [
               {label: "Title" , name: "title" , widget: string},
               {label: "text" , name: "text" , widget: text},
               ]}
