@@ -1,8 +1,8 @@
 Arguments: 
-  /Users/olaf/.nvm/versions/node/v10.9.0/bin/node /usr/local/Cellar/yarn/1.3.2/libexec/bin/yarn.js add jquery-twitter-fetcher
+  /Users/olaf/.nvm/versions/node/v10.9.0/bin/node /usr/local/Cellar/yarn/1.3.2/libexec/bin/yarn.js install
 
 PATH: 
-  /Users/olaf/.rbenv/shims:/Users/olaf/google-cloud-sdk/bin:/Users/olaf/.nvm/versions/node/v10.9.0/bin:/Applications/MAMP/bin/php/php7.1.19/bin:/Users/olaf/bin:/Users/olaf/.gem/ruby/2.3.0/bin:/Users/olaf/Library/Python/2.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Apple/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Volumes/Macintosh HD 2/Projects/renaissance-pr/node_modules/.bin:/Applications/MAMP/Library/bin/
+  /Users/olaf/.rbenv/shims:/Users/olaf/google-cloud-sdk/bin:/Users/olaf/.nvm/versions/node/v10.9.0/bin:/Applications/MAMP/bin/php/php7.1.19/bin:/Users/olaf/bin:/Users/olaf/.gem/ruby/2.3.0/bin:/Users/olaf/Library/Python/2.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Apple/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/MAMP/Library/bin/
 
 Yarn version: 
   1.3.2
@@ -80,19 +80,23 @@ npm manifest:
       "webpack-cli": "^3.1.2",
       "webpack-dev-server": "^3.8.1",
       "webpack-merge": "^4.1.4",
-      "whatwg-fetch": "^3.0.0"
+      "whatwg-fetch": "^3.0.0",
+      "cookieconsen": "3"
     },
     "dependencies": {
       "@babel/preset-react": "^7.0.0",
+      "cookieconsent": "3",
       "html-webpack-plugin": "^3.2.0",
       "jquery": "^3.4.1",
+      "masonry-layout": "^4.2.2",
       "netlify-cms": "^2.9.7",
       "netlify-cms-app": "^2.9.7",
       "react": "^16.10.1",
       "react-dom": "^16.10.1",
       "slate-edit-list": "^0.12.1",
       "terser-webpack-plugin": "^2.1.2",
-      "to-string-loader": "^1.1.5"
+      "to-string-loader": "^1.1.5",
+      "twitter-fetcher": "^18.0.2"
     },
     "resolutions": {
       "natives": "1.1.6"
@@ -2259,6 +2263,10 @@ Lockfile:
     version "0.4.0"
     resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.4.0.tgz#beb437e7022b3b6d49019d088665303ebe9c14ba"
   
+  cookieconsent@3:
+    version "3.1.1"
+    resolved "https://registry.yarnpkg.com/cookieconsent/-/cookieconsent-3.1.1.tgz#f90bfadcaeef7d2bdcdd8278257f7264cb5d6819"
+  
   copy-concurrently@^1.0.0:
     version "1.0.5"
     resolved "https://registry.yarnpkg.com/copy-concurrently/-/copy-concurrently-1.0.5.tgz#92297398cae34937fcafd6ec8139c18051f0b5e0"
@@ -2770,6 +2778,10 @@ Lockfile:
       inherits "^2.0.1"
       minimalistic-assert "^1.0.0"
   
+  desandro-matches-selector@^2.0.0:
+    version "2.0.2"
+    resolved "https://registry.yarnpkg.com/desandro-matches-selector/-/desandro-matches-selector-2.0.2.tgz#717beed4dc13e7d8f3762f707a6d58a6774218e1"
+  
   destroy@~1.0.4:
     version "1.0.4"
     resolved "https://registry.yarnpkg.com/destroy/-/destroy-1.0.4.tgz#978857442c44749e4206613e37946205826abd80"
@@ -3196,6 +3208,10 @@ Lockfile:
     version "1.8.1"
     resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   
+  ev-emitter@^1.0.0:
+    version "1.1.1"
+    resolved "https://registry.yarnpkg.com/ev-emitter/-/ev-emitter-1.1.1.tgz#8f18b0ce5c76a5d18017f71c0a795c65b9138f2a"
+  
   eventemitter3@^4.0.0:
     version "4.0.0"
     resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.0.tgz#d65176163887ee59f386d64c82610b696a4a74eb"
@@ -3563,6 +3579,12 @@ Lockfile:
       micromatch "^3.0.4"
       resolve-dir "^1.0.1"
   
+  fizzy-ui-utils@^2.0.0:
+    version "2.0.7"
+    resolved "https://registry.yarnpkg.com/fizzy-ui-utils/-/fizzy-ui-utils-2.0.7.tgz#7df45dcc4eb374a08b65d39bb9a4beedf7330505"
+    dependencies:
+      desandro-matches-selector "^2.0.0"
+  
   flat-cache@^2.0.1:
     version "2.0.1"
     resolved "https://registry.yarnpkg.com/flat-cache/-/flat-cache-2.0.1.tgz#5d296d6f04bda44a4630a301413bdbc2ec085ec0"
@@ -3736,6 +3758,10 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/get-proxy/-/get-proxy-2.1.0.tgz#349f2b4d91d44c4d4d4e9cba2ad90143fac5ef93"
     dependencies:
       npm-conf "^1.1.0"
+  
+  get-size@^2.0.2:
+    version "2.0.3"
+    resolved "https://registry.yarnpkg.com/get-size/-/get-size-2.0.3.tgz#54a1d0256b20ea7ac646516756202769941ad2ef"
   
   get-stdin@^4.0.1:
     version "4.0.1"
@@ -5184,6 +5210,13 @@ Lockfile:
     version "1.1.3"
     resolved "https://registry.yarnpkg.com/markdown-table/-/markdown-table-1.1.3.tgz#9fcb69bcfdb8717bfd0398c6ec2d93036ef8de60"
   
+  masonry-layout@^4.2.2:
+    version "4.2.2"
+    resolved "https://registry.yarnpkg.com/masonry-layout/-/masonry-layout-4.2.2.tgz#d57b44af13e601bfcdc423f1dd8348b5524de348"
+    dependencies:
+      get-size "^2.0.2"
+      outlayer "^2.1.0"
+  
   md5.js@^1.3.4:
     version "1.3.5"
     resolved "https://registry.yarnpkg.com/md5.js/-/md5.js-1.3.5.tgz#b5d07b8e3216e3e27cd728d72f70d1e6a342005f"
@@ -6220,6 +6253,14 @@ Lockfile:
     dependencies:
       os-homedir "^1.0.0"
       os-tmpdir "^1.0.0"
+  
+  outlayer@^2.1.0:
+    version "2.1.1"
+    resolved "https://registry.yarnpkg.com/outlayer/-/outlayer-2.1.1.tgz#29863b6de10ea5dadfffcadfa0d728907387e9a2"
+    dependencies:
+      ev-emitter "^1.0.0"
+      fizzy-ui-utils "^2.0.0"
+      get-size "^2.0.2"
   
   p-cancelable@^0.4.0:
     version "0.4.1"
@@ -9076,6 +9117,10 @@ Lockfile:
     version "0.14.5"
     resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
   
+  twitter-fetcher@^18.0.2:
+    version "18.0.2"
+    resolved "https://registry.yarnpkg.com/twitter-fetcher/-/twitter-fetcher-18.0.2.tgz#47aeff8f3ccbec54443d7f5a5e845ed5279c0b5f"
+  
   type-check@~0.3.2:
     version "0.3.2"
     resolved "https://registry.yarnpkg.com/type-check/-/type-check-0.3.2.tgz#5884cab512cf1d355e3fb784f30804b2b520db72"
@@ -9772,7 +9817,7 @@ Lockfile:
       fd-slicer "~1.1.0"
 
 Trace: 
-  Error: https://registry.yarnpkg.com/jquery-twitter-fetcher: Not found
+  Error: https://registry.yarnpkg.com/cookieconsen: Not found
       at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.3.2/libexec/lib/cli.js:62098:18)
       at Request.self.callback (/usr/local/Cellar/yarn/1.3.2/libexec/lib/cli.js:123085:22)
       at Request.emit (events.js:182:13)
