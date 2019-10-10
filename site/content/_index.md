@@ -66,6 +66,18 @@ clients:
     - company: Koch Media
       company_logo: /images/uploads/client-kochmedia.jpg
       company_url: 'http://www.google.co.uk'
+    - company: Wild River
+      company_logo: /images/uploads/client-wildriver.jpg
+      company_url: 'http://www.google.co.uk'
+    - company: Wired Productions
+      company_logo: /images/uploads/client-wired.jpg
+      company_url: 'http://www.google.co.uk'
+    - company: Green Man Gaming
+      company_logo: /images/uploads/client-greenman.jpg
+      company_url: 'http://www.google.co.uk'
+    - company: Green Man Gaming
+      company_logo: /images/uploads/client-greenman.jpg
+      company_url: 'http://www.google.co.uk'
   clients_featured:
     - company: Edgecase
       company_logo: /images/uploads/client-edgecase.jpg
