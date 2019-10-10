@@ -3,7 +3,7 @@ title: "Services"
 date: 2019-10-03T08:54:28+01:00
 draft: false
 services:
- heading: Core Services
+  heading: Core Services
   services_list:
     - icon: /images/uploads/icon.svg
       text: >-

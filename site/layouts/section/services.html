@@ -1,3 +1,32 @@
 {{ define "main" }}
-test
+{{ "<!-- Block Services -->" | safeHTML }}
+<section>
+    <div class="grid-container full block">
+        <div class="grid-container">
+            <h2>{{.Params.services.heading}}</h2>
+            <div class="grid-x grid-padding-x small-up-1 medium-up-2">
+                {{ range .Params.services.services_list}}
+                <div class="cell">
+                    <article>
+                        <img src="{{.icon}}" alt="{{.title}}">
+                        <h4>{{.title}}</h4>
+                        <p>{{.text}}</p>
+                    </article>
+                </div>
+                {{end}}
+            </div>
+        </div>
+    </div>
+</section>
+{{ "<!-- / Block Services -->" | safeHTML }}
+{{ "<!-- Block Services Other -->" | safeHTML }}
+<section>
+    <div class="grid-container full block b-c-dark-gray">
+        <div class="grid-container">
+            <div class="cell small-12 medium-6"></div>
+            <div class="cell small-12 medium-6"></div>
+        </div>
+    </div>
+</section>
+{{ "<!-- / Block Services Other -->" | safeHTML }}
 {{end}}
