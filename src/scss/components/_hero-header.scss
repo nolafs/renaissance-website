@@ -151,6 +151,21 @@
   }
 }
 
+.single-header{
+  padding-top: 15%;
+  small {
+    font-size: rem-calc(18);
+  }
+  h2{
+    margin-bottom: 0;
+  }
+  p{
+    font-size: rem-calc(18);
+    font-family: $body-font-family;
+    font-weight: normal;
+  }
+}
+
 main {
   position: relative;
   z-index: 10;
