@@ -2,7 +2,9 @@
 title: Beneath a Steel Sky
 date: 2019-10-08T13:05:29.906Z
 image: /images/uploads/case-beyondasteelsky.jpg
-project: GTM
+taxonomies:
+  category: HC
+testimonial: Olaf
 client: Revolution Software
 description: >-
   Revolution Software approached Renaissance to lead the global launch for
