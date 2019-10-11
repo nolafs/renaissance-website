@@ -5,13 +5,22 @@
             <div class="grid-x gid-padding-x text-center align-center">
                 <div class="cell small-12 medium-10 ">
                     {{ $filter := .Params.testimonial }}
-                    <ul class="no-bullet">
+                    <ul class="no-bullet testimonial-item">
                         {{with .Site.GetPage "testimonials" }}
                             {{ range where .Pages ".Params.name" $filter }}
                                     <li>
-                                        {{.Title}}
-                                        {{.Params.name}}
-                                        {{.Params.text |  markdownify }}
+                                        <div class="content">{{.Params.text |  markdownify }}</div>
+                                        <div class="profile">
+                                            <div class="profile-img">
+                                                <img class="image-round" src="{{.Params.profile}}" alt="{{.Params.name}}">
+                                            </div>
+                                            <div class="profile-name">
+                                                {{.Params.name}}
+                                            </div>
+                                            <div class="profile-position">
+                                                {{.Params.position}} of {{.Params.company}}
+                                            </div>
+                                        </div>
                                     </li>
                             {{end}}
                         {{end}}
