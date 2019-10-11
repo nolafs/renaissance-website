@@ -125,7 +125,7 @@
 
   &.single {
     padding-top: rem-calc(130);
-    padding-bottom: rem-calc(0);
+    padding-bottom: $global-margin;
     background: #42827d; /* Old browsers */
     background: linear-gradient(to bottom,  #42827d 0%,#42827d 60%,#ffffff 60%,#ffffff 100%);
   }

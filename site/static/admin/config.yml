@@ -17,15 +17,16 @@ collections:
 
       - {label: "Taxonomies", name: "taxonomies", widget: object , fields: [
                 {label: "Category", name: "category", widget: "select", options: [
-                  {label: "Go-to-market", value: "GTM" },
-                  {label: "Holistic Communication", value: "HC" },
-                  {label: "Product Management", value: "PM" },
+                  {label: "Go-to-market", value: "Go-to-market" },
+                  {label: "Holistic Communication", value: "Holistic Communication" },
+                  {label: "Product Management", value: "Product Management" },
               ]}
           ]}
       - {label: "Image", name: "image", widget: "image", required: true}
       - label: "Testimonial"
         name: "testimonial"
         widget: "relation"
+        required: false
         collection: "testimonials"
         searchFields: ["name", "company"]
         valueField: "name"
