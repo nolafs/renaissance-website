@@ -39,7 +39,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "categories"
     label: "Categories"
-    file: "site/data/categories.yaml"
+    files: "site/data/categories"
     identifier_field: name
     create: true
     editor:
