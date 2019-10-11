@@ -187,7 +187,7 @@ collections:
     files:
       - label: "Navigation"
         name: "navigation"
-        file: "_data/navigation.yml"
+        file: "site/data/navigation.yml"
         fields:
           - label: "Navigation Items"
             name: "items"
@@ -195,3 +195,13 @@ collections:
             fields:
               - {label: Name, name: name, widget: string}
               - {label: Link, name: link, widget: string}
+      - label: "contact"
+          name: "navigation"
+          file: "site/data/contact.yml"
+          fields:
+            - label: "Telephone"
+              name: "telephone"
+              widget: "list"
+            - label: "Emails"
+              name: "email"
+              widget: "list"
