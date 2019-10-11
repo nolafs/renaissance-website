@@ -21,10 +21,10 @@ collections:
         name: "categories"
         widget: "relation"
         required: false
-        collection: "config"
-        searchFields: ["casestudies.categories.name"]
-        valueField: "casestudies.categories.name"
-        displayFields: ["casestudies.categories.name"]
+        collection: "casestudiessettings"
+        searchFields: ["categories.name"]
+        valueField: "categories.name"
+        displayFields: ["categories.name"]
       - {label: "Image", name: "image", widget: "image", required: true}
       - label: "Testimonial"
         name: "testimonial"
@@ -225,16 +225,18 @@ collections:
               - label: "url"
                 name: "url"
                 widget: string
-      - label: "Case Studies"
-        name: "casestudies"
-        file: "site/data/case-studies.yaml"
-        fields:
-          - label: "Heading"
-            name: "heading"
-            widget: text
-          - label: "Categories"
-            name: "categories"
-            widget: list
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Value, name: value, widget: string}
+    - label: "Case Studies Settings"
+      name: "casestudiessettings"
+      file: "site/data/case-studies.yaml"
+      editor:
+        preview: false
+      fields:
+        - label: "Heading"
+          name: "heading"
+          widget: text
+        - label: "Categories"
+          name: "categories"
+          widget: list
+          fields:
+            - {label: Name, name: name, widget: string}
+            - {label: Value, name: value, widget: string}
