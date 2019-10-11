@@ -4,12 +4,15 @@
         <div class="grid-container">
             <div class="grid-x gid-padding-x text-center align-center">
                 <div class="cell small-12 medium-10 ">
-                    {{ .Params.testimonial}}
-                    {{ range where .Data.Pages "Type" "testimonials"}}
-                    {{ .Params.name }}
-                    {{ .Params.text }}
+                    {{ $filter := .Params.testimonial }}
+                    <ul>
+                    {{ range where .Data.Pages "Type" "testimonials" }}
+                        <li>
+                            {{ .Params.name }}
+                            {{ .Params.text }}
+                        </li>
                     {{ end }}
-
+                    </ul>
                 </div>
             </div>
         </div>
