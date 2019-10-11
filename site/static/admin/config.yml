@@ -39,7 +39,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "categories"
     label: "Categories"
-    file: "site/data/categories"
+    folder: "site/data/categories"
     create: true
     identifier_field: name
     fields:
