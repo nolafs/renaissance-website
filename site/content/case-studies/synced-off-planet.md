@@ -3,6 +3,7 @@ title: 'Synced: Off Planet'
 date: 2019-10-08T13:08:30.737Z
 categories: Go-to-Market
 image: /images/uploads/case-syncedoffplanet.jpg
+testimonial: Steve Folwell
 client: Tencent Games
 description: >-
   Tencent approached Renaissance to support the announcement of “Synced, Off
