@@ -1,8 +1,7 @@
 ---
 title: Private Division
 date: 2019-10-08T11:12:10.575Z
-taxonomies:
-  category: Holistic Communication
+categories: Go-to-Market
 image: /images/uploads/case-privatedivision.jpg
 testimonial: Steve Folwell
 client: Private Division
