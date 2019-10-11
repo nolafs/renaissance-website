@@ -39,7 +39,8 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "categories"
     label: "Categories"
-    folder: "site/content/categories"
+    folder: "site/data/categories"
+    extension: "yaml"
     identifier_field: name
     create: true
     editor:
