@@ -22,9 +22,9 @@ collections:
         widget: "relation"
         required: false
         collection: "config"
-        searchFields: ["case-studies.categories.name"]
-        valueField: "case-studies.categories.name"
-        displayFields: ["case-studies.categories.name"]
+        searchFields: ["casestudies.categories.name"]
+        valueField: "casestudies.categories.name"
+        displayFields: ["casestudies.categories.name"]
       - {label: "Image", name: "image", widget: "image", required: true}
       - label: "Testimonial"
         name: "testimonial"
@@ -226,7 +226,7 @@ collections:
                 name: "url"
                 widget: string
       - label: "Case Studies"
-        name: "case-studies"
+        name: "casestudies"
         file: "site/data/case-studies.yaml"
         fields:
           - label: "Heading"
