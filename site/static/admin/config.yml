@@ -40,14 +40,13 @@ collections:
   - name: "categories"
     label: "Categories"
     file: "site/data/categories.yaml"
+    identifier_field: name
     create: true
     editor:
       preview: false
     fields:
-      - {label: "Categories", widget: list, fields: [
-        {label: "Name", name: "name", widget: string},
-        {label: "Value", name: "value", widget: string}
-      ]}
+        - {label: "Name", name: "name", widget: string},
+        - {label: "Value", name: "value", widget: string}
   - name: "testimonials"
     label: "Testimonials"
     folder: "site/content/testimonials"
