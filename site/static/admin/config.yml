@@ -23,7 +23,7 @@ collections:
         required: false
         collection: "categories"
         searchFields: ["name"]
-        valueField: "name"
+        valueField: "value"
         displayFields: ["name"]
       - {label: "Image", name: "image", widget: "image", required: true}
       - label: "Testimonial"
