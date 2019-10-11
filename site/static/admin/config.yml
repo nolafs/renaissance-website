@@ -205,8 +205,8 @@ collections:
           - label: "Emails"
             name: "email"
             widget: "list"
-      - label: "contact"
-        name: "contact"
+      - label: "Social Media"
+        name: "socialmedia"
         file: "site/data/socialmedia.yaml"
         fields:
           - label: "Social Links"
