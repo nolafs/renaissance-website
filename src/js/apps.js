@@ -42,14 +42,16 @@ $(document).ready(function () {
 import Router from './util/Router';
 import common from './routes/common';
 import home from './routes/home';
-import contact from './routes/home';
+import contact from './routes/contact';
+import casestudies from './routes/casestudies';
 
 /** Populate Router instance with DOM routes */
 const routes = new Router({
     // All pages
     common,
     home,
-    contact
+    contact,
+    casestudies
 });
 
 // Load Events

@@ -1,16 +1,33 @@
+{{define "header"}}
+   {{ partial "header" (dict "Title" "Case Studies" "Content"  $.Site.Data.casestudies.heading) }}
+{{end}}
 {{ define "main" }}
 <div class="grid-container block">
+    <div id="filters" class="grid-x grid-padding-x grid-margin-y align-center-middle m-b-30">
+        <div class="cell shrink">
+            <a data-cat="all" href="#all">View all items</a>
+        </div>
+        {{range $cat := $.Site.Data.categories}}
+        <div class="cell shrink">
+            <a data-cat="{{$cat.value}}" href="#{{$cat.value}}">{{$cat.name}}</a>
+        </div>
+        {{end}}
+    </div>
 
-    <div class="grid-x grid-padding-x grid-margin-y">
-        <div class="cell small-12">
+    <div class="grid-container">
+        <div class="list grid-x grid-padding-x grid-margin-y small-up-2 medium-up-3">
             {{ $paginator := .Paginate (where .Pages "Type" "case-studies") }}
             {{ range $paginator.Pages }}
-
             {{ .Render "summary" }}
             {{ end }}
+            <div class="cell my-sizer-element"></div>
         </div>
-    </div>
-</div>
 
+    </div>
+
+</div>
+<div class="grid-x small-up-2 medium-up-3">
+
+</div>
 {{ end }}
 

@@ -6,7 +6,7 @@
         <div class="card-section">
             <div>
                     <header>
-                        <h3>{{ with .Params.project }}<small>{{ . }}</small>{{end}}{{ .Title }}</h3>
+                        <h3>{{ with .Params.categories }}<small>{{ . }}</small>{{end}}{{ .Title }}</h3>
                         {{ with .Params.client }} <div class="sub">{{ . }}</div>{{end}}
                     </header>
             </div>
@@ -14,7 +14,6 @@
                 <a href="{{ .RelPermalink }}" aria-label="View"><i class="fa fa-chevron-right"></i></a>
             </div>
         </div>
-
 </div>
 
 

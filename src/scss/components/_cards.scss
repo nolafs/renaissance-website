@@ -1,3 +1,37 @@
+.card-button {
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.4);
+  transition: 250ms all ease-in-out;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+
+  &:hover {
+    background: $primary-color;
+    color: $white;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.4);
+    transition: 250ms all ease-in-out;
+
+    header {
+      h3{
+        small {
+          color: $white;
+        }
+        color: $white;
+      }
+      .sub{
+        color: $white;
+      }
+
+    }
+    .icon-bottom {
+      a {
+        color: $primary-color;
+        background: $white;
+      }
+    }
+  }
+}
+
 .card {
   height: 100%;
   .card-section {
@@ -16,44 +50,9 @@
       color: $light-gray;
     }
   }
-
-  &.card-button {
-    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.4);
-    transition: 250ms all ease-in-out;
-    display: flex;
-    flex-wrap: wrap;
-    cursor: pointer;
-
-    &:hover {
-      background: $primary-color;
-      color: $white;
-      box-shadow: 0 0 0 rgba(0, 0, 0, 0.4);
-      transition: 250ms all ease-in-out;
-
-      header {
-        h3{
-          small {
-            color: $white;
-          }
-          color: $white;
-        }
-        .sub{
-          color: $white;
-        }
-
-      }
-      .icon-bottom {
-        a {
-          color: $primary-color;
-          background: $white;
-        }
-      }
-    }
-  }
-
-
-
 }
+
+
 
 .card-cell {
   display: flex;

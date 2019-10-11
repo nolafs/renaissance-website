@@ -245,8 +245,8 @@ collections:
                 name: "url"
                 widget: string
       - label: "Case Studies"
-        name: "casestudiessettings"
-        file: "site/data/case-studies.yaml"
+        name: "casestudies"
+        file: "site/data/casestudies.yaml"
         fields:
           - label: "Heading"
             name: "heading"
