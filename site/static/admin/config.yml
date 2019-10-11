@@ -195,7 +195,7 @@ collections:
             fields:
               - {label: Name, name: name, widget: string}
               - {label: Link, name: link, widget: string}
-      - label: "contact"
+      - label: "Contact"
         name: "contact"
         file: "site/data/contact.yaml"
         fields:
@@ -222,3 +222,15 @@ collections:
               - label: "url"
                 name: "url"
                 widget: string
+      - label: "Case Studies"
+        name: "case-studies"
+        fields:
+          - label: "Heading"
+            name: "heading"
+            widget: text
+          - label: "Categories"
+            name: "categories"
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Value, name: value, widget: string}
