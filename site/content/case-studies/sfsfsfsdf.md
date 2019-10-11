@@ -1,8 +1,10 @@
 ---
 title: Overcooked
 date: 2019-10-07T18:44:04.722Z
+taxonomies:
+  category: Go-to-market
 image: /images/uploads/case-overcooked.jpg
-project: GTM
+testimonial: Steve Folwell
 client: Team 17
 description: >-
   Team17 approached Renaissance to support the launch of Overcooked to get the
