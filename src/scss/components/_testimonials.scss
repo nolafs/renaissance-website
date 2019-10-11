@@ -1,0 +1,20 @@
+.testimonial-item {
+
+  margin-bottom: 0;
+
+  .content {
+    font-family: $header-font-weight;
+    font-weight: 700;
+    font-size: rem-calc(24);
+    font-style: italic;
+    margin-bottom: rem-calc(30);
+  }
+
+  .profile-img {
+    margin-bottom: rem-calc(10);
+  }
+
+  .profile-name {
+    font-weight: bold;
+  }
+}

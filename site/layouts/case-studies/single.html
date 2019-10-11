@@ -1,3 +1,7 @@
+{{ define "header" }}
+  {{ partial "header-single"  (dict "Content" .)}}
+{{end}}
+
 {{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
 <div class="grid-container block">
 <article class="content">
