@@ -22,9 +22,9 @@ collections:
         widget: "relation"
         required: false
         collection: "categories"
-        searchFields: ["categories.name"]
-        valueField: "categories.name"
-        displayFields: ["categories.name"]
+        searchFields: ["name"]
+        valueField: "name"
+        displayFields: ["name"]
       - {label: "Image", name: "image", widget: "image", required: true}
       - label: "Testimonial"
         name: "testimonial"
