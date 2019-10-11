@@ -17,9 +17,16 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: true}
       - {label: "Project Type", name: "project", widget: "select", options: [
         {label: "Go-to-market", value: "GTM" },
-        {label: "Go-to-market", value: "GTM" },
-        {label: "Go-to-market", value: "GTM" },
+        {label: "Holistic Communication", value: "HC" },
+        {label: "Product Management", value: "PM" },
         ]}
+      - label: "Testimonial"
+        name: "testimonial"
+        widget: "relation"
+        collection: "testimonials"
+        searchFields: ["name", "company"]
+        valueField: "name"
+        displayFields: ["name", "company"]
       - {label: "Client", name: "client", widget: "string", required: true}
       - {label: "Intro", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}

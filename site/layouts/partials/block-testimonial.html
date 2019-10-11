@@ -1,9 +1,14 @@
 {{ "<!-- Block Testimonial -->" | safeHTML }}
 <section>
-    <div class="grid-container full  block testiminal">
+    <div id="testimonial" class="grid-container full b-c-dark-gray block">
         <div class="grid-container">
             <div class="grid-x gid-padding-x text-center align-center">
                 <div class="cell small-12 medium-10 ">
+                    {{ .Params.testimonial}}
+                    {{ range where .Data.Pages "Type" "testimonials"}}
+                    {{ .Params.name }}
+                    {{ .Params.text }}
+                    {{ end }}
 
                 </div>
             </div>
