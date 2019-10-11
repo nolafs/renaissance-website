@@ -1,8 +1,7 @@
 ---
 title: Yooka-Laylee
 date: 2019-10-07T18:44:04.722Z
-taxonomies:
-  category: Product Management
+categories: holistic-communication
 image: /images/uploads/case-yookalaylee.jpg
 client: Team 17
 description: >-
