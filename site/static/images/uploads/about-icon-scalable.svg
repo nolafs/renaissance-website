@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>scale</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ABOUT" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Renaissance---About---Desktop" transform="translate(-824.000000, -5469.000000)" fill="#BBE3B7">
+            <g id="PILLARS" transform="translate(30.000000, 5130.000000)">
+                <g id="Pillar" transform="translate(744.000000, 290.000000)">
+                    <g id="scale" transform="translate(50.000000, 49.000000)">
+                        <path d="M63.722,50.9768 L18.718,50.9768 L18.718,5.974 L33.8708,5.974 L33.8708,0 L12.744,0 L12.744,12.7452 L0,12.7452 L0,69.6956 L56.9516,69.6956 L56.9516,56.9504 L69.6956,56.9504 L69.6956,35.826 L63.7216,35.826 L63.7216,50.9768 L63.722,50.9768 Z M50.9776,63.722 L5.974,63.722 L5.974,18.7192 L12.744,18.7192 L12.744,56.9508 L50.9776,56.9508 L50.9776,63.722 Z" id="Shape"></path>
+                        <polygon id="Path" points="44.4056 0 44.4056 5.974 59.498 5.974 39.1084 26.3636 43.3324 30.5872 63.722 10.1976 63.722 25.29 69.6956 25.29 69.6956 0"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
