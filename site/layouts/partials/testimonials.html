@@ -1,0 +1,21 @@
+{{ $filter := .filter }}
+{{with .content.GetPage "testimonials" }}
+<ul class="no-bullet testimonial-item">
+    {{ range where .Pages ".Params.name" $filter}}
+    <li>
+        <div class="content">{{.Params.text |  markdownify }}</div>
+        <div class="profile">
+            <div class="profile-img">
+                <img class="image-round" src="{{.Params.profile}}" alt="{{.Params.name}}">
+            </div>
+            <div class="profile-name">
+                {{.Params.name}}
+            </div>
+            <div class="profile-position">
+                {{.Params.position}} of {{.Params.company}}
+            </div>
+        </div>
+    </li>
+    {{end}}
+</ul>
+{{end}}
