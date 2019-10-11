@@ -21,10 +21,10 @@ collections:
         name: "categories"
         widget: "relation"
         required: false
-        collection: "casestudiessettings"
-        searchFields: ["categories.name"]
-        valueField: "categories.name"
-        displayFields: ["categories.name"]
+        collection: "config"
+        searchFields: ["case-studies.categories.name"]
+        valueField: "case-studies.categories.name"
+        displayFields: ["case-studies.categories.name"]
       - {label: "Image", name: "image", widget: "image", required: true}
       - label: "Testimonial"
         name: "testimonial"
@@ -37,6 +37,14 @@ collections:
       - {label: "Client", name: "client", widget: "string", required: true}
       - {label: "Intro", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "categories"
+    label: "Categories"
+    file: "site/data/categories"
+    create: true
+    identifier_field: name
+    fields:
+      - {label: "Name", name: "name", widget: string}
+      - {label: "Value", name: "value", widget: string}
   - name: "testimonials"
     label: "Testimonials"
     folder: "site/content/testimonials"
@@ -225,18 +233,10 @@ collections:
               - label: "url"
                 name: "url"
                 widget: string
-    - label: "Case Studies Settings"
-      name: "casestudiessettings"
-      file: "site/data/case-studies.yaml"
-      editor:
-        preview: false
-      fields:
-        - label: "Heading"
-          name: "heading"
-          widget: text
-        - label: "Categories"
-          name: "categories"
-          widget: list
-          fields:
-            - {label: Name, name: name, widget: string}
-            - {label: Value, name: value, widget: string}
+      - label: "Case Studies"
+        name: "casestudiessettings"
+        file: "site/data/case-studies.yaml"
+        fields:
+          - label: "Heading"
+            name: "heading"
+            widget: text
