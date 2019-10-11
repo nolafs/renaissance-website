@@ -21,10 +21,10 @@ collections:
         name: "categories"
         widget: "relation"
         required: false
-        collection: "config"
-        searchFields: ["case-studies.categories.name"]
-        valueField: "case-studies.categories.name"
-        displayFields: ["case-studies.categories.name"]
+        collection: "categories"
+        searchFields: ["categories.name"]
+        valueField: "categories.name"
+        displayFields: ["categories.name"]
       - {label: "Image", name: "image", widget: "image", required: true}
       - label: "Testimonial"
         name: "testimonial"
