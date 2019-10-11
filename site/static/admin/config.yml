@@ -41,6 +41,8 @@ collections:
     label: "Categories"
     folder: "site/data/categories"
     create: true
+    editor:
+      preview: false
     identifier_field: name
     fields:
       - {label: "Name", name: "name", widget: string}
@@ -49,6 +51,8 @@ collections:
     label: "Testimonials"
     folder: "site/content/testimonials"
     create: true
+    editor:
+      preview: false
     identifier_field: name
     fields:
       - {label: "Profile", name: "profile", widget: image}
@@ -104,6 +108,8 @@ collections:
       - file: "site/content/about/_index.md"
         label: "About Page"
         name: "about"
+        editor:
+          preview: false
         fields:
           - {label: Title, name: title, widget: string}
           - {label: "Body", name: "body", widget: "markdown"}
@@ -145,6 +151,8 @@ collections:
       - file: "site/content/services/_index.md"
         label: "Services Page"
         name: "services"
+        editor:
+          preview: false
         fields:
           - {label: Title, name: title, widget: string}
           - {label: "Body", name: "body", widget: "markdown"}
@@ -167,6 +175,8 @@ collections:
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
+        editor:
+          preview: false
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
