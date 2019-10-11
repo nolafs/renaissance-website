@@ -1,8 +1,7 @@
 ---
 title: Beneath a Steel Sky
 date: 2019-10-08T13:05:29.906Z
-taxonomies:
-  category: Go-to-market
+categories: Go-to-Market
 image: /images/uploads/case-beyondasteelsky.jpg
 testimonial: Olaf
 client: Revolution Software
