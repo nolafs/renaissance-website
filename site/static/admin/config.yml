@@ -9,12 +9,12 @@ site_url: https://eloquent-curran-2d10a7.netlify.com
 collections:
   - name: "case-studies" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Case Studies" # Used in the UI, ie.: "New Post"
+    label_singular: "Case Study"
     folder: "site/content/case-studies" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-
       - {label: "Taxonomies", name: "taxonomies", widget: object , fields: [
                 {label: "Category", name: "category", widget: "select", options: [
                   {label: "Go-to-market", value: "Go-to-market" },
@@ -180,3 +180,18 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: "Body", name: "body", widget: "markdown"}
+  - name: "config"
+    label: "Config"
+    editor:
+      preview: false
+    files:
+      - label: "Navigation"
+        name: "navigation"
+        file: "_data/navigation.yml"
+        fields:
+          - label: "Navigation Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Link, name: link, widget: string}
