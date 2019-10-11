@@ -43,7 +43,6 @@ collections:
     create: true
     editor:
       preview: false
-    identifier_field: name
     fields:
       - {label: "Categories", widget: list, fields: [
         {label: "Name", name: "name", widget: string},
