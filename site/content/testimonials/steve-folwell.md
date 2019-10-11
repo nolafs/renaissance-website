@@ -5,7 +5,7 @@ text: >-
   to understand your specific objectives, listen to users and provide early
   challenge. They are brilliant and thoughtful collaborators.
 name: Steve Folwell
-position: CEO of GREEN MAN GAMING
+position: CEO
 company: Green Man Gaming
 ---
 
