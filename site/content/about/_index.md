@@ -15,9 +15,9 @@ values:
     Influencer relations. We are active in educating the industry in best
     practices through seminars and talks.
 founder:
-  subheading: Stefano Petrullo
   heading: About the Founder
   image: /images/uploads/founder.jpg
+  subheading: Stefano Petrullo
   text: >-
     A passionate, optimistic,  extroverted observer of the media landscape.
 
@@ -41,6 +41,56 @@ team:
         Founder
 
       text: >
+        After studying Game Design and gathering work experience in journalism
+        and a few odd jobs to start out in the Montreal games industry, Nicolas
+        was brought on the Square Enix Montreal team by Geneviève to help out
+        with community management, events management, PR and the production of
+        marketing content. Nicolas brings with him his impressive encyclopedic
+        knowledge of the video games industry.
+    - image: /images/uploads/staff-keith-andrew.jpg
+      name: Keith Andrew
+      position: Media Relations
+      text: >-
+        After studying Game Design and gathering work experience in journalism
+        and a few odd jobs to start out in the Montreal games industry, Nicolas
+        was brought on the Square Enix Montreal team by Geneviève to help out
+        with community management, events management, PR and the production of
+        marketing content. Nicolas brings with him his impressive encyclopedic
+        knowledge of the video games industry.
+    - image: /images/uploads/staff-aaron-seaman.jpg
+      name: Aaron Seaman
+      position: Media Relations
+      text: >-
+        After studying Game Design and gathering work experience in journalism
+        and a few odd jobs to start out in the Montreal games industry, Nicolas
+        was brought on the Square Enix Montreal team by Geneviève to help out
+        with community management, events management, PR and the production of
+        marketing content. Nicolas brings with him his impressive encyclopedic
+        knowledge of the video games industry.
+    - image: /images/uploads/staff-greg-jones.jpg
+      name: Greg Jones
+      position: Influencer & Media Relations
+      text: >-
+        After studying Game Design and gathering work experience in journalism
+        and a few odd jobs to start out in the Montreal games industry, Nicolas
+        was brought on the Square Enix Montreal team by Geneviève to help out
+        with community management, events management, PR and the production of
+        marketing content. Nicolas brings with him his impressive encyclopedic
+        knowledge of the video games industry.
+    - image: /images/uploads/staff-andy-griffiths.jpg
+      name: Andy Griffiths
+      position: Influencer & Media Relations
+      text: >-
+        After studying Game Design and gathering work experience in journalism
+        and a few odd jobs to start out in the Montreal games industry, Nicolas
+        was brought on the Square Enix Montreal team by Geneviève to help out
+        with community management, events management, PR and the production of
+        marketing content. Nicolas brings with him his impressive encyclopedic
+        knowledge of the video games industry.
+    - image: /images/uploads/staff-matt-benson.jpg
+      name: Matt Benson
+      position: 'Commercial, Media & Strategy'
+      text: >-
         After studying Game Design and gathering work experience in journalism
         and a few odd jobs to start out in the Montreal games industry, Nicolas
         was brought on the Square Enix Montreal team by Geneviève to help out
