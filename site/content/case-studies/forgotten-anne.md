@@ -1,8 +1,7 @@
 ---
 title: Forgotten Anne
 date: 2019-10-04T08:50:26.838Z
-taxonomies:
-  category: Holistic Communication
+categories: holistic-communication
 image: /images/uploads/case-forgottenanne.jpg
 client: Square Enix Collective
 description: Square Enix Collective approached Renaissance to work on Forgotten Anne.
