@@ -1,8 +1,10 @@
 ---
 title: Private Division
 date: 2019-10-08T11:12:10.575Z
+taxonomies:
+  category: Holistic Communication
 image: /images/uploads/case-privatedivision.jpg
-project: GTM
+testimonial: Steve Folwell
 client: Private Division
 description: >-
   Renaissance has been appointed exclusively to work on Private Division’s
