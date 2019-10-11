@@ -17,13 +17,14 @@ collections:
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Taxonomies", name: "taxonomies", widget: object , fields: [
-                {label: "Category", name: "category", widget: "select", options: [
-                  {label: "Go-to-market", value: "Go-to-market" },
-                  {label: "Holistic Communication", value: "Holistic Communication" },
-                  {label: "Product Management", value: "Product Management" },
-              ]}
-          ]}
+      - label: "Categories"
+        name: "categories"
+        widget: "relation"
+        required: false
+        collection: "config"
+        searchFields: ["case-studies.categories.name"]
+        valueField: "case-studies.categories.name"
+        displayFields: ["case-studies.categories.name"]
       - {label: "Image", name: "image", widget: "image", required: true}
       - label: "Testimonial"
         name: "testimonial"
