@@ -10,6 +10,8 @@ collections:
   - name: "case-studies" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Case Studies" # Used in the UI, ie.: "New Post"
     label_singular: "Case Study"
+    editor:
+      preview: false
     folder: "site/content/case-studies" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
@@ -224,6 +226,7 @@ collections:
                 widget: string
       - label: "Case Studies"
         name: "case-studies"
+        file: "site/data/case-studies.yaml"
         fields:
           - label: "Heading"
             name: "heading"
