@@ -39,14 +39,16 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "categories"
     label: "Categories"
-    folder: "site/data/categories"
+    file: "site/data/categories.yaml"
     create: true
     editor:
       preview: false
     identifier_field: name
     fields:
-      - {label: "Name", name: "name", widget: string}
-      - {label: "Value", name: "value", widget: string}
+      - {label: "Categories", widget: list, fields: [
+        {label: "Name", name: "name", widget: string},
+        {label: "Value", name: "value", widget: string}
+      ]}
   - name: "testimonials"
     label: "Testimonials"
     folder: "site/content/testimonials"
