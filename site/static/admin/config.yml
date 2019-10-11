@@ -45,7 +45,7 @@ collections:
     editor:
       preview: false
     fields:
-        - {label: "Name", name: "name", widget: string},
+        - {label: "Name", name: "name", widget: string}
         - {label: "Value", name: "value", widget: string}
   - name: "testimonials"
     label: "Testimonials"
