@@ -196,15 +196,15 @@ collections:
               - {label: Name, name: name, widget: string}
               - {label: Link, name: link, widget: string}
       - label: "contact"
-          name: "contact"
-          file: "site/data/contact.yaml"
-          fields:
-            - label: "Telephone"
-              name: "telephone"
-              widget: "list"
-            - label: "Emails"
-              name: "email"
-              widget: "list"
+        name: "contact"
+        file: "site/data/contact.yaml"
+        fields:
+          - label: "Telephone"
+            name: "telephone"
+            widget: "list"
+          - label: "Emails"
+            name: "email"
+            widget: "list"
       - label: "contact"
         name: "contact"
         file: "site/data/socialmedia.yaml"
