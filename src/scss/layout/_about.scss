@@ -1,0 +1,21 @@
+#values {
+    .image-wrapper {
+      position: relative;
+
+      &:before {
+        @include pseudo();
+        background: url("/images/shield.svg")  no-repeat center center;
+        background-size: cover;
+        width: 241px;
+        height: 297px;
+        z-index: 10;
+        left: - rem-calc(241/2);
+        top: - rem-calc(200/2)
+      }
+
+      img {
+        position: absolute;
+        margin-top: -50%;
+      }
+    }
+}
