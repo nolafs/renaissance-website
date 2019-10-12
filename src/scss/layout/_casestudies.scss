@@ -1,0 +1,21 @@
+.casestudies {
+
+  .card-section {
+    h3 {
+      small{
+        font-size: 55%;
+        margin-bottom: rem-calc(5);
+      }
+      margin-bottom: 0;
+    }
+    .sub-heading {
+      color: $light-gray;
+    }
+
+    time{
+      font-size: 12px;
+      color: lighten($light-gray, 12);
+    }
+  }
+
+}

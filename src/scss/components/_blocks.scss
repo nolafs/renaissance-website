@@ -1,3 +1,16 @@
+.sub-card {
+  header {
+    h2{
+      color: black;
+      margin-bottom: 0;
+    }
+    h4{
+      color: $primary-color;
+    }
+  }
+}
+
+
 .block {
   padding-top: rem-calc(50);
   padding-bottom: rem-calc(50);
@@ -34,15 +47,7 @@
         }
       }
       &.sub {
-        header {
-          h2{
-            color: black;
-            margin-bottom: 0;
-          }
-          h4{
-            color: $primary-color;
-          }
-        }
+        @extend .sub-card;
       }
     }
   }
