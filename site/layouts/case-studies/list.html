@@ -17,8 +17,14 @@
     <div class="grid-container">
         <div class="list grid-x grid-padding-x grid-margin-y small-up-2 medium-up-3">
             {{ $paginator := .Paginate (where .Pages "Type" "case-studies") }}
-            {{ range $paginator.Pages }}
-            {{ .Render "summary" }}
+            {{ range $index, $content := $paginator.Pages }}
+            {{ $filter := .Params.categories}}
+            {{$cat := replace .Params.categories " " "-"}}
+            <div class="cell item item-{{$index}}" data-groups='["{{lower $cat}}"]' onclick="window.location='{{ .RelPermalink }}';">
+                {{with $content}}
+                {{ .Render "summary" }}
+                {{end}}
+            </div>
             {{ end }}
             <div class="cell my-sizer-element"></div>
         </div>

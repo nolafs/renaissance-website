@@ -106,3 +106,49 @@
   }
 
 }
+
+#block-contact {
+  background: url('/images/lightning-contact.png') no-repeat center center;
+  background-size: contain;
+  margin-top: $global-margin;
+}
+
+#block-services {
+  .block {
+    padding: rem-calc(50);
+
+    img{
+      margin-bottom: $global-margin;
+    }
+
+    @include breakpoint(large){
+      padding: rem-calc(100);
+    }
+  }
+
+
+
+  .cell:nth-child(1n+0) {
+    .block {
+      background-color: #d3d9e6;
+    }
+  }
+
+  .cell:nth-child(2n+0) {
+    .block {
+      background-color: $white;
+    }
+  }
+
+  .cell:nth-child(3n+0) {
+    .block {
+      background-color: #ddf1db;
+    }
+  }
+
+  .cell:nth-child(4n+0) {
+    .block {
+      background-color: #cde2e1;
+    }
+  }
+}

@@ -1,7 +1,7 @@
-{{ `<!--[if lt IE 10]>
+{{ "<!--[if lt IE 10]>" | safeHTML }}
 <div class="oldBrowser">
     <div class="content">
-        <h1>Biff Hugo Theme</h1>
+        <h1>{{ .Site.Title }}</h1>
 
         <h2>Old Browser</h2>
         You are using an <strong>outdated</strong> browser. Please update your browser.
@@ -29,4 +29,4 @@
         <div class="footer">For more information please visit <a href="http://browsehappy.com/">Browse Happy</a></div>
     </div>
 </div>
-<![endif]-->` | safeHTML }}
+{{ "<![endif]-->" | safeHTML }}
