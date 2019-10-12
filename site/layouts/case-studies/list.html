@@ -5,11 +5,11 @@
 <div class="grid-container block">
     <div id="filters" class="grid-x grid-padding-x grid-margin-y align-center-middle m-b-30">
         <div class="cell shrink">
-            <a data-cat="all" href="#all">View all items</a>
+            <a id="filter-all" data-cat="all" href="#all" class="isActive">View all items</a>
         </div>
         {{range $cat := $.Site.Data.categories}}
         <div class="cell shrink">
-            <a data-cat="{{$cat.value}}" href="#{{$cat.value}}">{{$cat.name}}</a>
+            <a id="filter-{{lower $cat.value}}"  data-cat="{{lower $cat.value}}" href="#{{lower $cat.value}}">{{$cat.name}}</a>
         </div>
         {{end}}
     </div>

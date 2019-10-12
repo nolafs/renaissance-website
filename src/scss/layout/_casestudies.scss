@@ -44,6 +44,16 @@
         transition: all 200ms ease-in-out;
       }
     }
+
+    &.isActive {
+      color: $primary-color;
+
+      &:after {
+        width: 100%;
+        height: rem-calc(3);
+        transition: all 200ms ease-in-out;
+      }
+    }
   }
 }
 
