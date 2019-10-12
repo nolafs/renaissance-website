@@ -1,6 +1,11 @@
 .block {
-  padding-top: rem-calc(100);
-  padding-bottom: rem-calc(100);
+  padding-top: rem-calc(50);
+  padding-bottom: rem-calc(50);
+
+  @include breakpoint(large){
+    padding-top: rem-calc(100);
+    padding-bottom: rem-calc(100);
+  }
 
   .section-heading{
     p{
@@ -22,6 +27,10 @@
           font-size: rem-calc(30);
           font-family: $header-font-family;
           font-weight: bold;
+
+          @include breakpoint(small only) {
+            font-size: rem-calc(24);
+          }
         }
       }
       &.sub {

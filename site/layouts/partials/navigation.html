@@ -6,7 +6,7 @@
 </div>
 
 <header id="header-menu" class="nav sticky-container">
-        <div class="top-bar sticky" >
+        <div class="top-bar sticky hide-for-small-only" >
             <div class="top-bar-left">
                 <ul class="menu">
                     <li class="menu-logo">
@@ -69,7 +69,7 @@
             </div>
         </div>
 
-        <div class="top-bar-small title-bar hide-on-load"  data-hide-for="medium">
+        <div class="top-bar-small title-bar  show-for-small-only" >
             <div class="grid-x grid-margin-x">
                 <div class="auto cell">
                     {{if .Site.Params.logo_images}}

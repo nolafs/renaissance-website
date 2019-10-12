@@ -18,6 +18,13 @@ h1{
   line-height: 1;
 }
 
+p{
+  strong{
+    font-weight: 700;
+    color: $primary-color;
+  }
+}
+
 h6{
   color: $primary-color;
   text-transform: uppercase;
