@@ -90,3 +90,32 @@
     }
   }
 }
+
+#list-grid {
+  .cell.expand {
+    width: 66.6666%;
+    .card-button {
+      position: relative;
+    }
+    .card-section {
+      position: absolute;
+      display: flex;
+      flex-direction: row;
+      bottom:0;
+      width: 100%;
+
+      header {
+        align-self: flex-start;
+      }
+
+      .icon-bottom{
+
+        flex: 1 0 0;
+      }
+
+      h3 {
+        color: $white;
+      }
+    }
+  }
+}

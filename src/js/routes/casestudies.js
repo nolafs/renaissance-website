@@ -5,13 +5,22 @@ export default {
     init() {
         // JavaScript to be fired on all pages
         console.log('case studies', window.location.hash.substr(1))
+
         let hash = window.location.hash.substr(1).toLowerCase()
         if(!hash){
             window.location.hash = "all";
             hash = "all"
+            $('#list-grid .item-0').addClass('expand');
         } else {
             $('#filters .isActive').removeClass('isActive');
             $(`#filter-${hash}`).addClass('isActive');
+            $('#list-grid').attr('data-filter', ''+hash)
+
+            if(hash === 'all'){
+                $('#list-grid .item-0').addClass('expand')
+            } else {
+                $('#list-grid .item-0').removeClass('expand')
+            }
         }
 
         $( window ).on( 'hashchange', function( e ) {
@@ -20,23 +29,28 @@ export default {
             if(hash !== temp) {
                 $('#filters .isActive').removeClass('isActive');
                 $(`#filter-${temp}`).addClass('isActive');
+                $('#list-grid').attr('data-filter', ''+temp)
+                if(temp === 'all'){
+                    $('#list-grid .item-0').addClass('expand')
+                } else {
+                    $('#list-grid .item-0').removeClass('expand')
+                }
             }
             hash = window.location.hash;
         } );
     },
     finalize() {
         // JavaScript to be fired on all pages, after page specific JS is fire
+        const hash = window.location.hash.substr(1).toLowerCase()
+
+
 
         setTimeout(() => {
-            const sizer = $('.my-sizer-element');
-
             const shuffle = new Shuffle($('.list'), {
                 itemSelector: '.item',
                 sizer:$('.my-sizer-element'),
                 useTransforms: true,
             });
-
-            const hash = window.location.hash.substr(1).toLowerCase()
 
             if(!hash || hash !== 'all'){
                 shuffle.filter(hash)
