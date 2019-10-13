@@ -25,9 +25,9 @@
     </div>
     <div class="grid-container full  block client-list">
         <div class="grid-container slick-slider">
+            {{ $length := .Params.clients.slider_num | default 3}}
             {{with .Params.clients.clients}}
                 {{ $clients := .}}
-                {{ $length := 6}}
                 {{ range $index, $items := . }}
                 {{if eq (mod $index $length ) 0}}
                     <div class="slice-item">
@@ -41,7 +41,6 @@
                             {{else}}
                                 {{ range first $length (after $index $clients)}}
                                     <div class="cell">
-                                        index {{$index }}
                                         {{ partial "client-link" .}}
                                     </div>
                                 {{end}}

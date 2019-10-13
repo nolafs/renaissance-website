@@ -25,7 +25,9 @@ export default {
 
         $('.slick-slider').slick({
             arrows: false,
-            dots: true
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 2500,
         });
     },
 };
