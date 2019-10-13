@@ -186,6 +186,9 @@
   position:fixed;
   width:100%;
   z-index: 100;
+  .grid-x{
+    width: 100%;
+  }
   .logo-main > img{
     max-width: rem-calc(180);
   }
@@ -199,5 +202,31 @@
 .off-canvas{
   ul.sub{
     padding-left: rem-calc(20);
+  }
+}
+
+.menu-icon {
+  width: 25px;
+  &:after {
+    display: none;
+  }
+  text-align: right;
+  line-height: 4px;
+  div {
+    display: inline-block;
+    height: 4px;
+    width: 100%;
+    background-color: $black;
+  }
+
+  .bar-1 {
+    width: 80%;
+  }
+
+  .bar-2 {
+  }
+
+  .bar-3 {
+    width: 50%;
   }
 }

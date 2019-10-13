@@ -71,8 +71,10 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
     privacyEnhanced = false
 
 [params]
-    custom_navbar= true
+    custom_navbar= false
+    cms_navbar = true
     description = "Count on our PR agency to provide exclusive video game PR services at competitive prices. Call us on 01483 665493 for more information."
     logo_large="/images/logo-full.png"
     logo_small="/images/logo-icon.png"
+    logo_mobile="/images/logo-mobile.png"
     logo_large_invert="/images/logo-icon.png"

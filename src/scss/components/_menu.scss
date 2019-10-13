@@ -95,4 +95,34 @@
   }
 }
 
+.footer-menu {
+  .menu .active > a{
+    background: transparent;
+  }
+}
+
+.off-canvas.is-transition-overlap {
+  z-index: 999999;
+}
+
+.off-canvas {
+  img{
+    max-width: 60px;
+    margin: 15px;
+  }
+  ul{
+    margin-top: 20px;
+    border-top: 1px solid #f6f6f6;
+    padding-top: 15px;
+
+    li {
+      border-bottom: 1px solid #f6f6f6;
+    }
+  }
+
+  .vertical.menu li {
+    padding: 15px 30px;
+  }
+}
+
 

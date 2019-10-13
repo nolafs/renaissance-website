@@ -93,6 +93,10 @@
     font-size: rem-calc(24);
     font-weight: 700;
     font-style: italic;
+
+    @include breakpoint(small only){
+      font-size: rem-calc(20);
+    }
   }
 
   #tweet-post {

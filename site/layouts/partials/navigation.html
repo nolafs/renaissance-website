@@ -27,6 +27,7 @@
             <div class="top-bar-right">
             <ul class="dropdown menu" data-dropdown-menu>
                 {{ if not (.Site.Params.custom_navbar) }}
+                {{ if not (.Site.Params.cms_navbar) }}
                 <li class="{{ if .IsHome }}active{{ end }}"><a href="{{ .Site.BaseURL | absLangURL }}">
                     {{ i18n "home" }} </a>
                     {{ if .Site.Menus.home}}
@@ -38,21 +39,31 @@
                     {{ end}}
                 </li>
                 {{ end }}
+                {{ end }}
                 {{ if .Site.Params.custom_navbar }}
-                {{ range .Site.Menus.navbar }}
-
-                <li >
-                    <a href="{{.URL}}">
-                        {{ .Name }}
-                    </a>
-                </li>
-                {{ end }}
+                    {{ range .Site.Menus.navbar }}
+                    <li >
+                        <a href="{{.URL}}">
+                            {{ .Name }}
+                        </a>
+                    </li>
+                    {{ end }}
                 {{ else }}
-                {{ range where .Site.Pages "Type" "!=" "post" }}
-                <li><a href="{{ .Permalink }}">
-                    {{ .Title }}
-                </a></li>
-                {{ end }}
+                    {{ if not (.Site.Params.cms_navbar) }}
+                        {{ range where .Site.Pages "Type" "!=" "post" }}
+                        <li><a href="{{ .Permalink }}">
+                            {{ .Title | markdownify}}
+                        </a></li>
+                        {{ end }}
+                    {{else}}
+
+                            {{ range $.Site.Data.navigation.items}}
+                            <li><a href="{{ .link }}">
+                                {{ .name | markdownify}}
+                            </a></li>
+                            {{ end }}
+
+                    {{end}}
                 {{ end }}
                 {{ if .IsTranslated }}
                 <li>
@@ -70,19 +81,83 @@
         </div>
 
         <div class="top-bar-small title-bar  show-for-small-only" >
-            <div class="grid-x grid-margin-x">
+            <div class="grid-x">
                 <div class="auto cell">
-                    {{if .Site.Params.logo_images}}
-                    <a href="{{ .Site.BaseURL }}" rel="home" class="logo-main"><img src="{{ .Site.Params.logo_small}}" alt="{{ .Site.Title | safeHTML }}"></a>
+                    {{if .Site.Params.logo_mobile}}
+                    <a href="{{ .Site.BaseURL }}" rel="home" class="logo-main"><img src="{{ .Site.Params.logo_mobile}}" alt="{{ .Site.Title | safeHTML }}"></a>
                     {{else}}
                     <a href="{{ .Site.BaseURL | absLangURL }}">
                         {{ .Site.Title | safeHTML }}
                     </a>
                     {{end}}
                 </div>
-                <div class="shrink cell align"><button class="menu-icon" type="button" data-toggle="offCanvas"></button></div>
+                <div class="shrink cell text-right">
+                    <button class="menu-icon" type="button" data-toggle="offCanvas">
+                        <div class="bar-1"></div>
+                        <div class="bar-2"></div>
+                        <div class="bar-3"></div>
+                    </button>
+                </div>
             </div>
         </div>
+        <div class="off-canvas position-right" id="offCanvas" data-off-canvas>
+            {{if .Site.Params.logo_large_invert}}
+            <a href="{{ .Site.BaseURL }}" rel="home" class="logo-invert"><img src="{{ .Site.Params.logo_large_invert}}" alt="{{ .Site.Title | safeHTML }}"></a>
+            {{end}}
+            <!-- Your menu or Off-canvas content goes here -->
+            <ul class="menu vertical">
+                {{ if not (.Site.Params.custom_navbar) }}
+                {{ if not (.Site.Params.cms_navbar) }}
+                <li class="{{ if .IsHome }}active{{ end }}"><a href="{{ .Site.BaseURL | absLangURL }}">
+                    {{ i18n "home" }} </a>
+                    {{ if .Site.Menus.home}}
+                    <ul class="menu submenu" data-smooth-scroll>
+                        {{ range .Site.Menus.home }}
+                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                        {{end}}
+                    </ul>
+                    {{ end}}
+                </li>
+                {{ end }}
+                {{ end }}
+                {{ if .Site.Params.custom_navbar }}
+                {{ range .Site.Menus.navbar }}
+                <li >
+                    <a href="{{.URL}}">
+                        {{ .Name }}
+                    </a>
+                </li>
+                {{ end }}
+                {{ else }}
+                {{ if not (.Site.Params.cms_navbar) }}
+                {{ range where .Site.Pages "Type" "!=" "post" }}
+                <li><a href="{{ .Permalink }}">
+                    {{ .Title | markdownify}}
+                </a></li>
+                {{ end }}
+                {{else}}
 
+                {{ range $.Site.Data.navigation.items}}
+                <li><a href="{{ .link }}">
+                    {{ .name | markdownify}}
+                </a></li>
+                {{ end }}
+
+                {{end}}
+                {{ end }}
+                {{ if .IsTranslated }}
+                <li>
+                    <div id="languages">
+
+                        {{ range $i, $e := .Translations }}
+                        {{ if $i }}|{{ end }}<a href="{{ .Permalink }}">{{ $e.Language.LanguageName }}</a>
+                        {{ end}}
+
+                    </div>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        </div>
 </header>
 {{ "<!-- /navigation - button -->" | safeHTML }}
