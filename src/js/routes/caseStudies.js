@@ -10,7 +10,6 @@ export default {
         if(!hash){
             window.location.hash = "all";
             hash = "all"
-            $('#list-grid .item-0').addClass('expand');
         } else {
             $('#filters .isActive').removeClass('isActive');
             $(`#filter-${hash}`).addClass('isActive');
@@ -30,11 +29,7 @@ export default {
                 $('#filters .isActive').removeClass('isActive');
                 $(`#filter-${temp}`).addClass('isActive');
                 $('#list-grid').attr('data-filter', ''+temp)
-                if(temp === 'all'){
-                    $('#list-grid .item-0').addClass('expand')
-                } else {
-                    $('#list-grid .item-0').removeClass('expand')
-                }
+
             }
             hash = window.location.hash;
         } );
@@ -62,6 +57,13 @@ export default {
                 const cat = (b.data('cat')).toLowerCase();
                 console.log(cat);
                 window.location.hash = cat;
+
+                if(cat === 'all'){
+                    $('#list-grid .item-0').addClass('expand')
+                } else {
+                    $('#list-grid .item-0').removeClass('expand')
+                }
+
                 if(cat !== 'all') {
                     shuffle.filter(cat)
                 } else {

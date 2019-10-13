@@ -94,6 +94,11 @@
 #list-grid {
   .cell.expand {
     width: 66.6666%;
+
+    @include breakpoint(small only){
+      width: 100%;
+    }
+
     .card-button {
       position: relative;
     }

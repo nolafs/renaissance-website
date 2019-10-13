@@ -43,7 +43,7 @@ import Router from './util/Router';
 import common from './routes/common';
 import home from './routes/home';
 import contact from './routes/contact';
-import casestudies from './routes/casestudies';
+import caseStudies from './routes/caseStudies';
 
 /** Populate Router instance with DOM routes */
 const routes = new Router({
@@ -51,7 +51,7 @@ const routes = new Router({
     common,
     home,
     contact,
-    casestudies
+    caseStudies
 });
 
 // Load Events

@@ -53,6 +53,8 @@
 // @include motion-ui-transitions;
 // @include motion-ui-animations;
 
+@import "~slick-carousel/slick/slick";
+
 // theme specifics
 @import "fonts";
 @import "common/functions";
@@ -74,6 +76,7 @@
 @import "components/team";
 @import "components/testimonials";
 @import "components/hero-header";
+@import "components/slider";
 
 @import "layout/home";
 @import "layout/about";

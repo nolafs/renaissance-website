@@ -20,7 +20,7 @@
             {{ range $index, $content := $paginator.Pages }}
             {{ $filter := .Params.categories}}
             {{$cat := replace .Params.categories " " "-"}}
-            <div class="cell item item-{{$index}}" data-groups='["{{lower $cat}}"]' onclick="window.location='{{ .RelPermalink }}';">
+            <div class="cell item item-{{$index}} {{if eq $index  0 }}expand{{end}}" data-groups='["{{lower $cat}}"]' onclick="window.location='{{ .RelPermalink }}';">
                 {{with $content}}
                 {{ .Render "summary" }}
                 {{end}}

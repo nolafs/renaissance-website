@@ -32,7 +32,7 @@ class Router {
         fn: event,
       },
     }));
-    
+
     const fire = route !== '' && this.routes[route] && typeof this.routes[route][event] === 'function';
     if (fire) {
       this.routes[route][event](arg);

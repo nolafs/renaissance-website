@@ -1,4 +1,6 @@
 import twitterFetcher from 'twitter-fetcher';
+import $ from 'jquery';
+import 'slick-carousel';
 
 export default {
     init() {
@@ -20,5 +22,10 @@ export default {
         };
         twitterFetcher.fetch(configProfile);
 
+
+        $('.slick-slider').slick({
+            arrows: false,
+            dots: true
+        });
     },
 };

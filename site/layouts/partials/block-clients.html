@@ -24,16 +24,33 @@
         {{ "<!--/ Featured -->" | safeHTML }}
     </div>
     <div class="grid-container full  block client-list">
-        <div class="grid-container">
-            <div class="grid-x gid-padding-x small-up-2 medium-up-4 large-up-6 align-center">
-                {{with .Params.clients.clients}}
-                {{ range  . }}
-                <div class="cell">
-                    {{ partial "client-link" . }}
-                </div>
+        <div class="grid-container slick-slider">
+            {{with .Params.clients.clients}}
+                {{ $clients := .}}
+                {{ $length := 6}}
+                {{ range $index, $items := . }}
+                {{if eq (mod $index $length ) 0}}
+                    <div class="slice-item">
+                        <div class="grid-x gid-padding-x small-up-2 medium-up-4 large-up-6 align-center">
+                            {{if eq $index 0}}
+                                {{ range first $length $clients}}
+                                    <div class="cell">
+                                        {{ partial "client-link" .}}
+                                    </div>
+                                {{end}}
+                            {{else}}
+                                {{ range first $length (after $index $clients)}}
+                                    <div class="cell">
+                                        index {{$index }}
+                                        {{ partial "client-link" .}}
+                                    </div>
+                                {{end}}
+                            {{end}}
+                            </div>
+                        </div>
+                    {{end}}
                 {{end}}
-                {{end}}
-            </div>
+            {{end}}
         </div>
     </div>
 </section>

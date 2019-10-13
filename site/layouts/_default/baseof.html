@@ -2,8 +2,7 @@
 <html lang="{{ $.Site.Language.Lang }}">
 
 {{ block "head" . }}{{ partial "head" . }}{{end}}
-{{$pageId := replace .Title " " "" }}
-<body class="default {{ if .IsHome }}home{{else}}{{lower $pageId}}{{end}}" data-animation="true">
+<body class="default {{ if .IsHome }}home{{else}}{{.Title | urlize }}{{end}}" data-animation="true">
 
 {{ partial "old-browser.html" . }}
 

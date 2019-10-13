@@ -77,6 +77,7 @@
     "react-dom": "^16.10.1",
     "shufflejs": "^5.2.3",
     "slate-edit-list": "^0.12.1",
+    "slick-carousel": "^1.8.1",
     "terser-webpack-plugin": "^2.1.2",
     "to-string-loader": "^1.1.5",
     "twitter-fetcher": "^18.0.2"
