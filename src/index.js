@@ -38,11 +38,11 @@ import 'foundation-sites/dist/js/plugins/foundation.util.imageLoader.min';
  =========================================================================== */
 
 import { library, dom } from "@fortawesome/fontawesome-svg-core";
-import { faFacebook, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faTwitter, faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import { faCheck , faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 
-library.add(faCheck, faChevronRight, faTwitter, faFacebook);
+library.add(faCheck, faChevronRight, faTwitter, faFacebookF );
 
 dom.watch();
 /* ===========================================================================
