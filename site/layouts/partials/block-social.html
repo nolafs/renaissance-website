@@ -1,0 +1,29 @@
+{{$perma := .Permalink | absURL}}
+{{$host := .Site.Params.host_name }}
+<div class="single-social-share">
+    <ul class="no-bullet">
+        {{ range $media := $.Site.Data.socialmedia.links}}
+        <li class="">
+            <div class="social-block {{$media.type | urlize}}">
+            {{if eq $media.type "Facebook" }}
+                {{with $media }}
+                {{$link := "https://www.facebook.com/sharer/sharer.php?u="}}
+                 {{ block "social-link" (dict "content" . "shareLink" $link "perma" $perma "host" $host) }} {{end}}
+                {{end}}
+            {{end}}
+            {{if eq $media.type "Twitter" }}
+                {{$link := "http://twitter.com/share?text=test&url="}}
+                {{with $media }}
+                    {{ block "social-link" (dict "content" . "shareLink" $link "perma" $perma "host" $host)}} {{end}}
+                {{end}}
+            {{end}}
+            </div>
+        </li>
+        {{ end }}
+    </ul>
+</div>
+
+{{define "social-link"}}
+<a href="{{.shareLink}}{{.host}}{{ .perma }}"
+   aria-label="{{.content.type}}" target="_blank"><i class="icon fab fa-{{.content.id | urlize}}"></i></a>
+{{end}}

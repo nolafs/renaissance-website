@@ -73,6 +73,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 [params]
     custom_navbar= false
     cms_navbar = true
+    host_name = "https://eloquent-curran-2d10a7.netlify.com"
     description = "Count on our PR agency to provide exclusive video game PR services at competitive prices. Call us on 01483 665493 for more information."
     logo_large="/images/logo-full.png"
     logo_small="/images/logo-icon.png"
