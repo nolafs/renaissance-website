@@ -37,6 +37,26 @@
   }
 }
 
+.secondary {
+  .menu{
+    li {
+      @include breakpoint(small only){
+        a {
+          padding-left: 0;
+        }
+      }
+    }
+  }
+}
+
+.footer-menu{
+  li{
+    a {
+      padding-left: 0;
+    }
+  }
+}
+
 #TableOfContents{
   ul {
     @extend .vertical;

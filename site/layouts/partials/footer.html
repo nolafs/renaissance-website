@@ -12,7 +12,7 @@
                     <ul class="menu vertical"  data-smooth-scroll>
 
                         {{ if not (.Site.Params.custom_navbar) }}
-
+                        {{ if not (.Site.Params.cms_navbar) }}
                         <li class="{{ if .IsHome }}active{{ end }}"><a href="{{ .Site.BaseURL | absLangURL }}">
                             {{ i18n "home" }} </a>
                             {{ if .Site.Menus.home}}
@@ -23,8 +23,19 @@
                             </ul>
                             {{ end}}
                         </li>
+                        {{end}}
+                        {{end}}
+
+                        {{ if .Site.Params.cms_navbar }}
+
+                        {{ range $.Site.Data.navigation.items}}
+                        <li><a href="{{ .link }}">
+                            {{ .name | markdownify}}
+                        </a></li>
+                        {{ end }}
 
                         {{end}}
+
 
                         {{ if .Site.Params.custom_navbar }}
                             {{ range .Site.Menus.navbar }}
@@ -39,22 +50,28 @@
                     </ul>
                 </div>
                 <div class="cell contacts">
-                    <h6>
-                        Telephone
-                    </h6>
-                    <ul class="no-bullet">
-                        {{ range $tel := $.Site.Data.contact.telephone}}
-                        <li><a href="tel:{{$tel}}">{{$tel}}</a></li>
-                        {{ end }}
-                    </ul>
-                    <h6>
-                        Email
-                    </h6>
-                    <ul class="no-bullet">
-                        {{ range $mail := $.Site.Data.contact.email}}
-                        <li><a href="mailto:{{$mail}}">{{$mail}}</a></li>
-                        {{ end }}
-                    </ul>
+                    <div class="grid-x">
+                        <div class="cell small-6 medium-12">
+                            <h6>
+                                Telephone
+                            </h6>
+                            <ul class="no-bullet">
+                                {{ range $tel := $.Site.Data.contact.telephone}}
+                                <li><a href="tel:{{$tel}}">{{$tel}}</a></li>
+                                {{ end }}
+                            </ul>
+                        </div>
+                        <div class="cell small-6 medium-12">
+                            <h6>
+                                Email
+                            </h6>
+                            <ul class="no-bullet">
+                                {{ range $mail := $.Site.Data.contact.email}}
+                                <li><a href="mailto:{{$mail}}">{{$mail}}</a></li>
+                                {{ end }}
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                 <div class="cell footer-social-media">
                     <h6>
@@ -67,8 +84,8 @@
                     </ul>
                 </div>
             </div>
-            <div class="grid-x">
-                <div class="cell small-12 medium-6">
+            <div class="grid-x secondary">
+                <div class="cell small-12 medium-6 text-left medium-text-left">
                     <ul class="menu">
                         {{ range .Site.Menus.secondary }}
                         <li >
@@ -79,7 +96,7 @@
                         {{ end }}
                     </ul>
                 </div>
-                <div class="cell small-12 medium-6 text-right">
+                <div class="cell small-12 medium-6 text-left medium-text-right">
                     Website by <a href="https://www.biffnewmedia.com">Biff New Media</a>
                 </div>
             </div>
