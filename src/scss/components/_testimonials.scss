@@ -24,3 +24,13 @@
   background: $blue;
   padding: $global-padding;
 }
+
+#testimonial {
+  position: relative;
+  .icon-wrapper{
+    position:absolute;
+    width: 100%;
+    top:- rem-calc(50);
+    text-align: center;
+  }
+}
