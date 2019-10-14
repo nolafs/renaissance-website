@@ -45,6 +45,7 @@ export default {
                 itemSelector: '.item',
                 sizer:$('.my-sizer-element'),
                 useTransforms: true,
+                isCentered: true
             });
 
             if(!hash || hash !== 'all'){

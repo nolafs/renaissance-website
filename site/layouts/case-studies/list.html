@@ -15,7 +15,7 @@
     </div>
 
     <div class="grid-container">
-        <div id="list-grid" class="list grid-x grid-padding-x grid-margin-y small-up-2 medium-up-3" data-filter="all">
+        <div id="list-grid" class="list grid-x grid-padding-x grid-margin-y small-up-2 medium-up-3 align-center" data-filter="all">
             {{ $paginator := .Paginate (where .Pages "Type" "case-studies") }}
             {{ range $index, $content := $paginator.Pages }}
             {{ $filter := .Params.categories}}
