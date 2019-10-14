@@ -162,7 +162,7 @@
     color:$green;
     letter-spacing: normal;
     font-size: rem-calc(22);
-    word-break: break-all;
+    //word-break: break-all;
   }
 
   p {
@@ -170,8 +170,8 @@
     font-weight: 700;
     font-size: rem-calc(42);
     line-height: 1.43;
-    word-break: break-word;
-    hyphens: auto;
+    //word-break: break-word;
+    //hyphens: auto;
 
     @include breakpoint(small only){
       font-size: rem-calc(30);
