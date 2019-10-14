@@ -1,8 +1,15 @@
 #home-services {
   .section-heading {
     h2 {
-      border-right: rem-calc(5) solid $primary-color;
-      padding-right: rem-calc(30);
+      @include breakpoint(medium) {
+        border-right: rem-calc(5) solid $primary-color;
+        padding-right: rem-calc(30);
+      }
+
+      @include breakpoint(small only) {
+        border-left: rem-calc(5) solid $primary-color;
+        padding-left: rem-calc(30);
+      }
     }
   }
 }

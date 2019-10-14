@@ -32,5 +32,29 @@
     width: 100%;
     top:- rem-calc(50);
     text-align: center;
+
+    @include breakpoint(small onlyl){
+      top:- rem-calc(25);
+    }
+
+    @include breakpoint(medium only){
+      top:- rem-calc(30);
+    }
+
+    img {
+      max-width: 100px;
+
+      @include breakpoint(small){
+        width: 50px;
+      }
+
+      @include breakpoint(medium){
+        width: 60px;
+      }
+
+      @include breakpoint(large){
+        width: 100px;
+      }
+    }
   }
 }
