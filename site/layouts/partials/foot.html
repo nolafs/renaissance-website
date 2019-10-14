@@ -4,6 +4,6 @@
 {{ end }}
 {{if $.Site.Data.gdpr.osana.active }}
 {{ "<!-- GDPR -->" | safeHTML }}
-    <script src="https://cmp.osano.com/JD8rbbqReUcMwfEty/3b33e034-92f7-4805-8eed-99e1e4d9f39d/osano.js"></script>
+    <script src="{{$.Site.Data.gdpr.osana.script}}"></script>
 {{ "<!-- /GDPR -->" | safeHTML }}
 {{end}}
