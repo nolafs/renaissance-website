@@ -28,14 +28,15 @@ export default class CaseStudies extends React.Component {
     render() {
         const {entry, getAsset, widgetFor} = this.props;
         return <div className="grid-container single-article">
-        <div className="grid-x grid-padding-x">
-            <div className="cell small-12 medium-8">
-             <article>
-                { widgetFor("body") }
-            </article>
-            </div>
-            <div className="cell small-12 medium-4">
-                aside
+            <div className="grid-x grid-padding-x">
+                <div className="cell small-12 medium-8">
+                 <article>
+                    { widgetFor("body") }
+                </article>
+                </div>
+                <div className="cell small-12 medium-4">
+                    aside
+                </div>
             </div>
         </div>;
 
