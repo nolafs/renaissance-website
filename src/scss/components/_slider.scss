@@ -31,3 +31,20 @@
   }
 
 }
+
+
+.slick-slide {
+  perspective: 1200px;
+  .grid-x {
+    transform: translateZ(100px);
+    transition: 250ms all ease-in-out;
+  }
+
+  &.slick-active {
+    .grid-x {
+      transform: translateZ(0);
+      transition: 250ms all ease-in-out;
+    }
+  }
+
+}

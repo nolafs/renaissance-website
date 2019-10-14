@@ -27,6 +27,8 @@ export default {
             arrows: false,
             dots: true,
             autoplay: true,
+            infinite: true,
+            fade: true,
             autoplaySpeed: 2500,
         });
     },
