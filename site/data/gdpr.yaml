@@ -1,5 +1,5 @@
 osana:
-  active: true
+  active: false
 consent:
   dismiss: Got it!
   link: Privacy Policy
