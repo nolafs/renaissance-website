@@ -5,6 +5,13 @@
   flex-wrap: wrap;
   cursor: pointer;
 
+  header {
+    small{
+      margin-bottom: rem-calc(10);
+    }
+
+  }
+
   &:hover {
     background: $primary-color;
     color: $white;
