@@ -1,0 +1,11 @@
+{{ define "header" }}
+{{ partial "header-section"  (dict "Content" . )}}
+{{end}}
+{{ define "main" }}
+<div class="grid-container m-t-100 m-b-100">
+    <div class="grid-x">
+        <div class="cell">{{ .Content | markdownify }}</div>
+    </div>
+
+</div>
+{{ end }}
