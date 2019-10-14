@@ -13,7 +13,7 @@ export default class CaseStudies extends React.Component {
                     <div className="grid-container">
                         <div className="grid-x grid-padding-x grid-margin-y align-middle">
                             <div className="cell small-12 medium-8">
-                                <img src="{ getAsset(entry.getIn(["data", "image"])) }" alt="{entry.getIn(["data", "heading"])}" />
+                                <img src={ getAsset(entry.getIn(["data", "image"])) } alt=""/>
                             </div>
                             <div className="cell small-12 medium-4 align-self-center f-c-black single-header">
                                 <h2><small>{entry.getIn(["data", "heading"])}</small>{entry.getIn(["data", "categories"])}</h2>
