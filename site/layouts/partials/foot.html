@@ -2,6 +2,8 @@
 {{ with $script.js }}
 <script src="{{ relURL . }}"></script>
 {{ end }}
-<script src="https://cmp.osano.com/JD8rbbqReUcMwfEty/3b33e034-92f7-4805-8eed-99e1e4d9f39d/osano.js"></script>
-
-
+{{if $.Site.Data.gdpr.osana.active }}
+{{ "<!-- GDPR -->" | safeHTML }}
+    <script src="https://cmp.osano.com/JD8rbbqReUcMwfEty/3b33e034-92f7-4805-8eed-99e1e4d9f39d/osano.js"></script>
+{{ "<!-- /GDPR -->" | safeHTML }}
+{{end}}
