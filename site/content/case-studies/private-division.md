@@ -10,7 +10,7 @@ description: >-
   Catalogue on a variety of key titles throughout 2018 / 2019 from announcement
   to launch.
 ---
-### Examples of titles worked on:
+#### Examples of titles worked on:
 
 ![The Outer Worlds](/images/uploads/case-privatedivision-outerworldslogo.jpg "Prominent Guardian coverage for announcement")
 
