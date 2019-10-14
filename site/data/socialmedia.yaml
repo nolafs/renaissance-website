@@ -1,7 +1,7 @@
 links:
   - id: facebook-f
     type: Facebook
-    url: biffnewmedia
+    url: 'https://www.facebook.com/RenaissancePR'
   - id: twitter
     type: Twitter
-    url: biffnewmdia
+    url: 'https://twitter.com/RenaissancePRUK'
