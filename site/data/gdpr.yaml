@@ -1,0 +1,9 @@
+osana:
+  active: true
+consent:
+  dismiss: Got it!
+  link: Privacy Policy
+  message: >-
+    This website uses cookies to ensure you get the best experience on our
+    website.
+  url: /privacy
