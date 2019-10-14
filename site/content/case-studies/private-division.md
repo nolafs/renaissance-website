@@ -12,4 +12,6 @@ description: >-
 ---
 Examples of titles worked on:
 
-| ![The Outer Worlds](/images/uploads/case-privatedivision-outerworldslogo.jpg "Prominent Guardian coverage for announcement")| ![Ancestors](/images/uploads/case-privatedivision-ancestorslogo.jpg "Corporate media coverage for Ancestors & record of influencer coverage for launch with UK as the #3 territory")| ![Disintegration](/images/uploads/case-privatedivision-disintegrationlogo.jpg " Edge announcement brokered by Renaissance") | ![Kerbal Space Program 2](/images/uploads/case-privatedivision-kerbal2logo.jpg " PC Gamer coverage from announcement at Gamescom 2019")|
+Markdown | Less | Pretty
+--- | --- | ---
+| ![The Outer Worlds](/images/uploads/case-privatedivision-outerworldslogo.jpg "Prominent Guardian coverage for announcement")| ![Ancestors](/images/uploads/case-privatedivision-ancestorslogo.jpg "Corporate media coverage for Ancestors & record of influencer coverage for launch with UK as the #3 territory")| ![Disintegration](/images/uploads/case-privatedivision-disintegrationlogo.jpg " Edge announcement brokered by Renaissance") | ![Kerbal Space Program 2](/images/uploads/case-privatedivision-kerbal2logo.jpg " PC Gamer coverage from announcement at Gamescom 2019")
