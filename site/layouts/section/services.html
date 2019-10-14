@@ -33,9 +33,9 @@
                     <a href="/contact" class="button" aria-label="Get in Touch">Get in touch</a>
                 </div>
                 <div class="cell small-12 medium-8">
-                    <ul class="accordion" data-accordion>
-                    {{range .services_other_list}}
-                           <li class="accordion-item" data-accordion-item>
+                    <ul id="oS" class="accordion" data-accordion data-multi-expand="false" data-update-history="true">
+                    {{range $index, $content := .services_other_list}}
+                           <li id="i-{{$index}}" class="accordion-item{{if eq $index  0 }} is-active{{end}}" data-accordion-item>
                                <a href="#" class="accordion-title"><i>
                                    <div><span class="fa fa-check"></span></div>
                                </i>{{.title}}</a>

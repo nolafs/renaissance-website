@@ -10,27 +10,37 @@ $( window ).on('load', function() {
 });
 
 $(document).ready(function () {
+
+
+
     let p_scroll=0;
 
-    if($(window).scrollTop() > 2){
-        console.log('check')
+    console.log('check', $(window).scrollTop())
+
+    if($(window).scrollTop() > 10){
+
         setTimeout(() => {
             $('.top-bar').addClass('is-stuck')
         }, 500)
 
     }
     $(window).scroll(function () {
-        if($(window).scrollTop() > 2 ) {
+
+        console.log('check', $(window).scrollTop() > 10)
+
+        if($(window).scrollTop() >  10) {
             $('.top-bar').addClass('is-stuck')
         } else {
             $('.top-bar').removeClass('is-stuck')
         }
-        if($(window).scrollTop() < p_scroll ) {
-            $('.top-bar').addClass('scroll-up')
-            $('.top-bar').removeClass('scroll-down')
-        } else {
-            $('.top-bar').addClass('scroll-down')
-            $('.top-bar').removeClass('scroll-up')
+        if($(window).scrollTop() > 10) {
+            if ($(window).scrollTop() < p_scroll) {
+                $('.top-bar').addClass('scroll-up')
+                $('.top-bar').removeClass('scroll-down')
+            } else {
+                $('.top-bar').addClass('scroll-down')
+                $('.top-bar').removeClass('scroll-up')
+            }
         }
 
         p_scroll = $(window).scrollTop();
@@ -42,6 +52,7 @@ $(document).ready(function () {
 import Router from './util/Router';
 import common from './routes/common';
 import home from './routes/home';
+import services from './routes/services';
 import contact from './routes/contact';
 import caseStudies from './routes/caseStudies';
 
@@ -51,7 +62,8 @@ const routes = new Router({
     common,
     home,
     contact,
-    caseStudies
+    caseStudies,
+    services
 });
 
 // Load Events
