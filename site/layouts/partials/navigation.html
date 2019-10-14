@@ -4,7 +4,7 @@
         <div class="loader">Loading...</div>
     </div>
 </div>
-
+{{ $url := trim .URL "/"}}
 <header id="header-menu" class="nav sticky-container">
         <div class="top-bar sticky hide-for-small-only" >
             <div class="top-bar-left">
@@ -58,7 +58,7 @@
                     {{else}}
 
                             {{ range $.Site.Data.navigation.items}}
-                            <li><a href="{{ .link }}">
+                            <li class="{{if eq $url ( trim .link "/") }}active{{end}}"><a href="{{ .link }}">
                                 {{ .name | markdownify}}
                             </a></li>
                             {{ end }}
@@ -122,7 +122,7 @@
                 {{ end }}
                 {{ if .Site.Params.custom_navbar }}
                 {{ range .Site.Menus.navbar }}
-                <li >
+                <li  class="{{if eq $url .link }}active{{end}}" >
                     <a href="{{.URL}}">
                         {{ .Name }}
                     </a>
@@ -131,14 +131,14 @@
                 {{ else }}
                 {{ if not (.Site.Params.cms_navbar) }}
                 {{ range where .Site.Pages "Type" "!=" "post" }}
-                <li><a href="{{ .Permalink }}">
+                <li class="{{if eq $url .Permalink  }}active{{end}}"><a  href="{{ .Permalink }}">
                     {{ .Title | markdownify}}
                 </a></li>
                 {{ end }}
                 {{else}}
 
                 {{ range $.Site.Data.navigation.items}}
-                <li><a href="{{ .link }}">
+                <li class="{{if eq $url ( trim .link "/") }}active{{end}}"><a href="{{ .link }}">
                     {{ .name | markdownify}}
                 </a></li>
                 {{ end }}
