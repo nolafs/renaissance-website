@@ -30,7 +30,7 @@
 
     {{ "<!-- GDPR -->" | safeHTML }}
     {{ if .Site.Params.cookie_consent_info_url }}
-    {{ partial "cookie-consent.html" . }}
+        {{ partial "cookie-consent.html" . }}
     {{ end }}
 
 

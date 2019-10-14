@@ -1,25 +1,27 @@
-<link href="{{ .Site.BaseURL }}dist/cookieconsent.min.css" rel="stylesheet" type="text/css">
-<script src="{{ .Site.BaseURL }}dist/cookieconsent.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+
 
 <script>
 window.addEventListener("load", function(){
-  window.cookieconsent.initialise({
-    "palette": {
-      "popup": {
-        "background": "#45b649",
-        "text": "#ffffff"
-      },
-      "button": {
-        "background": "#f71559"
-      }
-    },
-    "content": {
-      "message": '{{ i18n "cookieMessage" }}',
-      "dismiss": '{{ i18n "cookieDismiss" }}',
-      "link": '{{ i18n "cookieLink" }}',
-      "href": "{{ .Site.Params.cookie_consent_info_url | absURL}}"
-    },
-    "position": "bottom-right"
-  })
-});
+    window.cookieconsent.initialise({
+        "palette": {
+            "popup": {
+                "background": "#efefef",
+                "text": "#404040"
+            },
+            "button": {
+                "background": "#8ec760",
+                "text": "#ffffff"
+            }
+        },
+        "theme": "edgeless",
+        "position": "top",
+        "content": {
+            "message": '{{ i18n "cookieMessage" }}',
+            "dismiss": '{{ i18n "cookieDismiss" }}',
+            "link": '{{ i18n "cookieLink" }}',
+            "href": "{{ .Site.Params.cookie_consent_info_url | absURL}}"
+        }
+    });
 </script>
+

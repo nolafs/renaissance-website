@@ -218,6 +218,23 @@ collections:
             fields:
               - {label: Name, name: name, widget: string}
               - {label: Link, name: link, widget: string}
+      - label: "GDPR"
+        name: "gdpr"
+        file: "site/data/gdpr.yaml"
+        fields:
+          - label: "Use Osana Cookie Content"
+            name: "osana"
+            widget: object
+            fields:
+              - {label: "Osana on/off", name: "active", widget: "boolean", default: false}
+          - label: "Simple Cookie Consent"
+            name: "consent"
+            widget: object
+            fields:
+              - {label: Message, name: message, widget: string, default: "This website uses cookies to ensure you get the best experience on our website."}
+              - {label: Dismiss, name: dismiss, widget: string, default: "Got it!"}
+              - {label: Link, name: link, widget: string, default: "Privacy Policy"}
+              - {label: Url, name: url, widget: string}
       - label: "Contact"
         name: "contact"
         file: "site/data/contact.yaml"
