@@ -1,5 +1,5 @@
 ---
-title: Privacy Policy
+title: Privacy
 ---
 ### Privacy Policy
 
@@ -116,3 +116,50 @@ personal data from our press lists.
 
 How we share your personal information and who we share it with
 
+We do not share your personal information to our clients, however we disclose information under the following circumstances:
+
+• Third-party service providers:When we share information with third-party service companies to facilitate or to provide certain services on our behalf. This will include:
+
+• IT infrastructure companies that facilitate our daily job
+
+• IT support service providers. These companies are authorised to use your personal information only as necessary to provide these services to us.
+
+• Compliance with laws and legal proceedings: When we respond to court orders, or legal process, or to establish or exercise our legal rights or defend against legal claims. When we believe in our sole discretion it is necessary to share information in order to investigate, prevent or take actions against illegal activities, suspected fraud, situations involving potential threats to the physical safety of any person, violations of our terms of use, or as otherwise required by law.
+
+• Merger or acquisition: When we need to transfer information about you if we are acquired by or merged with another company. If we are involved in a
+merger, acquisition, or sale of all or a portion of its assets, you will be notified afterwards via e-mail and/or a prominent notice on our Site of any change in ownership or uses of your personal information, as well as any choices you may have regarding your personal information.
+
+How long do we keep your data?
+
+Renaissance PR constantly checks to see if the journalists on our database are still working at the outlets assigned to as well as still having a career in journalism. If a journalist leaves the world of journalism, we remove that journalist from our database and remove all personal data relating to that journalist from any PR lists that we keep on our database. We work on 6 month cycles to verify the data and make sure it is still relevant, if the journalist is still working in journalism, then we will retain the relevant personal  information. For our clients we hold their data so long as they are in an agreed contract with us.
+
+What are your rights in relation to the personal information that we hold?
+
+You have the following rights:
+
+• to ask us to provide you with copies of personal information that we hold about you at any time, subject to a fee specified by law;
+
+• to ask us to update or correct any out of date or incorrect personal information that we hold about you (in accordance with applicable data protection legislation);
+
+• (where we are handling your personal information in order to perform a contract between us – therefore clients) to request that we send you (or another data controller) your personal information in a structured, commonly used and machine-readable format (in accordance with applicable data protection laws); and
+
+• the right to opt-out of any marketing communications that we (or any third party to whom we have disclosed your personal information with your consent) may send you.
+
+If you want to exercise any of these rights, please write to us to gdpr@renaissancepr.biz
+
+
+
+If you object to our processing of your personal information for certain purposes or you want us to stop using or to delete your personal information, you can contact us and tell us why. In certain circumstances we may not be able to stop using your personal information but, if that is the case, we’ll let you know and tell you why.
+
+If you wish to raise a complaint on how we have handled your personal data,you can contact us to have the matter investigated. Please contact us at Stefano@renaissancepr.co.uk
+
+If you are not satisfied with our response or believe we are not processing your personal information accordance with the law you can complain to the Information Commissioner’s Office https://ico.org.uk/ or seek a remedy through local courts if you believe your rights have been breached.
+
+Cookies
+
+Technologies such as cookies, beacons, tags and scripts are used by us and our partners, affiliates, or analytics or service providers. These
+technologies are used in analysing trends, administering our website, tracking users’ movements around the website and to gather demographic information about our user base as a whole. We may receive reports based on the use of these technologies by these companies on an individual as well as aggregated basis.
+
+We use cookies, for example, to remember users’ settings (e.g. language preference). Users can control the use of cookies at the individual browserlevel.
+
+This privacy policy was last updated on 6th May 2018. Please checkback regularly to be kept informed of update
