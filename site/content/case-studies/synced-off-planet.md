@@ -1,7 +1,7 @@
 ---
 title: 'Synced: Off Planet'
 date: 2019-10-08T13:08:30.737Z
-categories: Go-to-Market
+categories: pr-campaign
 image: /images/uploads/case-syncedoffplanet.jpg
 testimonial: Steve Folwell
 client: Tencent Games

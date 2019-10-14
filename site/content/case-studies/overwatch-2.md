@@ -1,7 +1,7 @@
 ---
 title: Yooka-Laylee
 date: 2019-10-07T18:44:04.722Z
-categories: holistic-communication
+categories: pr-campaign
 image: /images/uploads/case-yookalaylee.jpg
 client: Team 17
 description: >-

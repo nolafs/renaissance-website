@@ -1,7 +1,7 @@
 ---
 title: Overcooked
 date: 2019-10-07T18:44:04.722Z
-categories: product-management
+categories: Go-to-Market
 image: /images/uploads/case-overcooked.jpg
 testimonial: Steve Folwell
 client: Team 17

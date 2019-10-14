@@ -1,7 +1,7 @@
 ---
 title: Forgotten Anne
 date: 2019-10-04T08:50:26.838Z
-categories: holistic-communication
+categories: Go-to-Market
 image: /images/uploads/case-forgottenanne.jpg
 testimonial: Steve Folwell
 client: Square Enix Collective
