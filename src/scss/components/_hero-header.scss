@@ -4,7 +4,7 @@
   //overflow: hidden;
 
   .hero-header-inner{
-    max-width: $global-width;
+    max-width: 100%;
     margin: 0 auto;
     color: $white;
     h1{
@@ -39,14 +39,7 @@
     }
   }
 
-  .hero-logo{
-    @include vertical-center();
-    left:0;
-    right:0;
-    margin: 0 auto;
-    z-index: 2;
-    max-width: 60vw;
-  }
+
 
   .contentWrapper{
     position:absolute;
@@ -54,6 +47,7 @@
     height: 100%;
     z-index: 12;
     padding-top: 100px;
+
     @include breakpoint(small) {
 
     }
@@ -65,7 +59,15 @@
     }
 
     .grid-container{
-      width:100%;
+      > .grid-y {
+        @include breakpoint(small) {
+          min-height: 380px;
+        }
+
+        @include breakpoint(medium) {
+          min-height: 690px;
+        }
+      }
     }
   }
   .imageWrapper{
