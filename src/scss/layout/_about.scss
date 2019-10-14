@@ -10,15 +10,49 @@
         height: 297px;
         z-index: 10;
         left: - rem-calc(241/2);
-        top: - rem-calc(200/2)
+        top: -80px;
+
+        @include breakpoint(small only) {
+          width: rem-calc(241/2);
+          height: rem-calc(297/2);
+          left: 25%;
+          top: 50%;
+        }
+      }
+
+      @include breakpoint(small only) {
+        height: 150px;
       }
 
       img {
         position: absolute;
-        margin-top: -50%;
         box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.4);
+
+        @include breakpoint(small only) {
+            right: 0;
+            width: 60%;
+        }
+
+        @include breakpoint(medium) {
+
+          margin-top: -50%;
+        }
+
+
       }
     }
+
+  @include breakpoint(small only) {
+    margin-bottom:70px;
+  }
+}
+
+#mission {
+  @include breakpoint(small only) {
+    .image-wrapper {
+      width: 50%;
+    }
+  }
 }
 
 #founder {
