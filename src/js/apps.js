@@ -1,9 +1,5 @@
 import $ from "jquery";
 
-
-Foundation.addToJquery($);
-
-$(document).foundation();
 // PAGE LOADING
 $( window ).on('load', function() {
     $('.loading').fadeOut('fast');
@@ -11,10 +7,7 @@ $( window ).on('load', function() {
 
 $(document).ready(function () {
 
-
-
     let p_scroll=0;
-
     console.log('check', $(window).scrollTop())
 
     if($(window).scrollTop() > 10){

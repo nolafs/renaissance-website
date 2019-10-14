@@ -33,6 +33,9 @@ import 'foundation-sites/dist/js/plugins/foundation.tabs.min';
 import 'foundation-sites/dist/js/plugins/foundation.tooltip.min';
 import 'foundation-sites/dist/js/plugins/foundation.util.imageLoader.min';
 
+Foundation.addToJquery($);
+$(document).foundation();
+
 /* ===========================================================================
  Fontawsome
  =========================================================================== */
