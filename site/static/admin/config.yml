@@ -227,6 +227,7 @@ collections:
             widget: object
             fields:
               - {label: "Osana on/off", name: "active", widget: "boolean", default: false}
+              - {label: Script , name: script, widget: string}
           - label: "Simple Cookie Consent"
             name: "consent"
             widget: object
