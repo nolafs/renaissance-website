@@ -65,6 +65,17 @@
 #next-article {
   position: relative;
   overflow: hidden;
+  cursor: pointer;
+
+  &:hover {
+    .icon-bottom {
+      a{
+        background: $white;
+        color: $primary-color;
+      }
+    }
+  }
+
   .bg-img {
     position: absolute;
     width: 100%;
