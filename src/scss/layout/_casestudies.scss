@@ -100,9 +100,27 @@
   .cell.expand {
     width: 66.6666%;
 
+
     @include breakpoint(small only){
       width: 100%;
     }
+
+
+
+    .image-wrapper {
+      position: relative;
+      &:before {
+        @include pseudo();
+        width: 100%;
+        height: 100%;
+        top:0;
+        left: 0;
+        z-index: 1;
+        //background: $black;
+        background-image: linear-gradient(to top, #000000, rgba(0, 0, 0, 0) 40%);
+      }
+    }
+
 
     .card-button {
       position: relative;
@@ -113,6 +131,7 @@
       flex-direction: row;
       bottom:0;
       width: 100%;
+      z-index: 2;
 
       header {
         align-self: flex-start;

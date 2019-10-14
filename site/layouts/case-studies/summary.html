@@ -5,7 +5,9 @@
 
 <div class="card-button">
   {{ with .Params.image }}
-  <img src="{{ . }}" alt="">
+  <div class="image-wrapper">
+    <img src="{{ . }}" alt="">
+  </div>
   {{end}}
   <div class="card-section">
     <div>
