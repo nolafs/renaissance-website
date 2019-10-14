@@ -34,7 +34,7 @@ export default class CaseStudies extends React.Component {
                     </article>
                     </div>
                     <div className="cell small-12 medium-4">
-                        
+
                     </div>
                 </div>
             </div>
