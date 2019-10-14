@@ -7,6 +7,6 @@ import styles from "!to-string-loader!css-loader!postcss-loader!sass-loader!../s
 import CaseStudies from "./cms-previews-templates/case-studies";
 
 CMS.registerPreviewStyle(styles, { raw: true });
-CMS.registerPreviewTemplate("case-stuides",CaseStudies);
+CMS.registerPreviewTemplate("case-studies",CaseStudies);
 
 CMS.init();
