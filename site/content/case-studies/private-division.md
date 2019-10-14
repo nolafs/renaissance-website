@@ -10,20 +10,12 @@ description: >-
   Catalogue on a variety of key titles throughout 2018 / 2019 from announcement
   to launch.
 ---
-## Examples of titles worked on:
+Examples of titles worked on:
 
-![The Outer Worlds](/images/uploads/case-privatedivision-outerworldslogo.jpg "Prominent Guardian coverage for announcement")
+| ![The Outer Worlds](/images/uploads/case-privatedivision-outerworldslogo.jpg "Prominent Guardian coverage for announcement")|
 
-Prominent Guardian coverage for announcement
+|![Ancestors](/images/uploads/case-privatedivision-ancestorslogo.jpg "Corporate media coverage for Ancestors & record of influencer coverage for launch with UK as the #3 territory")|
 
-![Ancestors](/images/uploads/case-privatedivision-ancestorslogo.jpg "Corporate media coverage for Ancestors & record of influencer coverage for launch with UK as the #3 territory")
+|![Disintegration](/images/uploads/case-privatedivision-disintegrationlogo.jpg " Edge announcement brokered by Renaissance")|
 
-Corporate media coverage for Ancestors & record of influencer coverage for launch with UK as the #3 territory
-
-![Disintegration](/images/uploads/case-privatedivision-disintegrationlogo.jpg " Edge announcement brokered by Renaissance")
-
- Edge announcement brokered by Renaissance
-
-![Kerbal Space Program 2](/images/uploads/case-privatedivision-kerbal2logo.jpg " PC Gamer coverage from announcement at Gamescom 2019")
-
- PC Gamer coverage from announcement at Gamescom 2019
+|![Kerbal Space Program 2](/images/uploads/case-privatedivision-kerbal2logo.jpg " PC Gamer coverage from announcement at Gamescom 2019")|
