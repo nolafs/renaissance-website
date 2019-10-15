@@ -1,8 +1,8 @@
 Arguments: 
-  /Users/olaf/.nvm/versions/node/v10.9.0/bin/node /usr/local/Cellar/yarn/1.3.2/libexec/bin/yarn.js install
+  /Users/olaf/.nvm/versions/node/v10.9.0/bin/node /usr/local/Cellar/yarn/1.3.2/libexec/bin/yarn.js add git-credential-netlify
 
 PATH: 
-  /Users/olaf/.rbenv/shims:/Users/olaf/google-cloud-sdk/bin:/Users/olaf/.nvm/versions/node/v10.9.0/bin:/Applications/MAMP/bin/php/php7.1.19/bin:/Users/olaf/bin:/Users/olaf/.gem/ruby/2.3.0/bin:/Users/olaf/Library/Python/2.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Apple/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/MAMP/Library/bin/
+  /Users/olaf/.rbenv/shims:/Users/olaf/google-cloud-sdk/bin:/Users/olaf/.nvm/versions/node/v10.9.0/bin:/Applications/MAMP/bin/php/php7.1.19/bin:/Users/olaf/bin:/Users/olaf/.gem/ruby/2.3.0/bin:/Users/olaf/Library/Python/2.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Apple/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Volumes/Macintosh HD 2/Projects/renaissance-pr/node_modules/.bin:/Applications/MAMP/Library/bin/
 
 Yarn version: 
   1.3.2
@@ -80,20 +80,21 @@ npm manifest:
       "webpack-cli": "^3.1.2",
       "webpack-dev-server": "^3.8.1",
       "webpack-merge": "^4.1.4",
-      "whatwg-fetch": "^3.0.0",
-      "cookieconsen": "3"
+      "whatwg-fetch": "^3.0.0"
     },
     "dependencies": {
       "@babel/preset-react": "^7.0.0",
       "cookieconsent": "3",
       "html-webpack-plugin": "^3.2.0",
       "jquery": "^3.4.1",
-      "masonry-layout": "^4.2.2",
+      "jquery-validation": "^1.19.1",
       "netlify-cms": "^2.9.7",
       "netlify-cms-app": "^2.9.7",
       "react": "^16.10.1",
       "react-dom": "^16.10.1",
+      "shufflejs": "^5.2.3",
       "slate-edit-list": "^0.12.1",
+      "slick-carousel": "^1.8.1",
       "terser-webpack-plugin": "^2.1.2",
       "to-string-loader": "^1.1.5",
       "twitter-fetcher": "^18.0.2"
@@ -1294,6 +1295,10 @@ Lockfile:
   array-iterate@^1.0.0:
     version "1.1.3"
     resolved "https://registry.yarnpkg.com/array-iterate/-/array-iterate-1.1.3.tgz#b116bdb1e37f3c3fec13acdfb91ac829f122543c"
+  
+  array-parallel@^0.1.3:
+    version "0.1.3"
+    resolved "https://registry.yarnpkg.com/array-parallel/-/array-parallel-0.1.3.tgz#8f785308926ed5aa478c47e64d1b334b6c0c947d"
   
   array-union@^1.0.1:
     version "1.0.2"
@@ -2778,10 +2783,6 @@ Lockfile:
       inherits "^2.0.1"
       minimalistic-assert "^1.0.0"
   
-  desandro-matches-selector@^2.0.0:
-    version "2.0.2"
-    resolved "https://registry.yarnpkg.com/desandro-matches-selector/-/desandro-matches-selector-2.0.2.tgz#717beed4dc13e7d8f3762f707a6d58a6774218e1"
-  
   destroy@~1.0.4:
     version "1.0.4"
     resolved "https://registry.yarnpkg.com/destroy/-/destroy-1.0.4.tgz#978857442c44749e4206613e37946205826abd80"
@@ -3208,10 +3209,6 @@ Lockfile:
     version "1.8.1"
     resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   
-  ev-emitter@^1.0.0:
-    version "1.1.1"
-    resolved "https://registry.yarnpkg.com/ev-emitter/-/ev-emitter-1.1.1.tgz#8f18b0ce5c76a5d18017f71c0a795c65b9138f2a"
-  
   eventemitter3@^4.0.0:
     version "4.0.0"
     resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.0.tgz#d65176163887ee59f386d64c82610b696a4a74eb"
@@ -3579,12 +3576,6 @@ Lockfile:
       micromatch "^3.0.4"
       resolve-dir "^1.0.1"
   
-  fizzy-ui-utils@^2.0.0:
-    version "2.0.7"
-    resolved "https://registry.yarnpkg.com/fizzy-ui-utils/-/fizzy-ui-utils-2.0.7.tgz#7df45dcc4eb374a08b65d39bb9a4beedf7330505"
-    dependencies:
-      desandro-matches-selector "^2.0.0"
-  
   flat-cache@^2.0.1:
     version "2.0.1"
     resolved "https://registry.yarnpkg.com/flat-cache/-/flat-cache-2.0.1.tgz#5d296d6f04bda44a4630a301413bdbc2ec085ec0"
@@ -3758,10 +3749,6 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/get-proxy/-/get-proxy-2.1.0.tgz#349f2b4d91d44c4d4d4e9cba2ad90143fac5ef93"
     dependencies:
       npm-conf "^1.1.0"
-  
-  get-size@^2.0.2:
-    version "2.0.3"
-    resolved "https://registry.yarnpkg.com/get-size/-/get-size-2.0.3.tgz#54a1d0256b20ea7ac646516756202769941ad2ef"
   
   get-stdin@^4.0.1:
     version "4.0.1"
@@ -4843,6 +4830,10 @@ Lockfile:
       merge-stream "^2.0.0"
       supports-color "^6.1.0"
   
+  jquery-validation@^1.19.1:
+    version "1.19.1"
+    resolved "https://registry.yarnpkg.com/jquery-validation/-/jquery-validation-1.19.1.tgz#a85043467dc2b70d9fff05778646d150e747742f"
+  
   jquery@>=1.10.2, jquery@^3.4.1:
     version "3.4.1"
     resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.4.1.tgz#714f1f8d9dde4bdfa55764ba37ef214630d80ef2"
@@ -5210,12 +5201,9 @@ Lockfile:
     version "1.1.3"
     resolved "https://registry.yarnpkg.com/markdown-table/-/markdown-table-1.1.3.tgz#9fcb69bcfdb8717bfd0398c6ec2d93036ef8de60"
   
-  masonry-layout@^4.2.2:
-    version "4.2.2"
-    resolved "https://registry.yarnpkg.com/masonry-layout/-/masonry-layout-4.2.2.tgz#d57b44af13e601bfcdc423f1dd8348b5524de348"
-    dependencies:
-      get-size "^2.0.2"
-      outlayer "^2.1.0"
+  matches-selector@^1.0.0:
+    version "1.2.0"
+    resolved "https://registry.yarnpkg.com/matches-selector/-/matches-selector-1.2.0.tgz#d1814e7e8f43e69d22ac33c9af727dc884ecf12a"
   
   md5.js@^1.3.4:
     version "1.3.5"
@@ -6253,14 +6241,6 @@ Lockfile:
     dependencies:
       os-homedir "^1.0.0"
       os-tmpdir "^1.0.0"
-  
-  outlayer@^2.1.0:
-    version "2.1.1"
-    resolved "https://registry.yarnpkg.com/outlayer/-/outlayer-2.1.1.tgz#29863b6de10ea5dadfffcadfa0d728907387e9a2"
-    dependencies:
-      ev-emitter "^1.0.0"
-      fizzy-ui-utils "^2.0.0"
-      get-size "^2.0.2"
   
   p-cancelable@^0.4.0:
     version "0.4.1"
@@ -8288,6 +8268,15 @@ Lockfile:
     version "1.7.2"
     resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.7.2.tgz#67a7d02c76c9da24f99d20808fcaded0e0e04be2"
   
+  shufflejs@^5.2.3:
+    version "5.2.3"
+    resolved "https://registry.yarnpkg.com/shufflejs/-/shufflejs-5.2.3.tgz#67bd133b835ca728a1432b4be2eec821cc890d94"
+    dependencies:
+      array-parallel "^0.1.3"
+      matches-selector "^1.0.0"
+      throttleit "^1.0.0"
+      tiny-emitter "^2.1.0"
+  
   signal-exit@^3.0.0, signal-exit@^3.0.2:
     version "3.0.2"
     resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
@@ -8404,6 +8393,10 @@ Lockfile:
       ansi-styles "^3.2.0"
       astral-regex "^1.0.0"
       is-fullwidth-code-point "^2.0.0"
+  
+  slick-carousel@^1.8.1:
+    version "1.8.1"
+    resolved "https://registry.yarnpkg.com/slick-carousel/-/slick-carousel-1.8.1.tgz#a4bfb29014887bb66ce528b90bd0cda262cc8f8d"
   
   snapdragon-node@^2.0.1:
     version "2.1.1"
@@ -8937,6 +8930,10 @@ Lockfile:
     version "0.2.0"
     resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   
+  throttleit@^1.0.0:
+    version "1.0.0"
+    resolved "https://registry.yarnpkg.com/throttleit/-/throttleit-1.0.0.tgz#9e785836daf46743145a5984b6268d828528ac6c"
+  
   through2@^2.0.0:
     version "2.0.5"
     resolved "https://registry.yarnpkg.com/through2/-/through2-2.0.5.tgz#01c1e39eb31d07cb7d03a96a70823260b23132cd"
@@ -8969,6 +8966,10 @@ Lockfile:
   timsort@^0.3.0:
     version "0.3.0"
     resolved "https://registry.yarnpkg.com/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
+  
+  tiny-emitter@^2.1.0:
+    version "2.1.0"
+    resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
   
   tiny-invariant@^1.0.2:
     version "1.0.6"
@@ -9817,7 +9818,7 @@ Lockfile:
       fd-slicer "~1.1.0"
 
 Trace: 
-  Error: https://registry.yarnpkg.com/cookieconsen: Not found
+  Error: https://registry.yarnpkg.com/git-credential-netlify: Not found
       at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.3.2/libexec/lib/cli.js:62098:18)
       at Request.self.callback (/usr/local/Cellar/yarn/1.3.2/libexec/lib/cli.js:123085:22)
       at Request.emit (events.js:182:13)
