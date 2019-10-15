@@ -20,6 +20,9 @@ export default {
                 telephone: 'Please enter your telephone number'
             },
             submitHandler: function (form) {
+
+                $('#contact').fadeOut(500, () => $('#sending').fadeIn(500))
+
                 $.ajax({
                     type: $(form).attr('method'),
                     url: $(form).attr('action'),
@@ -30,7 +33,7 @@ export default {
                         if (response.success == 'success') {
                             $('#sending').fadeOut(500, () => $('#thanks').fadeIn(500))
                         } else {
-                            alert('fail');
+                            $('#sending').fadeOut(500, () => $('#error').fadeIn(500))
                         }
                     });
                 return false;
@@ -38,7 +41,7 @@ export default {
         });
 
 
-        $('#continue').on('click' , () => {
+        $('.continue').on('click' , () => {
             $('#thanks').fadeOut(500, () => $('#form').fadeIn(500))
         })
 
