@@ -1,5 +1,19 @@
 #values {
-    .image-wrapper {
+
+  .grid-x{
+    @include breakpoint(large){
+      @include flex-align(left, middle);
+    }
+  }
+
+  .cell {
+    @include breakpoint(medium only){
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+
+  .image-wrapper {
       position: relative;
 
       &:before {
@@ -13,14 +27,27 @@
         top: -80px;
 
         @include breakpoint(small only) {
+           width: rem-calc(241/2);
+           height: rem-calc(297/2);
+           left: 25%;
+           top: 50%;
+         }
+
+        @include breakpoint(medium only) {
           width: rem-calc(241/2);
           height: rem-calc(297/2);
-          left: 25%;
-          top: 50%;
+          left: auto;
+          right: 30%;
+          top: 45%;
         }
       }
 
       @include breakpoint(small only) {
+        height: 150px;
+      }
+
+      @include breakpoint(medium only) {
+        top: -30px;
         height: 150px;
       }
 
@@ -33,8 +60,13 @@
             width: 60%;
         }
 
-        @include breakpoint(medium) {
+        @include breakpoint(medium only) {
+          right: 0;
+          top:-35px;
+          width: 38%;
+        }
 
+        @include breakpoint(large) {
           margin-top: -50%;
         }
 
@@ -43,6 +75,10 @@
     }
 
   @include breakpoint(small only) {
+    margin-bottom:70px;
+  }
+
+  @include breakpoint(medium only) {
     margin-bottom:70px;
   }
 }

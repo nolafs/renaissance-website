@@ -112,11 +112,12 @@
 
 
   .cell.expand {
-    width: 66%;
-
-
-    @include breakpoint(small only){
+    @include breakpoint(small){
       width: 100%;
+    }
+
+    @include breakpoint(large){
+      width: 66%;
     }
 
     .image-wrapper {

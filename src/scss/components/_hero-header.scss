@@ -170,6 +170,11 @@
       bottom: - rem-calc(50);
       width: 80%;
     }
+
+    @include breakpoint(medium only){
+      bottom: - rem-calc(50);
+      width: 60%;
+    }
   }
 
   h1{

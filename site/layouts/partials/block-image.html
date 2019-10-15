@@ -7,14 +7,13 @@
             <div class="grid-container">
 
                 {{ with .Content }}
-                <div class="grid-x grid-padding-x grid-margin-y align-middle">
+                <div class="grid-x grid-padding-x grid-margin-y">
                     <div class="cell small-{{$smallColumn}} {{ if eq $first "2" }} medium-offset-1 {{end}} medium-5 small-order-{{ $first }} medium-order-{{ $first }} image-area">
                         <div class="image-wrapper">
                             <img src="{{.image}}" alt="{{.Id}}">
                         </div>
                     </div>
                     <div class="cell small-{{$smallColumn}} {{if eq $second "2" }} medium-offset-1 {{end}} medium-6 small-order-{{ $second }}  medium-order-{{ $second }} content {{if isset . "subheading"}}sub{{end}}">
-
                             <header>
                             <h2>{{ .heading}}</h2>
                             {{if isset . "subheading"}}
