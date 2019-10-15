@@ -2,7 +2,7 @@
 <div class="mb4">
     <h2>Send us a Message</h2>
 
-    <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+    <form id="contact" name="contact" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
         <div class="">
             <!-- Name -->
                 <fieldset>
@@ -27,6 +27,9 @@
             <label for="message">Your message</label>
             <textarea id="message" name="message" placeholder="Your message" rows="8" cols="80"></textarea>
         </fieldset>
+        <p class="hide">
+            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+        </p>
         <!-- Button -->
         <div class="tc">
             <button type="submit" class="button large">Submit</button>

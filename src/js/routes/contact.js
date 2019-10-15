@@ -1,9 +1,7 @@
+import $ from 'jquery'
 export default {
     init() {
-
-    },
-    finalize() {
-
+        console.log('CONTACT')
         $("#contact").submit(function(e) {
             e.preventDefault();
 
@@ -12,6 +10,10 @@ export default {
                 alert("Thank you!");
             });
         });
+    },
+    finalize() {
+
+
 
     },
 };
