@@ -2,8 +2,10 @@ import $ from 'jquery';
 import 'jquery-validation';
 export default {
     init() {
+        let error = false;
         $('#thanks').hide();
         $('#sending').hide();
+        $('#error').hide();
 
         $("#contact").validate({
             rules : {
@@ -21,7 +23,7 @@ export default {
             },
             submitHandler: function (form) {
 
-                $('#contact').fadeOut(500, () => $('#sending').fadeIn(500))
+                $('#form').fadeOut(500, () => $('#sending').fadeIn(500));
 
                 $.ajax({
                     type: $(form).attr('method'),
@@ -33,6 +35,7 @@ export default {
                         if (response.success == 'success') {
                             $('#sending').fadeOut(500, () => $('#thanks').fadeIn(500))
                         } else {
+                            error = true;
                             $('#sending').fadeOut(500, () => $('#error').fadeIn(500))
                         }
                     });
@@ -42,7 +45,11 @@ export default {
 
 
         $('.continue').on('click' , () => {
-            $('#thanks').fadeOut(500, () => $('#form').fadeIn(500))
+            if(!error) {
+                $('#thanks').fadeOut(500, () => $('#form').fadeIn(500))
+            } else {
+                $('#error').fadeOut(500, () => $('#form').fadeIn(500))
+            }
         })
 
 
