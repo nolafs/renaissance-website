@@ -15,9 +15,11 @@
                 <ul class="block-icon-list no-bullet">
                     {{ range .Params.services.services_list}}
                     <li>
-                        <img src="{{.icon}}" alt="{{.title}}">
-                        <h4>{{.title}}</h4>
-                        <p>{{.text}}</p>
+                        <div class="item">
+                            <img src="{{.icon}}" alt="{{.title}}">
+                            <h4>{{.title}}</h4>
+                            <p>{{.text}}</p>
+                        </div>
                     </li>
                     {{ end }}
                 </ul>

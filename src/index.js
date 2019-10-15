@@ -53,15 +53,7 @@ dom.watch();
  =========================================================================== */
 
 // import Rellax from 'rellax/rellax.min';
-// import 'slick-carousel/slick/slick';
-// import "magnific-popup";
-// import mixitup from 'mixitup';
-// import AOS from 'aos';
-// import 'gsap';
-// import ScrollMagic from 'ScrollMagic';
-// import 'animation.gsap';
-// import 'debug.addIndicators';
-// import SplitText from 'splittext';
+
 
 /* ===========================================================================
  Netlify
