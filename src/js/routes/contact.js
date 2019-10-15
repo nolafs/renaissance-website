@@ -1,6 +1,7 @@
 import $ from 'jquery'
 export default {
     init() {
+        $('#thanks').hide()
         console.log('CONTACT')
         $("#contact").submit(function(e) {
             e.preventDefault();
@@ -8,9 +9,13 @@ export default {
             var $form = $(this);
             $.post($form.attr("action"), $form.serialize()).then(function(e) {
                 console.log(e)
-                alert("Thank you!");
+                $('#form').fadeOut(500, () => $('#thanks').fadeIn(1000))
             });
         });
+
+        $('#continue').on('click' , () => {
+            $('#thanks').fadeOut(500, () => $('#form').fadeIn(1000))
+        })
     },
     finalize() {
 
