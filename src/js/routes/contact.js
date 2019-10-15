@@ -6,7 +6,8 @@ export default {
             e.preventDefault();
 
             var $form = $(this);
-            $.post($form.attr("action"), $form.serialize()).then(function() {
+            $.post($form.attr("action"), $form.serialize()).then(function(e) {
+                console.log(e)
                 alert("Thank you!");
             });
         });
