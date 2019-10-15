@@ -2,6 +2,8 @@
    {{ partial "header" (dict "Title" "Case Studies" "Content"  $.Site.Data.casestudies.heading) }}
 {{end}}
 {{ define "main" }}
+
+
 <div class="grid-container block">
     <div id="filters" class="grid-x grid-padding-x grid-margin-y align-center-middle m-b-30">
         <div class="cell shrink">
@@ -20,7 +22,7 @@
             {{ range $index, $content := $paginator.Pages }}
             {{ $filter := .Params.categories}}
             {{$cat := replace .Params.categories " " "-"}}
-            <div class="cell item item-{{$index}} {{if eq $index  0 }}expand{{end}}" data-groups='["{{lower $cat}}"]' onclick="window.location='{{ .RelPermalink }}';">
+            <div class="item cell item-{{$index}} {{if eq $index  0 }}expand{{end}}" data-groups='["{{lower $cat}}"]' data-date-created="{{ $content.Date.Format "2006-01-02" }}" onclick="window.location='{{ .RelPermalink }}';">
                 {{with $content}}
                 {{ .Render "summary" }}
                 {{end}}

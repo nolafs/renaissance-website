@@ -108,15 +108,16 @@
 }
 
 #list-grid {
+
+
+
   .cell.expand {
-    width: 66.6666%;
+    width: 66%;
 
 
     @include breakpoint(small only){
       width: 100%;
     }
-
-
 
     .image-wrapper {
       position: relative;
@@ -158,4 +159,12 @@
       }
     }
   }
+
+  .cell:not(.expand){
+    .icon-bottom {
+      margin-top: 41px;
+    }
+  }
 }
+
+

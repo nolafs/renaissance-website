@@ -16,9 +16,9 @@ export default {
             $('#list-grid').attr('data-filter', ''+hash)
 
             if(hash === 'all'){
-                $('#list-grid .item-0').addClass('expand')
+                //$('#list-grid .item-0').addClass('expand')
             } else {
-                $('#list-grid .item-0').removeClass('expand')
+                //$('#list-grid .item-0').removeClass('expand')
             }
         }
 
@@ -38,39 +38,53 @@ export default {
         // JavaScript to be fired on all pages, after page specific JS is fire
         const hash = window.location.hash.substr(1).toLowerCase()
 
+        const sortOption =  {
+            reverse: false,
+            by: 'data-date-created',
+        };
+
+
+        $('#filters a').on('click', function ($event) {
+            $event.preventDefault();
+            const b = $(this);
+            const cat = (b.data('cat')).toLowerCase();
+            console.log(cat);
+            window.location.hash = cat;
+
+            if(cat === 'all'){
+                $('#list-grid .item-0').addClass('expand')
+            } else {
+                $('#list-grid .item-0').removeClass('expand')
+            }
+
+            if(cat !== 'all') {
+                shuffle.filter(cat)
+            } else {
+                shuffle.filter(Shuffle.ALL_ITEMS);
+            }
+        })
 
 
         setTimeout(() => {
-            const shuffle = new Shuffle($('.list'), {
+
+            const shuffle = new Shuffle(document.querySelector('.list'), {
                 itemSelector: '.item',
-                sizer:$('.my-sizer-element'),
+                sizer: '.my-sizer-element',
                 useTransforms: true,
-                isCentered: true
+                isCentered: true,
+                initialSort: sortOption,
+                buffer: 1
             });
+
 
             if(!hash || hash !== 'all'){
                 shuffle.filter(hash)
             }
+            shuffle.update();
 
-            $('#filters a').on('click', function ($event) {
-                $event.preventDefault();
-                const b = $(this);
-                const cat = (b.data('cat')).toLowerCase();
-                console.log(cat);
-                window.location.hash = cat;
 
-                if(cat === 'all'){
-                    $('#list-grid .item-0').addClass('expand')
-                } else {
-                    $('#list-grid .item-0').removeClass('expand')
-                }
+        }, 100);
 
-                if(cat !== 'all') {
-                    shuffle.filter(cat)
-                } else {
-                    shuffle.filter(Shuffle.ALL_ITEMS);
-                }
-            })
-        }, 500);
+
     },
 };

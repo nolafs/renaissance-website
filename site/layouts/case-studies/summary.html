@@ -1,11 +1,7 @@
 {{ $dateFormat := default "Mon Jan 2, 2006" (index .Site.Params "date_format") }}
-
-
-
-
 <div class="card-button">
   {{ with .Params.image }}
-  <div class="image-wrapper">
+  <div class="image-wrapper aspect aspect--16x9">
     <img src="{{ . }}" alt="">
   </div>
   {{end}}
@@ -21,7 +17,7 @@
         </time>
       </header>
     </div>
-    <div class="icon-bottom text-right m-t-30">
+    <div class="icon-bottom text-right">
       <a href="{{ .RelPermalink }}" aria-label="View"><i class="fa fa-chevron-right"></i></a>
     </div>
   </div>
