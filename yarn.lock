@@ -4720,6 +4720,10 @@ jest-worker@^24.9.0:
     merge-stream "^2.0.0"
     supports-color "^6.1.0"
 
+jquery-validation@^1.19.1:
+  version "1.19.1"
+  resolved "https://registry.yarnpkg.com/jquery-validation/-/jquery-validation-1.19.1.tgz#a85043467dc2b70d9fff05778646d150e747742f"
+
 jquery@>=1.10.2, jquery@^3.4.1:
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.4.1.tgz#714f1f8d9dde4bdfa55764ba37ef214630d80ef2"

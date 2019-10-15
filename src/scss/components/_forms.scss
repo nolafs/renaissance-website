@@ -15,3 +15,17 @@ label {
   font-family: $header-font-family;
   text-transform: uppercase;
 }
+
+fieldset {
+  position: relative;
+  label.error {
+    position: absolute;
+    text-transform: none;
+    color: #ff5d56;
+    bottom: -5px;
+  }
+
+  input.error {
+    border: 1px solid #ff5d56!important;
+  }
+}
