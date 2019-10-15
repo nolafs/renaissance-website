@@ -37,11 +37,6 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
         url = "/contact"
         weight = 4
     [[menu.secondary]]
-        identifier = "terms"
-        name = "Terms & Conditions "
-        url = "/terms_conditions"
-        weight = 1
-    [[menu.secondary]]
         identifier = "privacy"
         name = "Privacy Policy"
         url = "/privacy"
