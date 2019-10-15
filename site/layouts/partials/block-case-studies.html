@@ -1,11 +1,13 @@
 <section>
-    <div class="grid-container full b-c-blue block f-c-white">
+    <div id="case-studies" class="grid-container full b-c-blue block f-c-white">
         <div class="grid-container">
             <h2 class=" f-c-white">Case Studies</h2>
             <div class="grid-x grid-padding-x grid-padding  grid-margin-y small-up-1 medium-up-2 large-up-3">
-                {{ range first 3 (where .Data.Pages "Type" "case-studies") }}
-                <div class="cell">
-                    {{ .Render "card" }}
+                {{ range $index, $content := first 3 (where .Data.Pages "Type" "case-studies") }}
+                <div class="cell i-{{$index}}">
+                    {{with $content}}
+                    {{ .Render "card"}}
+                    {{end}}
                 </div>
                 {{ end }}
             </div>

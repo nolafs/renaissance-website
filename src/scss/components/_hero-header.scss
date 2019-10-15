@@ -37,6 +37,12 @@
       width: 80%;
       bottom: -50px;
     }
+
+    @include breakpoint(medium only){
+      width: 54%;
+      bottom: -50px;
+      right: 20px;
+    }
   }
 
 
@@ -49,22 +55,27 @@
     padding-top: 100px;
 
     @include breakpoint(small) {
-
+      padding-top: 70px;
     }
-    @include breakpoint(medium) {
 
-    }
     @include breakpoint(large) {
-
+      padding-top: 100px;
     }
+
 
     .grid-container{
       > .grid-y {
+
+
         @include breakpoint(small) {
           min-height: 380px;
         }
 
         @include breakpoint(medium) {
+          min-height: 590px;
+        }
+
+        @include breakpoint(large) {
           min-height: 690px;
         }
       }
@@ -106,8 +117,11 @@
         display: block
       }
     }
-
     @include breakpoint(medium) {
+      min-height: 700px;
+    }
+
+    @include breakpoint(large) {
       min-height: 790px;
       .desktop{
         display: block

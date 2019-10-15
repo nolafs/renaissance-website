@@ -6,7 +6,7 @@
 </div>
 {{ $url := trim .URL "/"}}
 <header id="header-menu" class="nav sticky-container">
-        <div class="top-bar sticky hide-for-small-only" >
+        <div class="top-bar sticky hide-for-small show-for-large" >
             <div class="top-bar-left">
                 <ul class="menu">
                     <li class="menu-logo">
@@ -80,7 +80,7 @@
             </div>
         </div>
 
-        <div class="top-bar-small title-bar  show-for-small-only" >
+        <div class="top-bar-small title-bar  hide-for-large" >
             <div class="grid-x">
                 <div class="auto cell">
                     {{if .Site.Params.logo_mobile}}
