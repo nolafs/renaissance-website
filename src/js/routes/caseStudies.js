@@ -44,25 +44,7 @@ export default {
         };
 
 
-        $('#filters a').on('click', function ($event) {
-            $event.preventDefault();
-            const b = $(this);
-            const cat = (b.data('cat')).toLowerCase();
-            console.log(cat);
-            window.location.hash = cat;
 
-            if(cat === 'all'){
-                $('#list-grid .item-0').addClass('expand')
-            } else {
-                $('#list-grid .item-0').removeClass('expand')
-            }
-
-            if(cat !== 'all') {
-                shuffle.filter(cat)
-            } else {
-                shuffle.filter(Shuffle.ALL_ITEMS);
-            }
-        })
 
 
         setTimeout(() => {
@@ -80,6 +62,27 @@ export default {
             if(!hash || hash !== 'all'){
                 shuffle.filter(hash)
             }
+
+            $('#filters a').on('click', function ($event) {
+                $event.preventDefault();
+                const b = $(this);
+                const cat = (b.data('cat')).toLowerCase();
+                console.log(cat);
+                window.location.hash = cat;
+
+                if(cat === 'all'){
+                    $('#list-grid .item-0').addClass('expand')
+                } else {
+                    $('#list-grid .item-0').removeClass('expand')
+                }
+
+                if(cat !== 'all') {
+                    shuffle.filter(cat)
+                } else {
+                    shuffle.filter(Shuffle.ALL_ITEMS);
+                }
+            })
+
             shuffle.update();
 
 
