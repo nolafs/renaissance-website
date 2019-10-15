@@ -5,7 +5,7 @@ export default {
         $('#thanks').hide();
         $('#sending').hide();
 
-        $("form[name='contact']").validate({
+        $("#contact").validate({
             rules : {
                 name: 'required',
                 telephone: 'required',
@@ -19,18 +19,23 @@ export default {
                 email: 'Please enter a valid email address',
                 telephone: 'Please enter your telephone number'
             },
-            submitHandler: (form) => {
-                form.submit(() => {
-                    e.preventDefault();
-                    $('#form').fadeOut(100, () => $('#sending').fadeIn(100))
-                    const $form = $(this);
-                    $.post($form.attr("action"), $form.serialize()).then(function () {
-                        $('#sending').fadeOut(500, () => $('#thanks').fadeIn(500))
-                    });
+            submitHandler: function (form) {
+                $.ajax({
+                    type: $(form).attr('method'),
+                    url: $(form).attr('action'),
+                    data: $(form).serialize(),
+                    dataType : 'json'
                 })
+                    .done(function (response) {
+                        if (response.success == 'success') {
+                            $('#sending').fadeOut(500, () => $('#thanks').fadeIn(500))
+                        } else {
+                            alert('fail');
+                        }
+                    });
+                return false;
             }
         });
-
 
 
         $('#continue').on('click' , () => {
