@@ -1,12 +1,18 @@
-<div class="grid-container full block header single">
+<div class="grid-container full block header single m-b-50">
     <div class="grid-container">
         <div class="grid-x grid-padding-x grid-margin-y align-middle">
             <div class="cell small-12 medium-8">
-                <img src="{{.Content.Params.image}}" alt="{{.Content.Params.title}}">
+                <div class="image-single-wrapper">
+                <img src="/images/cs-spacer.gif">
+                    <div class="image-single">
+                        <img src="{{.Content.Params.image}}" alt="{{.Content.Params.title}}">
+                    </div>
+                </div>
             </div>
-            <div class="cell small-12 medium-4 align-self-center f-c-black single-header">
+            <div class="cell small-12 medium-4 align-self-bottom f-c-black single-header">
                 <h2><small>{{.Category}}</small>{{.Content.Params.title}}</h2>
                 <p>{{.Content.Params.client}}</p>
+                {{ partial "block-social" .Content }}
 
             </div>
         </div>

@@ -213,6 +213,35 @@
   }
 }
 
+.header {
+  .image-single-wrapper{
+    position: relative;
+  }
+  .image-single {
+    position: absolute;
+    height: 100%;
+    right: 0;
+    top:0;
+    img{
+      float: right;
+      max-width: none;
+      width: auto;
+      height: 100%;
+      max-height: 100%;
+    }
+  }
+
+  .single-social-share {
+    li{
+      display: inline-block;
+    }
+  }
+
+  .lightning {
+    bottom: 37%;
+  }
+}
+
 main {
   position: relative;
   z-index: 10;

@@ -13,7 +13,6 @@
     </div>
     <div class="cell small-12 medium-4">
       <aside>
-        {{ partial "block-social" . }}
         <div class="testimonial-card">
         {{ $filter := .Params.testimonial }}
         {{ partial "testimonials" ( dict "content" . "filter" $filter)}}
