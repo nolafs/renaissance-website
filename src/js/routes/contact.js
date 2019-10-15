@@ -5,10 +5,8 @@ export default {
         console.log('CONTACT')
         $("#contact").submit(function(e) {
             e.preventDefault();
-
-            var $form = $(this);
-            $.post($form.attr("action"), $form.serialize()).then(function(e) {
-                console.log(e)
+            const $form = $(this);
+            $.post($form.attr("action"), $form.serialize()).then(function() {
                 $('#form').fadeOut(500, () => $('#thanks').fadeIn(1000))
             });
         });
