@@ -63,6 +63,8 @@ collections:
       - {label: "Company", name: "company", widget: string}
   - name: "pages"
     label: "Pages"
+    editor:
+      preview: false
     files:
       - file: "site/content/_index.md"
         label: "Home Page"

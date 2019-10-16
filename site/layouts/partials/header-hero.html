@@ -1,6 +1,6 @@
 
 {{ "<!-- hero header -->" | safeHTML }}
-<div class="hero-header container">
+<div class="hero-header container {{if .media.video_active}} video-active {{end}}">
     <div class="hero-header-inner">
         <div class="contentWrapper">
             <div class="grid-container">
@@ -23,8 +23,42 @@
     </div>
     <div class="imageWrapper">
         <img src="/images/header-placeholder.png" alt="hero background">
-        <div class="desktop {{ if .bg_image_mobile }}hide-for-small{{ end }} rellax"  style="background-image: url('{{ .image }}')" data-rellax-speed="-7"></div>
-        {{ if .bg_image_mobile }}<div class="mobile"   style="background-image: url('{{ .bg_image_mobile }}')"></div> {{ end }}
+        {{if not .media.video_active}}
+            <div class="desktop {{ if .bg_image_mobile }}hide-for-small{{ end }} rellax"  style="background-image: url('{{ .media.image }}')" data-rellax-speed="-7"></div>
+            {{ if .bg_image_mobile }}<div class="mobile"   style="background-image: url('{{ .bg_image_mobile }}')"></div> {{ end }}
+        {{ else }}
+            <div  class="video-wrapper responsive-embed widescreen" data-video="{{ .media.video }}">
+                <div id="ytplayer"></div>
+                <!--<iframe  width="560" height="315" src="{{ .media.video }}?autohide=1&autoplay=1&mute=1&loop=1&controls=0&enablejsapi=1&iv_load_policy=3&loop=0&modestbranding=1&playsinline=1&rel=0&showinfo=0&wmode=opaque&origin=https%3A%2F%2Fpopagenda.co&widgetid=1" frameborder="0"  allowfullscreen></iframe>-->
+            </div>
+        <script>
+        var tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/player_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        const video = {{ .media.video }};
+        var player;
+        function onYouTubePlayerAPIReady() {
+            player = new YT.Player('ytplayer', {
+                videoId: video,
+                events: {
+                    'onReady': onPlayerReady,
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+        }
+        function onPlayerReady(event) {
+            player.playVideo()
+            player.mute(); // comment out if you don't want the auto played video muted
+        }
+        function onPlayerStateChange(event) {
+            if (event.data == YT.PlayerState.ENDED) {
+                player.seekTo(0);
+                player.play();
+            }
+        }
+        </script>
+        {{ end }}
     </div>
     <div class="lightning">
         <img src="/images/lightning.svg" >

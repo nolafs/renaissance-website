@@ -1,5 +1,5 @@
 {{ define "header" }}
-    {{ partial "header-hero"  (dict "image" .Params.hero_image "title" .Title "body" .Content)}}
+    {{ partial "header-hero"  (dict "media" .Params.header "title" .Title "body" .Content)}}
     {{ partial "block-twitter"}}
 {{end}}
 {{ define "main" }}
