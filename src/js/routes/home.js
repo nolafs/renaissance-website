@@ -120,7 +120,7 @@ export default {
 
             new ScrollMagic.Scene({
                 triggerElement: item,
-                triggerHook: 0.8
+                triggerHook: 1
             })
             /*
             .addIndicators({
@@ -129,7 +129,7 @@ export default {
                 colorStart: "black",
                 colorEnd: "black"
             })
-            
+
              */
 
                 .setTween(tl)
