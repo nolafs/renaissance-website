@@ -69,7 +69,7 @@
   "dependencies": {
     "@babel/preset-react": "^7.0.0",
     "cookieconsent": "3",
-    "gsap": "./bonus/package",
+    "gsap": "file:./bonus/package",
     "html-webpack-plugin": "^3.2.0",
     "jquery": "^3.4.1",
     "jquery-validation": "^1.19.1",
