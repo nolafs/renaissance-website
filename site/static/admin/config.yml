@@ -115,6 +115,11 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Hero Header", name: header, widget: object, fields: [
+              {label: "Image", name: "image", widget: "image"},
+              {label: "Video", name: "video", widget: string},
+              {label: "Video Banner Active", name: "video_active", widget: "boolean"}
+            ]}
           - {label: "Mission", name: mission, widget: object, fields: [
               {label: "Image", name: "image", widget: "image"},
               {label: "Heading", name: "heading", widget: string},
