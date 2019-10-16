@@ -30,12 +30,14 @@ export default {
             triggerElement: heading,
             triggerHook: 0.4
         })
+            /*
             .addIndicators({
                 name: "Heading Timeline",
                 colorTrigger: "green",
                 colorStart: "red",
                 colorEnd: "black"
             })
+            */
             .setTween(tl)
             .addTo(controller)
 
@@ -66,12 +68,14 @@ export default {
             offset: 100,
             triggerHook: 0.5
         })
+            /*
             .addIndicators({
                 name: "Services Timeline",
                 colorTrigger: "black",
                 colorStart: "black",
                 colorEnd: "black"
             })
+             */
             .setTween(tl)
             .addTo(controller);
 
@@ -91,13 +95,14 @@ export default {
             triggerElement: this,
              triggerHook: 0.5
         })
-
+            /*
             .addIndicators({
                 name: "Box Timeline",
                 colorTrigger: "black",
                 colorStart: "black",
                 colorEnd: "black"
             })
+             */
             .setTween(tl)
             .addTo(controller);
         });
