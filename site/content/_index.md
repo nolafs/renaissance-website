@@ -3,7 +3,7 @@ title: Ethical Communications for <span> Indie Developers & Publishers.</span>
 header:
   image: /images/uploads/home-hero-790px.jpg
   video: 'https://www.youtube.com/watch?v=C-LyFbHuKTc'
-  video_active: true
+  video_active: false
 services:
   heading: How can we help your business?
   services_list:
