@@ -5,16 +5,45 @@ import 'slick-carousel';
 import ScrollMagic from 'scrollmagic/scrollmagic/minified/ScrollMagic.min';
 import 'scrollmagic/scrollmagic/minified/plugins/animation.gsap.min';
 import 'scrollmagic/scrollmagic/minified/plugins/debug.addIndicators.min';
-import TweenMax from 'gsap/src/minified/TweenMax.min';
-import TimelineMax from 'gsap/src/minified/TimelineMax.min';
-import {Elastic, Linear} from "gsap";
+
+import { TweenMax, TimelineMax } from "gsap"; // Also works with TweenLite and TimelineLite
+import { ScrollMagicPluginGsap } from "scrollmagic-plugin-gsap";
+ScrollMagicPluginGsap(ScrollMagic, TweenMax, TimelineMax);
+
+import { SplitText } from "gsap/SplitText.js";
+
 
 var controller = new ScrollMagic.Controller();
 TweenLite.defaultEase = Expo.easeOut;
 
 export default {
 
-    animSerices() {
+    animHeader() {
+        const tl = new TimelineMax({repeat:0, delay: 0.2});
+        const heading = $('.hero-header-inner');
+        const title = new SplitText($('.hero-header-inner').find('h1'), {type:"words,chars"});
+        const chars = title.words;
+
+
+
+        tl.staggerFrom(chars, 0.8, {opacity:0, scaleY: 0, y:80,  ease:Expo.easeOut}, 0.1, "+=0");
+        tl.from($('.content-subtitle-animate'), 0.5,  {opacity:0, y: 100, ease:Expo.easeOut});
+
+        const anim = new ScrollMagic.Scene({
+            triggerElement: heading,
+            triggerHook: 0.4
+        })
+            .addIndicators({
+                name: "Heading Timeline",
+                colorTrigger: "green",
+                colorStart: "red",
+                colorEnd: "black"
+            })
+            .setTween(tl)
+            .addTo(controller)
+
+    },
+    animServices() {
 
         const tl = new TimelineMax();
         const heading = $('.home-service-heading');
@@ -37,11 +66,11 @@ export default {
 
         const anim = new ScrollMagic.Scene({
             triggerElement: heading,
-            offset: 200,
+            offset: 100,
             triggerHook: 0.5
         })
             .addIndicators({
-                name: "Heading Timeline",
+                name: "Services Timeline",
                 colorTrigger: "black",
                 colorStart: "black",
                 colorEnd: "black"
@@ -59,17 +88,19 @@ export default {
                 opacity: 0
             });
             tl.from($(this).find('.item > img'),0.5, {rotationY:90, y:-10, opacity:0 }, '=-0.4')
+
+
          new ScrollMagic.Scene({
             triggerElement: this,
              triggerHook: 0.5
         })
-             /*
+
             .addIndicators({
                 name: "Box Timeline",
                 colorTrigger: "black",
                 colorStart: "black",
                 colorEnd: "black"
-            })*/
+            })
             .setTween(tl)
             .addTo(controller);
         });
@@ -103,7 +134,8 @@ export default {
             autoplaySpeed: 2500,
         });
 
+        this.animHeader();
         this.animList();
-        this.animSerices();
+        this.animServices();
     },
 };
