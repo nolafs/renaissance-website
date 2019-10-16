@@ -107,6 +107,35 @@ export default {
             .addTo(controller);
         });
     },
+    animBlocks() {
+        const blocks = ['#case-studies', '#clients', '#testimonial', '#block-contact'];
+        blocks.forEach((item)=> {
+            const tl = new TimelineMax();
+            console.log(item)
+
+            tl.from(item, 0.5, {
+                y: '30%',
+                opacity: 0
+            });
+
+            new ScrollMagic.Scene({
+                triggerElement: item,
+                triggerHook: 0.8
+            })
+            /*
+            .addIndicators({
+                name: "Box Timeline",
+                colorTrigger: "black",
+                colorStart: "black",
+                colorEnd: "black"
+            })
+            
+             */
+
+                .setTween(tl)
+                .addTo(controller);
+        })
+    },
     init() {
         // JavaScript to be fired on all pages
         console.log('home')
@@ -139,5 +168,6 @@ export default {
         this.animHeader();
         this.animList();
         this.animServices();
+        this.animBlocks();
     },
 };
