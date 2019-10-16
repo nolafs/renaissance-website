@@ -24,8 +24,6 @@ export default {
         const title = new SplitText($('.hero-header-inner').find('h1'), {type:"words,chars"});
         const chars = title.words;
 
-
-
         tl.staggerFrom(chars, 0.8, {opacity:0, scaleY: 0, y:80,  ease:Expo.easeOut}, 0.1, "+=0");
         tl.from($('.content-subtitle-animate'), 0.5,  {opacity:0, y: 100, ease:Expo.easeOut});
 
