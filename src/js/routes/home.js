@@ -17,51 +17,6 @@ TweenLite.defaultEase = Expo.easeOut;
 
 export default {
 
-    hero() {
-        console.log('HERO')
-       if($('.hero-header').hasClass('video-active')){
-           console.log('mute player')
-           var tag = document.createElement('script');
-           tag.src = "https://www.youtube.com/player_api";
-           var firstScriptTag = document.getElementsByTagName('script')[0];
-           firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-           const video = $('#ytplayer').data('video');
-           console.log('video',video);
-
-           $(window).on('onYouTubePlayerAPIReady',(e) => {
-               console.log('test'. e)
-           } )
-
-           var player;
-           function onYouTubePlayerAPIReady() {
-               player = new YT.Player('ytplayer', {
-                   videoId: 'video',
-                   events: {
-                       'onReady': onPlayerReady,
-                       'onStateChange': onPlayerStateChange
-                   }
-               });
-           }
-
-           function onPlayerReady(event) {
-
-               event.target.playVideo();
-               player.mute(); // comment out if you don't want the auto played video muted
-           }
-
-           function onPlayerStateChange(event) {
-               if (event.data == YT.PlayerState.ENDED) {
-                   player.seekTo(0);
-                   player.playVideo();
-               }
-           }
-           function stopVideo() {
-               player.stopVideo();
-           }
-       }
-    },
-
     animHeader() {
         const tl = new TimelineMax({repeat:0, delay: 0.2});
         const heading = $('.hero-header-inner');
