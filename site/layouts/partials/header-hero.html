@@ -28,15 +28,17 @@
             {{ if .bg_image_mobile }}<div class="mobile"   style="background-image: url('{{ .bg_image_mobile }}')"></div> {{ end }}
         {{ else }}
             <div  class="video-wrapper video-background" data-video="{{ .media.video }}" style="background-image: url('{{ .media.image }}')">
-                <div class="video-foreground"><div id="ytplayer" ></div></div>
+                <div id="video-player" class="video-foreground"><div id="ytplayer" ></div></div>
             </div>
         <script>
         var tag = document.createElement('script');
+        var videoPlayer = document.getElementById('video-player');
         tag.src = "https://www.youtube.com/player_api";
         var firstScriptTag = document.getElementsByTagName('script')[0];
         firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-        const video = {{ .media.video }};
+        var video = {{ .media.video }};
         var player;
+
         function onYouTubePlayerAPIReady() {
             player = new YT.Player('ytplayer', {
                 videoId: video,
@@ -62,8 +64,11 @@
             });
         }
         function onPlayerReady(event) {
+
             player.playVideo()
             player.mute(); // comment out if you don't want the auto played video muted
+
+            setTimeout(()=> {videoPlayer.className += ' playing'}, 500)
         }
         function onPlayerStateChange(event) {
             if (event.data == YT.PlayerState.ENDED) {

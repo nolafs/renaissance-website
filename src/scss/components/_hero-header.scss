@@ -301,6 +301,18 @@
   pointer-events: none;
 }
 
+.video-foreground {
+  opacity: 0;
+  transition: 500ms opacity ease-out;
+  &.playing {
+    opacity: 1;
+    transition: 500ms opacity ease-out;
+  }
+}
+
+
+
+
 @media (min-aspect-ratio: 16/9) {
   .video-foreground { height: 300%; top: -100%; }
 }
