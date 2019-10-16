@@ -10,27 +10,27 @@ import TimelineMax from 'gsap/src/minified/TimelineMax.min';
 import {Elastic, Linear} from "gsap";
 
 var controller = new ScrollMagic.Controller();
-TweenLite.defaultEase = Linear.easeInOut;
+TweenLite.defaultEase = Expo.easeOut;
 
 export default {
 
-    animHeader() {
+    animSerices() {
 
         const tl = new TimelineMax();
         const heading = $('.home-service-heading');
         tl.set(heading.find('.h-anim'), {x:'100%'})
-        tl.from(heading.find('h2'), 0.4, {
+        tl.from(heading.find('h2'), 0.3, {
            y: '-100%'
         });
 
-        tl.to(heading.find('.h-anim'), 0.2, {
+        tl.to(heading.find('.h-anim'), 0.5, {
             x: '0%'
         });
-        tl.from($('.h-anim-2'), 0.3, {
+        tl.from($('.h-anim-2'), 0.5, {
             x: '100%',
             opacity:0
-        },'-=0.1');
-        tl.from($('.home-service-content'), 0.4, {
+        },'-=0.5');
+        tl.from($('.home-service-content'), 0.5, {
             y: 100,
             opacity: 0
         });
@@ -55,12 +55,12 @@ export default {
         $(".block-icon-list li").each(function(i) {
             const tl = new TimelineMax();
             tl.from($(this).find('.item'), 0.5, {
-                x: '100%',
+                y: '30%',
                 opacity: 0
             });
+            tl.from($(this).find('.item > img'),0.5, {rotationY:90, y:-10, opacity:0 }, '=-0.4')
          new ScrollMagic.Scene({
             triggerElement: this,
-             offset: -150,
              triggerHook: 0.5
         })
              /*
@@ -104,6 +104,6 @@ export default {
         });
 
         this.animList();
-        this.animHeader();
+        this.animSerices();
     },
 };
