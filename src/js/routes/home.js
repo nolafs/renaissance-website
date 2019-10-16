@@ -3,7 +3,6 @@ import $ from 'jquery';
 import 'slick-carousel';
 
 import ScrollMagic from 'scrollmagic/scrollmagic/minified/ScrollMagic.min';
-import 'scrollmagic/scrollmagic/minified/plugins/animation.gsap.min';
 import 'scrollmagic/scrollmagic/minified/plugins/debug.addIndicators.min';
 
 import { TweenMax, TimelineMax } from "gsap"; // Also works with TweenLite and TimelineLite
