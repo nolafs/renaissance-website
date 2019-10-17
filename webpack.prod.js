@@ -3,7 +3,9 @@ const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
-
+const ImageminPlugin = require('imagemin-webpack-plugin').default;
+const imageminMozjpeg = require ('imagemin-mozjpeg');
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 const common = require("./webpack.common.js");
 
 module.exports = merge(common, {
@@ -38,7 +40,22 @@ module.exports = merge(common, {
         chunkFilename: "[id].[hash:5].css"
       }),
 
-      new OptimizeCSSAssetsPlugin({})
+      new OptimizeCSSAssetsPlugin({}),
     ]
-  }
+  },
+  plugins: [
+    new ImageminPlugin({
+      test: /\.(jpe?g|png|gif|svg)$/i,
+      disable: false,
+      pngquant: {
+        quality: '75',
+      },
+      plugins: [
+        imageminMozjpeg({
+          quality: 75,
+          progressive: true
+        })
+      ]
+    })
+  ]
 });
