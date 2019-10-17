@@ -1,11 +1,11 @@
 import Shuffle from 'shufflejs';
 import $ from 'jquery'
+import ScrollMagic from "scrollmagic/scrollmagic/minified/ScrollMagic.min";
+import animations from "../util/animations";
 
 export default {
     init() {
         // JavaScript to be fired on all pages
-        console.log('case studies', window.location.hash.substr(1))
-
         let hash = window.location.hash.substr(1).toLowerCase()
         if(!hash){
             window.location.hash = "all";
@@ -14,12 +14,6 @@ export default {
             $('#filters .isActive').removeClass('isActive');
             $(`#filter-${hash}`).addClass('isActive');
             $('#list-grid').attr('data-filter', ''+hash)
-
-            if(hash === 'all'){
-                //$('#list-grid .item-0').addClass('expand')
-            } else {
-                //$('#list-grid .item-0').removeClass('expand')
-            }
         }
 
         $( window ).on( 'hashchange', function( e ) {
@@ -36,7 +30,7 @@ export default {
     },
     finalize() {
         // JavaScript to be fired on all pages, after page specific JS is fire
-        const hash = window.location.hash.substr(1).toLowerCase()
+        const hash = window.location.hash.substr(1).toLowerCase();
 
         const sortOption =  {
             reverse: false,
@@ -63,9 +57,7 @@ export default {
                 $event.preventDefault();
                 const b = $(this);
                 const cat = (b.data('cat')).toLowerCase();
-                console.log(cat);
                 window.location.hash = cat;
-
                 if(cat === 'all'){
                     $('#list-grid .item-0').addClass('expand')
                 } else {
@@ -83,6 +75,10 @@ export default {
 
 
         }, 100);
+
+        const controller = new ScrollMagic.Controller();
+        const blocks =['#block-studies',  '#block-contact'];
+        animations.animBlock(controller, blocks);
 
 
     },

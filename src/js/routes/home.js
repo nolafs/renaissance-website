@@ -10,6 +10,7 @@ import { ScrollMagicPluginGsap } from "scrollmagic-plugin-gsap";
 ScrollMagicPluginGsap(ScrollMagic, TweenMax, TimelineMax);
 
 import { SplitText } from "gsap/SplitText.js";
+import animations from "../util/animations"
 
 
 var controller = new ScrollMagic.Controller();
@@ -82,6 +83,8 @@ export default {
     },
     animList () {
 
+
+
         $(".block-icon-list li").each(function(i) {
             const tl = new TimelineMax();
             tl.from($(this).find('.item'), 0.5, {
@@ -109,32 +112,7 @@ export default {
     },
     animBlocks() {
         const blocks = ['#case-studies', '#clients', '#testimonial', '#block-contact'];
-        blocks.forEach((item)=> {
-            const tl = new TimelineMax();
-            console.log(item)
-
-            tl.from(item, 0.5, {
-                y: '30%',
-                opacity: 0
-            });
-
-            new ScrollMagic.Scene({
-                triggerElement: item,
-                triggerHook: 1
-            })
-            /*
-            .addIndicators({
-                name: "Box Timeline",
-                colorTrigger: "black",
-                colorStart: "black",
-                colorEnd: "black"
-            })
-
-             */
-
-                .setTween(tl)
-                .addTo(controller);
-        })
+       animations.animBlock(controller,blocks);
     },
     init() {
         // JavaScript to be fired on all pages

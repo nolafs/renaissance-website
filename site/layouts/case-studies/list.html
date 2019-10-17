@@ -2,7 +2,8 @@
    {{ partial "header" (dict "Title" "Case Studies" "Content"  $.Site.Data.casestudies.heading) }}
 {{end}}
 {{ define "main" }}
-<div class="grid-container block">
+<section>
+<div id="block-studies" class="grid-container block">
     <div id="filters" class="grid-x grid-padding-x grid-margin-y align-center-middle m-b-30">
         <div class="cell shrink">
             <a id="filter-all" data-cat="all" href="#all" class="isActive">View all items</a>
@@ -31,5 +32,6 @@
 </div>
 <div class="grid-x small-up-2 medium-up-3">
 </div>
+</section>
 {{ end }}
 

@@ -1,5 +1,8 @@
 #values {
 
+  position: relative;
+  z-index: 2;
+  margin-bottom: 80px;
   .grid-x{
     @include breakpoint(large){
       @include flex-align(left, middle);
