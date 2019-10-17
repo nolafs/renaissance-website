@@ -78,8 +78,9 @@
                         Social Media
                     </h6>
                     <ul class="no-bullet">
+                        {{ $title := .Site.Title}}
                         {{ range $media := $.Site.Data.socialmedia.links}}
-                            <li class=""><div class="social-block {{$media.type | urlize}}"><a href="{{$media.url}}" aria-label="{{$media.type}}"><i class="icon fab fa-{{$media.id | urlize}}"></i></a></div></li>
+                            <li class=""><div class="social-block {{$media.type | urlize}}"><a href="{{$media.url}}" aria-label="{{$media.type}} {{ $title }}"><i class="icon fab fa-{{$media.id | urlize}}"></i></a></div></li>
                         {{ end }}
                     </ul>
                 </div>
