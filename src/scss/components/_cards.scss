@@ -4,6 +4,7 @@
   display: flex;
   flex-wrap: wrap;
   cursor: pointer;
+  overflow: hidden;
 
   header {
     small{
@@ -44,8 +45,10 @@
   .card-section {
     display: flex;
     flex-direction: column;
+    min-height: 266px;
     > div {
-      flex: 1 0 0;
+      flex-grow: 1;
+      margin-top: auto;
     }
   }
 

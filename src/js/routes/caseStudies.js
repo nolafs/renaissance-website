@@ -43,10 +43,6 @@ export default {
             by: 'data-date-created',
         };
 
-
-
-
-
         setTimeout(() => {
 
             const shuffle = new Shuffle(document.querySelector('.list'), {

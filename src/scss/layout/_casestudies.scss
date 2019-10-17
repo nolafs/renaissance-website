@@ -108,9 +108,6 @@
 }
 
 #list-grid {
-
-
-
   .cell.expand {
     @include breakpoint(small){
       width: 100%;
@@ -118,6 +115,10 @@
 
     @include breakpoint(large){
       width: 66%;
+    }
+
+    .card-button{
+      min-height: 100%;
     }
 
     .image-wrapper {
@@ -162,8 +163,21 @@
   }
 
   .cell:not(.expand){
+    .card-section {
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 1;
+      min-height: 266px;
+      min-width: 0;
+      overflow: hidden;
+
+      > div {
+        flex-grow: 1;
+
+      }
+    }
     .icon-bottom {
-      margin-top: 46px;
+      margin-bottom: auto;
     }
   }
 }

@@ -208,7 +208,7 @@
 .menu-icon {
   width: 25px;
   height: 25px;
-  border-radius: none;
+  border-radius: unset;
   &:after {
     display: none;
   }
