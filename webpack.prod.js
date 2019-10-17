@@ -5,7 +5,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
 const ImageminPlugin = require('imagemin-webpack-plugin').default;
 const imageminMozjpeg = require ('imagemin-mozjpeg');
-const CopyWebpackPlugin = require("copy-webpack-plugin");
+const CompressionPlugin = require('compression-webpack-plugin');
 const common = require("./webpack.common.js");
 
 module.exports = merge(common, {
@@ -56,6 +56,9 @@ module.exports = merge(common, {
           progressive: true
         })
       ]
+    }),
+    new CompressionPlugin({
+      test: /\.js(\?.*)?$/i,
     })
   ]
 });
