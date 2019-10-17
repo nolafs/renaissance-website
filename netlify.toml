@@ -9,3 +9,12 @@
 
 [context.deploy-preview]
   command = "npm run build:preview"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+	cache-control = '''
+	max-age=0,
+	no-cache,
+	no-store,
+	must-revalidate'''
