@@ -58,7 +58,9 @@ module.exports = merge(common, {
       ]
     }),
     new CompressionPlugin({
-      test: /\.js(\?.*)?$/i,
+      test: /\.js$|\.css$|\.html$|\.eot?.+$|\.ttf?.+$|\.woff?.+$|\.svg?.+$/,
+      threshold: 10240,
+      minRatio: 0.8
     })
   ]
 });
