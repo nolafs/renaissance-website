@@ -1,8 +1,10 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "Renaissance PR"
+title = "Renaissance PR Agency"
 
+[imaging]
+quality = 60
 
 # Google
 #
