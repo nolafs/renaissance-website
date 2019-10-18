@@ -28,14 +28,14 @@ module.exports = merge(common, {
 
   optimization: {
     minimizer: [
-        /*
+
       new TerserPlugin({
         cache: true,
         parallel: true,
         sourceMap: true,
         exclude: /\/node_modules\//,
       }),
-      */
+      
       new MiniCssExtractPlugin({
         filename: "[name].[hash:5].css",
         chunkFilename: "[id].[hash:5].css"
