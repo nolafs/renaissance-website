@@ -14,11 +14,11 @@ import caseStudies from './routes/caseStudies';
 const routes = new Router({
     // All pages
     common,
-    //home,
-    //contact,
-    //caseStudies,
-   // services,
-    //about
+    home,
+    contact,
+    caseStudies,
+    services,
+    about
 });
 
 // Load Events
