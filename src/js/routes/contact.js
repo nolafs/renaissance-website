@@ -42,8 +42,9 @@ export default {
 
 
         $('.continue').on('click' , () => {
-            $("#contact").reset();
+
             if(!error) {
+                $("#contact").reset();
                 $('#thanks').fadeOut(500, () => $('#form').fadeIn(500))
             } else {
                 $('#error').fadeOut(500, () => $('#form').fadeIn(500))
