@@ -1,7 +1,7 @@
 import ScrollMagic from 'scrollmagic/scrollmagic/minified/ScrollMagic.min';
 import 'scrollmagic/scrollmagic/minified/plugins/debug.addIndicators.min';
 
-import { TweenMax, TimelineMax } from "gsap"; // Also works with TweenLite and TimelineLite
+import { TweenMax, TimelineMax } from "../bonus/package/dist/gsap"; // Also works with TweenLite and TimelineLite
 import { ScrollMagicPluginGsap } from "scrollmagic-plugin-gsap";
 ScrollMagicPluginGsap(ScrollMagic, TweenMax, TimelineMax);
 
