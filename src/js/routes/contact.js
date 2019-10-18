@@ -37,7 +37,7 @@ export default {
                         data: $(form).serialize(),
                         dataType : 'json'
                     })
-                        .then(function (response) {
+                        .done(function (response) {
                             console.log('response', response)
                             $('#sending').fadeOut(500, () => $('#thanks').fadeIn(500))
                             /*
