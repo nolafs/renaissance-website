@@ -1,8 +1,7 @@
 .card-button {
   box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.4);
   transition: 250ms all ease-in-out;
-  display: flex;
-  flex-wrap: wrap;
+  display: block;
   cursor: pointer;
   overflow: hidden;
 
@@ -41,16 +40,21 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   height: 100%;
+
   .card-image-wrapper {
-    display: block;
+    img {
+      flex: none;
+    }
   }
+
   .card-section {
     display: flex;
-    flex-direction: column;
     min-height: 266px;
-    > div {
-      flex-grow: 1;
+    > div:last-child {
+      flex: 1 1 auto;
       margin-top: auto;
     }
   }
