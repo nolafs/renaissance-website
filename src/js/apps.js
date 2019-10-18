@@ -6,7 +6,7 @@ $( window ).on('load', function() {
 });
 
 $(document).ready(function () {
-
+/*
     let p_scroll=0;
 
     if($(window).scrollTop() > 10){
@@ -36,6 +36,8 @@ $(document).ready(function () {
         p_scroll = $(window).scrollTop();
 
     })
+    
+ */
 });
 
 // import local dependencies
