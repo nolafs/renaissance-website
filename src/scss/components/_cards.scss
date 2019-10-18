@@ -42,6 +42,9 @@
 
 .card {
   height: 100%;
+  .card-image-wrapper {
+    display: block;
+  }
   .card-section {
     display: flex;
     flex-direction: column;
