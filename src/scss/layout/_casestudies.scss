@@ -145,10 +145,14 @@
         position: absolute;
         display: flex;
         flex-direction: row;
-        flex: 1 1 100%;
+
         bottom: 0;
         width: 100%;
         z-index: 2;
+
+        div:first-child {
+          flex: 1 1 100%;
+        }
 
         header {
           align-self: flex-start;
