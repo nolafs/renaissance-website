@@ -8,7 +8,7 @@ export default {
     },
     finalize() {
 
-        let error = false;
+        //let error = false;
         //$('#thanks').hide();
         //$('#sending').hide();
         //$('#error').hide();
@@ -59,7 +59,7 @@ export default {
                 //$('#error').fadeOut(500, () => $('#form').fadeIn(500))
             }
         })
-         
+
  */
 
     },
