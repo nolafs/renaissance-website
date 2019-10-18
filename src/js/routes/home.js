@@ -5,11 +5,11 @@ import 'slick-carousel';
 import ScrollMagic from 'scrollmagic/scrollmagic/minified/ScrollMagic.min';
 import 'scrollmagic/scrollmagic/minified/plugins/debug.addIndicators.min';
 
-import { TweenMax, TimelineMax } from "../bonus/package/dist/gsap"; // Also works with TweenLite and TimelineLite
+import { TweenMax, TimelineMax } from "../bonus/gsap"; // Also works with TweenLite and TimelineLite
 import { ScrollMagicPluginGsap } from "scrollmagic-plugin-gsap";
 ScrollMagicPluginGsap(ScrollMagic, TweenMax, TimelineMax);
 
-import { SplitText } from "../bonus/package/dist/SplitText";
+import { SplitText } from "../bonus/SplitText";
 import animations from "../util/animations"
 
 
