@@ -2,6 +2,12 @@ import $ from 'jquery';
 import 'jquery-validation';
 export default {
     init() {
+
+
+
+    },
+    finalize() {
+
         let error = false;
         $('#thanks').hide();
         $('#sending').hide();
@@ -51,12 +57,6 @@ export default {
                 $('#error').fadeOut(500, () => $('#form').fadeIn(500))
             }
         })
-
-
-    },
-    finalize() {
-
-
 
     },
 };
