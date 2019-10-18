@@ -1,5 +1,5 @@
 import $ from 'jquery';
-//import 'jquery-validation';
+import 'jquery-validation';
 export default {
     init() {
 
@@ -8,11 +8,11 @@ export default {
     },
     finalize() {
 
-        //let error = false;
-        //$('#thanks').hide();
-        //$('#sending').hide();
-        //$('#error').hide();
-/*
+        let error = false;
+        $('#thanks').hide();
+        $('#sending').hide();
+        $('#error').hide();
+
         $("#contact").validate({
             rules : {
                 name: 'required',
@@ -29,7 +29,7 @@ export default {
             },
             submitHandler: function (form) {
 
-               // $('#form').fadeOut(500, () => $('#sending').fadeIn(500));
+                $('#form').fadeOut(500, () => $('#sending').fadeIn(500));
 
                 $.ajax({
                     type: $(form).attr('method'),
@@ -39,10 +39,10 @@ export default {
                 })
                     .done(function (response) {
                         if (response.success == 'success') {
-                            //$('#sending').fadeOut(500, () => $('#thanks').fadeIn(500))
+                            $('#sending').fadeOut(500, () => $('#thanks').fadeIn(500))
                         } else {
                             error = true;
-                            //$('#sending').fadeOut(500, () => $('#error').fadeIn(500))
+                            $('#sending').fadeOut(500, () => $('#error').fadeIn(500))
                         }
                     });
                 return false;
@@ -50,17 +50,13 @@ export default {
         });
 
 
-
-
         $('.continue').on('click' , () => {
             if(!error) {
-                //$('#thanks').fadeOut(500, () => $('#form').fadeIn(500))
+                $('#thanks').fadeOut(500, () => $('#form').fadeIn(500))
             } else {
-                //$('#error').fadeOut(500, () => $('#form').fadeIn(500))
+                $('#error').fadeOut(500, () => $('#form').fadeIn(500))
             }
         })
-
- */
 
     },
 };
