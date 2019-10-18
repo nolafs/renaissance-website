@@ -68,15 +68,15 @@
 
 
         @include breakpoint(small) {
-          min-height: 380px;
+          height: 380px;
         }
 
         @include breakpoint(medium) {
-          min-height: 590px;
+          height: 590px;
         }
 
         @include breakpoint(large) {
-          min-height: 690px;
+          height: 690px;
         }
       }
     }
