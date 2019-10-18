@@ -5,21 +5,24 @@ import 'slick-carousel';
 import ScrollMagic from 'scrollmagic/scrollmagic/minified/ScrollMagic.min';
 import 'scrollmagic/scrollmagic/minified/plugins/debug.addIndicators.min';
 
-import { TweenMax, TimelineMax } from "../bonus/gsap"; // Also works with TweenLite and TimelineLite
+import { gsap } from "../bonus/gsap"; // Also works with TweenLite and TimelineLite
 import { ScrollMagicPluginGsap } from "scrollmagic-plugin-gsap";
 ScrollMagicPluginGsap(ScrollMagic, TweenMax, TimelineMax);
 
 import { SplitText } from "../bonus/SplitText";
 import animations from "../util/animations"
-
+gsap.registerPlugin(SplitText);
 
 var controller = new ScrollMagic.Controller();
-TweenLite.defaultEase = Expo.easeOut;
+gsap.defaultEase = Expo.easeOut;
 
 export default {
 
     animHeader() {
-        const tl = new TimelineMax({repeat:0, delay: 0.2});
+
+
+
+        const tl = gsap.timeline({repeat:0, delay: 0.2});
         const heading = $('.hero-header-inner');
         const title = new SplitText($('.hero-header-inner').find('h1'), {type:"words,chars"});
         const chars = title.words;
@@ -45,7 +48,7 @@ export default {
     },
     animServices() {
 
-        const tl = new TimelineMax();
+        const tl = gsap.timeline();
         const heading = $('.home-service-heading');
         tl.set(heading.find('.h-anim'), {x:'100%'})
         tl.from(heading.find('h2'), 0.3, {
@@ -86,7 +89,7 @@ export default {
 
 
         $(".block-icon-list li").each(function(i) {
-            const tl = new TimelineMax();
+            const tl = gsap.timeline();
             tl.from($(this).find('.item'), 0.5, {
                 y: '30%',
                 opacity: 0

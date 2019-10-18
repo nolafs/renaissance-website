@@ -2,20 +2,13 @@ import $ from "jquery";
 
 export default {
   init() {
-
-
-
     let p_scroll=0;
-
     if($(window).scrollTop() > 10){
-
       setTimeout(() => {
         $('.top-bar').addClass('is-stuck')
       }, 500)
-
     }
     $(window).scroll(function () {
-
       if($(window).scrollTop() >  10) {
         $('.top-bar').addClass('is-stuck')
       } else {
@@ -30,9 +23,7 @@ export default {
           $('.top-bar').removeClass('scroll-up')
         }
       }
-
       p_scroll = $(window).scrollTop();
-
     })
   },
   finalize() {
