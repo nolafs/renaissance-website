@@ -49,7 +49,7 @@ export default {
             }
         });
 
- */
+
 
 
         $('.continue').on('click' , () => {
@@ -59,6 +59,8 @@ export default {
                 //$('#error').fadeOut(500, () => $('#form').fadeIn(500))
             }
         })
+         
+ */
 
     },
 };
