@@ -8,7 +8,6 @@ $( window ).on('load', function() {
 $(document).ready(function () {
 
     let p_scroll=0;
-    console.log('check', $(window).scrollTop())
 
     if($(window).scrollTop() > 10){
 
@@ -18,8 +17,6 @@ $(document).ready(function () {
 
     }
     $(window).scroll(function () {
-
-        console.log('check', $(window).scrollTop() > 10)
 
         if($(window).scrollTop() >  10) {
             $('.top-bar').addClass('is-stuck')
