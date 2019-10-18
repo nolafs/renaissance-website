@@ -45,6 +45,7 @@
   height: 100%;
 
   .card-image-wrapper {
+    min-height: 1px;
     img {
       flex: none;
     }
@@ -52,7 +53,10 @@
 
   .card-section {
     display: flex;
-    min-height: 266px;
+    min-height: 1px;
+    div:first-child {
+      min-height: 200px;
+    }
     > div:last-child {
       flex: 1 1 auto;
       margin-top: auto;
