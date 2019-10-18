@@ -172,16 +172,11 @@
 
   .cell:not(.expand){
     .card-section {
-      display: flex;
-      flex-direction: column;
-      flex-shrink: 1;
-      min-height: 266px;
-      min-width: 0;
       overflow: hidden;
 
-      > div {
-        flex-grow: 1;
-
+      > div:first-child {
+        flex: 1 0 100%;
+        min-height: 158px;
       }
     }
     .icon-bottom {
