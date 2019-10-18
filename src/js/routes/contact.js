@@ -31,25 +31,32 @@ export default {
 
                 $('#form').fadeOut(500, () => $('#sending').fadeIn(500, ()=>{
 
-                    $.ajax({
-                        type: $(form).attr('method'),
-                        url: $(form).attr('action'),
-                        data: $(form).serialize(),
-                        dataType : 'json'
-                    })
-                        .done(function (response) {
-                            console.log('response', response)
-                            $('#sending').fadeOut(500, () => $('#thanks').fadeIn(500))
-                            /*
-                            if (response.success == 'success') {
-                                $('#sending').fadeOut(500, () => $('#thanks').fadeIn(500))
-                            } else {
-                                error = true;
-                                $('#sending').fadeOut(500, () => $('#error').fadeIn(500))
-                            }
+                    $.post($(form).attr("action"), $(form).serialize()).then(function() {
+                        console.log('response', response)
+                        $('#sending').fadeOut(500, () => $('#thanks').fadeIn(500))
+                    });
+                    /*
+                                        $.ajax({
+                                            type: $(form).attr('method'),
+                                            url: $(form).attr('action'),
+                                            data: $(form).serialize(),
+                                            dataType : 'json'
+                                        })
+                                            .done(function (response) {
+                                                console.log('response', response)
+                                                $('#sending').fadeOut(500, () => $('#thanks').fadeIn(500))
 
-                             */
-                        });
+                                                if (response.success == 'success') {
+                                                    $('#sending').fadeOut(500, () => $('#thanks').fadeIn(500))
+                                                } else {
+                                                    error = true;
+                                                    $('#sending').fadeOut(500, () => $('#error').fadeIn(500))
+                                                }
+
+
+                                            });
+
+                                                 */
                 }));
 
                 return false;
