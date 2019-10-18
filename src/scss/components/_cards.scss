@@ -51,6 +51,10 @@
     }
   }
 
+  .card-simple {
+    padding: $global-padding;
+  }
+
   .card-section {
     display: flex;
     min-height: 1px;
