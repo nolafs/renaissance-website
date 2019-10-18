@@ -31,7 +31,7 @@ export default {
 
                 $('#form').fadeOut(500, () => $('#sending').fadeIn(500, ()=>{
 
-                    $.post($(form).attr("action"), $(form).serialize()).then(function() {
+                    $.post($(form).attr("action"), $(form).serialize()).then(function(response) {
                         console.log('response', response)
                         $('#sending').fadeOut(500, () => $('#thanks').fadeIn(500))
                     });
