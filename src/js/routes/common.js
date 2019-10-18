@@ -3,9 +3,7 @@ import $ from "jquery";
 export default {
   init() {
 
-    $( window ).on('load', function() {
-      $('.loading').fadeOut('fast');
-    });
+
 
     let p_scroll=0;
 
