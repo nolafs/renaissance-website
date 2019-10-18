@@ -1,7 +1,9 @@
 
 <div class="card card-button" onclick="window.location='{{ .RelPermalink }}';">
         {{ with .Params.image }}
+        <div class="card-image-wrapper">
             <img src="{{ . }}?nf_resize=fit&w=450&h=253" alt="">
+        </div>
         {{end}}
         <div class="card-section">
             <div>
