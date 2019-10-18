@@ -4,6 +4,7 @@ import "./scss/app.scss";
  Foundation
  =========================================================================== */
 import $ from 'jquery';
+import 'custom-event-polyfill';
 
 import Foundation from 'foundation-sites/dist/js/foundation.min';
 /* Foundation Imports */

@@ -74,6 +74,7 @@
     "@babel/preset-react": "^7.0.0",
     "compression-webpack-plugin": "^3.0.0",
     "cookieconsent": "3",
+    "custom-event-polyfill": "^1.0.7",
     "imagemin-mozjpeg": "^8.0.0",
     "jquery": "^3.4.1",
     "jquery-validation": "^1.17.0",
