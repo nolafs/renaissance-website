@@ -9,10 +9,10 @@ export default {
     finalize() {
 
         let error = false;
-        $('#thanks').hide();
-        $('#sending').hide();
-        $('#error').hide();
-
+        //$('#thanks').hide();
+        //$('#sending').hide();
+        //$('#error').hide();
+/*
         $("#contact").validate({
             rules : {
                 name: 'required',
@@ -48,6 +48,8 @@ export default {
                 return false;
             }
         });
+        
+ */
 
 
         $('.continue').on('click' , () => {
