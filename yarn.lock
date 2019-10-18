@@ -4039,9 +4039,6 @@ gray-matter@^4.0.2:
     section-matter "^1.0.0"
     strip-bom-string "^1.0.0"
 
-"gsap@file:./bonus/package":
-  version "3.0.0-beta.8"
-
 gzip-size@^5.0.0:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/gzip-size/-/gzip-size-5.1.1.tgz#cb9bee692f87c0612b232840a873904e4c135274"
@@ -8419,6 +8416,12 @@ schema-utils@^2.0.0, schema-utils@^2.4.1:
 scrollmagic-plugin-gsap@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/scrollmagic-plugin-gsap/-/scrollmagic-plugin-gsap-1.0.3.tgz#39e50ffc2fb0fb0eb90b3a487cb598d18251cd90"
+  dependencies:
+    "@types/gsap" "^1.20.1"
+
+scrollmagic-plugin-gsap@gpitot/scrollmagic-plugin-gsap:
+  version "1.0.3"
+  resolved "https://codeload.github.com/gpitot/scrollmagic-plugin-gsap/tar.gz/c401f5e1a2be372be61365fc6e6ac8bb85548b71"
   dependencies:
     "@types/gsap" "^1.20.1"
 
