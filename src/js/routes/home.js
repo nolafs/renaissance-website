@@ -128,7 +128,7 @@ export default {
             "profile": {"screenName": 'RenaissancePRUK'},
             "domId": 'tweet-post',
             "maxTweets": 1,
-            "enableLinks": false,
+            "enableLinks": true,
             "showUser": false,
             "showTime": false,
             "showImages": false,

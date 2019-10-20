@@ -33,7 +33,7 @@
     top:- rem-calc(50);
     text-align: center;
 
-    @include breakpoint(small onlyl){
+    @include breakpoint(small only){
       top:- rem-calc(25);
     }
 
