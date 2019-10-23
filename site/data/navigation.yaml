@@ -7,3 +7,5 @@ items:
     name: About
   - link: /contact
     name: Contact
+  - link: /privacy
+    name: Privacy
