@@ -11,4 +11,5 @@ description: >-
 ---
 Despite the shortness of time, Renaissance managed to deliver an IGN exclusive across 30 countries.
 
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/iaYGgSm_5Q8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< youtube iaYGgSm_5Q8 >}}
