@@ -27,5 +27,3 @@ Edge announcement brokered by Renaissance
 ![Kerbal Space Program 2](/images/uploads/case-privatedivision-kerbal2logo.jpg " PC Gamer coverage from announcement at Gamescom 2019")
 
  PC Gamer coverage from announcement at Gamescom 2019
-
-{{< youtube iaYGgSm_5Q8 >}}
