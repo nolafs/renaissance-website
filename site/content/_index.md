@@ -101,7 +101,7 @@ clients:
       company_logo: /images/uploads/client-skyboundgames.jpg
       company_url: 'https://www.skybound.com'
   heading: Our Clients
-  slider_num: '6'
+  slider_num: '12'
   text: >-
     Since our inception in 2015 we are proud to have worked with a variety of
     clients, many of whom are still valued partners today.
