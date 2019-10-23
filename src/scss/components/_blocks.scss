@@ -54,6 +54,12 @@
 }
 
 #block-twitter {
+  #tweet-post {
+    a {
+      color: $white;
+      text-decoration: underline;
+    }
+  }
   > div {
     padding-top: rem-calc(60);
     padding-bottom: rem-calc(60);
