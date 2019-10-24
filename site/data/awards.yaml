@@ -2,3 +2,14 @@ heading: Awards
 body: >-
   Since our inception in 2015 we are proud to have worked with a variety of
   clients, many of whom are still valued partners today.
+awards:
+  - image: /images/uploads/awards-mcv16.jpg
+    title: MCV Awards Finalist 2016
+  - image: /images/uploads/awards-mcv17.jpg
+    title: MCV Awards Finalist 2017
+  - image: /images/uploads/awards-mcv18.jpg
+    title: MCV Awards Finalist 2018
+  - image: /images/uploads/awards-mcv19.jpg
+    title: MCV Awards Winner 2019
+  - image: /images/uploads/awards-worldrecord.jpg
+    title: Guinness World Record Holder
