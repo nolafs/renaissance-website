@@ -236,6 +236,22 @@ collections:
               - {label: Dismiss, name: dismiss, widget: string, default: "Got it!"}
               - {label: Link, name: link, widget: string, default: "Privacy Policy"}
               - {label: Url, name: url, widget: string}
+      - label: "Awards"
+        name: "awards"
+        file: "site/data/awards.yaml"
+        fields:
+          - label: "Heading"
+            name: "heading"
+            widget: "string"
+          - label: "body"
+              name: "body"
+              widget: "markdown"
+          - label: "Awards"
+            name: "awards"
+            widget: "list"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Image, name: image, widget: image}
       - label: "Contact"
         name: "contact"
         file: "site/data/contact.yaml"
