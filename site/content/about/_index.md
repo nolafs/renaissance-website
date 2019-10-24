@@ -87,9 +87,9 @@ team:
         with community management, events management, PR and the production of
         marketing content. Nicolas brings with him his impressive encyclopedic
         knowledge of the video games industry.
-    - image: /images/uploads/staff-matt-benson.jpg
-      name: Matt Benson
-      position: 'Commercial, Media & Strategy'
+    - image: /images/uploads/staff-emily-britt.jpg
+      name: Emily Britt
+      position: Global Consultant Strategist
       text: >-
         After studying Game Design and gathering work experience in journalism
         and a few odd jobs to start out in the Montreal games industry, Nicolas
