@@ -1,0 +1,22 @@
+{{ "<!-- Block contact -->" | safeHTML }}
+{{ with .GetPage "/"}}
+<section>
+    <div id="block-contact" class="grid-container full  block contact">
+        <div class="grid-container">
+            <div class="grid-x gid-padding-x text-center align-center">
+                <div class="cell small-12 medium-9 large-8">
+                    <h2>{{ .Params.awards.heading}}</h2>
+                </div>
+            </div>
+            <div class="grid-x gid-padding-x text-center align-center">
+                <div class="cell small-10 medium-8 large-6">
+                    <p>{{ .Params.awards.body}}</p>
+                </div>
+            </div>
+            <div class="grid-x gid-padding-x text-center align-center">
+            </div>
+        </div>
+    </div>
+</section>
+{{end}}
+{{ "<!-- Block Contact -->" | safeHTML }}
