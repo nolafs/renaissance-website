@@ -114,7 +114,7 @@ export default {
         });
     },
     animBlocks() {
-        const blocks = ['#case-studies', '#clients', '#testimonial', '#block-contact'];
+        const blocks = ['#case-studies', '#clients', '#testimonial', '#block-awards', '#block-contact'];
        animations.animBlock(controller,blocks);
     },
     init() {
