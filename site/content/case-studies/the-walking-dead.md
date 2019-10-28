@@ -9,4 +9,6 @@ description: >-
   for the region and execution for UK (over 35 review across gaming and
   mainstream) and 200 articles in the EMEA Region vs 97 in the US region.
 ---
+We launched the critically acclaimed The Walking Dead creating EM EA strategy for the region and execution for UK (over 35 review across gaming and mainstream) and 200 articles in the EMEA Region vs 97 in the US region.
+
 ![Daily Star](/images/uploads/case-thewalkingdead-img.jpg "Daily Star")
