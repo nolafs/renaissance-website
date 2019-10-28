@@ -1,15 +1,23 @@
 ---
-title: Beneath a Steel Sky
+title: Beyond a Steel Sky
 date: 2019-10-08T13:05:29.906Z
-categories: Go-to-Market
+categories: worldwide-campaigns
 image: /images/uploads/case-beyondasteelsky.jpg
-testimonial: Olaf
+testimonial: ''
 client: Revolution Software
 description: >-
-  Revolution Software approached Renaissance to lead the global launch for
-  Beyond a Steel Sky, sequel to the acclaimed Beneath a Steel Sky from the 1990s
-  set to launch in 2019
----
-In tandem with key media, Renaissance have delivered 273 pieces of coverage for the gamescom reveal alongside a key worldwide exclusive with IGN in 25 languages across 114 countries.
+  Renaissance oversees the worldwide launch for Beyond a Steel Sky, sequel of
+  the award winning Beneath a Steel Sky from Revolution Software. 
 
-Influential print publications have also been key including Wireframe and Retrogamer in unveiling the developer’s approach to the long awaited sequel and setting the tone for what players will experience in the game when it is released.
+
+  73 Gamescom Bookings /over 280 piece of coverage for the Gamescom reveal and
+  counting. 
+
+
+  1. Worldwide exclusive with IGN, localized in 25 languages across 114
+  countries. 
+
+  2. Front cover secured at the time of writing been made (Wireframe and
+  Retrogamer UK).
+---
+![](/images/uploads/case-beyondasteelsky-img.jpg)
