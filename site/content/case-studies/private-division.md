@@ -1,7 +1,7 @@
 ---
 title: Disintegration
 date: 2019-10-08T11:12:10.575Z
-categories: Go-to-Market
+categories: uk-campaigns
 image: /images/uploads/case-privatedivision.jpg
 testimonial: ''
 client: Private Division
