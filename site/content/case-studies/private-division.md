@@ -11,6 +11,8 @@ description: >-
 
   18 pages coverage!
 ---
-#### 
+Worldwide exclusive announcement of the new game from Marcus Lehto, the creator of Master Chief. 
+
+**18 pages coverage!**
 
 ![Edge Cover](/images/uploads/case-disintegration-edgecover.jpg "Edge Cover")
