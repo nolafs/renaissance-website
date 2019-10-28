@@ -1,15 +1,13 @@
 ---
 title: 'Synced: Off Planet'
 date: 2019-10-08T13:08:30.737Z
-categories: pr-campaign
-image: /images/uploads/case-syncedoffplanet.jpg
-testimonial: Steve Folwell
+categories: uk-campaigns
+image: /images/uploads/case-syncedoffplanet-header.jpg
+testimonial: ''
 client: Tencent Games
 description: >-
-  Tencent approached Renaissance to support the announcement of “Synced, Off
-  Planet” to support their announcement at Gamescom.
+  Worldwide announcement on IGN across 30 countries with exclusive assets and 2
+  live shows at Gamescom 2019 as well as over 30 media meeting and top tier
+  mainstream coverage.
 ---
-Despite the shortness of time, Renaissance managed to deliver an IGN exclusive across 30 countries.
-
-
 {{< youtube iaYGgSm_5Q8 >}}
