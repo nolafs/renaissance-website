@@ -8,4 +8,6 @@ description: >-
   Front Page of The Guardian Culture section based on Renaissance event
   organized in London for all EMEA territories.
 ---
+Front Page of The Guardian Culture section based on Renaissance event organized in London for all EMEA territories.
+
 ![Guardian Coverage](/images/uploads/case-outerworlds-img.jpg "Guardian Coverage")
