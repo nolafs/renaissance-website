@@ -8,4 +8,6 @@ description: >-
   Working with BeomDog and Skybound bringing the biggest RPG of all time bock to
   console in the EMEA region.
 ---
+Working with BeomDog and Skybound bringing the biggest RPG of all time bock to console in the EMEA region.
+
 ![Nintendo Life](/images/uploads/case-bauldersgate-img.jpg "Nintendo Life")
