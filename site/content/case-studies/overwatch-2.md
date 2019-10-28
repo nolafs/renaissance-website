@@ -1,15 +1,19 @@
 ---
 title: Yooka-Laylee
 date: 2019-10-07T18:44:04.722Z
-categories: pr-campaign
+categories: worldwide-campaigns
 image: /images/uploads/case-yookalaylee.jpg
 client: Team 17
 description: >-
-  Team17 approached Renaissance with launching Kickstarter fan favourite
-  Yooka-Laylee with a Global launch campaign.
+  With Renaissance in charge of the worldwide launch for the award winning
+  million seller spiritual successor of Banjo-Kazooe, Team17 and Playtonic has
+  been the first indie game to be featured on the front cover of Official
+  PlayStation Magazine ... twice. 
+
+
+  Yooka Laylee has been in the TOP 50 games worldwide coverage list across the
+  world in 2017, audit by independent company Fancensus.com.
 ---
-Yooka-Laylee’s campaign featured a mix of prominent coverage across the key media including IGN, Official PlayStation Magazine and Eurogamer.
 
-Yooka Laylee’s coverage was in the top 50 of all tracked games in 2017, delivered by Renaissance and partners.
 
-![Yooka-Laylee - Youtube IGN Coverage](/images/uploads/case-yookalaylee-1.jpg "Yooka-Laylee - Youtube IGN Coverage")
+![Playstation Magazine](/images/uploads/case-yookalaytlee-img.jpg "Playstation Magazine")
