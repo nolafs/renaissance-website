@@ -1,5 +1,5 @@
 ---
-title: 'Ancestors: The Humankind Odyssey'
+title: Ancestors
 date: 2019-10-28T10:53:37.059Z
 categories: uk-campaigns
 image: /images/uploads/case-ancestors-header.jpg
