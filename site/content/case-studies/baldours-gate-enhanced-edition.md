@@ -1,5 +1,5 @@
 ---
-title: 'Baldour''s Gate: Enhanced Edition'
+title: Baldour's Gate
 date: 2019-10-28T11:02:13.063Z
 categories: emea-campaigns
 image: /images/uploads/case-baldoursgate-header.jpg
