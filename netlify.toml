@@ -21,6 +21,6 @@
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/holdingpage/index.html"
   status = 200
   force = false
