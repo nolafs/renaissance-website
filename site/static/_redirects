@@ -3,16 +3,16 @@
 / /holdingpage/
 /* /holdingpage/:splat
 
-/about /holdingpage/
+/about/ /holdingpage/
 /about/* /holdingpage/:splat
 
-/services /holdingpage/
+/services/ /holdingpage/
 /services/* /holdingpage/:splat
 
-/contact /holdingpage/
+/contact/ /holdingpage/
 /contact/* /holdingpage/:splat
 
-/cases-studies /holdingpage/
+/cases-studies/ /holdingpage/
 /cases-studies/* /holdingpage/:splat
 
 # Redirect default Netlify subdomain to primary domain
