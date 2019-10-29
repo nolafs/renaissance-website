@@ -20,7 +20,7 @@
 	must-revalidate'''
 
 [[redirects]]
-    from = "/about/"
-    to = "/holdingpage/"
-    status = 301
-    force = false
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = false
