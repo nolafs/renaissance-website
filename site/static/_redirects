@@ -1,8 +1,5 @@
 # These rules will change if you change your site’s custom domains or HTTPS settings
-[[redirects]]
-  from = "/*"
-  to = "/holdingpage/"
-  status = 301
+
 
 
 # Redirect default Netlify subdomain to primary domain

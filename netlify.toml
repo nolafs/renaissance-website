@@ -18,3 +18,8 @@
 	no-cache,
 	no-store,
 	must-revalidate'''
+
+[[redirects]]
+  from = "/*"
+  to = "/holdingpage/"
+  status = 301
