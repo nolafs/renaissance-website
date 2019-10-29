@@ -20,6 +20,5 @@
 	must-revalidate'''
 
 [[redirects]]
-  from = "*"
+  from = "/*"
   to = "/holdingpage/"
-  status = 200
