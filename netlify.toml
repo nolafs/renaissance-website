@@ -20,7 +20,7 @@
 	must-revalidate'''
 
 [[redirects]]
-from = "/*"
-to = "/holdingpage/"
-status = 301
-force = false
+    from = "/*"
+    to = "/holdingpage/"
+    status = 301
+    force = false
