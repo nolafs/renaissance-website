@@ -3,17 +3,17 @@
 / /holdingpage/
 /* /holdingpage/:splat
 
-/about/ /holdingpage/
-/about/* /holdingpage/:splat
+/about /holdingpage/
+/about/* /holdingpage/:splat 301
 
-/services/ /holdingpage/
-/services/* /holdingpage/:splat
+/services /holdingpage/
+/services/* /holdingpage/:splat 301
 
-/contact/ /holdingpage/
-/contact/* /holdingpage/:splat
+/contact /holdingpage/
+/contact/* /holdingpage/:splat 301
 
-/cases-studies/ /holdingpage/
-/cases-studies/* /holdingpage/:splat
+/cases-studies /holdingpage/
+/cases-studies/* /holdingpage/:splat 301
 
 # Redirect default Netlify subdomain to primary domain
 # https://epic-poitras-ef2b6a.netlify.com/* https://renaissancepr.co.uk/:splat 301!
