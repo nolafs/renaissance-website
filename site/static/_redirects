@@ -6,4 +6,4 @@ https://epic-poitras-ef2b6a.netlify.com/* https://renaissancepr.co.uk/:splat 301
 
 / /holdingpage/
 /* /holdingpage/:splat
-
+/about /holdingpage/:splat
