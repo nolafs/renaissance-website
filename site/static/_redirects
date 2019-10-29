@@ -1,8 +1,7 @@
 # These rules will change if you change your site’s custom domains or HTTPS settings
 
-/index.html /holdingpage/
-/about/index.html /holdingpage/
-/services/index.html /holdingpage/
+/ /holdingpage/
+/* /holdingpage/:splat
 
 # Redirect default Netlify subdomain to primary domain
 # https://epic-poitras-ef2b6a.netlify.com/* https://renaissancepr.co.uk/:splat 301!
