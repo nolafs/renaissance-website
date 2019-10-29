@@ -22,4 +22,4 @@
 [[redirects]]
   from = "*"
   to = "/holdingpage/"
-  status = 301
+  status = 200
