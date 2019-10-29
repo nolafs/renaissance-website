@@ -4,6 +4,6 @@
 #https://epic-poitras-ef2b6a.netlify.com/* https://renaissancepr.co.uk/:splat 301!
 
 
-/ /holdingpage/
-/* /holdingpage/:splat
+https://renaissancepr.co.uk/ https://renaissancepr.co.uk//holdingpage/
+https://renaissancepr.co.uk/* https://renaissancepr.co.uk//holdingpage/:splat
 
