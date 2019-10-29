@@ -112,16 +112,16 @@ why:
       text: We are big picture focussed.
       title: Strategic
     - icon: /images/uploads/brainstorm.svg
-      text: We are big picture focussed.
+      text: Not just the basics or bread & butter communications.
       title: Creative
     - icon: /images/uploads/about-icon-scalable.svg
       text: From UK to worldwide via central management or local agencies.
       title: Scalable
     - icon: /images/uploads/about-icon-clientorienteated.svg
-      text: 'We adapt to your timelines, not vice-versa.'
+      text: 'We adapt to your timeline, not vice-versa.'
       title: Client-orientated
     - icon: /images/uploads/about-icon-kpi.svg
-      text: We agree & work on KPI’s and ROI where feasible.
-      title: KPI-orientated
+      text: Strictly pre-agreed KPIs and ROI
+      title: Measurable
 ---
 We believe in ethical communications & transparent support for media in the interest of the client.
