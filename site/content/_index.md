@@ -94,6 +94,27 @@ clients:
     - company: Pixyul
       company_logo: /images/uploads/client-pixyul.jpg
       company_url: 'http://pixyul.com/'
+    - company: Playmagic
+      company_logo: /images/uploads/client-playmagic.jpg
+      company_url: 'http://www.play-magic.net/'
+    - company: Typhoon
+      company_logo: /images/uploads/client-typhoon.jpg
+      company_url: 'http://typhoonstudios.com/'
+    - company: Storm in a Teacup
+      company_logo: /images/uploads/client-storminateacup.jpg
+      company_url: 'http://www.stcware.com/'
+    - company: Revolution
+      company_logo: /images/uploads/client-revolution.jpg
+      company_url: 'https://revolution.co.uk/'
+    - company: Thumb Food
+      company_logo: /images/uploads/client-thumbfood.jpg
+      company_url: 'https://www.thumbfood.com/'
+    - company: Mixed Bag
+      company_logo: /images/uploads/client-mixedbag.jpg
+      company_url: 'https://mixedbag.it/'
+    - company: Digital Tales
+      company_logo: /images/uploads/client-digitaltales.jpg
+      company_url: 'https://www.dtales.it/'
   heading: Our Clients
   slider_num: '12'
   text: >-
