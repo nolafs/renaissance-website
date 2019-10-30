@@ -115,6 +115,33 @@ clients:
     - company: Digital Tales
       company_logo: /images/uploads/client-digitaltales.jpg
       company_url: 'https://www.dtales.it/'
+    - company: Private Division
+      company_logo: /images/uploads/client-privatedivision.jpg
+      company_url: 'https://www.privatedivision.com/'
+    - company: Team 17
+      company_logo: /images/uploads/client-team17.jpg
+      company_url: 'https://www.team17.com/'
+    - company: Curve Digital
+      company_logo: /images/uploads/client-curvedigital.jpg
+      company_url: 'http://www.curve-digital.com/'
+    - company: Tencent Games
+      company_logo: /images/uploads/client-tencentgames.jpg
+      company_url: 'https://careers.tencent.com/en-us/home.html'
+    - company: Slitherine
+      company_logo: /images/uploads/client-slitherine.jpg
+      company_url: 'https://www.slitherine.com/'
+    - company: Rising Star Games
+      company_logo: /images/uploads/client-risingstar.jpg
+      company_url: 'http://www.risingstargames.com/'
+    - company: Exquisite Gaming
+      company_logo: /images/uploads/client-exquisitegaming.jpg
+      company_url: 'https://exgpro.com/'
+    - company: Aesvi
+      company_logo: /images/uploads/client-aesvi.jpg
+      company_url: 'http://www.aesvi.it/'
+    - company: Science and Media Museum
+      company_logo: /images/uploads/client-scienceandmmedia.jpg
+      company_url: 'https://www.scienceandmediamuseum.org.uk/'
   heading: Our Clients
   slider_num: '12'
   text: >-
