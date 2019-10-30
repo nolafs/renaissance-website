@@ -79,6 +79,21 @@ clients:
     - company: Billy Goat Entertainment
       company_logo: /images/uploads/client-billygoat.jpg
       company_url: 'https://www.billygoat.tv/'
+    - company: Red Kite
+      company_logo: /images/uploads/client-redkite.jpg
+      company_url: 'https://redkitegames.co.uk/'
+    - company: LKA
+      company_logo: /images/uploads/client-lka.jpg
+      company_url: 'http://lka.it/'
+    - company: R8 Games
+      company_logo: /images/uploads/client-r8games.jpg
+      company_url: 'http://pacergame.com/'
+    - company: Salix Games
+      company_logo: /images/uploads/client-salixgames.jpg
+      company_url: 'http://www.salixgames.com/'
+    - company: Pixyul
+      company_logo: /images/uploads/client-pixyul.jpg
+      company_url: 'http://pixyul.com/'
   heading: Our Clients
   slider_num: '12'
   text: >-
