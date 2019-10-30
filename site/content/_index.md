@@ -61,6 +61,24 @@ clients:
     - company: Skybound Games
       company_logo: /images/uploads/client-skyboundgames.jpg
       company_url: 'https://www.skybound.com'
+    - company: Green Man Gaming
+      company_logo: /images/uploads/client-greenman.jpg
+      company_url: 'https://www.greenmangaming.com/'
+    - company: Wired
+      company_logo: /images/uploads/client-wired.jpg
+      company_url: 'https://www.wiredproductions.com/'
+    - company: Wild River
+      company_logo: /images/uploads/client-wildriver.jpg
+      company_url: 'https://wildriver.games/en/home'
+    - company: Koch Media
+      company_logo: /images/uploads/client-kochmedia.jpg
+      company_url: 'https://www.kochmedia.com/en/'
+    - company: Square Enix Collective
+      company_logo: /images/uploads/client-squareenixcollective.jpg
+      company_url: 'https://collective.square-enix.com/'
+    - company: Billy Goat Entertainment
+      company_logo: /images/uploads/client-billygoat.jpg
+      company_url: 'https://www.billygoat.tv/'
   heading: Our Clients
   slider_num: '12'
   text: >-
