@@ -138,7 +138,7 @@ clients:
       company_url: 'https://exgpro.com/'
     - company: Aesvi
       company_logo: /images/uploads/client-aesvi.jpg
-      company_url: 'http://www.aesvi.it/'
+      company_url: 'http://www.aesvi.it'
     - company: Science and Media Museum
       company_logo: /images/uploads/client-scienceandmmedia.jpg
       company_url: 'https://www.scienceandmediamuseum.org.uk/'
