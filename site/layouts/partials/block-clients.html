@@ -23,34 +23,36 @@
         </div>
         {{ "<!--/ Featured -->" | safeHTML }}
     </div>
-    <div class="grid-container full  block client-list">
-        <div class="grid-container slick-slider">
-            {{ $length := .Params.clients.slider_num | default 3}}
-            {{with .Params.clients.clients}}
-                {{ $clients := .}}
-                {{ range $index, $items := . }}
-                {{if eq (mod $index $length ) 0}}
-                    <div class="slice-item">
-                        <div class="grid-x gid-padding-x small-up-2 medium-up-4 large-up-6 align-center">
-                            {{if eq $index 0}}
-                                {{ range first $length $clients}}
-                                    <div class="cell">
-                                        {{ partial "client-link" .}}
-                                    </div>
+    {{ $length := .Params.clients.slider_num | default 3}}
+    {{with .Params.clients.clients}}
+        <div class="grid-container full  block client-list">
+            <div class="grid-container slick-slider">
+
+                    {{ $clients := .}}
+                    {{ range $index, $items := . }}
+                    {{if eq (mod $index $length ) 0}}
+                        <div class="slice-item">
+                            <div class="grid-x gid-padding-x small-up-2 medium-up-4 large-up-6 align-center">
+                                {{if eq $index 0}}
+                                    {{ range first $length $clients}}
+                                        <div class="cell">
+                                            {{ partial "client-link" .}}
+                                        </div>
+                                    {{end}}
+                                {{else}}
+                                    {{ range first $length (after $index $clients)}}
+                                        <div class="cell">
+                                            {{ partial "client-link" .}}
+                                        </div>
+                                    {{end}}
                                 {{end}}
-                            {{else}}
-                                {{ range first $length (after $index $clients)}}
-                                    <div class="cell">
-                                        {{ partial "client-link" .}}
-                                    </div>
-                                {{end}}
-                            {{end}}
+                                </div>
                             </div>
-                        </div>
-                    {{end}}
-                {{end}}
-            {{end}}
+                        {{end}}
+
+            </div>
         </div>
-    </div>
+        {{end}}
+    {{end}}
 </section>
 {{ "<!-- / Block Client -->" | safeHTML }}
