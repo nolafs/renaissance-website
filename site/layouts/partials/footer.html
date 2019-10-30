@@ -78,7 +78,7 @@
                         Address
                     </h6>
                     <p>
-                        {{$.Site.Data.contact.address}}
+                        {{$.Site.Data.contact.address | markdownify}}
                     </p>
                     <h6>
                         Social Media
@@ -89,6 +89,11 @@
                             <li class=""><div class="social-block {{$media.type | urlize}}"><a href="{{$media.url}}" aria-label="{{$media.type}} {{ $title }}"><i class="icon fab fa-{{$media.id | urlize}}"></i></a></div></li>
                         {{ end }}
                     </ul>
+                </div>
+            </div>
+            <div class="grid-x secondary">
+                <div class="cell small-12" class="small-12">
+                    {{$.Site.Data.contact.registration | markdownify}}
                 </div>
             </div>
             <div class="grid-x secondary">
