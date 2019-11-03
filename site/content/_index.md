@@ -46,7 +46,7 @@ services:
     hears about it in the right way, at the right time, in the right place
 clients:
   clients:
-    - company: Skybound
+    - company: 'Skybound '
       company_logo: /images/uploads/client-skyboundgames.jpg
       company_url: 'https://www.skybound.com/games'
     - company: Curve Digital
