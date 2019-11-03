@@ -45,7 +45,16 @@ services:
     their ear: We’re here to take your creativity and make sure right people
     hears about it in the right way, at the right time, in the right place
 clients:
-  clients: []
+  clients:
+    - company: Skybound
+      company_logo: /images/uploads/client-skyboundgames.jpg
+      company_url: 'https://www.skybound.com/games'
+    - company: Curve Digital
+      company_logo: /images/uploads/client-curvedigital.jpg
+      company_url: 'http://www.curve-digital.com/'
+    - company: Private Division
+      company_logo: /images/uploads/client-privatedivision.jpg
+      company_url: 'https://www.privatedivision.com/'
   clients_featured:
     - company: Aesvi
       company_logo: /images/uploads/client-aesvi.jpg
