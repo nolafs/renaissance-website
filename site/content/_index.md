@@ -46,12 +46,21 @@ services:
     hears about it in the right way, at the right time, in the right place
 clients:
   clients:
+    - company: A year of Rain
+      company_logo: /images/uploads/ayor.jpg
+      company_url: 'https://store.steampowered.com/app/319540/A_Year_Of_Rain/'
+    - company: Autonauts
+      company_logo: /images/uploads/18f6865daa5af20b286f204e081b2cfd3adddd8e.png
+      company_url: 'http://www.curve-digital.com/en-gb/games/detail/46/autonauts/'
     - company: Ancestors
       company_logo: /images/uploads/ancestors_the_humankind_odyssey_logo.png
       company_url: 'https://ancestorsgame.com/en/'
     - company: Beyond a Steel Sky
       company_logo: /images/uploads/header.jpg
       company_url: 'https://revolution.co.uk/'
+    - company: Shockrods
+      company_logo: /images/uploads/shockrods-logo.png
+      company_url: 'https://store.steampowered.com/app/647640/ShockRods/'
     - company: The Outer World
       company_logo: /images/uploads/outerworlds-logo.png
       company_url: 'https://outerworlds.obsidian.net/en'
@@ -60,15 +69,6 @@ clients:
         /images/uploads/the-walking-dead-the-telltale-definitive-series-logo-01-ps4-us-14aug2019.png
       company_url: >-
         https://www.skybound.com/games/telltales-the-walking-dead/telltale-definitive-series-digital-pre-order
-    - company: Autonauts
-      company_logo: /images/uploads/18f6865daa5af20b286f204e081b2cfd3adddd8e.png
-      company_url: 'http://www.curve-digital.com/en-gb/games/detail/46/autonauts/'
-    - company: A year of Rain
-      company_logo: /images/uploads/ayor.jpg
-      company_url: 'https://store.steampowered.com/app/319540/A_Year_Of_Rain/'
-    - company: Shockrods
-      company_logo: /images/uploads/shockrods-logo.png
-      company_url: 'https://store.steampowered.com/app/647640/ShockRods/'
     - company: Skybolt Zack
       company_logo: /images/uploads/skz.jpg
       company_url: 'https://store.steampowered.com/app/909670/Skybolt_Zack/'
