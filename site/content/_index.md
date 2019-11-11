@@ -69,6 +69,9 @@ clients:
         /images/uploads/the-walking-dead-the-telltale-definitive-series-logo-01-ps4-us-14aug2019.png
       company_url: >-
         https://www.skybound.com/games/telltales-the-walking-dead/telltale-definitive-series-digital-pre-order
+    - company: kerbal 2
+      company_logo: /images/uploads/download.png
+      company_url: 'https://www.kerbalspaceprogram.com/game/kerbal-space-program-2/'
   clients_featured:
     - company: Aesvi
       company_logo: /images/uploads/client-aesvi.jpg
