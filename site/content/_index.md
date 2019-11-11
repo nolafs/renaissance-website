@@ -64,6 +64,9 @@ clients:
     - company: Shockrods
       company_logo: /images/uploads/shockrods-logo.png
       company_url: 'https://store.steampowered.com/app/647640/ShockRods/'
+    - company: Song of horror
+      company_logo: /images/uploads/logosoh.png
+      company_url: 'https://store.steampowered.com/app/1096570/SONG_OF_HORROR/'
     - company: The Outer World
       company_logo: /images/uploads/outerworlds-logo.png
       company_url: 'https://outerworlds.obsidian.net/en'
