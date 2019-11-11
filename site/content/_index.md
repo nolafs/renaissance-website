@@ -58,6 +58,9 @@ clients:
     - company: Beyond a Steel Sky
       company_logo: /images/uploads/header.jpg
       company_url: 'https://revolution.co.uk/'
+    - company: Disintegration
+      company_logo: /images/uploads/case-privatedivision-disintegrationlogo.jpg
+      company_url: 'https://www.disintegrationgame.com/'
     - company: Shockrods
       company_logo: /images/uploads/shockrods-logo.png
       company_url: 'https://store.steampowered.com/app/647640/ShockRods/'
@@ -72,9 +75,6 @@ clients:
     - company: kerbal 2
       company_logo: /images/uploads/download.png
       company_url: 'https://www.kerbalspaceprogram.com/game/kerbal-space-program-2/'
-    - company: Disintegration
-      company_logo: /images/uploads/case-privatedivision-disintegrationlogo.jpg
-      company_url: 'https://www.disintegrationgame.com/'
   clients_featured:
     - company: Aesvi
       company_logo: /images/uploads/client-aesvi.jpg
