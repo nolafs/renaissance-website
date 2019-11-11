@@ -47,7 +47,7 @@ services:
 clients:
   clients:
     - company: Ancestors
-      company_logo: /images/uploads/ancestors-badge-01-ps4-en-11apr19_1554993769019.png
+      company_logo: /images/uploads/ancestors_the_humankind_odyssey_logo.png
       company_url: 'https://ancestorsgame.com/en/'
     - company: Beyond a Steel Sky
       company_logo: /images/uploads/header.jpg
