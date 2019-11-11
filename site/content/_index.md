@@ -66,6 +66,12 @@ clients:
     - company: A year of Rain
       company_logo: /images/uploads/ayor.jpg
       company_url: 'https://store.steampowered.com/app/319540/A_Year_Of_Rain/'
+    - company: Shockrods
+      company_logo: /images/uploads/shockrods-logo.png
+      company_url: 'https://store.steampowered.com/app/647640/ShockRods/'
+    - company: Skybolt Zack
+      company_logo: /images/uploads/skz.jpg
+      company_url: 'https://store.steampowered.com/app/909670/Skybolt_Zack/'
   clients_featured:
     - company: Aesvi
       company_logo: /images/uploads/client-aesvi.jpg
