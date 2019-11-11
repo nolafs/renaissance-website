@@ -60,6 +60,12 @@ clients:
         /images/uploads/the-walking-dead-the-telltale-definitive-series-logo-01-ps4-us-14aug2019.png
       company_url: >-
         https://www.skybound.com/games/telltales-the-walking-dead/telltale-definitive-series-digital-pre-order
+    - company: Autonauts
+      company_logo: /images/uploads/18f6865daa5af20b286f204e081b2cfd3adddd8e.png
+      company_url: 'http://www.curve-digital.com/en-gb/games/detail/46/autonauts/'
+    - company: A year of Rain
+      company_logo: /images/uploads/a-year-of-rain-png-game-clipart-f1991503ee2c006c.jpg
+      company_url: 'https://store.steampowered.com/app/319540/A_Year_Of_Rain/'
   clients_featured:
     - company: Aesvi
       company_logo: /images/uploads/client-aesvi.jpg
