@@ -46,15 +46,20 @@ services:
     hears about it in the right way, at the right time, in the right place
 clients:
   clients:
-    - company: 'Skybound '
-      company_logo: /images/uploads/client-skyboundgames.jpg
-      company_url: 'https://www.skybound.com/games'
-    - company: Curve Digital
-      company_logo: /images/uploads/client-curvedigital.jpg
-      company_url: 'http://www.curve-digital.com/'
-    - company: Private Division
-      company_logo: /images/uploads/client-privatedivision.jpg
-      company_url: 'https://www.privatedivision.com/'
+    - company: Ancestors
+      company_logo: /images/uploads/ancestors-badge-01-ps4-en-11apr19_1554993769019.png
+      company_url: 'https://ancestorsgame.com/en/'
+    - company: Beyond a Steel Sky
+      company_logo: /images/uploads/beyond-a-steel-sky-logo-small.png
+      company_url: 'https://revolution.co.uk/'
+    - company: The Outer World
+      company_logo: /images/uploads/outerworlds-logo.png
+      company_url: 'https://outerworlds.obsidian.net/en'
+    - company: The Walking Dead
+      company_logo: >-
+        /images/uploads/the-walking-dead-the-telltale-definitive-series-logo-01-ps4-us-14aug2019.png
+      company_url: >-
+        https://www.skybound.com/games/telltales-the-walking-dead/telltale-definitive-series-digital-pre-order
   clients_featured:
     - company: Aesvi
       company_logo: /images/uploads/client-aesvi.jpg
