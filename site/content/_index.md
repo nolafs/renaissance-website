@@ -50,7 +50,7 @@ clients:
       company_logo: /images/uploads/ancestors-badge-01-ps4-en-11apr19_1554993769019.png
       company_url: 'https://ancestorsgame.com/en/'
     - company: Beyond a Steel Sky
-      company_logo: /images/uploads/beyond-a-steel-sky-logo-small.png
+      company_logo: /images/uploads/header.jpg
       company_url: 'https://revolution.co.uk/'
     - company: The Outer World
       company_logo: /images/uploads/outerworlds-logo.png
