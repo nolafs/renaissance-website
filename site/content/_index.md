@@ -69,9 +69,6 @@ clients:
         /images/uploads/the-walking-dead-the-telltale-definitive-series-logo-01-ps4-us-14aug2019.png
       company_url: >-
         https://www.skybound.com/games/telltales-the-walking-dead/telltale-definitive-series-digital-pre-order
-    - company: Skybolt Zack
-      company_logo: /images/uploads/skz.jpg
-      company_url: 'https://store.steampowered.com/app/909670/Skybolt_Zack/'
   clients_featured:
     - company: Aesvi
       company_logo: /images/uploads/client-aesvi.jpg
