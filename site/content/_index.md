@@ -64,7 +64,7 @@ clients:
       company_logo: /images/uploads/18f6865daa5af20b286f204e081b2cfd3adddd8e.png
       company_url: 'http://www.curve-digital.com/en-gb/games/detail/46/autonauts/'
     - company: A year of Rain
-      company_logo: /images/uploads/a-year-of-rain-png-game-clipart-f1991503ee2c006c.jpg
+      company_logo: /images/uploads/ayor.jpg
       company_url: 'https://store.steampowered.com/app/319540/A_Year_Of_Rain/'
   clients_featured:
     - company: Aesvi
