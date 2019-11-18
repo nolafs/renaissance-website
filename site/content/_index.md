@@ -133,6 +133,9 @@ clients:
     - company: R8 Games
       company_logo: /images/uploads/client-r8games.jpg
       company_url: 'http://pacergame.com/'
+    - company: Raiser Games
+      company_logo: /images/uploads/logo-raiser-games.png
+      company_url: 'https://www.raisergames.com/'
     - company: Red Kite
       company_logo: /images/uploads/client-redkite.jpg
       company_url: 'https://redkitegames.co.uk/'
@@ -188,6 +191,6 @@ contact:
   heading: Got a project? Let’s work together!
   text: >-
     Since our inception in 2015 we are proud to have worked with a variety of
-    clients, many of whom are still valued partners today.
+    clients, many of whom are still valued partners today
 ---
 Creating the best environment for the games industry’s most innovative projects to succeed through strategic, measurable and curated planning
