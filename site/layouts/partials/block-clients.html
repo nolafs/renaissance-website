@@ -2,7 +2,7 @@
 <section>
     <div id="clients" class="grid-container full  block">
         <div class="grid-container">
-            <div class="grid-x gid-padding-x text-center align-center">
+            <div class="grid-x grid-padding-x text-center align-middle-center">
                 <div class="cell small-12 medium-10 large-8 section-heading">
                     <h2>{{ .Params.clients.heading}}</h2>
                     <p>{{ .Params.clients.text}}</p>
@@ -11,7 +11,7 @@
         </div>
         {{ "<!-- Featured -->" | safeHTML }}
         <div class="grid-container client-feature-list">
-            <div class="grid-x gid-padding-x small-up-2 medium-up-4 large-up-6 align-center">
+            <div class="grid-x grid-padding-x small-up-2 medium-up-4 large-up-6 align-middle-center">
                 {{with .Params.clients.clients_featured}}
                     {{ range  . }}
                         <div class="cell">
@@ -32,7 +32,7 @@
                     {{ range $index, $items := . }}
                     {{if eq (mod $index $length ) 0}}
                         <div class="slice-item">
-                            <div class="grid-x gid-padding-x small-up-2 medium-up-4 large-up-6 align-center">
+                            <div class="grid-x grid-padding-x small-up-2 medium-up-4 large-up-6 align-middle-center">
                                 {{if eq $index 0}}
                                     {{ range first $length $clients}}
                                         <div class="cell">
