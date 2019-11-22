@@ -111,16 +111,6 @@ team:
         games as a service titles. He’s previously worked on WildStar, Guild
         Wars 2, Robocraft, Autonauts and many more commercially and critically
         acclaimed hits.
-    - image: /images/uploads/staff-emily-britt.jpg
-      name: Emily Britt
-      position: Global Consultant Strategist
-      text: >-
-        After studying Game Design and gathering work experience in journalism
-        and a few odd jobs to start out in the Montreal games industry, Nicolas
-        was brought on the Square Enix Montreal team by Geneviève to help out
-        with community management, events management, PR and the production of
-        marketing content. Nicolas brings with him his impressive encyclopedic
-        knowledge of the video games industry.
   text: >+
     Renaissance is built around  a core team of contributing consultants who
     collectively have more than 50 years’ experience across the games industry;
