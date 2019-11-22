@@ -15,3 +15,15 @@ https://renaissancepr.co.uk/about/* https://renaissancepr.co.uk/holdingpage/:spl
 
 https://renaissancepr.co.uk/case-studies https://renaissancepr.co.uk/holdingpage/
 https://renaissancepr.co.uk/case-studies/* https://renaissancepr.co.uk/holdingpage/:splat
+
+https://www.renaissancepr.co.uk/ https://renaissancepr.co.uk/holdingpage/
+https://www.renaissancepr.co.uk/* https://renaissancepr.co.uk/holdingpage/:splat
+
+https://www.renaissancepr.co.uk/services https://renaissancepr.co.uk/holdingpage/
+https://www.renaissancepr.co.uk/services/* https://renaissancepr.co.uk/404/:splat
+
+https://www.renaissancepr.co.uk/about https://renaissancepr.co.uk/holdingpage/
+https://renaissancepr.co.uk/about/* https://renaissancepr.co.uk/holdingpage/:splat
+
+https://www.renaissancepr.co.uk/case-studies https://renaissancepr.co.uk/holdingpage/
+https://www.renaissancepr.co.uk/case-studies/* https://renaissancepr.co.uk/holdingpage/:splat
