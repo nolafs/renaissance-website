@@ -7,11 +7,12 @@
 https://renaissancepr.co.uk/ https://renaissancepr.co.uk/holdingpage/
 https://renaissancepr.co.uk/* https://renaissancepr.co.uk/holdingpage/:splat
 
-https://renaissancepr.co.uk/services/ https://renaissancepr.co.uk/holdingpage/
-https://renaissancepr.co.uk/services/* https://renaissancepr.co.uk/404/:splat
 
-https://renaissancepr.co.uk/about/ https://renaissancepr.co.uk/holdingpage/
+https://renaissancepr.co.uk/services/* https://renaissancepr.co.uk/holdingpage/:splat
+https://renaissancepr.co.uk/services https://renaissancepr.co.uk/holdingpage/
+
 https://renaissancepr.co.uk/about/* https://renaissancepr.co.uk/holdingpage/:splat
+https://renaissancepr.co.uk/about/ https://renaissancepr.co.uk/holdingpage/
 
 https://renaissancepr.co.uk/case-studies/ https://renaissancepr.co.uk/holdingpage/
 https://renaissancepr.co.uk/case-studies/* https://renaissancepr.co.uk/holdingpage/:splat
