@@ -195,6 +195,7 @@ contact:
   text: >-
     Since our inception in 2015 we've been fortunate to work with a wide array
     of different clients, over 90% of whom we're proud to say are still valued
-    partner today.
+    partner today... Contact us for a complete free evaluation to assess what is
+    best for your game!
 ---
 Creating the best environment for the games industry’s most innovative projects to succeed through strategic, measurable and curated planning
