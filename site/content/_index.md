@@ -189,7 +189,7 @@ clients:
     Since our inception in 2015 we've been fortunate to work with a wide array
     of different clients, over 90% of whom we're proud to say are still valued
     partner today.
-testimonial: Steve Folwell
+testimonial: Stuart Dinsey
 contact:
   heading: Got a project? Let’s work together!
   text: >
