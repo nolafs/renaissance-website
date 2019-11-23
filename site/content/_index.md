@@ -192,10 +192,11 @@ clients:
 testimonial: Steve Folwell
 contact:
   heading: Got a project? Let’s work together!
-  text: >-
+  text: >
     Since our inception in 2015 we've been fortunate to work with a wide array
     of different clients, over 90% of whom we're proud to say are still valued
-    partner today... Contact us for a complete free evaluation to assess what is
-    best for your game!
+    partner today... We’re always looking to work with new and exciting clients.
+    If you like the sound of the way Renaissance works, get in touch and let’s
+    see what we can do together towards a free consultation
 ---
 Creating the best environment for the games industry’s most innovative projects to succeed through strategic, measurable and curated planning
