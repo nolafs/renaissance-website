@@ -37,32 +37,38 @@ services:
 other_services:
   heading: Other Services
   services_other_list:
-    - text: >-
-        Helping you to when, where and how to invest your marketing budget
-        wisely
+    - text: >+
+        Helping you to understand when, where and how to invest your marketing
+        budget wisely
+
       title: Paid Media - Planning & Buying
-    - text: >-
-        Need a consultancy for anything related to the games industry? We know
-        the right people
+    - text: >
+        Need legal a consultancy for anything related to the games industry? We
+        know the right people
       title: Legal Services
-    - text: >-
+    - text: >+
         Assets creation and production are vital for the success of a product
-        and often made difference in discoverability
+        and can often make all the difference in discoverability for your
+        product
+
       title: Creative Services
     - text: >-
-        Fostering your community with information to increase engagement is a
-        key to success and a mandatory today
+        Fostering your community with information and increasing engagement is 
+        key to success and would be considered an absolute necessity in today’s
+        marketplace 
       title: Social & Community
-    - text: >-
-        Early mock up reviews and assessment to manage expectations of the
-        campaign from top evaluators around the world
+    - text: >+
+        Early mock reviews and assessment to manage expectations of the campaign
+        from top evaluators around the world that do this as main job.
+
       title: Game Evaluation
-    - text: >-
-        Show presence, preview or launch event are a no brainer to made a
-        statement for your game. You brief us, we will take care of all the rest
+    - text: >
+        Show presence, preview or launch events are a no brainer to make a
+        statement about your game. Don’t know where to begin? Just  brief us, we
+        will take care of all the rest
       title: Event Management & Production
-  text: >
-    We are proud to offer the following services via management with curated,
-    established and trusted partners.
+  text: >+
+    We are proud to offer the following services via our network of trusted
+    partners.
 ---
 From small studios to international publishers, we deliver measurable results with no jargon.
