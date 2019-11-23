@@ -12,9 +12,9 @@ values:
   image: /images/uploads/values.jpg
   text: >
     Renaissance is a firm believer in ethical communication & transparency in
-    the interests of all parties - both in terms of clients, and the media they
-    want to talk to. We are active in educating the industry in best practices
-    through seminars and talks.
+    the interests of all parties - both in terms of our clients, and the media
+    they want to talk to. We are active in educating the industry in best
+    practices through seminars and talks.
 founder:
   heading: About the Founder
   image: /images/uploads/founder.jpg
@@ -30,6 +30,11 @@ founder:
 
     Watch Dogs, Assassin's Creed, Far Cry, Yooka Laylee, The Outer Worlds,
     Battalion 1944, Forgotton Anne amongst others …
+
+
+    UKIE and BAFTA member, Videogame Ambassador and renown international
+    speaker, Stefano is an optimist, extrovert communication veteran always
+    looking at way to innovate.
 team:
   heading: The Team
   team_list:
@@ -39,12 +44,16 @@ team:
         Founder
 
       text: >
-        After studying Game Design and gathering work experience in journalism
-        and a few odd jobs to start out in the Montreal games industry, Nicolas
-        was brought on the Square Enix Montreal team by Geneviève to help out
-        with community management, events management, PR and the production of
-        marketing content. Nicolas brings with him his impressive encyclopedic
-        knowledge of the video games industry.
+        Stefano Petrullo is a multi award-winning games industry professional
+        with over 25 years' experience in planning and implementing
+        communication campaigns for some of the world's biggest entertainment
+        brands, including: Watch Dogs, Assassin's Creed, Far Cry, Yooka Laylee,
+        The Outer Worlds, Battalion 1944, Forgotton Anne amongst others …
+
+
+        UKIE and BAFTA member, Videogame Ambassador and renown international
+        speaker, Stefano is an optimist, extrovert communication veteran always
+        looking at way to innovate.
     - image: /images/uploads/staff-keith-andrew.jpg
       name: Keith Andrew
       position: Media Relations
@@ -126,12 +135,14 @@ why:
     you pay for delivering the plan and the KPI we present to you
   why_list:
     - icon: /images/uploads/analysis.svg
-      text: 'Everything we do is planned around achieving specific, measurable goals'
+      text: >-
+        Everything we do is planned around achieving specific, measurable goals
+        before the campaign starts. 
       title: Strategic
     - icon: /images/uploads/brainstorm.svg
       text: >-
         We tailor our actions to the client’s needs - we’re not just a press
-        office
+        office or a glorified mailing list.
       title: Creative
     - icon: /images/uploads/about-icon-scalable.svg
       text: >
