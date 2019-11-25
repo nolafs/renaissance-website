@@ -14,16 +14,17 @@ description: >-
   counting. 
 
 
-  1. Worldwide exclusive with IGN, localized in 25 languages across 114
+  1 Worldwide exclusive with IGN, localized in 25 languages across 114
   countries. 
 
-  2. Front cover secured at the time of writing.
+  2 Front covers secured at the time of writing.
 ---
 Renaissance oversees the worldwide launch for Beyond a Steel Sky, sequel of the award winning Beneath a Steel Sky from Revolution Software. 
 
 73 Gamescom Bookings /over 280 piece of coverage for the Gamescom reveal and counting. 
 
-1. Worldwide exclusive with IGN, localized in 25 languages across 114 countries. 
-2. Front cover secured at the time of writing been made.
+1 Worldwide exclusive with IGN, localized in 25 languages across 114 countries. 
+
+2 Front covers secured at the time of writing been made.
 
 ![](/images/uploads/case-beyondasteelsky-img.jpg)
