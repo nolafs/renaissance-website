@@ -125,7 +125,6 @@ team:
     collectively have more than 50 years’ experience across the games industry;
     in marketing, PR, and product management, spanning the AAA and Indie
     sectors.
-
 why:
   heading: '… so, why choose Renaissance?'
   text: >-
