@@ -19,9 +19,4 @@
 	no-store,
 	must-revalidate'''
 
-[[redirects]]
-  from = "/about/"
-  to = "/holdingpage/index.html"
-  status = 200
-  force = false
 
