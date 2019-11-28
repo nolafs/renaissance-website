@@ -33,8 +33,8 @@ founder:
 
 
     UKIE and BAFTA member, Videogame Ambassador and renown international
-    speaker, Stefano is an optimist, extrovert communication veteran always
-    looking at way to innovate.
+    speaker, Stefano is a communication veteran always looking at way to
+    innovate.
 team:
   heading: The Team
   team_list:
@@ -120,7 +120,7 @@ team:
         games as a service titles. He’s previously worked on WildStar, Guild
         Wars 2, Robocraft, Autonauts and many more commercially and critically
         acclaimed hits.
-  text: >+
+  text: >
     Renaissance is built around  a core team of contributing consultants who
     collectively have more than 50 years’ experience across the games industry;
     in marketing, PR, and product management, spanning the AAA and Indie
