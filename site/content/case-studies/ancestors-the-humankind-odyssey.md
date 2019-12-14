@@ -13,6 +13,6 @@ description: >-
 ---
 Front Cover on Wireframe from the new game from the creator of Assassin's Creed Patrice Desilets. 
 
-UK has been the 3rd country for organic influencers coverage after US and Brasil. Some of the highlight include reach organically 3 million people with Game Riot (1.49M subscribers).
+UK has been the 3rd country for organic influencers coverage after US and Brasil, coverage on New Scientist and a preview hands on event with all the most british editors and influencers in the UK. 
 
 ![Wireframe](/images/uploads/case-ancestors-img.jpg "Wireframe")
