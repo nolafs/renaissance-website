@@ -1,6 +1,6 @@
 ---
 title: Pacer
-date: 2019-10-01T10:09:14.070Z
+date: 2019-10-11T10:09:00.000Z
 categories: worldwide-campaigns
 image: /images/uploads/case-pacer-header.jpg
 client: R8 Games
