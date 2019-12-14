@@ -9,8 +9,7 @@ description: >-
   Creed Patrice Desilets. 
 
   UK has been the 3rd country for organic influencers coverage after US and
-  Brasil. Some of the highlight include reach organically 3 million people with
-  Game Riot (1.49M subscribers).
+  Brasil.
 ---
 Front Cover on Wireframe from the new game from the creator of Assassin's Creed Patrice Desilets. 
 
