@@ -11,7 +11,7 @@ export default {
         list.forEach((item)=> {
             const tl = gsap.timeline();
             tl.from(item, 0.5, {
-                y: '30%',
+                y: '150',
                 opacity: 0
             });
 
