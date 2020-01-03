@@ -25,6 +25,6 @@ Renaissance oversees the worldwide launch for Beyond a Steel Sky, sequel of the 
 
 1 Worldwide exclusive with IGN, localized in 25 languages across 114 countries. 
 
-2 Front covers secured at the time of writing been made.
+2 Front covers secured at the time of writing .
 
 ![](/images/uploads/case-beyondasteelsky-img.jpg)
