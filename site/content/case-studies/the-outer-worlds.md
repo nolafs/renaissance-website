@@ -15,6 +15,6 @@ Best RPG of the year from IGN and biggest surprise of 2019, Renaissance worked o
 
 With a Metacritic of 86, over 60 review in the UK and countless number of content creator covering the game pre-during and post launch, The Outer Worlds become the 14th highest PS4 game of 2019 (Source: Metacritic). 
 
-In October 2019, The Outer Worlds was the 4th most covered game worldwide in October 2019. 3rd most viewed game on Twitch and number 9 Top Performing game with Influencers (source: fancensus.com)
+In October 2019, The Outer Worlds was the 4th most covered game worldwide the 3rd most viewed game on Twitch and 9th Top Performing game with Influencers (source: fancensus.com)
 
 ![Guardian Coverage](/images/uploads/case-outerworlds-img.jpg "Guardian Coverage")
