@@ -3,7 +3,7 @@ title: Autonauts
 date: 2019-12-13T22:44:10.710Z
 categories: worldwide-campaigns
 image: /images/uploads/brothgar.png
-testimonial: Stuart Dinsey
+testimonial: Michael Fisher
 client: Curve Digital
 description: >
 
