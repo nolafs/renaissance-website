@@ -3,6 +3,7 @@ title: Autonauts
 date: 2019-12-13T22:44:10.710Z
 categories: worldwide-campaigns
 image: /images/uploads/18f6865daa5af20b286f204e081b2cfd3adddd8e.png
+testimonial: Stuart Dinsey
 client: Curve Digital
 description: >
 
