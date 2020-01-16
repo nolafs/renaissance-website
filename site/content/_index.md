@@ -66,13 +66,10 @@ clients:
     - company: kerbal 2
       company_logo: /images/uploads/download.png
       company_url: 'https://www.kerbalspaceprogram.com/game/kerbal-space-program-2/'
-    - company: Shockrods
-      company_logo: /images/uploads/shockrods-logo.png
-      company_url: 'https://store.steampowered.com/app/647640/ShockRods/'
     - company: Song of horror
       company_logo: /images/uploads/logosoh.png
       company_url: 'https://store.steampowered.com/app/1096570/SONG_OF_HORROR/'
-    - company: The Outer World
+    - company: The Outer Worlds
       company_logo: /images/uploads/outerworlds-logo.png
       company_url: 'https://outerworlds.obsidian.net/en'
     - company: The Walking Dead
@@ -84,40 +81,35 @@ clients:
     - company: Aesvi
       company_logo: /images/uploads/client-aesvi.jpg
       company_url: 'http://www.aesvi.it'
-    - company: Billy Goat Entertainment
-      company_logo: /images/uploads/client-billygoat.jpg
-      company_url: 'https://www.billygoat.tv/'
-    - company: Bulkhead
-      company_logo: /images/uploads/client-bulkhead.jpg
-      company_url: 'https://bulkheadinteractive.com/'
     - company: Curve Digital
       company_logo: /images/uploads/client-curvedigital.jpg
       company_url: 'http://www.curve-digital.com/'
     - company: Daedalic Entertainment
       company_logo: /images/uploads/client-daedelic.jpg
       company_url: 'https://www.daedalic.com/'
-    - company: Digital Tales
-      company_logo: /images/uploads/client-digitaltales.jpg
-      company_url: 'https://www.dtales.it/'
-    - company: Edgecase
-      company_logo: /images/uploads/client-edgecase.jpg
-      company_url: 'http://www.edgecasegames.net/'
-    - company: Exquisite Gaming
-      company_logo: /images/uploads/client-exquisitegaming.jpg
-      company_url: 'https://exgpro.com/'
-    - company: Green Man Gaming
-      company_logo: /images/uploads/client-greenman.jpg
-      company_url: 'https://www.greenmangaming.com/'
-    - company: Koch Media
-      company_logo: /images/uploads/client-kochmedia.jpg
-      company_url: 'https://www.kochmedia.com/en/'
-    - company: LKA
-      company_logo: /images/uploads/client-lka.jpg
-      company_url: 'http://lka.it/'
     - company: Milestone
       company_logo: /images/uploads/client-milestone.jpg
       company_url: 'http://milestone.it/'
-  heading: Our Clients
+    - company: Private Division
+      company_logo: /images/uploads/client-privatedivision.jpg
+      company_url: 'https://www.privatedivision.com/'
+    - company: Raiser Games
+      company_logo: /images/uploads/logo-raiser-games.png
+      company_url: 'https://www.raisergames.com/'
+    - company: Red Kite Games
+      company_logo: /images/uploads/client-redkite.jpg
+      company_url: 'https://redkitegames.co.uk/'
+    - company: Revolution
+      company_logo: /images/uploads/client-revolution.jpg
+      company_url: 'https://revolution.co.uk/'
+    - company: Yorkshire Game Festival
+      company_logo: /images/uploads/client-scienceandmmedia.jpg
+      company_url: >-
+        https://www.scienceandmediamuseum.org.uk/whats-on/yorkshire-games-festival
+    - company: VLG Publishing
+      company_logo: /images/uploads/logo-favicon-prova.png
+      company_url: 'http://vlgpublishing.com/'
+  heading: Some of Our Clients
   productsheading: Latest Games
   productstext: List of our latest games we worked on.
   slider_num: '12'
