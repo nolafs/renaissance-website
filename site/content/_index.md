@@ -87,9 +87,6 @@ clients:
     - company: Daedalic Entertainment
       company_logo: /images/uploads/client-daedelic.jpg
       company_url: 'https://www.daedalic.com/'
-    - company: Milestone
-      company_logo: /images/uploads/client-milestone.jpg
-      company_url: 'http://milestone.it/'
     - company: Private Division
       company_logo: /images/uploads/client-privatedivision.jpg
       company_url: 'https://www.privatedivision.com/'
