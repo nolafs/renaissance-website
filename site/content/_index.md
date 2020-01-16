@@ -109,7 +109,7 @@ clients:
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: List of our latest games we worked on.
-  slider_num: '12'
+  slider_num: '9'
   text: >-
     Since our inception in 2015 we've been fortunate to work with a wide array
     of different clients, over 90% of whom we're proud to say are still valued
