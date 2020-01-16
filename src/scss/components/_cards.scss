@@ -34,6 +34,57 @@
       a {
         color: $primary-color;
         background: $white;
+
+      }
+    }
+  }
+}
+
+.registration {
+  .card-button {
+
+    .card-section{
+      padding-top: 0;
+      > div{
+        padding-top: 0;
+      }
+    }
+
+    .card-image-wrapper{
+      justify-content: center;
+      align-content: center;
+      display: flex;
+      min-height: 200px;
+      svg{
+        margin: auto auto;
+      }
+    }
+
+    &:hover {
+
+      svg{
+        #Oval{
+          stroke: white;
+        }
+        path{
+          fill: white;
+        }
+      }
+
+
+
+      .card-section{
+        small{
+          color:$white;
+          transition: 250ms all ease-in-out;
+        }
+
+
+
+        .button{
+          background-color: $white;
+          color: $primary-color
+        }
       }
     }
   }

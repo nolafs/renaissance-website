@@ -5,11 +5,10 @@ items:
     name: Case Studies
   - link: /about
     name: About
+  - link: /clients
+    name: Clients
   - link: /contact
     name: Contact
-  - link: /privacy
-    name: Privacy
-  - link: 'https://forms.gle/jwUQW4t2PKs7Wwoy5'
-    name: Media Registration
-  - link: 'https://forms.gle/WRVbjCWtEpg59rdn7'
-    name: Content Creators Registration
+  - link: /register
+    name: Register
+

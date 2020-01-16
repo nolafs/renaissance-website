@@ -34,4 +34,6 @@
     {{ partial "block-clients" .}}
     {{ partial "block-testimonial" .}}
     {{ partial "block-awards" .}}
+    {{ partial "block-register" (dict "Context" . "cxt" $)}}
+
 {{ end }}

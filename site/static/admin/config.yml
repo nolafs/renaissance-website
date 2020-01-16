@@ -90,15 +90,17 @@ collections:
               ]}
           ]}
           - {label: "Clients Section", name: clients, widget: object, fields: [
-             {label: "Heading", name: "heading", widget: string},
-             {label: "Text", name: "text", widget: "text"},
+             {label: "Client Heading", name: "heading", widget: string},
+             {label: "Client Text", name: "text", widget: "text"},
              {label: "Slider num of items", name: "slider_num", widget: string , default: 6},
              {label: "Clients Featured", name: "clients_featured", widget: "list", fields: [
              {label: "Name" , name: "company" , widget: "text"},
              {label: "Link" , name: "company_url" , widget: string},
              {label: "Logo" , name: "company_logo" , widget: image},
              ]},
-             {label: "Clients", name: "clients", widget: "list", fields: [
+             {label: "Products Heading", name: "productheading", widget: string},
+             {label: "Products Text", name: "productstext", widget: "text"},
+             {label: "Products", name: "clients", widget: "list", fields: [
              {label: "Name" , name: "company" , widget: "text"},
              {label: "Link" , name: "company_url" , widget: string},
              {label: "Logo" , name: "company_logo" , widget: image},
@@ -199,12 +201,43 @@ collections:
                 {label: "Email" , name: "email" , widget: string},
               ]}
           ]}
+      - file: "site/content/clients/_index.md"
+        label: "Clients Page"
+        name: "clients"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Clients Section", name: clients, widget: object, fields: [
+              {label: "Heading", name: "heading", widget: string},
+              {label: "Text", name: "text", widget: "text"},
+              {label: "Clients", name: "clients", widget: "list", fields: [
+              {label: "Name" , name: "company" , widget: "text"},
+              {label: "Link" , name: "company_url" , widget: string},
+              {label: "Logo" , name: "company_logo" , widget: image},
+              ]}
+          ]}
+      - file: "site/content/register/_index.md"
+        label: "Register Page"
+        name: "register"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: "Body", name: "body", widget: "markdown"}
       - file: "site/content/privacy/_index.md"
         label: "Privacy Page"
         name: "privacy"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Content Creator", name: creator, widget: object, fields: [
+              {label: "Heading", name: "heading", widget: string},
+              {label: "Text", name: "text", widget: "text"},
+              {label: "url", name: "url", widget: string},
+          ]}
+          - {label: "Media", name: media, widget: object, fields: [
+            {label: "Heading", name: "heading", widget: string},
+            {label: "Text", name: "text", widget: "text"},
+            {label: "url", name: "url", widget: string},
+            ]}
   - name: "config"
     label: "Config"
     editor:

@@ -22,17 +22,37 @@
             </div>
         </div>
         {{ "<!--/ Featured -->" | safeHTML }}
+        {{if .IsHome }}
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x text-center align-center m-t-50">
+                <div class="cell small-12 medium-10 large-8 section-heading m-t-0">
+                    <a href="/clients" class="button">View All Our Clients</a>
+                </div>
+            </div>
+        </div>
+        {{end}}
     </div>
+    {{if .IsHome }}
     {{ $length := .Params.clients.slider_num | default 3}}
+    <div class="grid-container full  block client-list">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x text-center align-center">
+            <div class="cell small-12 medium-10 large-8 section-heading m-t-0">
+                <h2>{{ .Params.clients.productsheading}}</h2>
+                <p>{{ .Params.clients.productstext}}</p>
+            </div>
+        </div>
+    </div>
     {{with .Params.clients.clients}}
-        <div class="grid-container full  block client-list">
+
+
             <div class="grid-container slick-slider">
 
                     {{ $clients := .}}
                     {{ range $index, $items := . }}
                     {{if eq (mod $index $length ) 0}}
                         <div class="slice-item">
-                            <div class="grid-x grid-padding-x small-up-2 medium-up-4 large-up-6 align-middle-center">
+                            <div class="grid-x grid-padding-x grid-margin-y small-up-2 medium-up-4 large-up-6 align-center-middle">
                                 {{if eq $index 0}}
                                     {{ range first $length $clients}}
                                         <div class="cell">
@@ -51,8 +71,10 @@
                         {{end}}
 
             </div>
-        </div>
+
         {{end}}
+    </div>
+    {{end}}
     {{end}}
 </section>
 {{ "<!-- / Block Client -->" | safeHTML }}
