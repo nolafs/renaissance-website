@@ -118,13 +118,13 @@ clients:
       company_logo: /images/uploads/client-milestone.jpg
       company_url: 'http://milestone.it/'
   heading: Our Clients
+  productheading: Latest Games
+  productstext: List of our latest games we worked on.
   slider_num: '12'
   text: >-
     Since our inception in 2015 we've been fortunate to work with a wide array
     of different clients, over 90% of whom we're proud to say are still valued
     partner today.
-  productsheading: Latest Games 
-  productstext: some text here
 testimonial: Stuart Dinsey
 contact:
   heading: Got a project? Let’s work together!
