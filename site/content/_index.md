@@ -118,7 +118,7 @@ clients:
       company_logo: /images/uploads/client-milestone.jpg
       company_url: 'http://milestone.it/'
   heading: Our Clients
-  productheading: Latest Games
+  productsheading: Latest Games
   productstext: List of our latest games we worked on.
   slider_num: '12'
   text: >-
