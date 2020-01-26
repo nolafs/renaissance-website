@@ -10,7 +10,7 @@ import Foundation from 'foundation-sites/dist/js/foundation.min';
 /* Foundation Imports */
 import 'foundation-sites/dist/js/plugins/foundation.core.min';
 //import 'foundation-sites/dist/js/plugins/foundation.util.keyboard.min';
-import 'foundation-sites/dist/js/plugins/foundation.accordion.min';
+//import 'foundation-sites/dist/js/plugins/foundation.accordion.min';
 import 'foundation-sites/dist/js/plugins/foundation.sticky.min';
 import 'foundation-sites/dist/js/plugins/foundation.util.mediaQuery.min';
 import 'foundation-sites/dist/js/plugins/foundation.offcanvas.min';
