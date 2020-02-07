@@ -15,4 +15,4 @@ media:
   url: >-
     https://docs.google.com/forms/d/e/1FAIpQLSfNc4X0LMWBvxsrE-8yP7EIjNWtFONsZ0PKwo1qdm0FN689mg/viewform
 ---
-If you are a content creator/journalist of influencer register with us now to get all the latest news from our clients!
+If you are a content creator/journalist or influencer register with us now to get all the latest news from our clients!
