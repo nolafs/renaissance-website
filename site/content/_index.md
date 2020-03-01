@@ -86,7 +86,7 @@ clients:
       company_url: 'https://www.daedalic.com/'
     - company: IIDEA
       company_logo: /images/uploads/logo-iidea-4c-2020.jpg
-      company_url: 'IIDEA '
+      company_url: 'https://en.iideassociation.com/'
     - company: Private Division
       company_logo: /images/uploads/client-privatedivision.jpg
       company_url: 'https://www.privatedivision.com/'
