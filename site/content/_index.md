@@ -99,16 +99,15 @@ clients:
     - company: Revolution
       company_logo: /images/uploads/client-revolution.jpg
       company_url: 'https://revolution.co.uk/'
-    - company: Yorkshire Game Festival
-      company_logo: /images/uploads/client-scienceandmmedia.jpg
-      company_url: >-
-        https://www.scienceandmediamuseum.org.uk/whats-on/yorkshire-games-festival
     - company: VLG Publishing
       company_logo: /images/uploads/logo-favicon-prova.png
       company_url: 'http://vlgpublishing.com/'
+    - company: IIDEA
+      company_logo: /images/uploads/logo-iidea-4c-2020.jpg
+      company_url: 'IIDEA '
   heading: Some of Our Clients
   productsheading: Latest Games
-  productstext: List of our latest games we worked on.
+  productstext: 'Our Latest project '
   slider_num: '9'
   text: >-
     Since our inception in 2015 we've been fortunate to work with a wide array
