@@ -48,9 +48,6 @@ services:
     hears about it in the right way, at the right time, in the right place
 clients:
   clients:
-    - company: A year of Rain
-      company_logo: /images/uploads/ayor.jpg
-      company_url: 'https://store.steampowered.com/app/319540/A_Year_Of_Rain/'
     - company: Autonauts
       company_logo: /images/uploads/18f6865daa5af20b286f204e081b2cfd3adddd8e.png
       company_url: 'http://www.curve-digital.com/en-gb/games/detail/46/autonauts/'
@@ -72,11 +69,9 @@ clients:
     - company: The Outer Worlds
       company_logo: /images/uploads/outerworlds-logo.png
       company_url: 'https://outerworlds.obsidian.net/en'
-    - company: The Walking Dead
-      company_logo: >-
-        /images/uploads/the-walking-dead-the-telltale-definitive-series-logo-01-ps4-us-14aug2019.png
-      company_url: >-
-        https://www.skybound.com/games/telltales-the-walking-dead/telltale-definitive-series-digital-pre-order
+    - company: Hotshot Racing
+      company_logo: /images/uploads/hotshot-racing-logo-small.png
+      company_url: 'http://www.curve-digital.com/en-gb/games/featured/49/hotshot-racing/'
   clients_featured:
     - company: Curve Digital
       company_logo: /images/uploads/client-curvedigital.jpg
