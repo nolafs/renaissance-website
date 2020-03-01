@@ -78,15 +78,15 @@ clients:
       company_url: >-
         https://www.skybound.com/games/telltales-the-walking-dead/telltale-definitive-series-digital-pre-order
   clients_featured:
-    - company: Aesvi
-      company_logo: /images/uploads/client-aesvi.jpg
-      company_url: 'http://www.aesvi.it'
     - company: Curve Digital
       company_logo: /images/uploads/client-curvedigital.jpg
       company_url: 'http://www.curve-digital.com/'
     - company: Daedalic Entertainment
       company_logo: /images/uploads/client-daedelic.jpg
       company_url: 'https://www.daedalic.com/'
+    - company: IIDEA
+      company_logo: /images/uploads/logo-iidea-4c-2020.jpg
+      company_url: 'IIDEA '
     - company: Private Division
       company_logo: /images/uploads/client-privatedivision.jpg
       company_url: 'https://www.privatedivision.com/'
@@ -102,9 +102,6 @@ clients:
     - company: VLG Publishing
       company_logo: /images/uploads/logo-favicon-prova.png
       company_url: 'http://vlgpublishing.com/'
-    - company: IIDEA
-      company_logo: /images/uploads/logo-iidea-4c-2020.jpg
-      company_url: 'IIDEA '
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: 'Our Latest project '
