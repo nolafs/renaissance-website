@@ -60,6 +60,9 @@ clients:
     - company: Disintegration
       company_logo: /images/uploads/case-privatedivision-disintegrationlogo.jpg
       company_url: 'https://www.disintegrationgame.com/'
+    - company: Hotshot Racing
+      company_logo: /images/uploads/hotshot-racing-logo-small.png
+      company_url: 'http://www.curve-digital.com/en-gb/games/featured/49/hotshot-racing/'
     - company: kerbal 2
       company_logo: /images/uploads/download.png
       company_url: 'https://www.kerbalspaceprogram.com/game/kerbal-space-program-2/'
@@ -69,9 +72,6 @@ clients:
     - company: The Outer Worlds
       company_logo: /images/uploads/outerworlds-logo.png
       company_url: 'https://outerworlds.obsidian.net/en'
-    - company: Hotshot Racing
-      company_logo: /images/uploads/hotshot-racing-logo-small.png
-      company_url: 'http://www.curve-digital.com/en-gb/games/featured/49/hotshot-racing/'
   clients_featured:
     - company: Curve Digital
       company_logo: /images/uploads/client-curvedigital.jpg
