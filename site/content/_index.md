@@ -82,6 +82,9 @@ clients:
     - company: Daedalic Entertainment
       company_logo: /images/uploads/client-daedelic.jpg
       company_url: 'https://www.daedalic.com/'
+    - company: Firesprite
+      company_logo: /images/uploads/logofs.png
+      company_url: 'https://firesprite.com/'
     - company: IIDEA
       company_logo: /images/uploads/logo-iidea-4c-2020.jpg
       company_url: 'https://en.iideassociation.com/'
@@ -100,9 +103,6 @@ clients:
     - company: VLG Publishing
       company_logo: /images/uploads/logo-favicon-prova.png
       company_url: 'http://vlgpublishing.com/'
-    - company: Firesprite
-      company_logo: /images/uploads/logofs.png
-      company_url: 'https://firesprite.com/'
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
