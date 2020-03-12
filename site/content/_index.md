@@ -72,6 +72,9 @@ clients:
     - company: The Outer Worlds
       company_logo: /images/uploads/outerworlds-logo.png
       company_url: 'https://outerworlds.obsidian.net/en'
+    - company: The Persistence
+      company_logo: /images/uploads/the-persistence_gamelogo.png
+      company_url: 'https://firesprite.com/'
   clients_featured:
     - company: Curve Digital
       company_logo: /images/uploads/client-curvedigital.jpg
