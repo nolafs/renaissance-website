@@ -97,6 +97,9 @@ clients:
     - company: VLG Publishing
       company_logo: /images/uploads/logo-favicon-prova.png
       company_url: 'http://vlgpublishing.com/'
+    - company: Firesprite
+      company_logo: /images/uploads/logofs.png
+      company_url: 'https://firesprite.com/'
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: 'Our Latest project '
