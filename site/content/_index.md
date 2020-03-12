@@ -69,12 +69,12 @@ clients:
     - company: Song of horror
       company_logo: /images/uploads/logosoh.png
       company_url: 'https://store.steampowered.com/app/1096570/SONG_OF_HORROR/'
-    - company: The Outer Worlds
-      company_logo: /images/uploads/outerworlds-logo.png
-      company_url: 'https://outerworlds.obsidian.net/en'
     - company: The Persistence
       company_logo: /images/uploads/the-persistence_gamelogo.png
       company_url: 'https://firesprite.com/'
+    - company: The Outer Worlds
+      company_logo: /images/uploads/outerworlds-logo.png
+      company_url: 'https://outerworlds.obsidian.net/en'
   clients_featured:
     - company: Curve Digital
       company_logo: /images/uploads/client-curvedigital.jpg
@@ -105,7 +105,7 @@ clients:
       company_url: 'https://firesprite.com/'
   heading: Some of Our Clients
   productsheading: Latest Games
-  productstext: 'Our Latest project '
+  productstext: Our Latest projects
   slider_num: '9'
   text: >-
     Since our inception in 2015 we've been fortunate to work with a wide array
