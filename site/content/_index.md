@@ -70,12 +70,12 @@ clients:
       company_logo: /images/uploads/outerworlds-logo.png
       company_url: 'https://outerworlds.obsidian.net/en'
   clients_featured:
+    - company: 505 Games
+      company_logo: /images/uploads/505_games_logo.svg
+      company_url: 'https://505games.com/'
     - company: Curve Digital
       company_logo: /images/uploads/client-curvedigital.jpg
       company_url: 'http://www.curve-digital.com/'
-    - company: Daedalic Entertainment
-      company_logo: /images/uploads/client-daedelic.jpg
-      company_url: 'https://www.daedalic.com/'
     - company: Firesprite
       company_logo: /images/uploads/logofs.png
       company_url: 'https://firesprite.com/'
@@ -85,6 +85,9 @@ clients:
     - company: IIDEA
       company_logo: /images/uploads/logo-iidea-4c-2020.jpg
       company_url: 'https://en.iideassociation.com/'
+    - company: Team17
+      company_logo: /images/uploads/team17®_horiz_black_keyline_rgb_preview.png
+      company_url: www.team17.com
     - company: Private Division
       company_logo: /images/uploads/client-privatedivision.jpg
       company_url: 'https://www.privatedivision.com/'
@@ -97,9 +100,9 @@ clients:
     - company: Revolution
       company_logo: /images/uploads/client-revolution.jpg
       company_url: 'https://revolution.co.uk/'
-    - company: VLG Publishing
-      company_logo: /images/uploads/logo-favicon-prova.png
-      company_url: 'http://vlgpublishing.com/'
+    - company: Glitchers
+      company_logo: /images/uploads/glitchers_0.jpg
+      company_url: 'https://glitchers.com/'
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
