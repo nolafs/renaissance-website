@@ -48,12 +48,6 @@ services:
     hears about it in the right way, at the right time, in the right place
 clients:
   clients:
-    - company: Autonauts
-      company_logo: /images/uploads/18f6865daa5af20b286f204e081b2cfd3adddd8e.png
-      company_url: 'http://www.curve-digital.com/en-gb/games/detail/46/autonauts/'
-    - company: Ancestors
-      company_logo: /images/uploads/ancestors_the_humankind_odyssey_logo.png
-      company_url: 'https://ancestorsgame.com/en/'
     - company: Beyond a Steel Sky
       company_logo: /images/uploads/header.jpg
       company_url: 'https://revolution.co.uk/'
@@ -85,6 +79,9 @@ clients:
     - company: Firesprite
       company_logo: /images/uploads/logofs.png
       company_url: 'https://firesprite.com/'
+    - company: Green Man Gaming
+      company_logo: /images/uploads/green_man_gaming_logo.svg.png
+      company_url: 'https://www.greenmangaming.com/'
     - company: IIDEA
       company_logo: /images/uploads/logo-iidea-4c-2020.jpg
       company_url: 'https://en.iideassociation.com/'
