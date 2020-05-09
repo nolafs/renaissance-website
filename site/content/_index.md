@@ -85,6 +85,9 @@ clients:
     - company: Main Assembly
       company_logo: /images/uploads/mainassembly.jpg
       company_url: 'https://store.steampowered.com/app/1078920/Main_Assembly/'
+    - company: Drift21
+      company_logo: /images/uploads/drift21logo.png
+      company_url: 'https://store.steampowered.com/app/520950/DRIFT21/'
   clients_featured:
     - company: 505 Games
       company_logo: /images/uploads/505_games_logo.svg
