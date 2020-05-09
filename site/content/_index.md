@@ -81,8 +81,7 @@ clients:
       company_url: 'https://outerworlds.obsidian.net/en'
     - company: The Ascent
       company_logo: /images/uploads/ascent.jpg
-      company_url: >-
-        https://drive.google.com/drive/u/1/folders/1UoqgtoFk2QEAz_Y4eoZYK8xVcwu_uApf
+      company_url: 'https://store.steampowered.com/app/979690/The_Ascent/'
   clients_featured:
     - company: 505 Games
       company_logo: /images/uploads/505_games_logo.svg
