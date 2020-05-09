@@ -79,15 +79,15 @@ clients:
     - company: Song of horror
       company_logo: /images/uploads/logosoh.png
       company_url: 'https://store.steampowered.com/app/1096570/SONG_OF_HORROR/'
-    - company: The Persistence
-      company_logo: /images/uploads/the-persistence_gamelogo.png
-      company_url: 'https://firesprite.com/'
     - company: The Ascent
       company_logo: /images/uploads/ascent.jpg
       company_url: 'https://store.steampowered.com/app/979690/The_Ascent/'
     - company: The Outer Worlds
       company_logo: /images/uploads/outerworlds-logo.png
       company_url: 'https://outerworlds.obsidian.net/en'
+    - company: The Persistence
+      company_logo: /images/uploads/the-persistence_gamelogo.png
+      company_url: 'https://firesprite.com/'
   clients_featured:
     - company: 505 Games
       company_logo: /images/uploads/505_games_logo.svg
