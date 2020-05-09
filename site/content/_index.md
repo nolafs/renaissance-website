@@ -58,6 +58,9 @@ clients:
     - company: Disintegration
       company_logo: /images/uploads/case-privatedivision-disintegrationlogo.jpg
       company_url: 'https://www.disintegrationgame.com/'
+    - company: Drift21
+      company_logo: /images/uploads/drift21logo.png
+      company_url: 'https://store.steampowered.com/app/520950/DRIFT21/'
     - company: Embr
       company_logo: /images/uploads/embr.jpg
       company_url: 'https://store.steampowered.com/app/1062830/Embr/'
@@ -67,6 +70,9 @@ clients:
     - company: kerbal 2
       company_logo: /images/uploads/download.png
       company_url: 'https://www.kerbalspaceprogram.com/game/kerbal-space-program-2/'
+    - company: Main Assembly
+      company_logo: /images/uploads/mainassembly.jpg
+      company_url: 'https://store.steampowered.com/app/1078920/Main_Assembly/'
     - company: Peaky Blinders Mastermind
       company_logo: /images/uploads/peaky2.jpg
       company_url: 'https://store.steampowered.com/app/1013310/Peaky_Blinders_Mastermind/'
@@ -82,12 +88,6 @@ clients:
     - company: The Ascent
       company_logo: /images/uploads/ascent.jpg
       company_url: 'https://store.steampowered.com/app/979690/The_Ascent/'
-    - company: Main Assembly
-      company_logo: /images/uploads/mainassembly.jpg
-      company_url: 'https://store.steampowered.com/app/1078920/Main_Assembly/'
-    - company: Drift21
-      company_logo: /images/uploads/drift21logo.png
-      company_url: 'https://store.steampowered.com/app/520950/DRIFT21/'
   clients_featured:
     - company: 505 Games
       company_logo: /images/uploads/505_games_logo.svg
