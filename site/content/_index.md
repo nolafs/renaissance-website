@@ -48,12 +48,19 @@ services:
     hears about it in the right way, at the right time, in the right place
 clients:
   clients:
+    - company: Aereonautica Imperialis Flight Command
+      company_logo: /images/uploads/aereonautica-imperialis.png
+      company_url: >-
+        https://store.steampowered.com/app/610160/Aeronautica_Imperialis_Flight_Command/
     - company: Beyond a Steel Sky
       company_logo: /images/uploads/header.jpg
       company_url: 'https://revolution.co.uk/'
     - company: Disintegration
       company_logo: /images/uploads/case-privatedivision-disintegrationlogo.jpg
       company_url: 'https://www.disintegrationgame.com/'
+    - company: Embr
+      company_logo: /images/uploads/embr.jpg
+      company_url: 'https://store.steampowered.com/app/1062830/Embr/'
     - company: Hotshot Racing
       company_logo: /images/uploads/hotshot-racing-logo-small.png
       company_url: 'http://www.curve-digital.com/en-gb/games/featured/49/hotshot-racing/'
@@ -69,6 +76,13 @@ clients:
     - company: The Outer Worlds
       company_logo: /images/uploads/outerworlds-logo.png
       company_url: 'https://outerworlds.obsidian.net/en'
+    - company: The Ascent
+      company_logo: /images/uploads/the-ascent-keyart-landscape-logo2.jpg
+      company_url: >-
+        https://drive.google.com/drive/u/1/folders/1UoqgtoFk2QEAz_Y4eoZYK8xVcwu_uApf
+    - company: Peaky Blinders Mastermind
+      company_logo: /images/uploads/peaky.jpg
+      company_url: 'https://store.steampowered.com/app/1013310/Peaky_Blinders_Mastermind/'
   clients_featured:
     - company: 505 Games
       company_logo: /images/uploads/505_games_logo.svg
