@@ -82,6 +82,9 @@ clients:
     - company: The Ascent
       company_logo: /images/uploads/ascent.jpg
       company_url: 'https://store.steampowered.com/app/979690/The_Ascent/'
+    - company: Main Assembly
+      company_logo: /images/uploads/mainassembly.jpg
+      company_url: 'https://store.steampowered.com/app/1078920/Main_Assembly/'
   clients_featured:
     - company: 505 Games
       company_logo: /images/uploads/505_games_logo.svg
