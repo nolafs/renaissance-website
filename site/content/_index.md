@@ -48,45 +48,65 @@ services:
     hears about it in the right way, at the right time, in the right place
 clients:
   clients:
-    - company: A year of Rain
-      company_logo: /images/uploads/ayor.jpg
-      company_url: 'https://store.steampowered.com/app/319540/A_Year_Of_Rain/'
-    - company: Autonauts
-      company_logo: /images/uploads/18f6865daa5af20b286f204e081b2cfd3adddd8e.png
-      company_url: 'http://www.curve-digital.com/en-gb/games/detail/46/autonauts/'
-    - company: Ancestors
-      company_logo: /images/uploads/ancestors_the_humankind_odyssey_logo.png
-      company_url: 'https://ancestorsgame.com/en/'
+    - company: Aereonautica Imperialis Flight Command
+      company_logo: /images/uploads/aereonautica-imperialis.png
+      company_url: >-
+        https://store.steampowered.com/app/610160/Aeronautica_Imperialis_Flight_Command/
     - company: Beyond a Steel Sky
       company_logo: /images/uploads/header.jpg
       company_url: 'https://revolution.co.uk/'
     - company: Disintegration
       company_logo: /images/uploads/case-privatedivision-disintegrationlogo.jpg
       company_url: 'https://www.disintegrationgame.com/'
+    - company: Drift21
+      company_logo: /images/uploads/drift21logo.png
+      company_url: 'https://store.steampowered.com/app/520950/DRIFT21/'
+    - company: Embr
+      company_logo: /images/uploads/embr.jpg
+      company_url: 'https://store.steampowered.com/app/1062830/Embr/'
+    - company: Hotshot Racing
+      company_logo: /images/uploads/hotshot-racing-logo-small.png
+      company_url: 'http://www.curve-digital.com/en-gb/games/featured/49/hotshot-racing/'
     - company: kerbal 2
       company_logo: /images/uploads/download.png
       company_url: 'https://www.kerbalspaceprogram.com/game/kerbal-space-program-2/'
+    - company: Main Assembly
+      company_logo: /images/uploads/mainassembly.jpg
+      company_url: 'https://store.steampowered.com/app/1078920/Main_Assembly/'
+    - company: Peaky Blinders Mastermind
+      company_logo: /images/uploads/peaky2.jpg
+      company_url: 'https://store.steampowered.com/app/1013310/Peaky_Blinders_Mastermind/'
     - company: Song of horror
       company_logo: /images/uploads/logosoh.png
       company_url: 'https://store.steampowered.com/app/1096570/SONG_OF_HORROR/'
+    - company: The Ascent
+      company_logo: /images/uploads/ascent.jpg
+      company_url: 'https://store.steampowered.com/app/979690/The_Ascent/'
     - company: The Outer Worlds
       company_logo: /images/uploads/outerworlds-logo.png
       company_url: 'https://outerworlds.obsidian.net/en'
-    - company: The Walking Dead
-      company_logo: >-
-        /images/uploads/the-walking-dead-the-telltale-definitive-series-logo-01-ps4-us-14aug2019.png
-      company_url: >-
-        https://www.skybound.com/games/telltales-the-walking-dead/telltale-definitive-series-digital-pre-order
+    - company: The Persistence
+      company_logo: /images/uploads/the-persistence_gamelogo.png
+      company_url: 'https://firesprite.com/'
   clients_featured:
-    - company: Aesvi
-      company_logo: /images/uploads/client-aesvi.jpg
-      company_url: 'http://www.aesvi.it'
+    - company: 505 Games
+      company_logo: /images/uploads/505_games_logo.svg
+      company_url: 'https://505games.com/'
     - company: Curve Digital
       company_logo: /images/uploads/client-curvedigital.jpg
       company_url: 'http://www.curve-digital.com/'
-    - company: Daedalic Entertainment
-      company_logo: /images/uploads/client-daedelic.jpg
-      company_url: 'https://www.daedalic.com/'
+    - company: Firesprite
+      company_logo: /images/uploads/logofs.png
+      company_url: 'https://firesprite.com/'
+    - company: Green Man Gaming
+      company_logo: /images/uploads/green_man_gaming_logo.svg.png
+      company_url: 'https://www.greenmangaming.com/'
+    - company: IIDEA
+      company_logo: /images/uploads/logo-iidea-4c-2020.jpg
+      company_url: 'https://en.iideassociation.com/'
+    - company: Team17
+      company_logo: /images/uploads/team17®_horiz_black_keyline_rgb_preview.png
+      company_url: www.team17.com
     - company: Private Division
       company_logo: /images/uploads/client-privatedivision.jpg
       company_url: 'https://www.privatedivision.com/'
@@ -99,16 +119,12 @@ clients:
     - company: Revolution
       company_logo: /images/uploads/client-revolution.jpg
       company_url: 'https://revolution.co.uk/'
-    - company: Yorkshire Game Festival
-      company_logo: /images/uploads/client-scienceandmmedia.jpg
-      company_url: >-
-        https://www.scienceandmediamuseum.org.uk/whats-on/yorkshire-games-festival
-    - company: VLG Publishing
-      company_logo: /images/uploads/logo-favicon-prova.png
-      company_url: 'http://vlgpublishing.com/'
+    - company: Glitchers
+      company_logo: /images/uploads/glitchers_0.jpg
+      company_url: 'https://glitchers.com/'
   heading: Some of Our Clients
   productsheading: Latest Games
-  productstext: List of our latest games we worked on.
+  productstext: Our Latest projects
   slider_num: '9'
   text: >-
     Since our inception in 2015 we've been fortunate to work with a wide array
