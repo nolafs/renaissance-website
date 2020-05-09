@@ -67,6 +67,9 @@ clients:
     - company: kerbal 2
       company_logo: /images/uploads/download.png
       company_url: 'https://www.kerbalspaceprogram.com/game/kerbal-space-program-2/'
+    - company: Peaky Blinders Mastermind
+      company_logo: /images/uploads/peaky2.jpg
+      company_url: 'https://store.steampowered.com/app/1013310/Peaky_Blinders_Mastermind/'
     - company: Song of horror
       company_logo: /images/uploads/logosoh.png
       company_url: 'https://store.steampowered.com/app/1096570/SONG_OF_HORROR/'
@@ -77,12 +80,9 @@ clients:
       company_logo: /images/uploads/outerworlds-logo.png
       company_url: 'https://outerworlds.obsidian.net/en'
     - company: The Ascent
-      company_logo: /images/uploads/the-ascent-keyart-landscape-logo2.jpg
+      company_logo: /images/uploads/ascent.jpg
       company_url: >-
         https://drive.google.com/drive/u/1/folders/1UoqgtoFk2QEAz_Y4eoZYK8xVcwu_uApf
-    - company: Peaky Blinders Mastermind
-      company_logo: /images/uploads/peaky.jpg
-      company_url: 'https://store.steampowered.com/app/1013310/Peaky_Blinders_Mastermind/'
   clients_featured:
     - company: 505 Games
       company_logo: /images/uploads/505_games_logo.svg
