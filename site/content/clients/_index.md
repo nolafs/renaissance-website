@@ -1,7 +1,6 @@
 ---
 title: Our Clients
 clients:
-  clients_featured:
     - company: Aesvi
       company_logo: /images/uploads/client-aesvi.jpg
       company_url: 'http://www.aesvi.it'
