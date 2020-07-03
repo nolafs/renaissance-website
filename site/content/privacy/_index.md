@@ -5,28 +5,25 @@ title: Privacy
 
 This privacy policy governs the collection, storage, use of personal information collected by us, Renaissance PR LTD. It provides details about the personal information that we collect from you, how we use your personal information, your rights regarding the personal information that we hold about you. Please read this privacy policy carefully – by using our services you confirm that you have read, understood, agree to this privacy policy in its entirety.
 
-The contact details of the Data Protection Officer who is responsible for GDPR:
-Stefano Petrullo, Founder, Renaissance PR: stefano@Renaissancepr.biz
+The contact details of the Data Protection Officer who is responsible for GDPR: Stefano Petrullo, Founder, Renaissance PR: stefano@Renaissancepr.biz
 
 ### Who is Renaissance PR?
 
-Renaissance PR  provides Public Relations Services worldwide. Our database contains the contact details of journalists and influencer we work with to promote our clients’ interests and products. Stefano Petrullo founded Renaissance PR in 2015 and acts as a limited company with the help of agents appointed on case by case on specific project.
+Renaissance PR  provides Public Relations Services worldwide. Our database contains the contact details of journalists and content creators we work with to promote our clients’ interests and products. Stefano Petrullo founded Renaissance PR in 2015 and acts as a limited company with the help of agents appointed on case by case on specific project.
 
 Stefano Petrullo is a ‘data controller’ in respect of the personal information that it collects and stores from both journalists and clients.
 
 What personal information do we collect about you?
 
-We only collect basic personal data about both journalists and our clients including name, email, phone number and in some instances office address and home addresses for delivery of goods.
+We only collect basic personal data about both journalists, content creators and our clients including name, email, phone number and in some instances office address and home addresses for delivery of goods.
 
-We collect this personal information about journalists by a number of means including:
+We collect this personal information about journalists and content creators by a number of means including:
 
 • Identifying bylines in papers, online sites and magazines
 
-• By communicating with journalists as a part of our daily job in
-maintaining relations in the interest of our client and our own company.
+• By communicating with journalists as a part of our daily job in maintaining relations in the interest of our client and our own company.
 
-• By following journalists updating their status on various platforms
-including LinkedIn, Twitter and other relevant sites/social media platform.
+• By following journalists updating their status on various platforms including LinkedIn, Twitter and other relevant sites/social media platform.
 
 We collect the personal information about our clients once entered in business conversation or been contacted for business opportunity. We also collect personal information about you when you contact or interact with us through our website www.renaissancepr.co.uk and or if you write to us.
 
@@ -102,8 +99,7 @@ Renaissance PR will use journalist data in order to:
 
 Renaissance PR also spends considerable time updating the database on the moves of journalists to and from publications / outlets to make sure the data it holds is accurate.
 
-Renaissance PR only wants to connect to journalists who have a genuine interest in a topic and a product we represent. We try to achieve this aim by
-focusing on the following:
+Renaissance PR only wants to connect to journalists who have a genuine interest in a topic and a product we represent. We try to achieve this aim by focusing on the following:
 
 • We are more discriminate how we sector journalists (mainstream, gaming, influencers)
 
@@ -123,8 +119,7 @@ We do not share your personal information to our clients, however we disclose in
 
 • Compliance with laws and legal proceedings: When we respond to court orders, or legal process, or to establish or exercise our legal rights or defend against legal claims. When we believe in our sole discretion it is necessary to share information in order to investigate, prevent or take actions against illegal activities, suspected fraud, situations involving potential threats to the physical safety of any person, violations of our terms of use, or as otherwise required by law.
 
-• Merger or acquisition: When we need to transfer information about you if we are acquired by or merged with another company. If we are involved in a
-merger, acquisition, or sale of all or a portion of its assets, you will be notified afterwards via e-mail and/or a prominent notice on our Site of any change in ownership or uses of your personal information, as well as any choices you may have regarding your personal information.
+• Merger or acquisition: When we need to transfer information about you if we are acquired by or merged with another company. If we are involved in a merger, acquisition, or sale of all or a portion of its assets, you will be notified afterwards via e-mail and/or a prominent notice on our Site of any change in ownership or uses of your personal information, as well as any choices you may have regarding your personal information.
 
 **How long do we keep your data?**
 
@@ -152,8 +147,7 @@ If you are not satisfied with our response or believe we are not processing your
 
 **Cookies**
 
-Technologies such as cookies, beacons, tags and scripts are used by us and our partners, affiliates, or analytics or service providers. These
-technologies are used in analysing trends, administering our website, tracking users’ movements around the website and to gather demographic information about our user base as a whole. We may receive reports based on the use of these technologies by these companies on an individual as well as aggregated basis.
+Technologies such as cookies, beacons, tags and scripts are used by us and our partners, affiliates, or analytics or service providers. These technologies are used in analysing trends, administering our website, tracking users’ movements around the website and to gather demographic information about our user base as a whole. We may receive reports based on the use of these technologies by these companies on an individual as well as aggregated basis.
 
 We use cookies, for example, to remember users’ settings (e.g. language preference). Users can control the use of cookies at the individual browser level.
 
