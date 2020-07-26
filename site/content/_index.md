@@ -29,12 +29,11 @@ services:
         need
       title: Product Management  & Support
     - icon: /images/uploads/icon.svg
-      text: >-
-        A great campaign is the sum of its parts - business plan, target
-        audience, marketing plan and sales strategy. At Renaissance we’re proud
-        to have a pool of talent we can call on across all disciplines, with a
-        wealth of experience to ensure you’re in the right place to make the
-        most of your communication strategy
+      text: A great campaign is the sum of its parts - business plan, target audience,
+        marketing plan and sales strategy. At Renaissance we’re proud to have a
+        pool of talent we can call on across all disciplines, with a wealth of
+        experience to ensure you’re in the right place to make the most of your
+        communication strategy
       title: Go-to-market Communication Planning
   subheader: Core Services
   text: >
@@ -43,91 +42,81 @@ services:
     for your project’s needs.
 
 
-    It’s not about aimlessly shouting about your game to anyone willing to lend
-    their ear: We’re here to take your creativity and make sure right people
-    hears about it in the right way, at the right time, in the right place
+    It’s not about aimlessly shouting about your game to anyone willing to lend their ear: We’re here to take your creativity and make sure right people hears about it in the right way, at the right time, in the right place
 clients:
   clients:
     - company: Aereonautica Imperialis Flight Command
       company_logo: /images/uploads/aereonautica-imperialis.png
-      company_url: >-
-        https://store.steampowered.com/app/610160/Aeronautica_Imperialis_Flight_Command/
+      company_url: https://store.steampowered.com/app/610160/Aeronautica_Imperialis_Flight_Command/
     - company: Beyond a Steel Sky
       company_logo: /images/uploads/header.jpg
-      company_url: 'https://revolution.co.uk/'
+      company_url: https://revolution.co.uk/
     - company: Disintegration
       company_logo: /images/uploads/case-privatedivision-disintegrationlogo.jpg
-      company_url: 'https://www.disintegrationgame.com/'
+      company_url: https://www.disintegrationgame.com/
     - company: Drift21
       company_logo: /images/uploads/drift21logo.png
-      company_url: 'https://store.steampowered.com/app/520950/DRIFT21/'
+      company_url: https://store.steampowered.com/app/520950/DRIFT21/
     - company: Embr
       company_logo: /images/uploads/embr.jpg
-      company_url: 'https://store.steampowered.com/app/1062830/Embr/'
+      company_url: https://store.steampowered.com/app/1062830/Embr/
     - company: Hotshot Racing
       company_logo: /images/uploads/hotshot-racing-logo-small.png
-      company_url: 'http://www.curve-digital.com/en-gb/games/featured/49/hotshot-racing/'
+      company_url: http://www.curve-digital.com/en-gb/games/featured/49/hotshot-racing/
     - company: kerbal 2
       company_logo: /images/uploads/download.png
-      company_url: 'https://www.kerbalspaceprogram.com/game/kerbal-space-program-2/'
+      company_url: https://www.kerbalspaceprogram.com/game/kerbal-space-program-2/
     - company: Main Assembly
       company_logo: /images/uploads/mainassembly.jpg
-      company_url: 'https://store.steampowered.com/app/1078920/Main_Assembly/'
+      company_url: https://store.steampowered.com/app/1078920/Main_Assembly/
     - company: Peaky Blinders Mastermind
       company_logo: /images/uploads/peaky2.jpg
-      company_url: 'https://store.steampowered.com/app/1013310/Peaky_Blinders_Mastermind/'
+      company_url: https://store.steampowered.com/app/1013310/Peaky_Blinders_Mastermind/
     - company: Song of horror
       company_logo: /images/uploads/logosoh.png
-      company_url: 'https://store.steampowered.com/app/1096570/SONG_OF_HORROR/'
+      company_url: https://store.steampowered.com/app/1096570/SONG_OF_HORROR/
     - company: The Ascent
       company_logo: /images/uploads/ascent.jpg
-      company_url: 'https://store.steampowered.com/app/979690/The_Ascent/'
+      company_url: https://store.steampowered.com/app/979690/The_Ascent/
     - company: The Outer Worlds
       company_logo: /images/uploads/outerworlds-logo.png
-      company_url: 'https://outerworlds.obsidian.net/en'
+      company_url: https://outerworlds.obsidian.net/en
     - company: The Persistence
       company_logo: /images/uploads/the-persistence_gamelogo.png
-      company_url: 'https://firesprite.com/'
+      company_url: https://firesprite.com/
   clients_featured:
     - company: 505 Games
       company_logo: /images/uploads/505_games_logo.svg
-      company_url: 'https://505games.com/'
+      company_url: https://505games.com/
     - company: Curve Digital
       company_logo: /images/uploads/client-curvedigital.jpg
-      company_url: 'http://www.curve-digital.com/'
-    - company: Firesprite
-      company_logo: /images/uploads/logofs.png
-      company_url: 'https://firesprite.com/'
+      company_url: http://www.curve-digital.com/
     - company: Green Man Gaming
       company_logo: /images/uploads/green_man_gaming_logo.svg.png
-      company_url: 'https://www.greenmangaming.com/'
+      company_url: https://www.greenmangaming.com/
     - company: IIDEA
       company_logo: /images/uploads/logo-iidea-4c-2020.jpg
-      company_url: 'https://en.iideassociation.com/'
-    - company: Team17
-      company_logo: /images/uploads/team17®_horiz_black_keyline_rgb_preview.png
-      company_url: www.team17.com
+      company_url: https://en.iideassociation.com/
     - company: Private Division
       company_logo: /images/uploads/client-privatedivision.jpg
-      company_url: 'https://www.privatedivision.com/'
+      company_url: https://www.privatedivision.com/
     - company: Raiser Games
       company_logo: /images/uploads/logo-raiser-games.png
-      company_url: 'https://www.raisergames.com/'
+      company_url: https://www.raisergames.com/
     - company: Red Kite Games
       company_logo: /images/uploads/client-redkite.jpg
-      company_url: 'https://redkitegames.co.uk/'
-    - company: Revolution
-      company_logo: /images/uploads/client-revolution.jpg
-      company_url: 'https://revolution.co.uk/'
+      company_url: https://redkitegames.co.uk/
     - company: Glitchers
       company_logo: /images/uploads/glitchers_0.jpg
-      company_url: 'https://glitchers.com/'
+      company_url: https://glitchers.com/
+    - company: 3D Clouds
+      company_url: https://www.3dclouds.it/
+      company_logo: /images/uploads/3dc.png
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
-  slider_num: '9'
-  text: >-
-    Since our inception in 2015 we've been fortunate to work with a wide array
+  slider_num: "9"
+  text: Since our inception in 2015 we've been fortunate to work with a wide array
     of different clients, over 90% of whom we're proud to say are still valued
     partner today.
 testimonial: Stuart Dinsey
