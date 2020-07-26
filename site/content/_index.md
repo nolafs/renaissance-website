@@ -112,6 +112,9 @@ clients:
     - company: 3D Clouds
       company_url: https://www.3dclouds.it/
       company_logo: /images/uploads/3dc.png
+    - company: NetEase
+      company_logo: /images/uploads/netease2.png
+      company_url: https://www.neteasegames.com/
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
