@@ -115,6 +115,9 @@ clients:
     - company: NetEase
       company_logo: /images/uploads/netease2.png
       company_url: https://www.neteasegames.com/
+    - company: Awe Interactive
+      company_logo: /images/uploads/awe-logo-fullcolour-rgb.png
+      company_url: https://www.aweinteractive.com/
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
