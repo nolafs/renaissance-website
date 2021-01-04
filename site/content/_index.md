@@ -88,6 +88,9 @@ clients:
     - company: Stormind Games
       company_url: https://www.stormindgames.com/
       company_logo: /images/uploads/stormind-games-logo-mobile.png
+    - company: Sharkmob
+      company_url: https://www.sharkmob.com/
+      company_logo: /images/uploads/sharkmob-cmyk-neg-transparent.webp
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
