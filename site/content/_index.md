@@ -97,6 +97,9 @@ clients:
     - company: "Koei Tecmo "
       company_url: https://www.koeitecmoeurope.com/
       company_logo: /images/uploads/1200px-koei_tecmo_holdings_logo_20090401.svg.png
+    - company: Payload Studios
+      company_url: https://payloadstudios.com/
+      company_logo: /images/uploads/payloadlogo_badge_no_gradient-scaled.png
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
