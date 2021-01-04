@@ -76,30 +76,30 @@ clients:
     - company: IIDEA
       company_logo: /images/uploads/logo-iidea-4c-2020.jpg
       company_url: https://en.iideassociation.com/
+    - company: "Koei Tecmo "
+      company_url: https://www.koeitecmoeurope.com/
+      company_logo: /images/uploads/1200px-koei_tecmo_holdings_logo_20090401.svg.png
+    - company: Leonardo Interactive
+      company_url: https://leonardointeractive.com/
+      company_logo: /images/uploads/logo_leonardo_interacative_rgb-600-1.png
     - company: NetEase
       company_logo: /images/uploads/netease2.png
       company_url: https://www.neteasegames.com/
+    - company: Payload Studios
+      company_url: https://payloadstudios.com/
+      company_logo: /images/uploads/payloadlogo_badge_no_gradient-scaled.png
     - company: Private Division
       company_logo: /images/uploads/client-privatedivision.jpg
       company_url: https://www.privatedivision.com/
+    - company: Sharkmob
+      company_url: https://www.sharkmob.com/
+      company_logo: /images/uploads/sharkmob-cmyk-neg-transparent.webp
     - company: SNK
       company_url: https://www.snk-corp.co.jp/us/
       company_logo: /images/uploads/snk_logo.svg.png
     - company: Stormind Games
       company_url: https://www.stormindgames.com/
       company_logo: /images/uploads/stormind-games-logo-mobile.png
-    - company: Sharkmob
-      company_url: https://www.sharkmob.com/
-      company_logo: /images/uploads/sharkmob-cmyk-neg-transparent.webp
-    - company: Leonardo Interactive
-      company_url: https://leonardointeractive.com/
-      company_logo: /images/uploads/logo_leonardo_interacative_rgb-600-1.png
-    - company: "Koei Tecmo "
-      company_url: https://www.koeitecmoeurope.com/
-      company_logo: /images/uploads/1200px-koei_tecmo_holdings_logo_20090401.svg.png
-    - company: Payload Studios
-      company_url: https://payloadstudios.com/
-      company_logo: /images/uploads/payloadlogo_badge_no_gradient-scaled.png
     - company: Wired Productions
       company_url: https://www.wiredproductions.com/collections/martha-is-dead
       company_logo: /images/uploads/client-wired.jpg
