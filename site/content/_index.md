@@ -76,15 +76,15 @@ clients:
     - company: IIDEA
       company_logo: /images/uploads/logo-iidea-4c-2020.jpg
       company_url: https://en.iideassociation.com/
-    - company: Private Division
-      company_logo: /images/uploads/client-privatedivision.jpg
-      company_url: https://www.privatedivision.com/
     - company: NetEase
       company_logo: /images/uploads/netease2.png
       company_url: https://www.neteasegames.com/
-    - company: Wired Productions
-      company_url: https://www.wiredproductions.com/collections/martha-is-dead
-      company_logo: /images/uploads/client-wired.jpg
+    - company: Private Division
+      company_logo: /images/uploads/client-privatedivision.jpg
+      company_url: https://www.privatedivision.com/
+    - company: SNK
+      company_url: https://www.snk-corp.co.jp/us/
+      company_logo: /images/uploads/snk_logo.svg.png
     - company: Stormind Games
       company_url: https://www.stormindgames.com/
       company_logo: /images/uploads/stormind-games-logo-mobile.png
@@ -100,9 +100,9 @@ clients:
     - company: Payload Studios
       company_url: https://payloadstudios.com/
       company_logo: /images/uploads/payloadlogo_badge_no_gradient-scaled.png
-    - company: SNK
-      company_url: https://www.snk-corp.co.jp/us/
-      company_logo: /images/uploads/snk_logo.svg.png
+    - company: Wired Productions
+      company_url: https://www.wiredproductions.com/collections/martha-is-dead
+      company_logo: /images/uploads/client-wired.jpg
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
