@@ -84,7 +84,7 @@ clients:
       company_url: https://www.neteasegames.com/
     - company: Wired Productions
       company_url: https://www.wiredproductions.com/collections/martha-is-dead
-      company_logo: /images/uploads/wiredlogo_white_rgb_1_280x-2x.png
+      company_logo: /images/uploads/client-wired.jpg
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
