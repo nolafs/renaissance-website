@@ -85,6 +85,9 @@ clients:
     - company: Wired Productions
       company_url: https://www.wiredproductions.com/collections/martha-is-dead
       company_logo: /images/uploads/client-wired.jpg
+    - company: Stormind Games
+      company_url: https://www.stormindgames.com/
+      company_logo: /images/uploads/stormind-games-logo-mobile.png
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
