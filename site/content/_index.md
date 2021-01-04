@@ -45,45 +45,24 @@ services:
     It’s not about aimlessly shouting about your game to anyone willing to lend their ear: We’re here to take your creativity and make sure right people hears about it in the right way, at the right time, in the right place
 clients:
   clients:
-    - company: Aereonautica Imperialis Flight Command
-      company_logo: /images/uploads/aereonautica-imperialis.png
-      company_url: https://store.steampowered.com/app/610160/Aeronautica_Imperialis_Flight_Command/
-    - company: Beyond a Steel Sky
-      company_logo: /images/uploads/header.jpg
-      company_url: https://revolution.co.uk/
-    - company: Disintegration
-      company_logo: /images/uploads/case-privatedivision-disintegrationlogo.jpg
-      company_url: https://www.disintegrationgame.com/
     - company: Drift21
       company_logo: /images/uploads/drift21logo.png
       company_url: https://store.steampowered.com/app/520950/DRIFT21/
     - company: Embr
       company_logo: /images/uploads/embr.jpg
       company_url: https://store.steampowered.com/app/1062830/Embr/
-    - company: Hotshot Racing
-      company_logo: /images/uploads/hotshot-racing-logo-small.png
-      company_url: http://www.curve-digital.com/en-gb/games/featured/49/hotshot-racing/
     - company: kerbal 2
       company_logo: /images/uploads/download.png
       company_url: https://www.kerbalspaceprogram.com/game/kerbal-space-program-2/
-    - company: Main Assembly
-      company_logo: /images/uploads/mainassembly.jpg
-      company_url: https://store.steampowered.com/app/1078920/Main_Assembly/
     - company: Peaky Blinders Mastermind
       company_logo: /images/uploads/peaky2.jpg
       company_url: https://store.steampowered.com/app/1013310/Peaky_Blinders_Mastermind/
-    - company: Song of horror
-      company_logo: /images/uploads/logosoh.png
-      company_url: https://store.steampowered.com/app/1096570/SONG_OF_HORROR/
     - company: The Ascent
       company_logo: /images/uploads/ascent.jpg
       company_url: https://store.steampowered.com/app/979690/The_Ascent/
     - company: The Outer Worlds
       company_logo: /images/uploads/outerworlds-logo.png
       company_url: https://outerworlds.obsidian.net/en
-    - company: The Persistence
-      company_logo: /images/uploads/the-persistence_gamelogo.png
-      company_url: https://firesprite.com/
   clients_featured:
     - company: 505 Games
       company_logo: /images/uploads/505_games_logo.svg
