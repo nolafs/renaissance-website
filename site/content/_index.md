@@ -94,6 +94,9 @@ clients:
     - company: Leonardo Interactive
       company_url: https://leonardointeractive.com/
       company_logo: /images/uploads/logo_leonardo_interacative_rgb-600-1.png
+    - company: "Koei Tecmo "
+      company_url: https://www.koeitecmoeurope.com/
+      company_logo: /images/uploads/1200px-koei_tecmo_holdings_logo_20090401.svg.png
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
