@@ -54,9 +54,6 @@ clients:
     - company: kerbal 2
       company_logo: /images/uploads/download.png
       company_url: https://www.kerbalspaceprogram.com/game/kerbal-space-program-2/
-    - company: Peaky Blinders Mastermind
-      company_logo: /images/uploads/peaky2.jpg
-      company_url: https://store.steampowered.com/app/1013310/Peaky_Blinders_Mastermind/
     - company: The Ascent
       company_logo: /images/uploads/ascent.jpg
       company_url: https://store.steampowered.com/app/979690/The_Ascent/
