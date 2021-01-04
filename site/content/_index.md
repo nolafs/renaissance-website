@@ -64,6 +64,9 @@ clients:
       company_logo: /images/uploads/outerworlds-logo.png
       company_url: https://outerworlds.obsidian.net/en
   clients_featured:
+    - company: 3D Clouds
+      company_url: https://www.3dclouds.it/
+      company_logo: /images/uploads/3dc.png
     - company: 505 Games
       company_logo: /images/uploads/505_games_logo.svg
       company_url: https://505games.com/
@@ -76,9 +79,6 @@ clients:
     - company: Private Division
       company_logo: /images/uploads/client-privatedivision.jpg
       company_url: https://www.privatedivision.com/
-    - company: 3D Clouds
-      company_url: https://www.3dclouds.it/
-      company_logo: /images/uploads/3dc.png
     - company: NetEase
       company_logo: /images/uploads/netease2.png
       company_url: https://www.neteasegames.com/
