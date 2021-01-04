@@ -100,6 +100,9 @@ clients:
     - company: Payload Studios
       company_url: https://payloadstudios.com/
       company_logo: /images/uploads/payloadlogo_badge_no_gradient-scaled.png
+    - company: SNK
+      company_url: https://www.snk-corp.co.jp/us/
+      company_logo: /images/uploads/snk_logo.svg.png
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
