@@ -91,6 +91,9 @@ clients:
     - company: Sharkmob
       company_url: https://www.sharkmob.com/
       company_logo: /images/uploads/sharkmob-cmyk-neg-transparent.webp
+    - company: Leonardo Interactive
+      company_url: https://leonardointeractive.com/
+      company_logo: /images/uploads/logo_leonardo_interacative_rgb-600-1.png
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
