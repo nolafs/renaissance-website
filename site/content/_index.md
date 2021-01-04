@@ -70,33 +70,18 @@ clients:
     - company: Curve Digital
       company_logo: /images/uploads/client-curvedigital.jpg
       company_url: http://www.curve-digital.com/
-    - company: Green Man Gaming
-      company_logo: /images/uploads/green_man_gaming_logo.svg.png
-      company_url: https://www.greenmangaming.com/
     - company: IIDEA
       company_logo: /images/uploads/logo-iidea-4c-2020.jpg
       company_url: https://en.iideassociation.com/
     - company: Private Division
       company_logo: /images/uploads/client-privatedivision.jpg
       company_url: https://www.privatedivision.com/
-    - company: Raiser Games
-      company_logo: /images/uploads/logo-raiser-games.png
-      company_url: https://www.raisergames.com/
-    - company: Red Kite Games
-      company_logo: /images/uploads/client-redkite.jpg
-      company_url: https://redkitegames.co.uk/
-    - company: Glitchers
-      company_logo: /images/uploads/glitchers_0.jpg
-      company_url: https://glitchers.com/
     - company: 3D Clouds
       company_url: https://www.3dclouds.it/
       company_logo: /images/uploads/3dc.png
     - company: NetEase
       company_logo: /images/uploads/netease2.png
       company_url: https://www.neteasegames.com/
-    - company: Awe Interactive
-      company_logo: /images/uploads/awe-logo-fullcolour-rgb.png
-      company_url: https://www.aweinteractive.com/
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
