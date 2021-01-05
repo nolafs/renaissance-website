@@ -125,6 +125,9 @@ clients:
     - company: Wild River
       company_logo: /images/uploads/client-wildriver.jpg
       company_url: https://wildriver.games/en/home
+    - company: Sharkmob
+      company_url: https://www.sharkmob.com/
+      company_logo: /images/uploads/sharkmobtest.png
   heading: " "
   text: " "
 ---
