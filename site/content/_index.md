@@ -54,9 +54,15 @@ clients:
     - company: Embr
       company_logo: /images/uploads/embr.jpg
       company_url: https://store.steampowered.com/app/1062830/Embr/
+    - company: King of Seas
+      company_url: https://store.steampowered.com/app/1209410/King_of_Seas/
+      company_logo: /images/uploads/kings-of-sea.jpg
     - company: kerbal 2
       company_logo: /images/uploads/download.png
       company_url: https://www.kerbalspaceprogram.com/game/kerbal-space-program-2/
+    - company: Nioh 2
+      company_url: https://store.steampowered.com/app/1325200/Nioh_2__The_Complete_Edition/
+      company_logo: /images/uploads/nioh2.jpg
     - company: The Ascent
       company_logo: /images/uploads/ascent.jpg
       company_url: https://store.steampowered.com/app/979690/The_Ascent/
