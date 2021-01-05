@@ -122,6 +122,9 @@ clients:
     - company: Wild River
       company_logo: /images/uploads/client-wildriver.jpg
       company_url: https://wildriver.games/en/home
+    - company: Payload Studios
+      company_url: https://payloadstudios.com/
+      company_logo: /images/uploads/payloadlogo_badge_no_gradient-scaled.png
   heading: " "
   text: " "
 ---
