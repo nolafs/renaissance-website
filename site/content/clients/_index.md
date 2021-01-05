@@ -104,6 +104,9 @@ clients:
     - company: Slitherine
       company_logo: /images/uploads/client-slitherine.jpg
       company_url: https://www.slitherine.com/
+    - company: SNK
+      company_url: https://www.snk-corp.co.jp/us/
+      company_logo: /images/uploads/snkwebsite.png
     - company: Square Enix Collective
       company_logo: /images/uploads/client-squareenixcollective.jpg
       company_url: https://collective.square-enix.com/
