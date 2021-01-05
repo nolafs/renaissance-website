@@ -90,13 +90,13 @@ clients:
       company_url: https://www.privatedivision.com/
     - company: Sharkmob
       company_url: https://www.sharkmob.com/
-      company_logo: /images/uploads/sharkmob-cmyk-neg-transparent.webp
+      company_logo: /images/uploads/sharkmob-nero.png
     - company: SNK
       company_url: https://www.snk-corp.co.jp/us/
       company_logo: /images/uploads/snk_logo.svg.png
     - company: Stormind Games
       company_url: https://www.stormindgames.com/
-      company_logo: /images/uploads/stormind-games-logo-mobile.png
+      company_logo: /images/uploads/stormind_games_official_logo.png
     - company: Wired Productions
       company_url: https://www.wiredproductions.com/collections/martha-is-dead
       company_logo: /images/uploads/client-wired.jpg
