@@ -59,6 +59,9 @@ clients:
     - company: Netease
       company_url: https://www.neteasegames.com/
       company_logo: /images/uploads/untitled.png
+    - company: Payload Studios
+      company_url: https://payloadstudios.com/
+      company_logo: /images/uploads/payloadlogo_badge_no_gradient-scaled.png
     - company: Pixyul
       company_logo: /images/uploads/client-pixyul.jpg
       company_url: http://pixyul.com/
@@ -122,9 +125,6 @@ clients:
     - company: Wild River
       company_logo: /images/uploads/client-wildriver.jpg
       company_url: https://wildriver.games/en/home
-    - company: Payload Studios
-      company_url: https://payloadstudios.com/
-      company_logo: /images/uploads/payloadlogo_badge_no_gradient-scaled.png
   heading: " "
   text: " "
 ---
