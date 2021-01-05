@@ -63,7 +63,7 @@ clients:
   clients_featured:
     - company: 3D Clouds
       company_url: https://www.3dclouds.it/
-      company_logo: /images/uploads/3dc.png
+      company_logo: /images/uploads/3dcloudslogo.png
     - company: 505 Games
       company_logo: /images/uploads/505_games_logo.svg
       company_url: https://505games.com/
