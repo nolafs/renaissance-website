@@ -9,7 +9,7 @@ clients:
       company_url: https://505games.com/
       company_logo: /images/uploads/505_games_logo.svg
     - company: Aesvi
-      company_logo: /images/uploads/client-aesvi.jpg
+      company_logo: /images/uploads/iideaweb.png
       company_url: http://www.aesvi.it
     - company: Awe Interactive
       company_url: https://www.aweinteractive.com/
