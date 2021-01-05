@@ -58,7 +58,7 @@ clients:
       company_url: https://mixedbag.it/
     - company: Netease
       company_url: https://www.neteasegames.com/
-      company_logo: /images/uploads/netease2.png
+      company_logo: /images/uploads/untitled.png
     - company: Pixyul
       company_logo: /images/uploads/client-pixyul.jpg
       company_url: http://pixyul.com/
