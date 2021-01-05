@@ -76,7 +76,7 @@
     "cookieconsent": "3",
     "custom-event-polyfill": "^1.0.7",
     "imagemin-mozjpeg": "^8.0.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jquery-validation": "^1.17.0",
     "netlify-cms": "^2.10.48",
     "netlify-cms-app": "^2.12.12",
