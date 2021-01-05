@@ -41,6 +41,9 @@ clients:
     - company: Koch Media
       company_logo: /images/uploads/client-kochmedia.jpg
       company_url: https://www.kochmedia.com/en/
+    - company: Koei Tecmo
+      company_url: https://www.koeitecmoeurope.com/
+      company_logo: /images/uploads/1200px-koei_tecmo_holdings_logo_20090401.svg.png
     - company: LKA
       company_logo: /images/uploads/client-lka.jpg
       company_url: http://lka.it/
