@@ -65,7 +65,7 @@ clients:
       company_url: https://www.3dclouds.it/
       company_logo: /images/uploads/3dcloudslogo.png
     - company: 505 Games
-      company_logo: /images/uploads/505_games_logo.svg
+      company_logo: /images/uploads/505-games-squarelogo-1497955311797.png
       company_url: https://505games.com/
     - company: Curve Digital
       company_logo: /images/uploads/client-curvedigital.jpg
