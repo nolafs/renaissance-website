@@ -8,9 +8,6 @@ clients:
     - company: "505"
       company_url: https://505games.com/
       company_logo: /images/uploads/505_games_logo.svg
-    - company: Aesvi
-      company_logo: /images/uploads/iideaweb.png
-      company_url: http://www.aesvi.it
     - company: Awe Interactive
       company_url: https://www.aweinteractive.com/
       company_logo: /images/uploads/awe.png
@@ -38,6 +35,9 @@ clients:
     - company: Green Man Gaming
       company_logo: /images/uploads/client-greenman.jpg
       company_url: https://www.greenmangaming.com/
+    - company: IIDEA
+      company_logo: /images/uploads/iideaweb.png
+      company_url: http://www.aesvi.it
     - company: Koch Media
       company_logo: /images/uploads/client-kochmedia.jpg
       company_url: https://www.kochmedia.com/en/
