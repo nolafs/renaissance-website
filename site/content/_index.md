@@ -78,7 +78,7 @@ clients:
       company_logo: /images/uploads/1200px-koei_tecmo_holdings_logo_20090401.svg.png
     - company: Leonardo Interactive
       company_url: https://leonardointeractive.com/
-      company_logo: /images/uploads/logo_leonardo_interacative_rgb-600-1.png
+      company_logo: /images/uploads/logo-leo.jpg
     - company: NetEase
       company_logo: /images/uploads/netease2.png
       company_url: https://www.neteasegames.com/
