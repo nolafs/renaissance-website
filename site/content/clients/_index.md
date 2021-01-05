@@ -119,6 +119,9 @@ clients:
     - company: Wild River
       company_logo: /images/uploads/client-wildriver.jpg
       company_url: https://wildriver.games/en/home
+    - company: Leonardo Interactive
+      company_url: https://leonardointeractive.com/
+      company_logo: /images/uploads/logo-leo.jpg
   heading: " "
   text: " "
 ---
