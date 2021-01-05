@@ -93,7 +93,7 @@ clients:
       company_logo: /images/uploads/sharkmobtest.png
     - company: SNK
       company_url: https://www.snk-corp.co.jp/us/
-      company_logo: /images/uploads/snk_logo.svg.png
+      company_logo: /images/uploads/snkwebsite.png
     - company: Stormind Games
       company_url: https://www.stormindgames.com/
       company_logo: /images/uploads/stormind_games_official_logo.png
