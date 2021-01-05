@@ -90,7 +90,7 @@ clients:
       company_url: https://www.privatedivision.com/
     - company: Sharkmob
       company_url: https://www.sharkmob.com/
-      company_logo: /images/uploads/sharkmob-nero.png
+      company_logo: /images/uploads/sharkmobtest.png
     - company: SNK
       company_url: https://www.snk-corp.co.jp/us/
       company_logo: /images/uploads/snk_logo.svg.png
