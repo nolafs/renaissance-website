@@ -48,6 +48,9 @@ clients:
     - company: Drift21
       company_logo: /images/uploads/drift21logo.png
       company_url: https://store.steampowered.com/app/520950/DRIFT21/
+    - company: Dry Drowning
+      company_url: https://leonardointeractive.com/game/dry-drowning/
+      company_logo: /images/uploads/drydrowning.jpg
     - company: Embr
       company_logo: /images/uploads/embr.jpg
       company_url: https://store.steampowered.com/app/1062830/Embr/
