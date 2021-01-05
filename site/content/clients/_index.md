@@ -113,6 +113,9 @@ clients:
     - company: Storm in a Teacup
       company_logo: /images/uploads/client-storminateacup.jpg
       company_url: http://www.stcware.com/
+    - company: Stormind Games
+      company_url: https://www.stormindgames.com/
+      company_logo: /images/uploads/stormind_games_official_logo.png
     - company: Team 17
       company_logo: /images/uploads/client-team17.jpg
       company_url: https://www.team17.com/
