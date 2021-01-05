@@ -13,7 +13,7 @@ clients:
       company_url: http://www.aesvi.it
     - company: Awe Interactive
       company_url: https://www.aweinteractive.com/
-      company_logo: /images/uploads/awe-logo-fullcolour-rgb.png
+      company_logo: /images/uploads/awe.png
     - company: Billy Goat Entertainment
       company_logo: /images/uploads/client-billygoat.jpg
       company_url: https://www.billygoat.tv/
