@@ -95,12 +95,15 @@ clients:
     - company: Science and Media Museum
       company_logo: /images/uploads/client-scienceandmmedia.jpg
       company_url: https://www.scienceandmediamuseum.org.uk/
-    - company: Slitherine
-      company_logo: /images/uploads/client-slitherine.jpg
-      company_url: https://www.slitherine.com/
+    - company: Sharkmob
+      company_url: https://www.sharkmob.com/
+      company_logo: /images/uploads/sharkmobtest.png
     - company: Skybound Games
       company_logo: /images/uploads/client-skyboundgames.jpg
       company_url: https://www.skybound.com
+    - company: Slitherine
+      company_logo: /images/uploads/client-slitherine.jpg
+      company_url: https://www.slitherine.com/
     - company: Square Enix Collective
       company_logo: /images/uploads/client-squareenixcollective.jpg
       company_url: https://collective.square-enix.com/
@@ -125,9 +128,6 @@ clients:
     - company: Wild River
       company_logo: /images/uploads/client-wildriver.jpg
       company_url: https://wildriver.games/en/home
-    - company: Sharkmob
-      company_url: https://www.sharkmob.com/
-      company_logo: /images/uploads/sharkmobtest.png
   heading: " "
   text: " "
 ---
