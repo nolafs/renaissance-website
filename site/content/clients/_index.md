@@ -7,7 +7,7 @@ clients:
       company_logo: /images/uploads/3dcloudslogo.png
     - company: "505"
       company_url: https://505games.com/
-      company_logo: /images/uploads/505_games_logo.svg
+      company_logo: /images/uploads/505-games-squarelogo-1497955311797.png
     - company: Awe Interactive
       company_url: https://www.aweinteractive.com/
       company_logo: /images/uploads/awe.png
