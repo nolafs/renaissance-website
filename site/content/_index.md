@@ -80,7 +80,7 @@ clients:
       company_url: https://leonardointeractive.com/
       company_logo: /images/uploads/logo-leo.jpg
     - company: NetEase
-      company_logo: /images/uploads/netease2.png
+      company_logo: /images/uploads/untitled.png
       company_url: https://www.neteasegames.com/
     - company: Payload Studios
       company_url: https://payloadstudios.com/
