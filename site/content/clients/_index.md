@@ -44,6 +44,9 @@ clients:
     - company: Koei Tecmo
       company_url: https://www.koeitecmoeurope.com/
       company_logo: /images/uploads/1200px-koei_tecmo_holdings_logo_20090401.svg.png
+    - company: Leonardo Interactive
+      company_url: https://leonardointeractive.com/
+      company_logo: /images/uploads/logo-leo.jpg
     - company: LKA
       company_logo: /images/uploads/client-lka.jpg
       company_url: http://lka.it/
@@ -119,9 +122,6 @@ clients:
     - company: Wild River
       company_logo: /images/uploads/client-wildriver.jpg
       company_url: https://wildriver.games/en/home
-    - company: Leonardo Interactive
-      company_url: https://leonardointeractive.com/
-      company_logo: /images/uploads/logo-leo.jpg
   heading: " "
   text: " "
 ---
