@@ -71,7 +71,7 @@ clients:
       company_logo: /images/uploads/client-curvedigital.jpg
       company_url: http://www.curve-digital.com/
     - company: IIDEA
-      company_logo: /images/uploads/logo-iidea-4c-2020.jpg
+      company_logo: /images/uploads/iideaweb.png
       company_url: https://en.iideassociation.com/
     - company: "Koei Tecmo "
       company_url: https://www.koeitecmoeurope.com/
