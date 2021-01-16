@@ -60,6 +60,9 @@ clients:
     - company: kerbal 2
       company_logo: /images/uploads/download.png
       company_url: https://www.kerbalspaceprogram.com/game/kerbal-space-program-2/
+    - company: Martha is Dead
+      company_url: https://store.steampowered.com/app/515960/Martha_Is_Dead/
+      company_logo: /images/uploads/martha.jpg
     - company: Nioh 2
       company_url: https://store.steampowered.com/app/1325200/Nioh_2__The_Complete_Edition/
       company_logo: /images/uploads/nioh2.jpg
@@ -69,9 +72,6 @@ clients:
     - company: The Outer Worlds
       company_logo: /images/uploads/outerworlds-logo.png
       company_url: https://outerworlds.obsidian.net/en
-    - company: Martha is Dead
-      company_url: https://store.steampowered.com/app/515960/Martha_Is_Dead/
-      company_logo: /images/uploads/martha.jpg
   clients_featured:
     - company: 3D Clouds
       company_url: https://www.3dclouds.it/
