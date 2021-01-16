@@ -69,6 +69,9 @@ clients:
     - company: The Outer Worlds
       company_logo: /images/uploads/outerworlds-logo.png
       company_url: https://outerworlds.obsidian.net/en
+    - company: Martha is Dead
+      company_url: https://store.steampowered.com/app/515960/Martha_Is_Dead/
+      company_logo: /images/uploads/martha.jpg
   clients_featured:
     - company: 3D Clouds
       company_url: https://www.3dclouds.it/
