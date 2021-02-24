@@ -106,12 +106,12 @@ clients:
     - company: Stormind Games
       company_url: https://www.stormindgames.com/
       company_logo: /images/uploads/stormind_games_official_logo.png
-    - company: Wired Productions
-      company_url: https://www.wiredproductions.com/collections/martha-is-dead
-      company_logo: /images/uploads/client-wired.jpg
     - company_logo: /images/uploads/team17®_horiz_black_keyline_rgb_preview.png
       company: Team17
       company_url: https://www.team17.com/
+    - company: Wired Productions
+      company_url: https://www.wiredproductions.com/collections/martha-is-dead
+      company_logo: /images/uploads/client-wired.jpg
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
