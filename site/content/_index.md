@@ -94,9 +94,6 @@ clients:
     - company: NetEase
       company_logo: /images/uploads/untitled.png
       company_url: https://www.neteasegames.com/
-    - company: Payload Studios
-      company_url: https://payloadstudios.com/
-      company_logo: /images/uploads/payloadlogo_badge_no_gradient-scaled.png
     - company: Private Division
       company_logo: /images/uploads/client-privatedivision.jpg
       company_url: https://www.privatedivision.com/
@@ -112,6 +109,9 @@ clients:
     - company: Wired Productions
       company_url: https://www.wiredproductions.com/collections/martha-is-dead
       company_logo: /images/uploads/client-wired.jpg
+    - company_logo: /images/uploads/team17®_horiz_black_keyline_rgb_preview.png
+      company: Team17
+      company_url: https://www.team17.com/
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
