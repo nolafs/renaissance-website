@@ -94,6 +94,9 @@ clients:
     - company: NetEase
       company_logo: /images/uploads/untitled.png
       company_url: https://www.neteasegames.com/
+    - company: Playtonic
+      company_url: https://www.playtonicgames.com/
+      company_logo: /images/uploads/playtonic.png
     - company: Private Division
       company_logo: /images/uploads/client-privatedivision.jpg
       company_url: https://www.privatedivision.com/
