@@ -91,6 +91,9 @@ clients:
     - company: Leonardo Interactive
       company_url: https://leonardointeractive.com/
       company_logo: /images/uploads/logo-leo.jpg
+    - company: MYGAMES
+      company_url: https://my.games/en
+      company_logo: /images/uploads/my.games-store.png
     - company: NetEase
       company_logo: /images/uploads/untitled.png
       company_url: https://www.neteasegames.com/
