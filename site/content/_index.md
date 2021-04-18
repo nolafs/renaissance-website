@@ -112,6 +112,9 @@ clients:
     - company: Wired Productions
       company_url: https://www.wiredproductions.com/collections/martha-is-dead
       company_logo: /images/uploads/client-wired.jpg
+    - company: Raiser Games
+      company_url: https://www.raisergames.com/
+      company_logo: /images/uploads/logo-raiser-games.png
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
