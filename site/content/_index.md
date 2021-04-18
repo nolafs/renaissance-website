@@ -72,12 +72,12 @@ clients:
     - company: Nioh 2
       company_url: https://store.steampowered.com/app/1325200/Nioh_2__The_Complete_Edition/
       company_logo: /images/uploads/nioh2.jpg
-    - company: The Ascent
-      company_logo: /images/uploads/ascent.jpg
-      company_url: https://store.steampowered.com/app/979690/The_Ascent/
     - company: Sky
       company_url: https://thatgamecompany.com/sky/
       company_logo: /images/uploads/sky.png
+    - company: The Ascent
+      company_logo: /images/uploads/ascent.jpg
+      company_url: https://store.steampowered.com/app/979690/The_Ascent/
   clients_featured:
     - company: 3D Clouds
       company_url: https://www.3dclouds.it/
