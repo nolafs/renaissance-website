@@ -120,7 +120,7 @@ clients:
       company_logo: /images/uploads/client-wired.jpg
     - company: ThatGameCompany
       company_url: https://thatgamecompany.com/
-      company_logo: /images/uploads/tgc.png
+      company_logo: /images/uploads/thatgamcompany2.png
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
