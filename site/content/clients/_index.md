@@ -59,6 +59,9 @@ clients:
     - company: Netease
       company_url: https://www.neteasegames.com/
       company_logo: /images/uploads/untitled.png
+    - company: Nighthawk Interactive
+      company_url: https://www.nighthawkinteractive.com/
+      company_logo: /images/uploads/nighthawk.png
     - company: Payload Studios
       company_url: https://payloadstudios.com/
       company_logo: /images/uploads/payloadlogo_badge_no_gradient-scaled.png
