@@ -66,6 +66,9 @@ clients:
     - company: The Ascent
       company_logo: /images/uploads/ascent.jpg
       company_url: https://store.steampowered.com/app/979690/The_Ascent/
+    - company: Sky
+      company_url: https://thatgamecompany.com/sky/
+      company_logo: /images/uploads/sky.png
   clients_featured:
     - company: 3D Clouds
       company_url: https://www.3dclouds.it/
