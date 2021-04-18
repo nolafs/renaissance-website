@@ -45,6 +45,9 @@ services:
     It’s not about aimlessly shouting about your game to anyone willing to lend their ear: We’re here to take your creativity and make sure right people hears about it in the right way, at the right time, in the right place
 clients:
   clients:
+    - company: "Batora "
+      company_url: https://store.steampowered.com/app/1506440/Batora_Lost_Haven/
+      company_logo: /images/uploads/batora.jpg
     - company: Drift21
       company_logo: /images/uploads/drift21logo.png
       company_url: https://store.steampowered.com/app/520950/DRIFT21/
