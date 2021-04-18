@@ -57,9 +57,6 @@ clients:
     - company: King of Seas
       company_url: https://store.steampowered.com/app/1209410/King_of_Seas/
       company_logo: /images/uploads/kings-of-sea.jpg
-    - company: kerbal 2
-      company_logo: /images/uploads/download.png
-      company_url: https://www.kerbalspaceprogram.com/game/kerbal-space-program-2/
     - company: Martha is Dead
       company_url: https://store.steampowered.com/app/515960/Martha_Is_Dead/
       company_logo: /images/uploads/martha.jpg
@@ -69,9 +66,6 @@ clients:
     - company: The Ascent
       company_logo: /images/uploads/ascent.jpg
       company_url: https://store.steampowered.com/app/979690/The_Ascent/
-    - company: The Outer Worlds
-      company_logo: /images/uploads/outerworlds-logo.png
-      company_url: https://outerworlds.obsidian.net/en
   clients_featured:
     - company: 3D Clouds
       company_url: https://www.3dclouds.it/
