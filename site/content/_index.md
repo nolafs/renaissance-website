@@ -82,6 +82,9 @@ clients:
     - company: Curve Digital
       company_logo: /images/uploads/client-curvedigital.jpg
       company_url: http://www.curve-digital.com/
+    - company: Daedalic
+      company_logo: /images/uploads/client-daedelic.jpg
+      company_url: https://www.daedalic.com/
     - company: IIDEA
       company_logo: /images/uploads/iideaweb.png
       company_url: https://en.iideassociation.com/
@@ -100,9 +103,6 @@ clients:
     - company: Playtonic
       company_url: https://www.playtonicgames.com/
       company_logo: /images/uploads/playtonic.png
-    - company: Private Division
-      company_logo: /images/uploads/client-privatedivision.jpg
-      company_url: https://www.privatedivision.com/
     - company: Sharkmob
       company_url: https://www.sharkmob.com/
       company_logo: /images/uploads/sharkmobtest.png
