@@ -134,6 +134,9 @@ clients:
     - company: Wild River
       company_logo: /images/uploads/client-wildriver.jpg
       company_url: https://wildriver.games/en/home
+    - company: ThatGameCompany
+      company_url: https://thatgamecompany.com/
+      company_logo: /images/uploads/thatgamcompany2.png
   heading: " "
   text: " "
 ---
