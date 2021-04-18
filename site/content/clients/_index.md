@@ -116,15 +116,15 @@ clients:
     - company: Stormind Games
       company_url: https://www.stormindgames.com/
       company_logo: /images/uploads/stormind_games_official_logo.png
-    - company: ThatGameCompany
-      company_url: https://thatgamecompany.com/
-      company_logo: /images/uploads/thatgamcompany2.png
     - company: Team 17
       company_logo: /images/uploads/client-team17.jpg
       company_url: https://www.team17.com/
     - company: Tencent Games
       company_logo: /images/uploads/client-tencentgames.jpg
       company_url: https://careers.tencent.com/en-us/home.html
+    - company: ThatGameCompany
+      company_url: https://thatgamecompany.com/
+      company_logo: /images/uploads/thatgamcompany2.png
     - company: Thumb Food
       company_logo: /images/uploads/client-thumbfood.jpg
       company_url: https://www.thumbfood.com/
