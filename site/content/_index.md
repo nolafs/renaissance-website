@@ -54,9 +54,18 @@ clients:
     - company: Embr
       company_logo: /images/uploads/embr.jpg
       company_url: https://store.steampowered.com/app/1062830/Embr/
+    - company: Glitchpunk
+      company_url: https://store.steampowered.com/app/1459960/Glitchpunk/
+      company_logo: /images/uploads/glitchpunk.jpg
+    - company: Inkulinati
+      company_url: https://store.steampowered.com/app/957960/Inkulinati/
+      company_logo: /images/uploads/inkulinati.jpg
     - company: King of Seas
       company_url: https://store.steampowered.com/app/1209410/King_of_Seas/
       company_logo: /images/uploads/kings-of-sea.jpg
+    - company: Lords of The Rings
+      company_url: https://store.steampowered.com/app/1265780/The_Lord_of_the_Rings_Gollum/
+      company_logo: /images/uploads/gollum.jpg
     - company: Martha is Dead
       company_url: https://store.steampowered.com/app/515960/Martha_Is_Dead/
       company_logo: /images/uploads/martha.jpg
