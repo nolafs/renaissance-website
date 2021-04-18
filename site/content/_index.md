@@ -60,6 +60,9 @@ clients:
     - company: Inkulinati
       company_url: https://store.steampowered.com/app/957960/Inkulinati/
       company_logo: /images/uploads/inkulinati.jpg
+    - company: King of Fighetrs XV
+      company_url: https://www.snk-corp.co.jp/us/games/kof-xv/
+      company_logo: /images/uploads/the_king_of_fighters_-28kof-29_xv.jpg
     - company: King of Seas
       company_url: https://store.steampowered.com/app/1209410/King_of_Seas/
       company_logo: /images/uploads/kings-of-sea.jpg
