@@ -97,6 +97,9 @@ clients:
     - company: NetEase
       company_logo: /images/uploads/untitled.png
       company_url: https://www.neteasegames.com/
+    - company: Nighhawk Interactive
+      company_url: https://www.nighthawkinteractive.com/
+      company_logo: /images/uploads/nighthawk.png
     - company: Playtonic
       company_url: https://www.playtonicgames.com/
       company_logo: /images/uploads/playtonic.png
@@ -112,15 +115,15 @@ clients:
     - company: Stormind Games
       company_url: https://www.stormindgames.com/
       company_logo: /images/uploads/stormind_games_official_logo.png
+    - company: ThatGameCompany
+      company_url: https://thatgamecompany.com/
+      company_logo: /images/uploads/thatgamcompany2.png
     - company_logo: /images/uploads/team17®_horiz_black_keyline_rgb_preview.png
       company: Team17
       company_url: https://www.team17.com/
     - company: Wired Productions
       company_url: https://www.wiredproductions.com/collections/martha-is-dead
       company_logo: /images/uploads/client-wired.jpg
-    - company: ThatGameCompany
-      company_url: https://thatgamecompany.com/
-      company_logo: /images/uploads/thatgamcompany2.png
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
