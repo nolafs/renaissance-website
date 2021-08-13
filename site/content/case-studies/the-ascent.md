@@ -5,7 +5,7 @@ categories: worldwide-campaigns
 image: /images/uploads/ascendiamo.png
 testimonial: Stuart Dinsey
 client: Curve Digital
-description: >+
+description: >
   The Neon Giant debut game on next gen sees Renaissance solely orchestrating
   the biggest global PR, Community and Content Creator campaign ever for Curve.
 
