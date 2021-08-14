@@ -16,8 +16,8 @@
     </div>
     <div class="grid-container">
         <div id="list-grid" class="list grid-x grid-padding-x grid-margin-y small-up-1 medium-up-2 large-up-3" data-filter="all">
-            {{ $paginator := .Paginate (where .Pages.ByDate.Reverse "Type" "case-studies") }}
-            {{ range $index, $content := $paginator.Pages }}
+            {{ $paginator :=  (where .Pages.ByDate.Reverse "Type" "case-studies") }}
+            {{ range $index, $content := $paginator }}
             {{ $filter := .Params.categories}}
             {{$cat := replace .Params.categories " " "-"}}
             <div class="item cell item-{{$index}} {{if eq $index  0 }}expand{{end}}" data-groups='["{{lower $cat}}"]' data-date-created="{{ $content.Date.Format "2006-01-02" }}" onclick="window.location='{{ .RelPermalink }}';">

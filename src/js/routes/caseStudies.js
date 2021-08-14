@@ -37,7 +37,7 @@ export default {
             by: 'data-date-created',
         };
 
-        setTimeout(() => {
+
 
             const shuffle = new Shuffle(document.querySelector('.list'), {
                 itemSelector: '.item',
@@ -71,10 +71,13 @@ export default {
                 }
             })
 
-            shuffle.update();
 
+        setTimeout(() => {
+            this.shuffle.sort(sortOption);
+            this.shuffle.update();
+            $(window).resize();
+        }, 500);
 
-        }, 100);
 
         const controller = new ScrollMagic.Controller();
         const blocks =['#block-studies',  '#block-contact'];

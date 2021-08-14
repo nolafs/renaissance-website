@@ -1,12 +1,9 @@
 backend:
   name: git-gateway
-  accept_roles: #optional - accepts all users if left out
-    - admin
-    - editor
 media_folder: "site/static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 # publish_mode: editorial_workflow
-site_url: https://epic-poitras-ef2b6a.netlify.com
+site_url: https://renaissancepr.co.uk
 
 collections:
   - name: "case-studies" # Used in routes, ie.: /admin/collections/:slug/edit
