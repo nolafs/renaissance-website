@@ -44,7 +44,6 @@ export default {
             buffer: 0
         });
 
-
         if (!hash || hash !== 'all') {
             this.shuffle.filter(hash)
         }
