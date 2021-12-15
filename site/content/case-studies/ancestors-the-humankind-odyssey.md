@@ -4,7 +4,7 @@ date: 2019-10-28T10:53:37.059Z
 categories: uk-campaigns
 image: /images/uploads/case-ancestors-header.jpg
 client: Private Division
-description: >-
+description: >
   Front Cover on Wireframe from the new game from the creator of Assassin's
   Creed Patrice Desilets. 
 

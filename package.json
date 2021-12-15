@@ -84,7 +84,7 @@
     "react-dom": "^16.10.1",
     "scrollmagic": "^2.0.7",
     "scrollmagic-plugin-gsap": "gpitot/scrollmagic-plugin-gsap",
-    "shufflejs": "^5.2.3",
+    "shufflejs": "^5.4.1",
     "slate-edit-list": "^0.12.1",
     "slick-carousel": "^1.8.1",
     "to-string-loader": "^1.1.5",
