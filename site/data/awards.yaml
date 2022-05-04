@@ -1,9 +1,8 @@
 heading: Awards
-body: >-
-  Renaissance has been proud to be finalist at every MCV Awards since 2015 as
-  Best PR Agency. In 2019, Renaissance was named as MCV’s Boutique PR Agency of
-  the Year, the first time this category has been included in the annual awards
-  to go back as 2020 finalist as PR Agency of the year.
+body: Renaissance has been proud to be finalist at every MCV Awards since 2015
+  as Best PR Agency. In 2019, Renaissance was named as MCV’s Boutique PR Agency
+  of the Year, the first time this category has been included in the annual
+  awards to go back as 2020 finalist as PR Agency of the year.
 awards:
   - image: /images/uploads/awards-mcv16.jpg
     title: MCV Awards Finalist 2016
@@ -17,3 +16,5 @@ awards:
     title: MCV Awards Finalist 2020
   - image: /images/uploads/awards-worldrecord.jpg
     title: Guinness World Record Holder
+  - title: MCV Awards Winner 2022
+    image: /images/uploads/mcv-awards-2022-winner-logo-ol.png
