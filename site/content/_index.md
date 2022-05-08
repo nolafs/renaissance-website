@@ -51,6 +51,9 @@ clients:
     - company: Godlike Burgher
       company_logo: /images/uploads/godlike.png
       company_url: https://store.steampowered.com/app/1432910/Godlike_Burger/
+    - company: Insormountable
+      company_url: https://store.steampowered.com/app/1385100/Insurmountable/
+      company_logo: /images/uploads/insorm.png
     - company: King of Fighetrs XV
       company_url: https://www.snk-corp.co.jp/us/games/kof-xv/
       company_logo: /images/uploads/the_king_of_fighters_-28kof-29_xv.jpg
@@ -66,6 +69,9 @@ clients:
     - company: WARPIPS
       company_url: https://store.steampowered.com/app/1291010/Warpips/
       company_logo: /images/uploads/warpipis.png
+    - company: Wildcat
+      company_url: https://store.steampowered.com/app/1288610/Wildcat_Gun_Machine/
+      company_logo: /images/uploads/wild.png
   clients_featured:
     - company: 505 Games
       company_logo: /images/uploads/505-games-squarelogo-1497955311797.png
