@@ -127,6 +127,9 @@ clients:
     - company: Tate Multimedia
       company_url: https://www.tatemultimedia.com/en/home/
       company_logo: /images/uploads/tate.png
+    - company: Tencent Games
+      company_url: https://www.tencent.com/en-us/
+      company_logo: /images/uploads/tencent-games.png
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
