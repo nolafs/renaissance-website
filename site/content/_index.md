@@ -100,6 +100,9 @@ clients:
     - company: Jack Box Games
       company_logo: /images/uploads/jackbox.png
       company_url: https://www.jackboxgames.com/
+    - company: Joystick Ventures
+      company_url: https://www.joystickventures.com/
+      company_logo: /images/uploads/jvlogo.png
     - company: IIDEA
       company_logo: /images/uploads/iideaweb.png
       company_url: https://en.iideassociation.com/
