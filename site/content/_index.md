@@ -45,42 +45,15 @@ services:
     It’s not about aimlessly shouting about your game to anyone willing to lend their ear: We’re here to take your creativity and make sure right people hears about it in the right way, at the right time, in the right place
 clients:
   clients:
-    - company: "Batora "
-      company_url: https://store.steampowered.com/app/1506440/Batora_Lost_Haven/
-      company_logo: /images/uploads/batora.jpg
-    - company: Drift21
-      company_logo: /images/uploads/drift21logo.png
-      company_url: https://store.steampowered.com/app/520950/DRIFT21/
-    - company: Dry Drowning
-      company_url: https://leonardointeractive.com/game/dry-drowning/
-      company_logo: /images/uploads/drydrowning.jpg
-    - company: Embr
-      company_logo: /images/uploads/embr.jpg
-      company_url: https://store.steampowered.com/app/1062830/Embr/
-    - company: Glitchpunk
-      company_url: https://store.steampowered.com/app/1459960/Glitchpunk/
-      company_logo: /images/uploads/glitchpunk.jpg
-    - company: Inkulinati
-      company_url: https://store.steampowered.com/app/957960/Inkulinati/
-      company_logo: /images/uploads/inkulinati.jpg
     - company: King of Fighetrs XV
       company_url: https://www.snk-corp.co.jp/us/games/kof-xv/
       company_logo: /images/uploads/the_king_of_fighters_-28kof-29_xv.jpg
-    - company: King of Seas
-      company_url: https://store.steampowered.com/app/1209410/King_of_Seas/
-      company_logo: /images/uploads/kings-of-sea.jpg
     - company: Lords of The Rings
       company_url: https://store.steampowered.com/app/1265780/The_Lord_of_the_Rings_Gollum/
       company_logo: /images/uploads/gollum.jpg
     - company: Martha is Dead
       company_url: https://store.steampowered.com/app/515960/Martha_Is_Dead/
       company_logo: /images/uploads/martha.jpg
-    - company: Nioh 2
-      company_url: https://store.steampowered.com/app/1325200/Nioh_2__The_Complete_Edition/
-      company_logo: /images/uploads/nioh2.jpg
-    - company: Sky
-      company_url: https://thatgamecompany.com/sky/
-      company_logo: /images/uploads/sky.png
     - company: The Ascent
       company_logo: /images/uploads/ascent.jpg
       company_url: https://store.steampowered.com/app/979690/The_Ascent/
