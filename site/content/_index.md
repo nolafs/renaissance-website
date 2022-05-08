@@ -48,6 +48,9 @@ clients:
     - company: Autonauts
       company_logo: /images/uploads/18f6865daa5af20b286f204e081b2cfd3adddd8e.png
       company_url: https://store.steampowered.com/app/979120/Autonauts/
+    - company: DUNE
+      company_url: https://store.steampowered.com/app/1605220/Dune_Spice_Wars/
+      company_logo: /images/uploads/dune.png
     - company: Godlike Burgher
       company_logo: /images/uploads/godlike.png
       company_url: https://store.steampowered.com/app/1432910/Godlike_Burger/
@@ -60,6 +63,9 @@ clients:
     - company: Insormountable
       company_url: https://store.steampowered.com/app/1385100/Insurmountable/
       company_logo: /images/uploads/insorm.png
+    - company: KAO
+      company_url: https://store.steampowered.com/app/1370140/Kao_the_Kangaroo/
+      company_logo: /images/uploads/ko.png
     - company: King of Fighetrs XV
       company_url: https://www.snk-corp.co.jp/us/games/kof-xv/
       company_logo: /images/uploads/the_king_of_fighters_-28kof-29_xv.jpg
@@ -75,6 +81,9 @@ clients:
     - company: SCORN
       company_url: https://store.steampowered.com/app/698670/Scorn/
       company_logo: /images/uploads/sc.png
+    - company: sYNC
+      company_url: https://store.steampowered.com/app/1008080/SYNCED_OffPlanet/
+      company_logo: /images/uploads/sy.png
     - company: TCHIA
       company_url: https://store.steampowered.com/app/1496590/Tchia/
       company_logo: /images/uploads/tchia.png
