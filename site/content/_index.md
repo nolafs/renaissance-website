@@ -78,6 +78,9 @@ clients:
     - company: Martha is Dead
       company_url: https://store.steampowered.com/app/515960/Martha_Is_Dead/
       company_logo: /images/uploads/martha.jpg
+    - company: metal hellslinger
+      company_url: https://store.steampowered.com/app/1061910/Metal_Hellsinger/
+      company_logo: /images/uploads/met.png
     - company: SCORN
       company_url: https://store.steampowered.com/app/698670/Scorn/
       company_logo: /images/uploads/sc.png
