@@ -84,6 +84,9 @@ clients:
     - company: Wildcat
       company_url: https://store.steampowered.com/app/1288610/Wildcat_Gun_Machine/
       company_logo: /images/uploads/wild.png
+    - company: SCORN
+      company_url: https://store.steampowered.com/app/698670/Scorn/
+      company_logo: /images/uploads/sc.png
   clients_featured:
     - company: 505 Games
       company_logo: /images/uploads/505-games-squarelogo-1497955311797.png
