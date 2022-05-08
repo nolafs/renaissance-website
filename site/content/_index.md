@@ -51,6 +51,9 @@ clients:
     - company: AVATAR REC
       company_url: https://avatarreckoning.com/
       company_logo: /images/uploads/avat.png
+    - company: Vampire
+      company_url: https://store.steampowered.com/app/760160/Vampire_The_Masquerade__Bloodhunt/
+      company_logo: /images/uploads/vamp.png
     - company: DUNE
       company_url: https://store.steampowered.com/app/1605220/Dune_Spice_Wars/
       company_logo: /images/uploads/dune.png
@@ -99,9 +102,6 @@ clients:
     - company: The Ascent
       company_logo: /images/uploads/ascent.jpg
       company_url: https://store.steampowered.com/app/979690/The_Ascent/
-    - company: Vampire
-      company_url: https://store.steampowered.com/app/760160/Vampire_The_Masquerade__Bloodhunt/
-      company_logo: /images/uploads/vamp.png
     - company: WARPIPS
       company_url: https://store.steampowered.com/app/1291010/Warpips/
       company_logo: /images/uploads/warpipis.png
