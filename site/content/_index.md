@@ -63,6 +63,9 @@ clients:
     - company: The Ascent
       company_logo: /images/uploads/ascent.jpg
       company_url: https://store.steampowered.com/app/979690/The_Ascent/
+    - company: WARPIPS
+      company_url: https://store.steampowered.com/app/1291010/Warpips/
+      company_logo: /images/uploads/warpipis.png
   clients_featured:
     - company: 505 Games
       company_logo: /images/uploads/505-games-squarelogo-1497955311797.png
