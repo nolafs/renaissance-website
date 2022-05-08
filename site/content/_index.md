@@ -102,6 +102,9 @@ clients:
     - company: Wildcat
       company_url: https://store.steampowered.com/app/1288610/Wildcat_Gun_Machine/
       company_logo: /images/uploads/wild.png
+    - company: PUBG MOBILE
+      company_url: https://www.pubgmobile.com/en-US/home.shtml
+      company_logo: /images/uploads/pubg.png
   clients_featured:
     - company: 505 Games
       company_logo: /images/uploads/505-games-squarelogo-1497955311797.png
