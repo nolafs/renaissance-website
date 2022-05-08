@@ -45,6 +45,9 @@ services:
     It’s not about aimlessly shouting about your game to anyone willing to lend their ear: We’re here to take your creativity and make sure right people hears about it in the right way, at the right time, in the right place
 clients:
   clients:
+    - company: Autonauts
+      company_logo: /images/uploads/18f6865daa5af20b286f204e081b2cfd3adddd8e.png
+      company_url: https://store.steampowered.com/app/979120/Autonauts/
     - company: King of Fighetrs XV
       company_url: https://www.snk-corp.co.jp/us/games/kof-xv/
       company_logo: /images/uploads/the_king_of_fighters_-28kof-29_xv.jpg
