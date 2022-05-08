@@ -97,6 +97,9 @@ clients:
     - company: Daedalic
       company_logo: /images/uploads/client-daedelic.jpg
       company_url: https://www.daedalic.com/
+    - company: Jack Box Games
+      company_logo: /images/uploads/jackbox.png
+      company_url: https://www.jackboxgames.com/
     - company: IIDEA
       company_logo: /images/uploads/iideaweb.png
       company_url: https://en.iideassociation.com/
