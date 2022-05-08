@@ -70,6 +70,9 @@ clients:
     - company: Daedalic
       company_logo: /images/uploads/client-daedelic.jpg
       company_url: https://www.daedalic.com/
+    - company: Funcom
+      company_url: www.funcom.com
+      company_logo: /images/uploads/funcom.png
     - company: Jack Box Games
       company_logo: /images/uploads/jackbox.png
       company_url: https://www.jackboxgames.com/
