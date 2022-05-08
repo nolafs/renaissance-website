@@ -24,13 +24,11 @@ description: >
 
   On the content creator side, at launch,  we amassed over 1000 pieces of content in less than 2 weeks with over 15 millions VOD and 1.75 Millions Live views spread toward 57700 hours of broadcast as per 12th of August 2021.
 ---
-**Renaissance was proud to be the sole orchestrator of the biggest global PR, Community and Content Creator campaign in Curve Digital’s history in the form of Neon Giant’s debut game, The Ascent.**
+**Renaissance was proud to be the sole orchestrator of the biggest global PR, Community and Content Creator campaign in Curve Digital’s history in the form of Neon Giant’s debut game, The Ascent which led to Win the BEST CAMPAIGN OF THE YEAR at MCV/DEVELOP Awards 2022**
 
 Working with **Microsoft, Edge Magazine, and IGN,** we created three different forms of tailored content to fit three different channels. It all kicked off with a reveal at Microsoft’s Xbox showcase in May 2020, followed by a First Exclusive gameplay reveal on IGN before peaking with one of the most creative front covers Edge Magazine has published in recent memory.
 
 Approaching E3 2021, the campaign was bolstered by two further exclusive showcases with Microsoft and digital hands on with top tier media, followed by a release date announcement that brought total coverage to over 2,400 articles including 42 previews published by global Tier 1 media globally and one **global Developer Commentary exclusive with IGN**
-
-
 
 ![](/images/uploads/ascendiamo.png)
 
