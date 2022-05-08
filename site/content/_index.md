@@ -51,6 +51,9 @@ clients:
     - company: Godlike Burgher
       company_logo: /images/uploads/godlike.png
       company_url: https://store.steampowered.com/app/1432910/Godlike_Burger/
+    - company: FixFox
+      company_url: https://store.steampowered.com/app/1696220/FixFox/
+      company_logo: /images/uploads/fixfox.png
     - company: Insormountable
       company_url: https://store.steampowered.com/app/1385100/Insurmountable/
       company_logo: /images/uploads/insorm.png
@@ -60,9 +63,15 @@ clients:
     - company: Lords of The Rings
       company_url: https://store.steampowered.com/app/1265780/The_Lord_of_the_Rings_Gollum/
       company_logo: /images/uploads/gollum.jpg
+    - company: Lost in Play
+      company_url: https://store.steampowered.com/app/1328840/Lost_in_Play/
+      company_logo: /images/uploads/lost.png
     - company: Martha is Dead
       company_url: https://store.steampowered.com/app/515960/Martha_Is_Dead/
       company_logo: /images/uploads/martha.jpg
+    - company: TCHIA
+      company_url: https://store.steampowered.com/app/1496590/Tchia/
+      company_logo: /images/uploads/tchia.png
     - company: The Ascent
       company_logo: /images/uploads/ascent.jpg
       company_url: https://store.steampowered.com/app/979690/The_Ascent/
