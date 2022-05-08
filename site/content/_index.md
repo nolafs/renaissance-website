@@ -85,14 +85,14 @@ clients:
       company_logo: /images/uploads/ascent.jpg
       company_url: https://store.steampowered.com/app/979690/The_Ascent/
   clients_featured:
-    - company: 3D Clouds
-      company_url: https://www.3dclouds.it/
-      company_logo: /images/uploads/3dcloudslogo.png
     - company: 505 Games
       company_logo: /images/uploads/505-games-squarelogo-1497955311797.png
       company_url: https://505games.com/
+    - company: Aviary Film
+      company_url: https://www.aviaryfilms.co.uk/
+      company_logo: /images/uploads/av2.png
     - company: Curve Digital
-      company_logo: /images/uploads/client-curvedigital.jpg
+      company_logo: /images/uploads/curve.png
       company_url: http://www.curve-digital.com/
     - company: Daedalic
       company_logo: /images/uploads/client-daedelic.jpg
@@ -103,42 +103,15 @@ clients:
     - company: "Koei Tecmo "
       company_url: https://www.koeitecmoeurope.com/
       company_logo: /images/uploads/1200px-koei_tecmo_holdings_logo_20090401.svg.png
-    - company: Leonardo Interactive
-      company_url: https://leonardointeractive.com/
-      company_logo: /images/uploads/logo-leo.jpg
     - company: MYGAMES
       company_url: https://my.games/en
       company_logo: /images/uploads/my.games-store.png
-    - company: NetEase
-      company_logo: /images/uploads/untitled.png
-      company_url: https://www.neteasegames.com/
-    - company: Nighhawk Interactive
-      company_url: https://www.nighthawkinteractive.com/
-      company_logo: /images/uploads/nighthawk.png
-    - company: Playtonic
-      company_url: https://www.playtonicgames.com/
-      company_logo: /images/uploads/playtonic.png
-    - company: Raiser Games
-      company_url: https://www.raisergames.com/
-      company_logo: /images/uploads/logo-raiser-games.png
     - company: Sharkmob
       company_url: https://www.sharkmob.com/
       company_logo: /images/uploads/sharkmobtest.png
     - company: SNK
       company_url: https://www.snk-corp.co.jp/us/
       company_logo: /images/uploads/snkwebsite.png
-    - company: Stormind Games
-      company_url: https://www.stormindgames.com/
-      company_logo: /images/uploads/stormind_games_official_logo.png
-    - company: ThatGameCompany
-      company_url: https://thatgamecompany.com/
-      company_logo: /images/uploads/thatgamcompany2.png
-    - company_logo: /images/uploads/team17®_horiz_black_keyline_rgb_preview.png
-      company: Team17
-      company_url: https://www.team17.com/
-    - company: Wired Productions
-      company_url: https://www.wiredproductions.com/collections/martha-is-dead
-      company_logo: /images/uploads/client-wired.jpg
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
