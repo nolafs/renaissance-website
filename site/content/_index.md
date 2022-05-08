@@ -73,6 +73,9 @@ clients:
     - company: Funcom
       company_url: www.funcom.com
       company_logo: /images/uploads/funcom.png
+    - company: FUTURlab
+      company_url: https://futurlab.co.uk/
+      company_logo: /images/uploads/futurlab.png
     - company: Jack Box Games
       company_logo: /images/uploads/jackbox.png
       company_url: https://www.jackboxgames.com/
@@ -112,9 +115,6 @@ clients:
     - company: Tencent Games
       company_url: https://www.tencent.com/en-us/
       company_logo: /images/uploads/tencent-games.png
-    - company: FUTURlab
-      company_url: https://futurlab.co.uk/
-      company_logo: /images/uploads/futurlab.png
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
