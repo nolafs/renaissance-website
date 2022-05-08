@@ -106,6 +106,12 @@ clients:
     - company: IIDEA
       company_logo: /images/uploads/iideaweb.png
       company_url: https://en.iideassociation.com/
+    - company: Kepler Interactive
+      company_url: https://www.kepler-interactive.com/
+      company_logo: /images/uploads/keplerwebsite.png
+    - company: Kinda Brave Publishing
+      company_url: https://www.kindabrave.com/
+      company_logo: /images/uploads/kindabrave.png
     - company: "Koei Tecmo "
       company_url: https://www.koeitecmoeurope.com/
       company_logo: /images/uploads/1200px-koei_tecmo_holdings_logo_20090401.svg.png
@@ -118,16 +124,13 @@ clients:
     - company: SNK
       company_url: https://www.snk-corp.co.jp/us/
       company_logo: /images/uploads/snkwebsite.png
-    - company: Kepler Interactive
-      company_url: https://www.kepler-interactive.com/
-      company_logo: /images/uploads/keplerwebsite.png
-    - company: Kinda Brave Publishing
-      company_url: https://www.kindabrave.com/
-      company_logo: /images/uploads/kindabrave.png
+    - company: Tate Multimedia
+      company_url: https://www.tatemultimedia.com/en/home/
+      company_logo: /images/uploads/tate.png
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
-  slider_num: "13"
+  slider_num: "20"
   text: Since our inception in 2015 we've been fortunate to work with a wide array
     of different clients, over 90% of whom we're proud to say are still valued
     partner today.
