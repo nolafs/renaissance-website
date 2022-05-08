@@ -118,6 +118,9 @@ clients:
     - company: SNK
       company_url: https://www.snk-corp.co.jp/us/
       company_logo: /images/uploads/snkwebsite.png
+    - company: Kepler Interactive
+      company_url: https://www.kepler-interactive.com/
+      company_logo: /images/uploads/keplerwebsite.png
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
