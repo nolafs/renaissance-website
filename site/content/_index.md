@@ -130,6 +130,9 @@ clients:
     - company: Tencent Games
       company_url: https://www.tencent.com/en-us/
       company_logo: /images/uploads/tencent-games.png
+    - company: Level Infinite
+      company_url: https://www.levelinfinite.com/
+      company_logo: /images/uploads/level-infinite.png
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
