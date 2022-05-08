@@ -48,6 +48,9 @@ clients:
     - company: Autonauts
       company_logo: /images/uploads/18f6865daa5af20b286f204e081b2cfd3adddd8e.png
       company_url: https://store.steampowered.com/app/979120/Autonauts/
+    - company: Godlike Burgher
+      company_logo: /images/uploads/godlike.png
+      company_url: https://store.steampowered.com/app/1432910/Godlike_Burger/
     - company: King of Fighetrs XV
       company_url: https://www.snk-corp.co.jp/us/games/kof-xv/
       company_logo: /images/uploads/the_king_of_fighters_-28kof-29_xv.jpg
