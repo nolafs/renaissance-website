@@ -103,9 +103,15 @@ clients:
     - company: Joystick Ventures
       company_url: https://www.joystickventures.com/
       company_logo: /images/uploads/jvlogo.png
+    - company: Happyt Volcano
+      company_url: https://www.happyvolcano.com/
+      company_logo: /images/uploads/happy-volcano.png
     - company: IIDEA
       company_logo: /images/uploads/iideaweb.png
       company_url: https://en.iideassociation.com/
+    - company: Level Infinite
+      company_url: https://www.levelinfinite.com/
+      company_logo: /images/uploads/level-infinite.png
     - company: Kepler Interactive
       company_url: https://www.kepler-interactive.com/
       company_logo: /images/uploads/keplerwebsite.png
@@ -130,9 +136,6 @@ clients:
     - company: Tencent Games
       company_url: https://www.tencent.com/en-us/
       company_logo: /images/uploads/tencent-games.png
-    - company: Level Infinite
-      company_url: https://www.levelinfinite.com/
-      company_logo: /images/uploads/level-infinite.png
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
