@@ -54,6 +54,9 @@ clients:
     - company: FixFox
       company_url: https://store.steampowered.com/app/1696220/FixFox/
       company_logo: /images/uploads/fixfox.png
+    - company: Flintlock
+      company_url: https://store.steampowered.com/app/1832040/Flintlock_The_Siege_of_Dawn/
+      company_logo: /images/uploads/flintlock.png
     - company: Insormountable
       company_url: https://store.steampowered.com/app/1385100/Insurmountable/
       company_logo: /images/uploads/insorm.png
