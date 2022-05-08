@@ -48,6 +48,9 @@ clients:
     - company: Autonauts
       company_logo: /images/uploads/18f6865daa5af20b286f204e081b2cfd3adddd8e.png
       company_url: https://store.steampowered.com/app/979120/Autonauts/
+    - company: AVATAR REC
+      company_url: https://avatarreckoning.com/
+      company_logo: /images/uploads/avat.png
     - company: DUNE
       company_url: https://store.steampowered.com/app/1605220/Dune_Spice_Wars/
       company_logo: /images/uploads/dune.png
