@@ -121,6 +121,9 @@ clients:
     - company: Kepler Interactive
       company_url: https://www.kepler-interactive.com/
       company_logo: /images/uploads/keplerwebsite.png
+    - company: Kinda Brave Publishing
+      company_url: https://www.kindabrave.com/
+      company_logo: /images/uploads/kindabrave.png
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
