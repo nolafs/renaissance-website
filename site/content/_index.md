@@ -112,6 +112,9 @@ clients:
     - company: Tencent Games
       company_url: https://www.tencent.com/en-us/
       company_logo: /images/uploads/tencent-games.png
+    - company: FUTURlab
+      company_url: https://futurlab.co.uk/
+      company_logo: /images/uploads/futurlab.png
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
