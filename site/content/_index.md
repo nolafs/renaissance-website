@@ -136,6 +136,9 @@ clients:
     - company: Happyt Volcano
       company_url: https://www.happyvolcano.com/
       company_logo: /images/uploads/happy-volcano.png
+    - company: Hook
+      company_logo: /images/uploads/hook_red.png
+      company_url: www.renaissancepr.co.uk
     - company: IIDEA
       company_logo: /images/uploads/iideaweb.png
       company_url: https://en.iideassociation.com/
