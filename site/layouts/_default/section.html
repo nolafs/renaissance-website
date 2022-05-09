@@ -4,7 +4,9 @@
 {{ define "main" }}
 <div class="grid-container m-t-100 m-b-100">
     <div class="grid-x">
-        <div class="cell">{{ .Content | markdownify }}</div>
+        <div class="cell">
+            {{.Content}}
+        </div>
     </div>
 
 </div>
