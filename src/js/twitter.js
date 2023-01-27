@@ -1,8 +1,8 @@
 import twitterFetcher from 'twitter-fetcher';
 var configProfile = {
-    "profile": {"screenName": 'RenaissancePRUK'},
+    "profile": {"screenName": 'renaissancepruk'},
     "domId": 'tweet-post',
-    "maxTweets": 1,
+    "maxTweets": 6,
     "enableLinks": false,
     "showUser": false,
     "showTime": false,
@@ -10,3 +10,4 @@ var configProfile = {
     "lang": 'en'
 };
 twitterFetcher.fetch(configProfile);
+console.log('RUN TWITTER')

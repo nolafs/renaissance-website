@@ -88,7 +88,7 @@
     "slate-edit-list": "^0.12.1",
     "slick-carousel": "^1.8.1",
     "to-string-loader": "^1.1.5",
-    "twitter-fetcher": "^18.0.2"
+    "twitter-fetcher": "^18.0.4"
   },
   "resolutions": {
     "natives": "1.1.6"
