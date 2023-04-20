@@ -123,24 +123,7 @@ export default {
     finalize() {
         // JavaScript to be fired on all pages, after page specific JS is fired
 
-        /*
-        var configProfile = {
-            "profile": {"screenName": 'RenaissancePRUK'},
-            "domId": 'tweet-post',
-            "maxTweets": 2,
-            "enableLinks": true,
-            "showUser": false,
-            "showTime": false,
-            "showImages": false,
-            "lang": 'en'
-        };
-
-        twitterFetcher.fetch(configProfile);
-
-         */
-
-
-        $('.slick-slider').slick({
+        $('.slick-slider').not('.slick-initialized').slick({
             arrows: false,
             dots: true,
             autoplay: true,
@@ -149,9 +132,11 @@ export default {
             autoplaySpeed: 3000,
         });
 
+
         this.animHeader();
         this.animList();
         this.animServices();
         this.animBlocks();
+
     },
 };
