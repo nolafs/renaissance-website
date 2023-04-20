@@ -23,7 +23,6 @@ HUGO_VERSION = "0.89.4"
             includeSubDomains;
             preload'''
 [[headers]]
-[[headers]]
   for = "/images/*"
   [headers.values]
     cache-control = "public, max-age=31536000, immutable"
