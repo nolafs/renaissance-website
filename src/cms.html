@@ -1,14 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Content Manager</title>
-
-    <script src="https://identity-js.netlify.com/v1/netlify-identity-widget.js"></script>
+    <style>
+        [data-slate-editor] {
+            -webkit-user-modify: read-write !important;
+        }
+    </style>
+    <script
+            nonce="2726c7f26c"
+            src="https://identity-js.netlify.com/v1/netlify-identity-widget.js"
+    ></script>
 </head>
 <body>
-<script src="<%= htmlWebpackPlugin.files.chunks.cms.entry %>"></script>
+<% for (var chunk in htmlWebpackPlugin.files.js) { %> <% if
+(htmlWebpackPlugin.files.js[chunk].includes('cms')) { %>
+<script
+        nonce="2726c7f26c"
+        src="/<%= htmlWebpackPlugin.files.js[chunk] %>"
+></script>
+<% } %> <% } %>
 </body>
 </html>

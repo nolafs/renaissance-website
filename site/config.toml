@@ -85,3 +85,17 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
     logo_small="/images/logo-icon.png"
     logo_mobile="/images/logo-mobile.png"
     logo_large_invert="/images/logo-icon.png"
+
+[security]
+  enableInlineShortcodes = true
+
+  [security.exec]
+    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$']
+    osEnv = ['(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|GO\w+)$']
+
+  [security.funcs]
+    getenv = ['^HUGO_', '^CI$', '^CONTEXT']
+
+  [security.http]
+    methods = ['(?i)GET|POST']
+    urls = ['.*']
