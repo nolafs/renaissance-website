@@ -1,7 +1,9 @@
 [build.environment]
-YARN_VERSION = "1.12.1"
-NPM_VERSION = "6.4.1"
-HUGO_VERSION = "0.89.4"
+  YARN_VERSION = "1.22.10"
+  NPM_VERSION = "8.5.0"
+  HUGO_VERSION = "0.111.3"
+  NODE_VERSION = "16.14.2"
+  HUGO_ENABLEGITINFO = "true"
 
 [build]
   command = "npm run build"
