@@ -94,7 +94,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
     osEnv = ['(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|GO\w+)$']
 
   [security.funcs]
-    getenv = ['^HUGO_', '^CI$', '^CONTEXT']
+    getenv = ['^HUGO_', '^CI$', '^CONTEXT', '^URL']
 
   [security.http]
     methods = ['(?i)GET|POST']
