@@ -4,6 +4,12 @@ header:
   image: /images/uploads/home-hero-790px.jpg
   video: qCwZ7gH3MOY
   video_active: true
+tweet: >-
+  Attention, damned souls: the Voodolls closed #beta sign up is now live!
+  Starting on 19.01, you don't want to miss out!
+
+
+  Check out the newest trailer below, and sign up here: <a href="http://eepurl.com/ih1lKb">http://eepurl.com/ih1lKb</a> Find Voodolls on Steam: <a href="http://bit.ly/3X9mHmN">http://bit.ly/3X9mHmN</a>
 services:
   heading: How can we help your business?
   services_list:
@@ -172,7 +178,7 @@ clients:
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
-  slider_num: "20"
+  slider_num: "12"
   text: Since our inception in 2015 we've been fortunate to work with a wide array
     of different clients, over 90% of whom we're proud to say are still valued
     partner today.

@@ -19,9 +19,6 @@ gsap.defaultEase = Expo.easeOut;
 export default {
 
     animHeader() {
-
-
-
         const tl = gsap.timeline({repeat:0, delay: 0.2});
         const heading = $('.hero-header-inner');
         const title = new SplitText($('.hero-header-inner').find('h1'), {type:"words,chars"});
@@ -147,7 +144,7 @@ export default {
             autoplay: true,
             infinite: true,
             fade: true,
-            autoplaySpeed: 2500,
+            autoplaySpeed: 3000,
         });
 
         this.animHeader();

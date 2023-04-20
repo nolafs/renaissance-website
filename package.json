@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "eslint src",
     "start": "run-p start:**",
+    "start:local:api": "npx netlify-cms-proxy-server",
     "start:hugo": "hugo -d ../dist -s site -vw",
     "start:webpack": "webpack-dev-server --config webpack.dev.js --hot",
     "preview": "run-p preview:**",

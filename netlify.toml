@@ -9,7 +9,20 @@ HUGO_VERSION = "0.89.4"
 
 [context.deploy-preview]
   command = "npm run build:preview"
-
+[[headers]]
+    for = "/*"
+    [headers.values]
+        X-Frame-Options = "DENY"
+        X-XSS-Protection = "1; mode=block"
+        X-Content-Type-Options = "nosniff"
+[[headers]]
+    for = "/*"
+    [headers.values]
+        Strict-Transport-Security = '''
+            max-age=63072000;
+            includeSubDomains;
+            preload'''
+[[headers]]
 [[headers]]
   for = "/images/*"
   [headers.values]
@@ -60,4 +73,3 @@ HUGO_VERSION = "0.89.4"
       "bing",
       "yandex"
     ]
-
