@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="{{ $.Site.Language.Lang }}">
-{{ partialCached "csp" . }}
+
 {{ block "head" . }}{{ partial "head" . }}{{end}}
 <body class="default {{ if .IsHome }}home{{else}}{{.Title | urlize }}{{end}} {{.Kind }} {{if .IsSection }} section {{end}}" data-animation="true">
 
