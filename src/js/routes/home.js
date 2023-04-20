@@ -38,7 +38,9 @@ export default {
                 colorStart: "red",
                 colorEnd: "black"
             })
-            */
+
+             */
+
             .setTween(tl)
             .addTo(controller)
 
@@ -138,7 +140,7 @@ export default {
          */
 
 
-        $('.slick-slider').not('.slick-initialized').slick({
+        $('.slick-slider').slick({
             arrows: false,
             dots: true,
             autoplay: true,
