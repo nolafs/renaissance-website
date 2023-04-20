@@ -138,7 +138,7 @@ export default {
          */
 
 
-        $('.slick-slider').slick({
+        $('.slick-slider').not('.slick-initialized').slick({
             arrows: false,
             dots: true,
             autoplay: true,

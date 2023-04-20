@@ -1,0 +1,7 @@
+{{ $csp := slice}}
+{{ range $key, $value := $.Site.Params.CSP }}
+{{ $csp = $csp | append (printf "%v %v" $key (delimit $value " ")) }}
+{{ end }}
+{{ $csp = (delimit $csp ";") }}
+{{ $csp = printf "<meta http-equiv=\"Content-Security-Policy\" content=\"%s\">" $csp }}
+{{ $csp | safeHTML}}
