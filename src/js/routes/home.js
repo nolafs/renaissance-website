@@ -19,9 +19,6 @@ gsap.defaultEase = Expo.easeOut;
 export default {
 
     animHeader() {
-
-
-
         const tl = gsap.timeline({repeat:0, delay: 0.2});
         const heading = $('.hero-header-inner');
         const title = new SplitText($('.hero-header-inner').find('h1'), {type:"words,chars"});
@@ -41,7 +38,9 @@ export default {
                 colorStart: "red",
                 colorEnd: "black"
             })
-            */
+
+             */
+
             .setTween(tl)
             .addTo(controller)
 
@@ -84,9 +83,32 @@ export default {
             .addTo(controller);
 
     },
+    animateAward() {
+        const w = 300;
+        const width = $('.award-logo').length * w;
+        console.log(width);
+
+        gsap.set(".award-logo", {
+            x: (i) => i * w
+        });
+
+        let wrap = gsap.utils.wrap(0, width);
+
+
+        gsap.to(".award-logo", {
+            duration: 10,
+            ease: "none",
+            x: `-=${width}`, //move each box 500px to right
+            modifiers: {
+                x: gsap.utils.unitize(x => wrap(parseFloat(x))) //force x value to be between 0 and 500 using modulus
+            },
+            repeat: -1
+        });
+
+
+
+    },
     animList () {
-
-
 
         $(".block-icon-list li").each(function(i) {
             const tl = gsap.timeline();
@@ -124,35 +146,23 @@ export default {
     finalize() {
         // JavaScript to be fired on all pages, after page specific JS is fired
 
-        /*
-        var configProfile = {
-            "profile": {"screenName": 'RenaissancePRUK'},
-            "domId": 'tweet-post',
-            "maxTweets": 2,
-            "enableLinks": true,
-            "showUser": false,
-            "showTime": false,
-            "showImages": false,
-            "lang": 'en'
-        };
-
-        twitterFetcher.fetch(configProfile);
-
-         */
-
-
-        $('.slick-slider').slick({
+        $('.slick-slider').not('.slick-initialized').slick({
             arrows: false,
             dots: true,
             autoplay: true,
             infinite: true,
             fade: true,
-            autoplaySpeed: 2500,
+            autoplaySpeed: 3000,
         });
+
 
         this.animHeader();
         this.animList();
         this.animServices();
         this.animBlocks();
+        setTimeout(() => {
+            this.animateAward()}, 1000);
+
+
     },
 };

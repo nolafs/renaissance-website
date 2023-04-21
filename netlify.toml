@@ -1,7 +1,9 @@
 [build.environment]
-YARN_VERSION = "1.12.1"
-NPM_VERSION = "6.4.1"
-HUGO_VERSION = "0.89.4"
+  YARN_VERSION = "1.22.10"
+  NPM_VERSION = "8.5.0"
+  HUGO_VERSION = "0.111.3"
+  NODE_VERSION = "16.14.2"
+  HUGO_ENABLEGITINFO = "true"
 
 [build]
   command = "npm run build"
@@ -9,7 +11,19 @@ HUGO_VERSION = "0.89.4"
 
 [context.deploy-preview]
   command = "npm run build:preview"
-
+[[headers]]
+    for = "/*"
+    [headers.values]
+        X-Frame-Options = "DENY"
+        X-XSS-Protection = "1; mode=block"
+        X-Content-Type-Options = "nosniff"
+[[headers]]
+    for = "/*"
+    [headers.values]
+        Strict-Transport-Security = '''
+            max-age=63072000;
+            includeSubDomains;
+            preload'''
 [[headers]]
   for = "/images/*"
   [headers.values]
@@ -44,20 +58,3 @@ HUGO_VERSION = "0.89.4"
     # If it should show more verbose logs (optional, default = true)
     debug = true
     srcdir = "site"
-[[plugins]]
-  package = "netlify-plugin-submit-sitemap"
-    [plugins.inputs]
-
-    # The base url of your site (optional, default = main URL set in Netlify)
-    baseUrl = "https://renaissancepr.co.uk/"
-
-    # Path to the sitemap URL (optional, default = /sitemap.xml)
-    sitemapPath = "/sitemap.xml"
-
-    # Enabled providers to submit sitemap to (optional, default = 'google', 'bing', 'yandex'). Possible providers are currently only 'google', 'bing', 'yandex'.
-    providers = [
-      "google",
-      "bing",
-      "yandex"
-    ]
-

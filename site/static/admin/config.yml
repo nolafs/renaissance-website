@@ -4,6 +4,8 @@ media_folder: "site/static/images/uploads" # Media files will be stored in the r
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 # publish_mode: editorial_workflow
 site_url: https://renaissancepr.co.uk
+logo_url: https://renaissancepr.co.uk/images/logo-icon.png
+local_backend: true
 
 collections:
   - name: "case-studies" # Used in routes, ie.: /admin/collections/:slug/edit
@@ -76,6 +78,8 @@ collections:
               {label: "Video Banner Active", name: "video_active", widget: "boolean"}
             ]}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Twitter active", name: "twitter", widget: "boolean" , required: false }
+          - {label: "Tweet", name: "tweet", widget: "markdown" }
           - {label: "Services Section", name: services, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: text},
@@ -93,14 +97,20 @@ collections:
              {label: "Clients Featured", name: "clients_featured", widget: "list", fields: [
              {label: "Name" , name: "company" , widget: "text"},
              {label: "Link" , name: "company_url" , widget: string},
-             {label: "Logo" , name: "company_logo" , widget: image},
+             {label: "Logo" , name: "company_logo" , widget: image,
+              media_folder: "/site/assets/images/clients/",
+              public_folder: "/images/clients/",
+             },
              ]},
              {label: "Products Heading", name: "productsheading", widget: string},
              {label: "Products Text", name: "productstext", widget: "text"},
              {label: "Products", name: "clients", widget: "list", fields: [
              {label: "Name" , name: "company" , widget: "text"},
              {label: "Link" , name: "company_url" , widget: string},
-             {label: "Logo" , name: "company_logo" , widget: image},
+             {label: "Logo" , name: "company_logo" , widget: image,
+              media_folder: "/site/assets/images/games/",
+              public_folder: "/images/games/",
+             },
              ]}
           ]}
           - label: "Testimonial"
@@ -210,7 +220,10 @@ collections:
               {label: "Clients", name: "clients_featured", widget: "list", fields: [
                 {label: "Name" , name: "company" , widget: "text"},
                 {label: "Link" , name: "company_url" , widget: string},
-                {label: "Logo" , name: "company_logo" , widget: image},
+                {label: "Logo" , name: "company_logo" , widget: image,
+                 media_folder: "/site/assets/images/clients/",
+                 public_folder: "/images/clients/"
+                },
               ]}
           ]}
       - file: "site/content/register/_index.md"

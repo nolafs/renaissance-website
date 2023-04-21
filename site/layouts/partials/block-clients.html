@@ -11,7 +11,7 @@
         </div>
         {{ "<!-- Featured -->" | safeHTML }}
         <div class="grid-container client-feature-list">
-            <div class="grid-x grid-padding-x small-up-2 medium-up-4 large-up-6 align-center">
+            <div class="grid-x grid-margin-y grid-margin-x small-up-2 medium-up-4 large-up-6 align-center-middle">
                 {{with .Params.clients.clients_featured}}
                     {{ range  . }}
                         <div class="cell">
@@ -44,35 +44,34 @@
         </div>
     </div>
     {{with .Params.clients.clients}}
-
-
-            <div class="grid-container slick-slider">
+            <div class="grid-container client-slider slick-slider">
 
                     {{ $clients := .}}
-                    {{ range $index, $items := . }}
-                    {{if eq (mod $index $length ) 0}}
-                        <div class="slice-item">
-                            <div class="grid-x grid-padding-x grid-margin-y small-up-2 medium-up-4 large-up-6 align-center-middle">
-                                {{if eq $index 0}}
-                                    {{ range first $length $clients}}
-                                        <div class="cell">
-                                            {{ partial "client-link" .}}
-                                        </div>
-                                    {{end}}
-                                {{else}}
-                                    {{ range first $length (after $index $clients)}}
-                                        <div class="cell">
-                                            {{ partial "client-link" .}}
-                                        </div>
-                                    {{end}}
-                                {{end}}
-                                </div>
-                            </div>
-                        {{end}}
 
+                    {{ range $index, $items := . }}
+
+                        {{if eq (mod $index $length ) 0}}
+                            <div class="slice-item">
+                                <div class="grid-x small-up-2 medium-up-4 large-up-6 align-center-middle" data-equalizer>
+                                    {{if eq $index 0}}
+                                        {{ range first $length $clients}}
+                                            <div class="cell" data-equalizer-watch>
+                                                {{ partial "game-link" .}}
+                                            </div>
+                                        {{end}}
+                                    {{else}}
+                                        {{ range first $length (after $index $clients)}}
+                                            <div class="cell">
+                                                {{ partial "game-link" .}}
+                                            </div>
+                                        {{end}}
+                                    {{end}}
+                                    </div>
+                                </div>
+                        {{end}}
+                {{end}}
             </div>
 
-        {{end}}
     </div>
     {{end}}
     {{end}}

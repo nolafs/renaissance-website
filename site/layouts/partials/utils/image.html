@@ -1,0 +1,75 @@
+{{ $alt := .alt }}
+{{ $image := .image }}
+{{ $imgSrc := "" }}
+{{ $className := .className}}
+{{ $settings :=  split .size " "}}
+{{ $option :=  .option}}
+{{ $quality := "q90" }}
+
+{{ $imageProcessed:= .context.Scratch.Get "image" }}
+{{ $imgSrcSet := slice }}
+
+{{if not $option}}
+    {{ $landscapeWidth := slice 2500 1500 1000 }}
+    {{ $portraitWidths := slice 1500  1000 750 }}
+    {{ $widths := $landscapeWidth }}
+    {{ if gt $image.Height $image.Width }}
+        {{ $widths = $portraitWidths }}
+    {{ end }}
+    {{ range $widths }}
+        {{ $srcUrl := (printf "%dx" . | $imageProcessed.Resize).RelPermalink }}
+        {{ if eq $imgSrc "" }}{{ $imgSrc = $srcUrl }}{{ end }}
+        {{ $imgSrcSet = $imgSrcSet | append (printf "%s %dw" $srcUrl .) }}
+    {{ end }}
+{{else}}
+    {{ $sizes := slice (mul .baseSize 1) (mul .baseSize 2) (mul .baseSize 3)}}
+    {{ $format:= "webp" }}
+    {{ $focus := ""}}
+    {{if $settings}}
+        {{$format := index $settings 0}}
+        {{$ratio := split (index $settings 1) "x"}}
+        {{$focus := index $settings 2}}
+        {{if $ratio }}
+            {{$w := int (index $ratio 0)}}
+            {{$h := int (index $ratio 1)}}
+            {{$sizes = slice ((printf "%dx%d" (mul $w 1) (mul $h 1))) ((printf "%dx%d" (mul $w 2) (mul $h 2))) ((printf "%dx%d" (mul $w 3) (mul $h 3)))}}
+        {{end}}
+    {{end}}
+
+    {{ range $index, $size:= $sizes }}
+        {{ $srcUrl := ""}}
+        {{ $s  := ""}}
+        {{if in $size "x" }}
+            {{ $s = (printf "%s %s %s %s" $size $format $quality $focus) }}
+        {{else}}
+            {{ $s = (printf "%dx" $size) }}
+        {{end}}
+        {{ if eq $option "Fit"}}
+            {{ $srcUrl = ($image.Fit  $s)  }}
+        {{ else if eq $option "Fill"}}
+            {{ $srcUrl =  ($image.Fill  $s)  }}
+        {{ else if eq $option "Crop"}}
+            {{ $srcUrl = ($image.Crop  $s)  }}
+        {{else}}
+            {{ $srcUrl =  $image }}
+        {{end}}
+
+          {{ $imgSrcSet = $imgSrcSet | append (printf "%s %dx" $srcUrl.RelPermalink (add $index 1)) }}
+    {{ end }}
+{{end}}
+
+{{ $imgSrcSet = (delimit $imgSrcSet ",") }}
+
+{{ $attributes := slice }}
+
+{{ range $name, $value := .attrs }}
+    {{ $attributes = $attributes | append (printf "%s=%q" $name $value) }}
+{{ end }}
+
+
+
+{{ $attributes = (delimit $attributes " ") }}
+
+<img class="lazyload {{$className}}" alt="{{ $alt }}" width="{{$imageProcessed.Width}}" height="{{$imageProcessed.Height}}"  data-size = "auto"
+     data-src="{{ ($imageProcessed).RelPermalink }}" data-srcset="{{ $imgSrcSet }}" {{ print $attributes | safeHTMLAttr }}
+/>

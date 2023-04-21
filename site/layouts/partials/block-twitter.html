@@ -17,21 +17,11 @@
                 </div>
             </div>
             <div id="tweet-post" class="cell small-12 large-9 tweet">
-
-                <p>Attention, damned souls: the Voodolls closed #beta sign up is now live! Starting on 19.01, you don't
-                want to miss out!</p>
-
-                <p>Check out the newest trailer below, and sign up here: <a href="http://eepurl.com/ih1lKb">http://eepurl.com/ih1lKb</a>
-                    Find Voodolls on Steam: <a href="http://bit.ly/3X9mHmN">http://bit.ly/3X9mHmN</a></p>
-
-
+               {{.Params.tweet | markdownify | safeHTML}}
             </div>
         </div>
     </div>
 </div>
 </section>
-<script>
 
-	<script async src="//platform.twitter.com/widgets.js" charSet="utf-8"></script>
-</script>
 {{ "<!-- / Block Twitter -->" | safeHTML }}

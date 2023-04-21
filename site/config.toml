@@ -85,3 +85,32 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
     logo_small="/images/logo-icon.png"
     logo_mobile="/images/logo-mobile.png"
     logo_large_invert="/images/logo-icon.png"
+
+[security]
+  enableInlineShortcodes = true
+
+  [security.exec]
+    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$']
+    osEnv = ['(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|GO\w+)$']
+
+  [security.funcs]
+    getenv = ['^HUGO_', '^CI$', '^CONTEXT', '^URL', '^DEPLOY_PRIME_URL']
+
+  [security.http]
+    methods = ['(?i)GET|POST']
+    urls = ['.*']
+
+[params.csp]
+    scriptsrc = ["'self'",
+        "'unsafe-inline'",
+        "https://platform.twitter.com",
+        "https://cdn.syndication.twimg.com",
+        "*.amazon-adsystem.com",
+        "https://www.google-analytics.com",
+        "cse.google.com",
+        "https://www.google.com",
+        "https://pagead2.googlesyndication.com",
+        "https://adservice.google.com",
+        "https://www.googletagservices.com",
+        "www.instagram.com",
+        ]

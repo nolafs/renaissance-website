@@ -1,9 +1,9 @@
 {{ $script := .Site.Data.webpack.main }}
 {{ with $script.js }}
-<script src="{{ relURL . }}"></script>
+<script nonce="2726c7f26d45c" src="{{ relURL . }}" defer></script>
 {{ end }}
 {{if $.Site.Data.gdpr.osana.active }}
 {{ "<!-- GDPR -->" | safeHTML }}
-    <script src="{{$.Site.Data.gdpr.osana.script}}"></script>
+    <script nonce="2726c7f26d45c" src="{{$.Site.Data.gdpr.osana.script}}" defer></script>
 {{ "<!-- /GDPR -->" | safeHTML }}
 {{end}}

@@ -4,6 +4,12 @@ header:
   image: /images/uploads/home-hero-790px.jpg
   video: qCwZ7gH3MOY
   video_active: true
+tweet: >-
+  Attention, damned souls: the Voodolls closed #beta sign up is now live!
+  Starting on 19.01, you don't want to miss out!
+
+
+  Check out the newest trailer below, and sign up here: <a href="http://eepurl.com/ih1lKb">http://eepurl.com/ih1lKb</a> Find Voodolls on Steam: <a href="http://bit.ly/3X9mHmN">http://bit.ly/3X9mHmN</a>
 services:
   heading: How can we help your business?
   services_list:
@@ -46,133 +52,133 @@ services:
 clients:
   clients:
     - company: Autonauts
-      company_logo: /images/uploads/18f6865daa5af20b286f204e081b2cfd3adddd8e.png
+      company_logo: /images/games/18f6865daa5af20b286f204e081b2cfd3adddd8e.png
       company_url: https://store.steampowered.com/app/979120/Autonauts/
     - company: AVATAR REC
       company_url: https://avatarreckoning.com/
-      company_logo: /images/uploads/avat.png
+      company_logo: /images/games/avat.png
     - company: Vampire
       company_url: https://store.steampowered.com/app/760160/Vampire_The_Masquerade__Bloodhunt/
-      company_logo: /images/uploads/vamp.png
+      company_logo: /images/games/vamp.png
     - company: DUNE
       company_url: https://store.steampowered.com/app/1605220/Dune_Spice_Wars/
-      company_logo: /images/uploads/dune.png
+      company_logo: /images/games/dune.png
     - company: Godlike Burgher
-      company_logo: /images/uploads/godlike.png
+      company_logo: /images/games/godlike.png
       company_url: https://store.steampowered.com/app/1432910/Godlike_Burger/
     - company: FixFox
       company_url: https://store.steampowered.com/app/1696220/FixFox/
-      company_logo: /images/uploads/fixfox.png
+      company_logo: /images/games/fixfox.png
     - company: Flintlock
       company_url: https://store.steampowered.com/app/1832040/Flintlock_The_Siege_of_Dawn/
-      company_logo: /images/uploads/flintlock.png
+      company_logo: /images/games/flintlock.png
     - company: Insormountable
       company_url: https://store.steampowered.com/app/1385100/Insurmountable/
-      company_logo: /images/uploads/insorm.png
+      company_logo: /images/games/insorm.png
     - company: KAO
       company_url: https://store.steampowered.com/app/1370140/Kao_the_Kangaroo/
-      company_logo: /images/uploads/ko.png
+      company_logo: /images/games/ko.png
     - company: King of Fighetrs XV
       company_url: https://www.snk-corp.co.jp/us/games/kof-xv/
       company_logo: /images/uploads/the_king_of_fighters_-28kof-29_xv.jpg
     - company: Lords of The Rings
       company_url: https://store.steampowered.com/app/1265780/The_Lord_of_the_Rings_Gollum/
-      company_logo: /images/uploads/gollum.jpg
+      company_logo: /images/games/gollum.jpg
     - company: Lost in Play
       company_url: https://store.steampowered.com/app/1328840/Lost_in_Play/
-      company_logo: /images/uploads/lost.png
+      company_logo: /images/games/lost.png
     - company: Martha is Dead
       company_url: https://store.steampowered.com/app/515960/Martha_Is_Dead/
-      company_logo: /images/uploads/martha.jpg
+      company_logo: /images/games/martha.jpg
     - company: metal hellslinger
       company_url: https://store.steampowered.com/app/1061910/Metal_Hellsinger/
-      company_logo: /images/uploads/met.png
+      company_logo: /images/games/met.png
     - company: PUBG MOBILE
       company_url: https://www.pubgmobile.com/en-US/home.shtml
-      company_logo: /images/uploads/pubg.png
+      company_logo: /images/games/pubg.png
     - company: SCORN
       company_url: https://store.steampowered.com/app/698670/Scorn/
-      company_logo: /images/uploads/sc.png
+      company_logo: /images/games/sc.png
     - company: sYNC
       company_url: https://store.steampowered.com/app/1008080/SYNCED_OffPlanet/
-      company_logo: /images/uploads/sy.png
+      company_logo: /images/games/sy.png
     - company: TCHIA
       company_url: https://store.steampowered.com/app/1496590/Tchia/
-      company_logo: /images/uploads/tchia.png
+      company_logo: /images/games/tchia.png
     - company: The Ascent
-      company_logo: /images/uploads/ascent.jpg
+      company_logo: /images/games/ascent.jpg
       company_url: https://store.steampowered.com/app/979690/The_Ascent/
     - company: WARPIPS
       company_url: https://store.steampowered.com/app/1291010/Warpips/
-      company_logo: /images/uploads/warpipis.png
+      company_logo: /images/games/warpipis.png
     - company: Wildcat
       company_url: https://store.steampowered.com/app/1288610/Wildcat_Gun_Machine/
       company_logo: /images/uploads/wild.png
   clients_featured:
     - company: 505 Games
-      company_logo: /images/uploads/505-games-squarelogo-1497955311797.png
+      company_logo: /images/clients/505-games-squarelogo-1497955311797.png
       company_url: https://505games.com/
     - company: Aviary Film
       company_url: https://www.aviaryfilms.co.uk/
-      company_logo: /images/uploads/av2.png
+      company_logo: /images/clients/av2.png
     - company: Curve Digital
-      company_logo: /images/uploads/curve.png
+      company_logo: /images/clients/curve.png
       company_url: http://www.curve-digital.com/
     - company: Daedalic
-      company_logo: /images/uploads/client-daedelic.jpg
+      company_logo: /images/clients/client-daedelic.jpg
       company_url: https://www.daedalic.com/
     - company: Funcom
       company_url: www.funcom.com
-      company_logo: /images/uploads/funcom.png
+      company_logo: /images/clients/funcom.png
     - company: FUTURlab
       company_url: https://futurlab.co.uk/
-      company_logo: /images/uploads/futurlab.png
+      company_logo: /images/clients/futurlab.png
     - company: Jack Box Games
-      company_logo: /images/uploads/jackbox.png
+      company_logo: /images/clients/jackbox.png
       company_url: https://www.jackboxgames.com/
     - company: Joystick Ventures
       company_url: https://www.joystickventures.com/
-      company_logo: /images/uploads/jvlogo.png
+      company_logo: /images/clients/jvlogo.png
     - company: Happyt Volcano
       company_url: https://www.happyvolcano.com/
-      company_logo: /images/uploads/happy-volcano.png
+      company_logo: /images/clients/happy-volcano.png
     - company: Hook
-      company_logo: /images/uploads/hook_red.png
+      company_logo: /images/clients/hook_red.png
       company_url: www.renaissancepr.co.uk
     - company: IIDEA
-      company_logo: /images/uploads/iideaweb.png
+      company_logo: /images/clients/iideaweb.png
       company_url: https://en.iideassociation.com/
     - company: Level Infinite
       company_url: https://www.levelinfinite.com/
-      company_logo: /images/uploads/level-infinite.png
+      company_logo: /images/clients/level-infinite.png
     - company: Kepler Interactive
       company_url: https://www.kepler-interactive.com/
-      company_logo: /images/uploads/keplerwebsite.png
+      company_logo: /images/clients/keplerwebsite.png
     - company: Kinda Brave Publishing
       company_url: https://www.kindabrave.com/
-      company_logo: /images/uploads/kindabrave.png
+      company_logo: /images/clients/kindabrave.png
     - company: "Koei Tecmo "
       company_url: https://www.koeitecmoeurope.com/
-      company_logo: /images/uploads/1200px-koei_tecmo_holdings_logo_20090401.svg.png
+      company_logo: /images/clients/1200px-koei_tecmo_holdings_logo_20090401.svg.png
     - company: MYGAMES
       company_url: https://my.games/en
-      company_logo: /images/uploads/my.games-store.png
+      company_logo: /images/clients/my.games-store.png
     - company: Sharkmob
       company_url: https://www.sharkmob.com/
-      company_logo: /images/uploads/sharkmobtest.png
+      company_logo: /images/clients/sharkmobtest.png
     - company: SNK
       company_url: https://www.snk-corp.co.jp/us/
-      company_logo: /images/uploads/snkwebsite.png
+      company_logo: /images/clients/snkwebsite.png
     - company: Tate Multimedia
       company_url: https://www.tatemultimedia.com/en/home/
-      company_logo: /images/uploads/tate.png
+      company_logo: /images/clients/tate.png
     - company: Tencent Games
       company_url: https://www.tencent.com/en-us/
-      company_logo: /images/uploads/tencent-games.png
+      company_logo: /images/clients/tencent-games.png
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
-  slider_num: "20"
+  slider_num: "12"
   text: Since our inception in 2015 we've been fortunate to work with a wide array
     of different clients, over 90% of whom we're proud to say are still valued
     partner today.

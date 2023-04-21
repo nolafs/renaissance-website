@@ -50,12 +50,12 @@ library.add(faCheck, faChevronRight, faTwitter, faFacebookF );
 
 dom.watch();
 /* ===========================================================================
- Packages
+ Tooling
  =========================================================================== */
+import lazySizes from 'lazysizes';
+import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 
-// import Rellax from 'rellax/rellax.min';
-
-
+lazySizes.cfg.loadMode = 3;
 /* ===========================================================================
  Netlify
  =========================================================================== */
@@ -72,6 +72,3 @@ if (window.netlifyIdentity) {
 
 // DOCUMENT READY
 import "./js/apps";
-
-
-

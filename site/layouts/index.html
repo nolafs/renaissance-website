@@ -1,6 +1,10 @@
 {{ define "header" }}
     {{ partial "header-hero"  (dict "media" .Params.header "title" .Title "body" .Content)}}
-    {{ partial "block-twitter"}}
+    {{if .Params.twitter}}
+        {{ partial "block-twitter" . }}
+    {{else}}
+        {{ partial "block-awards-loop" . }}
+    {{end}}
 {{end}}
 {{ define "main" }}
     <div id="home-services" class="grid-container block">

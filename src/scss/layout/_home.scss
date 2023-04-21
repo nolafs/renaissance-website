@@ -34,4 +34,27 @@
   overflow: hidden;
 }
 
+#block-awards-loop{
+  overflow: hidden;
 
+  .award-wrapper{
+    position: relative;
+    overflow: hidden;
+  }
+
+  .award-loop-container{
+    min-width: 1450px;
+    height: 200px;
+    margin-left: -250px;
+  }
+
+  ul{
+    display: flex;
+    li{
+      display: inline-block;
+      position: absolute;
+      margin: 0 1rem;
+      list-style: none;
+    }
+  }
+}
