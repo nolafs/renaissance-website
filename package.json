@@ -89,6 +89,7 @@
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
     "scrollmagic": "^2.0.8",
+    "lazysizes": "^5.3.2",
     "scrollmagic-plugin-gsap": "gpitot/scrollmagic-plugin-gsap",
     "shufflejs": "^5.4.1",
     "slate-edit-list": "^0.12.1",

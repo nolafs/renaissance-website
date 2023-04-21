@@ -96,14 +96,20 @@ collections:
              {label: "Clients Featured", name: "clients_featured", widget: "list", fields: [
              {label: "Name" , name: "company" , widget: "text"},
              {label: "Link" , name: "company_url" , widget: string},
-             {label: "Logo" , name: "company_logo" , widget: image},
+             {label: "Logo" , name: "company_logo" , widget: image,
+              media_folder: "/site/assets/images/clients/",
+              public_folder: "/images/clients/",
+             },
              ]},
              {label: "Products Heading", name: "productsheading", widget: string},
              {label: "Products Text", name: "productstext", widget: "text"},
              {label: "Products", name: "clients", widget: "list", fields: [
              {label: "Name" , name: "company" , widget: "text"},
              {label: "Link" , name: "company_url" , widget: string},
-             {label: "Logo" , name: "company_logo" , widget: image},
+             {label: "Logo" , name: "company_logo" , widget: image,
+              media_folder: "/site/assets/images/games/",
+              public_folder: "/images/games/",
+             },
              ]}
           ]}
           - label: "Testimonial"
@@ -213,7 +219,10 @@ collections:
               {label: "Clients", name: "clients_featured", widget: "list", fields: [
                 {label: "Name" , name: "company" , widget: "text"},
                 {label: "Link" , name: "company_url" , widget: string},
-                {label: "Logo" , name: "company_logo" , widget: image},
+                {label: "Logo" , name: "company_logo" , widget: image,
+                 media_folder: "/site/assets/images/clients/",
+                 public_folder: "/images/clients/"
+                },
               ]}
           ]}
       - file: "site/content/register/_index.md"

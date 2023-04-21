@@ -4,7 +4,7 @@
     {{ $resource := resources.Get .company_logo }}
     {{if $resource}}
         {{ with $resource }}
-          {{ partial "utils/image" (dict "context" $ctx "image" . "alt" $company "className" "client-logo" "option" "Fit" "size" "webp 200x200 center" "baseSize" 100 )}}
+          {{ partial "utils/image" (dict "context" $ctx "image" . "alt" $company "className" "client-logo" "option" "Fit" "size" "webp 415x215 center" "baseSize" 415 )}}
         {{end}}
     {{else}}
         <img src="{{ .company_logo}}" alt="{{.company}}">

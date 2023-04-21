@@ -56,13 +56,13 @@
                                     {{if eq $index 0}}
                                         {{ range first $length $clients}}
                                             <div class="cell" data-equalizer-watch>
-                                                {{ partial "client-link" .}}
+                                                {{ partial "game-link" .}}
                                             </div>
                                         {{end}}
                                     {{else}}
                                         {{ range first $length (after $index $clients)}}
                                             <div class="cell">
-                                                {{ partial "client-link" .}}
+                                                {{ partial "game-link" .}}
                                             </div>
                                         {{end}}
                                     {{end}}
