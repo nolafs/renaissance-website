@@ -83,9 +83,32 @@ export default {
             .addTo(controller);
 
     },
+    animateAward() {
+        const w = 300;
+        const width = $('.award-logo').length * w;
+        console.log(width);
+
+        gsap.set(".award-logo", {
+            x: (i) => i * w
+        });
+
+        let wrap = gsap.utils.wrap(0, width);
+
+
+        gsap.to(".award-logo", {
+            duration: 10,
+            ease: "none",
+            x: `-=${width}`, //move each box 500px to right
+            modifiers: {
+                x: gsap.utils.unitize(x => wrap(parseFloat(x))) //force x value to be between 0 and 500 using modulus
+            },
+            repeat: -1
+        });
+
+
+
+    },
     animList () {
-
-
 
         $(".block-icon-list li").each(function(i) {
             const tl = gsap.timeline();
@@ -137,6 +160,9 @@ export default {
         this.animList();
         this.animServices();
         this.animBlocks();
+        setTimeout(() => {
+            this.animateAward()}, 1000);
+
 
     },
 };

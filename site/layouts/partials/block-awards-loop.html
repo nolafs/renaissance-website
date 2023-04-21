@@ -1,0 +1,35 @@
+{{ "<!-- Block contact -->" | safeHTML }}
+
+<section>
+    <div id="block-awards-loop" class="grid-container full p-t-20 p-b-20 b-c-secondary f-c-white">
+        <div class="grid-container">
+            <div class="grid-x gid-padding-x text-center align-center">
+                <div class="cell small-12 medium-9 large-8">
+                    <h2 class="f-c-white">{{ $.Site.Data.awards.heading}}</h2>
+                </div>
+            </div>
+            <div class="award-wrapper">
+                <div class="award-loop-container">
+                    <ul>
+                    {{ range $.Site.Data.awards.awards}}
+                        <li class="award-logo">
+                            {{$ctx := .}}
+                            {{$company := .title}}
+                            {{ $resource := resources.Get .image }}
+                            {{if $resource}}
+                                {{ with $resource }}
+                                  {{ partial "utils/image" (dict "context" $ctx "image" . "alt" $company "className" "logo" "option" "Fit" "size" "webp 172x172 center" "baseSize" 100 )}}
+                                {{end}}
+                            {{else}}
+                                <img src="{{.image}}" alt="{{.title}}" >
+                            {{end}}
+                        </li>
+                    {{end}}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ "<!-- Block Contact -->" | safeHTML }}
