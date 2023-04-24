@@ -28,16 +28,27 @@
             {{ if .bg_image_mobile }}<div class="mobile"   style="background-image: url('{{ .bg_image_mobile }}')"></div> {{ end }}
         {{ else }}
             <div  class="video-wrapper video-background" data-video="{{ .media.video }}" style="background-image: url('{{ .media.image }}')">
-                <div id="video-player" class="video-foreground responsive-embed"><div id="ytplayer" ></div></div>
+                <div id="video-player" class="video-foreground responsive-embed">
+                    <div id="ytplayer" ></div></div>
             </div>
         <script>
         const tag = document.createElement('script');
         const videoPlayer = document.getElementById('video-player');
-        tag.src = "https://www.youtube.com/player_api";
-        const firstScriptTag = document.getElementsByTagName('script')[0];
-        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-        const video = {{ .media.video }};
         let player;
+
+        lazyLoadVideo()
+
+        function lazyLoadVideo() {
+            if (videoPlayer.getBoundingClientRect().top < window.innerHeight) {
+                 videoPlayer.className += ' playing';
+                 window.removeEventListener('scroll', lazyLoadVideo);
+                 tag.src = "https://www.youtube.com/player_api";
+                 firstScriptTag = document.getElementsByTagName('script')[0];
+                 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+                 video = {{ .media.video }};
+
+            }
+        }
 
         function onYouTubePlayerAPIReady() {
             player = new YT.Player('ytplayer', {
