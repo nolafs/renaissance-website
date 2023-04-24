@@ -4,7 +4,7 @@
     {{ "<!-- CSS -->" | safeHTML }}
     {{ $stylesheet := .Site.Data.webpack.main }}
     {{ with $stylesheet.css }}
-    <link nonce="2726c7f26d45c" href="{{ relURL . }}" rel="stylesheet" media="all">
+    <link nonce="2726c7f26d45c" href="{{ relURL . }}" rel="stylesheet" media="all" preload>
     {{ end }}
 
     {{ "<!-- META -->" | safeHTML }}
