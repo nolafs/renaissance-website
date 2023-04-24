@@ -6,7 +6,7 @@
         <div class="content">{{.Params.text |  markdownify }}</div>
         <div class="profile">
             <div class="profile-img">
-                <img class="image-round" src="{{.Params.profile}}" alt="{{.Params.name}}">
+                <img class="image-round lazyload"  data-src="{{.Params.profile}}" alt="{{.Params.name}}">
             </div>
             <div class="profile-name">
                 {{.Params.name}}
