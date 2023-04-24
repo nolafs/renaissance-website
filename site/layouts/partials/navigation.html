@@ -11,9 +11,9 @@
                 <ul class="menu">
                     <li class="menu-logo">
                         {{if .Site.Params.logo_large}}
-                        <a href="{{ .Site.BaseURL }}" rel="home" class="logo-main"><img src="{{ .Site.Params.logo_large}}" alt="{{ .Site.Title | safeHTML }}"></a>
+                        <a href="{{ .Site.BaseURL }}" rel="home" class="logo-main"><img src="{{ .Site.Params.logo_large}}" alt="{{ .Site.Title | safeHTML }}" width="450" height="95"></a>
                         {{if .Site.Params.logo_large_invert}}
-                        <a href="{{ .Site.BaseURL }}" rel="home" class="logo-invert"><img src="{{ .Site.Params.logo_large_invert}}" alt="{{ .Site.Title | safeHTML }}"></a>
+                        <a href="{{ .Site.BaseURL }}" rel="home" class="logo-invert"><img src="{{ .Site.Params.logo_large_invert}}" alt="{{ .Site.Title | safeHTML }}" width="35" height="38"></a>
                         {{end}}
                         {{else}}
                         <a href="{{ .Site.BaseURL | absLangURL }}">
