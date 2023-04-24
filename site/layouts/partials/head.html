@@ -4,7 +4,7 @@
     {{ "<!-- CSS -->" | safeHTML }}
     {{ $stylesheet := .Site.Data.webpack.main }}
     {{ with $stylesheet.css }}
-    <link nonce="2726c7f26d45c" href="{{ relURL . }}" rel="stylesheet" media="all" preload>
+    <link href="{{ relURL . }}" rel="stylesheet">
     {{ end }}
 
     {{ "<!-- META -->" | safeHTML }}
@@ -42,7 +42,7 @@
     {{ partial "google-analytics-script.html" . }}
 
     {{ if .IsHome }}
-    <script nonce="2726c7f26d45" src="https://identity.netlify.com/v1/netlify-identity-widget.js" async></script>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     {{ end }}
 
 

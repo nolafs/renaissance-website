@@ -7,6 +7,7 @@
 {{ $quality := "q90" }}
 
 {{ $imageProcessed:= .context.Scratch.Get "image" }}
+{{ $processed:= slice}}
 {{ $imgSrcSet := slice }}
 
 {{if not $option}}
@@ -20,6 +21,7 @@
         {{ $srcUrl := (printf "%dx" . | $imageProcessed.Resize).RelPermalink }}
         {{ if eq $imgSrc "" }}{{ $imgSrc = $srcUrl }}{{ end }}
         {{ $imgSrcSet = $imgSrcSet | append (printf "%s %dw" $srcUrl .) }}
+        {{ $processed = $processed | append $srcUrl }}
     {{ end }}
 {{else}}
     {{ $sizes := slice (mul .baseSize 1) (mul .baseSize 2) (mul .baseSize 3)}}
@@ -53,10 +55,12 @@
         {{else}}
             {{ $srcUrl =  $image }}
         {{end}}
-
-          {{ $imgSrcSet = $imgSrcSet | append (printf "%s %dx" $srcUrl.RelPermalink (add $index 1)) }}
+        {{ $imgSrcSet = $imgSrcSet | append (printf "%s %dx" $srcUrl.RelPermalink (add $index 1)) }}
+        {{ $processed = $processed | append $srcUrl }}
     {{ end }}
 {{end}}
+
+{{$first := index $processed 0 }}
 
 {{ $imgSrcSet = (delimit $imgSrcSet ",") }}
 
@@ -70,6 +74,8 @@
 
 {{ $attributes = (delimit $attributes " ") }}
 
-<img class="lazyload {{$className}}" alt="{{ $alt }}" width="{{$imageProcessed.Width}}" height="{{$imageProcessed.Height}}"  data-size = "auto"
-     data-src="{{ ($imageProcessed).RelPermalink }}" data-srcset="{{ $imgSrcSet }}" {{ print $attributes | safeHTMLAttr }}
+
+
+<img class="lazyload {{$className}}" alt="{{ $alt }}" width="{{$first.Width}}" height="{{$first.Height}}"  data-size = "auto"
+     data-src="{{ ($first).RelPermalink }}" data-srcset="{{ $imgSrcSet }}" {{ print $attributes | safeHTMLAttr }}
 />
