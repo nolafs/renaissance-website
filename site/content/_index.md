@@ -4,7 +4,7 @@ header:
   image: /images/uploads/home-hero-790px.jpg
   video: qCwZ7gH3MOY
   video_active: true
-twitter: true
+twitter: false
 tweet: >-
   Attention, damned souls: the Voodolls closed #beta sign up is now live!
   Starting on 19.01, you don't want to miss out!
