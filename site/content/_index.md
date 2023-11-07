@@ -52,9 +52,6 @@ services:
     It’s not about aimlessly shouting about your game to anyone willing to lend their ear: We’re here to take your creativity and make sure right people hears about it in the right way, at the right time, in the right place
 clients:
   clients:
-    - company: Delta Force
-      company_logo: /images/games/delta-force-ann_08-18-23.jpg
-      company_url: https://www.playdeltaforce.com/en/home.html
     - company: Autonauts
       company_logo: /images/games/18f6865daa5af20b286f204e081b2cfd3adddd8e.png
       company_url: https://store.steampowered.com/app/979120/Autonauts/
@@ -64,18 +61,21 @@ clients:
     - company: Vampire
       company_url: https://store.steampowered.com/app/760160/Vampire_The_Masquerade__Bloodhunt/
       company_logo: /images/games/vamp.png
+    - company: Delta Force
+      company_logo: /images/games/delta-force-ann_08-18-23.jpg
+      company_url: https://www.playdeltaforce.com/en/home.html
     - company: DUNE
       company_url: https://store.steampowered.com/app/1605220/Dune_Spice_Wars/
       company_logo: /images/games/dune.png
-    - company: Godlike Burgher
-      company_logo: /images/games/godlike.png
-      company_url: https://store.steampowered.com/app/1432910/Godlike_Burger/
     - company: FixFox
       company_url: https://store.steampowered.com/app/1696220/FixFox/
       company_logo: /images/games/fixfox.png
     - company: Flintlock
       company_url: https://store.steampowered.com/app/1832040/Flintlock_The_Siege_of_Dawn/
       company_logo: /images/games/flintlock.png
+    - company: Godlike Burgher
+      company_logo: /images/games/godlike.png
+      company_url: https://store.steampowered.com/app/1432910/Godlike_Burger/
     - company: Insormountable
       company_url: https://store.steampowered.com/app/1385100/Insurmountable/
       company_logo: /images/games/insorm.png
