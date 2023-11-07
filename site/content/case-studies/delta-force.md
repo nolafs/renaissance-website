@@ -1,6 +1,6 @@
 ---
 title: Delta Force
-date: 2023-11-07T13:13:50.413Z
+date: 2023-08-18T12:13:50.413Z
 categories: worldwide-campaigns
 image: /images/uploads/delta-force-ann_08-18-23.jpg
 client: Timi Studios
