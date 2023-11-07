@@ -52,6 +52,9 @@ services:
     It’s not about aimlessly shouting about your game to anyone willing to lend their ear: We’re here to take your creativity and make sure right people hears about it in the right way, at the right time, in the right place
 clients:
   clients:
+    - company: Delta Force
+      company_logo: /images/games/delta-force-ann_08-18-23.jpg
+      company_url: https://www.playdeltaforce.com/en/home.html
     - company: Autonauts
       company_logo: /images/games/18f6865daa5af20b286f204e081b2cfd3adddd8e.png
       company_url: https://store.steampowered.com/app/979120/Autonauts/
