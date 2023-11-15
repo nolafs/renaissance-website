@@ -50,7 +50,6 @@ team:
       name: Greg Jones
       position: |-
         Head of PR & Communications
-
         Joined Renaissance - 2018
       text: >
         A mainstay of the UK Games PR scene for over 18 years, our Head of PR &
@@ -64,7 +63,6 @@ team:
       name: Aaron Cooper
       position: |-
         Head of Content Creators
-
         Joined Renaissance - 2021
       text: Heading up Renaissance’s award winning Content Creator Team, Aaron has
         been working in videogames for over 15 years. Over the last decade and a
@@ -81,7 +79,6 @@ team:
       name: Keith Andrew
       position: |-
         PR Senior Account Manager
-
         Joined Renaissance - 2016
       text: >
         Setting out into the world of journalism back in 2005, Keith spent a
@@ -98,7 +95,6 @@ team:
       name: Andy Griffiths
       position: |-
         PR Senior Account Manager
-
         Joined Renaissance - 2019
       text: >
         Former games journalist and active public relations and content creator
