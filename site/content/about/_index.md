@@ -116,6 +116,16 @@ team:
 
 
         Over the past decade Andy has launched over 200 titles with both domestic and international publishers and developers.
+    - name: Matthew Taylor
+      text: "Matthew Taylor has been working in PR and marketing since graduating with
+        a History Degree in 2013. In 2019, he joined Renaissance emerging
+        Content Creator Team as his first job in the games industry. What he is
+        most interested in by history, is the people behind the story, and the
+        same is true for his passion in video games. "
+      position: |-
+        EU Content Creator Specialist
+        Joined Renaissance - 2019
+      image: /images/uploads/matthew-bio.png
   text: >
     Renaissance is built around a core team of contributing consultants who
     collectively have more than 50 years’ experience across the games industry;
