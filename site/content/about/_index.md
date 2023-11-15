@@ -91,7 +91,7 @@ team:
 
 
         Keith joined Renaissance in late 2016 and has both worked on and led a diverse range of projects; from small indie games through to big IP across a wide range of genres.
-    - image: /images/uploads/staff-andy-griffiths.jpg
+    - image: /images/uploads/andy-bio.jpg
       name: Andy Griffiths
       position: |-
         PR Senior Account Manager
