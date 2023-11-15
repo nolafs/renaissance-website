@@ -50,6 +50,7 @@ team:
       name: Greg Jones
       position: |-
         Head of PR & Communications
+
         Joined Renaissance - 2018
       text: >
         A mainstay of the UK Games PR scene for over 18 years, our Head of PR &
@@ -63,6 +64,7 @@ team:
       name: Aaron Cooper
       position: |-
         Head of Content Creators
+
         Joined Renaissance - 2021
       text: Heading up Renaissance’s award winning Content Creator Team, Aaron has
         been working in videogames for over 15 years. Over the last decade and a
@@ -79,6 +81,7 @@ team:
       name: Keith Andrew
       position: |-
         PR Senior Account Manager
+
         Joined Renaissance - 2016
       text: >
         Setting out into the world of journalism back in 2005, Keith spent a
@@ -93,14 +96,19 @@ team:
         Keith joined Renaissance in late 2016 and has both worked on and led a diverse range of projects; from small indie games through to big IP across a wide range of genres.
     - image: /images/uploads/staff-andy-griffiths.jpg
       name: Andy Griffiths
-      position: Influencer & Media Relations
+      position: |-
+        PR Senior Account Manager
+
+        Joined Renaissance - 2019
       text: >
-        An industry all-rounder who has worked in the field of influencer
-        relations, community management, press relations and marketing for big
-        international conglomerates as well as small independent studios. 
+        Former games journalist and active public relations and content creator
+        marketing specialist. 
 
 
-        Andy’s bread and butter is the PC platform and optimising awareness for games as a service titles. He’s previously worked on WildStar, Guild Wars 2, Robocraft, Autonauts and many more commercially and critically acclaimed hits.
+        Masterminded PR and marketing campaigns across all genres and platforms utilising all budget ranges from AAA to indie. Previous games launched include award-winning MMORPG Guild Wars 2, free-to-play family-focused building game Robocraft and first-party exclusive Robocraft Infinity. 
+
+
+        Over the past decade Andy has launched over 200 titles with both domestic and international publishers and developers.
   text: >
     Renaissance is built around a core team of contributing consultants who
     collectively have more than 50 years’ experience across the games industry;
