@@ -48,12 +48,14 @@ team:
         UKIE and BAFTA member, Videogame Ambassador and renown international speaker, Stefano is an optimist, extrovert communication veteran always looking at way to innovate.
     - image: /images/uploads/staff-greg-jones.jpg
       name: Greg Jones
-      position: Influencer & Media Relations
+      position: |-
+        Head of PR & Communications
+        Joined Renaissance - 2018
       text: >
-        A mainstay of the UK Games PR scene for over 18 years, our Senior
-        Consultant, Greg Jones, has held communications positions with some of
-        the biggest names in the business from Microsoft Xbox, THQ and Warner
-        Bros to 505 Games, SEGA UK and Disney Interactive.
+        A mainstay of the UK Games PR scene for over 18 years, our Head of PR &
+        Communications, Greg Jones, has held positions with some of the biggest
+        names in the business from Microsoft Xbox, THQ and Warner Bros to 505
+        Games, SEGA UK and Disney Interactive.
 
         With a career including AAA title launches across the WWE, Dawn of War and Payday series’ plus indie titles including the BAFTA winning Brothers: a Tale of Two Sons, Terraria and Abzu, Greg brings a wealth of cross-genre experience to the team as well as an understanding of media and content creators which allows him to identify the right targets, for the right titles no matter the scope of the project.
          A life long and passionate fan of all things games related, Greg has been a part of the Renaissance team since early 2018.
