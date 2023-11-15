@@ -75,6 +75,17 @@ team:
         Manufacture on the No More Heroes series for Nintendo Switch and was
         additionally a part of the formation of videogame mental health charity
         Safe in our World.
+    - name: Sophie Carter
+      position: |-
+        PR Senior Account Manager
+        Joined Renaissance - 2021
+      text: >-
+        Sophie joined the Renaissance PR team in 2021 as Senior Account Manager
+        and work across product and corporate accounts. 
+
+
+        With 10 years’ experience in both B2C and B2B PR, her gaming PR portfolio spans PC, console, and mobile titles as well as corporate communications and includes projects for titles such as Baldur’s Gate 3, Disco Elysium and The Ascent. Currently, Sophie works for Renaissance PR across the accounts for Sharkmob, FuturLab, EmberLab as well as some product PR.
+      image: /images/uploads/sophie-bio.jpg
     - image: /images/uploads/keith-bio.png
       name: Keith Andrew
       position: |-
