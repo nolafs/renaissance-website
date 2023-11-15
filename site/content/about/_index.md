@@ -46,33 +46,6 @@ team:
 
 
         UKIE and BAFTA member, Videogame Ambassador and renown international speaker, Stefano is an optimist, extrovert communication veteran always looking at way to innovate.
-    - image: /images/uploads/staff-keith-andrew.jpg
-      name: Keith Andrew
-      position: Media Relations
-      text: >
-        Setting out into the world of journalism back in 2005, Keith spent a
-        large chunk of writing career covering the rise of smartphone games
-        during the App Store boom in the late noughties, eventually serving as
-        the Editor of Pocket Gamer’s industry-focused spin off.
-
-
-        In 2014, Keith went fully freelance, writing for a whole host of publications including Edge, GamesTM, GamesMaster, Rolling Stone, Digital Spy, Gamesradar Lad Bible, Official Xbox Magazine, GamesIndustry.biz, Trusted Reviews, MCV, and many others. 
-
-
-        Keith joined Renaissance in late 2016 and has both worked on and led a diverse range of projects; from small indie games through to big IP across a wide range of genres.
-    - image: /images/uploads/staff-aaron-seaman.jpg
-      name: Aaron Seaman
-      position: Media Relations
-      text: >
-        Since early 2018, Aaron joined Renaissance PR as fresh face to the UK
-        games industry. As a former teacher, he used his previous management
-        skills to quickly grasp the inner workings of essential PR processes.
-
-
-        He is now a fully fledged member of the team and an executive across a wide variety of clients, having had an integral part in the launches of such titles as Telltale’s: The Walking Dead, The Outer Worlds, Beamdog’s Enhanced Editions (Baldur’s Gate etc) and Ancestors: The Humankind Odyssey.
-
-
-        A gaming fanatic and an incredibly driven individual, Aaron has proven his skill set with what he has achieved so far.
     - image: /images/uploads/staff-greg-jones.jpg
       name: Greg Jones
       position: Influencer & Media Relations
@@ -84,6 +57,38 @@ team:
 
         With a career including AAA title launches across the WWE, Dawn of War and Payday series’ plus indie titles including the BAFTA winning Brothers: a Tale of Two Sons, Terraria and Abzu, Greg brings a wealth of cross-genre experience to the team as well as an understanding of media and content creators which allows him to identify the right targets, for the right titles no matter the scope of the project.
          A life long and passionate fan of all things games related, Greg has been a part of the Renaissance team since early 2018.
+    - image: /images/uploads/aaron-c-bio.png
+      name: Aaron Cooper
+      position: |-
+        Head of Content Creators
+        Joined Renaissance - 2021
+      text: Heading up Renaissance’s award winning Content Creator Team, Aaron has
+        been working in videogames for over 15 years. Over the last decade and a
+        half, his journey through the industry has seen experience gained from
+        very different sides of the industry, from working directly in game
+        development, developing Communications for retail HQ giant GAME, and
+        working publisher side at 2K – working on global hit franchises such as
+        XCOM, Mafia, Borderlands, NBA 2K and Civilization. As personal passion
+        projects, he has also worked with SUDA 51 and the team at Grasshopper
+        Manufacture on the No More Heroes series for Nintendo Switch and was
+        additionally a part of the formation of videogame mental health charity
+        Safe in our World.
+    - image: /images/uploads/keith-bio.png
+      name: Keith Andrew
+      position: |-
+        PR Senior Account Manager
+        Joined Renaissance - 2016
+      text: >
+        Setting out into the world of journalism back in 2005, Keith spent a
+        large chunk of writing career covering the rise of smartphone games
+        during the App Store boom in the late noughties, eventually serving as
+        the Editor of Pocket Gamer’s industry-focused spin off.
+
+
+        In 2014, Keith went fully freelance, writing for a whole host of publications including Edge, GamesTM, GamesMaster, Rolling Stone, Digital Spy, Gamesradar, Lad Bible, Official Xbox Magazine, GamesIndustry.biz, Trusted Reviews, MCV, and many others.
+
+
+        Keith joined Renaissance in late 2016 and has both worked on and led a diverse range of projects; from small indie games through to big IP across a wide range of genres.
     - image: /images/uploads/staff-andy-griffiths.jpg
       name: Andy Griffiths
       position: Influencer & Media Relations
@@ -95,7 +100,7 @@ team:
 
         Andy’s bread and butter is the PC platform and optimising awareness for games as a service titles. He’s previously worked on WildStar, Guild Wars 2, Robocraft, Autonauts and many more commercially and critically acclaimed hits.
   text: >
-    Renaissance is built around  a core team of contributing consultants who
+    Renaissance is built around a core team of contributing consultants who
     collectively have more than 50 years’ experience across the games industry;
     in marketing, PR, and product management, spanning the AAA and Indie
     sectors.
