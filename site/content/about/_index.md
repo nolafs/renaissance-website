@@ -32,7 +32,7 @@ founder:
 team:
   heading: The Team
   team_list:
-    - image: /images/uploads/team_1.jpg
+    - image: /images/uploads/stefano-bio-v2.jpg
       name: Stefano Petrullo
       position: |+
         Founder
@@ -81,7 +81,7 @@ team:
 
         With 10 years’ experience in both B2C and B2B PR, her gaming PR portfolio spans PC, console, and mobile titles as well as corporate communications and includes projects for titles such as Baldur’s Gate 3, Disco Elysium and The Ascent. Currently, Sophie works for Renaissance PR across the accounts for Sharkmob, FuturLab, EmberLab as well as some product PR.
       image: /images/uploads/sophie-bio-v2.jpg
-    - image: /images/uploads/keith-bio.png
+    - image: /images/uploads/keith-bio-v2.png
       name: Keith Andrew
       position: PR Senior Account Manager
       text: >
@@ -127,7 +127,7 @@ team:
         most interested in by history, is the people behind the story, and the
         same is true for his passion in video games. "
       position: EU Content Creator Specialist
-      image: /images/uploads/matthew-bio.png
+      image: /images/uploads/matthew-bio-v2.png
     - name: Candice Shane
       position: NA Content Creator Specialist
       text: >-
