@@ -48,9 +48,7 @@ team:
         UKIE and BAFTA member, Videogame Ambassador and renown international speaker, Stefano is an optimist, extrovert communication veteran always looking at way to innovate.
     - image: /images/uploads/staff-greg-jones.jpg
       name: Greg Jones
-      position: |-
-        Head of PR & Communications
-        Joined Renaissance - 2018
+      position: Head of PR & Communications
       text: >
         A mainstay of the UK Games PR scene for over 18 years, our Head of PR &
         Communications, Greg Jones, has held positions with some of the biggest
@@ -61,9 +59,7 @@ team:
          A life long and passionate fan of all things games related, Greg has been a part of the Renaissance team since early 2018.
     - image: /images/uploads/aaron-c-bio.png
       name: Aaron Cooper
-      position: |-
-        Head of Content Creators
-        Joined Renaissance - 2021
+      position: Head of Content Creators
       text: Heading up Renaissance’s award winning Content Creator Team, Aaron has
         been working in videogames for over 15 years. Over the last decade and a
         half, his journey through the industry has seen experience gained from
@@ -76,9 +72,7 @@ team:
         additionally a part of the formation of videogame mental health charity
         Safe in our World.
     - name: Sophie Carter
-      position: |-
-        PR Senior Account Manager
-        Joined Renaissance - 2021
+      position: PR Senior Account Manager
       text: >-
         Sophie joined the Renaissance PR team in 2021 as Senior Account Manager
         and work across product and corporate accounts. 
@@ -88,9 +82,7 @@ team:
       image: /images/uploads/sophie-bio.jpg
     - image: /images/uploads/keith-bio.png
       name: Keith Andrew
-      position: |-
-        PR Senior Account Manager
-        Joined Renaissance - 2016
+      position: PR Senior Account Manager
       text: >
         Setting out into the world of journalism back in 2005, Keith spent a
         large chunk of writing career covering the rise of smartphone games
@@ -104,9 +96,7 @@ team:
         Keith joined Renaissance in late 2016 and has both worked on and led a diverse range of projects; from small indie games through to big IP across a wide range of genres.
     - image: /images/uploads/andy-bio.jpg
       name: Andy Griffiths
-      position: |-
-        PR Senior Account Manager
-        Joined Renaissance - 2019
+      position: PR Senior Account Manager
       text: >
         Former games journalist and active public relations and content creator
         marketing specialist. 
@@ -122,9 +112,7 @@ team:
         Content Creator Team as his first job in the games industry. What he is
         most interested in by history, is the people behind the story, and the
         same is true for his passion in video games. "
-      position: |-
-        EU Content Creator Specialist
-        Joined Renaissance - 2019
+      position: EU Content Creator Specialist
       image: /images/uploads/matthew-bio.png
   text: >
     Renaissance is built around a core team of contributing consultants who
