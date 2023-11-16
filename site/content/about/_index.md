@@ -60,7 +60,7 @@ team:
 
 
         A life long and passionate fan of all things games related, Greg has been a part of the Renaissance team since early 2018.
-    - image: /images/uploads/aaron-c-bio.png
+    - image: /images/uploads/aaron-c-bio-v2.png
       name: Aaron Cooper
       position: Head of Content Creators
       text: >-
