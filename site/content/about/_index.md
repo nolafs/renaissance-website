@@ -46,7 +46,7 @@ team:
 
 
         UKIE and BAFTA member, Videogame Ambassador and renown international speaker, Stefano is an optimist, extrovert communication veteran always looking at way to innovate.
-    - image: /images/uploads/staff-greg-jones.jpg
+    - image: /images/uploads/greg-bio-v2.jpg
       name: Greg Jones
       position: Head of PR & Communications
       text: >
