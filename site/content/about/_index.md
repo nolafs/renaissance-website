@@ -107,6 +107,18 @@ team:
 
 
         Over the past decade Andy has launched over 200 titles with both domestic and international publishers and developers.
+    - name: Sam Faulkner
+      text: >-
+        Sam has worked in games for a decade now and has had a broad career to
+        date. Starting out as a professional Film Journalist, he moved into
+        Games writing before moving in-house to work in Community Management.
+        Getting the bug for the development environment, Sam has worked
+        variously in PR, Design, Game Writing, Presenting and Production. 
+
+
+        A hybrid development and publishing professional comfortable speaking both languages, Sam is most proud of his work as Publishing Producer for Larian Studios and looks back with particular fondness on working on Baldur’s Gate 3 during Early Access. Leaving Larian in mid 2022, Sam became an independent consultant, working with indies, publishers and PR firms and has been working with Renaissance since late 2022 on planning and execution of creative plans. 
+      image: /images/uploads/sam-bio-v2.png
+      position: " "
     - name: Claire Sharkey
       text: >-
         Claire has contributed significantly to multiple projects and causes
