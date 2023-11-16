@@ -55,22 +55,23 @@ team:
         names in the business from Microsoft Xbox, THQ and Warner Bros to 505
         Games, SEGA UK and Disney Interactive.
 
+
         With a career including AAA title launches across the WWE, Dawn of War and Payday series’ plus indie titles including the BAFTA winning Brothers: a Tale of Two Sons, Terraria and Abzu, Greg brings a wealth of cross-genre experience to the team as well as an understanding of media and content creators which allows him to identify the right targets, for the right titles no matter the scope of the project.
-         A life long and passionate fan of all things games related, Greg has been a part of the Renaissance team since early 2018.
+
+
+        A life long and passionate fan of all things games related, Greg has been a part of the Renaissance team since early 2018.
     - image: /images/uploads/aaron-c-bio.png
       name: Aaron Cooper
       position: Head of Content Creators
-      text: Heading up Renaissance’s award winning Content Creator Team, Aaron has
-        been working in videogames for over 15 years. Over the last decade and a
-        half, his journey through the industry has seen experience gained from
-        very different sides of the industry, from working directly in game
-        development, developing Communications for retail HQ giant GAME, and
-        working publisher side at 2K – working on global hit franchises such as
-        XCOM, Mafia, Borderlands, NBA 2K and Civilization. As personal passion
-        projects, he has also worked with SUDA 51 and the team at Grasshopper
-        Manufacture on the No More Heroes series for Nintendo Switch and was
-        additionally a part of the formation of videogame mental health charity
-        Safe in our World.
+      text: >-
+        Heading up Renaissance’s award winning Content Creator Team since 2021,
+        Aaron has been working in videogames for over 15 years. 
+
+
+        Over the last decade and a half, his journey through the industry has seen experience gained from very different sides of the industry, from working directly in game development, developing Communications for retail HQ giant GAME, and working publisher side at 2K – working on global hit franchises such as XCOM, Mafia, Borderlands, NBA 2K and Civilization. 
+
+
+        As personal passion projects, he has also worked with SUDA 51 and the team at Grasshopper Manufacture on the No More Heroes series for Nintendo Switch and was additionally a part of the formation of videogame mental health charity Safe in our World.
     - name: Sophie Carter
       position: PR Senior Account Manager
       text: >-
@@ -106,6 +107,19 @@ team:
 
 
         Over the past decade Andy has launched over 200 titles with both domestic and international publishers and developers.
+    - name: Claire Sharkey
+      text: >-
+        Claire has contributed significantly to multiple projects and causes
+        across the indie and AAA space in her continued 10+ years of working in
+        the industry. 
+
+
+        She has been nominated and won a host of prestigious awards, a standout being a 2-time BAFTA nominee. In 2022 she won Marketing Hero at the Game Dev Heroes Awards, after having been nominated for the role 4 times previously, and in 2023 was nominated as an individual Marketing nominee at the Develop Star Awards. 
+
+
+        She frequently does talks and panels, offering marketing and comms workshops as well as diversity promotion. Her main approach to the above and daily events/campaigns is to push transparency and be personable where needed. She joined Renaissance in 2023.
+      position: PR Senior Account Manager
+      image: /images/uploads/claire-bio.png
     - name: Matthew Taylor
       text: "Matthew Taylor has been working in PR and marketing since graduating with
         a History Degree in 2013. In 2019, he joined Renaissance emerging
@@ -114,6 +128,37 @@ team:
         same is true for his passion in video games. "
       position: EU Content Creator Specialist
       image: /images/uploads/matthew-bio.png
+    - name: Candice Shane
+      position: NA Content Creator Specialist
+      text: >-
+        After a chance friendship with the Editor-In-Chief of a well-respected
+        gaming magazine was struck, Candice was encouraged to take a step into
+        writing reviews and editorials. During her mentorship, she noticed an
+        intense lack of women given entrance into the 'Boys Club' of most gaming
+        publications and sought to push through those doors, from website to
+        website. In the mid-to-late-00s, as the digital imprint of gaming
+        expanded, Candice moved into being a Consulting Editor. This allowed her
+        the ability to come onto the staff of multiple websites and infuse a
+        woman's perspective where it was sorely needed. 
+
+
+        In 2013, Candice was approached to head up the written content for Loot Crate, aptly called "The Daily Crate" which was a review/impressions site for all things gaming and pop culture. This expanded into assisting with building up attention to their Twitch channel until it was turned into a rotating chair live-show.
+
+
+        TL;DR - Writer, Content Creator & Podcaster with a SEVERE passion for gaming joined Renaissance in 2020.
+      image: /images/uploads/candice-bio.png
+    - name: Bella Shane
+      position: NA Content Creator Specialist
+      text: >-
+        Bella joined Renaissance PR in 2023 to find a way to marry her love of
+        research and data with gaming and influencer culture. Renaissance was
+        the perfect place to learn strategy for content creators and utilize her
+        love for the fast paced world of gaming and the factual world of
+        research that she loves so much. 
+
+
+        Before joining, Bella helped people research all manner of details and enjoyed quite a bit of time fact-checking for editors, analysts and ghostwriters. Not wanting to hand over her research towards clients that she felt weren't giving the best service with her data, she looked towards becoming more hands on in an industry she already widely respected and had loved from a young age.
+      image: /images/uploads/bella-bio.jpg
   text: >
     Renaissance is built around a core team of contributing consultants who
     collectively have more than 50 years’ experience across the games industry;
