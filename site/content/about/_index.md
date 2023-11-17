@@ -5,13 +5,13 @@ mission:
   image: /images/uploads/about_icon.svg
   text: To create the best conditions for your project, product or corporate
     activities to succeed through strategic planning, delivering measurable
-    results without unnecessary jargon
+    results without unnecessary jargon.
 values:
   heading: Our Values
   image: /images/uploads/values.jpg
   text: >
     Renaissance is a firm believer in ethical communication & transparency in
-    the interests of all parties - both in terms of our clients, and the media
+    the interests of all parties - both in terms of our clients and the media
     they want to talk to. We are active in educating the industry in best
     practices through seminars and talks.
 founder:
@@ -28,7 +28,7 @@ founder:
     Watch Dogs, Assassin's Creed, Far Cry, Yooka Laylee, The Outer Worlds, Battalion 1944, Forgotton Anne amongst others …
 
 
-    UKIE and BAFTA member and juror, Videogame Ambassador and renown international speaker, Stefano is a communication veteran always looking at way to innovate.
+    UKIE and BAFTA member and juror, Videogame Ambassador and renowned international speaker, Stefano is a communication veteran always looking at ways to innovate.
 team:
   heading: The Team
   team_list:
@@ -192,9 +192,9 @@ team:
 why:
   heading: … so, why choose Renaissance?
   text: Our approach focuses on building our plans around key pillars that are
-    always simple for the client to understand, integrated to the rest of the
+    always simple for the client to understand, integrated into the rest of the
     channels and measurable from the very beginning! You never pay for our time,
-    you pay for delivering the plan and the KPI we present to you
+    you pay for delivering the plan and the KPI's that we present to you.
   why_list:
     - icon: /images/uploads/analysis.svg
       text: "Everything we do is planned around achieving specific, measurable goals
@@ -207,15 +207,15 @@ why:
     - icon: /images/uploads/about-icon-scalable.svg
       text: >
         Whether a short local burst or a long term worldwide campaign, we cater
-        for all offering different solutions
+        for everyone, offering different scalable solutions.
       title: Scalable
     - icon: /images/uploads/about-icon-clientorienteated.svg
-      text: " We build all around your development timeline, not vice versa!"
+      text: " We build everything around your development timeline, not vice versa!"
       title: Client-orientated
     - icon: /images/uploads/about-icon-kpi.svg
       text: >
         Everything we do is measurable, every activity rationalized with you at
-        the planning stage and executed accordingly
+        the planning stage and executed accordingly.
       title: Measurable
 ---
 We believe in ethical communications, working with the client to ensure their creativity is experienced by the right people at the right time.
