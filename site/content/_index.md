@@ -179,7 +179,7 @@ clients:
     - company: VAULTN
       company_url: https://vaultn.com/
       company_logo: /images/clients/vaultn.png
-  heading: Some of Our Clients
+  heading: Our Current Clients
   productsheading: Latest Games
   productstext: Our Latest projects
   slider_num: "12"
