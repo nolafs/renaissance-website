@@ -71,6 +71,9 @@ clients:
     - company: gamescom
       company_logo: /images/clients/gamescomlogo.png
       company_url: https://www.gamescom.global/en
+    - company: Goose Byte
+      company_url: https://www.goosebyte.games/
+      company_logo: /images/clients/goose-byte.jpg
     - company: Green Man Gaming
       company_logo: /images/clients/client-greenman.jpg
       company_url: https://www.greenmangaming.com/
