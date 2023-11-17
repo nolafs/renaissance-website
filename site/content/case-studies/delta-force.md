@@ -14,9 +14,9 @@ Partnering with Timi Studios, part of the Tencent Family of studios, Renaissa
 
 ![](/images/uploads/df-web1.png)
 
+​
 
-
-​Working with the organizers of Gamescom Opening Night Live and the editorial teams at IGN, we set up a coordinated announcement strategy which resulted in over 630 articles published worldwide, reaching an absolutely astonishing  2.54Bn umv audience reach in just under 3 weeks. ​
+Working with the organizers of Gamescom Opening Night Live and the editorial teams at IGN, we set up a coordinated announcement strategy which resulted in over 630 articles published worldwide, reaching an absolutely astonishing  2.54Bn umv audience reach in just under 3 weeks. ​
 
 ![](/images/uploads/df-web3.png)
 
