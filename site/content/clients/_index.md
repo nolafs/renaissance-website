@@ -38,6 +38,9 @@ clients:
     - company: Curve Games
       company_logo: /images/clients/curve.png
       company_url: https://curvegames.com/
+    - company_url: https://cyborn.be/
+      company: Cyborn
+      company_logo: /images/clients/cyborn.png
     - company: Daedalic Entertainment
       company_logo: /images/clients/client-daedelic.jpg
       company_url: https://www.daedalic.com/
