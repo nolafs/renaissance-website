@@ -140,12 +140,24 @@ clients:
     - company: GameMill
       company_url: https://gamemill.com/
       company_logo: /images/clients/gamemill_entertainment.svg.png
+    - company: Hyper Luminal Games
+      company_url: https://www.hyperluminalgames.com/
+      company_logo: /images/clients/hlg-logo.png
     - company: IIDEA
       company_logo: /images/clients/idea-logo-v2.png
       company_url: https://en.iideassociation.com/
     - company: Level Infinite
       company_url: https://www.levelinfinite.com/
       company_logo: /images/clients/li-logo.png
+    - company: Pathea
+      company_url: https://pathea.net/
+      company_logo: /images/clients/pathea.png
+    - company: Pingle Studio
+      company_url: https://pinglestudio.com/
+      company_logo: /images/clients/pingle.png
+    - company: PM Studios
+      company_url: https://www.pm-studios.com/
+      company_logo: /images/clients/pm-studios.jpeg
     - company: Sharkmob
       company_url: https://www.sharkmob.com/
       company_logo: /images/clients/sharkmobtest.png
