@@ -11,6 +11,12 @@ clients:
     - company: 505 Games
       company_url: https://505games.com/
       company_logo: /images/clients/505-games-squarelogo-1497955311797.png
+    - company: Activision Blizzard
+      company_logo: /images/clients/acti-bliz.png
+      company_url: https://www.activisionblizzard.com/
+    - company: Atari
+      company_logo: /images/clients/atari-logo.png
+      company_url: https://atari.com/
     - company: Awe Interactive
       company_url: https://www.aweinteractive.com/
       company_logo: /images/clients/awe.png
@@ -53,6 +59,9 @@ clients:
     - company: GameMill
       company_logo: /images/clients/gamemill_entertainment.svg.png
       company_url: https://gamemill.com/
+    - company: gamescom
+      company_logo: /images/clients/gamescomlogo.png
+      company_url: https://www.gamescom.global/en
     - company: Green Man Gaming
       company_logo: /images/clients/client-greenman.jpg
       company_url: https://www.greenmangaming.com/
@@ -92,6 +101,9 @@ clients:
     - company: LKA
       company_logo: /images/clients/client-lka.jpg
       company_url: http://lka.it/
+    - company: Maze Theory
+      company_logo: /images/clients/maze-theory.png
+      company_url: https://www.maze-theory.com/
     - company: Milestone
       company_logo: /images/clients/client-milestone.jpg
       company_url: http://milestone.it/
