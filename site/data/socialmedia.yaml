@@ -1,7 +1,7 @@
 links:
-  - id: facebook-f
-    type: Facebook
-    url: 'https://www.facebook.com/RenaissancePR'
   - id: twitter
     type: Twitter
-    url: 'https://twitter.com/RenaissancePRUK'
+    url: https://twitter.com/RenaissancePRUK
+  - id: facebook-f
+    type: Facebook
+    url: https://www.facebook.com/RenaissancePR
