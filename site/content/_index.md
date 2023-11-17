@@ -155,15 +155,30 @@ clients:
     - company: Pingle Studio
       company_url: https://pinglestudio.com/
       company_logo: /images/clients/pingle.png
+    - company: PlayFusion
+      company_url: https://www.playfusion.com/
+      company_logo: /images/clients/playfusion.png
     - company: PM Studios
       company_url: https://www.pm-studios.com/
       company_logo: /images/clients/pm-studios.jpeg
+    - company: Radical Forge
+      company_url: https://www.radicalforge.com/
+      company_logo: /images/clients/radical-forge.png
+    - company: Revolution
+      company_url: https://revolution.co.uk/
+      company_logo: /images/clients/revolution.png
+    - company: Secret Mode
+      company_logo: /images/clients/secret-mode.png
+      company_url: https://wearesecretmode.com/
     - company: Sharkmob
       company_url: https://www.sharkmob.com/
       company_logo: /images/clients/sharkmobtest.png
     - company: Tencent Games
       company_url: https://www.tencent.com/en-us/
       company_logo: /images/clients/tencent-games.png
+    - company: VAULTN
+      company_url: https://vaultn.com/
+      company_logo: /images/clients/vaultn.png
   heading: Some of Our Clients
   productsheading: Latest Games
   productstext: Our Latest projects
