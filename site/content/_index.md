@@ -52,6 +52,9 @@ services:
     It’s not about aimlessly shouting about your game to anyone willing to lend their ear: We’re here to take your creativity and make sure right people hears about it in the right way, at the right time, in the right place
 clients:
   clients:
+    - company: Assassins Creed Jade
+      company_url: https://www.assassinscreedjade.com/
+      company_logo: /images/games/acjade-v2.jpg
     - company: Conan Exiles
       company_url: https://store.steampowered.com/app/440900/Conan_Exiles/
       company_logo: /images/games/conan.jpg
