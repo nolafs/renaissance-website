@@ -55,6 +55,9 @@ clients:
     - company: Assassins Creed Jade
       company_url: https://www.assassinscreedjade.com/
       company_logo: /images/games/acjade-v2.jpg
+    - company: "Avatar: The Last Airbender - Quest For Balance"
+      company_url: https://store.steampowered.com/app/1620030/Avatar_The_Last_Airbender__Quest_for_Balance/
+      company_logo: /images/games/avatar.jpg
     - company: Broken Sword - Parzival's Stone
       company_url: https://store.steampowered.com/app/2546810/Broken_Sword__Parzivals_Stone/
       company_logo: /images/games/bs-ps.jpg
