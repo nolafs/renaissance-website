@@ -5,6 +5,9 @@ clients:
     - company: 3d Clouds
       company_url: https://www.3dclouds.it/
       company_logo: /images/clients/3dcloudslogo.png
+    - company: 10 Chambers
+      company_logo: /images/clients/10-chambers-logo.png
+      company_url: https://careers.10chambers.com/
     - company: 505 Games
       company_url: https://505games.com/
       company_logo: /images/clients/505-games-squarelogo-1497955311797.png
@@ -14,6 +17,9 @@ clients:
     - company: Billy Goat Entertainment
       company_logo: /images/clients/client-billygoat.jpg
       company_url: https://www.billygoat.tv/
+    - company: Bonsai Collective
+      company_logo: /images/clients/company-logo_bonsai-collective-initis.png
+      company_url: https://www.bonsai-collective.com/
     - company: Bulkhead
       company_logo: /images/clients/client-bulkhead.jpg
       company_url: https://bulkheadinteractive.com/
@@ -29,6 +35,12 @@ clients:
     - company: Edgecase
       company_logo: /images/clients/client-edgecase.jpg
       company_url: http://www.edgecasegames.net/
+    - company: Ember Lab
+      company_logo: /images/clients/company-logo_emberlab.png
+      company_url: https://emberlab.com/
+    - company: Event Horizon
+      company_logo: /images/clients/evnt-horizon-logo.png
+      company_url: https://evehor.com/
     - company: Exquisite Gaming
       company_logo: /images/clients/client-exquisitegaming.jpg
       company_url: https://exgpro.com/
@@ -38,6 +50,9 @@ clients:
     - company: Futurlab
       company_url: https://futurlab.co.uk/
       company_logo: /images/clients/futurlab.png
+    - company: GameMill
+      company_logo: /images/clients/gamemill_entertainment.svg.png
+      company_url: https://gamemill.com/
     - company: Green Man Gaming
       company_logo: /images/clients/client-greenman.jpg
       company_url: https://www.greenmangaming.com/
@@ -47,6 +62,9 @@ clients:
     - company: Hook
       company_logo: /images/clients/hook_red.png
       company_url: https://www.hookgames.net/
+    - company: Hyper Luminal Games
+      company_logo: /images/clients/hlg-logo.png
+      company_url: https://www.hyperluminalgames.com/
     - company: IIDEA
       company_logo: /images/clients/idea-logo-v2.png
       company_url: http://www.aesvi.it
@@ -92,42 +110,60 @@ clients:
     - company: Nighthawk Interactive
       company_url: https://www.nighthawkinteractive.com/
       company_logo: /images/clients/nighthawk.png
+    - company: Pathea
+      company_logo: /images/clients/pathea.png
+      company_url: https://pathea.net/
     - company: Payload Studios
       company_url: https://payloadstudios.com/
       company_logo: /images/clients/payloadlogo_badge_no_gradient-scaled.png
+    - company: Pingle Studio
+      company_logo: /images/clients/pingle.png
+      company_url: https://pinglestudio.com/
     - company: Pixyul
       company_logo: /images/clients/client-pixyul.jpg
       company_url: http://pixyul.com/
+    - company: PlayFusion
+      company_logo: /images/clients/playfusion.png
+      company_url: https://www.playfusion.com/
     - company: Playmagic
       company_logo: /images/clients/client-playmagic.jpg
       company_url: http://www.play-magic.net/
-    - company: Private Division
-      company_logo: /images/clients/client-privatedivision.jpg
-      company_url: https://www.privatedivision.com/
     - company: Pqube
       company_logo: /images/clients/client-pqube.jpg
       company_url: https://pqube.co.uk/
+    - company: PM Studios
+      company_logo: /images/clients/pm-studios.jpeg
+      company_url: https://www.pm-studios.com/
+    - company: Private Division
+      company_logo: /images/clients/client-privatedivision.jpg
+      company_url: https://www.privatedivision.com/
     - company: R8 Games
       company_logo: /images/clients/client-r8games.jpg
       company_url: http://pacergame.com/
+    - company: Radical Forge
+      company_logo: /images/clients/radical-forge.png
+      company_url: https://www.radicalforge.com/
     - company: Raiser Games
       company_logo: /images/clients/logo-raiser-games.png
       company_url: https://www.raisergames.com/
     - company: Red Kite
       company_logo: /images/clients/client-redkite.jpg
       company_url: https://redkitegames.co.uk/
+    - company: Revolution
+      company_logo: /images/clients/revolution.png
+      company_url: https://revolution.co.uk/
     - company: Rising Star Games
       company_logo: /images/clients/client-risingstar.jpg
       company_url: http://www.risingstargames.com/
-    - company: Revolution
-      company_logo: /images/clients/client-revolution.jpg
-      company_url: https://revolution.co.uk/
     - company: Salix Games
       company_logo: /images/clients/client-salixgames.jpg
       company_url: http://www.salixgames.com/
     - company: Science and Media Museum
       company_logo: /images/clients/client-scienceandmmedia.jpg
       company_url: https://www.scienceandmediamuseum.org.uk/
+    - company: Secret Mode
+      company_logo: /images/clients/secret-mode.png
+      company_url: https://wearesecretmode.com/
     - company: Sharkmob
       company_url: https://www.sharkmob.com/
       company_logo: /images/clients/sharkmobtest.png
@@ -167,12 +203,15 @@ clients:
     - company: Typhoon
       company_logo: /images/clients/client-typhoon.jpg
       company_url: http://typhoonstudios.com/
-    - company: Wired
-      company_logo: /images/clients/client-wired.jpg
-      company_url: https://www.wiredproductions.com/
+    - company: VAULTN
+      company_logo: /images/clients/vaultn.png
+      company_url: https://vaultn.com/
     - company: Wild River
       company_logo: /images/clients/client-wildriver.jpg
       company_url: https://wildriver.games/en/home
+    - company: Wired
+      company_logo: /images/clients/client-wired.jpg
+      company_url: https://www.wiredproductions.com/
   heading: " "
   text: " "
 ---
