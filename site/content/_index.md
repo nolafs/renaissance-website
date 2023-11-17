@@ -52,72 +52,42 @@ services:
     It’s not about aimlessly shouting about your game to anyone willing to lend their ear: We’re here to take your creativity and make sure right people hears about it in the right way, at the right time, in the right place
 clients:
   clients:
-    - company: Autonauts
-      company_logo: /images/games/18f6865daa5af20b286f204e081b2cfd3adddd8e.png
-      company_url: https://store.steampowered.com/app/979120/Autonauts/
-    - company: AVATAR REC
-      company_url: https://avatarreckoning.com/
-      company_logo: /images/games/avat.png
-    - company: Vampire
-      company_url: https://store.steampowered.com/app/760160/Vampire_The_Masquerade__Bloodhunt/
-      company_logo: /images/games/vamp.png
+    - company: Conan Exiles
+      company_url: https://store.steampowered.com/app/440900/Conan_Exiles/
+      company_logo: /images/games/conan.jpg
+    - company: Dark Envoy
+      company_url: https://store.steampowered.com/app/945770/Dark_Envoy/
+      company_logo: /images/games/dark-envoy.jpg
     - company: Delta Force
-      company_logo: /images/games/delta-force-ann_08-18-23.jpg
+      company_logo: /images/games/df-image-2.jpg
       company_url: https://www.playdeltaforce.com/en/home.html
     - company: DUNE
       company_url: https://store.steampowered.com/app/1605220/Dune_Spice_Wars/
       company_logo: /images/games/dune.png
-    - company: FixFox
-      company_url: https://store.steampowered.com/app/1696220/FixFox/
-      company_logo: /images/games/fixfox.png
-    - company: Flintlock
-      company_url: https://store.steampowered.com/app/1832040/Flintlock_The_Siege_of_Dawn/
-      company_logo: /images/games/flintlock.png
-    - company: Godlike Burgher
-      company_logo: /images/games/godlike.png
-      company_url: https://store.steampowered.com/app/1432910/Godlike_Burger/
-    - company: Insormountable
-      company_url: https://store.steampowered.com/app/1385100/Insurmountable/
-      company_logo: /images/games/insorm.png
-    - company: KAO
-      company_url: https://store.steampowered.com/app/1370140/Kao_the_Kangaroo/
-      company_logo: /images/games/ko.png
-    - company: King of Fighetrs XV
-      company_url: https://www.snk-corp.co.jp/us/games/kof-xv/
-      company_logo: /images/uploads/the_king_of_fighters_-28kof-29_xv.jpg
-    - company: Lords of The Rings
-      company_url: https://store.steampowered.com/app/1265780/The_Lord_of_the_Rings_Gollum/
-      company_logo: /images/games/gollum.jpg
-    - company: Lost in Play
-      company_url: https://store.steampowered.com/app/1328840/Lost_in_Play/
-      company_logo: /images/games/lost.png
-    - company: Martha is Dead
-      company_url: https://store.steampowered.com/app/515960/Martha_Is_Dead/
-      company_logo: /images/games/martha.jpg
-    - company: metal hellslinger
+    - company: GTFO
+      company_url: https://store.steampowered.com/app/493520/GTFO/
+      company_logo: /images/games/gtfo.jpg
+    - company: GYLT
+      company_url: https://store.steampowered.com/app/2206210/GYLT/
+      company_logo: /images/games/gylt.jpg
+    - company: Kena
+      company_url: https://store.steampowered.com/app/1954200/Kena_Bridge_of_Spirits/
+      company_logo: /images/games/kena.jpg
+    - company: Luna Abyss
+      company_url: https://store.steampowered.com/app/1933000/Luna_Abyss/
+      company_logo: /images/games/luna-header.jpg
+    - company: "Metal: Hellsinger"
       company_url: https://store.steampowered.com/app/1061910/Metal_Hellsinger/
-      company_logo: /images/games/met.png
+      company_logo: /images/games/metal-hell.jpg
     - company: PUBG MOBILE
       company_url: https://www.pubgmobile.com/en-US/home.shtml
-      company_logo: /images/games/pubg.png
-    - company: SCORN
-      company_url: https://store.steampowered.com/app/698670/Scorn/
-      company_logo: /images/games/sc.png
-    - company: sYNC
+      company_logo: /images/games/pubg-mob.png
+    - company: Synced
       company_url: https://store.steampowered.com/app/1008080/SYNCED_OffPlanet/
       company_logo: /images/games/sy.png
-    - company: TCHIA
-      company_url: https://store.steampowered.com/app/1496590/Tchia/
-      company_logo: /images/games/tchia.png
-    - company: The Ascent
-      company_logo: /images/games/ascent.jpg
-      company_url: https://store.steampowered.com/app/979690/The_Ascent/
-    - company: WARPIPS
-      company_url: https://store.steampowered.com/app/1291010/Warpips/
-      company_logo: /images/games/warpipis.png
-    - company: Wildcat
-      company_url: https://store.steampowered.com/app/1288610/Wildcat_Gun_Machine/
-      company_logo: /images/uploads/wild.png
+    - company_url: https://store.steampowered.com/app/1881700/Undawn/
+      company: Undawn
+      company_logo: /images/games/undawn.jpg
   clients_featured:
     - company: 10 Chambers
       company_logo: /images/clients/10-chambers-logo.png
