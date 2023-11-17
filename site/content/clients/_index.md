@@ -14,6 +14,9 @@ clients:
     - company: Activision Blizzard
       company_logo: /images/clients/acti-bliz.png
       company_url: https://www.activisionblizzard.com/
+    - company: Anshar Publishing
+      company_logo: /images/clients/anshar.png
+      company_url: https://www.ansharpublishing.com/
     - company: Atari
       company_logo: /images/clients/atari-logo.png
       company_url: https://atari.com/
@@ -50,6 +53,9 @@ clients:
     - company: Exquisite Gaming
       company_logo: /images/clients/client-exquisitegaming.jpg
       company_url: https://exgpro.com/
+    - company_url: https://fairyshipgames.com/
+      company: Fairyship Games
+      company_logo: /images/clients/fairyship.png
     - company: Funcom
       company_logo: /images/clients/funcom.png
       company_url: https://www.funcom.com/
@@ -125,6 +131,9 @@ clients:
     - company: Payload Studios
       company_url: https://payloadstudios.com/
       company_logo: /images/clients/payloadlogo_badge_no_gradient-scaled.png
+    - company: Perp Games
+      company_url: https://perpgames.com/
+      company_logo: /images/clients/perp.png
     - company: Pingle Studio
       company_logo: /images/clients/pingle.png
       company_url: https://pinglestudio.com/
