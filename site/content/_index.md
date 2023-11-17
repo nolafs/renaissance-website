@@ -61,9 +61,12 @@ clients:
     - company: Delta Force
       company_logo: /images/games/df-image-2.jpg
       company_url: https://www.playdeltaforce.com/en/home.html
-    - company: DUNE
+    - company: Dune Awakening
+      company_logo: /images/games/dune-awake-image.jpg
+      company_url: https://store.steampowered.com/app/1172710/Dune_Awakening/
+    - company: Dune Spice Wars
       company_url: https://store.steampowered.com/app/1605220/Dune_Spice_Wars/
-      company_logo: /images/games/dune.png
+      company_logo: /images/games/dune-spice.jpg
     - company: GTFO
       company_url: https://store.steampowered.com/app/493520/GTFO/
       company_logo: /images/games/gtfo.jpg
@@ -84,7 +87,7 @@ clients:
       company_logo: /images/games/pubg-mob.png
     - company: Synced
       company_url: https://store.steampowered.com/app/1008080/SYNCED_OffPlanet/
-      company_logo: /images/games/sy.png
+      company_logo: /images/games/synced-header.jpg
     - company_url: https://store.steampowered.com/app/1881700/Undawn/
       company: Undawn
       company_logo: /images/games/undawn.jpg
