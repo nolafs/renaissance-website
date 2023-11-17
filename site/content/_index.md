@@ -137,8 +137,11 @@ clients:
     - company: Futurlab
       company_url: https://futurlab.co.uk/
       company_logo: /images/clients/futurlab.png
+    - company: GameMill
+      company_url: https://gamemill.com/
+      company_logo: /images/clients/gamemill_entertainment.svg.png
     - company: IIDEA
-      company_logo: /images/clients/iideaweb.png
+      company_logo: /images/clients/idea-logo.png
       company_url: https://en.iideassociation.com/
     - company: Level Infinite
       company_url: https://www.levelinfinite.com/
