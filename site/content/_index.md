@@ -5,12 +5,12 @@ header:
   video: Egf5LcYgXKc
   video_active: true
 twitter: false
-tweet: >-
-  Attention, damned souls: the Voodolls closed #beta sign up is now live!
-  Starting on 19.01, you don't want to miss out!
+tweet: |-
+  <!--StartFragment-->
 
+  Make sure you're ready for a lil' something special coming in the form of
 
-  Check out the newest trailer below, and sign up here: <a href="http://eepurl.com/ih1lKb">http://eepurl.com/ih1lKb</a> Find Voodolls on Steam: <a href="http://bit.ly/3X9mHmN">http://bit.ly/3X9mHmN</a>
+  [@PineHeartsGame](https://twitter.com/pineheartsgame)
 services:
   heading: How can we help your business?
   services_list:
@@ -49,7 +49,7 @@ services:
     for your project’s needs.
 
 
-    It’s not about aimlessly shouting about your game to anyone willing to lend their ear: We’re here to take your creativity and make sure right people hears about it in the right way, at the right time, in the right place
+    It’s not about aimlessly shouting about your game to anyone willing to lend their ear,  we’re here to take your creativity and make sure the right people hear about it in the right way, at the right time and in the right place.
 clients:
   clients:
     - company: Ascendant Infinity
@@ -203,11 +203,10 @@ clients:
 testimonial: Stuart Dinsey
 contact:
   heading: Got a project? Let’s work together!
-  text: >
-    Since our inception in 2015 we've been fortunate to work with a wide array
-    of different clients, over 90% of whom we're proud to say are still valued
-    partner today... We’re always looking to work with new and exciting clients.
-    If you like the sound of the way Renaissance works, get in touch and let’s
-    see what we can do together towards a free consultation
+  text: Since our inception in 2015 we've been fortunate to work with a wide array
+    of different clients, from Indie to AAA we can service your needs. We’re
+    always looking to work with new and exciting clients so if you like the
+    sound of the way Renaissance works, get in touch and let’s see what we can
+    do together.
 ---
-Creating the best environment for the games industry’s most innovative projects to succeed through strategic, measurable and curated planning
+Creating the best environment for the games industry’s most innovative projects to succeed through strategic, measurable and curated planning.
