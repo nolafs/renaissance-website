@@ -82,6 +82,9 @@ clients:
     - company: Dune Spice Wars
       company_url: https://store.steampowered.com/app/1605220/Dune_Spice_Wars/
       company_logo: /images/games/dune-spice.jpg
+    - company: Extremely Powerful Capybaras
+      company_url: https://store.steampowered.com/app/2089980/Extremely_Powerful_Capybaras/
+      company_logo: /images/games/epc.jpg
     - company: GTFO
       company_url: https://store.steampowered.com/app/493520/GTFO/
       company_logo: /images/games/gtfo.jpg
