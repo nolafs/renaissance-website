@@ -176,6 +176,9 @@ clients:
     - company: Tencent Games
       company_url: https://www.tencent.com/en-us/
       company_logo: /images/clients/tencent-games.png
+    - company: Timi Studios
+      company_url: https://www.timistudios.com/
+      company_logo: /images/clients/timi.png
     - company: VAULTN
       company_url: https://vaultn.com/
       company_logo: /images/clients/vaultn.png
