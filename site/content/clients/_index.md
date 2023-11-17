@@ -20,6 +20,9 @@ clients:
     - company: Atari
       company_logo: /images/clients/atari-logo.png
       company_url: https://atari.com/
+    - company: Aviary Films
+      company_url: https://www.aviaryfilms.co.uk/
+      company_logo: /images/clients/aviary.png
     - company: Awe Interactive
       company_url: https://www.aweinteractive.com/
       company_logo: /images/clients/awe.png
