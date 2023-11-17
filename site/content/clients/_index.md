@@ -80,9 +80,6 @@ clients:
     - company: Kinda Brave
       company_logo: /images/clients/kindabrave.png
       company_url: https://www.kindabrave.com/
-    - company: Koch Media
-      company_logo: /images/clients/client-kochmedia.jpg
-      company_url: https://www.kochmedia.com/en/
     - company: Koei Tecmo
       company_url: https://www.koeitecmoeurope.com/
       company_logo: /images/clients/1200px-koei_tecmo_holdings_logo_20090401.svg.png
@@ -122,6 +119,9 @@ clients:
     - company: Pixyul
       company_logo: /images/clients/client-pixyul.jpg
       company_url: http://pixyul.com/
+    - company: Plaion
+      company_logo: /images/clients/plaion.png
+      company_url: https://plaion.com/
     - company: PlayFusion
       company_logo: /images/clients/playfusion.png
       company_url: https://www.playfusion.com/
