@@ -141,7 +141,7 @@ clients:
       company_url: https://gamemill.com/
       company_logo: /images/clients/gamemill_entertainment.svg.png
     - company: IIDEA
-      company_logo: /images/clients/idea-logo.png
+      company_logo: /images/clients/idea-logo-v2.png
       company_url: https://en.iideassociation.com/
     - company: Level Infinite
       company_url: https://www.levelinfinite.com/
