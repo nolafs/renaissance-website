@@ -73,7 +73,7 @@ clients:
       company_logo: /images/clients/logo-leo.jpg
     - company: Level Infinite
       company_url: https://www.levelinfinite.com/
-      company_logo: /images/clients/level-infinite.png
+      company_logo: /images/clients/li-logo.png
     - company: LKA
       company_logo: /images/clients/client-lka.jpg
       company_url: http://lka.it/
