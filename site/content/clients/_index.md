@@ -48,7 +48,7 @@ clients:
       company_logo: /images/clients/hook_red.png
       company_url: https://www.hookgames.net/
     - company: IIDEA
-      company_logo: /images/clients/iideaweb.png
+      company_logo: /images/clients/idea-logo-v2.png
       company_url: http://www.aesvi.it
     - company: Jackbox Games
       company_logo: /images/clients/jackbox.png
