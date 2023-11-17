@@ -118,7 +118,7 @@ team:
 
         A hybrid development and publishing professional comfortable speaking both languages, Sam is most proud of his work as Publishing Producer for Larian Studios and looks back with particular fondness on working on Baldur’s Gate 3 during Early Access. Leaving Larian in mid 2022, Sam became an independent consultant, working with indies, publishers and PR firms and has been working with Renaissance since late 2022 on planning and execution of creative plans. 
       image: /images/uploads/sam-bio-v2.png
-      position: " "
+      position: " PR Account Manager"
     - name: Claire Sharkey
       text: >-
         Claire has contributed significantly to multiple projects and causes
@@ -171,6 +171,19 @@ team:
 
         Before joining, Bella helped people research all manner of details and enjoyed quite a bit of time fact-checking for editors, analysts and ghostwriters. Not wanting to hand over her research towards clients that she felt weren't giving the best service with her data, she looked towards becoming more hands on in an industry she already widely respected and had loved from a young age.
       image: /images/uploads/bella-bio.jpg
+    - name: Thomas Hughes
+      text: >-
+        With close to a decade of marketing experience across B2C and B2B
+        industries, Thomas has experience across numerous elements of the
+        marketing & PR mix. 
+
+
+        After turning to journalism full-time through the pandemic, he picked up bylines across sites like NME and Gfinity. In the dust of the pandemic, he decided it was finally time to blend his marketing and journalism skills, moving into marketing and PR supporting all manner of developers in the indie space. 
+
+
+        Having joined Renaissance in late 2023, Thomas has already set about bringing his skills, knowledge and passion to the Content Creator Team.
+      position: EU Content Creator Specialist
+      image: /images/uploads/thomas-bio-v2.png
   text: >
     Renaissance is built around a core team of contributing consultants who
     collectively have more than 50 years’ experience across the games industry;
