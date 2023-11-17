@@ -55,6 +55,12 @@ clients:
     - company: Assassins Creed Jade
       company_url: https://www.assassinscreedjade.com/
       company_logo: /images/games/acjade-v2.jpg
+    - company: Broken Sword - Parzival's Stone
+      company_url: https://store.steampowered.com/app/2546810/Broken_Sword__Parzivals_Stone/
+      company_logo: /images/games/bs-ps.jpg
+    - company_url: https://store.steampowered.com/app/2544110/Broken_Sword__Shadow_of_the_Templars_Reforged/
+      company_logo: /images/games/bs-ref.jpg
+      company: Broken Sword - Shadow of the Templars Reforged
     - company: Conan Exiles
       company_url: https://store.steampowered.com/app/440900/Conan_Exiles/
       company_logo: /images/games/conan.jpg
@@ -85,6 +91,9 @@ clients:
     - company: "Metal: Hellsinger"
       company_url: https://store.steampowered.com/app/1061910/Metal_Hellsinger/
       company_logo: /images/games/metal-hell.jpg
+    - company: My Time At Sandrock
+      company_url: https://store.steampowered.com/app/1084600/My_Time_at_Sandrock/
+      company_logo: /images/games/my-time.jpg
     - company: NASCAR Arcade Rush
       company_url: https://store.steampowered.com/app/2192060/NASCAR_Arcade_Rush/
       company_logo: /images/games/nascar.jpg
@@ -94,6 +103,9 @@ clients:
     - company: Path Of Exile
       company_url: https://store.steampowered.com/app/238960/Path_of_Exile/
       company_logo: /images/games/path-of-exile.jpg
+    - company: Pine Hearts
+      company_url: https://store.steampowered.com/app/1781010/Pine_Hearts/
+      company_logo: /images/games/pine-hearts.jpg
     - company: PowerWash Simulator
       company_logo: /images/games/powerwash.jpg
       company_url: https://store.steampowered.com/app/1290000/PowerWash_Simulator/
@@ -103,6 +115,9 @@ clients:
     - company: Synced
       company_url: https://store.steampowered.com/app/1008080/SYNCED_OffPlanet/
       company_logo: /images/games/synced-header.jpg
+    - company: Tower Of Fantasy
+      company_url: https://store.steampowered.com/app/2064650/Tower_of_Fantasy/
+      company_logo: /images/games/tower-of-fan.jpg
     - company_url: https://store.steampowered.com/app/1881700/Undawn/
       company: Undawn
       company_logo: /images/games/undawn.jpg
