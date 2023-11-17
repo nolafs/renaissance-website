@@ -119,63 +119,33 @@ clients:
       company_url: https://store.steampowered.com/app/1288610/Wildcat_Gun_Machine/
       company_logo: /images/uploads/wild.png
   clients_featured:
-    - company: 505 Games
-      company_logo: /images/clients/505-games-squarelogo-1497955311797.png
-      company_url: https://505games.com/
-    - company: Aviary Film
-      company_url: https://www.aviaryfilms.co.uk/
-      company_logo: /images/clients/av2.png
-    - company: Curve Digital
-      company_logo: /images/clients/curve.png
-      company_url: http://www.curve-digital.com/
-    - company: Daedalic
-      company_logo: /images/clients/client-daedelic.jpg
-      company_url: https://www.daedalic.com/
+    - company: 10 Chambers
+      company_logo: /images/clients/10-chambers-logo.png
+      company_url: https://careers.10chambers.com/
+    - company: Bonsai Collective
+      company_url: https://www.bonsai-collective.com/
+      company_logo: /images/clients/company-logo_bonsai-collective-initis.png
+    - company: Ember Lab
+      company_url: https://emberlab.com/
+      company_logo: /images/clients/company-logo_emberlab.png
+    - company: Event Horizon
+      company_url: https://evehor.com/
+      company_logo: /images/clients/evnt-horizon-logo.png
     - company: Funcom
       company_url: www.funcom.com
       company_logo: /images/clients/funcom.png
-    - company: FUTURlab
+    - company: Futurlab
       company_url: https://futurlab.co.uk/
       company_logo: /images/clients/futurlab.png
-    - company: Jack Box Games
-      company_logo: /images/clients/jackbox.png
-      company_url: https://www.jackboxgames.com/
-    - company: Joystick Ventures
-      company_url: https://www.joystickventures.com/
-      company_logo: /images/clients/jvlogo.png
-    - company: Happyt Volcano
-      company_url: https://www.happyvolcano.com/
-      company_logo: /images/clients/happy-volcano.png
-    - company: Hook
-      company_logo: /images/clients/hook_red.png
-      company_url: www.renaissancepr.co.uk
     - company: IIDEA
       company_logo: /images/clients/iideaweb.png
       company_url: https://en.iideassociation.com/
     - company: Level Infinite
       company_url: https://www.levelinfinite.com/
-      company_logo: /images/clients/level-infinite.png
-    - company: Kepler Interactive
-      company_url: https://www.kepler-interactive.com/
-      company_logo: /images/clients/keplerwebsite.png
-    - company: Kinda Brave Publishing
-      company_url: https://www.kindabrave.com/
-      company_logo: /images/clients/kindabrave.png
-    - company: "Koei Tecmo "
-      company_url: https://www.koeitecmoeurope.com/
-      company_logo: /images/clients/1200px-koei_tecmo_holdings_logo_20090401.svg.png
-    - company: MYGAMES
-      company_url: https://my.games/en
-      company_logo: /images/clients/my.games-store.png
+      company_logo: /images/clients/li-logo.png
     - company: Sharkmob
       company_url: https://www.sharkmob.com/
       company_logo: /images/clients/sharkmobtest.png
-    - company: SNK
-      company_url: https://www.snk-corp.co.jp/us/
-      company_logo: /images/clients/snkwebsite.png
-    - company: Tate Multimedia
-      company_url: https://www.tatemultimedia.com/en/home/
-      company_logo: /images/clients/tate.png
     - company: Tencent Games
       company_url: https://www.tencent.com/en-us/
       company_logo: /images/clients/tencent-games.png
@@ -184,8 +154,7 @@ clients:
   productstext: Our Latest projects
   slider_num: "12"
   text: Since our inception in 2015 we've been fortunate to work with a wide array
-    of different clients, over 90% of whom we're proud to say are still valued
-    partner today.
+    of different clients, from Indie to AAA we can service your needs.
 testimonial: Stuart Dinsey
 contact:
   heading: Got a project? Let’s work together!
