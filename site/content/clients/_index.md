@@ -5,7 +5,7 @@ clients:
     - company: 3d Clouds
       company_url: https://www.3dclouds.it/
       company_logo: /images/clients/3dcloudslogo.png
-    - company: "505"
+    - company: 505 Games
       company_url: https://505games.com/
       company_logo: /images/clients/505-games-squarelogo-1497955311797.png
     - company: Awe Interactive
@@ -17,9 +17,9 @@ clients:
     - company: Bulkhead
       company_logo: /images/clients/client-bulkhead.jpg
       company_url: https://bulkheadinteractive.com/
-    - company: Curve Digital
-      company_logo: /images/clients/client-curvedigital.jpg
-      company_url: http://www.curve-digital.com/
+    - company: Curve Games
+      company_logo: /images/clients/curve.png
+      company_url: https://curvegames.com/
     - company: Daedalic Entertainment
       company_logo: /images/clients/client-daedelic.jpg
       company_url: https://www.daedalic.com/
@@ -32,12 +32,36 @@ clients:
     - company: Exquisite Gaming
       company_logo: /images/clients/client-exquisitegaming.jpg
       company_url: https://exgpro.com/
+    - company: Funcom
+      company_logo: /images/clients/funcom.png
+      company_url: https://www.funcom.com/
+    - company: Futurlab
+      company_url: https://futurlab.co.uk/
+      company_logo: /images/clients/futurlab.png
     - company: Green Man Gaming
       company_logo: /images/clients/client-greenman.jpg
       company_url: https://www.greenmangaming.com/
+    - company: Happy Volcano
+      company_url: https://www.happyvolcano.com/
+      company_logo: /images/clients/happy-volcano.png
+    - company: Hook
+      company_logo: /images/clients/hook_red.png
+      company_url: https://www.hookgames.net/
     - company: IIDEA
       company_logo: /images/clients/iideaweb.png
       company_url: http://www.aesvi.it
+    - company: Jackbox Games
+      company_logo: /images/clients/jackbox.png
+      company_url: https://www.jackboxgames.com/
+    - company: Joystick Ventures
+      company_logo: /images/clients/jvlogo.png
+      company_url: https://www.joystickventures.com/
+    - company: Kepler Interactive
+      company_logo: /images/clients/keplerwebsite.png
+      company_url: https://kepler-interactive.com/
+    - company: Kinda Brave
+      company_logo: /images/clients/kindabrave.png
+      company_url: https://www.kindabrave.com/
     - company: Koch Media
       company_logo: /images/clients/client-kochmedia.jpg
       company_url: https://www.kochmedia.com/en/
@@ -47,6 +71,9 @@ clients:
     - company: Leonardo Interactive
       company_url: https://leonardointeractive.com/
       company_logo: /images/clients/logo-leo.jpg
+    - company: Level Infinite
+      company_url: https://www.levelinfinite.com/
+      company_logo: /images/clients/level-infinite.png
     - company: LKA
       company_logo: /images/clients/client-lka.jpg
       company_url: http://lka.it/
@@ -56,6 +83,9 @@ clients:
     - company: Mixed Bag
       company_logo: /images/clients/client-mixedbag.jpg
       company_url: https://mixedbag.it/
+    - company: My.Games
+      company_url: https://my.games/
+      company_logo: /images/clients/my.games-store.png
     - company: Netease
       company_url: https://www.neteasegames.com/
       company_logo: /images/clients/untitled.png
@@ -119,6 +149,9 @@ clients:
     - company: Stormind Games
       company_url: https://www.stormindgames.com/
       company_logo: /images/clients/stormind_games_official_logo.png
+    - company: Tate Multimedia
+      company_logo: /images/clients/tate.png
+      company_url: https://www.tatemultimedia.com/
     - company: Team 17
       company_logo: /images/clients/client-team17.jpg
       company_url: https://www.team17.com/
