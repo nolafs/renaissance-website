@@ -85,6 +85,18 @@ clients:
     - company: "Metal: Hellsinger"
       company_url: https://store.steampowered.com/app/1061910/Metal_Hellsinger/
       company_logo: /images/games/metal-hell.jpg
+    - company: NASCAR Arcade Rush
+      company_url: https://store.steampowered.com/app/2192060/NASCAR_Arcade_Rush/
+      company_logo: /images/games/nascar.jpg
+    - company_url: https://store.steampowered.com/app/2017080/Nickelodeon_AllStar_Brawl_2/
+      company: Nickelodeon All-Star Brawl 2
+      company_logo: /images/games/nasb2.jpg
+    - company: Path Of Exile
+      company_url: https://store.steampowered.com/app/238960/Path_of_Exile/
+      company_logo: /images/games/path-of-exile.jpg
+    - company: PowerWash Simulator
+      company_logo: /images/games/powerwash.jpg
+      company_url: https://store.steampowered.com/app/1290000/PowerWash_Simulator/
     - company: PUBG MOBILE
       company_url: https://www.pubgmobile.com/en-US/home.shtml
       company_logo: /images/games/pubg-mob.png
