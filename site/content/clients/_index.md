@@ -200,6 +200,9 @@ clients:
     - company: Thumb Food
       company_logo: /images/clients/client-thumbfood.jpg
       company_url: https://www.thumbfood.com/
+    - company: Timi Studios
+      company_url: https://www.timistudios.com/
+      company_logo: /images/clients/timi.png
     - company: Typhoon
       company_logo: /images/clients/client-typhoon.jpg
       company_url: http://typhoonstudios.com/
