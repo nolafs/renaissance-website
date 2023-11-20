@@ -1,6 +1,6 @@
 ---
 title: The Ascent
-date: 2021-08-13T23:06:33.853Z
+date: 2021-07-28T23:00:33.853Z
 categories: worldwide-campaigns
 image: /images/uploads/ascent.jpg
 testimonial: Stuart Dinsey
@@ -40,6 +40,6 @@ Throughout the course of the game’s first week, more than **500 articles about
 
 On the content creator side, w**e amassed over 1000 pieces of content at launch in less than two weeks with more than 15 millions VOD and 1.75 million Live views spread across 57,700 hours of broadcast** (and counting)
 
-\[indipendent data sourced from Giadmin, Pressengine, Sullygnome]
+\[independent data sourced from Giadmin, Pressengine, Sullygnome]
 
 ![](/images/uploads/asc2.png)
