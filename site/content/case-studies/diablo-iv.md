@@ -2,7 +2,7 @@
 title: Diablo IV
 date: 2023-06-06T11:00:22.142Z
 categories: emea-campaigns
-image: /images/uploads/d4-cs5.jpg
+image: /images/uploads/d4-cs-main.jpg
 client: Activision Blizzard
 description: At the request of one of our international agency partners,
   Renaissance were tasked with creating a series of out of home executions to
