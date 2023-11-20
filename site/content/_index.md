@@ -134,6 +134,9 @@ clients:
     - company: 10 Chambers
       company_logo: /images/clients/10-chambers-logo.png
       company_url: https://careers.10chambers.com/
+    - company: Bohemia Interactive
+      company_url: https://www.bohemia.net/
+      company_logo: /images/clients/bohemia.png
     - company: Bonsai Collective
       company_url: https://www.bonsai-collective.com/
       company_logo: /images/clients/company-logo_bonsai-collective-initis.png
