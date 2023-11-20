@@ -13,9 +13,19 @@ For Revolution, Gamescom 2023 served as the global first reveal for the develope
 
 The main challenge was managing what was a complex message, lifting the lid on both games at the same time, with their respective positioning, without the projects cannibalising each other, as well as ensuring what is now a near 30-year-old franchise can speak to new audiences.
 
+
+
+![](/images/uploads/bs-cs-1.png)
+
+
+
 Utilising an announcement at Xbox’s Gamescom showcase as the starting pistol, almost **270 articles were generated with a monthly audience of just under 750 million people worldwide.**
 
 On top of that a curated pre-Gamescom rounds of interview and over 20 Tier 1 media interviews in Cologne completed a really successful 360-degree announcement.
+
+![](/images/uploads/bs-cs-2.png)
+
+
 
 **“This renaissance will reinvigorate the series & appeal to old fans and new players alike,”** brilliantly summed up by TheGamer’s Meg Pelliccio.
 
