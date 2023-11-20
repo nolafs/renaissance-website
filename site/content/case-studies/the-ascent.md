@@ -3,7 +3,7 @@ title: The Ascent
 date: 2021-07-28T23:00:33.853Z
 categories: worldwide-campaigns
 image: /images/uploads/ascent.jpg
-testimonial: Stuart Dinsey
+testimonial: ""
 client: Curve Digital
 description: >
   The Neon Giant debut game on next gen sees Renaissance solely orchestrating
@@ -24,13 +24,13 @@ description: >
 
   On the content creator side, at launch,  we amassed over 1000 pieces of content in less than 2 weeks with over 15 millions VOD and 1.75 Millions Live views spread toward 57700 hours of broadcast as per 12th of August 2021.
 ---
-**Renaissance was proud to be the sole orchestrator of the biggest global PR, Community and Content Creator campaign in Curve Digital’s history in the form of Neon Giant’s debut game, The Ascent which led to Win the BEST CAMPAIGN OF THE YEAR at MCV/DEVELOP Awards 2022**
+Renaissance was proud to be the sole orchestrator of the biggest global PR, Community and Content Creator campaign in Curve Digital’s history in the form of Neon Giant’s debut game, The Ascent which led to **winning the BEST CAMPAIGN OF THE YEAR at MCV/DEVELOP Awards 2022**.
 
 Working with **Microsoft, Edge Magazine, and IGN,** we created three different forms of tailored content to fit three different channels. It all kicked off with a reveal at Microsoft’s Xbox showcase in May 2020, followed by a First Exclusive gameplay reveal on IGN before peaking with one of the most creative front covers Edge Magazine has published in recent memory.
 
-Approaching E3 2021, the campaign was bolstered by two further exclusive showcases with Microsoft and digital hands on with top tier media, followed by a release date announcement that brought total coverage to over 2,400 articles including 42 previews published by global Tier 1 media globally and one **global Developer Commentary exclusive with IGN**
+Approaching E3 2021, the campaign was bolstered by two further exclusive showcases with Microsoft and digital hands on with top tier media, followed by a release date announcement that brought total coverage to over **2,400 articles** including **42 previews published by global Tier 1 media** and **one global developer commentary exclusive with IGN**.
 
-![](/images/uploads/ascendiamo.png)
+![](/images/uploads/the-asc-cs1.png)
 
 The Ascent’s review campaign was devised and built up with extreme curation, while at the same time our internal social media and community team assisted the consumers and growth the social channels impressions up **341.2 % in the launch week**
 
@@ -38,8 +38,8 @@ It all resulted in over **190 reviews, 67 Guide and Tips, 7 stories on the home 
 
 Throughout the course of the game’s first week, more than **500 articles about The Ascent with a reach of 4.1 billion and 828.6 million estimated reads.**
 
-On the content creator side, w**e amassed over 1000 pieces of content at launch in less than two weeks with more than 15 millions VOD and 1.75 million Live views spread across 57,700 hours of broadcast** (and counting)
+On the content creator side, we amassed over **1000 pieces** of content at launch in less than two weeks with more than **15 million VOD** and **1.75 million Live Stream views** spread across **57,700 hours** of broadcast.
 
-\[independent data sourced from Giadmin, Pressengine, Sullygnome]
+
 
 ![](/images/uploads/asc2.png)
