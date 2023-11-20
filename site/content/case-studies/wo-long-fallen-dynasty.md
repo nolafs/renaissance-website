@@ -1,6 +1,6 @@
 ---
 title: "Wo Long: Fallen Dynasty"
-date: 2023-11-20T13:51:35.445Z
+date: 2023-03-03T13:00:35.445Z
 categories: emea-campaigns
 image: /images/uploads/wl-cs-main.jpg
 client: Koei Tecmo
@@ -18,6 +18,8 @@ In total, to date, we have generated **3,094 articles** with a reach of **10.5B
 
 ![](/images/uploads/wl-cs2.png)
 
+
+
 Alongside this Renaissance managed the content creator outreach. **393 creators** engaged with the game on either Twitch or YouTube at launch with LIVE streams & VOD achieving over **14.4 Million views**. 
 
 As a total (as of 16/03/23), the full campaign for Wo Long within the regions that we covered had achieved over **18.9 Million views**. 
@@ -29,7 +31,5 @@ As a total (as of 16/03/23), the full campaign for Wo Long within the regions th
 There were **1,240 pieces of content** created from a subscriber base of over **160 Million** within this same time period. 
 
 At launch the reach covered **261** Twitch channels and **132** YouTube channels. 
-
-
 
 ![](/images/uploads/wl-cs4.png)
