@@ -29,6 +29,9 @@ clients:
     - company: Billy Goat Entertainment
       company_logo: /images/clients/client-billygoat.jpg
       company_url: https://www.billygoat.tv/
+    - company: Bohemia Interactive
+      company_url: https://www.bohemia.net/
+      company_logo: /images/clients/bohemia.png
     - company: Bonsai Collective
       company_logo: /images/clients/company-logo_bonsai-collective-initis.png
       company_url: https://www.bonsai-collective.com/
