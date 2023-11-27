@@ -155,6 +155,9 @@ clients:
     - company: GameMill
       company_url: https://gamemill.com/
       company_logo: /images/clients/gamemill_entertainment.svg.png
+    - company: Grinding Gear Games
+      company_logo: /images/clients/ggg-logo.png
+      company_url: https://www.grindinggear.com/
     - company: Hyper Luminal Games
       company_url: https://www.hyperluminalgames.com/
       company_logo: /images/clients/hlg-logo.png
