@@ -83,6 +83,9 @@ clients:
     - company: Green Man Gaming
       company_logo: /images/clients/client-greenman.jpg
       company_url: https://www.greenmangaming.com/
+    - company: Grinding Gear Games
+      company_url: https://www.grindinggear.com/
+      company_logo: /images/clients/ggg-logo.png
     - company: Happy Volcano
       company_url: https://www.happyvolcano.com/
       company_logo: /images/clients/happy-volcano.png
