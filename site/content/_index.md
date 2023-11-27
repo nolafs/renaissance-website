@@ -112,6 +112,9 @@ clients:
     - company: Path Of Exile
       company_url: https://store.steampowered.com/app/238960/Path_of_Exile/
       company_logo: /images/games/path-of-exile.jpg
+    - company: Path Of Exile 2
+      company_url: https://pathofexile2.com/
+      company_logo: /images/games/poe-2-small.jpg
     - company: Pine Hearts
       company_url: https://store.steampowered.com/app/1781010/Pine_Hearts/
       company_logo: /images/games/pine-hearts.jpg
