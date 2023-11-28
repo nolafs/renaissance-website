@@ -50,7 +50,7 @@ team:
       name: Greg Jones
       position: Head of PR & Communications
       text: >
-        A mainstay of the UK Games PR scene for over 18 years, our Head of PR &
+        A mainstay of the UK Games PR scene for over 18 years our Head of PR &
         Communications, Greg Jones, has held positions with some of the biggest
         names in the business from Microsoft Xbox, THQ and Warner Bros to 505
         Games, SEGA UK and Disney Interactive.
