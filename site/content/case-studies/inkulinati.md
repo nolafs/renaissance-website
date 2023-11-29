@@ -1,6 +1,6 @@
 ---
 title: Inkulinati
-date: 2023-11-29T09:40:10.449Z
+date: 2023-01-31T09:40:10.449Z
 categories: emea-campaigns
 image: /images/uploads/ink-cs-main.jpg
 client: Daedalic
