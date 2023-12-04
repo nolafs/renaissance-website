@@ -86,16 +86,16 @@ team:
       name: Keith Andrew
       position: PR Senior Account Manager
       text: >
-        Setting out into the world of journalism back in 2005, Keith spent a
-        large chunk of writing career covering the rise of smartphone games
-        during the App Store boom in the late noughties, eventually serving as
-        the Editor of Pocket Gamer’s industry-focused spin off.
+        Keith joined Renaissance in 2016 & is a Senior Account Manager on the
+        product PR team. He has both worked on & led a diverse range of
+        projects, from small indie games through to big IP across a wide range
+        of genres.
 
 
-        In 2014, Keith went fully freelance, writing for a whole host of publications including Edge, GamesTM, GamesMaster, Rolling Stone, Digital Spy, Gamesradar, Lad Bible, Official Xbox Magazine, GamesIndustry.biz, Trusted Reviews, MCV, and many others.
+        Setting out into the world of journalism back in 2005, Keith spent a large chunk of his writing career covering the rise of smartphone games during the App Store boom in the late noughties, eventually serving as the Editor of Pocket Gamer’s industry-focused spin off.
 
 
-        Keith joined Renaissance in late 2016 and has both worked on and led a diverse range of projects; from small indie games through to big IP across a wide range of genres.
+        In 2014, Keith went fully freelance, writing for a whole host of publications including Edge, GamesTM, GamesMaster, Rolling Stone, Digital Spy, Gamesradar, Lad Bible, Official Xbox Magazine, GamesIndustry.biz, Trusted Reviews, MCV & many others.
     - image: /images/uploads/andy-bio-v2.jpg
       name: Andy Griffiths
       position: PR Senior Account Manager
