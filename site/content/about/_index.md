@@ -50,7 +50,7 @@ team:
       name: Greg Jones
       position: Head of PR & Communications
       text: >-
-        A mainstay of the UK Games PR scene for over 18 years Greg Jones joined
+        A mainstay of the UK Games PR scene for over 18 years Greg joined
         Renaissance in 2016 & is Head of PR & Communications. 
 
 
@@ -66,18 +66,21 @@ team:
         Aaron has been working in videogames for over 15 years. 
 
 
-        Over the last decade and a half, his journey through the industry has seen experience gained from very different sides of the industry, from working directly in game development, developing Communications for retail HQ giant GAME, and working publisher side at 2K – working on global hit franchises such as XCOM, Mafia, Borderlands, NBA 2K and Civilization. 
+        His journey has seen experience gained from very different sides of the industry, from working directly in game development, building the communications plans for retail HQ giant GAME & working publisher side at 2K, on global hit franchises such as XCOM, Mafia, Borderlands, NBA 2K & Civilization. 
 
 
-        As personal passion projects, he has also worked with SUDA 51 and the team at Grasshopper Manufacture on the No More Heroes series for Nintendo Switch and was additionally a part of the formation of videogame mental health charity Safe in our World.
+        As personal passion projects, he has also worked with SUDA 51 & the team at Grasshopper Manufacture on the No More Heroes series for Nintendo Switch & was additionally a part of the formation of videogame mental health charity Safe in our World.
     - name: Sophie Carter
       position: PR Senior Account Manager
       text: >-
         Sophie joined the Renaissance PR team in 2021 as Senior Account Manager
-        and work across product and corporate accounts. 
+        and works across product & corporate accounts. 
 
 
-        With 10 years’ experience in both B2C and B2B PR, her gaming PR portfolio spans PC, console, and mobile titles as well as corporate communications and includes projects for titles such as Baldur’s Gate 3, Disco Elysium and The Ascent. Currently, Sophie works for Renaissance PR across the accounts for Sharkmob, FuturLab, EmberLab as well as some product PR.
+        With over 10 years’ experience in both B2C & B2B PR, her gaming PR portfolio spans PC, console & mobile titles, as well as corporate communications that includes projects for titles such as Baldur’s Gate 3, Disco Elysium & The Ascent.
+
+
+        Currently, Sophie works for Renaissance PR across the accounts for Sharkmob, FuturLab, EmberLab as well as some product PR.
       image: /images/uploads/sophie-bio-v2.jpg
     - image: /images/uploads/keith-bio-v2.png
       name: Keith Andrew
