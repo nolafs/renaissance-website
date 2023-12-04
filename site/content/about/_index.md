@@ -66,10 +66,10 @@ team:
         Aaron has been working in videogames for over 15 years. 
 
 
-        His journey has seen experience gained from very different sides of the industry, from working directly in game development, building the communications plans for retail HQ giant GAME & working publisher side at 2K, on global hit franchises such as XCOM, Mafia, Borderlands, NBA 2K & Civilization. 
+        His journey has seen experience gained from very different sides of the industry, from working directly in game development, building communication plans for retail HQ giant GAME to working for 2K on the publisher side on global hit franchises such as XCOM, Mafia, Borderlands, NBA 2K & Civilization. 
 
 
-        As personal passion projects, he has also worked with SUDA 51 & the team at Grasshopper Manufacture on the No More Heroes series for Nintendo Switch & was additionally a part of the formation of videogame mental health charity Safe in our World.
+        Aaron has also worked with SUDA 51 & the team at Grasshopper Manufacture on the No More Heroes series for Nintendo Switch & was additionally a part of the formation of videogame mental health charity Safe in our World.
     - name: Sophie Carter
       position: PR Senior Account Manager
       text: >-
