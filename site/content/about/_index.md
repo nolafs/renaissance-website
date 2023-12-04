@@ -49,17 +49,15 @@ team:
     - image: /images/uploads/greg-bio-colour-v2.jpg
       name: Greg Jones
       position: Head of PR & Communications
-      text: >
-        A mainstay of the UK Games PR scene for over 18 years our Head of PR &
-        Communications Greg Jones, has held positions with some of the biggest
-        names in the business from Microsoft Xbox, THQ and Warner Bros to 505
-        Games, SEGA UK and Disney Interactive.
+      text: >-
+        A mainstay of the UK Games PR scene for over 18 years Greg Jones joined
+        Renaissance in 2016 & is Head of PR & Communications. 
 
 
-        With a career including AAA title launches across the WWE, Dawn of War and Payday series’ plus indie titles including the BAFTA winning Brothers: a Tale of Two Sons, Terraria and Abzu, Greg brings a wealth of cross-genre experience to the team as well as an understanding of media and content creators which allows him to identify the right targets, for the right titles no matter the scope of the project.
+        He has worked for some of the biggest names in the gaming industry including Microsoft Xbox, THQ, Warner Bros, 505 Games, SEGA UK & Disney Interactive, launching AAA titles such as WWE & Payday to indie titles including the BAFTA winning Brothers: a Tale of Two Sons & Terraria.
 
 
-        A life long and passionate fan of all things games related, Greg has been a part of the Renaissance team since early 2018.
+        Greg brings a wealth of cross-genre experience to the team as well as an understanding of media & content creators which allows him to identify the right targets, for the right titles no matter the scope of the project.
     - image: /images/uploads/aaron-c-bio-v2.png
       name: Aaron Cooper
       position: Head of Content Creators
