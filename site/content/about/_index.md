@@ -60,10 +60,10 @@ team:
         Greg brings a wealth of cross-genre experience to the team as well as an understanding of media & content creators which allows him to identify the right targets, for the right titles no matter the scope of the project.
     - image: /images/uploads/aaron-c-bio-v2.png
       name: Aaron Cooper
-      position: Head of Content Creators
+      position: " "
       text: >-
-        Heading up Renaissance’s award winning Content Creator Team since 2021,
-        Aaron has been working in videogames for over 15 years. 
+        Joining Renaissance’s in 2021, Aaron has been working in videogames for
+        over 15 years. 
 
 
         His journey has seen experience gained from very different sides of the industry, from working directly in game development, building communication plans for retail HQ giant GAME to working for 2K on the publisher side on global hit franchises such as XCOM, Mafia, Borderlands, NBA 2K & Civilization. 
@@ -71,25 +71,20 @@ team:
 
         Aaron has also worked with SUDA 51 & the team at Grasshopper Manufacture on the No More Heroes series for Nintendo Switch & was additionally a part of the formation of videogame mental health charity Safe in our World.
     - name: Sophie Carter
-      position: PR Senior Account Manager
+      position: " "
       text: >-
-        Sophie joined the Renaissance PR team in 2021 as Senior Account Manager
-        and works across product & corporate accounts. 
+        Sophie joined the Renaissance  team in 2021.
 
 
         With over 10 years’ experience in both B2C & B2B PR, her gaming PR portfolio spans PC, console & mobile titles, as well as corporate communications that includes projects for titles such as Baldur’s Gate 3, Disco Elysium & The Ascent.
-
-
-        Currently, Sophie works for Renaissance PR across the accounts for Sharkmob, FuturLab, EmberLab as well as some product PR.
       image: /images/uploads/sophie-bio-v2.jpg
     - image: /images/uploads/keith-bio-v2.png
       name: Keith Andrew
-      position: PR Senior Account Manager
+      position: " "
       text: >
-        Keith joined Renaissance in 2016 & is a Senior Account Manager on the
-        product PR team. He has both worked on & led a diverse range of
-        projects, from small indie games through to big IP across a wide range
-        of genres.
+        Keith joined Renaissance in 2016 & has both worked on & led a diverse
+        range of projects, from small indie games through to big IP across a
+        wide range of genres.
 
 
         Setting out into the world of journalism back in 2005, Keith spent a large chunk of his writing career covering the rise of smartphone games during the App Store boom in the late noughties, eventually serving as the Editor of Pocket Gamer’s industry-focused spin off.
@@ -98,7 +93,7 @@ team:
         In 2014, Keith went fully freelance, writing for a whole host of publications including Edge, GamesTM, GamesMaster, Rolling Stone, Digital Spy, Gamesradar, Lad Bible, Official Xbox Magazine, GamesIndustry.biz, Trusted Reviews, MCV & many others.
     - image: /images/uploads/andy-bio-v2.jpg
       name: Andy Griffiths
-      position: PR Senior Account Manager
+      position: " "
       text: >
         Former games journalist and active public relations and content creator
         marketing specialist. 
@@ -117,9 +112,9 @@ team:
         variously in PR, Design, Game Writing, Presenting and Production. 
 
 
-        A hybrid development and publishing professional comfortable speaking both languages, Sam is most proud of his work as Publishing Producer for Larian Studios and looks back with particular fondness on working on Baldur’s Gate 3 during Early Access. Leaving Larian in mid 2022, Sam became an independent consultant, working with indies, publishers and PR firms and has been working with Renaissance since late 2022 on planning and execution of creative plans. 
+        A hybrid development and publishing professional comfortable speaking both languages, Sam is most proud of his work as Publishing Producer for Larian Studios and looks back with particular fondness on working on Baldur’s Gate 3 during Early Access. Leaving Larian in mid 2022, Sam became an independent consultant, working with indies, publishers and PR firms and has been working with Renaissance since late 2022. 
       image: /images/uploads/sam-bio-v2.png
-      position: " PR Account Manager"
+      position: " "
     - name: Claire Sharkey
       text: >-
         Claire has contributed significantly to multiple projects and causes
@@ -131,18 +126,18 @@ team:
 
 
         She frequently does talks and panels, offering marketing and comms workshops as well as diversity promotion. Her main approach to the above and daily events/campaigns is to push transparency and be personable where needed. She joined Renaissance in 2023.
-      position: PR Senior Account Manager
+      position: " "
       image: /images/uploads/claire-bio.png
     - name: Matthew Taylor
       text: "Matthew Taylor has been working in PR and marketing since graduating with
-        a History Degree in 2013. In 2019, he joined Renaissance emerging
-        Content Creator Team as his first job in the games industry. What he is
-        most interested in by history, is the people behind the story, and the
-        same is true for his passion in video games. "
-      position: EU Content Creator Specialist
+        a History Degree in 2013. In 2019, he joined Renaissance as his first
+        job in the games industry. What he is most interested in by history, is
+        the people behind the story, and the same is true for his passion in
+        video games. "
+      position: " "
       image: /images/uploads/matthew-bio-v2.png
     - name: Candice Shane
-      position: NA Content Creator Specialist
+      position: " "
       text: >-
         After a chance friendship with the Editor-In-Chief of a well-respected
         gaming magazine was struck, Candice was encouraged to take a step into
@@ -161,13 +156,11 @@ team:
         TL;DR - Writer, Content Creator & Podcaster with a SEVERE passion for gaming joined Renaissance in 2020.
       image: /images/uploads/candice-bio-v2.png
     - name: Bella Shane
-      position: NA Content Creator Specialist
+      position: " "
       text: >-
-        Bella joined Renaissance PR in 2023 to find a way to marry her love of
-        research and data with gaming and influencer culture. Renaissance was
-        the perfect place to learn strategy for content creators and utilize her
-        love for the fast paced world of gaming and the factual world of
-        research that she loves so much. 
+        Bella joined Renaissance PR in 2023 as it was the perfect place to learn
+        strategy and utilize her love for the fast paced world of gaming and the
+        factual world of research that she loves so much. 
 
 
         Before joining, Bella helped people research all manner of details and enjoyed quite a bit of time fact-checking for editors, analysts and ghostwriters. Not wanting to hand over her research towards clients that she felt weren't giving the best service with her data, she looked towards becoming more hands on in an industry she already widely respected and had loved from a young age.
@@ -182,8 +175,8 @@ team:
         After turning to journalism full-time through the pandemic, he picked up bylines across sites like NME and Gfinity. In the dust of the pandemic, he decided it was finally time to blend his marketing and journalism skills, moving into marketing and PR supporting all manner of developers in the indie space. 
 
 
-        Having joined Renaissance in late 2023, Thomas has already set about bringing his skills, knowledge and passion to the Content Creator Team.
-      position: EU Content Creator Specialist
+        Thomas joined Renaissance in late 2023.
+      position: " "
       image: /images/uploads/thomas-bio-v2.png
   text: >
     Renaissance is built around a core team of contributing consultants who
