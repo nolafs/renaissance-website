@@ -48,10 +48,10 @@ team:
         UKIE and BAFTA member, Videogame Ambassador and renown international speaker, Stefano is an optimist, extrovert communication veteran always looking at way to innovate.
     - image: /images/uploads/greg-bio-colour-v2.jpg
       name: Greg Jones
-      position: Head of PR & Communications
+      position: " "
       text: >-
         A mainstay of the UK Games PR scene for over 18 years Greg joined
-        Renaissance in 2016 & is Head of PR & Communications. 
+        Renaissance in 2016. 
 
 
         He has worked for some of the biggest names in the gaming industry including Microsoft Xbox, THQ, Warner Bros, 505 Games, SEGA UK & Disney Interactive, launching AAA titles such as WWE & Payday to indie titles including the BAFTA winning Brothers: a Tale of Two Sons & Terraria.
