@@ -100,6 +100,9 @@ clients:
     - company: Kena
       company_url: https://store.steampowered.com/app/1954200/Kena_Bridge_of_Spirits/
       company_logo: /images/games/kena.jpg
+    - company: Let's School
+      company_url: https://store.steampowered.com/app/1937500/Lets_School/
+      company_logo: /images/games/lets-school.jpg
     - company: Luna Abyss
       company_url: https://store.steampowered.com/app/1933000/Luna_Abyss/
       company_logo: /images/games/luna-header.jpg
@@ -115,6 +118,9 @@ clients:
     - company_url: https://store.steampowered.com/app/2017080/Nickelodeon_AllStar_Brawl_2/
       company: Nickelodeon All-Star Brawl 2
       company_logo: /images/games/nasb2.jpg
+    - company: Parcel Corps
+      company_url: https://store.steampowered.com/app/2015960/Parcel_Corps/
+      company_logo: /images/games/parcel-corps.jpg
     - company: Path Of Exile
       company_url: https://store.steampowered.com/app/238960/Path_of_Exile/
       company_logo: /images/games/path-of-exile.jpg
@@ -130,6 +136,12 @@ clients:
     - company: PUBG MOBILE
       company_url: https://www.pubgmobile.com/en-US/home.shtml
       company_logo: /images/games/pubg-mob.png
+    - company_url: https://store.steampowered.com/app/1851350/Stampede_Racing_Royale/
+      company_logo: /images/games/stampede-rr.jpg
+      company: Stampede Racing Royale
+    - company_url: https://store.steampowered.com/app/1622910/Still_Wakes_the_Deep/
+      company: Still Wakes The Deep
+      company_logo: /images/games/still-wtd.jpg
     - company: Synced
       company_url: https://store.steampowered.com/app/1008080/SYNCED_OffPlanet/
       company_logo: /images/games/synced-header.jpg
