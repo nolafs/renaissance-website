@@ -1,6 +1,6 @@
 ---
 title: Dark Envoy
-date: 2023-10-24T08:00:00.528Z
+date: 2023-07-13T08:00:00.528Z
 categories: worldwide-campaigns
 image: /images/uploads/de-se-4.png
 client: Event Horizon
