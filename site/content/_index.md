@@ -76,12 +76,18 @@ clients:
     - company: Delta Force
       company_logo: /images/games/df-image-2.jpg
       company_url: https://www.playdeltaforce.com/en/home.html
+    - company: Den Of Wolves
+      company_url: https://store.steampowered.com/app/1818140/Den_of_Wolves/
+      company_logo: /images/games/den-of-wolves.jpg
     - company: Dune Awakening
       company_logo: /images/games/dune-awake-image.jpg
       company_url: https://store.steampowered.com/app/1172710/Dune_Awakening/
     - company: Dune Spice Wars
       company_url: https://store.steampowered.com/app/1605220/Dune_Spice_Wars/
       company_logo: /images/games/dune-spice.jpg
+    - company: Exoborne
+      company_logo: /images/games/exoborne.jpg
+      company_url: https://store.steampowered.com/app/2705130/Exoborne/
     - company: Extremely Powerful Capybaras
       company_url: https://store.steampowered.com/app/2089980/Extremely_Powerful_Capybaras/
       company_logo: /images/games/epc.jpg
