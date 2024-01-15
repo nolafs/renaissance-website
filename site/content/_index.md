@@ -58,9 +58,6 @@ clients:
     - company: Assassins Creed Jade
       company_url: https://www.assassinscreedjade.com/
       company_logo: /images/games/acjade-v2.jpg
-    - company: Avatar The Last Airbender - Quest For Balance
-      company_url: https://store.steampowered.com/app/1620030/Avatar_The_Last_Airbender__Quest_for_Balance/
-      company_logo: /images/games/avatar.jpg
     - company: Broken Sword - Parzival's Stone
       company_url: https://store.steampowered.com/app/2546810/Broken_Sword__Parzivals_Stone/
       company_logo: /images/games/bs-ps.jpg
@@ -70,9 +67,6 @@ clients:
     - company: Conan Exiles
       company_url: https://store.steampowered.com/app/440900/Conan_Exiles/
       company_logo: /images/games/conan.jpg
-    - company: Dark Envoy
-      company_url: https://store.steampowered.com/app/945770/Dark_Envoy/
-      company_logo: /images/games/dark-envoy.jpg
     - company: Delta Force
       company_logo: /images/games/df-image-2.jpg
       company_url: https://www.playdeltaforce.com/en/home.html
@@ -94,9 +88,6 @@ clients:
     - company: GTFO
       company_url: https://store.steampowered.com/app/493520/GTFO/
       company_logo: /images/games/gtfo.jpg
-    - company: GYLT
-      company_url: https://store.steampowered.com/app/2206210/GYLT/
-      company_logo: /images/games/gylt.jpg
     - company: Kena
       company_url: https://store.steampowered.com/app/1954200/Kena_Bridge_of_Spirits/
       company_logo: /images/games/kena.jpg
@@ -112,12 +103,6 @@ clients:
     - company: My Time At Sandrock
       company_url: https://store.steampowered.com/app/1084600/My_Time_at_Sandrock/
       company_logo: /images/games/my-time.jpg
-    - company: NASCAR Arcade Rush
-      company_url: https://store.steampowered.com/app/2192060/NASCAR_Arcade_Rush/
-      company_logo: /images/games/nascar.jpg
-    - company_url: https://store.steampowered.com/app/2017080/Nickelodeon_AllStar_Brawl_2/
-      company: Nickelodeon All-Star Brawl 2
-      company_logo: /images/games/nasb2.jpg
     - company: Parcel Corps
       company_url: https://store.steampowered.com/app/2015960/Parcel_Corps/
       company_logo: /images/games/parcel-corps.jpg
@@ -164,9 +149,6 @@ clients:
     - company: Ember Lab
       company_url: https://emberlab.com/
       company_logo: /images/clients/company-logo_emberlab.png
-    - company: Event Horizon
-      company_url: https://evehor.com/
-      company_logo: /images/clients/evnt-horizon-logo.png
     - company: Funcom
       company_url: www.funcom.com
       company_logo: /images/clients/funcom.png
