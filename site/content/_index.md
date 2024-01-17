@@ -103,6 +103,9 @@ clients:
     - company: My Time At Sandrock
       company_url: https://store.steampowered.com/app/1084600/My_Time_at_Sandrock/
       company_logo: /images/games/my-time.jpg
+    - company: NBA Infinite
+      company_logo: /images/games/nba-in-ren.jpg
+      company_url: https://nbainfinite.com/en/
     - company: Parcel Corps
       company_url: https://store.steampowered.com/app/2015960/Parcel_Corps/
       company_logo: /images/games/parcel-corps.jpg
