@@ -133,6 +133,9 @@ clients:
     - company: PUBG MOBILE
       company_url: https://www.pubgmobile.com/en-US/home.shtml
       company_logo: /images/games/pubg-mob.png
+    - company: Southfield
+      company_url: https://store.steampowered.com/app/2076210/Southfield/
+      company_logo: /images/games/southfield.jpg
     - company_url: https://store.steampowered.com/app/1851350/Stampede_Racing_Royale/
       company_logo: /images/games/stampede-rr.jpg
       company: Stampede Racing Royale
