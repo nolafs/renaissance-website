@@ -8,6 +8,8 @@ description: Working with Sharkmob & Level Infinite, Renaissance coordinated 40
   European media to attend digital briefings for their brand new game Exoborne
   prior to the global announcement at The Game Awards 2023.
 ---
+Working with Sharkmob & Level Infinite, Renaissance coordinated **40 European media** to attend digital briefings for their brand new game Exoborne prior to the global announcement at **The Game Awards 2023.**
+
 Coverage from the digital briefings & 1-2-1 interviews with the development team delivered a combined reach that stands at **316 articles** & a **2.7Bn** reach.​
 
 ![](/images/uploads/exo1.png)
