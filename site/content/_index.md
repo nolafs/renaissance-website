@@ -79,6 +79,9 @@ clients:
     - company: Dune Spice Wars
       company_url: https://store.steampowered.com/app/1605220/Dune_Spice_Wars/
       company_logo: /images/games/dune-spice.jpg
+    - company_url: https://store.steampowered.com/app/383120/Empyrion__Galactic_Survival/
+      company_logo: /images/games/empyrion.jpg
+      company: Empyrion - Galactic Survival
     - company: Exoborne
       company_logo: /images/games/exoborne.jpg
       company_url: https://store.steampowered.com/app/2705130/Exoborne/
