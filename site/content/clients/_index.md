@@ -177,7 +177,7 @@ clients:
       company_logo: /images/clients/client-r8games.jpg
       company_url: http://pacergame.com/
     - company: Radical Forge
-      company_logo: /images/clients/radical-forge.png
+      company_logo: /images/clients/lockup_black.png
       company_url: https://www.radicalforge.com/
     - company: Raiser Games
       company_logo: /images/clients/logo-raiser-games.png
