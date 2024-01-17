@@ -161,6 +161,9 @@ clients:
     - company: Bonsai Collective
       company_url: https://www.bonsai-collective.com/
       company_logo: /images/clients/company-logo_bonsai-collective-initis.png
+    - company: Daedalic Entertainment
+      company_logo: /images/clients/client-daedelic.jpg
+      company_url: https://www.daedalic.com/
     - company: Ember Lab
       company_url: https://emberlab.com/
       company_logo: /images/clients/company-logo_emberlab.png
@@ -199,7 +202,7 @@ clients:
       company_logo: /images/clients/pm-studios.jpeg
     - company: Radical Forge
       company_url: https://www.radicalforge.com/
-      company_logo: /images/clients/radical-forge.png
+      company_logo: /images/clients/lockup_black.png
     - company: Revolution
       company_url: https://revolution.co.uk/
       company_logo: /images/clients/revolution.png
