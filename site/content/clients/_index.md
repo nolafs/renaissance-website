@@ -228,7 +228,7 @@ clients:
       company_logo: /images/clients/client-team17.jpg
       company_url: https://www.team17.com/
     - company: Tencent Games
-      company_logo: /images/clients/client-tencentgames.jpg
+      company_logo: /images/clients/tencent-games.png
       company_url: https://careers.tencent.com/en-us/home.html
     - company: ThatGameCompany
       company_url: https://thatgamecompany.com/
