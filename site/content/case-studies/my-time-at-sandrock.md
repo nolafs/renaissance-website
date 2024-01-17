@@ -8,7 +8,7 @@ description: Renaissance delivered the strategy & execution on the launch
   campaign for My Time At Sandrock on Xbox Series X/S, Nintendo Switch &
   PlayStation 5.
 ---
-<!--StartFragment-->
+Renaissance delivered the strategy & execution on the launch campaign for My Time At Sandrock on Xbox Series X/S, Nintendo Switch & PlayStation 5.
 
 Ramping up to launch in just 2 months, distributing review code to **700+ carefully selected media & content creator targets** across North America, South America & Europe, as well as managing & executing on media-facing communications during the critical launch period.​
 
