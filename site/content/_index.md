@@ -52,6 +52,9 @@ services:
     It’s not about aimlessly shouting about your game to anyone willing to lend their ear,  we’re here to take your creativity and make sure the right people hear about it in the right way, at the right time and in the right place.
 clients:
   clients:
+    - company: Age Of Empires Mobile
+      company_url: https://aoemobile.com/
+      company_logo: /images/games/age-of-emp-mobile.png
     - company: Ascendant Infinity
       company_logo: /images/games/ascendant-in.jpg
       company_url: https://store.steampowered.com/app/1803110/Ascendant_Infinity/
