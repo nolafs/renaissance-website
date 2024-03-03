@@ -229,7 +229,7 @@ clients:
       company_logo: /images/clients/timi.png
     - company_url: https://untoldgames.com/
       company: Untold Games
-      company_logo: /images/clients/untold_games_logo.jfif
+      company_logo: /images/clients/untold-games-logo.png
     - company: VAULTN
       company_url: https://vaultn.com/
       company_logo: /images/clients/vaultn.png
