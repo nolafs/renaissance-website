@@ -38,6 +38,9 @@ clients:
     - company: Bulkhead
       company_logo: /images/clients/client-bulkhead.jpg
       company_url: https://bulkheadinteractive.com/
+    - company: ChillyRoom
+      company_logo: /images/clients/chilly.png
+      company_url: https://www.chillyroom.com/en
     - company: Curve Games
       company_logo: /images/clients/curve.png
       company_url: https://curvegames.com/
@@ -98,6 +101,9 @@ clients:
     - company: IIDEA
       company_logo: /images/clients/idea-logo-v2.png
       company_url: http://www.aesvi.it
+    - company: Italian Games Factory
+      company_logo: /images/clients/igf.png
+      company_url: https://www.italiangamesfactory.com/
     - company: Jackbox Games
       company_logo: /images/clients/jackbox.png
       company_url: https://www.jackboxgames.com/
@@ -242,6 +248,9 @@ clients:
     - company: Typhoon
       company_logo: /images/clients/client-typhoon.jpg
       company_url: http://typhoonstudios.com/
+    - company: Untold Games
+      company_logo: /images/clients/untold_games_logo.jfif
+      company_url: https://untoldgames.com/
     - company: VAULTN
       company_logo: /images/clients/vaultn.png
       company_url: https://vaultn.com/
@@ -251,6 +260,9 @@ clients:
     - company: Wired
       company_logo: /images/clients/client-wired.jpg
       company_url: https://www.wiredproductions.com/
+    - company: Yummy Games
+      company_logo: /images/clients/yummy.jpg
+      company_url: https://yummy-games.com/
   heading: " "
   text: " "
 ---
