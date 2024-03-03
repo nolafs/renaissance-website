@@ -164,6 +164,9 @@ clients:
     - company: Bonsai Collective
       company_url: https://www.bonsai-collective.com/
       company_logo: /images/clients/company-logo_bonsai-collective-initis.png
+    - company: ChillyRoom
+      company_logo: /images/clients/chilly.png
+      company_url: https://www.chillyroom.com/en
     - company: Daedalic Entertainment
       company_logo: /images/clients/client-daedelic.jpg
       company_url: https://www.daedalic.com/
@@ -188,6 +191,9 @@ clients:
     - company: IIDEA
       company_logo: /images/clients/idea-logo-v2.png
       company_url: https://en.iideassociation.com/
+    - company_url: https://www.italiangamesfactory.com/
+      company_logo: /images/clients/igf.png
+      company: Italian Games Factory
     - company: Level Infinite
       company_url: https://www.levelinfinite.com/
       company_logo: /images/clients/li-logo.png
@@ -221,9 +227,15 @@ clients:
     - company: Timi Studios
       company_url: https://www.timistudios.com/
       company_logo: /images/clients/timi.png
+    - company_url: https://untoldgames.com/
+      company: Untold Games
+      company_logo: /images/clients/untold_games_logo.jfif
     - company: VAULTN
       company_url: https://vaultn.com/
       company_logo: /images/clients/vaultn.png
+    - company_url: https://yummy-games.com/
+      company_logo: /images/clients/yummy.jpg
+      company: Yummy Games
   heading: Our Current Clients
   productsheading: Latest Games
   productstext: Our Latest projects
