@@ -67,6 +67,9 @@ clients:
     - company_url: https://store.steampowered.com/app/2544110/Broken_Sword__Shadow_of_the_Templars_Reforged/
       company_logo: /images/games/bs-ref.jpg
       company: Broken Sword - Shadow of the Templars Reforged
+    - company: City 20
+      company_url: https://store.steampowered.com/app/1597980/City_20/
+      company_logo: /images/games/city-20-steam.jpg
     - company: Conan Exiles
       company_url: https://store.steampowered.com/app/440900/Conan_Exiles/
       company_logo: /images/games/conan.jpg
