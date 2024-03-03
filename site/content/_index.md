@@ -56,7 +56,7 @@ clients:
       company_url: https://aoemobile.com/
       company_logo: /images/games/age-of-emp-mobile.png
     - company: Ascendant Infinity
-      company_logo: /images/games/ascendant-in.jpg
+      company_logo: /images/games/ascend-inf.jpg
       company_url: https://store.steampowered.com/app/1803110/Ascendant_Infinity/
     - company: Assassins Creed Jade
       company_url: https://www.assassinscreedjade.com/
@@ -94,6 +94,9 @@ clients:
     - company: GTFO
       company_url: https://store.steampowered.com/app/493520/GTFO/
       company_logo: /images/games/gtfo.jpg
+    - company: Hell Galaxy
+      company_url: https://store.steampowered.com/app/2513490/HELL_GALAXY/
+      company_logo: /images/games/hell-galaxy.jpg
     - company: Kena
       company_url: https://store.steampowered.com/app/1954200/Kena_Bridge_of_Spirits/
       company_logo: /images/games/kena.jpg
@@ -139,6 +142,9 @@ clients:
     - company: PUBG MOBILE
       company_url: https://www.pubgmobile.com/en-US/home.shtml
       company_logo: /images/games/pubg-mob.png
+    - company: Shadow Of The Depth
+      company_url: https://store.steampowered.com/app/2100150/Shadow_of_the_Depth/
+      company_logo: /images/games/shadow-of-depth.jpg
     - company: Southfield
       company_url: https://store.steampowered.com/app/2076210/Southfield/
       company_logo: /images/games/southfield.jpg
