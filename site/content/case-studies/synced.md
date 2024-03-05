@@ -1,7 +1,7 @@
 ---
 title: Synced
 date: 2023-08-01T11:00:00.000Z
-categories: uk-campaigns
+categories: emea-campaigns
 image: /images/uploads/synced-cs.jpg
 client: Level Infinite
 description: As we approached the launch of SYNCED, a journey which began with
