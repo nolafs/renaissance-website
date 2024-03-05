@@ -1,7 +1,7 @@
 ---
 title: Exoborne
 date: 2023-12-12T17:00:29.739Z
-categories: uk-campaigns
+categories: emea-campaigns
 image: /images/uploads/exoborne-main.jpg
 client: Level Infinite
 description: Working with Sharkmob & Level Infinite, Renaissance coordinated 40
