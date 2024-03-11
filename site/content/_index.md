@@ -97,9 +97,6 @@ clients:
     - company: GTFO
       company_url: https://store.steampowered.com/app/493520/GTFO/
       company_logo: /images/games/gtfo.jpg
-    - company: Hell Galaxy
-      company_url: https://store.steampowered.com/app/2513490/HELL_GALAXY/
-      company_logo: /images/games/hell-galaxy.jpg
     - company: Kena
       company_url: https://store.steampowered.com/app/1954200/Kena_Bridge_of_Spirits/
       company_logo: /images/games/kena.jpg
@@ -203,9 +200,6 @@ clients:
     - company: IIDEA
       company_logo: /images/clients/idea-logo-v2.png
       company_url: https://en.iideassociation.com/
-    - company_url: https://www.italiangamesfactory.com/
-      company_logo: /images/clients/igf.png
-      company: Italian Games Factory
     - company: Level Infinite
       company_url: https://www.levelinfinite.com/
       company_logo: /images/clients/li-logo.png
