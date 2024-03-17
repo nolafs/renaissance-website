@@ -73,6 +73,9 @@ clients:
     - company: Conan Exiles
       company_url: https://store.steampowered.com/app/440900/Conan_Exiles/
       company_logo: /images/games/conan.jpg
+    - company: DeathSprint 66
+      company_logo: /images/games/ds66.jpg
+      company_url: https://twitter.com/SumoDigitalLtd/status/1760635605690528242
     - company: Delta Force
       company_logo: /images/games/df-image-2.jpg
       company_url: https://www.playdeltaforce.com/en/home.html
