@@ -103,17 +103,18 @@ team:
 
 
         Over the past decade Andy has launched over 200 titles with both domestic and international publishers and developers.
-    - name: Sam Faulkner
-      text: >-
-        Sam has worked in games for a decade now and has had a broad career to
-        date. Starting out as a professional Film Journalist, he moved into
-        Games writing before moving in-house to work in Community Management.
-        Getting the bug for the development environment, Sam has worked
-        variously in PR, Design, Game Writing, Presenting and Production. 
-
-
-        A hybrid development and publishing professional comfortable speaking both languages, Sam is most proud of his work as Publishing Producer for Larian Studios and looks back with particular fondness on working on Baldur’s Gate 3 during Early Access. Leaving Larian in mid 2022, Sam became an independent consultant, working with indies, publishers and PR firms and has been working with Renaissance since late 2022. 
-      image: /images/uploads/sam-bio-v2.png
+    - name: James Bartholomeou
+      text: "As a seasoned communications specialist dedicated to the dynamic
+        intersection of public relations and video games, James seamlessly
+        blends his passion for the industry with a profound joy for crafting
+        compelling narratives. James has worked on a wealth of renowned titles,
+        such as Baldur's Gate 3, Magic: The Gathering, Viewfinder, TUNIC, and
+        Dungeons & Dragons, amongst many others. His approach to communications
+        is grounded in fostering positive relationships, ensuring transparency,
+        and contributing to a culture of kindness within the industry. He
+        believes in communication that not only promotes brands but also uplifts
+        the community and fosters a sense of integrity and goodwill."
+      image: /images/uploads/jb-bio.jpg
       position: " "
     - name: Claire Sharkey
       text: >-
