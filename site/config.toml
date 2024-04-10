@@ -1,4 +1,5 @@
-baseurl = "https://renaissancepr.co.uk/"
+#baseurl = "https://renaissancepr.co.uk/"
+baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
 title = "Renaissance PR Agency"

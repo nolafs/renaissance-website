@@ -1,0 +1,73 @@
+{{ $currentPage := . }}
+{{if ( .Get "images" ) }}
+{{ $images := split ( .Get "images" ) ","}}
+{{ $slideId := now.UnixNano }}
+<section class="carousel" aria-label="Gallery">
+   {{range $i, $content:= $images}}
+           <input class="carousel__activator" type="radio" id="{{$slideId}}-{{$i}}" name="activator" {{if eq $i 0}}checked="checked"{{end}}/>
+   {{end}}
+    <ol class="carousel__viewport"  id="gallery-{{$slideId}}" >
+
+        {{range $i, $content:= $images}}
+        <li id="carousel__slide{{$i}}" tabindex="{{$i}}" class="carousel__slide">
+
+            <img data-src="{{$content}}" class="lazyload">
+             <div class="carousel__snapper"></div>
+            <div class="carousel__controls">
+                {{if eq $i 0}}
+                    <label class="carousel__control carousel__prev" for="{{$slideId}}-{{sub (len $images) 1}}"></label>
+                 {{else}}
+                    <label class="carousel__control carousel__prev" for="{{$slideId}}-{{sub $i 1}}"></label>
+                {{end}}
+                {{if eq $i (sub (len $images) 1)}}
+                    <label class="carousel__control carousel__next" for="{{$slideId}}-0"></label>
+                {{else}}
+                    <label class="carousel__control carousel__next" for="{{$slideId}}-{{add $i 1}}"></label>
+                {{end}}
+            </div>
+        </li>
+        {{end}}
+    </ol>
+    <aside class="carousel__navigation">
+        <ol id="carousel__navigation-list-{{$slideId}}" class="carousel__navigation-list">
+            {{range $i, $content:= $images}}
+                <li class="carousel__navigation-item {{if eq $i 0}}active{{end}}" id="carousel__navigation-item-{{$slideId}}-{{$i}}">
+                    <label   for="{{$slideId}}-{{$i}}"></label>
+                </li>
+            {{end}}
+        </ol>
+    </aside>
+     <div class="carousel__icon-next"><i class="icon fas fa-chevron-right"></i></div>
+     <div class="carousel__icon-prev"><i class="icon fas fa-chevron-left"></i></div>
+</section>
+    <script>
+        function scrollHandler(e) {
+            const atSnappingPoint = e.target.scrollLeft % e.target.offsetWidth === 0;
+            const timeOut         = atSnappingPoint ? 0 : 150; //see notes
+            const rect = document.getElementById('gallery-{{$slideId}}').getBoundingClientRect();
+
+
+           let count = 0;
+           const visibleElements = Array.from(document.getElementById('gallery-{{$slideId}}').children).filter((child) => {
+                const childRect = child.getBoundingClientRect();
+                return Math.round(childRect.left) >= Math.floor(rect.left) && Math.floor(childRect.right-10) <= Math.round(rect.right);
+            });
+
+            Array.from(document.getElementById('carousel__navigation-list-{{$slideId}}').children).forEach(child => {
+              child.classList.remove('active');
+            });
+
+
+
+            clearTimeout(e.target.scrollTimeout);
+                e.target.scrollTimeout = setTimeout(function() {
+                  console.log(visibleElements)
+                   if(visibleElements[0]) {
+                     document.getElementById('carousel__navigation-item-{{$slideId}}-' + (visibleElements[0].tabIndex)).classList.add('active');
+                   }
+                }, timeOut);
+
+        }
+        document.getElementById('gallery-{{$slideId}}').addEventListener('scroll', scrollHandler);
+    </script>
+{{end}}

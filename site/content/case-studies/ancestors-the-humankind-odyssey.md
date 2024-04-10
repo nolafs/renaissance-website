@@ -12,6 +12,4 @@ description: >
 ---
 Front Cover on Wireframe from the new game from the creator of Assassin's Creed Patrice Desilets. 
 
-UK has been the 3rd country for organic influencers coverage after US and Brasil, with feature articles and interview with New Scientist, previews on the Guardian on top of the all top tier mainstream and specialist press in the United Kingdom.
-
-![Wireframe](/images/uploads/case-ancestors-img.jpg "Wireframe")
+{{< columns left="![](/images/uploads/case-ancestors-img.jpg)" right="UK has been the 3rd country for organic influencers coverage after US and Brasil, with feature articles and interview with New Scientist, previews on the Guardian on top of the all top tier mainstream and specialist press in the United Kingdom." >}}

@@ -26,19 +26,19 @@
         width: 241px;
         height: 297px;
         z-index: 10;
-        left: - rem-calc(241/2);
+        left: - rem-calc(241*0.5);
         top: -80px;
 
         @include breakpoint(small only) {
-           width: rem-calc(241/2);
-           height: rem-calc(297/2);
+           width: rem-calc(241*0.5);
+           height: rem-calc(297*0.5);
            left: 25%;
            top: 50%;
          }
 
         @include breakpoint(medium only) {
-          width: rem-calc(241/2);
-          height: rem-calc(297/2);
+          width: rem-calc(241*0.5);
+          height: rem-calc(297*0.5);
           left: auto;
           right: 30%;
           top: 45%;

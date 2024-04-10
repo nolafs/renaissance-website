@@ -2,6 +2,8 @@
 // String Replace
 // =============================================================================
 
+@use "sass:math";
+
 @function str-replace($string, $search, $replace: "") {
   $index: str-index($string, $search);
 
@@ -99,7 +101,7 @@
 // =============================================================================
 
 @mixin responsive-ratio($x,$y, $pseudo: false) {
-  $padding: unquote(( $y / $x ) * 100 + '%');
+  $padding: unquote( math.div($y, $x)  * 100 + '%');
   @if $pseudo {
     &:before {
       @include pseudo($pos: relative);
@@ -266,8 +268,8 @@
       padding-top: rem-calc($num);
       padding-bottom: rem-calc($num);
       @include breakpoint(small only) {
-        padding-top: rem-calc($num/2);
-        padding-bottom: rem-calc($num/2);
+        padding-top: rem-calc($num*0.5);
+        padding-bottom: rem-calc($num*0.5);
       }
     }
   }
@@ -277,7 +279,7 @@
     .p-t-#{$num} {
       padding-top: rem-calc($num);
       @include breakpoint(small only) {
-        padding-top: rem-calc($num/2);
+        padding-top: rem-calc($num*0.5);
       }
     }
   }
@@ -287,7 +289,7 @@
     .p-b-#{$num} {
       padding-bottom: rem-calc($num);
       @include breakpoint(small only) {
-        padding-bottom: rem-calc($num/2);
+        padding-bottom: rem-calc($num*0.5);
       }
     }
   }
@@ -297,7 +299,7 @@
     .p-a-#{$num} {
       padding: rem-calc($num);
       @include breakpoint(small only) {
-        padding: rem-calc($num/2);
+        padding: rem-calc($num*0.5);
       }
     }
   }
@@ -311,8 +313,8 @@
       margin-top: rem-calc($num);
       margin-bottom: rem-calc($num);
       @include breakpoint(small only) {
-        margin-top: rem-calc($num/2);
-        margin-bottom: rem-calc($num/2);
+        margin-top: rem-calc($num*0.5);
+        margin-bottom: rem-calc($num*0.5);
       }
     }
   }
@@ -322,7 +324,7 @@
     .m-t-#{$num} {
       margin-top: rem-calc($num);
       @include breakpoint(small only) {
-        margin-top: rem-calc($num/2);
+        margin-top: rem-calc($num*0.5);
       }
     }
   }
@@ -332,7 +334,7 @@
     .m-b-#{$num} {
       margin-bottom: rem-calc($num);
       @include breakpoint(small only) {
-        margin-bottom: rem-calc($num/2);
+        margin-bottom: rem-calc($num*0.5);
       }
     }
   }
@@ -342,7 +344,7 @@
     .m-r-#{$num} {
       margin-right: rem-calc($num);
       @include breakpoint(small only) {
-        margin-right: rem-calc($num/2);
+        margin-right: rem-calc($num*0.5);
       }
     }
   }
@@ -352,7 +354,7 @@
     .m-l-#{$num} {
       margin-left: rem-calc($num);
       @include breakpoint(small only) {
-        margin-left: rem-calc($num/2);
+        margin-left: rem-calc($num*0.5);
       }
     }
   }
@@ -484,8 +486,8 @@
           &:not(#logo):not(.submenu) {
 
               a, .item {
-                padding-top: rem-calc((($height - $base-font-size))/2);
-                padding-bottom: rem-calc((($height - $base-font-size))/2);
+                padding-top: rem-calc((($height - $base-font-size))*0.5);
+                padding-bottom: rem-calc((($height - $base-font-size))*0.5);
                 font-size: $fontSize;
                 color: $fontColor;
                 background-color: $backgroundColorButton;
@@ -538,8 +540,8 @@
         ul.menu {
           &:not(#logo):not(.submenu){
               a, .item {
-                padding-top: rem-calc((($stickyHeight - $base-font-size))/2);
-                padding-bottom: rem-calc((($stickyHeight - $base-font-size))/2);
+                padding-top: rem-calc((($stickyHeight - $base-font-size))*0.5);
+                padding-bottom: rem-calc((($stickyHeight - $base-font-size))*0.5);
 
                 font-size: $stickyFontSize;
                 color: $stickyFontColor;
