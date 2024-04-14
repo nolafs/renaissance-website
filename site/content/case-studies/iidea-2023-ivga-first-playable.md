@@ -2,7 +2,7 @@
 title: IIDEA 2023 - IVGA & First Playable
 date: 2023-07-07T12:00:38.836Z
 categories: worldwide-campaigns
-image: /images/uploads/idea-cs-main.jpg
+image: /images/case-studies/idea-cs-main.jpg
 client: IIDEA
 description: Renaissance handled the whole organization for the Italian
   Videogame Awards and First Playable panels as well as the international press

@@ -1,11 +1,12 @@
 import CMS from "decap-cms-app";
-import Immutable from "immutable";
+
 import {marked} from "marked";
 
 // Import main site styles as a string to inject into the CMS preview pane
 import styles from '!to-string-loader!css-loader?{"url":false}!postcss-loader!sass-loader!../scss/cms.scss';
 
 import CaseStudies from "./cms-previews-templates/case-studies";
+import {fromJS} from 'immutable';
 
 CMS.registerPreviewStyle(styles, { raw: true });
 CMS.registerPreviewTemplate("case-studies",CaseStudies);
@@ -33,6 +34,55 @@ CMS.registerEditorComponent({
 		}
 	},
 });
+
+CMS.registerEditorComponent({
+	id: "imageSize",
+	label: "Image Size",
+	fields: [
+		{name: "image", label: "Image", widget: "image"},
+		{name: "alt", label: "alt", widget: "string"},
+		{name: "width", label: "width", widget: "string"},
+		{name: "height", label: "height", widget: "string"},
+		{name: "processing", label: "Processing", widget: "select", options: ["resize", "crop", "fit", "fill"], default: "fill"},
+	],
+	fromBlock: match =>
+		match && {
+			image: match[1],
+			alt: match[2],
+			width: match[3],
+			height: match[4],
+			processing: match[5],
+		},
+	toBlock: obj => {
+		return (
+			"{{< imageSize image=\"" +
+			obj.image +
+			"\" processing=\"" +
+			obj.processing +
+		"\" alt=\"" +
+			obj.alt +
+			"\" width=\"" +
+			obj.width +
+			"\" height=\"" +
+			obj.height +
+			"\" >}}"
+		)
+	},
+	toPreview: obj => {
+		return (
+			'<img src="' +
+			obj.image +
+			'" alt="' +
+			obj.alt +
+			'" width="' +
+			obj.width +
+			'" height="' +
+			obj.height +
+			'"/>'
+		)
+	}
+});
+
 
 CMS.registerEditorComponent({
 	id: "columns",
@@ -91,7 +141,7 @@ CMS.registerEditorComponent({
 		};
 	},
 	toBlock: function (obj) {
-		const images = Immutable.fromJS(obj.images || []);
+		const images = fromJS(obj.images || []);
 		return (
 			'{{< gallery images="' +
 			images.map((v, i) => v.get("image")).join(",") +
@@ -99,7 +149,7 @@ CMS.registerEditorComponent({
 		);
 	},
 	toPreview: function (obj) {
-		const images = Immutable.fromJS(obj.images || []);
+		const images = fromJS(obj.images || []);
 		const list = images.map((v, i) => ("<li id='carousel__slide" + i + "' tabindex='" + i + "' class='carousel__slide'> " +
 			"<img src='" + v.get("image") + "'/>" +
 			"<div class=\"carousel__snapper\">\n" +

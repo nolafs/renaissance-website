@@ -5,7 +5,29 @@
                 <div class="image-single-wrapper">
                 <img src="/images/cs-spacer.gif">
                     <div class="image-single">
-                        <img src="{{.Content.Params.image}}" alt="{{.Content.Params.title}}">
+
+                        {{$imageUrl := "" }}
+                        {{- if isset .Content.Params "image" -}}
+                            {{ $resource := resources.Get  .Content.Params.image }}
+                            {{- if $resource -}}
+                                {{- with $resource.Fill "1280x720 q50 webp" -}}
+                                    {{$imageUrl = .RelPermalink}}
+                                {{- end -}}
+                            {{- else -}}
+                                {{- if .Content.Params.image -}}
+                                    {{$imageUrl = printf "%s?nf_resize=fit&w=1280&h=720" .Content.Params.image }}
+                                {{- else -}}
+                                    {{- with resources.Get .Site.Data.theme.placeholder_img -}}
+                                        {{- with .Fill "1280x720 q50 webp" -}}
+                                            {{$imageUrl = .RelPermalink }}
+                                        {{- end -}}
+                                    {{- end -}}
+                                {{- end -}}
+                            {{- end -}}
+                        {{- end -}}
+
+
+                        <img src="{{$imageUrl}}" alt="{{.Content.Params.title}}">
                     </div>
                 </div>
             </div>

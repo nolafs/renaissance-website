@@ -2,7 +2,7 @@
 title: Den Of Wolves
 date: 2023-12-12T17:00:36.450Z
 categories: emea-campaigns
-image: /images/uploads/dow-main.jpg
+image: /images/case-studies/dow-main.jpg
 client: 10 Chambers
 description: Partnering with 10 Chambers, Renaissance coordinated 15 Tier
   1 European media to attend a pre-announce briefing of their brand new game &

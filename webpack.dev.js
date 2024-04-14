@@ -1,7 +1,7 @@
 const { merge } = require('webpack-merge')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const BrowserSyncPlugin = require('browser-sync-webpack-plugin')
+const BrowserSyncPlugin = require('browser-sync-v3-webpack-plugin')
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 const path = require('path')
 const common = require("./webpack.common");

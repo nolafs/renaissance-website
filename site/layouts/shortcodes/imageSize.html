@@ -1,0 +1,36 @@
+{{$imageUrl := "" }}
+{{$image:= .Get  "image" }}
+{{$width:= .Get  "width" }}
+{{$height:= .Get  "height" }}
+{{$alt:= .Get  "alt" | default "" }}
+{{$processing:= .Get  "processing" | default "fill" }}
+{{ $sizeString:= printf "q50 webp" }}
+
+{{if and $width $height}}
+    {{ $sizeString = printf "%sx%s q50 webp" $width $height }}
+{{end}}
+{{if and $width (not $height)}}
+    {{ $sizeString = printf "%sx q50 webp" $width }}
+{{end}}
+{{if and $height  (not $width)}}
+    {{ $sizeString = printf "x%s q50 webp" $height }}
+{{end}}
+{{if and (not $width)  (not $height)}}
+    {{ $sizeString = printf "q50 webp" }}
+{{end}}
+
+{{- if $image -}}
+    {{ $resource := resources.Get  $image }}
+    {{- if $resource -}}
+            {{if eq $processing "fit"}}
+                {{$imageUrl = ($resource.Fit $sizeString).RelPermalink }}
+            {{else if eq $processing "resize"}}
+                {{$imageUrl = ($resource.Resize $sizeString).RelPermalink }}
+            {{else if eq $processing "fill"}}
+                {{$imageUrl = ($resource.Fill $sizeString).RelPermalink }}
+            {{else if eq $processing "crop"}}
+                {{$imageUrl = ($resource.Crop $sizeString).RelPermalink }}
+            {{end}}
+            <img src="{{$imageUrl}}" alt="{{$alt}}">
+    {{- end -}}
+{{- end -}}

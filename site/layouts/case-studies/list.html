@@ -24,7 +24,11 @@
             {{$cat := replace .Params.categories " " "-"}}
             <div class="item cell item-{{$index}} {{if eq $index  0 }}expand{{end}}" data-groups='["{{lower $cat}}"]' data-date-created="{{ $content.Date.Format "2006-01-02" }}" onclick="window.location='{{ .RelPermalink }}';">
                 {{with $content}}
-                {{ .Render "summary" }}
+                     {{if eq $index  0 }}
+                        {{ .Render "large" }}
+                     {{else}}
+                        {{ .Render "summary" }}
+                     {{end}}
                 {{end}}
             </div>
             {{ end }}
@@ -36,4 +40,3 @@
 </div>
 </section>
 {{ end }}
-

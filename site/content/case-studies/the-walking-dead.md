@@ -2,7 +2,7 @@
 title: The Walking Dead
 date: 2019-10-28T11:00:36.630Z
 categories: emea-campaigns
-image: /images/uploads/case-thewalkingdead-header.jpg
+image: /images/case-studies/case-thewalkingdead-header.jpg
 client: Skybound
 description: >-
   We launched the critically acclaimed The Walking Dead creating EM EA strategy
@@ -13,4 +13,4 @@ We launched the critically acclaimed The Walking Dead creating EM EA strategy fo
 
 Renaissance manage also to achieve a front cover on EDGE, which awarded The Walking Dead as one of the biggest game of the decade. Mainstream website LADBIBLE, assigned the same honour to the series as one of the most important of the decade. 
 
-![Daily Star](/images/uploads/case-thewalkingdead-img.jpg "Daily Star")
+![Daily Star](/images/case-studies/case-thewalkingdead-img.jpg "Daily Star")

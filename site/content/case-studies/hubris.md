@@ -2,7 +2,7 @@
 title: Hubris
 date: 2022-08-31T14:30:59.310Z
 categories: worldwide-campaigns
-image: /images/uploads/hub-cs-main.jpg
+image: /images/case-studies/hub-cs-main.jpg
 client: Cyborn
 description: Renaissance served as a global lead agency for Belgian developer
   Cyborn as it launched what the media described "exactly the sort of game VR

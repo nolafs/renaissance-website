@@ -5,7 +5,7 @@
   <div class="image-wrapper aspect aspect--16x9">
     {{ $resource := resources.Get . }}
     {{ if $resource }}
-    {{ $image := $resource.Fill "433x244 q60 webp" }}
+    {{ $image := $resource.Fill "907x510 q60 webp" }}
     <img src="{{ $image.RelPermalink }}" alt="{{$alt}}">
     {{ else }}
      <img src="{{ . }}" alt="{{$alt}}">

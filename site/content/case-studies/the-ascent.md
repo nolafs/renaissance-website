@@ -2,7 +2,7 @@
 title: The Ascent
 date: 2021-07-28T23:00:33.853Z
 categories: worldwide-campaigns
-image: /images/uploads/ascent.jpg
+image: /images/case-studies/ascent.jpg
 testimonial: ""
 client: Curve Digital
 description: >

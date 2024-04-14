@@ -11,6 +11,8 @@ collections:
   - name: "case-studies" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Case Studies" # Used in the UI, ie.: "New Post"
     label_singular: "Case Study"
+    media_folder: "/site/assets/images/case-studies/"
+    public_folder: "/images/case-studies"
     editor:
       preview: true
     folder: "site/content/case-studies" # The path to the folder where the documents are stored
@@ -26,7 +28,14 @@ collections:
         searchFields: ["name"]
         valueField: "value"
         displayFields: ["name"]
-      - {label: "Image", name: "image", widget: "image", required: true}
+      - {
+        label: "Image",
+        name: "image",
+        widget: "image",
+        media_folder: "/site/assets/images/case-studies/",
+        public_folder: "/images/case-studies",
+        required: true
+      }
       - label: "Testimonial"
         name: "testimonial"
         widget: "relation"

@@ -2,7 +2,7 @@
 title: Forgotton Anne
 date: 2019-10-04T08:50:26.838Z
 categories: worldwide-campaigns
-image: /images/uploads/case-forgottenanne.jpg
+image: /images/case-studies/case-forgottenanne.jpg
 testimonial: ''
 client: Square Enix Collective
 description: >-
@@ -19,4 +19,4 @@ Forgotton Anne was the 11th highest scoring game on Xbox Metacritic in 2018 (5th
 
 Renaissance was in charge of  the project worldwide both on Strategy and Execution.
 
-![](/images/uploads/case-forgottenanne-img.jpg)
+![](/images/case-studies/case-forgottenanne-img.jpg)

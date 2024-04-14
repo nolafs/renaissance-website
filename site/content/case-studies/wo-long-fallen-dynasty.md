@@ -2,7 +2,7 @@
 title: "Wo Long: Fallen Dynasty"
 date: 2023-03-03T13:00:35.445Z
 categories: emea-campaigns
-image: /images/uploads/wl-cs-main.jpg
+image: /images/case-studies/wl-cs-main.jpg
 client: Koei Tecmo
 description: "Renaissance & our German partner agency handled media outreach for
   Team Ninja's latest masocore, fantasy RPG Wo Long: Fallen Dynasty from
@@ -10,13 +10,13 @@ description: "Renaissance & our German partner agency handled media outreach fo
 ---
 Renaissance & our German partner agency handled media outreach for Team Ninja's latest masocore, fantasy RPG Wo Long: Fallen Dynasty from announcement through to launch.
 
-![](/images/uploads/wl-cs1.png)
+![](/images/case-studies/wl-cs1.png)
 
 Throughout 2022 and into 2023 we promoted the title at live events, trade fairs and handled all aspects of the news cycle inc. hands on events, interview opportunities, organic content creator targeting and reviews across UK, GSA, Eastern Europe, Middle East and ANZ.
 
 In total, to date, we have generated **3,094 articles** with a reach of **10.5Bn umv inc. 239 reviews**.
 
-![](/images/uploads/wl-cs2.png)
+![](/images/case-studies/wl-cs2.png)
 
 
 
@@ -24,7 +24,7 @@ Alongside this Renaissance managed the content creator outreach. **393 creators*
 
 As a total (as of 16/03/23), the full campaign for Wo Long within the regions that we covered had achieved over **18.9 Million views**. 
 
-![](/images/uploads/wl-cs3.png)
+![](/images/case-studies/wl-cs3.png)
 
 
 
@@ -32,4 +32,4 @@ There were **1,240 pieces of content** created from a subscriber base of over 
 
 At launch the reach covered **261** Twitch channels and **132** YouTube channels. 
 
-![](/images/uploads/wl-cs4.png)
+![](/images/case-studies/wl-cs4.png)
