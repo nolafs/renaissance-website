@@ -30,7 +30,7 @@ services:
       title: Paid & Organic Influencer Planning
     - icon: /images/uploads/icon-2-.svg
       text: >
-        First Party relationship, assets management and stored page optimization
+        First Party relationship, assets management and stored dfd page optimization
         as well as an eye to your production pipeline are vital to create a
         great communication campaign that delivers the engagement numbers you
         need.

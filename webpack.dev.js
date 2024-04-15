@@ -8,9 +8,7 @@ const common = require("./webpack.common");
 
 module.exports = merge(common, {
 	mode: "development",
-	//devtool: 'source-map',
 	devtool: 'eval-source-map',
-	watch: true,
 	output: {
 		filename: "[name].js",
 		chunkFilename: "[id].css"
@@ -50,9 +48,9 @@ module.exports = merge(common, {
 		port: process.env.PORT || 3100,
 		static: path.join(process.cwd(), './dist'),
 		client: {overlay: {errors: true, warnings: false}},
-		hot: true,
 		open: false,
 		compress: false,
+		hot: false,
 		allowedHosts: 'auto',
 		historyApiFallback: {
 			rewrites: [{from: /./, to: '404.html'}]
@@ -68,7 +66,8 @@ module.exports = merge(common, {
 				// proxy the Webpack Dev Server endpoint
 				// (which should be serving on http://localhost:3100/)
 				// through BrowserSync
-				proxy: 'http://localhost:3100/'
+				proxy: 'http://localhost:3100/',
+				files: ['src/**/*.{js,css,vue}', 'site/**/*.html'],
 			},
 			// plugin options
 			{
