@@ -3,7 +3,7 @@
 {{$width:= .Get  "width" }}
 {{$height:= .Get  "height" }}
 {{$alt:= .Get  "alt" | default "" }}
-{{$processing:= .Get  "processing" | default "fill" }}
+{{$processing:= .Get  "processing" | default "resize" }}
 {{ $sizeString:= printf "q50 webp" }}
 
 {{if and $width $height}}

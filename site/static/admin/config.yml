@@ -93,6 +93,10 @@ collections:
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: text},
               {label: "Subheader", name: "subheader", widget: string},
+              {label: "Video active", name: "active", widget: "boolean", default: false},
+              {label: Poster, name: poster,  widget: image, required: false},
+              {label: "Video upload", name: videoFile, required: false, widget: file, media_library: { config: { multiple: false, max_file_size: 20240000 }} },
+
               {label: "Services List", name: "services_list", widget: "list", fields: [
               {label: "Title" , name: "title" , widget: string},
               {label: "text" , name: "text" , widget: text},
@@ -276,20 +280,15 @@ collections:
         name: "gdpr"
         file: "site/data/gdpr.yaml"
         fields:
-          - label: "Use Osana Cookie Content"
-            name: "osana"
-            widget: object
-            fields:
-              - {label: "Osana on/off", name: "active", widget: "boolean", default: false}
-              - {label: Script , name: script, widget: string}
-          - label: "Simple Cookie Consent"
-            name: "consent"
-            widget: object
-            fields:
-              - {label: Message, name: message, widget: string, default: "This website uses cookies to ensure you get the best experience on our website."}
-              - {label: Dismiss, name: dismiss, widget: string, default: "Got it!"}
-              - {label: Link, name: link, widget: string, default: "Privacy Policy"}
-              - {label: Url, name: url, widget: string}
+          - { label: Message, name: message, widget: string, default: "This website uses cookies to ensure you get the best experience on our website." }
+          - { label: 'Link Label', name: link, widget: string, default: "Privacy Policy" }
+          - { label: Url, name: url, widget: string }
+          - { label: Items, name: items, widget: list, fields: [
+              { label: Title, name: title, widget: string },
+              { label: Description, name: description, widget: string },
+              { label: "Script file" , name: script_file, widget: string, required: false },
+              { label: "Is functional", name: is_functional, widget: boolean, required: false },
+          ] }
       - label: "Awards"
         name: "awards"
         file: "site/data/awards.yaml"

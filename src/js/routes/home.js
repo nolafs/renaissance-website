@@ -19,7 +19,7 @@ gsap.defaultEase = Expo.easeOut;
 export default {
 
     animHeader() {
-        const tl = gsap.timeline({repeat:0, delay: 0.2});
+        const tl = gsap.timeline({repeat:0, delay: 2});
         const heading = $('.hero-header-inner');
         const title = new SplitText($('.hero-header-inner').find('h1'), {type:"words,chars"});
         const chars = title.words;
@@ -155,11 +155,11 @@ export default {
             autoplaySpeed: 3000,
         });
 
-
+        console.log('home final')
         this.animHeader();
-        this.animList();
-        this.animServices();
-        this.animBlocks();
+        //this.animList();
+        //this.animServices();
+        //this.animBlocks();
         setTimeout(() => {
             this.animateAward()}, 1000);
 

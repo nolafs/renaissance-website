@@ -30,16 +30,8 @@
 
 
 
-    {{if not $.Site.Data.gdpr.osana.active }}
-    {{ "<!-- GDPR -->" | safeHTML }}
-        {{ partial "cookie-consent.html" . }}
-    {{ end }}
-
-
-    {{ "<!-- GOOGLE -->" | safeHTML }}
+    {{ "<!-- CUSTOM -->" | safeHTML }}
     {{ partial "head-custom.html" . }}
-
-    {{ partial "google-analytics-script.html" . }}
 
     {{ if .IsHome }}
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>

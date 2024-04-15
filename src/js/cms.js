@@ -39,48 +39,45 @@ CMS.registerEditorComponent({
 	id: "imageSize",
 	label: "Image Size",
 	fields: [
-		{name: "image", label: "Image", widget: "image"},
-		{name: "alt", label: "alt", widget: "string"},
+		{name: "image", label: "Image", widget: "image" , required: true},
+		{name: "alt", label: "alt", widget: "string", required: true},
 		{name: "width", label: "width", widget: "string"},
-		{name: "height", label: "height", widget: "string"},
-		{name: "processing", label: "Processing", widget: "select", options: ["resize", "crop", "fit", "fill"], default: "fill"},
+		{name: "height", label: "height", widget: "string", hint: "Optional: required if fill or fit is selected"},
+		{name: "processing", label: "Processing", widget: "select", options: ["resize", "crop", "fit", "fill"], default: "resize",  hint: "resize: Resizes the image to fit within the specified dimensions. crop: Crops the image to the specified dimensions. fit: Resizes the image to fit within the specified dimensions, without distorting the image. fill: Resizes the image to fit within the specified dimensions, distorting the image if necessary."}
 	],
-	fromBlock: match =>
-		match && {
-			image: match[1],
-			alt: match[2],
-			width: match[3],
-			height: match[4],
-			processing: match[5],
-		},
+	pattern: /^{{<\s?imageSize.*\s?>}}/,
+	fromBlock: function (match) {
+		const fullMatch = match[0];
+		const extractAttribute = (attrName) => {
+			const regex = new RegExp(`${attrName}="([^"]+)"`);
+			const match = regex.exec(fullMatch);
+			return match ? match[1] : null;
+		};
+
+		return {
+			image: extractAttribute('image'),
+			alt: extractAttribute('alt'),
+			width: extractAttribute('width'),
+			processing: extractAttribute('processing'),
+			height: extractAttribute('height') // Optional: include this if you decide to handle height as well.
+		};
+	},
 	toBlock: obj => {
+
+		const { image, alt, width, height, processing } = obj
+
+		const shortcode =  `{{< imageSize image="${image}"  alt="${alt}" ${(width) ? `width="${width}"` : ''} ${ (height) ? `height="${height}"` : ''} processing="${processing}">}}`
+
 		return (
-			"{{< imageSize image=\"" +
-			obj.image +
-			"\" processing=\"" +
-			obj.processing +
-		"\" alt=\"" +
-			obj.alt +
-			"\" width=\"" +
-			obj.width +
-			"\" height=\"" +
-			obj.height +
-			"\" >}}"
+			shortcode
 		)
 	},
-	toPreview: obj => {
-		return (
-			'<img src="' +
-			obj.image +
-			'" alt="' +
-			obj.alt +
-			'" width="' +
-			obj.width +
-			'" height="' +
-			obj.height +
-			'"/>'
-		)
-	}
+	toPreview: function (obj) {
+		const imageUrl = obj.image.startsWith('http') ? obj.image : `https://placehold.co/${obj.width || 300}x${obj.height ? obj.height : ''}`;
+		const altText = obj.alt || 'Image preview';
+		const widthStyle = obj.width ? `width: ${obj.width}px;` : 'width: auto;';
+		return `<img src="${imageUrl}" alt="${altText}" style="${widthStyle} max-width: 100%; height: auto;">`;
+	},
 });
 
 

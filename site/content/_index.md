@@ -30,7 +30,7 @@ services:
       title: Paid & Organic Influencer Planning
     - icon: /images/uploads/icon-2-.svg
       text: >
-        First Party relationship, assets management and store page optimization
+        First Party relationship, assets management and stored page optimization
         as well as an eye to your production pipeline are vital to create a
         great communication campaign that delivers the engagement numbers you
         need.
@@ -50,6 +50,8 @@ services:
 
 
     It’s not about aimlessly shouting about your game to anyone willing to lend their ear,  we’re here to take your creativity and make sure the right people hear about it in the right way, at the right time and in the right place.
+  videoFile: /images/uploads/ot_showreel_1.mp4
+  active: true
 clients:
   clients:
     - company: Age Of Empires Mobile

@@ -1,11 +1,22 @@
-osana:
-  active: false
-  script: >-
-    https://cmp.osano.com/JD8rbbqReUcMwfEty/3b33e034-92f7-4805-8eed-99e1e4d9f39d/osano.js
-consent:
-  dismiss: Got it!
-  link: Privacy Policy
-  message: >-
-    This website uses cookies to ensure you get the best experience on our
-    website.
-  url: /privacy
+message: This website uses cookies to ensure you get the best experience on our website.
+link: Privacy Policy
+url: /privacy
+items:
+  - title: Google Anaytics
+    description: This code gives us insight into the number of people that visit our
+      website, where they are from and what they are clicking on.
+    is_functional: false
+    script_file: ga.js
+  - title: Facebook Pixel
+    description: The cookie is set by Facebook to show relevant advertisements to
+      the users and measure and improve the advertisements. The cookie also
+      tracks the behaviour of the user across the web on sites that have
+      Facebook pixel or Facebook social plugin.
+    is_functional: false
+    script_file: facebook.js
+  - title: YouTube (functional)
+    is_functional: true
+    description: Youtube cookies are required for the site to function correctly.
+      All marketing and tracking cookies for the YouTube player are turned off.
+    script_file: ""
+slug: gdpr
