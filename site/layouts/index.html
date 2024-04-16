@@ -9,7 +9,7 @@
 {{ define "main" }}
     <div id="home-services" class="grid-container block">
         <div class="grid-x grid-padding-x grid-margin-y">
-            <div class="cell small-12  small-text-left large-text-right section-heading">
+            <div id="service-intro" class="cell small-12  small-text-left large-text-right section-heading">
                 <div class="home-service-heading">
                     <h2><div class="h-anim">{{.Params.services.heading}}</div></h2>
                 </div>
@@ -18,17 +18,20 @@
                     <a href="/services" class="large button">All our Services</a>
                 </div>
             </div>
-            <div class="cell small-12">
-                <div class="video-player responsive-embed widescreen">
+            <div id="services-video" class="cell small-12">
+                <div  class="video-player responsive-embed widescreen">
                     {{ .Params.services.video | safeHTML }}
                 </div>
             </div>
-            <div class="cell small-12">
+            <div id="service-list" class="cell small-12">
                 <div class="small-text-left large-text-right section-heading gh">
-                <h3 class="h-anim-2">
-                    {{.Params.services.subheader}}</h3>
+                    <div class="home-service-heading">
+                        <h3>
+                            <div class="h-anim">{{.Params.services.subheader}}</div>
+                        </h3>
+                    </div>
                 </div>
-                <div class="grid-x grid-padding-x small-up-2 medium-up-4 align-center">
+                <div class="list-services grid-x grid-padding-x small-up-2 medium-up-4 align-center">
                     {{ range .Params.services.services_list}}
                         <div class="cell text-center">
                             <a href="/services">
@@ -39,7 +42,7 @@
                     {{ end }}
                 </div>
             </div>
-            <div class="cell small-12 text-center">
+            <div class="cell small-12 text-center" id="service-link">
                     <a href="/services" class="large button">All our Services</a>
             </div>
         </div>
