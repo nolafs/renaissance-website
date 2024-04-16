@@ -74,6 +74,7 @@ export default {
 
         const tl = gsap.timeline();
         const heading = $('#service-intro .home-service-heading');
+        const video = $('#services-video > .video-player');
         tl.set(heading.find('.h-anim'), {x:'100%'})
         tl.from(heading.find('h2'), 0.3, {
            y: '-100%'
@@ -87,21 +88,21 @@ export default {
             opacity: 0
         });
 
+        tl.from(video, 0.5, {
+            y: '30%', opacity: 0, onComplete: function () {
+                const player = new Vimeo.Player($(video).find("iframe").get(0));
+                player.play();
+            }
+        });
+
+
         const anim = new ScrollMagic.Scene({
             triggerElement: heading,
-            offset: 100,
-            triggerHook: 0.5
+            //offset: 100,
+            triggerHook: 0.9
         })
-/*
-            .addIndicators({
-                name: "Services Timeline",
-                colorTrigger: "black",
-                colorStart: "green",
-                colorEnd: "red"
-            })
 
 
- */
             .setTween(tl)
             .addTo(this.controller);
 
@@ -173,7 +174,7 @@ export default {
     },
     animVideo() {
         const tl = gsap.timeline();
-        const video = $('#services-video > .video-player');
+
 
         tl.from(video, 0.5, {y: '30%', opacity: 0, onComplete: function () {
                const player = new Vimeo.Player($(video).find("iframe").get(0));
@@ -222,7 +223,6 @@ export default {
         this.animHeader();
         this.animServices();
         this.animBlocks();
-        this.animVideo()
         this.animList();
         this.videoPlayStop();
         setTimeout(() => {
