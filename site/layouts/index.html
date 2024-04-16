@@ -19,10 +19,8 @@
                 </div>
             </div>
             <div class="cell small-12">
-                <div class="video-player">
-                    <video autoplay muted loop preload="auto" controls playsinline id="video-player">
-                        <source src="{{ .Params.services.videoFile }}" type="video/mp4">
-                    </video>
+                <div class="video-player responsive-embed widescreen">
+                    {{ .Params.services.video | safeHTML }}
                 </div>
             </div>
             <div class="cell small-12">
