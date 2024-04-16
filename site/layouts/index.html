@@ -31,8 +31,10 @@
                 <div class="grid-x grid-padding-x small-up-2 medium-up-4 align-center">
                     {{ range .Params.services.services_list}}
                         <div class="cell text-center">
+                            <a href="/services">
                             <img src="{{.icon}}" alt="{{.title}}" width="120" height="120">
                             <h4>{{.title}}</h4>
+                            </a>
                         </div>
                     {{ end }}
                 </div>

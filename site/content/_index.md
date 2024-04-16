@@ -19,7 +19,7 @@ services:
         Putting media and influencers in the best possible position to cover
         your game, making their job easier, delivering the right content to the
         right audience thanks to our relationships with the most influential
-        media and content creator worldwide.
+        media and content creator worldwide. 
       title: Earned PR Campaign Planning
     - icon: /images/uploads/icon-3-.svg
       text: >
