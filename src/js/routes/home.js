@@ -32,6 +32,7 @@ export default {
         $(window).on('scroll', function () {
             const scrollPos = $(window).scrollTop();
             for (let i = 0; i < players.length; i++) {
+                console.log('scroll', players)
                 const elementFromTop = players[i].top - scrollPos;
                 const status = (elementFromTop > 0 && elementFromTop < players[i].top + viewportHeight) ? "play" : "pause";
                 if (players[i].status != status) {
@@ -90,8 +91,12 @@ export default {
 
         tl.from(video, 0.5, {
             y: '30%', opacity: 0, onComplete: function () {
-                const player = new Vimeo.Player($(video).find("iframe").get(0));
-                player.play();
+                const player = new Vimeo.Player($(".video-player").find("iframe").get(0));
+                console.log(player);
+                if(player) {
+                    //const player = new Vimeo.Player(player);
+                    player.pause(0);
+                }
             }
         });
 
@@ -172,33 +177,6 @@ export default {
             .addTo(this.controller);
 
     },
-    animVideo() {
-        const tl = gsap.timeline();
-
-
-        tl.from(video, 0.5, {y: '30%', opacity: 0, onComplete: function () {
-               const player = new Vimeo.Player($(video).find("iframe").get(0));
-                player.play();
-            }});
-
-        const anim = new ScrollMagic.Scene({
-            triggerElement: '#services-video',
-            triggerHook: 0.9,
-        })
-
-          /*
-
-          .addIndicators({
-              name: "service-video Timeline",
-              colorTrigger: "black",
-              colorStart: "green",
-              colorEnd: "red"
-          })
-*/
-          .setTween(tl)
-          .addTo(this.controller);
-
-    },
     animBlocks() {
         const blocks = ['#case-studies', '#clients', '#testimonial', '#block-awards', '#block-contact'];
        animations.animBlock(this.controller,blocks);
@@ -224,7 +202,7 @@ export default {
         this.animServices();
         this.animBlocks();
         this.animList();
-        this.videoPlayStop();
+        //this.videoPlayStop();
         setTimeout(() => {
             this.animateAward()
 
