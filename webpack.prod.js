@@ -47,11 +47,17 @@ module.exports = merge(common, {
   },
   plugins: [
     new ImageminPlugin({
-      test: /\.(png|gif|svg)$/i,
+      test: /\.(jpe?g|png|gif|svg)$/i,
       disable: false,
       pngquant: {
         quality: '75',
-      }
+      },
+      plugins: [
+        imageminMozjpeg({
+          quality: 75,
+          progressive: true
+        })
+      ]
     }),
     new CompressionPlugin({
       test: /\.js$|\.css$|\.html$|\.eot?.+$|\.ttf?.+$|\.woff?.+$|\.svg?.+$/,
