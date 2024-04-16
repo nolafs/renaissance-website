@@ -51,7 +51,7 @@
     "file-loader": "^6.2.0",
     "foundation-sites": "^6.8.1",
     "html-webpack-plugin": "^5.6.0",
-    "hugo-bin-extended": "^0.124.1",
+    "hugo-bin-extended": "^0.120.4",
     "imagemin-webpack-plugin": "^2.4.2",
     "imports-loader": "^5.0.0",
     "jpegtran-bin": "^7.0.0",

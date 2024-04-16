@@ -27,8 +27,6 @@ module.exports = {
       'debug.addIndicators': path.resolve('node_modules', 'scrollmagic/scrollmagic/minified/plugins/debug.addIndicators.min.js')
     }
   },
-
-
   module: {
     rules: [
       {

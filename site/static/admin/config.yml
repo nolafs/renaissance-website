@@ -66,7 +66,14 @@ collections:
       preview: false
     identifier_field: name
     fields:
-      - {label: "Profile", name: "profile", widget: image}
+      - {
+          label: "Profile",
+          name: "profile",
+          widget: image,
+          required: false,
+          media_folder: "/site/assets/images/profile/",
+          public_folder: "/images/profile/",
+      }
       - {label: "Text", name: "text", widget: "text"}
       - {label: "Name", name: "name", widget: string}
       - {label: "Position", name: "position", widget: string}
