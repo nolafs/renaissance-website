@@ -82,7 +82,11 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: "Hero Header", name: header, widget: object, fields: [
-              {label: "Image", name: "image", widget: "image"},
+              {label: "Image", name: "image", widget: "image",
+               media_folder: "/site/assets/images/hero/",
+               public_folder: "/images/hero/",
+
+              },
               {label: "Video", name: "video", widget: string},
               {label: "Video Banner Active", name: "video_active", widget: "boolean"}
             ]}
@@ -264,6 +268,18 @@ collections:
     editor:
       preview: false
     files:
+      - label: "General"
+        name: "theme"
+        file: "site/data/theme.yaml"
+        fields:
+          - {
+            label: "Placeholder image",
+            name: "placeholder_img",
+            widget: "image",
+            media_folder: "/site/assets/images/placeholder/",
+            public_folder: "/images/placeholder/",
+            required: false
+          }
       - label: "Navigation"
         name: "navigation"
         file: "site/data/navigation.yaml"

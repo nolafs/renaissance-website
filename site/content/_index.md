@@ -1,13 +1,12 @@
 ---
 title: Ethical Communications for <span> the Games Industry.</span>
 header:
-  image: /images/uploads/home-hero-790px.jpg
+  image: /images/hero/home-hero-790px.jpg
   video: qCwZ7gH3MOY
   video_active: true
 twitter: false
 tweet: |-
-  Make sure you're ready for a lil' something special coming in the form of 
-
+  Make sure you're ready for a lil' something special coming in the form of  
   [@PineHeartsGame](https://twitter.com/pineheartsgame)
 services:
   heading: How can we help your business?
