@@ -8,7 +8,6 @@ twitter: false
 tweet: |-
   Make sure you're ready for a lil' something special coming in the form of 
   [@PineHeartsGame](https://twitter.com/pineheartsgame)
-
 services:
   heading: How can we help your business?
   services_list:
@@ -50,7 +49,7 @@ services:
     It’s not about aimlessly shouting about your game to anyone willing to lend their ear,  we’re here to take your creativity and make sure the right people hear about it in the right way, at the right time and in the right place. 
   active: true
   video: <div style="padding:56.29% 0 0 0;position:relative;"><iframe
-    src="https://player.vimeo.com/video/935055126?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+    src="https://player.vimeo.com/video/935055126?autoplay=0&loop=1&muted=1&badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
     frameborder="0" allow="autoplay; fullscreen; picture-in-picture;
     clipboard-write"
     style="position:absolute;top:0;left:0;width:100%;height:100%;"
