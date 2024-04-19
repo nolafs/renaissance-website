@@ -121,6 +121,9 @@ clients:
     - company_logo: /images/games/nasb2.jpg
       company: Nickelodeon All-Star Brawl 2
       company_url: https://store.steampowered.com/app/2017080/Nickelodeon_AllStar_Brawl_2/
+    - company_url: https://store.steampowered.com/app/1928980/Nightingale/
+      company_logo: /images/games/nightingale.jpg
+      company: Nightingale
     - company: Parcel Corps
       company_url: https://store.steampowered.com/app/2015960/Parcel_Corps/
       company_logo: /images/games/parcel-corps.jpg
@@ -157,9 +160,6 @@ clients:
     - company_url: https://store.steampowered.com/app/1622910/Still_Wakes_the_Deep/
       company: Still Wakes The Deep
       company_logo: /images/games/still-wtd.jpg
-    - company: Synced
-      company_url: https://store.steampowered.com/app/1008080/SYNCED_OffPlanet/
-      company_logo: /images/games/synced-header.jpg
     - company: Tarisland
       company_url: https://tarisglobal.com/en/
       company_logo: /images/games/tarisland-image.jpg
@@ -212,9 +212,6 @@ clients:
     - company: PlayFusion
       company_url: https://www.playfusion.com/
       company_logo: /images/clients/playfusion.png
-    - company: PM Studios
-      company_url: https://www.pm-studios.com/
-      company_logo: /images/clients/pm-studios.jpeg
     - company: Qooland Games
       company_url: https://www.qoolandgames.com/
       company_logo: /images/clients/qooland-logo.png
