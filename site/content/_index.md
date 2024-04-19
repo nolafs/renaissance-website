@@ -191,15 +191,9 @@ clients:
     - company: Bohemia Interactive
       company_url: https://www.bohemia.net/
       company_logo: /images/clients/bohemia.png
-    - company: Bonsai Collective
-      company_url: https://www.bonsai-collective.com/
-      company_logo: /images/clients/company-logo_bonsai-collective-initis.png
     - company: ChillyRoom
       company_logo: /images/clients/chilly.png
       company_url: https://www.chillyroom.com/en
-    - company: Daedalic Entertainment
-      company_logo: /images/clients/client-daedelic.jpg
-      company_url: https://www.daedalic.com/
     - company: Ember Lab
       company_url: https://emberlab.com/
       company_logo: /images/clients/company-logo_emberlab.png
