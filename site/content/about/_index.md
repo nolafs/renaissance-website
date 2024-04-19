@@ -66,7 +66,7 @@ team:
         over 15 years. 
 
 
-        His journey has seen experience gained from very different sides of the industry, from working directly in game development, building communication plans for retail HQ giant GAME to working for 2K on the publisher side on global hit franchises such as XCOM, Mafia, Borderlands, NBA 2K & Civilization. 
+        His journey has seen experience gained from very different sides of the industry, from working directly in game development, building communication plans for UK retail HQ giant GAME to working for 2K on the publisher side on global hit franchises such as XCOM, Mafia, Borderlands, NBA 2K & Civilization. 
 
 
         Aaron has also worked with SUDA 51 & the team at Grasshopper Manufacture on the No More Heroes series for Nintendo Switch & was additionally a part of the formation of videogame mental health charity Safe in our World.
@@ -116,19 +116,17 @@ team:
         the community and fosters a sense of integrity and goodwill."
       image: /images/uploads/jb-bio.jpg
       position: " "
-    - name: Claire Sharkey
+    - name: Tom Copeland
       text: >-
-        Claire has contributed significantly to multiple projects and causes
-        across the indie and AAA space in her continued 10+ years of working in
-        the industry. 
+        Tom is a well-seasoned industry freelancer with a decade of
+        communications experience at some of the UK’s top video game PR
+        agencies.
 
 
-        She has been nominated and won a host of prestigious awards, a standout being a 2-time BAFTA nominee. In 2022 she won Marketing Hero at the Game Dev Heroes Awards, after having been nominated for the role 4 times previously, and in 2023 was nominated as an individual Marketing nominee at the Develop Star Awards. 
 
-
-        She frequently does talks and panels, offering marketing and comms workshops as well as diversity promotion. Her main approach to the above and daily events/campaigns is to push transparency and be personable where needed. She joined Renaissance in 2023.
+        Throughout his career Tom has launched a wide and varied range of titles from AAA blockbusters from some of the world’s biggest publishers to award-winning indie games - and everything in between.
       position: " "
-      image: /images/uploads/claire-bio.png
+      image: /images/uploads/tom-c-bio.jpg
     - name: Matthew Taylor
       text: "Matthew Taylor has been working in PR and marketing since graduating with
         a History Degree in 2013. In 2019, he joined Renaissance as his first
