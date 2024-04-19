@@ -55,8 +55,11 @@ clients:
     - company: Age Of Empires Mobile
       company_url: https://aoemobile.com/
       company_logo: /images/games/age-of-emp-mobile.png
-    - company: Ascendant Infinity
-      company_logo: /images/games/ascend-inf.jpg
+    - company: Alchemy Stars
+      company_url: https://www.alchemystars.com/
+      company_logo: /images/games/alchemy.png
+    - company: Ascendant.com
+      company_logo: /images/games/ascend-com.jpg
       company_url: https://store.steampowered.com/app/1803110/Ascendant_Infinity/
     - company: Assassins Creed Jade
       company_url: https://www.assassinscreedjade.com/
@@ -100,6 +103,9 @@ clients:
     - company: GTFO
       company_url: https://store.steampowered.com/app/493520/GTFO/
       company_logo: /images/games/gtfo.jpg
+    - company_url: https://www.honorofkings.com/global-en/
+      company: Honor Of Kings
+      company_logo: /images/games/hok-image.jpg
     - company: Kena
       company_url: https://store.steampowered.com/app/1954200/Kena_Bridge_of_Spirits/
       company_logo: /images/games/kena.jpg
@@ -145,9 +151,15 @@ clients:
     - company: PUBG MOBILE
       company_url: https://www.pubgmobile.com/en-US/home.shtml
       company_logo: /images/games/pubg-mob.png
+    - company: Reverse 1999
+      company_logo: /images/games/reverse-1999.png
+      company_url: https://re1999.bluepoch.com/
     - company: Shadow Of The Depth
       company_url: https://store.steampowered.com/app/2100150/Shadow_of_the_Depth/
       company_logo: /images/games/shadow-of-depth.jpg
+    - company: Soulmask
+      company_url: https://store.steampowered.com/app/2646460/Soulmask/
+      company_logo: /images/games/soulmask.jpg
     - company: Southfield
       company_url: https://store.steampowered.com/app/2076210/Southfield/
       company_logo: /images/games/southfield.jpg
@@ -160,6 +172,12 @@ clients:
     - company: Synced
       company_url: https://store.steampowered.com/app/1008080/SYNCED_OffPlanet/
       company_logo: /images/games/synced-header.jpg
+    - company: Tarisland
+      company_url: https://tarisglobal.com/en/
+      company_logo: /images/games/tarisland-image.jpg
+    - company: "Teenage Mutant Ninja Turtles Arcade: Wrath Of The Mutants"
+      company_url: https://store.steampowered.com/app/2527580/Teenage_Mutant_Ninja_Turtles_Arcade_Wrath_of_the_Mutants/
+      company_logo: /images/games/tmnt.jpg
     - company: Tower Of Fantasy
       company_url: https://store.steampowered.com/app/2064650/Tower_of_Fantasy/
       company_logo: /images/games/tower-of-fan.jpg
@@ -212,6 +230,9 @@ clients:
     - company: PM Studios
       company_url: https://www.pm-studios.com/
       company_logo: /images/clients/pm-studios.jpeg
+    - company: Qooland Games
+      company_url: https://www.qoolandgames.com/
+      company_logo: /images/clients/qooland-logo.png
     - company: Radical Forge
       company_url: https://www.radicalforge.com/
       company_logo: /images/clients/lockup_black.png
