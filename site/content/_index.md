@@ -97,9 +97,6 @@ clients:
     - company: Exoborne
       company_logo: /images/games/exoborne.jpg
       company_url: https://store.steampowered.com/app/2705130/Exoborne/
-    - company: Extremely Powerful Capybaras
-      company_url: https://store.steampowered.com/app/2089980/Extremely_Powerful_Capybaras/
-      company_logo: /images/games/epc.jpg
     - company: GTFO
       company_url: https://store.steampowered.com/app/493520/GTFO/
       company_logo: /images/games/gtfo.jpg
@@ -112,24 +109,15 @@ clients:
     - company: Let's School
       company_url: https://store.steampowered.com/app/1937500/Lets_School/
       company_logo: /images/games/lets-school.jpg
-    - company: Luna Abyss
-      company_url: https://store.steampowered.com/app/1933000/Luna_Abyss/
-      company_logo: /images/games/luna-header.jpg
     - company: "Metal: Hellsinger"
       company_url: https://store.steampowered.com/app/1061910/Metal_Hellsinger/
       company_logo: /images/games/metal-hell.jpg
     - company: My Time At Sandrock
       company_url: https://store.steampowered.com/app/1084600/My_Time_at_Sandrock/
       company_logo: /images/games/my-time.jpg
-    - company_logo: /images/games/nascar.jpg
-      company: Nascar Arcade Rush
-      company_url: https://store.steampowered.com/app/2192060/NASCAR_Arcade_Rush/
     - company: NBA Infinite
       company_logo: /images/games/nba-in-ren.jpg
       company_url: https://nbainfinite.com/en/
-    - company: New Cycle
-      company_url: https://store.steampowered.com/app/2198510/New_Cycle/
-      company_logo: /images/games/new-cycle.jpg
     - company_logo: /images/games/nasb2.jpg
       company: Nickelodeon All-Star Brawl 2
       company_url: https://store.steampowered.com/app/2017080/Nickelodeon_AllStar_Brawl_2/
