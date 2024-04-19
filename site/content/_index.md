@@ -200,18 +200,12 @@ clients:
     - company: Hyper Luminal Games
       company_url: https://www.hyperluminalgames.com/
       company_logo: /images/clients/hlg-logo.png
-    - company: IIDEA
-      company_logo: /images/clients/idea-logo-v2.png
-      company_url: https://en.iideassociation.com/
     - company: Level Infinite
       company_url: https://www.levelinfinite.com/
       company_logo: /images/clients/li-logo.png
     - company: Pathea
       company_url: https://pathea.net/
       company_logo: /images/clients/pathea.png
-    - company: Pingle Studio
-      company_url: https://pinglestudio.com/
-      company_logo: /images/clients/pingle.png
     - company: PlayFusion
       company_url: https://www.playfusion.com/
       company_logo: /images/clients/playfusion.png
@@ -239,9 +233,6 @@ clients:
     - company_url: https://untoldgames.com/
       company: Untold Games
       company_logo: /images/clients/untold-games-logo.png
-    - company: VAULTN
-      company_url: https://vaultn.com/
-      company_logo: /images/clients/vaultn.png
     - company_url: https://yummy-games.com/
       company_logo: /images/clients/yummy.jpg
       company: Yummy Games
