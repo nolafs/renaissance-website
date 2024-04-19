@@ -188,6 +188,9 @@ clients:
     - company: 10 Chambers
       company_logo: /images/clients/10-chambers-logo.png
       company_url: https://careers.10chambers.com/
+    - company: Bluepoch
+      company_logo: /images/clients/bluepoch-logo.png
+      company_url: https://www.bluepoch.com/
     - company: Bohemia Interactive
       company_url: https://www.bohemia.net/
       company_logo: /images/clients/bohemia.png
