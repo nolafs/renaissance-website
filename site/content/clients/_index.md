@@ -179,6 +179,9 @@ clients:
     - company: Private Division
       company_logo: /images/clients/client-privatedivision.jpg
       company_url: https://www.privatedivision.com/
+    - company: Qooland Games
+      company_url: https://www.qoolandgames.com/
+      company_logo: /images/clients/qooland-logo.png
     - company: R8 Games
       company_logo: /images/clients/client-r8games.jpg
       company_url: http://pacergame.com/
