@@ -70,6 +70,9 @@ clients:
     - company_url: https://store.steampowered.com/app/2544110/Broken_Sword__Shadow_of_the_Templars_Reforged/
       company_logo: /images/games/bs-ref.jpg
       company: Broken Sword - Shadow of the Templars Reforged
+    - company_url: https://store.steampowered.com/app/2081080/Capes/
+      company: Capes
+      company_logo: /images/games/capes.jpg
     - company: City 20
       company_url: https://store.steampowered.com/app/1597980/City_20/
       company_logo: /images/games/city-20-steam.jpg
@@ -185,6 +188,9 @@ clients:
     - company: ChillyRoom
       company_logo: /images/clients/chilly.png
       company_url: https://www.chillyroom.com/en
+    - company: Daedalic
+      company_logo: /images/clients/client-daedelic.jpg
+      company_url: https://www.daedalic.com/
     - company: Ember Lab
       company_url: https://emberlab.com/
       company_logo: /images/clients/company-logo_emberlab.png
