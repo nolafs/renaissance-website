@@ -2,7 +2,7 @@
 title: The Outer Worlds
 date: 2019-12-14T10:46:35.733Z
 categories: uk-campaigns
-image: /images/uploads/case-outerworlds-header.jpg
+image: /images/case-studies/case-outerworlds-header.jpg
 client: Private Division
 description: >-
   Best RPG of the year from IGN and biggest surprise of 2019, Renaissance worked
@@ -17,4 +17,4 @@ With a Metacritic of 86, over 60 review in the UK and countless number of conten
 
 In October 2019, The Outer Worlds was the 4th most covered game worldwide the 3rd most viewed game on Twitch and 9th Top Performing game with Influencers (source: fancensus.com)
 
-![Guardian Coverage](/images/uploads/case-outerworlds-img.jpg "Guardian Coverage")
+![Guardian Coverage](/images/case-studies/case-outerworlds-img.jpg "Guardian Coverage")

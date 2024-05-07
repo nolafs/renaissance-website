@@ -1,7 +1,7 @@
 {{ define "main" }}
-    {{ partial "block-image"  (dict "Id" "mission" "Content" .Params.Mission "Class" "b-c-white"  "first" "1" "second" "2" ) . }}
-    {{ partial "block-image"  (dict "Id" "values" "Content" .Params.Values "Class" "b-c-blue" "first" "2" "second" "1") . }}
-    {{ partial "block-image"  (dict "Id" "founder" "Content" .Params.Founder "Class" "b-c-white"  "first" "1" "second" "2") . }}
+    {{ partial "blocks/block-image"  (dict "Id" "mission" "Content" .Params.Mission "Class" "b-c-white"  "first" "1" "second" "2" ) . }}
+    {{ partial "blocks/block-image"  (dict "Id" "values" "Content" .Params.Values "Class" "b-c-blue" "first" "2" "second" "1") . }}
+    {{ partial "blocks/block-image"  (dict "Id" "founder" "Content" .Params.Founder "Class" "b-c-white"  "first" "1" "second" "2") . }}
 
     {{ "<!-- Block Team -->" | safeHTML }}
     <section>
@@ -43,6 +43,6 @@
     </section>
     {{ "<!-- Block Team -->" | safeHTML }}
 
-    {{ partial "block-services" . }}
+    {{ partial "blocks/block-services" . }}
 
 {{ end }}

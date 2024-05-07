@@ -2,7 +2,7 @@
 title: My Time At Sandrock
 date: 2023-11-01T14:00:43.098Z
 categories: worldwide-campaigns
-image: /images/uploads/mtas-main.jpg
+image: /images/case-studies/mtas-main.jpg
 client: Pathea
 description: Renaissance delivered the strategy & execution on the launch
   campaign for My Time At Sandrock on Xbox Series X/S, Nintendo Switch &

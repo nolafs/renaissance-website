@@ -1,6 +1,5 @@
-baseurl = "https://renaissancepr.co.uk/"
-languageCode = "en-us"
-languageLang = "en"
+#baseurl = "https://renaissancepr.co.uk/"
+baseurl = "/"
 title = "Renaissance PR Agency"
 
 ############################
@@ -13,12 +12,16 @@ footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [imaging]
-quality = 60
+    quality = 60
 
-# Google
-#
-googleAnalytics = "UA-150749173-1"
-#google_verify_meta = "//BAi57DROASu4b2mkVNA_EyUsobfA7Mq8BmSg7Rn-Zp9"
+
+############################
+## Marketing
+############################
+[services]
+  [services.googleAnalytics]
+      ID = 'UA-150749173-1'
+
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details:
@@ -52,7 +55,10 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
         name = "Privacy Policy"
         url = "/privacy"
         weight = 2
-# Privacy
+
+############################
+## Privacy
+############################
 
 [privacy]
   [privacy.disqus]

@@ -2,7 +2,7 @@
 title: Gamescom 2023
 date: 2023-08-25T12:00:20.455Z
 categories: worldwide-campaigns
-image: /images/uploads/gc-cs-main.jpg
+image: /images/case-studies/gc-cs-main.jpg
 client: Gamescom
 description: Renaissance was the Global agency for Gamescom 2023. Reach for the
   event campaign totaled 299 pieces of coverage & 3.7 billion UVPM, this was

@@ -36,7 +36,7 @@ export default {
             itemSelector: '.item',
             sizer: '.my-sizer-element',
             useTransforms: true,
-            isCentered: true,
+            //isCentered: true,
             initialSort: {
                 reverse: false,
                 by: 'data-date-created',
@@ -82,8 +82,5 @@ export default {
         const blocks = ['#block-studies', '#block-contact'];
         animations.animBlock(controller, blocks);
 
-        window.addEventListener('resize', ()=> {
-            console.log('RESIZE')
-        })
     },
 };

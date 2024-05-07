@@ -42,11 +42,11 @@ $(document).foundation();
  =========================================================================== */
 
 import { library, dom } from "@fortawesome/fontawesome-svg-core";
-import { faFacebook, faTwitter, faFacebookF } from "@fortawesome/free-brands-svg-icons";
+import {faFacebook, faTwitter, faFacebookF, faXTwitter} from '@fortawesome/free-brands-svg-icons';
 import { faCheck , faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 
-library.add(faCheck, faChevronRight, faTwitter, faFacebookF );
+library.add(faCheck, faChevronRight, faTwitter, faFacebookF, faXTwitter );
 
 dom.watch();
 /* ===========================================================================
@@ -69,6 +69,5 @@ if (window.netlifyIdentity) {
         }
     });
 }
-
 // DOCUMENT READY
 import "./js/apps";

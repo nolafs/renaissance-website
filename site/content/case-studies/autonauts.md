@@ -2,7 +2,7 @@
 title: Autonauts
 date: 2019-12-13T22:44:10.710Z
 categories: worldwide-campaigns
-image: /images/uploads/autonauts-cs-main.jpg
+image: /images/case-studies/autonauts-cs-main.jpg
 testimonial: Michael Fisher
 client: Curve Digital
 description: >

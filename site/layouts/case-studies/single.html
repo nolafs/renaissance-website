@@ -11,16 +11,22 @@
       {{- .Content -}}
       </article>
     </div>
-    <div class="cell small-12 large-4">
-      <aside>
-        {{ if isset .Params "testimonial" }}
-        <div class="testimonial-card">
-        {{ $filter := .Params.testimonial }}
-        {{ partial "testimonials" ( dict "content" . "filter" $filter)}}
-        </div>
-        {{end}}
-      </aside>
-    </div>
+    {{ if isset .Params "testimonial" }}
+    {{ $filter := .Params.testimonial }}
+    {{ $scope:= . }}
+    {{ with $filter}}
+      <div class="cell small-12 large-4">
+        <aside>
+
+          <div class="testimonial-card">
+
+          {{ partial "testimonials" ( dict "content" $scope "filter" .)}}
+          </div>
+
+        </aside>
+      </div>
+      {{end}}
+    {{end}}
   </div>
 </div>
 {{ with .Next }}

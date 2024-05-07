@@ -2,7 +2,7 @@
 title: The Last Worker
 date: 2023-03-30T09:00:06.802Z
 categories: worldwide-campaigns
-image: /images/uploads/last-work-cs1.jpg
+image: /images/case-studies/last-work-cs1.jpg
 client: Wired Productions
 description: A 2 year PR & content creator campaign that achieved over 1400
   articles focused on The Last Worker, with 14.7 Billion impressions (UMV)

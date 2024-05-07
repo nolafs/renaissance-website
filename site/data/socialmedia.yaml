@@ -1,6 +1,6 @@
 links:
-  - id: twitter
-    type: Twitter
+  - id: x-twitter
+    type: XTwitter
     url: https://twitter.com/RenaissancePRUK
   - id: facebook-f
     type: Facebook

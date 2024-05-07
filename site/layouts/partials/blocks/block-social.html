@@ -11,7 +11,7 @@
                  {{ block "social-link" (dict "content" . "shareLink" $link "perma" $perma "host" $host) }} {{end}}
                 {{end}}
             {{end}}
-            {{if eq $media.type "Twitter" }}
+            {{if eq $media.type "XTwitter" }}
                 {{$link := "http://twitter.com/share?text=test&url="}}
                 {{with $media }}
                     {{ block "social-link" (dict "content" . "shareLink" $link "perma" $perma "host" $host)}} {{end}}

@@ -1,15 +1,12 @@
 ---
 title: Ethical Communications for <span> the Games Industry.</span>
 header:
-  image: /images/uploads/home-hero-790px.jpg
+  image: /images/hero/home-hero-790px.jpg
   video: qCwZ7gH3MOY
   video_active: true
 twitter: false
 tweet: |-
-  <!--StartFragment-->
-
-  Make sure you're ready for a lil' something special coming in the form of
-
+  Make sure you're ready for a lil' something special coming in the form of 
   [@PineHeartsGame](https://twitter.com/pineheartsgame)
 services:
   heading: How can we help your business?
@@ -19,7 +16,7 @@ services:
         Putting media and influencers in the best possible position to cover
         your game, making their job easier, delivering the right content to the
         right audience thanks to our relationships with the most influential
-        media and content creator worldwide.
+        media and content creator worldwide. 
       title: Earned PR Campaign Planning
     - icon: /images/uploads/icon-3-.svg
       text: >
@@ -30,10 +27,10 @@ services:
       title: Paid & Organic Influencer Planning
     - icon: /images/uploads/icon-2-.svg
       text: >
-        First Party relationship, assets management and store page optimization
-        as well as an eye to your production pipeline are vital to create a
-        great communication campaign that delivers the engagement numbers you
-        need.
+        First Party relationship, assets management and stored dfd page
+        optimization as well as an eye to your production pipeline are vital to
+        create a great communication campaign that delivers the engagement
+        numbers you need.
       title: Product Management  & Support
     - icon: /images/uploads/icon.svg
       text: A great campaign is the sum of its parts - business plan, target audience,
@@ -49,7 +46,15 @@ services:
     for your project’s needs.
 
 
-    It’s not about aimlessly shouting about your game to anyone willing to lend their ear,  we’re here to take your creativity and make sure the right people hear about it in the right way, at the right time and in the right place.
+    It’s not about aimlessly shouting about your game to anyone willing to lend their ear,  we’re here to take your creativity and make sure the right people hear about it in the right way, at the right time and in the right place. 
+  active: true
+  video: <div style="padding:56.29% 0 0 0;position:relative;"><iframe
+    src="https://player.vimeo.com/video/935055126?autoplay=0&loop=1&muted=1&badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+    frameborder="0" allow="autoplay; fullscreen; picture-in-picture;
+    clipboard-write"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    title="Promo"></iframe></div><script
+    src="https://player.vimeo.com/api/player.js"></script>
 clients:
   clients:
     - company: Age Of Empires Mobile

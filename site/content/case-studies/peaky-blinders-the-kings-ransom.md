@@ -2,7 +2,7 @@
 title: "Peaky Blinders: The King's Ransom"
 date: 2023-03-09T16:00:21.375Z
 categories: worldwide-campaigns
-image: /images/uploads/pb-cs-main.jpg
+image: /images/case-studies/pb-cs-main.jpg
 client: Maze Theory
 description: >-
   Renaissance served as a global agency for UK developer Maze Theory as it

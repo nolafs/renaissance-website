@@ -11,6 +11,8 @@ collections:
   - name: "case-studies" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Case Studies" # Used in the UI, ie.: "New Post"
     label_singular: "Case Study"
+    media_folder: "/site/assets/images/case-studies/"
+    public_folder: "/images/case-studies"
     editor:
       preview: true
     folder: "site/content/case-studies" # The path to the folder where the documents are stored
@@ -26,7 +28,14 @@ collections:
         searchFields: ["name"]
         valueField: "value"
         displayFields: ["name"]
-      - {label: "Image", name: "image", widget: "image", required: true}
+      - {
+        label: "Image",
+        name: "image",
+        widget: "image",
+        media_folder: "/site/assets/images/case-studies/",
+        public_folder: "/images/case-studies",
+        required: true
+      }
       - label: "Testimonial"
         name: "testimonial"
         widget: "relation"
@@ -57,7 +66,14 @@ collections:
       preview: false
     identifier_field: name
     fields:
-      - {label: "Profile", name: "profile", widget: image}
+      - {
+          label: "Profile",
+          name: "profile",
+          widget: image,
+          required: false,
+          media_folder: "/site/assets/images/profile/",
+          public_folder: "/images/profile/",
+      }
       - {label: "Text", name: "text", widget: "text"}
       - {label: "Name", name: "name", widget: string}
       - {label: "Position", name: "position", widget: string}
@@ -73,7 +89,11 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: "Hero Header", name: header, widget: object, fields: [
-              {label: "Image", name: "image", widget: "image"},
+              {label: "Image", name: "image", widget: "image",
+               media_folder: "/site/assets/images/hero/",
+               public_folder: "/images/hero/",
+
+              },
               {label: "Video", name: "video", widget: string},
               {label: "Video Banner Active", name: "video_active", widget: "boolean"}
             ]}
@@ -84,6 +104,8 @@ collections:
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: text},
               {label: "Subheader", name: "subheader", widget: string},
+              {label: "Video active", name: "active", widget: "boolean", default: false},
+              {label: Video Embed Code, name: video, widget: text, required: false, hint: "Add the embed code from the video provider"},
               {label: "Services List", name: "services_list", widget: "list", fields: [
               {label: "Title" , name: "title" , widget: string},
               {label: "text" , name: "text" , widget: text},
@@ -253,6 +275,18 @@ collections:
     editor:
       preview: false
     files:
+      - label: "General"
+        name: "theme"
+        file: "site/data/theme.yaml"
+        fields:
+          - {
+            label: "Placeholder image",
+            name: "placeholder_img",
+            widget: "image",
+            media_folder: "/site/assets/images/placeholder/",
+            public_folder: "/images/placeholder/",
+            required: false
+          }
       - label: "Navigation"
         name: "navigation"
         file: "site/data/navigation.yaml"
@@ -267,20 +301,15 @@ collections:
         name: "gdpr"
         file: "site/data/gdpr.yaml"
         fields:
-          - label: "Use Osana Cookie Content"
-            name: "osana"
-            widget: object
-            fields:
-              - {label: "Osana on/off", name: "active", widget: "boolean", default: false}
-              - {label: Script , name: script, widget: string}
-          - label: "Simple Cookie Consent"
-            name: "consent"
-            widget: object
-            fields:
-              - {label: Message, name: message, widget: string, default: "This website uses cookies to ensure you get the best experience on our website."}
-              - {label: Dismiss, name: dismiss, widget: string, default: "Got it!"}
-              - {label: Link, name: link, widget: string, default: "Privacy Policy"}
-              - {label: Url, name: url, widget: string}
+          - { label: Message, name: message, widget: string, default: "This website uses cookies to ensure you get the best experience on our website." }
+          - { label: 'Link Label', name: link, widget: string, default: "Privacy Policy" }
+          - { label: Url, name: url, widget: string }
+          - { label: Items, name: items, widget: list, fields: [
+              { label: Title, name: title, widget: string },
+              { label: Description, name: description, widget: string },
+              { label: "Script file" , name: script_file, widget: string, required: false },
+              { label: "Is functional", name: is_functional, widget: boolean, required: false },
+          ] }
       - label: "Awards"
         name: "awards"
         file: "site/data/awards.yaml"

@@ -2,7 +2,7 @@
 title: Dark Envoy
 date: 2023-07-13T08:00:00.528Z
 categories: worldwide-campaigns
-image: /images/uploads/de-se-4.png
+image: /images/case-studies/de-se-4.png
 client: Event Horizon
 description: >-
   Renaissance put together a strong organic & paid campaign for Dark Envoy.

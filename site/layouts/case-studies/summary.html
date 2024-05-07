@@ -1,8 +1,16 @@
 {{ $dateFormat := default "Mon Jan 2, 2006" (index .Site.Params "date_format") }}
 <div class="card-button">
+  {{ $alt := .Title}}
   {{ with .Params.image }}
   <div class="image-wrapper aspect aspect--16x9">
-    <img src="{{ . }}" alt="">
+    {{ $resource := resources.Get . }}
+    {{ if $resource }}
+    {{ $image := $resource.Fill "433x244 q60 webp" }}
+    <img src="{{ $image.RelPermalink }}" alt="{{$alt}}">
+    {{ else }}
+     <img src="{{ . }}" alt="{{$alt}}">
+     {{ end }}
+
   </div>
   {{end}}
   <div class="card-section">
@@ -22,4 +30,3 @@
     </div>
   </div>
 </div>
-

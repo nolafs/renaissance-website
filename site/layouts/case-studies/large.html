@@ -1,0 +1,32 @@
+{{ $dateFormat := default "Mon Jan 2, 2006" (index .Site.Params "date_format") }}
+<div class="card-button">
+  {{ $alt := .Title}}
+  {{ with .Params.image }}
+  <div class="image-wrapper aspect aspect--16x9">
+    {{ $resource := resources.Get . }}
+    {{ if $resource }}
+    {{ $image := $resource.Fill "907x510 q60 webp" }}
+    <img src="{{ $image.RelPermalink }}" alt="{{$alt}}">
+    {{ else }}
+     <img src="{{ . }}" alt="{{$alt}}">
+     {{ end }}
+
+  </div>
+  {{end}}
+  <div class="card-section">
+    <div>
+      <header>
+        <h3><small> {{ if (.Params.categories) }}{{ partial "meta-categories.html" . }}{{ end }}</small>{{ .Title }}</h3>
+        {{ with .Params.client }} <div class="sub-heading">
+        {{ . }}
+        </div>{{end}}
+        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+        {{ .Date.Format $dateFormat }}
+        </time>
+      </header>
+    </div>
+    <div class="icon-bottom text-right">
+      <a href="{{ .RelPermalink }}" aria-label="View"><i class="fa fa-chevron-right"></i></a>
+    </div>
+  </div>
+</div>

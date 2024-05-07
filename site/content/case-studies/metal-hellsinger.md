@@ -2,7 +2,7 @@
 title: Metal Hellsinger
 date: 2022-09-12T13:30:12.304Z
 categories: emea-campaigns
-image: /images/uploads/mh-cs-main.jpg
+image: /images/case-studies/mh-cs-main.jpg
 client: Funcom
 description: Renaissance & our network of European agencies handle media
   outreach for innovative rhythm FPS, Metal Hellsinger from mid 2022 through

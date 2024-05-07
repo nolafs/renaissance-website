@@ -42,7 +42,7 @@
 //  37. Top Bar
 
 
-@import '~foundation-sites/scss/util/util';
+@import "~foundation-sites/scss/util/util";
 
 // 1. Global
 // ---------
@@ -68,7 +68,7 @@ $form-color: #A09ABC;
 $text-color: #1c1c1c;
 $body-background: transparent;
 $body-font-color: $text-color;
-$body-font-family: 'Lato', sans-serif;
+$body-font-family: "Lato", sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: rem-calc(30);
@@ -110,43 +110,43 @@ $grid-column-gutter: (
         medium: 30px,
 );
 $grid-column-align-edge: true;
-$grid-column-alias: 'columns';
+$grid-column-alias: "columns";
 $block-grid-max: 8;
 
 // 4. Base Typography
 // ------------------
 
-$header-font-family:  'Montserrat', sans-serif;
+$header-font-family:  "Montserrat", sans-serif;
 $header-font-weight: 700;
 $header-font-style: normal;
-$font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
+$font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 $header-color: $text-color;
 $header-lineheight: noma;
 $header-margin-bottom: rem-calc(30);
 $header-styles: (
         small: (
-                'h1': ('font-size': 46, 'line-height':60),
-                'h2': ('font-size': 32, 'line-height':40),
-                'h3': ('font-size': 24, 'line-height':32),
-                'h4': ('font-size': 20, 'line-height':26),
-                'h5': ('font-size': 18, 'line-height':24),
-                'h6': ('font-size': 12, 'line-height':16),
+                "h1": ("font-size": 46, "line-height":60),
+                "h2": ("font-size": 32, "line-height":40),
+                "h3": ("font-size": 24, "line-height":32),
+                "h4": ("font-size": 20, "line-height":26),
+                "h5": ("font-size": 18, "line-height":24),
+                "h6": ("font-size": 12, "line-height":16),
                 ),
         medium: (
-                'h1': ('font-size': 54, 'line-height':64),
-                'h2': ('font-size': 34, 'line-height':40),
-                'h3': ('font-size': 26, 'line-height':32),
-                'h4': ('font-size': 22, 'line-height':26),
-                'h5': ('font-size': 18, 'line-height':24),
-                'h6': ('font-size': 12, 'line-height':16),
+                "h1": ("font-size": 54, "line-height":64),
+                "h2": ("font-size": 34, "line-height":40),
+                "h3": ("font-size": 26, "line-height":32),
+                "h4": ("font-size": 22, "line-height":26),
+                "h5": ("font-size": 18, "line-height":24),
+                "h6": ("font-size": 12, "line-height":16),
                 ),
         large: (
-                'h1': ('font-size': 70, 'line-height':94),
-                'h2': ('font-size': 42, 'line-height':60),
-                'h3': ('font-size': 30, 'line-height':46),
-                'h4': ('font-size': 24, 'line-height':36),
-                'h5': ('font-size': 22, 'line-height':34),
-                'h6': ('font-size': 14, 'line-height':18),
+                "h1": ("font-size": 70, "line-height":94),
+                "h2": ("font-size": 42, "line-height":60),
+                "h3": ("font-size": 30, "line-height":46),
+                "h4": ("font-size": 24, "line-height":36),
+                "h5": ("font-size": 22, "line-height":34),
+                "h6": ("font-size": 14, "line-height":18),
                 ),
 );
 $header-text-rendering: optimizeLegibility;
@@ -182,7 +182,7 @@ $blockquote-padding: rem-calc(20 20 20 19);
 $blockquote-border: none;
 $cite-font-size: rem-calc(13);
 $cite-color: $dark-gray;
-$cite-pseudo-content: '\2014 \0020';
+$cite-pseudo-content: "\2014 \0020";
 $keystroke-font: $font-family-monospace;
 $keystroke-color: $black;
 $keystroke-background: $light-gray;
@@ -265,8 +265,8 @@ $breadcrumbs-item-color-disabled: $medium-gray;
 $breadcrumbs-item-margin: 0.75rem;
 $breadcrumbs-item-uppercase: true;
 $breadcrumbs-item-separator: true;
-$breadcrumbs-item-separator-item: '/';
-$breadcrumbs-item-separator-item-rtl: '\\';
+$breadcrumbs-item-separator-item: "/";
+$breadcrumbs-item-separator-item-rtl: "\\";
 $breadcrumbs-item-separator-color: $medium-gray;
 
 // 11. Button
@@ -299,7 +299,7 @@ $button-transition: background-color 0.25s ease-out, color 0.25s ease-out;
 
 $buttongroup-margin: 1rem;
 $buttongroup-spacing: 1px;
-$buttongroup-child-selector: '.button';
+$buttongroup-child-selector: ".button";
 $buttongroup-expand-max: 6;
 $buttongroup-radius-on-each: true;
 
@@ -432,7 +432,7 @@ $input-background-focus: $white;
 $input-background-disabled: $light-gray;
 $input-border: 2px solid $light-gray;
 $input-border-focus: 1px solid $primary-color;
-$input-padding: $form-spacing / 2;
+$input-padding: $form-spacing * 0.5;
 $input-shadow: none;
 $input-shadow-focus: 0 0 5px $medium-gray;
 $input-cursor-disabled: not-allowed;
@@ -505,7 +505,7 @@ $offcanvas-transition-length: 0.5s;
 $offcanvas-transition-timing: ease;
 $offcanvas-fixed-reveal: true;
 $offcanvas-exit-background: rgba($white, 0.25);
-$maincontent-class: 'off-canvas-content';
+$maincontent-class: "off-canvas-content";
 
 // 26. Orbit
 // ---------
@@ -864,6 +864,7 @@ $xy-block-grid-max: 8;
 // 59. Social Colors
 $sc-facebook: #3b5998;
 $sc-twitter: #00aced;
+$sc-Xtwitter: #000000;
 $sc-google: #dd4b39;
 $sc-youtube: #bb0000;
 $sc-linkedin: #007bb6;
@@ -875,4 +876,3 @@ $sc-vimeo: #aad450;
 $button-navigation-b-c: $green;
 $button-navigation-color: $white;
 $button-navigation-sticky-color: $black;
-

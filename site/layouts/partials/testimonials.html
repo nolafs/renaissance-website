@@ -5,9 +5,16 @@
     <li>
         <div class="content">{{.Params.text |  markdownify }}</div>
         <div class="profile">
+            {{if .Params.profile}}
             <div class="profile-img">
-                <img class="image-round lazyload"  data-src="{{.Params.profile}}" alt="{{.Params.name}}">
+                {{ $resource := resources.Get .Params.profile }}
+                {{- if $resource -}}
+                    {{- with $resource.Fit "60x60 q50 webp" -}}
+                        <img class="image-round lazyload"  data-src="{{.RelPermalink}}" alt="profile">
+                    {{- end -}}
+                {{- end -}}
             </div>
+            {{end}}
             <div class="profile-name">
                 {{.Params.name}}
             </div>

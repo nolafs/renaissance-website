@@ -2,7 +2,7 @@
 title: Arcade Paradise
 date: 2022-08-11T14:00:23.174Z
 categories: worldwide-campaigns
-image: /images/uploads/ap-cs-main.jpg
+image: /images/case-studies/ap-cs-main.jpg
 client: Wired Productions
 description: Renaissance took the reins for Wired Productions on Arcade Paradise
   from April 2022. In the months that followed we delivered a hugely successful

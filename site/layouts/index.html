@@ -1,15 +1,15 @@
 {{ define "header" }}
     {{ partial "header-hero"  (dict "media" .Params.header "title" .Title "body" .Content)}}
     {{if .Params.twitter}}
-        {{ partial "block-twitter" . }}
+        {{ partial "blocks/block-twitter" . }}
     {{else}}
-        {{ partial "block-awards-loop" . }}
+        {{ partial "blocks/block-awards-loop" . }}
     {{end}}
 {{end}}
 {{ define "main" }}
     <div id="home-services" class="grid-container block">
         <div class="grid-x grid-padding-x grid-margin-y">
-            <div class="cell small-12 large-6 small-text-left large-text-right section-heading">
+            <div id="service-intro" class="cell small-12  small-text-left large-text-right section-heading">
                 <div class="home-service-heading">
                     <h2><div class="h-anim">{{.Params.services.heading}}</div></h2>
                 </div>
@@ -18,26 +18,39 @@
                     <a href="/services" class="large button">All our Services</a>
                 </div>
             </div>
-            <div class="cell small-12 large-5 large-offset-1">
-                <h3 class="h-anim-2">{{.Params.services.subheader}}</h3>
-                <ul class="block-icon-list no-bullet">
+            <div id="services-video" class="cell small-12">
+                <div  class="video-player responsive-embed widescreen">
+                    {{ .Params.services.video | safeHTML }}
+                </div>
+            </div>
+            <div id="service-list" class="cell small-12">
+                <div class="small-text-left large-text-right section-heading gh">
+                    <div class="home-service-heading">
+                        <h3>
+                            <div class="h-anim">{{.Params.services.subheader}}</div>
+                        </h3>
+                    </div>
+                </div>
+                <div class="list-services grid-x grid-padding-x small-up-2 medium-up-4 align-center">
                     {{ range .Params.services.services_list}}
-                    <li>
-                        <div class="item">
+                        <div class="cell text-center">
+                            <a href="/services">
                             <img src="{{.icon}}" alt="{{.title}}" width="120" height="120">
                             <h4>{{.title}}</h4>
-                            <p>{{.text}}</p>
+                            </a>
                         </div>
-                    </li>
                     {{ end }}
-                </ul>
+                </div>
+            </div>
+            <div class="cell small-12 text-center" id="service-link">
+                    <a href="/services" class="large button">All our Services</a>
             </div>
         </div>
     </div>
-    {{ partial "block-case-studies" .}}
-    {{ partial "block-clients" .}}
-    {{ partial "block-testimonial" .}}
-    {{ partial "block-awards" .}}
-    {{ partial "block-register" (dict "Context" . "cxt" $)}}
+    {{ partial "blocks/block-case-studies" .}}
+    {{ partial "blocks/block-clients" .}}
+    {{ partial "blocks/block-testimonial" .}}
+    {{ partial "blocks/block-awards" .}}
+    {{ partial "blocks/block-register" (dict "Context" . "cxt" $)}}
 
 {{ end }}

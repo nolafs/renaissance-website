@@ -2,12 +2,11 @@
 title: Inkulinati
 date: 2023-01-31T09:40:10.449Z
 categories: emea-campaigns
-image: /images/uploads/ink-cs-main.jpg
+image: /images/case-studies/ink-cs-main.jpg
 client: Daedalic
 description: >-
   Renaissance launched the indie hit Inkulinati from Daedalic in it's Early
   Access form in Q1 2023.
-
 
   Working together with the client we amplified the game mechanics and style, echoing the success of the previous thematically similar launch of Pentiment, by Obsidian.
 ---

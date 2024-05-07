@@ -2,7 +2,7 @@
 title: Beyond a Steel Sky
 date: 2019-10-08T13:05:29.906Z
 categories: worldwide-campaigns
-image: /images/uploads/case-beyondasteelsky.jpg
+image: /images/case-studies/case-beyondasteelsky.jpg
 testimonial: ''
 client: Revolution Software
 description: >-
@@ -27,4 +27,4 @@ Renaissance oversees the worldwide launch for Beyond a Steel Sky, sequel of the 
 
 2 Front covers secured at the time of writing .
 
-![](/images/uploads/case-beyondasteelsky-img.jpg)
+![](/images/case-studies/case-beyondasteelsky-img.jpg)

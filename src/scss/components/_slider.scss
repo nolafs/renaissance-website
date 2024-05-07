@@ -1,3 +1,5 @@
+$height: 65%;
+
 .slick-dots {
   margin-top: rem-calc(50);
   display: flex;
@@ -68,4 +70,241 @@
       object-fit: fill;
     }
   }
+}
+
+.carousel {
+  position: relative;
+  padding-top: $height;
+  //filter: drop-shadow(0 0 10px #0003);
+  perspective: 100px;
+  margin-bottom: rem-calc(40);
+
+  ol,
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  * {
+    box-sizing: border-box;
+    scrollbar-color: transparent transparent; /* thumb and track color */
+    scrollbar-width: 0px;
+  }
+
+  *::-webkit-scrollbar {
+    width: 0;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: transparent;
+    border: none;
+  }
+
+  * {
+    -ms-overflow-style: none;
+  }
+}
+
+.carousel__control {
+  cursor: pointer;
+}
+
+.carousel__viewport {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  overflow-x: scroll;
+  counter-reset: item;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+
+}
+
+.carousel__slide {
+  position: relative;
+  flex: 0 0 100%;
+  width: 100%;
+  background-color: $black;
+  counter-increment: item;
+
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+.carousel__snapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: center;
+}
+
+@media (hover: hover) {
+  .carousel__snapper {
+    //animation-name: tonext, snap;
+    //animation-timing-function: ease;
+    //animation-duration: 4s;
+    //animation-iteration-count: infinite;
+  }
+
+  .carousel__slide:last-child .carousel__snapper {
+    animation-name: tostart, snap;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel__snapper {
+    animation-name: none;
+  }
+}
+
+.carousel:hover .carousel__snapper,
+.carousel:focus-within .carousel__snapper {
+  animation-name: none;
+}
+
+.carousel__navigation {
+  position: absolute;
+  right: 0;
+  bottom: -30px;
+  left: 0;
+  text-align: center;
+}
+
+.carousel__navigation-list,
+.carousel__navigation-item {
+  display: inline-block;
+
+  label {
+    cursor: pointer;
+  }
+}
+
+.carousel__navigation-item {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #333;
+  background-clip: content-box;
+  border: 0.25rem solid transparent;
+  border-radius: 50%;
+  font-size: 0;
+  transition: transform 0.1s;
+
+  label {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+.carousel::before,
+.carousel::after,
+.carousel__icon-prev,
+.carousel__icon-next,
+.carousel__prev,
+.carousel__next {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  margin-top: $height * 0.5;
+  width: 4rem;
+  height: 4rem;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  color: white;
+  overflow: hidden;
+}
+
+
+.carousel::before,
+.carousel__icon-prev,
+.carousel__prev {
+  left: 0rem;
+  opacity: 0;
+  transition: 0.5s opacity ease-in-out;
+}
+
+.carousel::after,
+.carousel__icon-next,
+.carousel__next {
+  right: 0rem;
+  opacity: 0;
+  transition: 0.5s opacity ease-in-out;
+}
+
+.carousel__icon-prev,
+.carousel__icon-next,
+{
+  z-index: 30;
+  pointer-events: none;
+}
+
+.carousel::before,
+.carousel::after {
+  content: "";
+  display: block;
+  z-index: 1;
+  background-color: $primary-color;
+  background-size: 1.5rem 1.5rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-size: 2.5rem;
+  line-height: 4rem;
+  text-align: center;
+  pointer-events: none;
+
+  &:hover {
+    background-color: $secondary-color;
+  }
+}
+
+.carousel {
+  &:hover {
+    &:before,
+    &:after,
+    .carousel__icon-prev,
+    .carousel__icon-next,
+    .carousel__prev,
+    .carousel__next {
+      opacity: 1;
+      transition: 0.5s opacity ease-in-out;
+    }
+  }
+}
+
+.carousel {
+  .carousel__activator {
+    display: none;
+  }
+}
+
+.carousel__navigation .carousel__navigation-list .carousel__navigation-item.active {
+  background-color: $primary-color;
+}
+
+$slides: 10;
+
+@for $i from 0 through $slides {
+
+  .carousel__activator:nth-of-type(#{$i + 1}):checked ~ .carousel__viewport .carousel__slide .carousel__snapper {
+    left: $i * 100%;
+    transition: left 0.5s ease-in-out;
+  }
+
+
 }
