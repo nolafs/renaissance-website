@@ -89,6 +89,9 @@ clients:
     - company: Grinding Gear Games
       company_url: https://www.grindinggear.com/
       company_logo: /images/clients/ggg-logo.png
+    - company: GSC Game World
+      company_url: https://www.gsc-game.com/
+      company_logo: /images/clients/gsc_game_world.svg.png
     - company: Happy Volcano
       company_url: https://www.happyvolcano.com/
       company_logo: /images/clients/happy-volcano.png
