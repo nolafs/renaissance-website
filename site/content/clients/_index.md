@@ -29,6 +29,9 @@ clients:
     - company: Billy Goat Entertainment
       company_logo: /images/clients/client-billygoat.jpg
       company_url: https://www.billygoat.tv/
+    - company: Bluepoch
+      company_url: https://www.bluepoch.com/
+      company_logo: /images/clients/bluepoch-logo.png
     - company: Bohemia Interactive
       company_url: https://www.bohemia.net/
       company_logo: /images/clients/bohemia.png
