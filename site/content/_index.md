@@ -63,15 +63,12 @@ clients:
     - company: Alchemy Stars
       company_url: https://www.alchemystars.com/
       company_logo: /images/games/alchemy.png
-    - company: Ascendant.com
-      company_logo: /images/games/ascend-com.jpg
-      company_url: https://store.steampowered.com/app/1803110/Ascendant_Infinity/
+    - company: "Arena Breakout: Infinite"
+      company_url: https://store.steampowered.com/app/2073620/Arena_Breakout_Infinite/
+      company_logo: /images/games/arena-break.jpg
     - company: Assassins Creed Jade
       company_url: https://www.assassinscreedjade.com/
       company_logo: /images/games/acjade-v2.jpg
-    - company: Broken Sword - Parzival's Stone
-      company_url: https://store.steampowered.com/app/2546810/Broken_Sword__Parzivals_Stone/
-      company_logo: /images/games/bs-ps.jpg
     - company_url: https://store.steampowered.com/app/2544110/Broken_Sword__Shadow_of_the_Templars_Reforged/
       company_logo: /images/games/bs-ref.jpg
       company: Broken Sword - Shadow of the Templars Reforged
@@ -162,6 +159,9 @@ clients:
     - company: Southfield
       company_url: https://store.steampowered.com/app/2076210/Southfield/
       company_logo: /images/games/southfield.jpg
+    - company: "S.T.A.L.K.E.R. 2: Heart of Chornobyl"
+      company_url: https://store.steampowered.com/app/1643320/STALKER_2_Heart_of_Chornobyl/
+      company_logo: /images/games/stalker-2-header.jpg
     - company_url: https://store.steampowered.com/app/1851350/Stampede_Racing_Royale/
       company_logo: /images/games/stampede-rr.jpg
       company: Stampede Racing Royale
@@ -180,6 +180,9 @@ clients:
     - company_url: https://store.steampowered.com/app/1881700/Undawn/
       company: Undawn
       company_logo: /images/games/undawn.jpg
+    - company_url: https://ylands.com/
+      company: Ylands
+      company_logo: /images/games/ylands.jpg
   clients_featured:
     - company: 10 Chambers
       company_logo: /images/clients/10-chambers-logo.png
@@ -211,6 +214,9 @@ clients:
     - company: Grinding Gear Games
       company_logo: /images/clients/ggg-logo.png
       company_url: https://www.grindinggear.com/
+    - company: GSC Game World
+      company_url: https://www.gsc-game.com/
+      company_logo: /images/clients/gsc_game_world.svg.png
     - company: Hyper Luminal Games
       company_url: https://www.hyperluminalgames.com/
       company_logo: /images/clients/hlg-logo.png
@@ -220,9 +226,6 @@ clients:
     - company: Pathea
       company_url: https://pathea.net/
       company_logo: /images/clients/pathea.png
-    - company: PlayFusion
-      company_url: https://www.playfusion.com/
-      company_logo: /images/clients/playfusion.png
     - company: Qooland Games
       company_url: https://www.qoolandgames.com/
       company_logo: /images/clients/qooland-logo.png
@@ -247,9 +250,6 @@ clients:
     - company_url: https://untoldgames.com/
       company: Untold Games
       company_logo: /images/clients/untold-games-logo.png
-    - company_url: https://yummy-games.com/
-      company_logo: /images/clients/yummy.jpg
-      company: Yummy Games
   heading: Our Current Clients
   productsheading: Latest Games
   productstext: Our Latest projects
