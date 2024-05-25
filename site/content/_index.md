@@ -60,6 +60,9 @@ clients:
     - company: Age Of Empires Mobile
       company_url: https://aoemobile.com/
       company_logo: /images/games/age-of-emp-mobile.png
+    - company: Aloft
+      company_url: https://store.steampowered.com/app/1660080/ALOFT/
+      company_logo: /images/games/aloft-header.jpg
     - company: "Arena Breakout: Infinite"
       company_url: https://store.steampowered.com/app/2073620/Arena_Breakout_Infinite/
       company_logo: /images/games/arena-break.jpg
