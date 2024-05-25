@@ -60,9 +60,6 @@ clients:
     - company: Age Of Empires Mobile
       company_url: https://aoemobile.com/
       company_logo: /images/games/age-of-emp-mobile.png
-    - company: Alchemy Stars
-      company_url: https://www.alchemystars.com/
-      company_logo: /images/games/alchemy.png
     - company: "Arena Breakout: Infinite"
       company_url: https://store.steampowered.com/app/2073620/Arena_Breakout_Infinite/
       company_logo: /images/games/arena-break.jpg
@@ -96,9 +93,6 @@ clients:
     - company: Dune Spice Wars
       company_url: https://store.steampowered.com/app/1605220/Dune_Spice_Wars/
       company_logo: /images/games/dune-spice.jpg
-    - company_url: https://store.steampowered.com/app/383120/Empyrion__Galactic_Survival/
-      company_logo: /images/games/empyrion.jpg
-      company: Empyrion - Galactic Survival
     - company: Exoborne
       company_logo: /images/games/exoborne.jpg
       company_url: https://store.steampowered.com/app/2705130/Exoborne/
