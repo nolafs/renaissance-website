@@ -211,6 +211,9 @@ clients:
     - company: GameMill
       company_url: https://gamemill.com/
       company_logo: /images/clients/gamemill_entertainment.svg.png
+    - company: gamescom
+      company_logo: /images/clients/gamescom_log.png
+      company_url: https://www.gamescom.global/en
     - company: Grinding Gear Games
       company_logo: /images/clients/ggg-logo.png
       company_url: https://www.grindinggear.com/
@@ -223,6 +226,9 @@ clients:
     - company: Level Infinite
       company_url: https://www.levelinfinite.com/
       company_logo: /images/clients/li-logo.png
+    - company: Limit Break
+      company_logo: /images/clients/lb_logo_full_lightmode_1200px.png
+      company_url: https://www.limitbreak.co.uk/
     - company: Pathea
       company_url: https://pathea.net/
       company_logo: /images/clients/pathea.png
