@@ -1,5 +1,5 @@
 ---
-title: "Powerwash Simulator: Warhammer 40,000 DLC"
+title: "Powerwash Simulator: Warhammer 40K"
 date: 2024-02-27T14:00:00.000Z
 categories: worldwide-campaigns
 image: /images/case-studies/wh-main.jpg
