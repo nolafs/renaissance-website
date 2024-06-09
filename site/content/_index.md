@@ -69,6 +69,9 @@ clients:
     - company: Assassins Creed Jade
       company_url: https://www.assassinscreedjade.com/
       company_logo: /images/games/acjade-v2.jpg
+    - company: Battle Aces
+      company_logo: /images/games/battle-ace-1.jpg
+      company_url: https://store.steampowered.com/app/2682180/Battle_Aces/
     - company_url: https://store.steampowered.com/app/2544110/Broken_Sword__Shadow_of_the_Templars_Reforged/
       company_logo: /images/games/bs-ref.jpg
       company: Broken Sword - Shadow of the Templars Reforged
@@ -99,15 +102,15 @@ clients:
     - company: Exoborne
       company_logo: /images/games/exoborne.jpg
       company_url: https://store.steampowered.com/app/2705130/Exoborne/
-    - company: GTFO
-      company_url: https://store.steampowered.com/app/493520/GTFO/
-      company_logo: /images/games/gtfo.jpg
     - company_url: https://www.honorofkings.com/global-en/
       company: Honor Of Kings
       company_logo: /images/games/hok-image.jpg
     - company: Kena
       company_url: https://store.steampowered.com/app/1954200/Kena_Bridge_of_Spirits/
       company_logo: /images/games/kena.jpg
+    - company: "Kingdom Rush 5: Alliance"
+      company_url: https://store.steampowered.com/app/2849080/Kingdom_Rush_5_Alliance_TD/
+      company_logo: /images/games/krush-5.jpg
     - company: Let's School
       company_url: https://store.steampowered.com/app/1937500/Lets_School/
       company_logo: /images/games/lets-school.jpg
@@ -162,9 +165,6 @@ clients:
     - company_url: https://store.steampowered.com/app/1851350/Stampede_Racing_Royale/
       company_logo: /images/games/stampede-rr.jpg
       company: Stampede Racing Royale
-    - company_url: https://store.steampowered.com/app/1622910/Still_Wakes_the_Deep/
-      company: Still Wakes The Deep
-      company_logo: /images/games/still-wtd.jpg
     - company: Tarisland
       company_url: https://tarisglobal.com/en/
       company_logo: /images/games/tarisland-image.jpg
@@ -174,9 +174,6 @@ clients:
     - company: Tower Of Fantasy
       company_url: https://store.steampowered.com/app/2064650/Tower_of_Fantasy/
       company_logo: /images/games/tower-of-fan.jpg
-    - company_url: https://store.steampowered.com/app/1881700/Undawn/
-      company: Undawn
-      company_logo: /images/games/undawn.jpg
     - company_url: https://ylands.com/
       company: Ylands
       company_logo: /images/games/ylands.jpg
@@ -190,9 +187,6 @@ clients:
     - company: Bohemia Interactive
       company_url: https://www.bohemia.net/
       company_logo: /images/clients/bohemia.png
-    - company: ChillyRoom
-      company_logo: /images/clients/chilly.png
-      company_url: https://www.chillyroom.com/en
     - company: Daedalic
       company_logo: /images/clients/client-daedelic.jpg
       company_url: https://www.daedalic.com/
@@ -250,6 +244,9 @@ clients:
     - company: Timi Studios
       company_url: https://www.timistudios.com/
       company_logo: /images/clients/timi.png
+    - company: Uncapped Games
+      company_url: https://uncappedgames.com/
+      company_logo: /images/clients/uncap-1.png
     - company_url: https://untoldgames.com/
       company: Untold Games
       company_logo: /images/clients/untold-games-logo.png
