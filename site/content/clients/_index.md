@@ -257,6 +257,9 @@ clients:
     - company: Typhoon
       company_logo: /images/clients/client-typhoon.jpg
       company_url: http://typhoonstudios.com/
+    - company: Uncapped Games
+      company_url: https://uncappedgames.com/
+      company_logo: /images/clients/uncap-1.png
     - company: Untold Games
       company_logo: /images/clients/untold_games_logo.jfif
       company_url: https://untoldgames.com/
