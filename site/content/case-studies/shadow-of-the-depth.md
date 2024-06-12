@@ -13,14 +13,10 @@ For media we delivered a focused approach including preview kit distribution & p
 
 {{< imageSize image="/images/case-studies/sd1.jpg"  alt="images" width="600"  processing="resize">}}
 
-​
-
 For content creators we secured over **579,112 organic VOD views** on over **121 channels** during the launch window, achieving a peak live viewership of **23,790** & a total of **27,490 hours watched** by audiences on Twitch.  ​
 
-![](/images/case-studies/sd2.jpg)
-
-​
+{{< imageSize image="/images/case-studies/sd2.jpg"  alt="images" width="600"  processing="resize">}}
 
 Several popular roguelike creators covered the game, including **Splattercat Gaming, Beelz, Lirik** & **OhRye**.
 
-![](/images/case-studies/sd3.jpg)
+{{< imageSize image="/images/case-studies/sd3.jpg"  alt="images" width="600"  processing="resize">}}
