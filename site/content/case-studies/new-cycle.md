@@ -10,53 +10,29 @@ description: Renaissance worked with Daedalic on New Cycle to support them a
 ---
 Renaissance worked with Daedalic on New Cycle to support them a month before launch, engaging with the media & content creators to generate awareness & contribute to the success of the launch.
 
-
-
 In the time we had we achieved **208 pieces of coverage** with media between early January & the end of February with a combined audience for this coverage amounting to **862m umv**. ​
 
 
 
-
-
-
-
-![](/images/case-studies/nc1.jpg)
+{{< imageSize image="/images/case-studies/nc1.jpg"  alt="undefined" width="443" height="314" processing="fit">}}
 
 ​
-
-
 
 Some of the biggest wins were with **Screen Rant** (96m), **PCGamesN** (13m), **Gamestar** (11.2m) & **Eurogamer.de** (4.8m). 
 
 
 
-
-
-
-
-![](/images/case-studies/nc2.jpg)
-
-
-
-
+{{< imageSize image="/images/case-studies/nc2.jpg"  alt="undefined" width="319" height="450" processing="fit">}}
 
 
 
 In terms of content creators Renaissance were bought in on the project to help reach out to Daedalic targets, covering a global campaign (excluding GSA, Russia and Asia), this included over **70 curated** creators.​
 
-
-
 Alongside this we also also did new research of our own & managed inbound requests which put us in contact with over **350 additional targets**.​
-
-
 
 ​
 
-![](/images/case-studies/nc3.jpg)
-
-
-
-
+{{< imageSize image="/images/case-studies/nc3.jpg"  alt="undefined" width="333" height="307" processing="fit">}}
 
 
 
@@ -64,20 +40,12 @@ More than **600 channels** have streamed the game on Twitch since access to the 
 
 
 
-
-
-![](/images/case-studies/nc-cc-1.jpg)
-
-
+{{< imageSize image="/images/case-studies/nc-cc-1.jpg"  alt="undefined" width="451" height="279" processing="fit">}}
 
 ​
-
-
 
 Total views on New Cycle content to date amount to **over 5 million** making this the biggest non licensed success of Daedalic ever.​ We had strong organic wins on Twitch with **Zerator** (133k views), **Arcade Bulls** (60k views), **Gige** (60k views) along with **Orbital potato** (45k views) & **What a Buy** (50k views) on YouTube too.
 
 
 
-
-
-![](/images/case-studies/nc-cc-2.jpg)
+{{< imageSize image="/images/case-studies/nc-cc-2.jpg"  alt="undefined" width="450" height="134" processing="fit">}}
