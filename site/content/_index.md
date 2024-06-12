@@ -165,9 +165,6 @@ clients:
     - company_url: https://store.steampowered.com/app/1851350/Stampede_Racing_Royale/
       company_logo: /images/games/stampede-rr.jpg
       company: Stampede Racing Royale
-    - company: Tarisland
-      company_url: https://tarisglobal.com/en/
-      company_logo: /images/games/tarisland-image.jpg
     - company: "Teenage Mutant Ninja Turtles Arcade: Wrath Of The Mutants"
       company_url: https://store.steampowered.com/app/2527580/Teenage_Mutant_Ninja_Turtles_Arcade_Wrath_of_the_Mutants/
       company_logo: /images/games/tmnt.jpg
