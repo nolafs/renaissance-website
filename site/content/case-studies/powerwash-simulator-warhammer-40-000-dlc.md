@@ -14,20 +14,14 @@ Campaign coverage was **261 articles** with a reach of **811 million UVPM​**
 
 ​
 
-{{< imageSize image="/images/case-studies/wh2.jpg"  alt="undefined" width="750" height="1000" processing="fit">}}
-
-
+{{< imageSize image="/images/case-studies/wh2.jpg"  alt="undefined" width="720" height="720" processing="fit">}}
 
 Highlights included **IGN - US (106 million UVPM), PC Gamer - UK (23.3 million UVPM), TechRadar - UK (23.2 million UVPM)​**
 
 ​
 
-{{< imageSize image="/images/case-studies/wh3.jpg"  alt="undefined" width="1000" height="750" processing="fit">}}
-
-
+{{< imageSize image="/images/case-studies/wh3.jpg"  alt="undefined" width="740" height="720" processing="fit">}}
 
 There were **15** mostly positive reviews & impressions which included **PC Gamer - UK** (23.4 million UVPM), **Polygon - US** (25.9 million UVPM) & **Rock Paper Shotgun - UK** (6.1 million UVPM)
 
-
-
-{{< imageSize image="/images/case-studies/wh1.jpg"  alt="undefined" width="1000" height="1200" processing="fit">}}
+{{< imageSize image="/images/case-studies/wh1.jpg"  alt="undefined" width="574" height="720" processing="fit">}}
