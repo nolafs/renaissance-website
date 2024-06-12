@@ -10,17 +10,11 @@ description: Renaissance PR worked on the launch of FuturLab’s PowerWash
 ---
 Renaissance PR worked on the launch of FuturLab’s PowerWash Simulator Warhammer 40,000 Special Pack DLC, which was released on 27th February. This was a short one-month campaign that covered a release date announcement beat, a launch day beat and reviews of the DLC across all platforms*​
 
-
-
 Campaign coverage was **261 articles** with a reach of **811 million UVPM​**
 
 ​
 
-![](/images/case-studies/wh2.jpg)
-
-
-
-
+{{< imageSize image="/images/case-studies/wh2.jpg"  alt="undefined" width="750" height="1000" processing="fit">}}
 
 
 
@@ -28,13 +22,7 @@ Highlights included **IGN - US (106 million UVPM), PC Gamer - UK (23.3 million U
 
 ​
 
-
-
-![](/images/case-studies/wh3.jpg)
-
-
-
-
+{{< imageSize image="/images/case-studies/wh3.jpg"  alt="undefined" width="1000" height="750" processing="fit">}}
 
 
 
@@ -42,6 +30,4 @@ There were **15** mostly positive reviews & impressions which included **PC Game
 
 
 
-
-
-![](/images/case-studies/wh1.jpg)
+{{< imageSize image="/images/case-studies/wh1.jpg"  alt="undefined" width="1000" height="1200" processing="fit">}}
