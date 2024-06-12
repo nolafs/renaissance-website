@@ -11,12 +11,22 @@ Renaissance were engaged to deliver PR & Content Creator strategy & execution fo
 
 For media we delivered a focused approach including preview kit distribution & preview key out-reach. Within 7 days of launch, coverage had reached an audience of over **140m umv** across specialist & mainstream media, inc. **38 reviews**.​
 
-{{< imageSize image="/images/case-studies/sd1.jpg"  alt="images" width="600"  processing="resize">}}
+{{< imageSize image="/images/case-studies/sd1.jpg"  alt="" width="600"  processing="fit">}}
 
-For content creators we secured over **579,112 organic VOD views** on over **121 channels** during the launch window, achieving a peak live viewership of **23,790** & a total of **27,490 hours watched** by audiences on Twitch.  ​
 
-{{< imageSize image="/images/case-studies/sd2.jpg"  alt="images" width="600"  processing="resize">}}
+
+For content creators we secured over **579,112 organic VOD views** on over **121 channels** during the launch window, achieving a peak live viewership of **23,790** & a total of **27,490 hours watched** by audiences on Twitch. 
+
+ ​
+
+{{< imageSize image="/images/case-studies/sd2.jpg"  alt="images" width="1000" height="750" processing="fit">}}
+
+
 
 Several popular roguelike creators covered the game, including **Splattercat Gaming, Beelz, Lirik** & **OhRye**.
 
-{{< imageSize image="/images/case-studies/sd3.jpg"  alt="images" width="600"  processing="resize">}}
+
+
+
+
+{{< imageSize image="/images/case-studies/sd3.jpg"  alt="" width="1000" height="600" processing="fit">}}
