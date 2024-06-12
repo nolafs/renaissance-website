@@ -12,27 +12,13 @@ Renaissance worked with Daedalic on New Cycle to support them a month before lau
 
 In the time we had we achieved **208 pieces of coverage** with media between early January & the end of February with a combined audience for this coverage amounting to **862m umv**. ​
 
-
-
-
-
-{{< imageSize image="/images/case-studies/nc1.jpg"  alt="undefined" width="443" height="314" processing="resize">}}
+{{< imageSize image="/images/case-studies/nc1.jpg"  alt="undefined" width="443" height="314" processing="crop">}}
 
 ​
 
-
-
 Some of the biggest wins were with **Screen Rant** (96m), **PCGamesN** (13m), **Gamestar** (11.2m) & **Eurogamer.de** (4.8m). 
 
-
-
-
-
-{{< imageSize image="/images/case-studies/nc2.jpg"  alt="undefined" width="319" height="450" processing="resize">}}
-
-
-
-
+{{< imageSize image="/images/case-studies/nc2.jpg"  alt="undefined" width="319" height="450" processing="crop">}}
 
 In terms of content creators Renaissance were bought in on the project to help reach out to Daedalic targets, covering a global campaign (excluding GSA, Russia and Asia), this included over **70 curated** creators.​
 
@@ -40,30 +26,14 @@ Alongside this we also also did new research of our own & managed inbound reques
 
 ​
 
-
-
-{{< imageSize image="/images/case-studies/nc3.jpg"  alt="undefined" width="333" height="307" processing="resize">}}
-
-
-
-
+{{< imageSize image="/images/case-studies/nc3.jpg"  alt="undefined" width="333" height="307" processing="crop">}}
 
 More than **600 channels** have streamed the game on Twitch since access to the build was given and there have been over **250 YouTube videos**. ​
 
-
-
-
-
-{{< imageSize image="/images/case-studies/nc-cc-1.jpg"  alt="undefined" width="451" height="279" processing="resize">}}
+{{< imageSize image="/images/case-studies/nc-cc-1.jpg"  alt="undefined" width="451" height="279" processing="crop">}}
 
 ​
 
-
-
 Total views on New Cycle content to date amount to **over 5 million** making this the biggest non licensed success of Daedalic ever.​ We had strong organic wins on Twitch with **Zerator** (133k views), **Arcade Bulls** (60k views), **Gige** (60k views) along with **Orbital potato** (45k views) & **What a Buy** (50k views) on YouTube too.
 
-
-
-
-
-{{< imageSize image="/images/case-studies/nc-cc-2.jpg"  alt="undefined" width="450" height="134" processing="resize">}}
+{{< imageSize image="/images/case-studies/nc-cc-2.jpg"  alt="undefined" width="450" height="134" processing="crop">}}
