@@ -12,16 +12,26 @@ Renaissance PR worked on the launch of GameMill’s TMNT Wrath Of The Mutants, w
 
 Campaign coverage was **54 articles** with a reach of **86.6 million UVPM​**
 
-{{< imageSize image="/images/case-studies/tmnt1.jpg"  alt="undefined" width="665" height="644" processing="fit">}}
+
+
+{{< imageSize image="/images/case-studies/tmnt1.jpg"  alt="undefined" width="665" height="644" processing="resize">}}
 
 ​
 
 Highlights included **The Gamer – UK/NA** (62.67 million UVPM), **Nintendo Life - UK** (9.8 million UVPM) & **VGC - UK** (2.4 million UVPM)​
 
-{{< imageSize image="/images/case-studies/tmnt3.jpg"  alt="undefined" width="697" height="497" processing="fit">}}
+
+
+
+
+{{< imageSize image="/images/case-studies/tmnt3.jpg"  alt="undefined" width="697" height="497" processing="resize">}}
 
 ​
 
 On top of this, although not contractually obliged to do so, we supported GameMill with some last-minute  organic content creator outreach achieving over **122.8k views** across YouTube & Twitch.
 
-{{< imageSize image="/images/case-studies/tmnt2.jpg"  alt="undefined" width="902" height="662" processing="fit">}}
+
+
+
+
+{{< imageSize image="/images/case-studies/tmnt2.jpg"  alt="undefined" width="902" height="662" processing="resize">}}
