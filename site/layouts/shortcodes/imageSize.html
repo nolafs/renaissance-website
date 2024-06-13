@@ -7,16 +7,16 @@
 {{ $sizeString:= printf "q50 webp" }}
 
 {{if and $width $height}}
-    {{ $sizeString = printf "%sx%s q50 webp" $width $height }}
+    {{ $sizeString = printf "%sx%s q80 webp" $width $height }}
 {{end}}
 {{if and $width (not $height)}}
-    {{ $sizeString = printf "%sx q50 webp" $width }}
+    {{ $sizeString = printf "%sx q80 webp" $width }}
 {{end}}
 {{if and $height  (not $width)}}
-    {{ $sizeString = printf "x%s q50 webp" $height }}
+    {{ $sizeString = printf "x%s q80 webp" $height }}
 {{end}}
 {{if and (not $width)  (not $height)}}
-    {{ $sizeString = printf "q50 webp" }}
+    {{ $sizeString = printf "q80 webp" }}
 {{end}}
 
 {{- if $image -}}
