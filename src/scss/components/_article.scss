@@ -11,7 +11,7 @@
   width: 100%;
 
   &.left{
-    align-items: flex-end;
+    align-items: flex-start;
   }
 
   &.center {
@@ -19,7 +19,7 @@
   }
 
   &.right {
-    align-items: flex-start;
+    align-items: flex-end;
   }
 
   &.full{
