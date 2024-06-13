@@ -43,6 +43,7 @@ CMS.registerEditorComponent({
 		{name: "alt", label: "alt", widget: "string", required: true},
 		{name: "width", label: "width", widget: "string"},
 		{name: "height", label: "height", widget: "string", hint: "Optional: required if fill or fit is selected"},
+		{name: "align", label: "align", widget: "select", options: ["left", "right", "center", "full"], default: "left"},
 		{name: "processing", label: "Processing", widget: "select", options: ["resize", "crop", "fit", "fill"], default: "resize",  hint: "resize: Resizes the image to fit within the specified dimensions. crop: Crops the image to the specified dimensions. fit: Resizes the image to fit within the specified dimensions, without distorting the image. fill: Resizes the image to fit within the specified dimensions, distorting the image if necessary."}
 	],
 	pattern: /^{{<\s?imageSize.*\s?>}}/,
@@ -58,15 +59,16 @@ CMS.registerEditorComponent({
 			image: extractAttribute('image'),
 			alt: extractAttribute('alt'),
 			width: extractAttribute('width'),
+			align: extractAttribute('align'),
 			processing: extractAttribute('processing'),
 			height: extractAttribute('height') // Optional: include this if you decide to handle height as well.
 		};
 	},
 	toBlock: obj => {
 
-		const { image, alt, width, height, processing } = obj
+		const { image, alt, width, height, processing, align } = obj
 
-		const shortcode =  `{{< imageSize image="${image}"  alt="${alt}" ${(width) ? `width="${width}"` : ''} ${ (height) ? `height="${height}"` : ''} processing="${processing}">}}`
+		const shortcode =  `{{< imageSize image="${image}" align="${align}"  alt="${alt}" ${(width) ? `width="${width}"` : ''} ${ (height) ? `height="${height}"` : ''} processing="${processing}">}}`
 
 		return (
 			shortcode

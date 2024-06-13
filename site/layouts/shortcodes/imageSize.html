@@ -2,6 +2,7 @@
 {{$image:= .Get  "image" }}
 {{$width:= .Get  "width" }}
 {{$height:= .Get  "height" }}
+{{$align:= .Get  "align" | default "left" }}
 {{$alt:= .Get  "alt" | default "" }}
 {{$processing:= .Get  "processing" | default "resize" }}
 {{ $sizeString:= printf "q50 webp" }}
@@ -31,6 +32,22 @@
             {{else if eq $processing "crop"}}
                 {{$imageUrl = ($resource.Crop $sizeString).RelPermalink }}
             {{end}}
-            <img src="{{$imageUrl}}" alt="{{$alt}}">
+            <div class="image-size-comp {{ if $align -}}
+                  {{$align}}
+            {{- end -}}
+">
+            <img src="{{$imageUrl}}"
+            {{- if $alt -}}
+                 alt="{{$alt}}"
+            {{- end -}}
+            {{- if $width -}}
+                width="{{$width}}"
+            {{- end -}}
+            {{- if $height -}}
+                height="{{$height}}"
+            {{- end -}}
+
+            >
+            </div>
     {{- end -}}
 {{- end -}}

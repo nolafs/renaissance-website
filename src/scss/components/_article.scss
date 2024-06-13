@@ -4,3 +4,30 @@
     margin-bottom: rem-calc(24);
   }
 }
+
+.image-size-comp {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  &.left{
+    align-items: flex-end;
+  }
+
+  &.center {
+    align-items: center;
+  }
+
+  &.right {
+    align-items: flex-start;
+  }
+
+  &.full{
+    align-items: center;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
