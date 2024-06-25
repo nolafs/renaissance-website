@@ -1,36 +1,169 @@
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-{{ "<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->" | safeHTML }}
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+<meta http-equiv="X-UA-TextLayoutMetrics" content="gdi"/>
 
-<meta http-equiv="X-UA-TextLayoutMetrics" content="gdi" />
-
-{{ if .Description }}
-<meta name="description" content="{{ .Description }}">
-{{ else if .IsPage }}
-<meta name="description" content="{{ .Summary | plainify }}">
-{{ else }}
-<meta name="description" content="{{ .Site.Params.description }}">
-{{ end }}
-
-{{ template "_internal/opengraph.html" . }}
-
-{{ if .Site.Params.og_image }}
-<meta property="og:image" content="{{ .Site.Params.og_image | absURL }}"/>
-<meta property="og:image:secure_url" content="{{ .Site.Params.og_image | absURL }}"/>
-{{ end }}
-
-{{ template "_internal/schema.html" . }}
-{{ template "_internal/twitter_cards.html" . }}
-
-{{ if .Site.Params.google_verify_meta }}
-<meta name="google-site-verification" content="{{ .Site.Params.google_verify_meta }}" />
-{{ end }}
-{{ if .Site.Params.bing_verify_meta }}
-<meta name="msvalidate.01" content="{{ .Site.Params.bing_verify_meta }}" />
-{{ end }}
-{{ if .Site.Params.yandex_verify_meta }}
-<meta name="yandex-verification" content="{{ .Site.Params.yandex_verify_meta }}" />
-{{ end }}
+{{ $theme := .Site.Data.theme }}
+{{ if .IsTranslated }}
+{{ $lang:= string site.Language}}
+{{ $theme = (index .Site.Data.theme $lang )  }}
+{{end}}
 
 
+{{/* Generate page description. */}}
+{{- $desc := "" -}}
+{{- if .Params.description -}}
+{{- $desc = .Params.description -}}
+{{- else if .Params.summary -}}
+{{- $desc = .Params.summary -}}
+{{- else if .Params.abstract -}}
+{{ $desc = .Params.abstract }}
+{{- else if .IsPage -}}
+{{- $desc = .Summary -}}
+{{- else if site.Params.description -}}
+{{- $desc = site.Params.description -}}
+{{- end -}}
+
+{{- /* Generate page share image. */ -}}
+
+{{- $share := "" -}}
+{{- if .Params.share_image -}}
+{{- with resources.Get .Params.share_image -}}
+{{- with .Fill "1200x630 jpg center" -}}
+{{- $share  = .RelPermalink | absURL  -}}
+{{- end -}}
+{{- end -}}
+{{- else if eq .Params.share_default_share_image true -}}
+{{- if $theme.share_img -}}
+{{- with resources.Get $theme.share_img -}}
+{{- with .Fill "1200x630 jpg center" -}}
+{{- $share  = .RelPermalink | absURL -}}
+{{- end -}}
+{{- end -}}
+{{end}}
+{{- else if .Params.featured_image.src -}}
+{{- with resources.Get .Params.featured_image.src -}}
+{{- with .Fill "1200x630 jpg center" -}}
+{{- $share  = .RelPermalink | absURL -}}
+{{- end -}}
+{{- else -}}
+{{- $share = (printf "%s?%s"  ( .Params.featured_image.src | absURL  )  "nf_resize=fit&w=1920&h=1080") -}}
+{{- end -}}
+{{- else if .Site.Data.theme.share_img -}}
+{{- with resources.Get .Site.Data.theme.share_img -}}
+{{- with .Fill "1200x630 jpg center" -}}
+{{- $share  = .RelPermalink | absURL -}}
+{{- end -}}
+{{- end -}}
+
+{{- else if .Site.Data.theme.placeholder_img -}}
+{{- with resources.Get .Site.Data.theme.placeholder_img -}}
+{{- with .Fill "1200x630 jpg center" -}}
+{{- $share  = .RelPermalink | absURL -}}
+{{- end -}}
+{{- end -}}
+{{- end -}}
+
+{{/* Generate page Title. */}}
+{{ $title := "" }}
+{{if .Params.share_title }}
+    {{ $title = .Params.share_title }}
+{{else}}
+    {{ $title = .Title }}
+{{end}}
+<title>
+    {{- if .IsHome -}}
+    {{- if .Params.share_title -}}
+    {{- .Params.share_title -}}
+    {{- else -}}
+    {{ .Site.Title }}
+    {{- end -}}
+    {{- else -}}
+    {{ .Site.Title }} - {{$title | safeHTML}}
+    {{- end -}}
+</title>
+
+{{- " <!-- SEO -->" | safeHTML -}}
+<meta name="description" content="{{ $desc }}">
+{{if .Params.keywords }}
+<meta name="keywords" content="{{range .Params.keywords}}{{.}},{{end}}">
+{{else if .Site.Params.keywords }}
+<meta name="keywords" content="{{ .Site.Params.keywords }}">
+{{end}}
+
+{{- " <!-- Open Graph -->" | safeHTML -}}
+<meta property="og:title" content="{{ $title }}"/>
+<meta property="og:description" content="{{ $desc }}"/>
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}"/>
+<meta property="og:url" content="{{ .Permalink }}"/>
+
+{{- with $share -}}
+<meta itemprop="image" content="{{ . | safeURL }}"/>
+<meta property="og:image" content="{{ . | safeURL }}"/>
+{{- end -}}
+
+{{- if .IsPage -}}
+{{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
+<meta property="article:section" content="{{ .Section }}"/>
+{{- with .PublishDate -}}
+<meta property="article:published_time" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />{{- end -}}
+{{- with .Lastmod -}}
+<meta property="article:modified_time" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />{{- end -}}
+{{- end -}}
+{{- with .Params.audio }}
+<meta property="og:audio" content="{{ . }}"/>{{ end }}
+{{- with .Params.locale }}
+<meta property="og:locale" content="{{ . }}"/>{{ end }}
+{{- with .Site.Params.title }}
+<meta property="og:site_name" content="{{ . }}"/>{{ end }}
+{{- with .Params.videos }}{{- range . }}
+<meta property="og:video" content="{{ . | absURL }}"/>
+{{ end }}{{ end -}}
+
+{{- /* If it is part of a series, link to related articles */}}
+{{- $permalink := .Permalink }}
+{{- $siteSeries := .Site.Taxonomies.series }}
+{{ with .Params.series }}{{- range $name := . }}
+{{- $series := index $siteSeries ($name | urlize) }}
+{{- range $page := first 6 $series.Pages }}
+{{- if ne $page.Permalink $permalink }}
+<meta property="og:see_also" content="{{ $page.Permalink }}"/>{{ end }}
+{{- end }}
+{{ end }}{{ end }}
+
+{{- /* Facebook Page Admin ID for Domain Insights */}}
+{{- with .Site.Social.facebook_admin }}
+<meta property="fb:admins" content="{{ . }}"/>{{ end -}}
+
+{{ " <!-- Twitter -->" | safeHTML }}
+
+{{- with $.Params.images }}
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="{{ index . 0 | absURL }}"/>
+{{ else -}}
+{{- with $share -}}
+<meta name="twitter:image" content="{{ . | safeURL  }}"/>
+<meta name="twitter:image:src" content="{{ . | safeURL  }}"/>
+{{- end -}}
+{{- end }}
+<meta name="twitter:title" content="{{ $title }}"/>
+<meta name="twitter:description" content="{{ $desc }}"/>
+{{- with .Site.Social.twitter -}}
+<meta name="twitter:site" content="@{{ . }}"/>
+{{ end -}}
+
+
+{{ " <!-- SEO -->" | safeHTML }}
+
+{{- if .Site.Params.google_verify_meta -}}
+<meta name="google-site-verification" content="{{ .Site.Params.google_verify_meta }}"/>
+{{- end -}}
+{{- if .Site.Params.bing_verify_meta -}}
+<meta name="msvalidate.01" content="{{ .Site.Params.bing_verify_meta }}"/>
+{{- end -}}
+{{- if .Site.Params.yandex_verify_meta -}}
+<meta name="yandex-verification" content="{{ .Site.Params.yandex_verify_meta }}"/>
+{{- end -}}
+
+<meta name="robots" content="index,follow"/>
+<meta name="googlebot" content="index,follow"/>

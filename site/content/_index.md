@@ -5,6 +5,7 @@ header:
   video: qCwZ7gH3MOY
   video_active: true
 twitter: false
+share_title: Renaissance PR
 tweet: |-
   Make sure you're ready for a lil' something special coming in the form of 
   [@PineHeartsGame](https://twitter.com/pineheartsgame)
