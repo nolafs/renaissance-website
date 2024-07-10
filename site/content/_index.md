@@ -5,7 +5,6 @@ header:
   video: aOVq1tZu-FE
   video_active: true
 twitter: false
-share_title: Renaissance PR
 tweet: |-
   Make sure you're ready for a lil' something special coming in the form of 
   [@PineHeartsGame](https://twitter.com/pineheartsgame)
@@ -64,9 +63,6 @@ clients:
     - company: Aloft
       company_url: https://store.steampowered.com/app/1660080/ALOFT/
       company_logo: /images/games/aloft-header.jpg
-    - company: "Arena Breakout: Infinite"
-      company_url: https://store.steampowered.com/app/2073620/Arena_Breakout_Infinite/
-      company_logo: /images/games/arena-break.jpg
     - company: Assassins Creed Jade
       company_url: https://www.assassinscreedjade.com/
       company_logo: /images/games/acjade-v2.jpg
@@ -115,6 +111,9 @@ clients:
     - company: Let's School
       company_url: https://store.steampowered.com/app/1937500/Lets_School/
       company_logo: /images/games/lets-school.jpg
+    - company: Looney Tunes Wacky World Of Sports
+      company_url: https://www.youtube.com/watch?v=IPVfbLZ4w8I
+      company_logo: /images/games/looney-wacky.jpg
     - company: "Metal: Hellsinger"
       company_url: https://store.steampowered.com/app/1061910/Metal_Hellsinger/
       company_logo: /images/games/metal-hell.jpg
@@ -262,5 +261,6 @@ contact:
     always looking to work with new and exciting clients so if you like the
     sound of the way Renaissance works, get in touch and let’s see what we can
     do together.
+share_title: Renaissance PR
 ---
 Creating the best environment for the games industry’s most innovative projects to succeed through strategic, measurable and curated planning.
