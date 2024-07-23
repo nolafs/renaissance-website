@@ -102,6 +102,9 @@ clients:
     - company_url: https://www.honorofkings.com/global-en/
       company: Honor Of Kings
       company_logo: /images/games/hok-image.jpg
+    - company: "Karate Kid: Street Rumble"
+      company_logo: /images/games/karate-kid.png
+      company_url: https://www.youtube.com/watch?v=nf7Y1WUEHp0
     - company: Kena
       company_url: https://store.steampowered.com/app/1954200/Kena_Bridge_of_Spirits/
       company_logo: /images/games/kena.jpg
