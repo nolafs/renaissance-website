@@ -32,7 +32,7 @@ founder:
 team:
   heading: The Team
   team_list:
-    - image: /images/uploads/stefano-website.jpg
+    - image: /images/uploads/stefano-website-2.jpg
       name: Stefano Petrullo
       position: |+
         Founder
