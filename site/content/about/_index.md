@@ -16,7 +16,7 @@ values:
     practices through seminars and talks.
 founder:
   heading: About the Founder
-  image: /images/uploads/founder.jpg
+  image: /images/uploads/stefano-website.jpg
   subheading: Stefano Petrullo
   text: >-
     A passionate, optimistic,  extroverted observer of the media landscape.
@@ -32,7 +32,7 @@ founder:
 team:
   heading: The Team
   team_list:
-    - image: /images/uploads/stefano-bio-v2.jpg
+    - image: /images/uploads/stefano-website.jpg
       name: Stefano Petrullo
       position: |+
         Founder
