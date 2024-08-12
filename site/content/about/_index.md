@@ -87,10 +87,7 @@ team:
         wide range of genres.
 
 
-        Setting out into the world of journalism back in 2005, Keith spent a large chunk of his writing career covering the rise of smartphone games during the App Store boom in the late noughties, eventually serving as the Editor of Pocket Gamer’s industry-focused spin off.
-
-
-        In 2014, Keith went fully freelance, writing for a whole host of publications including Edge, GamesTM, GamesMaster, Rolling Stone, Digital Spy, Gamesradar, Lad Bible, Official Xbox Magazine, GamesIndustry.biz, Trusted Reviews, MCV & many others.
+        Setting out into the world of journalism back in 2005, Keith spent a large chunk of his writing career covering the rise of smartphone games. In 2014, Keith went fully freelance, writing for a whole host of publications including Edge, GamesTM, GamesMaster, Rolling Stone, Digital Spy, Gamesradar, Lad Bible, Official Xbox Magazine, GamesIndustry.biz, Trusted Reviews, MCV & many others.
     - name: Rebecca Nicol
       position: " "
       text: >-
