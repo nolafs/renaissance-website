@@ -138,6 +138,18 @@ team:
         Throughout his career Tom has launched a wide and varied range of titles from AAA blockbusters from some of the world’s biggest publishers to award-winning indie games - and everything in between.
       position: " "
       image: /images/uploads/tom-c-bio.jpg
+    - name: Sam Faulkner
+      position: " "
+      image: /images/uploads/sam-web.png
+      text: >
+        Sam has worked in games for a decade now and has had a broad career to
+        date. Starting out as a professional Film Journalist, he moved into
+        Games writing before moving in-house to work in Community Management.
+        Getting the bug for the development environment, Sam has worked
+        variously in PR, Design, Game Writing, Presenting and Production.
+
+
+        Sam is most proud of his work as Publishing Producer for Larian Studios and looks back with particular fondness on working on Baldur’s Gate 3 during Early Access. Leaving Larian in mid 2022, Sam became an independent consultant, working with indies, publishers and PR firms and has been working with Renaissance since late 2022.
     - name: Matthew Taylor
       text: "Matthew Taylor has been working in PR and marketing since graduating with
         a History Degree in 2013. In 2019, he joined Renaissance as his first
