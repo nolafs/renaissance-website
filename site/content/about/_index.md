@@ -101,7 +101,7 @@ team:
 
 
         Having spent time as a games journalist before landing in the world of games PR, Rebecca is an eternal optimist, her enthusiasm and love for games and the people that make them becoming the driving force behind the work she does.
-      image: /images/uploads/rebecca-web1.jpg
+      image: /images/uploads/rebecca-web2.jpg
     - image: /images/uploads/andy-bio-v2.jpg
       name: Andy Griffiths
       position: " "
