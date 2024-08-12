@@ -91,6 +91,17 @@ team:
 
 
         In 2014, Keith went fully freelance, writing for a whole host of publications including Edge, GamesTM, GamesMaster, Rolling Stone, Digital Spy, Gamesradar, Lad Bible, Official Xbox Magazine, GamesIndustry.biz, Trusted Reviews, MCV & many others.
+    - name: Rebecca Nicol
+      position: " "
+      text: >-
+        Rebecca joined Renaissance in 2024, bringing with her a wealth of PR
+        knowledge and experience from across the games industry, having worked
+        on a range of titles across a wide selection of genres, including;
+        DREDGE, Blasphemous 2, and Overcooked! All You Can Eat.
+
+
+        Having spent time as a games journalist before landing in the world of games PR, Rebecca is an eternal optimist, her enthusiasm and love for games and the people that make them becoming the driving force behind the work she does.
+      image: /images/uploads/rebecca-web1.jpg
     - image: /images/uploads/andy-bio-v2.jpg
       name: Andy Griffiths
       position: " "
