@@ -72,9 +72,6 @@ clients:
     - company_url: https://store.steampowered.com/app/2544110/Broken_Sword__Shadow_of_the_Templars_Reforged/
       company_logo: /images/games/bs-ref.jpg
       company: Broken Sword - Shadow of the Templars Reforged
-    - company_url: https://store.steampowered.com/app/2081080/Capes/
-      company: Capes
-      company_logo: /images/games/capes.jpg
     - company: City 20
       company_url: https://store.steampowered.com/app/1597980/City_20/
       company_logo: /images/games/city-20-steam.jpg
@@ -123,12 +120,6 @@ clients:
     - company: My Time At Sandrock
       company_url: https://store.steampowered.com/app/1084600/My_Time_at_Sandrock/
       company_logo: /images/games/my-time.jpg
-    - company: NBA Infinite
-      company_logo: /images/games/nba-in-ren.jpg
-      company_url: https://nbainfinite.com/en/
-    - company_logo: /images/games/nasb2.jpg
-      company: Nickelodeon All-Star Brawl 2
-      company_url: https://store.steampowered.com/app/2017080/Nickelodeon_AllStar_Brawl_2/
     - company_url: https://store.steampowered.com/app/1928980/Nightingale/
       company_logo: /images/games/nightingale.jpg
       company: Nightingale
@@ -141,9 +132,6 @@ clients:
     - company: Path Of Exile 2
       company_url: https://pathofexile2.com/
       company_logo: /images/games/poe-2-small.jpg
-    - company: Pine Hearts
-      company_url: https://store.steampowered.com/app/1781010/Pine_Hearts/
-      company_logo: /images/games/pine-hearts.jpg
     - company: PowerWash Simulator
       company_logo: /images/games/powerwash.jpg
       company_url: https://store.steampowered.com/app/1290000/PowerWash_Simulator/
@@ -153,15 +141,9 @@ clients:
     - company: Reverse 1999
       company_logo: /images/games/reverse-1999.png
       company_url: https://re1999.bluepoch.com/
-    - company: Shadow Of The Depth
-      company_url: https://store.steampowered.com/app/2100150/Shadow_of_the_Depth/
-      company_logo: /images/games/shadow-of-depth.jpg
     - company: Soulmask
       company_url: https://store.steampowered.com/app/2646460/Soulmask/
       company_logo: /images/games/soulmask.jpg
-    - company: Southfield
-      company_url: https://store.steampowered.com/app/2076210/Southfield/
-      company_logo: /images/games/southfield.jpg
     - company: "S.T.A.L.K.E.R. 2: Heart of Chornobyl"
       company_url: https://store.steampowered.com/app/1643320/STALKER_2_Heart_of_Chornobyl/
       company_logo: /images/games/stalker-2-header.jpg
@@ -171,9 +153,6 @@ clients:
     - company: "Teenage Mutant Ninja Turtles Arcade: Wrath Of The Mutants"
       company_url: https://store.steampowered.com/app/2527580/Teenage_Mutant_Ninja_Turtles_Arcade_Wrath_of_the_Mutants/
       company_logo: /images/games/tmnt.jpg
-    - company: Tower Of Fantasy
-      company_url: https://store.steampowered.com/app/2064650/Tower_of_Fantasy/
-      company_logo: /images/games/tower-of-fan.jpg
     - company_url: https://ylands.com/
       company: Ylands
       company_logo: /images/games/ylands.jpg
@@ -187,9 +166,6 @@ clients:
     - company: Bohemia Interactive
       company_url: https://www.bohemia.net/
       company_logo: /images/clients/bohemia.png
-    - company: Daedalic
-      company_logo: /images/clients/client-daedelic.jpg
-      company_url: https://www.daedalic.com/
     - company: Ember Lab
       company_url: https://emberlab.com/
       company_logo: /images/clients/company-logo_emberlab.png
@@ -211,9 +187,6 @@ clients:
     - company: GSC Game World
       company_url: https://www.gsc-game.com/
       company_logo: /images/clients/gsc_game_world.svg.png
-    - company: Hyper Luminal Games
-      company_url: https://www.hyperluminalgames.com/
-      company_logo: /images/clients/hlg-logo.png
     - company: Kwalee
       company_url: https://www.kwalee.com/
       company_logo: /images/clients/kwalee.png
@@ -229,9 +202,6 @@ clients:
     - company: Qooland Games
       company_url: https://www.qoolandgames.com/
       company_logo: /images/clients/qooland-logo.png
-    - company: Radical Forge
-      company_url: https://www.radicalforge.com/
-      company_logo: /images/clients/lockup_black.png
     - company: Revolution
       company_url: https://revolution.co.uk/
       company_logo: /images/clients/revolution.png
