@@ -202,6 +202,9 @@ clients:
     - company: Qooland Games
       company_url: https://www.qoolandgames.com/
       company_logo: /images/clients/qooland-logo.png
+    - company: Raccoon Logic
+      company_url: https://www.raccoonlogic.com/
+      company_logo: /images/clients/raccoon-logic.png
     - company: Revolution
       company_url: https://revolution.co.uk/
       company_logo: /images/clients/revolution.png
