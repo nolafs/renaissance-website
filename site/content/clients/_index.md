@@ -125,6 +125,9 @@ clients:
     - company: Koei Tecmo
       company_url: https://www.koeitecmoeurope.com/
       company_logo: /images/clients/1200px-koei_tecmo_holdings_logo_20090401.svg.png
+    - company: Kwalee
+      company_url: https://www.kwalee.com/
+      company_logo: /images/clients/kwalee.png
     - company: Leonardo Interactive
       company_url: https://leonardointeractive.com/
       company_logo: /images/clients/logo-leo.jpg
@@ -191,6 +194,9 @@ clients:
     - company: R8 Games
       company_logo: /images/clients/client-r8games.jpg
       company_url: http://pacergame.com/
+    - company_url: https://www.raccoonlogic.com/
+      company_logo: /images/clients/raccoon-logic.png
+      company: Raccoon Logic
     - company: Radical Forge
       company_logo: /images/clients/lockup_black.png
       company_url: https://www.radicalforge.com/
