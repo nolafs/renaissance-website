@@ -214,6 +214,9 @@ clients:
     - company: Hyper Luminal Games
       company_url: https://www.hyperluminalgames.com/
       company_logo: /images/clients/hlg-logo.png
+    - company: Kwalee
+      company_url: https://www.kwalee.com/
+      company_logo: /images/clients/kwalee.png
     - company: Level Infinite
       company_url: https://www.levelinfinite.com/
       company_logo: /images/clients/li-logo.png
