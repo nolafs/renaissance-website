@@ -63,6 +63,9 @@ clients:
     - company: Aloft
       company_url: https://store.steampowered.com/app/1660080/ALOFT/
       company_logo: /images/games/aloft-header.jpg
+    - company_url: https://www.antstream.com/
+      company: Antstream Arcade
+      company_logo: /images/games/ant-arc-1.jpg
     - company: Assassins Creed Jade
       company_url: https://www.assassinscreedjade.com/
       company_logo: /images/games/acjade-v2.jpg
