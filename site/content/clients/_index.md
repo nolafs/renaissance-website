@@ -17,6 +17,9 @@ clients:
     - company: Anshar Publishing
       company_logo: /images/clients/anshar.png
       company_url: https://www.ansharpublishing.com/
+    - company_url: https://www.antstream.com/
+      company: Antstream
+      company_logo: /images/clients/antstream-logo_wide-black.png
     - company: Atari
       company_logo: /images/clients/atari-logo.png
       company_url: https://atari.com/
