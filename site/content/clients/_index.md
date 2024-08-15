@@ -14,6 +14,9 @@ clients:
     - company: Activision Blizzard
       company_logo: /images/clients/acti-bliz.png
       company_url: https://www.activisionblizzard.com/
+    - company: Amazon Kids+
+      company_url: http://amazon.co.uk/forkids
+      company_logo: /images/clients/amazon-kids-logo.png
     - company: Anshar Publishing
       company_logo: /images/clients/anshar.png
       company_url: https://www.ansharpublishing.com/
