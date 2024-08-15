@@ -163,6 +163,9 @@ clients:
     - company: 10 Chambers
       company_logo: /images/clients/10-chambers-logo.png
       company_url: https://careers.10chambers.com/
+    - company: Amazon Kids+
+      company_url: http://amazon.co.uk/forkids
+      company_logo: /images/clients/amazon-kids-logo.png
     - company: Antstream
       company_logo: /images/clients/antstream-logo_wide-black.png
       company_url: https://www.antstream.com/
