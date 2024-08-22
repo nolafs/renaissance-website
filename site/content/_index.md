@@ -102,6 +102,9 @@ clients:
     - company_url: https://www.honorofkings.com/global-en/
       company: Honor Of Kings
       company_logo: /images/games/hok-image.jpg
+    - company: In Sink
+      company_url: https://store.steampowered.com/app/1858650/In_Sink/?curator_clanid=39269540
+      company_logo: /images/games/in-sink-web.jpg
     - company: "Karate Kid: Street Rumble"
       company_logo: /images/games/karate-kid.png
       company_url: https://www.youtube.com/watch?v=nf7Y1WUEHp0
@@ -141,12 +144,18 @@ clients:
     - company: PUBG MOBILE
       company_url: https://www.pubgmobile.com/en-US/home.shtml
       company_logo: /images/games/pubg-mob.png
+    - company: Revenge Of The Savage Planet
+      company_url: https://store.steampowered.com/app/2787320/Revenge_of_the_Savage_Planet/
+      company_logo: /images/games/rotsp-web.jpg
     - company: Reverse 1999
       company_logo: /images/games/reverse-1999.png
       company_url: https://re1999.bluepoch.com/
     - company: Soulmask
       company_url: https://store.steampowered.com/app/2646460/Soulmask/
       company_logo: /images/games/soulmask.jpg
+    - company_url: https://store.steampowered.com/app/1507120/The_Spirit_of_the_Samurai/?curator_clanid=39269540
+      company: Spirit Of The Samurai
+      company_logo: /images/games/spirit-of-sam-web.jpg
     - company: "S.T.A.L.K.E.R. 2: Heart of Chornobyl"
       company_url: https://store.steampowered.com/app/1643320/STALKER_2_Heart_of_Chornobyl/
       company_logo: /images/games/stalker-2-header.jpg
@@ -156,6 +165,12 @@ clients:
     - company: "Teenage Mutant Ninja Turtles Arcade: Wrath Of The Mutants"
       company_url: https://store.steampowered.com/app/2527580/Teenage_Mutant_Ninja_Turtles_Arcade_Wrath_of_the_Mutants/
       company_logo: /images/games/tmnt.jpg
+    - company: The Precinct
+      company_url: https://store.steampowered.com/app/490110/The_Precinct/
+      company_logo: /images/games/precinct-web.jpg
+    - company: Voidwrought
+      company_logo: /images/games/voidw-web.jpg
+      company_url: https://store.steampowered.com/app/2014550/Voidwrought/?curator_clanid=39269540
     - company_url: https://ylands.com/
       company: Ylands
       company_logo: /images/games/ylands.jpg
