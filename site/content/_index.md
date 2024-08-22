@@ -102,6 +102,9 @@ clients:
     - company_url: https://www.honorofkings.com/global-en/
       company: Honor Of Kings
       company_logo: /images/games/hok-image.jpg
+    - company_url: https://store.steampowered.com/app/2157710/Hordes_of_Hunger/
+      company: Hordes Of Hunger
+      company_logo: /images/games/hordes-hug-web.jpg
     - company: In Sink
       company_url: https://store.steampowered.com/app/1858650/In_Sink/?curator_clanid=39269540
       company_logo: /images/games/in-sink-web.jpg
