@@ -99,6 +99,9 @@ clients:
     - company: Exoborne
       company_logo: /images/games/exoborne.jpg
       company_url: https://store.steampowered.com/app/2705130/Exoborne/
+    - company: GladiEATers
+      company_logo: /images/games/gladieaters.jpg
+      company_url: https://store.steampowered.com/app/2141280/GladiEATers/
     - company_url: https://www.honorofkings.com/global-en/
       company: Honor Of Kings
       company_logo: /images/games/hok-image.jpg
