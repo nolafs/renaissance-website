@@ -102,6 +102,9 @@ clients:
     - company: GladiEATers
       company_logo: /images/games/gladieaters.jpg
       company_url: https://store.steampowered.com/app/2141280/GladiEATers/
+    - company: Gordian Quest
+      company_url: https://www.gamespress.com/nl/Gordian-on-the-Go-Revered-RPG-Gordian-Quest-to-Hit-iOS-Android-This-Wi
+      company_logo: /images/games/gordian.jpg
     - company_url: https://www.honorofkings.com/global-en/
       company: Honor Of Kings
       company_logo: /images/games/hok-image.jpg
