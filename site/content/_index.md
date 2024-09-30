@@ -190,6 +190,9 @@ clients:
     - company: 10 Chambers
       company_logo: /images/clients/10-chambers-logo.png
       company_url: https://careers.10chambers.com/
+    - company: Aether Sky
+      company_url: https://aethersky.com/
+      company_logo: /images/clients/aether.png
     - company: Amazon Kids+
       company_url: http://amazon.co.uk/forkids
       company_logo: /images/clients/amazon-kids-logo.png
