@@ -14,6 +14,9 @@ clients:
     - company: Activision Blizzard
       company_logo: /images/clients/acti-bliz.png
       company_url: https://www.activisionblizzard.com/
+    - company: Aether Sky
+      company_logo: /images/clients/aether.png
+      company_url: https://aethersky.com/
     - company: Amazon Kids+
       company_url: http://amazon.co.uk/forkids
       company_logo: /images/clients/amazon-kids-logo.png
@@ -113,6 +116,9 @@ clients:
     - company: IIDEA
       company_logo: /images/clients/idea-logo-v2.png
       company_url: http://www.aesvi.it
+    - company: Infold Games
+      company_logo: /images/clients/infold.png
+      company_url: https://www.infoldgames.com/en/home
     - company: Italian Games Factory
       company_logo: /images/clients/igf.png
       company_url: https://www.italiangamesfactory.com/
