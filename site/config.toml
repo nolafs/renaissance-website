@@ -20,8 +20,8 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 ############################
 [services]
   [services.googleAnalytics]
-      ID = 'UA-150749173-1'
-      #ID = 'G-8HX7X7D442'
+      #ID = 'UA-150749173-1'
+      ID = 'G-8HX7X7D442'
 
 
 # RSS, categories and tags disabled for an easy start
