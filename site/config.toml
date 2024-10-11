@@ -1,5 +1,5 @@
-baseurl = "https://renaissancepr.co.uk/"
-#baseurl = "/"
+#baseurl = "https://renaissancepr.co.uk/"
+baseurl = "/"
 title = "Renaissance PR Agency"
 
 ############################
@@ -20,8 +20,8 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 ############################
 [services]
   [services.googleAnalytics]
-      #ID = 'UA-150749173-1'
-      ID = 'G-8HX7X7D442'
+      ID = 'UA-150749173-1'
+      #ID = 'G-8HX7X7D442'
 
 
 # RSS, categories and tags disabled for an easy start
@@ -57,9 +57,17 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
         url = "/privacy"
         weight = 2
 
+
+
+
 ############################
 ## Privacy
 ############################
+
+# Privacy pack
+#   Show a cookie consent message to visitors
+#   Anonymize IP in Google Analytics (if enabled)
+privacy_pack = false
 
 [privacy]
   [privacy.disqus]
