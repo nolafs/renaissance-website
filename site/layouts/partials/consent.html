@@ -248,3 +248,16 @@
         });
     })();
 </script>
+
+{{ range $index, $item := .Site.Data.gdpr.items }}
+{{ if $item.is_functional }}
+{{with $item.script_file}}
+<script type="text/javascript" src="/js/{{ . }}" async></script>
+{{end}}
+{{ end }}
+{{ end }}
+
+{{ "<!-- TRACKING -->" | safeHTML }}
+{{ partial "marketing/google-analytics-script.html" . }}
+{{ partial "marketing/google-tag-manager-script.html" . }}
+{{ "<!-- END TRACKING -->" | safeHTML }}
