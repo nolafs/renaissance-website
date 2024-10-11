@@ -1,5 +1,5 @@
 {{ if site.Params.marketing.google_tag_manager }}
-<!-- Google Tag Manager -->
+{{ "<!-- GOOGLE TAG MANAGER-->" | safeHTML }}
 <script>
  window.google = (active) => {
   window['ga-disable-{{$.Site.Config.Services.GoogleAnalytics.ID}}'] = active;
@@ -12,8 +12,6 @@
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','{{.Site.Params.marketing.google_tag_manager}}');
-
-
 </script>
-<!-- End Google Tag Manager -->
+{{ "<!-- END GOOGLE TAG MANAGER-->" | safeHTML }}
 {{ end }}

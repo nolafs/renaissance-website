@@ -106,6 +106,8 @@
             addScripts.forEach(function(value, key) {
                 //console.log('script'+key+' is set to ' +consentValue[key]+' and is file '+value);
 
+              console.log('script'+key+' is set to ' +consentValue[key]+' and is file '+value);
+
                 if (consentValue[key] == "1") {
 
                     if(value === 'ga.js') {
@@ -256,8 +258,3 @@
         {{end}}
     {{ end }}
 {{ end }}
-
-{{ "<!-- TRACKING -->" | safeHTML }}
-{{ partial "marketing/google-analytics-script.html" . }}
-{{ partial "marketing/google-tag-manager-script.html" . }}
-{{ "<!-- END TRACKING -->" | safeHTML }}
