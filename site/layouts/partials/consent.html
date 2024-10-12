@@ -146,6 +146,12 @@
 
                         gtag('js', new Date());
                         gtag('config', '{{$ga}}', {{$gtag_config | safeJS}});
+	                    gtag('consent', 'default', {
+		                    'ad_storage': 'denied',
+		                    'ad_user_data': 'denied',
+		                    'ad_personalization': 'denied',
+		                    'analytics_storage': 'granted'
+	                    });
                     }
 
                     if(value === 'facebook.js') {
