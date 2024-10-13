@@ -1,44 +1,23 @@
 {{ $ga := site.Config.Services.GoogleAnalytics.ID | default "" }}
-{{ $gtm := site.Config.Services.GoogleAnalytics.ID | default "" }}
 
 
 <script async src="https://www.googletagmanager.com/gtag/js?id={{$ga}}"></script>
 <script>
- // load Google Analytics.
- window.dataLayer = window.dataLayer || [];
- window['ga-disable-{{$.Site.Config.Services.GoogleAnalytics.ID}}'] = true;
- function gtag() {
-  dataLayer.push(arguments);
- }
+	window.dataLayer = window.dataLayer || [];
 
- function trackOutboundLink(url) {
-  gtag('event', 'click', {
-   'event_category': 'outbound',
-   'event_label': url,
-   'transport_type': 'beacon',
-   'event_callback': function () {
-    document.location = url;
-   }
-  });
-  console.debug("Outbound link clicked: " + url);
- }
+	function gtag() {
+		dataLayer.push(arguments);
+	}
 
- function onClickCallback(event) {
-  if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-   return;
-  }
-  trackOutboundLink(event.target);  // Send GA event.
- }
+		gtag('consent', 'default', {
+			'ad_storage': 'denied',
+			'ad_user_data': 'denied',
+			'ad_personalization': 'denied',
+			'analytics_storage': 'denied'
+		});
 
- gtag('js', new Date());
- gtag('config', '{{$ga}}');
- gtag('consent', 'default', {
-	 'ad_storage': 'denied',
-	 'ad_user_data': 'denied',
-	 'ad_personalization': 'denied',
-	 'analytics_storage': 'denied'
- });
 
- // Outbound link tracking.
- //document.addEventListener('click', onClickCallback, false);
+		gtag('js', new Date());
+
+	    gtag('config', '{{$ga}}');
 </script>
