@@ -105,6 +105,9 @@ clients:
     - company_url: https://store.steampowered.com/app/2157710/Hordes_of_Hunger/
       company: Hordes Of Hunger
       company_logo: /images/games/hordes-hug-web.jpg
+    - company: "Hot Wheels Monster Trucks: Stunt Mayhem"
+      company_url: https://store.steampowered.com/app/2468400/Hot_Wheels_Monster_Trucks_Stunt_Mayhem/
+      company_logo: /images/games/gm-monst.jpg
     - company: Infinity Nikki
       company_url: https://infinitynikki.infoldgames.com/en/home
       company_logo: /images/games/infinity-nikki.jpg
@@ -126,6 +129,9 @@ clients:
     - company: "Metal: Hellsinger"
       company_url: https://store.steampowered.com/app/1061910/Metal_Hellsinger/
       company_logo: /images/games/metal-hell.jpg
+    - company: "Miraculous: Rise Of The Sphinx"
+      company_url: https://store.steampowered.com/app/1740660/Miraculous_Rise_of_the_Sphinx/
+      company_logo: /images/games/gm-mirac.jpg
     - company_url: https://store.steampowered.com/app/1928980/Nightingale/
       company_logo: /images/games/nightingale.jpg
       company: Nightingale
@@ -147,6 +153,9 @@ clients:
     - company_url: https://store.steampowered.com/app/1507120/The_Spirit_of_the_Samurai/?curator_clanid=39269540
       company: Spirit Of The Samurai
       company_logo: /images/games/spirit-of-sam-web.jpg
+    - company: S.T.A.L.K.E.R. Legends Of The Zone Trilogy
+      company_logo: /images/games/stalk-switch.jpg
+      company_url: https://www.stalker-game.com/en
     - company: "S.T.A.L.K.E.R. 2: Heart of Chornobyl"
       company_url: https://store.steampowered.com/app/1643320/STALKER_2_Heart_of_Chornobyl/
       company_logo: /images/games/stalker-2-header.jpg
