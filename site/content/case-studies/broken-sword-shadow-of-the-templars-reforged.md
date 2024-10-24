@@ -9,20 +9,16 @@ description: Renaissance PR worked on the launch of Broken Sword SOTTR from
 ---
 Renaissance PR worked on the launch of Broken Sword SOTTR from Revolution Software on PC, PlayStation & Xbox.
 
-
-
 Campaign coverage in the first week since launch saw a total of **197 articles** with a combined reach of **698.4 million UVPM** with **64** of these being reviews.
 
-![](/images/case-studies/rev-1.png)
+{{< imageSize image="/images/case-studies/rev-1.png" align="left"  alt="rev1" width="888" height="473" processing="resize">}}
 
 Highlights included **IGN US/UK (100.3m), IGN (89.3m), GameRant (51.1m), iDNES.cz (43.7m), Vandal (24.3m) & The Gamer (20.8m)** to name just a few.
 
-![](/images/case-studies/rev-2.png)
+{{< imageSize image="/images/case-studies/rev-2.png" align="left"  alt="rev2" width="671" height="397" processing="resize">}}
 
 Renaissance also supported with organic content creators generating **227 pieces of content** from a subscriber base of **over 10.8 million**, resulting in **over 1.1 million views** at the time of writing.  
 
-
-
 This has been achieved towards an extremely curation of media and influencers and 2 bespoke events in York at Revolution office
 
-![](/images/case-studies/rev-3.png)
+{{< imageSize image="/images/case-studies/rev-3.png" align="left"  alt="rev3" width="641" height="496" processing="resize">}}
