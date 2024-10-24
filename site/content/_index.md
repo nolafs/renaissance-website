@@ -81,12 +81,6 @@ clients:
     - company: Conan Exiles
       company_url: https://store.steampowered.com/app/440900/Conan_Exiles/
       company_logo: /images/games/conan.jpg
-    - company: DeathSprint 66
-      company_logo: /images/games/ds66-v2.jpg
-      company_url: https://twitter.com/SumoDigitalLtd/status/1760635605690528242
-    - company: Delta Force
-      company_logo: /images/games/df-image-2.jpg
-      company_url: https://www.playdeltaforce.com/en/home.html
     - company: Den Of Wolves
       company_url: https://store.steampowered.com/app/1818140/Den_of_Wolves/
       company_logo: /images/games/den-of-wolves.jpg
@@ -126,24 +120,15 @@ clients:
     - company: "Kingdom Rush 5: Alliance"
       company_url: https://store.steampowered.com/app/2849080/Kingdom_Rush_5_Alliance_TD/
       company_logo: /images/games/krush-5.jpg
-    - company: Let's School
-      company_url: https://store.steampowered.com/app/1937500/Lets_School/
-      company_logo: /images/games/lets-school.jpg
     - company: Looney Tunes Wacky World Of Sports
       company_url: https://www.youtube.com/watch?v=IPVfbLZ4w8I
       company_logo: /images/games/looney-wacky.jpg
     - company: "Metal: Hellsinger"
       company_url: https://store.steampowered.com/app/1061910/Metal_Hellsinger/
       company_logo: /images/games/metal-hell.jpg
-    - company: My Time At Sandrock
-      company_url: https://store.steampowered.com/app/1084600/My_Time_at_Sandrock/
-      company_logo: /images/games/my-time.jpg
     - company_url: https://store.steampowered.com/app/1928980/Nightingale/
       company_logo: /images/games/nightingale.jpg
       company: Nightingale
-    - company: Parcel Corps
-      company_url: https://store.steampowered.com/app/2015960/Parcel_Corps/
-      company_logo: /images/games/parcel-corps.jpg
     - company: Path Of Exile
       company_url: https://store.steampowered.com/app/238960/Path_of_Exile/
       company_logo: /images/games/path-of-exile.jpg
@@ -153,39 +138,24 @@ clients:
     - company: PowerWash Simulator
       company_logo: /images/games/powerwash.jpg
       company_url: https://store.steampowered.com/app/1290000/PowerWash_Simulator/
-    - company: PUBG MOBILE
-      company_url: https://www.pubgmobile.com/en-US/home.shtml
-      company_logo: /images/games/pubg-mob.png
     - company: Revenge Of The Savage Planet
       company_url: https://store.steampowered.com/app/2787320/Revenge_of_the_Savage_Planet/
       company_logo: /images/games/rotsp-web.jpg
     - company: Reverse 1999
       company_logo: /images/games/reverse-1999.png
       company_url: https://re1999.bluepoch.com/
-    - company: Soulmask
-      company_url: https://store.steampowered.com/app/2646460/Soulmask/
-      company_logo: /images/games/soulmask.jpg
     - company_url: https://store.steampowered.com/app/1507120/The_Spirit_of_the_Samurai/?curator_clanid=39269540
       company: Spirit Of The Samurai
       company_logo: /images/games/spirit-of-sam-web.jpg
     - company: "S.T.A.L.K.E.R. 2: Heart of Chornobyl"
       company_url: https://store.steampowered.com/app/1643320/STALKER_2_Heart_of_Chornobyl/
       company_logo: /images/games/stalker-2-header.jpg
-    - company_url: https://store.steampowered.com/app/1851350/Stampede_Racing_Royale/
-      company_logo: /images/games/stampede-rr.jpg
-      company: Stampede Racing Royale
-    - company: "Teenage Mutant Ninja Turtles Arcade: Wrath Of The Mutants"
-      company_url: https://store.steampowered.com/app/2527580/Teenage_Mutant_Ninja_Turtles_Arcade_Wrath_of_the_Mutants/
-      company_logo: /images/games/tmnt.jpg
     - company: The Precinct
       company_url: https://store.steampowered.com/app/490110/The_Precinct/
       company_logo: /images/games/precinct-web.jpg
     - company: Voidwrought
       company_logo: /images/games/voidw-web.jpg
       company_url: https://store.steampowered.com/app/2014550/Voidwrought/?curator_clanid=39269540
-    - company_url: https://ylands.com/
-      company: Ylands
-      company_logo: /images/games/ylands.jpg
   clients_featured:
     - company: 10 Chambers
       company_logo: /images/clients/10-chambers-logo.png
@@ -241,18 +211,12 @@ clients:
     - company: Pathea
       company_url: https://pathea.net/
       company_logo: /images/clients/pathea.png
-    - company: Qooland Games
-      company_url: https://www.qoolandgames.com/
-      company_logo: /images/clients/qooland-logo.png
     - company: Raccoon Logic
       company_url: https://www.raccoonlogic.com/
       company_logo: /images/clients/raccoon-logic.png
     - company: Revolution
       company_url: https://revolution.co.uk/
       company_logo: /images/clients/revolution.png
-    - company: Secret Mode
-      company_logo: /images/clients/secret-mode.png
-      company_url: https://wearesecretmode.com/
     - company: Sharkmob
       company_url: https://www.sharkmob.com/
       company_logo: /images/clients/sharkmobtest.png
