@@ -117,9 +117,6 @@ clients:
     - company: "Karate Kid: Street Rumble"
       company_logo: /images/games/karate-kid.png
       company_url: https://www.youtube.com/watch?v=nf7Y1WUEHp0
-    - company: Kena
-      company_url: https://store.steampowered.com/app/1954200/Kena_Bridge_of_Spirits/
-      company_logo: /images/games/kena.jpg
     - company: "Kingdom Rush 5: Alliance"
       company_url: https://store.steampowered.com/app/2849080/Kingdom_Rush_5_Alliance_TD/
       company_logo: /images/games/krush-5.jpg
@@ -178,15 +175,9 @@ clients:
     - company: Antstream
       company_logo: /images/clients/antstream-logo_wide-black.png
       company_url: https://www.antstream.com/
-    - company: Bluepoch
-      company_logo: /images/clients/bluepoch-logo.png
-      company_url: https://www.bluepoch.com/
     - company: Bohemia Interactive
       company_url: https://www.bohemia.net/
       company_logo: /images/clients/bohemia.png
-    - company: Ember Lab
-      company_url: https://emberlab.com/
-      company_logo: /images/clients/company-logo_emberlab.png
     - company: Funcom
       company_url: www.funcom.com
       company_logo: /images/clients/funcom.png
@@ -217,15 +208,9 @@ clients:
     - company: Limit Break
       company_logo: /images/clients/lb_logo_full_lightmode_1200px.png
       company_url: https://www.limitbreak.co.uk/
-    - company: Pathea
-      company_url: https://pathea.net/
-      company_logo: /images/clients/pathea.png
     - company: Raccoon Logic
       company_url: https://www.raccoonlogic.com/
       company_logo: /images/clients/raccoon-logic.png
-    - company: Revolution
-      company_url: https://revolution.co.uk/
-      company_logo: /images/clients/revolution.png
     - company: Sharkmob
       company_url: https://www.sharkmob.com/
       company_logo: /images/clients/sharkmobtest.png
@@ -238,9 +223,6 @@ clients:
     - company: Uncapped Games
       company_url: https://uncappedgames.com/
       company_logo: /images/clients/uncap-1.png
-    - company_url: https://untoldgames.com/
-      company: Untold Games
-      company_logo: /images/clients/untold-games-logo.png
   heading: Our Current Clients
   productsheading: Latest Games
   productstext: Our Latest projects
