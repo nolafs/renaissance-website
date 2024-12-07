@@ -124,17 +124,17 @@ team:
         the community and fosters a sense of integrity and goodwill."
       image: /images/uploads/jb-bio.jpg
       position: " "
-    - name: Tom Copeland
+    - name: Megan Shandley
       text: >-
-        Tom is a well-seasoned industry freelancer with a decade of
-        communications experience at some of the UK’s top video game PR
-        agencies.
+        Megan joined Renaissance in 2024, bringing a background in PR and
+        marketing, as well as a stint as a content creator on Twitch.
 
 
+        She has had the pleasure of working on campaigns for titles such as The Sims 4, Payday 3, EA Sports FC 25, Dead Island 2, and System Shock, among others.
 
-        Throughout his career Tom has launched a wide and varied range of titles from AAA blockbusters from some of the world’s biggest publishers to award-winning indie games - and everything in between.
+        Megan combines her enthusiasm for PR, passion for games and enjoyment of collaboration in her role at Renaissance.
       position: " "
-      image: /images/uploads/tom-c-bio.jpg
+      image: /images/uploads/megan-web.jpg
     - name: Sam Faulkner
       position: " "
       image: /images/uploads/sam-web.png
