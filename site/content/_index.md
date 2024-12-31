@@ -66,18 +66,15 @@ clients:
     - company_url: https://www.antstream.com/
       company: Antstream Arcade
       company_logo: /images/games/ant-arc-1.jpg
-    - company: Assassins Creed Jade
-      company_url: https://www.assassinscreedjade.com/
-      company_logo: /images/games/acjade-v2.jpg
+    - company: ARMA Reforger
+      company_url: https://store.steampowered.com/app/1874880/Arma_Reforger/
+      company_logo: /images/games/arma-web.jpg
     - company: Battle Aces
       company_logo: /images/games/battle-ace-1.jpg
       company_url: https://store.steampowered.com/app/2682180/Battle_Aces/
     - company_url: https://store.steampowered.com/app/2544110/Broken_Sword__Shadow_of_the_Templars_Reforged/
       company_logo: /images/games/broke-ref-web.jpg
       company: Broken Sword - Shadow of the Templars Reforged
-    - company: City 20
-      company_url: https://store.steampowered.com/app/1597980/City_20/
-      company_logo: /images/games/city-20-steam.jpg
     - company: Conan Exiles
       company_url: https://store.steampowered.com/app/440900/Conan_Exiles/
       company_logo: /images/games/conan.jpg
@@ -126,12 +123,6 @@ clients:
     - company: "Metal: Hellsinger"
       company_url: https://store.steampowered.com/app/1061910/Metal_Hellsinger/
       company_logo: /images/games/metal-hell.jpg
-    - company: "Miraculous: Rise Of The Sphinx"
-      company_url: https://store.steampowered.com/app/1740660/Miraculous_Rise_of_the_Sphinx/
-      company_logo: /images/games/gm-mirac.jpg
-    - company_url: https://store.steampowered.com/app/1928980/Nightingale/
-      company_logo: /images/games/nightingale.jpg
-      company: Nightingale
     - company: Path Of Exile
       company_url: https://store.steampowered.com/app/238960/Path_of_Exile/
       company_logo: /images/games/path-of-exile.jpg
@@ -144,9 +135,9 @@ clients:
     - company: Revenge Of The Savage Planet
       company_url: https://store.steampowered.com/app/2787320/Revenge_of_the_Savage_Planet/
       company_logo: /images/games/rotsp-web.jpg
-    - company: Reverse 1999
-      company_logo: /images/games/reverse-1999.png
-      company_url: https://re1999.bluepoch.com/
+    - company: ROBOBEAT
+      company_url: https://store.steampowered.com/app/1456760/ROBOBEAT/
+      company_logo: /images/games/robobeat-web.jpg
     - company_url: https://store.steampowered.com/app/1507120/The_Spirit_of_the_Samurai/?curator_clanid=39269540
       company: Spirit Of The Samurai
       company_logo: /images/games/spirit-of-sam-web.jpg
