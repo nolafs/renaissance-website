@@ -1,6 +1,6 @@
 ---
 title: Infinity Nikki
-date: 2024-12-31T11:22:00.000Z
+date: 2024-12-05T09:00:00.000Z
 categories: worldwide-campaigns
 image: /images/case-studies/in-nik-web.jpg
 client: Infold Games
