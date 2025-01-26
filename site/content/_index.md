@@ -78,6 +78,9 @@ clients:
     - company: Conan Exiles
       company_url: https://store.steampowered.com/app/440900/Conan_Exiles/
       company_logo: /images/games/conan.jpg
+    - company: DayZ
+      company_url: https://store.steampowered.com/app/221100/DayZ/
+      company_logo: /images/games/dayz.jpg
     - company: Den Of Wolves
       company_url: https://store.steampowered.com/app/1818140/Den_of_Wolves/
       company_logo: /images/games/den-of-wolves.jpg
@@ -102,24 +105,18 @@ clients:
     - company_url: https://store.steampowered.com/app/2157710/Hordes_of_Hunger/
       company: Hordes Of Hunger
       company_logo: /images/games/hordes-hug-web.jpg
-    - company: "Hot Wheels Monster Trucks: Stunt Mayhem"
-      company_url: https://store.steampowered.com/app/2468400/Hot_Wheels_Monster_Trucks_Stunt_Mayhem/
-      company_logo: /images/games/gm-monst.jpg
     - company: Infinity Nikki
       company_url: https://infinitynikki.infoldgames.com/en/home
       company_logo: /images/games/infinity-nikki.jpg
     - company: In Sink
       company_url: https://store.steampowered.com/app/1858650/In_Sink/?curator_clanid=39269540
       company_logo: /images/games/in-sink-web.jpg
-    - company: "Karate Kid: Street Rumble"
-      company_logo: /images/games/karate-kid.png
-      company_url: https://www.youtube.com/watch?v=nf7Y1WUEHp0
     - company: "Kingdom Rush 5: Alliance"
       company_url: https://store.steampowered.com/app/2849080/Kingdom_Rush_5_Alliance_TD/
       company_logo: /images/games/krush-5.jpg
-    - company: Looney Tunes Wacky World Of Sports
-      company_url: https://www.youtube.com/watch?v=IPVfbLZ4w8I
-      company_logo: /images/games/looney-wacky.jpg
+    - company: Love & Deepspace
+      company_url: https://loveanddeepspace.infoldgames.com/en-EN/home
+      company_logo: /images/games/love-and-deepspace.png
     - company: "Metal: Hellsinger"
       company_url: https://store.steampowered.com/app/1061910/Metal_Hellsinger/
       company_logo: /images/games/metal-hell.jpg
@@ -129,15 +126,15 @@ clients:
     - company: Path Of Exile 2
       company_url: https://pathofexile2.com/
       company_logo: /images/games/poe-2-small.jpg
-    - company: PowerWash Simulator
-      company_logo: /images/games/powerwash.jpg
-      company_url: https://store.steampowered.com/app/1290000/PowerWash_Simulator/
     - company: Revenge Of The Savage Planet
       company_url: https://store.steampowered.com/app/2787320/Revenge_of_the_Savage_Planet/
       company_logo: /images/games/rotsp-web.jpg
     - company: ROBOBEAT
       company_url: https://store.steampowered.com/app/1456760/ROBOBEAT/
       company_logo: /images/games/robobeat-web.jpg
+    - company: SkyVerse
+      company_url: https://store.steampowered.com/app/2253100/SkyVerse/
+      company_logo: /images/games/skyverse.jpg
     - company_url: https://store.steampowered.com/app/1507120/The_Spirit_of_the_Samurai/?curator_clanid=39269540
       company: Spirit Of The Samurai
       company_logo: /images/games/spirit-of-sam-web.jpg
@@ -153,6 +150,9 @@ clients:
     - company: Voidwrought
       company_logo: /images/games/voidw-web.jpg
       company_url: https://store.steampowered.com/app/2014550/Voidwrought/?curator_clanid=39269540
+    - company: "Yasha: Legend of the Demon Blade"
+      company_url: https://store.steampowered.com/app/2169950/Yasha_Legends_of_the_Demon_Blade/
+      company_logo: /images/games/yasha.jpg
   clients_featured:
     - company: 3DClouds
       company_logo: /images/clients/3dc.png
