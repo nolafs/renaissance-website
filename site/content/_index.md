@@ -154,6 +154,9 @@ clients:
       company_logo: /images/games/voidw-web.jpg
       company_url: https://store.steampowered.com/app/2014550/Voidwrought/?curator_clanid=39269540
   clients_featured:
+    - company: 3DClouds
+      company_logo: /images/clients/3dc.png
+      company_url: https://www.3dclouds.it/
     - company: 10 Chambers
       company_logo: /images/clients/10-chambers-logo.png
       company_url: https://careers.10chambers.com/
@@ -172,12 +175,6 @@ clients:
     - company: Funcom
       company_url: www.funcom.com
       company_logo: /images/clients/funcom.png
-    - company: Futurlab
-      company_url: https://futurlab.co.uk/
-      company_logo: /images/clients/futurlab.png
-    - company: GameMill
-      company_url: https://gamemill.com/
-      company_logo: /images/clients/gamemill_entertainment.svg.png
     - company: gamescom
       company_logo: /images/clients/gamescom_log.png
       company_url: https://www.gamescom.global/en
@@ -187,6 +184,9 @@ clients:
     - company: GSC Game World
       company_url: https://www.gsc-game.com/
       company_logo: /images/clients/gsc_game_world.svg.png
+    - company: GSE
+      company_url: https://asia.hkgse.com/en
+      company_logo: /images/clients/gse_logo.png
     - company: Infold Games
       company_url: https://www.infoldgames.com/en/home
       company_logo: /images/clients/infold.png
@@ -199,6 +199,12 @@ clients:
     - company: Limit Break
       company_logo: /images/clients/lb_logo_full_lightmode_1200px.png
       company_url: https://www.limitbreak.co.uk/
+    - company: Lost In Cult
+      company_url: https://www.lostincult.co.uk/
+      company_logo: /images/clients/lic.png
+    - company: PM Studios
+      company_url: https://www.pm-studios.com/
+      company_logo: /images/clients/pm_logo_horizontal_b.png
     - company: Raccoon Logic
       company_url: https://www.raccoonlogic.com/
       company_logo: /images/clients/raccoon-logic.png
@@ -208,9 +214,6 @@ clients:
     - company: Tencent Games
       company_url: https://www.tencent.com/en-us/
       company_logo: /images/clients/tencent-games.png
-    - company: Timi Studios
-      company_url: https://www.timistudios.com/
-      company_logo: /images/clients/timi.png
     - company: Uncapped Games
       company_url: https://uncappedgames.com/
       company_logo: /images/clients/uncap-1.png
