@@ -57,9 +57,6 @@ services:
     src="https://player.vimeo.com/api/player.js"></script>
 clients:
   clients:
-    - company: Age Of Empires Mobile
-      company_url: https://aoemobile.com/
-      company_logo: /images/games/age-of-emp-mobile.png
     - company: Aloft
       company_url: https://store.steampowered.com/app/1660080/ALOFT/
       company_logo: /images/games/aloft-header.jpg
@@ -75,6 +72,9 @@ clients:
     - company_url: https://store.steampowered.com/app/2544110/Broken_Sword__Shadow_of_the_Templars_Reforged/
       company_logo: /images/games/broke-ref-web.jpg
       company: Broken Sword - Shadow of the Templars Reforged
+    - company_url: https://store.steampowered.com/app/2982340/ChromaGun_2_Dye_Hard/
+      company: "ChromaGun 2: Dye Hard"
+      company_logo: /images/games/chroma.jpg
     - company: Conan Exiles
       company_url: https://store.steampowered.com/app/440900/Conan_Exiles/
       company_logo: /images/games/conan.jpg
@@ -84,6 +84,9 @@ clients:
     - company: Den Of Wolves
       company_url: https://store.steampowered.com/app/1818140/Den_of_Wolves/
       company_logo: /images/games/den-of-wolves.jpg
+    - company_url: https://store.steampowered.com/app/2803280/Dragon_Is_Dead/
+      company: Dragon Is Dead
+      company_logo: /images/games/drag-is-de.jpg
     - company: Dune Awakening
       company_logo: /images/games/dune-awake-image.jpg
       company_url: https://store.steampowered.com/app/1172710/Dune_Awakening/
@@ -111,9 +114,6 @@ clients:
     - company: In Sink
       company_url: https://store.steampowered.com/app/1858650/In_Sink/?curator_clanid=39269540
       company_logo: /images/games/in-sink-web.jpg
-    - company: "Kingdom Rush 5: Alliance"
-      company_url: https://store.steampowered.com/app/2849080/Kingdom_Rush_5_Alliance_TD/
-      company_logo: /images/games/krush-5.jpg
     - company: Love & Deepspace
       company_url: https://loveanddeepspace.infoldgames.com/en-EN/home
       company_logo: /images/games/love-and-deepspace.png
@@ -126,6 +126,9 @@ clients:
     - company: Path Of Exile 2
       company_url: https://pathofexile2.com/
       company_logo: /images/games/poe-2-small.jpg
+    - company: Pipistrello & The Cursed Yoyo
+      company_url: https://store.steampowered.com/app/2870350/Pipistrello_and_the_Cursed_Yoyo/
+      company_logo: /images/games/pipistrello.jpg
     - company: Revenge Of The Savage Planet
       company_url: https://store.steampowered.com/app/2787320/Revenge_of_the_Savage_Planet/
       company_logo: /images/games/rotsp-web.jpg
@@ -153,6 +156,9 @@ clients:
     - company: "Yasha: Legend of the Demon Blade"
       company_url: https://store.steampowered.com/app/2169950/Yasha_Legends_of_the_Demon_Blade/
       company_logo: /images/games/yasha.jpg
+    - company: Yooka-Replaylee
+      company_url: https://store.steampowered.com/app/2448020/YookaReplaylee/
+      company_logo: /images/games/yooka.jpg
   clients_featured:
     - company: 3DClouds
       company_logo: /images/clients/3dc.png
