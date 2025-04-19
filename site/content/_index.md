@@ -202,6 +202,9 @@ clients:
     - company: Level Infinite
       company_url: https://www.levelinfinite.com/
       company_logo: /images/clients/li-logo.png
+    - company: Lilith Games
+      company_logo: /images/clients/lilith-games.png
+      company_url: https://www.lilith.com/?locale=en-US
     - company: Limit Break
       company_logo: /images/clients/lb_logo_full_lightmode_1200px.png
       company_url: https://www.limitbreak.co.uk/
@@ -220,9 +223,9 @@ clients:
     - company: Tencent Games
       company_url: https://www.tencent.com/en-us/
       company_logo: /images/clients/tencent-games.png
-    - company: Uncapped Games
-      company_url: https://uncappedgames.com/
-      company_logo: /images/clients/uncap-1.png
+    - company: Tiny Dragon Games
+      company_url: https://www.tinydragongames.com/
+      company_logo: /images/clients/tiny-dragon.png
   heading: Our Current Clients
   productsheading: Latest Games
   productstext: Our Latest projects
