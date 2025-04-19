@@ -147,6 +147,9 @@ clients:
     - company: ROBOBEAT
       company_url: https://store.steampowered.com/app/1456760/ROBOBEAT/
       company_logo: /images/games/robobeat-web.jpg
+    - company: Roshpit Champions 2
+      company_url: https://store.steampowered.com/app/2783670/Roshpit_Champions_2/
+      company_logo: /images/games/roshpit.jpg
     - company: SkyVerse
       company_url: https://store.steampowered.com/app/2253100/SkyVerse/
       company_logo: /images/games/skyverse.jpg
