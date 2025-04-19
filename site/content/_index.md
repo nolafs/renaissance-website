@@ -132,6 +132,9 @@ clients:
     - company: Pipistrello & The Cursed Yoyo
       company_url: https://store.steampowered.com/app/2870350/Pipistrello_and_the_Cursed_Yoyo/
       company_logo: /images/games/pipistrello.jpg
+    - company_url: https://store.steampowered.com/app/2949320/Ratatan/
+      company: Ratatan
+      company_logo: /images/games/ratatan.jpg
     - company: Revenge Of The Savage Planet
       company_url: https://store.steampowered.com/app/2787320/Revenge_of_the_Savage_Planet/
       company_logo: /images/games/rotsp-web.jpg
@@ -156,6 +159,9 @@ clients:
     - company: The Precinct
       company_url: https://store.steampowered.com/app/490110/The_Precinct/
       company_logo: /images/games/precinct-web.jpg
+    - company: Tridents Tale
+      company_url: https://store.steampowered.com/app/2541780/Tridents_Tale/
+      company_logo: /images/games/tridents.jpg
     - company: Voidwrought
       company_logo: /images/games/voidw-web.jpg
       company_url: https://store.steampowered.com/app/2014550/Voidwrought/?curator_clanid=39269540
