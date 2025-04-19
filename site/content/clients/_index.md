@@ -104,6 +104,9 @@ clients:
     - company: GSC Game World
       company_url: https://www.gsc-game.com/
       company_logo: /images/clients/gsc_game_world.svg.png
+    - company: GSE
+      company_url: https://www.gamesource-ent.com/en
+      company_logo: /images/clients/gse_logo.png
     - company: Happy Volcano
       company_url: https://www.happyvolcano.com/
       company_logo: /images/clients/happy-volcano.png
