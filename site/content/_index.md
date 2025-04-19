@@ -174,6 +174,9 @@ clients:
     - company: The Precinct
       company_url: https://store.steampowered.com/app/490110/The_Precinct/
       company_logo: /images/games/precinct-web.jpg
+    - company: Town to City
+      company_url: https://store.steampowered.com/app/3115220/Town_to_City/
+      company_logo: /images/games/town-to-city.jpg
     - company: Tridents Tale
       company_url: https://store.steampowered.com/app/2541780/Tridents_Tale/
       company_logo: /images/games/tridents.jpg
