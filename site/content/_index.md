@@ -69,6 +69,9 @@ clients:
     - company: ARMA Reforger
       company_url: https://store.steampowered.com/app/1874880/Arma_Reforger/
       company_logo: /images/games/arma-web.jpg
+    - company: Bandit Trap
+      company_logo: /images/games/bandit-trap.jpg
+      company_url: https://store.steampowered.com/app/2982360/Bandit_Trap/
     - company: Battle Aces
       company_logo: /images/games/battle-ace-1.jpg
       company_url: https://store.steampowered.com/app/2682180/Battle_Aces/
