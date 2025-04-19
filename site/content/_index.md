@@ -132,6 +132,9 @@ clients:
     - company: Pipistrello & The Cursed Yoyo
       company_url: https://store.steampowered.com/app/2870350/Pipistrello_and_the_Cursed_Yoyo/
       company_logo: /images/games/pipistrello.jpg
+    - company_url: https://store.steampowered.com/app/3100650/Quantum_Witch/
+      company_logo: /images/games/quantum-witch.jpg
+      company: Quantum Witch
     - company_url: https://store.steampowered.com/app/2949320/Ratatan/
       company: Ratatan
       company_logo: /images/games/ratatan.jpg
@@ -144,6 +147,9 @@ clients:
     - company: SkyVerse
       company_url: https://store.steampowered.com/app/2253100/SkyVerse/
       company_logo: /images/games/skyverse.jpg
+    - company: Space Chef
+      company_url: https://store.steampowered.com/app/1272290/Space_Chef/
+      company_logo: /images/games/space-chef.jpg
     - company_url: https://store.steampowered.com/app/1507120/The_Spirit_of_the_Samurai/?curator_clanid=39269540
       company: Spirit Of The Samurai
       company_logo: /images/games/spirit-of-sam-web.jpg
