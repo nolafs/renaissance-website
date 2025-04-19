@@ -57,6 +57,9 @@ services:
     src="https://player.vimeo.com/api/player.js"></script>
 clients:
   clients:
+    - company_url: https://afkjourney.farlightgames.com/official.html
+      company: AFK Journey
+      company_logo: /images/games/afk-journey.png
     - company: Aloft
       company_url: https://store.steampowered.com/app/1660080/ALOFT/
       company_logo: /images/games/aloft-header.jpg
@@ -69,9 +72,6 @@ clients:
     - company: Battle Aces
       company_logo: /images/games/battle-ace-1.jpg
       company_url: https://store.steampowered.com/app/2682180/Battle_Aces/
-    - company_url: https://store.steampowered.com/app/2544110/Broken_Sword__Shadow_of_the_Templars_Reforged/
-      company_logo: /images/games/broke-ref-web.jpg
-      company: Broken Sword - Shadow of the Templars Reforged
     - company_url: https://store.steampowered.com/app/2982340/ChromaGun_2_Dye_Hard/
       company: "ChromaGun 2: Dye Hard"
       company_logo: /images/games/chroma.jpg
@@ -81,6 +81,9 @@ clients:
     - company: DayZ
       company_url: https://store.steampowered.com/app/221100/DayZ/
       company_logo: /images/games/dayz.jpg
+    - company_url: https://store.steampowered.com/app/2507950/Delta_Force/
+      company: Delta Force
+      company_logo: /images/games/df-mob.jpg
     - company: Den Of Wolves
       company_url: https://store.steampowered.com/app/1818140/Den_of_Wolves/
       company_logo: /images/games/den-of-wolves.jpg
@@ -147,6 +150,9 @@ clients:
     - company: "S.T.A.L.K.E.R. 2: Heart of Chornobyl"
       company_url: https://store.steampowered.com/app/1643320/STALKER_2_Heart_of_Chornobyl/
       company_logo: /images/games/stalker-2-header.jpg
+    - company: Starsand Island
+      company_url: https://store.steampowered.com/app/2966320/Starsand_Island/
+      company_logo: /images/games/starsand.jpg
     - company: The Precinct
       company_url: https://store.steampowered.com/app/490110/The_Precinct/
       company_logo: /images/games/precinct-web.jpg
