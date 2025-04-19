@@ -146,6 +146,9 @@ clients:
     - company: Level Infinite
       company_url: https://www.levelinfinite.com/
       company_logo: /images/clients/li-logo.png
+    - company: Lilith Games
+      company_logo: /images/clients/lilith-games.png
+      company_url: https://www.lilith.com/?locale=en-US
     - company: LKA
       company_logo: /images/clients/client-lka.jpg
       company_url: http://lka.it/
@@ -272,6 +275,9 @@ clients:
     - company: Timi Studios
       company_url: https://www.timistudios.com/
       company_logo: /images/clients/timi.png
+    - company: Tiny Dragon Games
+      company_url: https://www.tinydragongames.com/
+      company_logo: /images/clients/tiny-dragon.png
     - company: Typhoon
       company_logo: /images/clients/client-typhoon.jpg
       company_url: http://typhoonstudios.com/
