@@ -102,6 +102,9 @@ clients:
     - company: GladiEATers
       company_logo: /images/games/gladieaters.jpg
       company_url: https://store.steampowered.com/app/2141280/GladiEATers/
+    - company: Golf Gambit
+      company_url: https://store.steampowered.com/app/2761350/Golf_Gambit/
+      company_logo: /images/games/golf-gam.jpg
     - company: Gordian Quest
       company_url: https://www.gamespress.com/nl/Gordian-on-the-Go-Revered-RPG-Gordian-Quest-to-Hit-iOS-Android-This-Wi
       company_logo: /images/games/gordian.jpg
