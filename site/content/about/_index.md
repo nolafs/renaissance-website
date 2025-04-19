@@ -99,18 +99,6 @@ team:
 
         Having spent time as a games journalist before landing in the world of games PR, Rebecca is an eternal optimist, her enthusiasm and love for games and the people that make them becoming the driving force behind the work she does.
       image: /images/uploads/rebecca-web2.jpg
-    - image: /images/uploads/andy-bio-v2.jpg
-      name: Andy Griffiths
-      position: " "
-      text: >
-        Former games journalist and active public relations and content creator
-        marketing specialist. 
-
-
-        Masterminded PR and marketing campaigns across all genres and platforms utilising all budget ranges from AAA to indie. Previous games launched include award-winning MMORPG Guild Wars 2, free-to-play family-focused building game Robocraft and first-party exclusive Robocraft Infinity. 
-
-
-        Over the past decade Andy has launched over 200 titles with both domestic and international publishers and developers.
     - name: James Bartholomeou
       text: "As a seasoned communications specialist dedicated to the dynamic
         intersection of public relations and video games, James seamlessly
@@ -147,6 +135,18 @@ team:
 
 
         Sam is most proud of his work as Publishing Producer for Larian Studios and looks back with particular fondness on working on Baldur’s Gate 3 during Early Access. Leaving Larian in mid 2022, Sam became an independent consultant, working with indies, publishers and PR firms and has been working with Renaissance since late 2022.
+    - image: /images/uploads/andy-bio-v2.jpg
+      name: Andy Griffiths
+      position: " "
+      text: >
+        Former games journalist and active public relations and content creator
+        marketing specialist. 
+
+
+        Masterminded PR and marketing campaigns across all genres and platforms utilising all budget ranges from AAA to indie. Previous games launched include award-winning MMORPG Guild Wars 2, free-to-play family-focused building game Robocraft and first-party exclusive Robocraft Infinity. 
+
+
+        Over the past decade Andy has launched over 200 titles with both domestic and international publishers and developers.
     - name: Matthew Taylor
       text: "Matthew Taylor has been working in PR and marketing since graduating with
         a History Degree in 2013. In 2019, he joined Renaissance as his first
@@ -174,16 +174,6 @@ team:
 
         TL;DR - Writer, Content Creator & Podcaster with a SEVERE passion for gaming joined Renaissance in 2020.
       image: /images/uploads/candice-bio-v2.png
-    - name: Bella Shane
-      position: " "
-      text: >-
-        Bella joined Renaissance PR in 2023 as it was the perfect place to learn
-        strategy and utilize her love for the fast paced world of gaming and the
-        factual world of research that she loves so much. 
-
-
-        Before joining, Bella helped people research all manner of details and enjoyed quite a bit of time fact-checking for editors, analysts and ghostwriters. Not wanting to hand over her research towards clients that she felt weren't giving the best service with her data, she looked towards becoming more hands on in an industry she already widely respected and had loved from a young age.
-      image: /images/uploads/bella-bio.jpg
     - name: Thomas Hughes
       text: >-
         With close to a decade of marketing experience across B2C and B2B
@@ -197,6 +187,16 @@ team:
         Thomas joined Renaissance in late 2023.
       position: " "
       image: /images/uploads/thomas-bio-v2.png
+    - name: Bella Shane
+      position: " "
+      text: >-
+        Bella joined Renaissance PR in 2023 as it was the perfect place to learn
+        strategy and utilize her love for the fast paced world of gaming and the
+        factual world of research that she loves so much. 
+
+
+        Before joining, Bella helped people research all manner of details and enjoyed quite a bit of time fact-checking for editors, analysts and ghostwriters. Not wanting to hand over her research towards clients that she felt weren't giving the best service with her data, she looked towards becoming more hands on in an industry she already widely respected and had loved from a young age.
+      image: /images/uploads/bella-bio.jpg
   text: >
     Renaissance is built around a core team of contributing consultants who
     collectively have more than 50 years’ experience across the games industry;
