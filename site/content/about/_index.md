@@ -78,6 +78,22 @@ team:
 
         With over 10 years’ experience in both B2C & B2B PR, her gaming PR portfolio spans PC, console & mobile titles, as well as corporate communications that includes projects for titles such as Baldur’s Gate 3, Disco Elysium & The Ascent.
       image: /images/uploads/sophie-bio-v2.jpg
+    - name: Jessica Timms
+      position: Head of Operations & Business Development North America
+      text: >-
+        Jessica has worked in the video game industry for over 12 years,
+        beginning as a journalist before transitioning into PR. Her career has
+        spanned AAA blockbusters, breakout indie titles, and a wide range of
+        tabletop games, with experience leading cross-functional campaigns that
+        go beyond PR to include influencer relations, paid media, content
+        marketing, and corporate communications.
+
+
+        As a former agency director, Jessica is passionate about mentorship and accessibility, having developed numerous internal training programs for PR newcomers and educational lectures tailored for game developers at institutions like the USC Games Program.
+
+
+        In over a decade, Jessica has launched and managed over 180 titles and transmedia projects with standout clients including Atari, Bungie, Nightdive Studios, Modiphius, Owlcat Games, Free League Publishing, Lilith Games, Jagex, Tencent, Voidmod, and Dread XP. Jessica has also supported crucial industry entities such as The AbleGamers Foundation, MobyGames, Operation Supply Drop, and others.
+      image: /images/uploads/jess-head-shot.jpg
     - image: /images/uploads/keith-bio-v2.png
       name: Keith Andrew
       position: " "
