@@ -167,6 +167,9 @@ clients:
     - company: My.Games
       company_url: https://my.games/
       company_logo: /images/clients/my.games-store.png
+    - company: Mythwright
+      company_logo: /images/clients/mythwright-logo.png
+      company_url: https://mythwright.com/
     - company: Netease
       company_url: https://www.neteasegames.com/
       company_logo: /images/clients/untitled.png
@@ -254,6 +257,9 @@ clients:
     - company: Square Enix Collective
       company_logo: /images/clients/client-squareenixcollective.jpg
       company_url: https://collective.square-enix.com/
+    - company: Starbreeze
+      company_url: https://www.starbreeze.com/
+      company_logo: /images/clients/starbreeze.png
     - company: Storm in a Teacup
       company_logo: /images/clients/client-storminateacup.jpg
       company_url: http://www.stcware.com/
