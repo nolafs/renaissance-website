@@ -57,6 +57,9 @@ services:
     src="https://player.vimeo.com/api/player.js"></script>
 clients:
   clients:
+    - company_url: https://store.steampowered.com/app/2348250/13Z_The_Zodiac_Trials/
+      company: "13Z: The Zodiac Trials"
+      company_logo: /images/games/13z-web.jpg
     - company_url: https://afkjourney.farlightgames.com/official.html
       company: AFK Journey
       company_logo: /images/games/afk-journey.png
@@ -69,12 +72,12 @@ clients:
     - company: ARMA Reforger
       company_url: https://store.steampowered.com/app/1874880/Arma_Reforger/
       company_logo: /images/games/arma-web.jpg
+    - company: Back To The Dawn
+      company_url: https://store.steampowered.com/app/1735700/Back_to_the_Dawn/
+      company_logo: /images/games/back-to-dawn.jpg
     - company: Bandit Trap
       company_logo: /images/games/bandit-trap.jpg
       company_url: https://store.steampowered.com/app/2982360/Bandit_Trap/
-    - company: Battle Aces
-      company_logo: /images/games/battle-ace-1.jpg
-      company_url: https://store.steampowered.com/app/2682180/Battle_Aces/
     - company_url: https://store.steampowered.com/app/2982340/ChromaGun_2_Dye_Hard/
       company: "ChromaGun 2: Dye Hard"
       company_logo: /images/games/chroma.jpg
@@ -108,9 +111,6 @@ clients:
     - company: Golf Gambit
       company_url: https://store.steampowered.com/app/2761350/Golf_Gambit/
       company_logo: /images/games/golf-gam.jpg
-    - company: Gordian Quest
-      company_url: https://www.gamespress.com/nl/Gordian-on-the-Go-Revered-RPG-Gordian-Quest-to-Hit-iOS-Android-This-Wi
-      company_logo: /images/games/gordian.jpg
     - company_url: https://www.honorofkings.com/global-en/
       company: Honor Of Kings
       company_logo: /images/games/hok-image.jpg
@@ -129,6 +129,9 @@ clients:
     - company: "Metal: Hellsinger"
       company_url: https://store.steampowered.com/app/1061910/Metal_Hellsinger/
       company_logo: /images/games/metal-hell.jpg
+    - company: Out Of Sight
+      company_url: https://store.steampowered.com/app/2526310/Out_of_Sight/
+      company_logo: /images/games/out-of-sight-web.jpg
     - company: Path Of Exile
       company_url: https://store.steampowered.com/app/238960/Path_of_Exile/
       company_logo: /images/games/path-of-exile.jpg
@@ -174,6 +177,9 @@ clients:
     - company: The Precinct
       company_url: https://store.steampowered.com/app/490110/The_Precinct/
       company_logo: /images/games/precinct-web.jpg
+    - company: The Signal
+      company_url: https://store.steampowered.com/app/1830110/THE_SIGNAL/
+      company_logo: /images/games/the-signal-web.jpg
     - company: Town to City
       company_url: https://store.steampowered.com/app/3115220/Town_to_City/
       company_logo: /images/games/town-to-city.jpg
@@ -196,9 +202,6 @@ clients:
     - company: 10 Chambers
       company_logo: /images/clients/10-chambers-logo.png
       company_url: https://careers.10chambers.com/
-    - company: Aether Sky
-      company_url: https://aethersky.com/
-      company_logo: /images/clients/aether.png
     - company: Amazon Kids+
       company_url: http://amazon.co.uk/forkids
       company_logo: /images/clients/amazon-kids-logo.png
@@ -250,6 +253,12 @@ clients:
     - company: Sharkmob
       company_url: https://www.sharkmob.com/
       company_logo: /images/clients/sharkmobtest.png
+    - company: Spiral Up Games
+      company_url: https://www.spiralupgames.com/
+      company_logo: /images/clients/spiral-up-games.png
+    - company: Starbreeze
+      company_url: https://www.starbreeze.com/
+      company_logo: /images/clients/starbreeze.png
     - company: Tencent Games
       company_url: https://www.tencent.com/en-us/
       company_logo: /images/clients/tencent-games.png
