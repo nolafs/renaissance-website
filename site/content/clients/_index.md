@@ -152,6 +152,9 @@ clients:
     - company: Lilith Games
       company_logo: /images/clients/lilith-games.png
       company_url: https://www.lilith.com/?locale=en-US
+    - company: Limit Break
+      company_logo: /images/clients/lb_logo_full_lightmode_1200px.png
+      company_url: https://www.limitbreak.co.uk/
     - company: LKA
       company_logo: /images/clients/client-lka.jpg
       company_url: http://lka.it/
