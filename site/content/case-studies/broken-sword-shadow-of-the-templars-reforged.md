@@ -1,5 +1,5 @@
 ---
-title: Broken Sword Shadow Of The Templars Reforged
+title: Broken Sword Shadow Of Templars Reforged
 date: 2024-09-21T14:00:00.000Z
 categories: worldwide-campaigns
 image: /images/case-studies/rev-main.png
