@@ -254,6 +254,9 @@ clients:
     - company: SNK
       company_url: https://www.snk-corp.co.jp/us/
       company_logo: /images/clients/snkwebsite.png
+    - company: Spiral Up Games
+      company_url: https://www.spiralupgames.com/
+      company_logo: /images/clients/spiral-up-games.png
     - company: Square Enix Collective
       company_logo: /images/clients/client-squareenixcollective.jpg
       company_url: https://collective.square-enix.com/
