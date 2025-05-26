@@ -155,6 +155,9 @@ clients:
     - company: LKA
       company_logo: /images/clients/client-lka.jpg
       company_url: http://lka.it/
+    - company: Lost In Cult
+      company_url: https://www.lostincult.co.uk/
+      company_logo: /images/clients/lic.png
     - company: Maze Theory
       company_logo: /images/clients/maze-theory.png
       company_url: https://www.maze-theory.com/
