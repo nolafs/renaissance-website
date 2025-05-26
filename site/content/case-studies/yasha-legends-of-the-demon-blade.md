@@ -1,6 +1,6 @@
 ---
 title: "Yasha: Legends Of The Demon Blade"
-date: 2025-05-13T14:08:00.000Z
+date: 2025-05-12T12:00:00.000Z
 categories: worldwide-campaigns
 image: /images/case-studies/yasha-chw.png
 client: GSE
