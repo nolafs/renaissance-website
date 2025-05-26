@@ -214,6 +214,9 @@ clients:
     - company: Funcom
       company_url: www.funcom.com
       company_logo: /images/clients/funcom.png
+    - company: GameMill
+      company_url: https://gamemill.com/
+      company_logo: /images/clients/gamemill_entertainment.svg.png
     - company: gamescom
       company_logo: /images/clients/gamescom_log.png
       company_url: https://www.gamescom.global/en
@@ -244,6 +247,9 @@ clients:
     - company: Lost In Cult
       company_url: https://www.lostincult.co.uk/
       company_logo: /images/clients/lic.png
+    - company: Mythwright
+      company_url: https://mythwright.com/
+      company_logo: /images/clients/mythwright-logo.png
     - company: PM Studios
       company_url: https://www.pm-studios.com/
       company_logo: /images/clients/pm_logo_horizontal_b.png
