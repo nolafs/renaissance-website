@@ -2,7 +2,7 @@
 title: Revenge Of The Savage Planet
 date: 2025-05-08T13:35:00.000Z
 categories: worldwide-campaigns
-image: /images/case-studies/rotsp-chw.jpg
+image: /images/case-studies/picture29.png
 client: Raccoon Logic
 description: Renaissance was the Global Communication Agency for PR, media &
   content creators, delivering a 12-month strategy & activation from the game's
