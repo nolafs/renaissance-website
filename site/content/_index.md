@@ -268,6 +268,9 @@ clients:
     - company: Tencent Games
       company_url: https://www.tencent.com/en-us/
       company_logo: /images/clients/tencent-games.png
+    - company: The Game Business
+      company_url: https://www.thegamebusiness.com/
+      company_logo: /images/clients/logotype_black.png
     - company: Tiny Dragon Games
       company_url: https://www.tinydragongames.com/
       company_logo: /images/clients/tiny-dragon.png
