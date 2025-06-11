@@ -287,6 +287,9 @@ clients:
     - company: ThatGameCompany
       company_url: https://thatgamecompany.com/
       company_logo: /images/clients/thatgamcompany2.png
+    - company: The Game Business
+      company_url: https://www.thegamebusiness.com/
+      company_logo: /images/clients/logotype_black.png
     - company: Thumb Food
       company_logo: /images/clients/client-thumbfood.jpg
       company_url: https://www.thumbfood.com/
