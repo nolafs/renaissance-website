@@ -2,7 +2,7 @@
 title: Xbox Retro Classics
 date: 2025-05-22T12:00:00.000Z
 categories: worldwide-campaigns
-image: /images/case-studies/xbant-main-v2.png
+image: /images/case-studies/xbox-retro-main.jpg
 client: Antstream
 description: Renaissance PR worked on the launch of Xbox Retro Classics a
   collaboration between Antstream Arcade & Xbox supporting them with PR &
