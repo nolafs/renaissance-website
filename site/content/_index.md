@@ -93,9 +93,6 @@ clients:
     - company: Den Of Wolves
       company_url: https://store.steampowered.com/app/1818140/Den_of_Wolves/
       company_logo: /images/games/den-of-wolves.jpg
-    - company_url: https://store.steampowered.com/app/2803280/Dragon_Is_Dead/
-      company: Dragon Is Dead
-      company_logo: /images/games/drag-is-de.jpg
     - company: Dune Awakening
       company_logo: /images/games/dune-awake-image.jpg
       company_url: https://store.steampowered.com/app/1172710/Dune_Awakening/
@@ -105,33 +102,33 @@ clients:
     - company: Exoborne
       company_logo: /images/games/exoborne.jpg
       company_url: https://store.steampowered.com/app/2705130/Exoborne/
-    - company: GladiEATers
-      company_logo: /images/games/gladieaters.jpg
-      company_url: https://store.steampowered.com/app/2141280/GladiEATers/
-    - company: Golf Gambit
-      company_url: https://store.steampowered.com/app/2761350/Golf_Gambit/
-      company_logo: /images/games/golf-gam.jpg
+    - company: Formula Legends
+      company_url: https://store.steampowered.com/app/3194360/Formula_Legends/
+      company_logo: /images/games/formleg.jpg
+    - company: "Goosebumps: Terror in Little Creek"
+      company_url: https://store.steampowered.com/app/3080510/Goosebumps_Terror_in_Little_Creek/
+      company_logo: /images/games/goose.jpg
+    - company: Ground Of Aces
+      company_url: https://store.steampowered.com/app/2308690/Ground_of_Aces/
+      company_logo: /images/games/goa.jpg
     - company_url: https://www.honorofkings.com/global-en/
       company: Honor Of Kings
       company_logo: /images/games/hok-image.jpg
-    - company_url: https://store.steampowered.com/app/2157710/Hordes_of_Hunger/
-      company: Hordes Of Hunger
-      company_logo: /images/games/hordes-hug-web.jpg
+    - company: Honor Of Kings World
+      company_url: https://honorofkingsworld.com/en/index.html
+      company_logo: /images/games/hokw.jpg
     - company: Infinity Nikki
       company_url: https://infinitynikki.infoldgames.com/en/home
       company_logo: /images/games/infinity-nikki.jpg
-    - company: In Sink
-      company_url: https://store.steampowered.com/app/1858650/In_Sink/?curator_clanid=39269540
-      company_logo: /images/games/in-sink-web.jpg
     - company: Love & Deepspace
       company_url: https://loveanddeepspace.infoldgames.com/en-EN/home
       company_logo: /images/games/love-and-deepspace.png
     - company: "Metal: Hellsinger"
       company_url: https://store.steampowered.com/app/1061910/Metal_Hellsinger/
       company_logo: /images/games/metal-hell.jpg
-    - company: Out Of Sight
-      company_url: https://store.steampowered.com/app/2526310/Out_of_Sight/
-      company_logo: /images/games/out-of-sight-web.jpg
+    - company_url: https://store.steampowered.com/app/3051490/Nicktoons__The_Dice_of_Destiny/?curator_clanid=43051037
+      company_logo: /images/games/nick.jpg
+      company: Nicktoons & The Dice of Destiny
     - company: Path Of Exile
       company_url: https://store.steampowered.com/app/238960/Path_of_Exile/
       company_logo: /images/games/path-of-exile.jpg
@@ -147,24 +144,15 @@ clients:
     - company_url: https://store.steampowered.com/app/2949320/Ratatan/
       company: Ratatan
       company_logo: /images/games/ratatan.jpg
-    - company: Revenge Of The Savage Planet
-      company_url: https://store.steampowered.com/app/2787320/Revenge_of_the_Savage_Planet/
-      company_logo: /images/games/rotsp-web.jpg
-    - company: ROBOBEAT
-      company_url: https://store.steampowered.com/app/1456760/ROBOBEAT/
-      company_logo: /images/games/robobeat-web.jpg
     - company: Roshpit Champions 2
       company_url: https://store.steampowered.com/app/2783670/Roshpit_Champions_2/
       company_logo: /images/games/roshpit.jpg
+    - company: Skopje '83
+      company_url: https://store.steampowered.com/app/1211980/Skopje_83/
+      company_logo: /images/games/skop.jpg
     - company: SkyVerse
       company_url: https://store.steampowered.com/app/2253100/SkyVerse/
       company_logo: /images/games/skyverse.jpg
-    - company: Space Chef
-      company_url: https://store.steampowered.com/app/1272290/Space_Chef/
-      company_logo: /images/games/space-chef.jpg
-    - company_url: https://store.steampowered.com/app/1507120/The_Spirit_of_the_Samurai/?curator_clanid=39269540
-      company: Spirit Of The Samurai
-      company_logo: /images/games/spirit-of-sam-web.jpg
     - company: S.T.A.L.K.E.R. Legends Of The Zone Trilogy
       company_logo: /images/games/stalk-switch.jpg
       company_url: https://www.stalker-game.com/en
@@ -174,27 +162,24 @@ clients:
     - company: Starsand Island
       company_url: https://store.steampowered.com/app/2966320/Starsand_Island/
       company_logo: /images/games/starsand.jpg
-    - company: The Precinct
-      company_url: https://store.steampowered.com/app/490110/The_Precinct/
-      company_logo: /images/games/precinct-web.jpg
     - company: The Signal
       company_url: https://store.steampowered.com/app/1830110/THE_SIGNAL/
       company_logo: /images/games/the-signal-web.jpg
-    - company: Town to City
-      company_url: https://store.steampowered.com/app/3115220/Town_to_City/
-      company_logo: /images/games/town-to-city.jpg
     - company: Tridents Tale
       company_url: https://store.steampowered.com/app/2541780/Tridents_Tale/
       company_logo: /images/games/tridents.jpg
-    - company: Voidwrought
-      company_logo: /images/games/voidw-web.jpg
-      company_url: https://store.steampowered.com/app/2014550/Voidwrought/?curator_clanid=39269540
+    - company: "WUCHANG: Fallen Feathers"
+      company_url: https://store.steampowered.com/app/2277560/WUCHANG_Fallen_Feathers/
+      company_logo: /images/games/wuch.jpg
     - company: "Yasha: Legend of the Demon Blade"
       company_url: https://store.steampowered.com/app/2169950/Yasha_Legends_of_the_Demon_Blade/
       company_logo: /images/games/yasha.jpg
     - company: Yooka-Replaylee
       company_url: https://store.steampowered.com/app/2448020/YookaReplaylee/
       company_logo: /images/games/yooka.jpg
+    - company: ZOE Begone!
+      company_url: https://store.steampowered.com/app/1266610/ZOE_Begone/
+      company_logo: /images/games/zoe.jpg
   clients_featured:
     - company: 3DClouds
       company_logo: /images/clients/3dc.png
@@ -202,12 +187,18 @@ clients:
     - company: 10 Chambers
       company_logo: /images/clients/10-chambers-logo.png
       company_url: https://careers.10chambers.com/
+    - company: 505 Games
+      company_url: https://505games.com/
+      company_logo: /images/clients/505_games_logo.svg
     - company: Amazon Kids+
       company_url: http://amazon.co.uk/forkids
       company_logo: /images/clients/amazon-kids-logo.png
     - company: Antstream
       company_logo: /images/clients/antstream-logo_wide-black.png
       company_url: https://www.antstream.com/
+    - company: Blindflug Studios
+      company_url: https://www.blindflugstudios.com/our-games
+      company_logo: /images/clients/blindflug.png
     - company: Bohemia Interactive
       company_url: https://www.bohemia.net/
       company_logo: /images/clients/bohemia.png
@@ -232,9 +223,6 @@ clients:
     - company: Infold Games
       company_url: https://www.infoldgames.com/en/home
       company_logo: /images/clients/infold.png
-    - company: Kwalee
-      company_url: https://www.kwalee.com/
-      company_logo: /images/clients/kwalee.png
     - company: Level Infinite
       company_url: https://www.levelinfinite.com/
       company_logo: /images/clients/li-logo.png
@@ -247,33 +235,21 @@ clients:
     - company: Lost In Cult
       company_url: https://www.lostincult.co.uk/
       company_logo: /images/clients/lic.png
-    - company: Mythwright
-      company_url: https://mythwright.com/
-      company_logo: /images/clients/mythwright-logo.png
     - company: PM Studios
       company_url: https://www.pm-studios.com/
       company_logo: /images/clients/pm_logo_horizontal_b.png
-    - company: Raccoon Logic
-      company_url: https://www.raccoonlogic.com/
-      company_logo: /images/clients/raccoon-logic.png
     - company: Sharkmob
       company_url: https://www.sharkmob.com/
       company_logo: /images/clients/sharkmobtest.png
     - company: Spiral Up Games
       company_url: https://www.spiralupgames.com/
       company_logo: /images/clients/spiral-up-games.png
-    - company: Starbreeze
-      company_url: https://www.starbreeze.com/
-      company_logo: /images/clients/starbreeze.png
     - company: Tencent Games
       company_url: https://www.tencent.com/en-us/
       company_logo: /images/clients/tencent-games.png
-    - company: The Game Business
-      company_url: https://www.thegamebusiness.com/
-      company_logo: /images/clients/logotype_black.png
-    - company: Tiny Dragon Games
-      company_url: https://www.tinydragongames.com/
-      company_logo: /images/clients/tiny-dragon.png
+    - company: Timi Studios
+      company_url: https://www.timistudios.com/
+      company_logo: /images/clients/timi.png
   heading: Our Current Clients
   productsheading: Latest Games
   productstext: Our Latest projects
