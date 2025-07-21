@@ -38,6 +38,9 @@ clients:
     - company: Billy Goat Entertainment
       company_logo: /images/clients/client-billygoat.jpg
       company_url: https://www.billygoat.tv/
+    - company: Blindflug Studios
+      company_logo: /images/clients/blindflug.png
+      company_url: https://www.blindflugstudios.com/
     - company: Bluepoch
       company_url: https://www.bluepoch.com/
       company_logo: /images/clients/bluepoch-logo.png
