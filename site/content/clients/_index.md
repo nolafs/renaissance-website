@@ -98,6 +98,9 @@ clients:
     - company: Goose Byte
       company_url: https://www.goosebyte.games/
       company_logo: /images/clients/goose-byte.jpg
+    - company: Grasshopper Manufacture
+      company_url: https://www.grasshopper.co.jp/en/
+      company_logo: /images/clients/grasshopper.png
     - company: Green Man Gaming
       company_logo: /images/clients/client-greenman.jpg
       company_url: https://www.greenmangaming.com/
@@ -191,6 +194,9 @@ clients:
     - company: Payload Studios
       company_url: https://payloadstudios.com/
       company_logo: /images/clients/payloadlogo_badge_no_gradient-scaled.png
+    - company_url: https://www.perfectworld.com/
+      company_logo: /images/clients/logo-perfect-world-games_640.png
+      company: Perfect World
     - company: Perp Games
       company_url: https://perpgames.com/
       company_logo: /images/clients/perp.png
