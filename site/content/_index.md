@@ -211,6 +211,9 @@ clients:
     - company: gamescom
       company_logo: /images/clients/gamescom_log.png
       company_url: https://www.gamescom.global/en
+    - company: Grasshopper Manufacture
+      company_url: https://www.grasshopper.co.jp/en/
+      company_logo: /images/clients/grasshopper.png
     - company: Grinding Gear Games
       company_logo: /images/clients/ggg-logo.png
       company_url: https://www.grindinggear.com/
@@ -235,6 +238,9 @@ clients:
     - company: Lost In Cult
       company_url: https://www.lostincult.co.uk/
       company_logo: /images/clients/lic.png
+    - company: Perfect World
+      company_logo: /images/clients/logo-perfect-world-games_640.png
+      company_url: https://www.perfectworld.com/
     - company: PM Studios
       company_url: https://www.pm-studios.com/
       company_logo: /images/clients/pm_logo_horizontal_b.png
