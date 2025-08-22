@@ -117,6 +117,9 @@ clients:
     - company: Honor Of Kings World
       company_url: https://honorofkingsworld.com/en/index.html
       company_logo: /images/games/hokw.jpg
+    - company: "Hot Wheels Let's Race™: Ultimate Speed"
+      company_logo: /images/games/hwlr.jpg
+      company_url: https://store.steampowered.com/app/3040910/Hot_Wheels_Lets_Race_Ultimate_Speed/?curator_clanid=43051037
     - company: Infinity Nikki
       company_url: https://infinitynikki.infoldgames.com/en/home
       company_logo: /images/games/infinity-nikki.jpg
