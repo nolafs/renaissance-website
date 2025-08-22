@@ -138,6 +138,9 @@ clients:
     - company: Pipistrello & The Cursed Yoyo
       company_url: https://store.steampowered.com/app/2870350/Pipistrello_and_the_Cursed_Yoyo/
       company_logo: /images/games/pipistrello.jpg
+    - company_url: https://www.youtube.com/watch?v=o4cso5zprZk
+      company: Project Spectrum
+      company_logo: /images/games/pro-spec.jpg
     - company_url: https://store.steampowered.com/app/3100650/Quantum_Witch/
       company_logo: /images/games/quantum-witch.jpg
       company: Quantum Witch
