@@ -126,6 +126,9 @@ clients:
     - company: "Metal: Hellsinger"
       company_url: https://store.steampowered.com/app/1061910/Metal_Hellsinger/
       company_logo: /images/games/metal-hell.jpg
+    - company_url: https://nte.perfectworld.com/en/
+      company: Neverness to Everness
+      company_logo: /images/games/nte.jpg
     - company_url: https://store.steampowered.com/app/3051490/Nicktoons__The_Dice_of_Destiny/?curator_clanid=43051037
       company_logo: /images/games/nick.jpg
       company: Nicktoons & The Dice of Destiny
