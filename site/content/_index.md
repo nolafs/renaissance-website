@@ -99,12 +99,21 @@ clients:
     - company: Dune Spice Wars
       company_url: https://store.steampowered.com/app/1605220/Dune_Spice_Wars/
       company_logo: /images/games/dune-spice.jpg
+    - company_url: https://store.steampowered.com/app/3008130/Dying_Light_The_Beast/
+      company_logo: /images/games/dltb.jpg
+      company: "Dying Light: The Beast"
     - company: Exoborne
       company_logo: /images/games/exoborne.jpg
       company_url: https://store.steampowered.com/app/2705130/Exoborne/
+    - company: Extremely Powerful Capybaras
+      company_logo: /images/games/epc.jpg
+      company_url: https://store.steampowered.com/app/2089980/Extremely_Powerful_Capybaras/
     - company: "Fast & Furious: Arcade Edition"
       company_url: https://gamemill.com/games/fast-furious-arcade-edition/
       company_logo: /images/games/fastandfur.png
+    - company: Fate Trigger
+      company_url: https://store.steampowered.com/app/3092530/Fate_Trigger/
+      company_logo: /images/games/fate.jpg
     - company: Formula Legends
       company_url: https://store.steampowered.com/app/3194360/Formula_Legends/
       company_logo: /images/games/formleg.jpg
