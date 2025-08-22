@@ -156,6 +156,9 @@ clients:
     - company: Roshpit Champions 2
       company_url: https://store.steampowered.com/app/2783670/Roshpit_Champions_2/
       company_logo: /images/games/roshpit.jpg
+    - company: Rudolph the Red-Nosed Reindeer
+      company_logo: /images/games/rudolph.jpg
+      company_url: https://store.steampowered.com/app/3527810/Rudolph_the_RedNosed_Reindeer/?curator_clanid=43051037
     - company: Skopje '83
       company_url: https://store.steampowered.com/app/1211980/Skopje_83/
       company_logo: /images/games/skop.jpg
