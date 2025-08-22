@@ -159,6 +159,9 @@ clients:
     - company: SkyVerse
       company_url: https://store.steampowered.com/app/2253100/SkyVerse/
       company_logo: /images/games/skyverse.jpg
+    - company: Snoopy & The Great Mystery Club
+      company_url: https://store.steampowered.com/app/3328180/Snoopy__The_Great_Mystery_Club/?curator_clanid=43051037
+      company_logo: /images/games/snoop.jpg
     - company: S.T.A.L.K.E.R. Legends Of The Zone Trilogy
       company_logo: /images/games/stalk-switch.jpg
       company_url: https://www.stalker-game.com/en
