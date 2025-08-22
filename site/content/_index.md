@@ -102,6 +102,9 @@ clients:
     - company: Exoborne
       company_logo: /images/games/exoborne.jpg
       company_url: https://store.steampowered.com/app/2705130/Exoborne/
+    - company: "Fast & Furious: Arcade Edition"
+      company_url: https://gamemill.com/games/fast-furious-arcade-edition/
+      company_logo: /images/games/fastandfur.png
     - company: Formula Legends
       company_url: https://store.steampowered.com/app/3194360/Formula_Legends/
       company_logo: /images/games/formleg.jpg
