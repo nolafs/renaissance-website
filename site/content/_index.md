@@ -165,6 +165,9 @@ clients:
     - company_url: https://store.steampowered.com/app/2949320/Ratatan/
       company: Ratatan
       company_logo: /images/games/ratatan.jpg
+    - company: Romeo Is A Dead Man
+      company_url: https://store.steampowered.com/app/3050900/ROMEO_IS_A_DEAD_MAN/
+      company_logo: /images/games/riadm.jpg
     - company: Roshpit Champions 2
       company_url: https://store.steampowered.com/app/2783670/Roshpit_Champions_2/
       company_logo: /images/games/roshpit.jpg
