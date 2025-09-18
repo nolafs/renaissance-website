@@ -120,9 +120,6 @@ clients:
     - company: "Goosebumps: Terror in Little Creek"
       company_url: https://store.steampowered.com/app/3080510/Goosebumps_Terror_in_Little_Creek/
       company_logo: /images/games/goose.jpg
-    - company: Ground Of Aces
-      company_url: https://store.steampowered.com/app/2308690/Ground_of_Aces/
-      company_logo: /images/games/goa.jpg
     - company_url: https://www.honorofkings.com/global-en/
       company: Honor Of Kings
       company_logo: /images/games/hok-image.jpg
@@ -159,9 +156,6 @@ clients:
     - company_url: https://www.youtube.com/watch?v=o4cso5zprZk
       company: Project Spectrum
       company_logo: /images/games/pro-spec.jpg
-    - company_url: https://store.steampowered.com/app/3100650/Quantum_Witch/
-      company_logo: /images/games/quantum-witch.jpg
-      company: Quantum Witch
     - company_url: https://store.steampowered.com/app/2949320/Ratatan/
       company: Ratatan
       company_logo: /images/games/ratatan.jpg
@@ -195,9 +189,6 @@ clients:
     - company: The Signal
       company_url: https://store.steampowered.com/app/1830110/THE_SIGNAL/
       company_logo: /images/games/the-signal-web.jpg
-    - company: Tridents Tale
-      company_url: https://store.steampowered.com/app/2541780/Tridents_Tale/
-      company_logo: /images/games/tridents.jpg
     - company: "WUCHANG: Fallen Feathers"
       company_url: https://store.steampowered.com/app/2277560/WUCHANG_Fallen_Feathers/
       company_logo: /images/games/wuch.jpg
@@ -226,9 +217,6 @@ clients:
     - company: Antstream
       company_logo: /images/clients/antstream-logo_wide-black.png
       company_url: https://www.antstream.com/
-    - company: Blindflug Studios
-      company_url: https://www.blindflugstudios.com/our-games
-      company_logo: /images/clients/blindflug.png
     - company: Bohemia Interactive
       company_url: https://www.bohemia.net/
       company_logo: /images/clients/bohemia.png
@@ -265,9 +253,6 @@ clients:
     - company: Limit Break
       company_logo: /images/clients/lb_logo_full_lightmode_1200px.png
       company_url: https://www.limitbreak.co.uk/
-    - company: Lost In Cult
-      company_url: https://www.lostincult.co.uk/
-      company_logo: /images/clients/lic.png
     - company: Perfect World
       company_logo: /images/clients/logo-perfect-world-games_640.png
       company_url: https://www.perfectworld.com/
