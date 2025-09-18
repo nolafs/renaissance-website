@@ -292,7 +292,7 @@ clients:
   slider_num: "12"
   text: Since our inception in 2015 we've been fortunate to work with a wide array
     of different clients, from Indie to AAA we can service your needs.
-testimonial: Stuart Dinsey
+testimonial: Aaron Deng
 contact:
   heading: Got a project? Let’s work together!
   text: Since our inception in 2015 we've been fortunate to work with a wide array
