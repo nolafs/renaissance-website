@@ -87,12 +87,12 @@ clients:
     - company: DayZ
       company_url: https://store.steampowered.com/app/221100/DayZ/
       company_logo: /images/games/dayz.jpg
-    - company_url: https://store.steampowered.com/app/2507950/Delta_Force/
-      company: Delta Force
-      company_logo: /images/games/df-mob.jpg
     - company: Den Of Wolves
       company_url: https://store.steampowered.com/app/1818140/Den_of_Wolves/
       company_logo: /images/games/den-of-wolves.jpg
+    - company: Dice Of Arcana
+      company_url: https://store.steampowered.com/app/2935130/Dice_of_Arcana/
+      company_logo: /images/games/dice.jpg
     - company: Dune Awakening
       company_logo: /images/games/dune-awake-image.jpg
       company_url: https://store.steampowered.com/app/1172710/Dune_Awakening/
@@ -138,9 +138,6 @@ clients:
     - company: "Metal: Hellsinger"
       company_url: https://store.steampowered.com/app/1061910/Metal_Hellsinger/
       company_logo: /images/games/metal-hell.jpg
-    - company_url: https://nte.perfectworld.com/en/
-      company: Neverness to Everness
-      company_logo: /images/games/nte.jpg
     - company_url: https://store.steampowered.com/app/3051490/Nicktoons__The_Dice_of_Destiny/?curator_clanid=43051037
       company_logo: /images/games/nick.jpg
       company: Nicktoons & The Dice of Destiny
