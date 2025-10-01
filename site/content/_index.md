@@ -268,6 +268,9 @@ clients:
     - company: Sharkmob
       company_url: https://www.sharkmob.com/
       company_logo: /images/clients/sharkmobtest.png
+    - company: Shoreline Games
+      company_url: https://shorelinegames.com/
+      company_logo: /images/clients/company-logo_shoreline-games.png
     - company: Spiral Up Games
       company_url: https://www.spiralupgames.com/
       company_logo: /images/clients/spiral-up-games.png
