@@ -253,6 +253,9 @@ clients:
     - company: Limit Break
       company_logo: /images/clients/lb_logo_full_lightmode_1200px.png
       company_url: https://www.limitbreak.co.uk/
+    - company: Parco Games
+      company_url: https://games.parco.jp/
+      company_logo: /images/clients/main_parcogames_logo_1.0_250630_ol.png
     - company: Perfect World
       company_logo: /images/clients/logo-perfect-world-games_640.png
       company_url: https://www.perfectworld.com/
