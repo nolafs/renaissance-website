@@ -263,6 +263,9 @@ clients:
     - company: Sharkmob
       company_url: https://www.sharkmob.com/
       company_logo: /images/clients/sharkmobtest.png
+    - company_url: https://shorelinegames.com/
+      company_logo: /images/clients/company-logo_shoreline-games.png
+      company: Shoreline Games
     - company: Skybound Games
       company_logo: /images/clients/client-skyboundgames.jpg
       company_url: https://www.skybound.com
