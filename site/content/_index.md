@@ -171,6 +171,9 @@ clients:
     - company: Rudolph the Red-Nosed Reindeer
       company_logo: /images/games/rudolph.jpg
       company_url: https://store.steampowered.com/app/3527810/Rudolph_the_RedNosed_Reindeer/?curator_clanid=43051037
+    - company: Sanatorium
+      company_url: https://store.steampowered.com/app/2059090/Sanatorium__A_Mental_Asylum_Simulator/
+      company_logo: /images/games/sanat.jpg
     - company: Skopje '83
       company_url: https://store.steampowered.com/app/1211980/Skopje_83/
       company_logo: /images/games/skop.jpg
