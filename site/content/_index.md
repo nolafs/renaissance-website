@@ -144,6 +144,9 @@ clients:
     - company_url: https://store.steampowered.com/app/3051490/Nicktoons__The_Dice_of_Destiny/?curator_clanid=43051037
       company_logo: /images/games/nick.jpg
       company: Nicktoons & The Dice of Destiny
+    - company: Nova Antarctica
+      company_url: https://store.steampowered.com/app/2054310/Nova_Antarctica/
+      company_logo: /images/games/nova.jpg
     - company: Path Of Exile
       company_url: https://store.steampowered.com/app/238960/Path_of_Exile/
       company_logo: /images/games/path-of-exile.jpg
