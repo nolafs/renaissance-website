@@ -188,6 +188,9 @@ clients:
     - company: Nighthawk Interactive
       company_url: https://www.nighthawkinteractive.com/
       company_logo: /images/clients/nighthawk.png
+    - company_url: https://games.parco.jp/
+      company_logo: /images/clients/main_parcogames_logo_1.0_250630_ol.png
+      company: Parco Games
     - company: Pathea
       company_logo: /images/clients/pathea.png
       company_url: https://pathea.net/
