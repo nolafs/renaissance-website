@@ -2,7 +2,7 @@
 title: Ethical Communications for <span> the Games Industry.</span>
 header:
   image: /images/hero/home-hero-790px.jpg
-  video: TavJWikS9SQ
+  video: 4Cqd0YM5DLU
   video_active: true
 twitter: false
 tweet: |-
