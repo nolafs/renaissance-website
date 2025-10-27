@@ -57,9 +57,6 @@ services:
     src="https://player.vimeo.com/api/player.js"></script>
 clients:
   clients:
-    - company_url: https://store.steampowered.com/app/2348250/13Z_The_Zodiac_Trials/
-      company: "13Z: The Zodiac Trials"
-      company_logo: /images/games/13z-web.jpg
     - company_url: https://afkjourney.farlightgames.com/official.html
       company: AFK Journey
       company_logo: /images/games/afk-journey.png
@@ -72,9 +69,6 @@ clients:
     - company: ARMA Reforger
       company_url: https://store.steampowered.com/app/1874880/Arma_Reforger/
       company_logo: /images/games/arma-web.jpg
-    - company: Back To The Dawn
-      company_url: https://store.steampowered.com/app/1735700/Back_to_the_Dawn/
-      company_logo: /images/games/back-to-dawn.jpg
     - company: Bandit Trap
       company_logo: /images/games/bandit-trap.jpg
       company_url: https://store.steampowered.com/app/2982360/Bandit_Trap/
@@ -111,9 +105,6 @@ clients:
     - company: "Fast & Furious: Arcade Edition"
       company_url: https://gamemill.com/games/fast-furious-arcade-edition/
       company_logo: /images/games/fastandfur.png
-    - company: Fate Trigger
-      company_url: https://store.steampowered.com/app/3092530/Fate_Trigger/
-      company_logo: /images/games/fate.jpg
     - company: Formula Legends
       company_url: https://store.steampowered.com/app/3194360/Formula_Legends/
       company_logo: /images/games/formleg.jpg
@@ -123,9 +114,6 @@ clients:
     - company_url: https://www.honorofkings.com/global-en/
       company: Honor Of Kings
       company_logo: /images/games/hok-image.jpg
-    - company: Honor Of Kings World
-      company_url: https://honorofkingsworld.com/en/index.html
-      company_logo: /images/games/hokw.jpg
     - company: "Hot Wheels Let's Race™: Ultimate Speed"
       company_logo: /images/games/hwlr.jpg
       company_url: https://store.steampowered.com/app/3040910/Hot_Wheels_Lets_Race_Ultimate_Speed/?curator_clanid=43051037
@@ -153,15 +141,9 @@ clients:
     - company: Pipistrello & The Cursed Yoyo
       company_url: https://store.steampowered.com/app/2870350/Pipistrello_and_the_Cursed_Yoyo/
       company_logo: /images/games/pipistrello.jpg
-    - company_url: https://www.youtube.com/watch?v=o4cso5zprZk
-      company: Project Spectrum
-      company_logo: /images/games/pro-spec.jpg
     - company_url: https://store.steampowered.com/app/2949320/Ratatan/
       company: Ratatan
       company_logo: /images/games/ratatan.jpg
-    - company: Romeo Is A Dead Man
-      company_url: https://store.steampowered.com/app/3050900/ROMEO_IS_A_DEAD_MAN/
-      company_logo: /images/games/riadm.jpg
     - company: Roshpit Champions 2
       company_url: https://store.steampowered.com/app/2783670/Roshpit_Champions_2/
       company_logo: /images/games/roshpit.jpg
@@ -189,15 +171,6 @@ clients:
     - company: Starsand Island
       company_url: https://store.steampowered.com/app/2966320/Starsand_Island/
       company_logo: /images/games/starsand.jpg
-    - company: The Signal
-      company_url: https://store.steampowered.com/app/1830110/THE_SIGNAL/
-      company_logo: /images/games/the-signal-web.jpg
-    - company: "WUCHANG: Fallen Feathers"
-      company_url: https://store.steampowered.com/app/2277560/WUCHANG_Fallen_Feathers/
-      company_logo: /images/games/wuch.jpg
-    - company: "Yasha: Legend of the Demon Blade"
-      company_url: https://store.steampowered.com/app/2169950/Yasha_Legends_of_the_Demon_Blade/
-      company_logo: /images/games/yasha.jpg
     - company: Yooka-Replaylee
       company_url: https://store.steampowered.com/app/2448020/YookaReplaylee/
       company_logo: /images/games/yooka.jpg
@@ -211,9 +184,6 @@ clients:
     - company: 10 Chambers
       company_logo: /images/clients/10-chambers-logo.png
       company_url: https://careers.10chambers.com/
-    - company: 505 Games
-      company_url: https://505games.com/
-      company_logo: /images/clients/505_games_logo.svg
     - company: Amazon Kids+
       company_url: http://amazon.co.uk/forkids
       company_logo: /images/clients/amazon-kids-logo.png
@@ -232,9 +202,6 @@ clients:
     - company: gamescom
       company_logo: /images/clients/gamescom_log.png
       company_url: https://www.gamescom.global/en
-    - company: Grasshopper Manufacture
-      company_url: https://www.grasshopper.co.jp/en/
-      company_logo: /images/clients/grasshopper.png
     - company: Grinding Gear Games
       company_logo: /images/clients/ggg-logo.png
       company_url: https://www.grindinggear.com/
@@ -259,9 +226,6 @@ clients:
     - company: Parco Games
       company_url: https://games.parco.jp/
       company_logo: /images/clients/main_parcogames_logo_1.0_250630_ol.png
-    - company: Perfect World
-      company_logo: /images/clients/logo-perfect-world-games_640.png
-      company_url: https://www.perfectworld.com/
     - company: PM Studios
       company_url: https://www.pm-studios.com/
       company_logo: /images/clients/pm_logo_horizontal_b.png
@@ -271,15 +235,9 @@ clients:
     - company: Shoreline Games
       company_url: https://shorelinegames.com/
       company_logo: /images/clients/company-logo_shoreline-games.png
-    - company: Spiral Up Games
-      company_url: https://www.spiralupgames.com/
-      company_logo: /images/clients/spiral-up-games.png
     - company: Tencent Games
       company_url: https://www.tencent.com/en-us/
       company_logo: /images/clients/tencent-games.png
-    - company: Timi Studios
-      company_url: https://www.timistudios.com/
-      company_logo: /images/clients/timi.png
   heading: Our Current Clients
   productsheading: Latest Games
   productstext: Our Latest projects
