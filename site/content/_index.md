@@ -205,6 +205,9 @@ clients:
     - company: Grinding Gear Games
       company_logo: /images/clients/ggg-logo.png
       company_url: https://www.grindinggear.com/
+    - company: Grip Studios
+      company_url: https://grip-studios.com/
+      company_logo: /images/clients/grip_studios_black.png
     - company: GSC Game World
       company_url: https://www.gsc-game.com/
       company_logo: /images/clients/gsc_game_world.svg.png
@@ -226,6 +229,9 @@ clients:
     - company: Parco Games
       company_url: https://games.parco.jp/
       company_logo: /images/clients/main_parcogames_logo_1.0_250630_ol.png
+    - company: Pathea
+      company_url: https://pathea.net/
+      company_logo: /images/clients/pathea.png
     - company: PM Studios
       company_url: https://www.pm-studios.com/
       company_logo: /images/clients/pm_logo_horizontal_b.png
