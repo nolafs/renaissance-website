@@ -1,5 +1,5 @@
 ---
-title: "Wuchang: Fallen FEathers"
+title: "Wuchang: Fallen Feathers"
 date: 2025-07-24T12:00:00.000Z
 categories: worldwide-campaigns
 image: /images/case-studies/wcweb.jpg
