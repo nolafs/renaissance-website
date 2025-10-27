@@ -117,6 +117,9 @@ clients:
     - company: "Hot Wheels Let's Race™: Ultimate Speed"
       company_logo: /images/games/hwlr.jpg
       company_url: https://store.steampowered.com/app/3040910/Hot_Wheels_Lets_Race_Ultimate_Speed/?curator_clanid=43051037
+    - company: "Icarus: Console Edition "
+      company_url: https://store.playstation.com/en-gb/concept/10013354/
+      company_logo: /images/games/icaweb.jpg
     - company: Infinity Nikki
       company_url: https://infinitynikki.infoldgames.com/en/home
       company_logo: /images/games/infinity-nikki.jpg
