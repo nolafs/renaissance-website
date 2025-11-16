@@ -106,6 +106,19 @@ team:
 
         With over 10 years’ experience in both B2C & B2B PR, her gaming PR portfolio spans PC, console & mobile titles, as well as corporate communications that includes projects for titles such as Baldur’s Gate 3, Disco Elysium & The Ascent.
       image: /images/uploads/sophie-bio-v2.jpg
+    - name: Jon Wilcox
+      position: " "
+      text: >-
+        Jon is a highly experienced communications professional, with over 20
+        years across journalism & public relations who joined Renaissance in
+        2025.
+
+
+        During his career, he has worked on one of the biggest & most beloved names in online gaming, RuneScape & led the PR team at Team17 for more than four years, during which time they helped launch more than 30 indie titles, including Blasphemous, DREDGE, Hell Let Loose, Yooka-Laylee & The Impossible Lair, and Overcooked! All You Can Eat. 
+
+
+        Most recently, he headed up communications & events at CI Games, where he helped launch multiple titles including Lords of the Fallen in 2023. 
+      image: /images/uploads/jon-w-web.jpg
     - image: /images/uploads/keith-bio-v2.png
       name: Keith Andrew
       position: " "
