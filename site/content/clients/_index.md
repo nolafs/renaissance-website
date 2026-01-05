@@ -56,6 +56,9 @@ clients:
     - company: ChillyRoom
       company_logo: /images/clients/chilly.png
       company_url: https://www.chillyroom.com/en
+    - company: Cognition Europe
+      company_url: https://cognition.eu.com/
+      company_logo: /images/clients/cognitioneurope_logo_black_small.jpg
     - company: Curve Games
       company_logo: /images/clients/curve.png
       company_url: https://curvegames.com/
@@ -71,6 +74,9 @@ clients:
     - company: Edgecase
       company_logo: /images/clients/client-edgecase.jpg
       company_url: http://www.edgecasegames.net/
+    - company: Eldelic Games
+      company_logo: /images/clients/eldelic-games-logo-vector-2.svg
+      company_url: https://www.eldelic.com/
     - company: Ember Lab
       company_logo: /images/clients/company-logo_emberlab.png
       company_url: https://emberlab.com/
@@ -134,6 +140,9 @@ clients:
     - company: Jackbox Games
       company_logo: /images/clients/jackbox.png
       company_url: https://www.jackboxgames.com/
+    - company: Jagex
+      company_logo: /images/clients/jagex.avif
+      company_url: https://www.jagex.com/
     - company: Joystick Ventures
       company_logo: /images/clients/jvlogo.png
       company_url: https://www.joystickventures.com/
@@ -173,6 +182,9 @@ clients:
     - company: Milestone
       company_logo: /images/clients/client-milestone.jpg
       company_url: http://milestone.it/
+    - company: Mintrocket
+      company_logo: /images/clients/mintrocket.png
+      company_url: https://www.mintrock.et/en/
     - company: Mixed Bag
       company_logo: /images/clients/client-mixedbag.jpg
       company_url: https://mixedbag.it/
