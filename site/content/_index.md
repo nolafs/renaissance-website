@@ -69,12 +69,6 @@ clients:
     - company: ARMA Reforger
       company_url: https://store.steampowered.com/app/1874880/Arma_Reforger/
       company_logo: /images/games/arma-web.jpg
-    - company: Bandit Trap
-      company_logo: /images/games/bandit-trap.jpg
-      company_url: https://store.steampowered.com/app/2982360/Bandit_Trap/
-    - company_url: https://store.steampowered.com/app/2982340/ChromaGun_2_Dye_Hard/
-      company: "ChromaGun 2: Dye Hard"
-      company_logo: /images/games/chroma.jpg
     - company: Conan Exiles
       company_url: https://store.steampowered.com/app/440900/Conan_Exiles/
       company_logo: /images/games/conan.jpg
@@ -84,9 +78,6 @@ clients:
     - company: Den Of Wolves
       company_url: https://store.steampowered.com/app/1818140/Den_of_Wolves/
       company_logo: /images/games/den-of-wolves.jpg
-    - company: Dice Of Arcana
-      company_url: https://store.steampowered.com/app/2935130/Dice_of_Arcana/
-      company_logo: /images/games/dice.jpg
     - company: Dune Awakening
       company_logo: /images/games/dune-awake-image.jpg
       company_url: https://store.steampowered.com/app/1172710/Dune_Awakening/
@@ -99,9 +90,6 @@ clients:
     - company: Exoborne
       company_logo: /images/games/exoborne.jpg
       company_url: https://store.steampowered.com/app/2705130/Exoborne/
-    - company: Extremely Powerful Capybaras
-      company_logo: /images/games/epc.jpg
-      company_url: https://store.steampowered.com/app/2089980/Extremely_Powerful_Capybaras/
     - company: "Fast & Furious: Arcade Edition"
       company_url: https://gamemill.com/games/fast-furious-arcade-edition/
       company_logo: /images/games/fastandfur.png
@@ -141,24 +129,15 @@ clients:
     - company: Path Of Exile 2
       company_url: https://pathofexile2.com/
       company_logo: /images/games/poe-2-small.jpg
-    - company: Pipistrello & The Cursed Yoyo
-      company_url: https://store.steampowered.com/app/2870350/Pipistrello_and_the_Cursed_Yoyo/
-      company_logo: /images/games/pipistrello.jpg
     - company_url: https://store.steampowered.com/app/2949320/Ratatan/
       company: Ratatan
       company_logo: /images/games/ratatan.jpg
-    - company: Roshpit Champions 2
-      company_url: https://store.steampowered.com/app/2783670/Roshpit_Champions_2/
-      company_logo: /images/games/roshpit.jpg
     - company: Rudolph the Red-Nosed Reindeer
       company_logo: /images/games/rudolph.jpg
       company_url: https://store.steampowered.com/app/3527810/Rudolph_the_RedNosed_Reindeer/?curator_clanid=43051037
     - company: Sanatorium
       company_url: https://store.steampowered.com/app/2059090/Sanatorium__A_Mental_Asylum_Simulator/
       company_logo: /images/games/sanat.jpg
-    - company: Skopje '83
-      company_url: https://store.steampowered.com/app/1211980/Skopje_83/
-      company_logo: /images/games/skop.jpg
     - company: SkyVerse
       company_url: https://store.steampowered.com/app/2253100/SkyVerse/
       company_logo: /images/games/skyverse.jpg
@@ -174,12 +153,6 @@ clients:
     - company: Starsand Island
       company_url: https://store.steampowered.com/app/2966320/Starsand_Island/
       company_logo: /images/games/starsand.jpg
-    - company: Yooka-Replaylee
-      company_url: https://store.steampowered.com/app/2448020/YookaReplaylee/
-      company_logo: /images/games/yooka.jpg
-    - company: ZOE Begone!
-      company_url: https://store.steampowered.com/app/1266610/ZOE_Begone/
-      company_logo: /images/games/zoe.jpg
   clients_featured:
     - company: 3DClouds
       company_logo: /images/clients/3dc.png
@@ -235,9 +208,6 @@ clients:
     - company: Pathea
       company_url: https://pathea.net/
       company_logo: /images/clients/pathea.png
-    - company: PM Studios
-      company_url: https://www.pm-studios.com/
-      company_logo: /images/clients/pm_logo_horizontal_b.png
     - company: Sharkmob
       company_url: https://www.sharkmob.com/
       company_logo: /images/clients/sharkmobtest.png
