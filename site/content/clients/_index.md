@@ -113,6 +113,9 @@ clients:
     - company: Grinding Gear Games
       company_url: https://www.grindinggear.com/
       company_logo: /images/clients/ggg-logo.png
+    - company: Grip Studios
+      company_logo: /images/clients/grip_studios_black.png
+      company_url: https://grip-studios.com/
     - company: GSC Game World
       company_url: https://www.gsc-game.com/
       company_logo: /images/clients/gsc_game_world.svg.png
