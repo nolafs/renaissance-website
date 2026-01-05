@@ -169,6 +169,15 @@ clients:
     - company: Bohemia Interactive
       company_url: https://www.bohemia.net/
       company_logo: /images/clients/bohemia.png
+    - company: Cognition Europe
+      company_logo: /images/clients/cognitioneurope_logo_black_small.jpg
+      company_url: https://cognition.eu.com/
+    - company: Curve Games
+      company_url: https://curvegames.com/
+      company_logo: /images/clients/curve-games-logo.png
+    - company: Eldelic Games
+      company_url: https://www.eldelic.com/
+      company_logo: /images/clients/eldelic-games-logo-vector-2.svg
     - company: Funcom
       company_url: www.funcom.com
       company_logo: /images/clients/funcom.png
@@ -193,6 +202,9 @@ clients:
     - company: Infold Games
       company_url: https://www.infoldgames.com/en/home
       company_logo: /images/clients/infold.png
+    - company: Jagex
+      company_url: https://www.jagex.com/
+      company_logo: /images/clients/jagex.avif
     - company: Level Infinite
       company_url: https://www.levelinfinite.com/
       company_logo: /images/clients/li-logo.png
@@ -202,6 +214,9 @@ clients:
     - company: Limit Break
       company_logo: /images/clients/lb_logo_full_lightmode_1200px.png
       company_url: https://www.limitbreak.co.uk/
+    - company: Mintrocket
+      company_logo: /images/clients/mintrocket.png
+      company_url: https://www.mintrock.et/en/
     - company: Parco Games
       company_url: https://games.parco.jp/
       company_logo: /images/clients/main_parcogames_logo_1.0_250630_ol.png
