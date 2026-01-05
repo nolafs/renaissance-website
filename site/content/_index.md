@@ -5,9 +5,7 @@ header:
   video: 4Cqd0YM5DLU
   video_active: true
 twitter: false
-tweet: |-
-  Make sure you're ready for a lil' something special coming in the form of 
-  [@PineHeartsGame](https://twitter.com/pineheartsgame)
+tweet: "[](https://twitter.com/pineheartsgame)"
 services:
   heading: How can we help your business?
   services_list:
@@ -187,6 +185,9 @@ clients:
     - company: gamescom
       company_logo: /images/clients/gamescom_log.png
       company_url: https://www.gamescom.global/en
+    - company: Grasshopper Manufacture
+      company_logo: /images/clients/grasshopper.png
+      company_url: https://www.grasshopper.co.jp/en/
     - company: Grinding Gear Games
       company_logo: /images/clients/ggg-logo.png
       company_url: https://www.grindinggear.com/
