@@ -85,6 +85,9 @@ clients:
     - company_url: https://store.steampowered.com/app/3008130/Dying_Light_The_Beast/
       company_logo: /images/games/dltb.jpg
       company: "Dying Light: The Beast"
+    - company: Everwind
+      company_logo: /images/games/everwind-website.jpg
+      company_url: https://store.steampowered.com/app/2253100/Everwind/
     - company: Exoborne
       company_logo: /images/games/exoborne.jpg
       company_url: https://store.steampowered.com/app/2705130/Exoborne/
@@ -145,9 +148,6 @@ clients:
     - company: Sanatorium
       company_url: https://store.steampowered.com/app/2059090/Sanatorium__A_Mental_Asylum_Simulator/
       company_logo: /images/games/sanat.jpg
-    - company: SkyVerse
-      company_url: https://store.steampowered.com/app/2253100/SkyVerse/
-      company_logo: /images/games/skyverse.jpg
     - company: Snoopy & The Great Mystery Club
       company_url: https://store.steampowered.com/app/3328180/Snoopy__The_Great_Mystery_Club/?curator_clanid=43051037
       company_logo: /images/games/snoop.jpg
