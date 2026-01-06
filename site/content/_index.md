@@ -136,9 +136,6 @@ clients:
     - company: Nova Antarctica
       company_url: https://store.steampowered.com/app/2054310/Nova_Antarctica/
       company_logo: /images/games/nova.jpg
-    - company: Old School RuneScape
-      company_logo: /images/games/rune-old-website.jpg
-      company_url: https://store.steampowered.com/app/1343370/Old_School_RuneScape/
     - company: Path Of Exile
       company_url: https://store.steampowered.com/app/238960/Path_of_Exile/
       company_logo: /images/games/path-of-exile.jpg
@@ -160,6 +157,9 @@ clients:
     - company: "RuneScape: Dragonwilds"
       company_url: https://store.steampowered.com/app/1374490/RuneScape_Dragonwilds/
       company_logo: /images/games/rune-dragon-website.jpg
+    - company: Old School RuneScape
+      company_logo: /images/games/rune-old-website.jpg
+      company_url: https://store.steampowered.com/app/1343370/Old_School_RuneScape/
     - company: Sanatorium
       company_url: https://store.steampowered.com/app/2059090/Sanatorium__A_Mental_Asylum_Simulator/
       company_logo: /images/games/sanat.jpg
