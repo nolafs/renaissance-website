@@ -148,6 +148,9 @@ clients:
     - company_url: https://store.steampowered.com/app/2949320/Ratatan/
       company: Ratatan
       company_logo: /images/games/ratatan.jpg
+    - company: Romeo Is A Dead Man
+      company_logo: /images/games/riadm-website.jpg
+      company_url: https://store.steampowered.com/app/3050900/ROMEO_IS_A_DEAD_MAN/
     - company: Rudolph the Red-Nosed Reindeer
       company_logo: /images/games/rudolph.jpg
       company_url: https://store.steampowered.com/app/3527810/Rudolph_the_RedNosed_Reindeer/?curator_clanid=43051037
