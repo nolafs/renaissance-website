@@ -205,7 +205,7 @@ clients:
       company_logo: /images/clients/infold.png
     - company: Jagex
       company_url: https://www.jagex.com/
-      company_logo: /images/clients/jagex.avif
+      company_logo: /images/clients/jagex.png
     - company: Level Infinite
       company_url: https://www.levelinfinite.com/
       company_logo: /images/clients/li-logo.png
