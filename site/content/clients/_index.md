@@ -75,7 +75,7 @@ clients:
       company_logo: /images/clients/client-edgecase.jpg
       company_url: http://www.edgecasegames.net/
     - company: Eldelic Games
-      company_logo: /images/clients/eldelic-games-logo-vector-2.svg
+      company_logo: /images/clients/eldelic-games-logo-vector-2.png
       company_url: https://www.eldelic.com/
     - company: Ember Lab
       company_logo: /images/clients/company-logo_emberlab.png
