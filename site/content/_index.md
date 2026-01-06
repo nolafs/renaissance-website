@@ -115,6 +115,9 @@ clients:
     - company: Love & Deepspace
       company_url: https://loveanddeepspace.infoldgames.com/en-EN/home
       company_logo: /images/games/love-and-deepspace.png
+    - company: Lunar Strike
+      company_logo: /images/games/lunar-strike-web.jpg
+      company_url: https://store.steampowered.com/app/3949580/Lunar_Strike/
     - company: "Metal: Hellsinger"
       company_url: https://store.steampowered.com/app/1061910/Metal_Hellsinger/
       company_logo: /images/games/metal-hell.jpg
@@ -160,9 +163,6 @@ clients:
     - company: Starsand Island
       company_url: https://store.steampowered.com/app/2966320/Starsand_Island/
       company_logo: /images/games/starsand.jpg
-    - company: Lunar Strike
-      company_logo: /images/games/lunar-strike-web.jpg
-      company_url: https://store.steampowered.com/app/3949580/Lunar_Strike/
   clients_featured:
     - company: 3DClouds
       company_logo: /images/clients/3dc.png
