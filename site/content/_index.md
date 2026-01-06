@@ -70,6 +70,9 @@ clients:
     - company: Conan Exiles
       company_url: https://store.steampowered.com/app/440900/Conan_Exiles/
       company_logo: /images/games/conan.jpg
+    - company: DAVE THE DIVER
+      company_logo: /images/games/dtd-website.jpg
+      company_url: https://store.steampowered.com/app/1868140/DAVE_THE_DIVER/
     - company: DayZ
       company_url: https://store.steampowered.com/app/221100/DayZ/
       company_logo: /images/games/dayz.jpg
