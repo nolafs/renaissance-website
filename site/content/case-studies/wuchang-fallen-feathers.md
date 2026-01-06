@@ -1,7 +1,7 @@
 ---
 title: "Wuchang: Fallen Feathers"
 date: 2025-07-24T12:00:00.000Z
-categories: ""
+categories: na-campaigns
 image: /images/case-studies/wcweb.jpg
 client: 505 Games
 description: "Renaissance supported 505 Games in leading media communications
