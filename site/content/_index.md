@@ -100,6 +100,9 @@ clients:
     - company: Formula Legends
       company_url: https://store.steampowered.com/app/3194360/Formula_Legends/
       company_logo: /images/games/formleg.jpg
+    - company: For The King II
+      company_url: https://store.steampowered.com/app/1676840/For_The_King_II/
+      company_logo: /images/games/ftk2-web.jpg
     - company: "Goosebumps: Terror in Little Creek"
       company_url: https://store.steampowered.com/app/3080510/Goosebumps_Terror_in_Little_Creek/
       company_logo: /images/games/goose.jpg
