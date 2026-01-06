@@ -144,7 +144,7 @@ clients:
       company_logo: /images/clients/jackbox.png
       company_url: https://www.jackboxgames.com/
     - company: Jagex
-      company_logo: /images/clients/jagex.avif
+      company_logo: /images/clients/jagex.png
       company_url: https://www.jagex.com/
     - company: Joystick Ventures
       company_logo: /images/clients/jvlogo.png
