@@ -160,6 +160,9 @@ clients:
     - company: Starsand Island
       company_url: https://store.steampowered.com/app/2966320/Starsand_Island/
       company_logo: /images/games/starsand.jpg
+    - company: Lunar Strike
+      company_logo: /images/games/lunar-strike-web.jpg
+      company_url: https://store.steampowered.com/app/3949580/Lunar_Strike/
   clients_featured:
     - company: 3DClouds
       company_logo: /images/clients/3dc.png
