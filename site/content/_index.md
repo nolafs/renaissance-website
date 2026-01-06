@@ -139,6 +139,9 @@ clients:
     - company: RuneScape
       company_logo: /images/games/rune-website.jpg
       company_url: https://store.steampowered.com/app/1343400/RuneScape/
+    - company: "RuneScape: Dragonwilds"
+      company_url: https://store.steampowered.com/app/1374490/RuneScape_Dragonwilds/
+      company_logo: /images/games/rune-dragon-website.jpg
     - company: Sanatorium
       company_url: https://store.steampowered.com/app/2059090/Sanatorium__A_Mental_Asylum_Simulator/
       company_logo: /images/games/sanat.jpg
