@@ -175,7 +175,7 @@ clients:
       company_logo: /images/clients/curve-games-logo.png
     - company: Eldelic Games
       company_url: https://www.eldelic.com/
-      company_logo: /images/clients/eldelic-games-logo-vector-2.svg
+      company_logo: /images/clients/eldelic-games-logo-vector-2.png
     - company: Funcom
       company_url: www.funcom.com
       company_logo: /images/clients/funcom.png
