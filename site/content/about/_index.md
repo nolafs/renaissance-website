@@ -70,14 +70,18 @@ team:
 
 
         Aaron has also worked with SUDA 51 & the team at Grasshopper Manufacture on the No More Heroes series for Nintendo Switch & was additionally a part of the formation of videogame mental health charity Safe in our World.
-    - name: Sophie Carter
+    - name: Emily Britt
+      text: >
+        Joining Renaissance in 2025 Emily has more than twenty years of
+        communications & PR experience across the videogames industry. 
+
+
+        Specialising in B2B communications that bring clarity, credibility & personality to the businesses shaping the sector. Known for her calm clarity & strategic thinking, she has helped studios & global brands tell their stories with real impact, developing thoughtful messaging, creative storytelling, & strong industry relationships.
+
+
+        Emily’s career includes senior roles with some of gaming’s most recognisable names, The Pokémon Company, Square Enix & 2K, where she helped launch the first Pokémon Center in Europe & led global communications for the Tomb Raider franchise reboot.
+      image: /images/uploads/em-br-web.jpg
       position: " "
-      text: >-
-        Sophie joined the Renaissance  team in 2021.
-
-
-        With over 10 years’ experience in both B2C & B2B PR, her gaming PR portfolio spans PC, console & mobile titles, as well as corporate communications that includes projects for titles such as Baldur’s Gate 3, Disco Elysium & The Ascent.
-      image: /images/uploads/sophie-bio-v2.jpg
     - name: Jessica Timms
       position: Head of Operations & Business Development North America
       text: >-
@@ -94,6 +98,27 @@ team:
 
         In over a decade, Jessica has launched and managed over 180 titles and transmedia projects with standout clients including Atari, Bungie, Nightdive Studios, Modiphius, Owlcat Games, Free League Publishing, Lilith Games, Jagex, Tencent, Voidmod, and Dread XP. Jessica has also supported crucial industry entities such as The AbleGamers Foundation, MobyGames, Operation Supply Drop, and others.
       image: /images/uploads/jess-head-shot.jpg
+    - name: Sophie Carter
+      position: " "
+      text: >-
+        Sophie joined the Renaissance  team in 2021.
+
+
+        With over 10 years’ experience in both B2C & B2B PR, her gaming PR portfolio spans PC, console & mobile titles, as well as corporate communications that includes projects for titles such as Baldur’s Gate 3, Disco Elysium & The Ascent.
+      image: /images/uploads/sophie-bio-v2.jpg
+    - name: Jon Wilcox
+      position: " "
+      text: >-
+        Jon is a highly experienced communications professional, with over 20
+        years across journalism & public relations who joined Renaissance in
+        2025.
+
+
+        During his career, he has worked on one of the biggest & most beloved names in online gaming, RuneScape & led the PR team at Team17 for more than four years, during which time they helped launch more than 30 indie titles, including Blasphemous, DREDGE, Hell Let Loose, Yooka-Laylee & The Impossible Lair, and Overcooked! All You Can Eat. 
+
+
+        Most recently, he headed up communications & events at CI Games, where he helped launch multiple titles including Lords of the Fallen in 2023. 
+      image: /images/uploads/jon-w-web.jpg
     - image: /images/uploads/keith-bio-v2.png
       name: Keith Andrew
       position: " "

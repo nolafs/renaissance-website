@@ -56,6 +56,9 @@ clients:
     - company: ChillyRoom
       company_logo: /images/clients/chilly.png
       company_url: https://www.chillyroom.com/en
+    - company: Cognition Europe
+      company_url: https://cognition.eu.com/
+      company_logo: /images/clients/cognitioneurope_logo_black_small.jpg
     - company: Curve Games
       company_logo: /images/clients/curve.png
       company_url: https://curvegames.com/
@@ -71,6 +74,9 @@ clients:
     - company: Edgecase
       company_logo: /images/clients/client-edgecase.jpg
       company_url: http://www.edgecasegames.net/
+    - company: Eldelic Games
+      company_logo: /images/clients/eldelic-games-logo-vector-2.png
+      company_url: https://www.eldelic.com/
     - company: Ember Lab
       company_logo: /images/clients/company-logo_emberlab.png
       company_url: https://emberlab.com/
@@ -107,6 +113,9 @@ clients:
     - company: Grinding Gear Games
       company_url: https://www.grindinggear.com/
       company_logo: /images/clients/ggg-logo.png
+    - company: Grip Studios
+      company_logo: /images/clients/grip_studios_black.png
+      company_url: https://grip-studios.com/
     - company: GSC Game World
       company_url: https://www.gsc-game.com/
       company_logo: /images/clients/gsc_game_world.svg.png
@@ -134,6 +143,9 @@ clients:
     - company: Jackbox Games
       company_logo: /images/clients/jackbox.png
       company_url: https://www.jackboxgames.com/
+    - company: Jagex
+      company_logo: /images/clients/jagex.png
+      company_url: https://www.jagex.com/
     - company: Joystick Ventures
       company_logo: /images/clients/jvlogo.png
       company_url: https://www.joystickventures.com/
@@ -173,6 +185,9 @@ clients:
     - company: Milestone
       company_logo: /images/clients/client-milestone.jpg
       company_url: http://milestone.it/
+    - company: Mintrocket
+      company_logo: /images/clients/mintrocket.png
+      company_url: https://www.mintrock.et/en/
     - company: Mixed Bag
       company_logo: /images/clients/client-mixedbag.jpg
       company_url: https://mixedbag.it/
@@ -188,6 +203,9 @@ clients:
     - company: Nighthawk Interactive
       company_url: https://www.nighthawkinteractive.com/
       company_logo: /images/clients/nighthawk.png
+    - company_url: https://games.parco.jp/
+      company_logo: /images/clients/main_parcogames_logo_1.0_250630_ol.png
+      company: Parco Games
     - company: Pathea
       company_logo: /images/clients/pathea.png
       company_url: https://pathea.net/
@@ -260,6 +278,9 @@ clients:
     - company: Sharkmob
       company_url: https://www.sharkmob.com/
       company_logo: /images/clients/sharkmobtest.png
+    - company_url: https://shorelinegames.com/
+      company_logo: /images/clients/company-logo_shoreline-games.png
+      company: Shoreline Games
     - company: Skybound Games
       company_logo: /images/clients/client-skyboundgames.jpg
       company_url: https://www.skybound.com
