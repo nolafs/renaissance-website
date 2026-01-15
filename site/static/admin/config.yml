@@ -270,6 +270,12 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: "Body", name: "body", widget: "markdown"}
+      - file: "site/content/additional-policies/_index.md"
+        label: "Additional Policies Page"
+        name: "additional_policies"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: "Body", name: "body", widget: "markdown" }
   - name: "config"
     label: "Config"
     editor:
