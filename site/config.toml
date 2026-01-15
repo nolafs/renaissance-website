@@ -55,7 +55,12 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
         identifier = "privacy"
         name = "Privacy Policy"
         url = "/privacy"
-        weight = 2
+        weight = 1
+    [[menu.secondary]]
+        identifier = "additional_policies"
+        name = "Additional Policies"
+        url = "/additional-policies"
+        weight = 3
 
 
 
