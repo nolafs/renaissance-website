@@ -6,10 +6,11 @@ title = "Renaissance PR Agency"
 ## Advanced options below ##
 ############################
 summaryLength = 120
-paginate = 10  # Number of items per page in paginated lists.
+pagination.pagerSize = 10  # Number of items per page in paginated lists.
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreLogs = ["warning-goldmark-raw-html"]
 
 [imaging]
     quality = 60
@@ -56,9 +57,26 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
         name = "Privacy Policy"
         url = "/privacy"
         weight = 1
+    [[menu.secondary]]
+        identifier = "additional_policies"
+        name = "Additional Policies"
+        url = "/additional-policies"
+        weight = 2
 
+############################
+## Social
+############################
 
-
+[params]
+  social = { facebook = "RenaissancePr", x = "RenaissancePr" }
+  custom_navbar= false
+  cms_navbar = true
+  host_name = "https://eloquent-curran-2d10a7.netlify.com"
+  description = "Count on our PR agency to provide exclusive video game PR services at competitive prices. Call us on 01483 665493 for more information."
+  logo_large="/images/logo-full.png"
+  logo_small="/images/logo-icon.png"
+  logo_mobile="/images/logo-mobile.png"
+  logo_large_invert="/images/logo-icon.png"
 
 
 ############################
@@ -91,16 +109,6 @@ privacy_pack = false
   [privacy.youtube]
     disable = false
     privacyEnhanced = false
-
-[params]
-    custom_navbar= false
-    cms_navbar = true
-    host_name = "https://eloquent-curran-2d10a7.netlify.com"
-    description = "Count on our PR agency to provide exclusive video game PR services at competitive prices. Call us on 01483 665493 for more information."
-    logo_large="/images/logo-full.png"
-    logo_small="/images/logo-icon.png"
-    logo_mobile="/images/logo-mobile.png"
-    logo_large_invert="/images/logo-icon.png"
 
 [security]
   enableInlineShortcodes = true
