@@ -3,7 +3,8 @@ const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
 const ImageminPlugin = require('imagemin-webpack-plugin').default;
-const imageminMozjpeg = require ('imagemin-mozjpeg');
+const _imageminMozjpeg = require('imagemin-mozjpeg');
+const imageminMozjpeg = _imageminMozjpeg.default || _imageminMozjpeg;
 const CompressionPlugin = require('compression-webpack-plugin');
 const common = require("./webpack.common.js");
 
@@ -53,7 +54,7 @@ module.exports = merge(common, {
         quality: '75',
       },
       plugins: [
-        imageminMozjpeg({
+          imageminMozjpeg({
           quality: 75,
           progressive: true
         })
