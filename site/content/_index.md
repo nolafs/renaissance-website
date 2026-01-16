@@ -266,7 +266,9 @@ clients:
   slider_num: "12"
   text: Since our inception in 2015 we've been fortunate to work with a wide array
     of different clients, from Indie to AAA we can service your needs.
-testimonial: Aaron Deng
+testimonials:
+  - testimonial: Aaron Deng
+  - testimonial: Joe Brammer
 contact:
   heading: Got a project? Let’s work together!
   text: Since our inception in 2015 we've been fortunate to work with a wide array
