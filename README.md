@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f2659eac-9175-400b-b400-0f77b9aa5ea7/deploy-status)](https://app.netlify.com/projects/epic-poitras-ef2b6a/deploys)
 # Victor Hugo
 
 **A Hugo boilerplate for creating truly epic websites**

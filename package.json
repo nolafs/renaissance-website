@@ -16,7 +16,7 @@
     "prebuild": "rimraf dist",
     "build": "npm run build:webpack && npm run build:hugo",
     "build:preview": "npm run build:webpack && npm run build:hugo:preview",
-    "build:hugo": "hugo -d ../dist --minify --environment production -s site -v",
+    "build:hugo": "hugo -d ../dist --minify --environment production -s site",
     "build:hugo:preview": "hugo -d ../dist  -s site -v",
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js",
     "hugo:server": "hugo server -D -F -w -d dist -s site"
