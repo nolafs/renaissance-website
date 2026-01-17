@@ -67,6 +67,9 @@ clients:
     - company: ARMA Reforger
       company_url: https://store.steampowered.com/app/1874880/Arma_Reforger/
       company_logo: /images/games/arma-web.jpg
+    - company_url: https://store.steampowered.com/app/2704090/Celestial_Return/
+      company_logo: /images/games/celes-ret.jpg
+      company: Celestial Return
     - company: Conan Exiles
       company_url: https://store.steampowered.com/app/440900/Conan_Exiles/
       company_logo: /images/games/conan.jpg
@@ -166,6 +169,9 @@ clients:
     - company: Snoopy & The Great Mystery Club
       company_url: https://store.steampowered.com/app/3328180/Snoopy__The_Great_Mystery_Club/?curator_clanid=43051037
       company_logo: /images/games/snoop.jpg
+    - company_url: https://store.steampowered.com/app/4113940/Sovereign_Tower/
+      company_logo: /images/games/sov-tow.jpg
+      company: Sovereign Tower
     - company: S.T.A.L.K.E.R. Legends Of The Zone Trilogy
       company_logo: /images/games/stalk-switch.jpg
       company_url: https://www.stalker-game.com/en
@@ -269,6 +275,9 @@ clients:
 testimonials:
   - testimonial: Aaron Deng
   - testimonial: Joe Brammer
+  - testimonial: Alex Hutchinson
+  - testimonial: Gavin Price
+  - testimonial: Reid Schneider
 contact:
   heading: Got a project? Let’s work together!
   text: Since our inception in 2015 we've been fortunate to work with a wide array
