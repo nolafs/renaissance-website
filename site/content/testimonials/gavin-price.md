@@ -1,5 +1,5 @@
 ---
-profile: /images/profile/company-logo_playtonic-games.png
+profile: ""
 text: We’ve had the pleasure of working with Renaissance PR on multiple
   projects, and I can honestly say they are always a pleasure to work
   with.  They are results-driven and I’ve always found them especially creative
