@@ -1,5 +1,5 @@
 ---
-profile: /images/uploads/pathea.png
+profile: ""
 text: Renaissance has been our trusted communications partner around the world.
   Their team not only understands how to build the right strategy, but they also
   deliver it with precision when working with media and influencers. We’ve
