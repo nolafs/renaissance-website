@@ -1,5 +1,5 @@
 ---
-profile: /images/profile/logotipo_da_raccoon_logic.png
+profile: ""
 text: The whole team at Renaissance PR are a pleasure to work with and make
   gruelling press events and media moments a joy. Everything runs smoothly,
   matches the plan and is executed with as much boundless positivity as a
