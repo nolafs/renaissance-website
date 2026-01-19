@@ -233,6 +233,9 @@ clients:
     - company: Grip Studios
       company_url: https://grip-studios.com/
       company_logo: /images/clients/grip_studios_black.png
+    - company: GRYPHLINE
+      company_url: https://www.gryphline.com/en-us/home
+      company_logo: /images/clients/company-logo_gryphline.png
     - company: GSC Game World
       company_url: https://www.gsc-game.com/
       company_logo: /images/clients/gsc_game_world.svg.png
