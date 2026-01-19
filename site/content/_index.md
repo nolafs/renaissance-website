@@ -64,6 +64,9 @@ clients:
     - company_url: https://www.antstream.com/
       company: Antstream Arcade
       company_logo: /images/games/ant-arc-1.jpg
+    - company_url: https://endfield.gryphline.com/en-us
+      company: "Arknights: Endfield"
+      company_logo: /images/games/arknight.png
     - company: ARMA Reforger
       company_url: https://store.steampowered.com/app/1874880/Arma_Reforger/
       company_logo: /images/games/arma-web.jpg
