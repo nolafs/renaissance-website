@@ -187,6 +187,9 @@ clients:
     - company: Starsand Island
       company_url: https://store.steampowered.com/app/2966320/Starsand_Island/
       company_logo: /images/games/starsand.jpg
+    - company: The Day I Became A Bird
+      company_url: https://store.steampowered.com/app/3120030/The_Day_I_Became_A_Bird/
+      company_logo: /images/games/dibab.jpg
     - company_url: https://store.steampowered.com/app/2536510/The_God_Slayer/
       company_logo: /images/games/godslay.jpg
       company: The God Slayer
