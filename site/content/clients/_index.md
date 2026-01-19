@@ -313,7 +313,7 @@ clients:
       company_url: http://www.stcware.com/
     - company: Stormind Games
       company_url: https://www.stormindgames.com/
-      company_logo: /images/clients/stormind_games_official_logo.png
+      company_logo: /images/clients/logo-stormind-games.webp
     - company: Tate Multimedia
       company_logo: /images/clients/tate.png
       company_url: https://www.tatemultimedia.com/
