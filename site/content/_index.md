@@ -277,9 +277,10 @@ clients:
     of different clients, from Indie to AAA we can service your needs.
 testimonials:
   - testimonial: Aaron Deng
-  - testimonial: Joe Brammer
+  - testimonial: "Agostino Simonetta "
   - testimonial: Alex Hutchinson
   - testimonial: Gavin Price
+  - testimonial: Joe Brammer
   - testimonial: Reid Schneider
 contact:
   heading: Got a project? Let’s work together!
