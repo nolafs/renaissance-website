@@ -260,6 +260,9 @@ clients:
     - company: Mintrocket
       company_logo: /images/clients/mintrocket.png
       company_url: https://www.mintrock.et/en/
+    - company: Mob Entertainment
+      company_url: https://www.mobentertainment.com/
+      company_logo: /images/clients/mob_entertainment_black.webp
     - company: Parco Games
       company_url: https://games.parco.jp/
       company_logo: /images/clients/main_parcogames_logo_1.0_250630_ol.png
