@@ -148,6 +148,9 @@ clients:
     - company: Path Of Exile 2
       company_url: https://pathofexile2.com/
       company_logo: /images/games/poe-2-small.jpg
+    - company_url: https://store.steampowered.com/app/4100940/Poppy_Playtime__Chapter_5/
+      company_logo: /images/games/mobpop5.jpg
+      company: Poppy Playtime - Chapter 5
     - company_url: https://store.steampowered.com/app/2949320/Ratatan/
       company: Ratatan
       company_logo: /images/games/ratatan.jpg
