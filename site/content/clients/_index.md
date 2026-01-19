@@ -116,6 +116,9 @@ clients:
     - company: Grip Studios
       company_logo: /images/clients/grip_studios_black.png
       company_url: https://grip-studios.com/
+    - company: GRYPHLINE
+      company_logo: /images/clients/company-logo_gryphline.png
+      company_url: https://www.gryphline.com/en-us/home
     - company: GSC Game World
       company_url: https://www.gsc-game.com/
       company_logo: /images/clients/gsc_game_world.svg.png
@@ -191,6 +194,9 @@ clients:
     - company: Mixed Bag
       company_logo: /images/clients/client-mixedbag.jpg
       company_url: https://mixedbag.it/
+    - company: Mob Entertainment
+      company_logo: /images/clients/mob_entertainment_black.webp
+      company_url: https://www.mobentertainment.com/
     - company: My.Games
       company_url: https://my.games/
       company_logo: /images/clients/my.games-store.png
@@ -206,6 +212,9 @@ clients:
     - company_url: https://games.parco.jp/
       company_logo: /images/clients/main_parcogames_logo_1.0_250630_ol.png
       company: Parco Games
+    - company: Passion Games
+      company_url: https://www.passion-animation.com/work/games/
+      company_logo: /images/clients/black_on_white.png
     - company: Pathea
       company_logo: /images/clients/pathea.png
       company_url: https://pathea.net/
