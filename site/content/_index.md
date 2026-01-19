@@ -284,6 +284,9 @@ clients:
     - company: Shoreline Games
       company_url: https://shorelinegames.com/
       company_logo: /images/clients/company-logo_shoreline-games.png
+    - company: Stormind Games
+      company_url: https://stormindgames.com/
+      company_logo: /images/clients/logo-stormind-games.webp
     - company: Tencent Games
       company_url: https://www.tencent.com/en-us/
       company_logo: /images/clients/tencent-games.png
