@@ -272,6 +272,9 @@ clients:
     - company: Parco Games
       company_url: https://games.parco.jp/
       company_logo: /images/clients/main_parcogames_logo_1.0_250630_ol.png
+    - company: Passion Games
+      company_url: https://www.passion-animation.com/work/games/
+      company_logo: /images/clients/black_on_white.png
     - company: Pathea
       company_url: https://pathea.net/
       company_logo: /images/clients/pathea.png
