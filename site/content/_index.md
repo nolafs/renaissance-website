@@ -133,6 +133,9 @@ clients:
     - company: Lunar Strike
       company_logo: /images/games/lunar-strike-web.jpg
       company_url: https://store.steampowered.com/app/3949580/Lunar_Strike/
+    - company: MECHBORN
+      company_url: https://store.steampowered.com/app/3531220/MECHBORN/
+      company_logo: /images/games/mechb2.png
     - company: "Metal: Hellsinger"
       company_url: https://store.steampowered.com/app/1061910/Metal_Hellsinger/
       company_logo: /images/games/metal-hell.jpg
