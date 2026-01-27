@@ -127,6 +127,9 @@ clients:
     - company: Infinity Nikki
       company_url: https://infinitynikki.infoldgames.com/en/home
       company_logo: /images/games/infinity-nikki.jpg
+    - company: Inky Blinky Bob
+      company_url: https://store.steampowered.com/app/4305130/Inky_Blinky_Bob/
+      company_logo: /images/games/inkybb.jpg
     - company: Love & Deepspace
       company_url: https://loveanddeepspace.infoldgames.com/en-EN/home
       company_logo: /images/games/love-and-deepspace.png
