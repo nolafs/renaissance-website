@@ -104,6 +104,9 @@ clients:
     - company: Goose Byte
       company_url: https://www.goosebyte.games/
       company_logo: /images/clients/goose-byte.jpg
+    - company: GPTRACK50
+      company_logo: /images/clients/gptrack-logo.png
+      company_url: https://www.gptrack50.com/en/
     - company: Grasshopper Manufacture
       company_url: https://www.grasshopper.co.jp/en/
       company_logo: /images/clients/grasshopper.png
@@ -203,6 +206,9 @@ clients:
     - company: Mythwright
       company_logo: /images/clients/mythwright-logo.png
       company_url: https://mythwright.com/
+    - company_url: https://www.nacongaming.com/en-GB/
+      company_logo: /images/clients/nacon-logo-png_seeklogo-408310.png
+      company: Nacon
     - company: Netease
       company_url: https://www.neteasegames.com/
       company_logo: /images/clients/untitled.png
