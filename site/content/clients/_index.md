@@ -206,9 +206,6 @@ clients:
     - company: Mythwright
       company_logo: /images/clients/mythwright-logo.png
       company_url: https://mythwright.com/
-    - company_url: https://www.nacongaming.com/en-GB/
-      company_logo: /images/clients/nacon-logo-png_seeklogo-408310.png
-      company: Nacon
     - company: Netease
       company_url: https://www.neteasegames.com/
       company_logo: /images/clients/untitled.png
