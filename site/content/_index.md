@@ -308,6 +308,7 @@ testimonials:
   - testimonial: Alex Hutchinson
   - testimonial: Gavin Price
   - testimonial: Joe Brammer
+  - testimonial: Krista Lee
   - testimonial: Reid Schneider
   - testimonial: Suda51
 contact:
