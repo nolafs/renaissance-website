@@ -196,6 +196,9 @@ clients:
     - company: Starsand Island
       company_url: https://store.steampowered.com/app/2966320/Starsand_Island/
       company_logo: /images/games/starsand.jpg
+    - company: Stupid Never Dies
+      company_url: https://store.steampowered.com/app/3486530/Stupid_Never_Dies/
+      company_logo: /images/games/stupid.jpg
     - company: The Day I Became A Bird
       company_url: https://store.steampowered.com/app/3120030/The_Day_I_Became_A_Bird/
       company_logo: /images/games/dibab.jpg
