@@ -109,6 +109,9 @@ clients:
     - company: For The King II
       company_url: https://store.steampowered.com/app/1676840/For_The_King_II/
       company_logo: /images/games/ftk2-web.jpg
+    - company: "Genigods: Nezha"
+      company_url: https://store.steampowered.com/app/4346690/Genigods_Nezha/
+      company_logo: /images/games/gengod.jpg
     - company: "Goosebumps: Terror in Little Creek"
       company_url: https://store.steampowered.com/app/3080510/Goosebumps_Terror_in_Little_Creek/
       company_logo: /images/games/goose.jpg
