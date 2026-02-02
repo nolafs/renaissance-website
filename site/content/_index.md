@@ -242,6 +242,9 @@ clients:
     - company: gamescom
       company_logo: /images/clients/gamescom_log.png
       company_url: https://www.gamescom.global/en
+    - company: GPTRACK50 Inc.
+      company_url: https://www.gptrack50.com/en/
+      company_logo: /images/clients/gptrack-logo.png
     - company: Grasshopper Manufacture
       company_logo: /images/clients/grasshopper.png
       company_url: https://www.grasshopper.co.jp/en/
