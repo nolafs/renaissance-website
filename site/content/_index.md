@@ -284,6 +284,9 @@ clients:
     - company: Mob Entertainment
       company_url: https://www.mobentertainment.com/
       company_logo: /images/clients/mob_entertainment_black.webp
+    - company_url: https://www.nacongaming.com/en-GB/
+      company: Nacon
+      company_logo: /images/clients/nacon-logo-png_seeklogo-408310.png
     - company: Parco Games
       company_url: https://games.parco.jp/
       company_logo: /images/clients/main_parcogames_logo_1.0_250630_ol.png
