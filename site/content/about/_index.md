@@ -97,7 +97,7 @@ team:
 
 
         In over a decade, Jessica has launched and managed over 180 titles and transmedia projects with standout clients including Atari, Bungie, Nightdive Studios, Modiphius, Owlcat Games, Free League Publishing, Lilith Games, Jagex, Tencent, Voidmod, and Dread XP. Jessica has also supported crucial industry entities such as The AbleGamers Foundation, MobyGames, Operation Supply Drop, and others.
-      image: /images/uploads/jess-26-png.png
+      image: /images/uploads/jess26pn.jpeg
     - name: Sophie Carter
       position: " "
       text: >-
@@ -118,7 +118,7 @@ team:
 
 
         Most recently, he headed up communications & events at CI Games, where he helped launch multiple titles including Lords of the Fallen in 2023. 
-      image: /images/uploads/jon-26-png.png
+      image: /images/uploads/jon26pn.jpeg
     - image: /images/uploads/keith-bio-v2.png
       name: Keith Andrew
       position: " "
