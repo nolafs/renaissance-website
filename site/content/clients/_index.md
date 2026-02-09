@@ -98,6 +98,9 @@ clients:
     - company: GameMill
       company_logo: /images/clients/gamemill_entertainment.svg.png
       company_url: https://gamemill.com/
+    - company: Genigods Lab
+      company_url: https://store.steampowered.com/app/4346690/Genigods_Nezha/
+      company_logo: /images/clients/genigods-lab-logo.png
     - company: gamescom
       company_logo: /images/clients/gamescomlogo.png
       company_url: https://www.gamescom.global/en
