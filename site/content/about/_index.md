@@ -148,7 +148,7 @@ team:
         and contributing to a culture of kindness within the industry. He
         believes in communication that not only promotes brands but also uplifts
         the community and fosters a sense of integrity and goodwill."
-      image: /images/uploads/jb-bio.jpg
+      image: /images/uploads/james26.jpg
       position: " "
     - name: Megan Shandley
       text: >-
@@ -160,7 +160,7 @@ team:
 
         Megan combines her enthusiasm for PR, passion for games and enjoyment of collaboration in her role at Renaissance.
       position: " "
-      image: /images/uploads/megan-web.jpg
+      image: /images/uploads/megan26.jpg
     - name: Sam Faulkner
       position: " "
       image: /images/uploads/sam-web.png
@@ -173,7 +173,7 @@ team:
 
 
         Sam is most proud of his work as Publishing Producer for Larian Studios and looks back with particular fondness on working on Baldur’s Gate 3 during Early Access. Leaving Larian in mid 2022, Sam became an independent consultant, working with indies, publishers and PR firms and has been working with Renaissance since late 2022.
-    - image: /images/uploads/andy-bio-v2.jpg
+    - image: /images/uploads/andy26.jpg
       name: Andy Griffiths
       position: " "
       text: >
