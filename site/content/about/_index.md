@@ -163,7 +163,7 @@ team:
       image: /images/uploads/megan26.jpg
     - name: Sam Faulkner
       position: " "
-      image: /images/uploads/sam-web.png
+      image: /images/uploads/sam26.jpg
       text: >
         Sam has worked in games for a decade now and has had a broad career to
         date. Starting out as a professional Film Journalist, he moved into
@@ -192,7 +192,7 @@ team:
         the people behind the story, and the same is true for his passion in
         video games. "
       position: " "
-      image: /images/uploads/matthew-bio-v2.png
+      image: /images/uploads/matthew26.jpg
     - name: Candice Shane
       position: " "
       text: >-
@@ -211,7 +211,7 @@ team:
 
 
         TL;DR - Writer, Content Creator & Podcaster with a SEVERE passion for gaming joined Renaissance in 2020.
-      image: /images/uploads/candice-bio-v2.png
+      image: /images/uploads/candice26.jpg
     - name: Thomas Hughes
       text: >-
         With close to a decade of marketing experience across B2C and B2B
@@ -224,7 +224,7 @@ team:
 
         Thomas joined Renaissance in late 2023.
       position: " "
-      image: /images/uploads/thomas-bio-v2.png
+      image: /images/uploads/thomas26.jpg
     - name: Bella Shane
       position: " "
       text: >-
@@ -234,7 +234,7 @@ team:
 
 
         Before joining, Bella helped people research all manner of details and enjoyed quite a bit of time fact-checking for editors, analysts and ghostwriters. Not wanting to hand over her research towards clients that she felt weren't giving the best service with her data, she looked towards becoming more hands on in an industry she already widely respected and had loved from a young age.
-      image: /images/uploads/bella-bio.jpg
+      image: /images/uploads/bella26.jpg
   text: >
     Renaissance is built around a core team of contributing consultants who
     collectively have more than 50 years’ experience across the games industry;
