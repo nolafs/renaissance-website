@@ -83,7 +83,7 @@ team:
       image: /images/uploads/emilypic26.jpg
       position: " "
     - name: Jessica Timms
-      position: Head of Operations & Business Development North America
+      position: " "
       text: >-
         Jessica has worked in the video game industry for over 12 years,
         beginning as a journalist before transitioning into PR. Her career has
@@ -91,9 +91,6 @@ team:
         tabletop games, with experience leading cross-functional campaigns that
         go beyond PR to include influencer relations, paid media, content
         marketing, and corporate communications.
-
-
-        As a former agency director, Jessica is passionate about mentorship and accessibility, having developed numerous internal training programs for PR newcomers and educational lectures tailored for game developers at institutions like the USC Games Program.
 
 
         In over a decade, Jessica has launched and managed over 180 titles and transmedia projects with standout clients including Atari, Bungie, Nightdive Studios, Modiphius, Owlcat Games, Free League Publishing, Lilith Games, Jagex, Tencent, Voidmod, and Dread XP. Jessica has also supported crucial industry entities such as The AbleGamers Foundation, MobyGames, Operation Supply Drop, and others.
