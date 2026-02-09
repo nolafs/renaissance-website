@@ -16,7 +16,7 @@ values:
     practices through seminars and talks.
 founder:
   heading: About the Founder
-  image: /images/uploads/stefano-website.jpg
+  image: /images/uploads/stefano-pic-26.jpg
   subheading: Stefano Petrullo
   text: >-
     A passionate, optimistic,  extroverted observer of the media landscape.
@@ -32,7 +32,7 @@ founder:
 team:
   heading: The Team
   team_list:
-    - image: /images/uploads/stefano-website-2.jpg
+    - image: /images/uploads/stefano-pic-26.jpg
       name: Stefano Petrullo
       position: |+
         Founder
@@ -80,7 +80,7 @@ team:
 
 
         Emily’s career includes senior roles with some of gaming’s most recognisable names, The Pokémon Company, Square Enix & 2K, where she helped launch the first Pokémon Center in Europe & led global communications for the Tomb Raider franchise reboot.
-      image: /images/uploads/em-br-web.jpg
+      image: /images/uploads/emily-pic-26.jpg
       position: " "
     - name: Jessica Timms
       position: Head of Operations & Business Development North America
