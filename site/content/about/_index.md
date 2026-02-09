@@ -58,7 +58,7 @@ team:
 
 
         Greg brings a wealth of cross-genre experience to the team as well as an understanding of media & content creators which allows him to identify the right targets, for the right titles no matter the scope of the project.
-    - image: /images/uploads/aaron-26-png.png
+    - image: /images/uploads/aaronpic26.jpg
       name: Aaron Cooper
       position: " "
       text: >-
@@ -80,7 +80,7 @@ team:
 
 
         Emily’s career includes senior roles with some of gaming’s most recognisable names, The Pokémon Company, Square Enix & 2K, where she helped launch the first Pokémon Center in Europe & led global communications for the Tomb Raider franchise reboot.
-      image: /images/uploads/emily-26-png.png
+      image: /images/uploads/emilypic26.jpg
       position: " "
     - name: Jessica Timms
       position: Head of Operations & Business Development North America
