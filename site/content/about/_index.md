@@ -16,7 +16,7 @@ values:
     practices through seminars and talks.
 founder:
   heading: About the Founder
-  image: /images/uploads/stefano-pic-26.jpg
+  image: /images/uploads/stef-26-png.png
   subheading: Stefano Petrullo
   text: >-
     A passionate, optimistic,  extroverted observer of the media landscape.
