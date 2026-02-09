@@ -46,7 +46,7 @@ team:
 
 
         UKIE and BAFTA member, Videogame Ambassador and renown international speaker, Stefano is an optimist, extrovert communication veteran always looking at way to innovate.
-    - image: /images/uploads/greg-bio-colour-v2.jpg
+    - image: /images/uploads/greg-26-png.png
       name: Greg Jones
       position: " "
       text: >-
@@ -58,7 +58,7 @@ team:
 
 
         Greg brings a wealth of cross-genre experience to the team as well as an understanding of media & content creators which allows him to identify the right targets, for the right titles no matter the scope of the project.
-    - image: /images/uploads/aaron-c-bio-v2.png
+    - image: /images/uploads/aaron-26-png.png
       name: Aaron Cooper
       position: " "
       text: >-
