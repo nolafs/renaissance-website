@@ -16,7 +16,7 @@ values:
     practices through seminars and talks.
 founder:
   heading: About the Founder
-  image: /images/uploads/stef-26-png.png
+  image: /images/uploads/stefanopic26.jpg
   subheading: Stefano Petrullo
   text: >-
     A passionate, optimistic,  extroverted observer of the media landscape.
@@ -32,7 +32,7 @@ founder:
 team:
   heading: The Team
   team_list:
-    - image: /images/uploads/stef-26-png.png
+    - image: /images/uploads/stefanopic26.jpg
       name: Stefano Petrullo
       position: |+
         Founder
@@ -46,7 +46,7 @@ team:
 
 
         UKIE and BAFTA member, Videogame Ambassador and renown international speaker, Stefano is an optimist, extrovert communication veteran always looking at way to innovate.
-    - image: /images/uploads/greg-26-png.png
+    - image: /images/uploads/gregpic26.jpg
       name: Greg Jones
       position: " "
       text: >-
