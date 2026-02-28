@@ -31,9 +31,6 @@ Highlights included **New York Times (561m)**, **MeriStation Spain (105m)**, **I
 
 In terms of reviews, at the time of writing we have achieved over **111 Metacritic** & **111 Open Critic**.​
 
-
-
-
 Renaissance was responsible for the content creator strategy for the game launch & at the time of writing, within the launch window for Romeo is a Dead Man, there has been over **4,075,000 views** (**2.8m YouTube** & **1.2m Twitch** VoD) from a subscriber base of over **47m**, across **401 unique channels & 576 pieces of content** (**108 YouTube v**ideos & **468 Twitch s**treams).​
 
 ​
@@ -50,9 +47,6 @@ Renaissance is reporting on content with over 1,000 views on YouTube & peak conc
 
 {{< imageSize image="/images/case-studies/riadm7.jpg" align="left"  alt="riadm6" width="700" height="388" processing="resize">}}
 
-
-
-
 With a short overall campaign, it was important to produce additional stand-out moments & editorial. For this, we used our relationships to encourage untraditional thinking, kicking off with an exclusive cover feature with EDGE magazine containing in-depth behind the scenes discussions.​
 
 ​
@@ -67,4 +61,4 @@ Grasshopper games usually come with a specific food focus & with Romeo it is Kat
 
 This all took place within our UK/US promotional tour 2 weeks prior to launch day (which also saw Suda51 cause major attention on “X” for engulfing his first Nando’s & attending the Chelsea v West Ham match.). The tour allowed media already in-review to ask more searching & in-depth questions, plus it also saw a live series of collaborations with **Kinda Funny (360k)** & bespoke content produced with **Gamespot (42.4m)**, which involved Suda51 co-hosting a regular show & having a drawing-contest-interview.​
 
-{{< imageSize image="/images/case-studies/riadm10.jpg" align="left"  alt="riadm9" width="519" height="212" processing="resize">}}
+{{< imageSize image="/images/case-studies/riadm10.jpg" align="left"  alt="riadm9" width="900" height="525" processing="resize">}}
