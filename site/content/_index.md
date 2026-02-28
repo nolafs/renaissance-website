@@ -215,9 +215,6 @@ clients:
     - company: 10 Chambers
       company_logo: /images/clients/10-chambers-logo.png
       company_url: https://careers.10chambers.com/
-    - company: Amazon Kids+
-      company_url: http://amazon.co.uk/forkids
-      company_logo: /images/clients/amazon-kids-logo.png
     - company: Antstream
       company_logo: /images/clients/antstream-logo_wide-black.png
       company_url: https://www.antstream.com/
@@ -287,6 +284,9 @@ clients:
     - company: Mob Entertainment
       company_url: https://www.mobentertainment.com/
       company_logo: /images/clients/mob_entertainment_black.webp
+    - company_url: https://www.nacongaming.com/en-GB/
+      company_logo: /images/clients/nacon-logo-png_seeklogo-408310.png
+      company: Nacon
     - company: Parco Games
       company_url: https://games.parco.jp/
       company_logo: /images/clients/main_parcogames_logo_1.0_250630_ol.png
@@ -296,6 +296,9 @@ clients:
     - company: Pathea
       company_url: https://pathea.net/
       company_logo: /images/clients/pathea.png
+    - company: Seed Sparkle Lab
+      company_logo: /images/clients/工作室logo（黑）.png
+      company_url: https://www.starsandisland.com/en/#/
     - company: Sharkmob
       company_url: https://www.sharkmob.com/
       company_logo: /images/clients/sharkmobtest.png
