@@ -240,7 +240,7 @@ clients:
       company_logo: /images/clients/gamescom_log.png
       company_url: https://www.gamescom.global/en
     - company: Genigods Lab
-      company_logo: /images/clients/genigods-lab-logo.png
+      company_logo: /images/clients/picture28.png
       company_url: https://store.steampowered.com/app/4346690/Genigods_Nezha/
     - company: GPTRACK50 Inc.
       company_url: https://www.gptrack50.com/en/
