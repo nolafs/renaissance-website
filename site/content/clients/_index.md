@@ -290,6 +290,9 @@ clients:
     - company: Secret Mode
       company_logo: /images/clients/secret-mode.png
       company_url: https://wearesecretmode.com/
+    - company: Seed Sparkle Lab
+      company_logo: /images/clients/工作室logo（黑）.png
+      company_url: https://www.starsandisland.com/en/#/
     - company: Sharkmob
       company_url: https://www.sharkmob.com/
       company_logo: /images/clients/sharkmobtest.png
