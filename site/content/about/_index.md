@@ -185,6 +185,17 @@ team:
 
 
         Over the past decade Andy has launched over 200 titles with both domestic and international publishers and developers.
+    - name: Lisa Mior
+      text: >
+        Lisa has worked in the games industry for over 13 years, starting her
+        career as a journalist and later transitioning to PR.
+
+
+        Over the course of her career, she has worked globally with incredible developers, publishers, and brands spanning from indie to AAA, including Gameforge, Brazil Games, Atari, Nightdive Studios, Falling Squirrel, Level Infinite, PQube, Dread XP, and Phantom Compass.
+
+         Most recently, she led communications at independent publisher Whitethorn Games, launching and supporting their catalogue of titles, including APICO, Botany Manor, Calico, Lake, and Wytchwood.
+      image: /images/uploads/lisa-web.png
+      position: " "
     - name: Matthew Taylor
       text: "Matthew Taylor has been working in PR and marketing since graduating with
         a History Degree in 2013. In 2019, he joined Renaissance as his first
@@ -235,6 +246,16 @@ team:
 
         Before joining, Bella helped people research all manner of details and enjoyed quite a bit of time fact-checking for editors, analysts and ghostwriters. Not wanting to hand over her research towards clients that she felt weren't giving the best service with her data, she looked towards becoming more hands on in an industry she already widely respected and had loved from a young age.
       image: /images/uploads/bella26.jpg
+    - name: Ibrahim Bhatti
+      text: Having worked in the games industry for just over two decades, he has a
+        wealth of experience in both QA as well as community and influencer
+        relations. Working across both AAA and Indie franchises for SEGA,
+        Capcom, 2K and Square Enix, he's led on go-to-market creator and social
+        campaigns for the likes of Sonic the Hedgehog, the Mafia franchise and
+        two mainline Final Fantasy games. Ibrahim joined Renaissance in early
+        2026.
+      image: /images/uploads/ibs-web.jpg
+      position: " "
   text: >
     Renaissance is built around a core team of contributing consultants who
     collectively have more than 50 years’ experience across the games industry;
