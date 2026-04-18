@@ -61,9 +61,6 @@ clients:
     - company: Aloft
       company_url: https://store.steampowered.com/app/1660080/ALOFT/
       company_logo: /images/games/aloft-header.jpg
-    - company_url: https://www.antstream.com/
-      company: Antstream Arcade
-      company_logo: /images/games/ant-arc-1.jpg
     - company_url: https://endfield.gryphline.com/en-us
       company: "Arknights: Endfield"
       company_logo: /images/games/arknight.png
@@ -88,9 +85,6 @@ clients:
     - company: Dune Awakening
       company_logo: /images/games/dune-awake-image.jpg
       company_url: https://store.steampowered.com/app/1172710/Dune_Awakening/
-    - company: Dune Spice Wars
-      company_url: https://store.steampowered.com/app/1605220/Dune_Spice_Wars/
-      company_logo: /images/games/dune-spice.jpg
     - company_url: https://store.steampowered.com/app/3008130/Dying_Light_The_Beast/
       company_logo: /images/games/dltb.jpg
       company: "Dying Light: The Beast"
@@ -100,27 +94,15 @@ clients:
     - company: Exoborne
       company_logo: /images/games/exoborne.jpg
       company_url: https://store.steampowered.com/app/2705130/Exoborne/
-    - company: "Fast & Furious: Arcade Edition"
-      company_url: https://gamemill.com/games/fast-furious-arcade-edition/
-      company_logo: /images/games/fastandfur.png
     - company: Formula Legends
       company_url: https://store.steampowered.com/app/3194360/Formula_Legends/
       company_logo: /images/games/formleg.jpg
     - company: For The King II
       company_url: https://store.steampowered.com/app/1676840/For_The_King_II/
       company_logo: /images/games/ftk2-web.jpg
-    - company: "Genigods: Nezha"
-      company_url: https://store.steampowered.com/app/4346690/Genigods_Nezha/
-      company_logo: /images/games/gengod.jpg
-    - company: "Goosebumps: Terror in Little Creek"
-      company_url: https://store.steampowered.com/app/3080510/Goosebumps_Terror_in_Little_Creek/
-      company_logo: /images/games/goose.jpg
     - company_url: https://www.honorofkings.com/global-en/
       company: Honor Of Kings
       company_logo: /images/games/hok-image.jpg
-    - company: "Hot Wheels Let's Race™: Ultimate Speed"
-      company_logo: /images/games/hwlr.jpg
-      company_url: https://store.steampowered.com/app/3040910/Hot_Wheels_Lets_Race_Ultimate_Speed/?curator_clanid=43051037
     - company: Human Fall Flat
       company_logo: /images/games/hff-web.jpg
       company_url: https://store.steampowered.com/app/477160/Human_Fall_Flat/
@@ -145,12 +127,6 @@ clients:
     - company: "Metal: Hellsinger"
       company_url: https://store.steampowered.com/app/1061910/Metal_Hellsinger/
       company_logo: /images/games/metal-hell.jpg
-    - company_url: https://store.steampowered.com/app/3051490/Nicktoons__The_Dice_of_Destiny/?curator_clanid=43051037
-      company_logo: /images/games/nick.jpg
-      company: Nicktoons & The Dice of Destiny
-    - company: Nova Antarctica
-      company_url: https://store.steampowered.com/app/2054310/Nova_Antarctica/
-      company_logo: /images/games/nova.jpg
     - company: Path Of Exile
       company_url: https://store.steampowered.com/app/238960/Path_of_Exile/
       company_logo: /images/games/path-of-exile.jpg
@@ -166,9 +142,6 @@ clients:
     - company: Romeo Is A Dead Man
       company_logo: /images/games/riadm-website.jpg
       company_url: https://store.steampowered.com/app/3050900/ROMEO_IS_A_DEAD_MAN/
-    - company: Rudolph the Red-Nosed Reindeer
-      company_logo: /images/games/rudolph.jpg
-      company_url: https://store.steampowered.com/app/3527810/Rudolph_the_RedNosed_Reindeer/?curator_clanid=43051037
     - company: RuneScape
       company_logo: /images/games/rune-website.jpg
       company_url: https://store.steampowered.com/app/1343400/RuneScape/
@@ -181,9 +154,6 @@ clients:
     - company: Sanatorium
       company_url: https://store.steampowered.com/app/2059090/Sanatorium__A_Mental_Asylum_Simulator/
       company_logo: /images/games/sanat.jpg
-    - company: Snoopy & The Great Mystery Club
-      company_url: https://store.steampowered.com/app/3328180/Snoopy__The_Great_Mystery_Club/?curator_clanid=43051037
-      company_logo: /images/games/snoop.jpg
     - company_url: https://store.steampowered.com/app/4113940/Sovereign_Tower/
       company_logo: /images/games/sov-tow.jpg
       company: Sovereign Tower
@@ -202,9 +172,6 @@ clients:
     - company: The Day I Became A Bird
       company_url: https://store.steampowered.com/app/3120030/The_Day_I_Became_A_Bird/
       company_logo: /images/games/dibab.jpg
-    - company_url: https://store.steampowered.com/app/2536510/The_God_Slayer/
-      company_logo: /images/games/godslay.jpg
-      company: The God Slayer
     - company: Wax Heads
       company_logo: /images/games/waxheads-website.jpg
       company_url: https://store.steampowered.com/app/2769240/Wax_Heads/
@@ -215,9 +182,6 @@ clients:
     - company: 10 Chambers
       company_logo: /images/clients/10-chambers-logo.png
       company_url: https://careers.10chambers.com/
-    - company: Antstream
-      company_logo: /images/clients/antstream-logo_wide-black.png
-      company_url: https://www.antstream.com/
     - company: Bohemia Interactive
       company_url: https://www.bohemia.net/
       company_logo: /images/clients/bohemia.png
@@ -233,15 +197,9 @@ clients:
     - company: Funcom
       company_url: www.funcom.com
       company_logo: /images/clients/funcom.png
-    - company: GameMill
-      company_url: https://gamemill.com/
-      company_logo: /images/clients/gamemill_entertainment.svg.png
     - company: gamescom
       company_logo: /images/clients/gamescom_log.png
       company_url: https://www.gamescom.global/en
-    - company: Genigods Lab
-      company_logo: /images/clients/picture28.png
-      company_url: https://store.steampowered.com/app/4346690/Genigods_Nezha/
     - company: GPTRACK50 Inc.
       company_url: https://www.gptrack50.com/en/
       company_logo: /images/clients/gptrack-logo.png
@@ -287,9 +245,6 @@ clients:
     - company_url: https://www.nacongaming.com/en-GB/
       company_logo: /images/clients/nacon-logo-png_seeklogo-408310.png
       company: Nacon
-    - company: Parco Games
-      company_url: https://games.parco.jp/
-      company_logo: /images/clients/main_parcogames_logo_1.0_250630_ol.png
     - company: Passion Games
       company_url: https://www.passion-animation.com/work/games/
       company_logo: /images/clients/black_on_white.png
