@@ -70,6 +70,9 @@ clients:
     - company_url: https://store.steampowered.com/app/2704090/Celestial_Return/
       company_logo: /images/games/celes-ret.jpg
       company: Celestial Return
+    - company: City 20
+      company_url: https://store.steampowered.com/app/1597980/City_20/
+      company_logo: /images/games/city-20-steam.jpg
     - company: Conan Exiles
       company_url: https://store.steampowered.com/app/440900/Conan_Exiles/
       company_logo: /images/games/conan.jpg
@@ -115,6 +118,12 @@ clients:
     - company: Inky Blinky Bob
       company_url: https://store.steampowered.com/app/4305130/Inky_Blinky_Bob/
       company_logo: /images/games/inkybb.jpg
+    - company_url: https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Kena-Bridge-of-Spirits-3054992.html?srsltid=AfmBOoqFh9NkAIEc0B7EM9AYVkJ0LSEY5dh6gEmR4BxQxm9RFtGlZouq
+      company: "Kena: Bridge of Spirits"
+      company_logo: /images/games/kena.jpg
+    - company: Limerence
+      company_url: https://store.steampowered.com/app/3875300/Limerence/
+      company_logo: /images/games/limerence.jpg
     - company: Love & Deepspace
       company_url: https://loveanddeepspace.infoldgames.com/en-EN/home
       company_logo: /images/games/love-and-deepspace.png
@@ -133,12 +142,18 @@ clients:
     - company: Path Of Exile 2
       company_url: https://pathofexile2.com/
       company_logo: /images/games/poe-2-small.jpg
+    - company: Planted
+      company_logo: /images/games/planted-web.jpg
+      company_url: https://store.steampowered.com/app/3448000/Planted/
     - company_url: https://store.steampowered.com/app/4100940/Poppy_Playtime__Chapter_5/
       company_logo: /images/games/mobpop5.jpg
       company: Poppy Playtime - Chapter 5
     - company_url: https://store.steampowered.com/app/2949320/Ratatan/
       company: Ratatan
       company_logo: /images/games/ratatan.jpg
+    - company_url: https://store.steampowered.com/app/3335310/Remothered_Red_Nuns_Legacy/
+      company_logo: /images/games/remoth.jpg
+      company: "Remothered: Red Nun's Legacy"
     - company: Romeo Is A Dead Man
       company_logo: /images/games/riadm-website.jpg
       company_url: https://store.steampowered.com/app/3050900/ROMEO_IS_A_DEAD_MAN/
