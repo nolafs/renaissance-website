@@ -62,6 +62,9 @@ clients:
     - company: Curve Games
       company_logo: /images/clients/curve.png
       company_url: https://curvegames.com/
+    - company: Curveball Games
+      company_logo: /images/clients/picture2.png
+      company_url: https://curveball-leisure.com/games/
     - company_url: https://cyborn.be/
       company: Cyborn
       company_logo: /images/clients/cyborn.png
@@ -285,8 +288,8 @@ clients:
       company_logo: /images/clients/client-risingstar.jpg
       company_url: http://www.risingstargames.com/
     - company: Salix Games
-      company_logo: /images/clients/client-salixgames.jpg
-      company_url: http://www.salixgames.com/
+      company_logo: /images/clients/picture4.png
+      company_url: https://www.salixgames.com/
     - company: Science and Media Museum
       company_logo: /images/clients/client-scienceandmmedia.jpg
       company_url: https://www.scienceandmediamuseum.org.uk/
