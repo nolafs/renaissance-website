@@ -191,9 +191,15 @@ clients:
     - company: Curve Games
       company_url: https://curvegames.com/
       company_logo: /images/clients/curve-games-logo.png
+    - company: Curveball Games
+      company_url: https://curveball-leisure.com/games/
+      company_logo: /images/clients/picture2.png
     - company: Eldelic Games
       company_url: https://www.eldelic.com/
       company_logo: /images/clients/eldelic-games-logo-vector-2.png
+    - company: emberlab
+      company_url: https://emberlab.com/
+      company_logo: /images/clients/company-logo_emberlab.png
     - company: Funcom
       company_url: www.funcom.com
       company_logo: /images/clients/funcom.png
@@ -251,6 +257,9 @@ clients:
     - company: Pathea
       company_url: https://pathea.net/
       company_logo: /images/clients/pathea.png
+    - company: Salix Games
+      company_url: https://www.salixgames.com/
+      company_logo: /images/clients/picture4.png
     - company: Seed Sparkle Lab
       company_logo: /images/clients/工作室logo（黑）.png
       company_url: https://www.starsandisland.com/en/#/
@@ -266,6 +275,9 @@ clients:
     - company: Tencent Games
       company_url: https://www.tencent.com/en-us/
       company_logo: /images/clients/tencent-games.png
+    - company: Untold Games
+      company_url: https://untoldgames.com/
+      company_logo: /images/clients/untold-games-logo.png
   heading: Our Current Clients
   productsheading: Latest Games
   productstext: Our Latest projects
