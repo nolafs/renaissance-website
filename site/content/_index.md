@@ -248,6 +248,9 @@ clients:
     - company: Jagex
       company_url: https://www.jagex.com/
       company_logo: /images/clients/jagex.png
+    - company: Kuro Games
+      company_logo: /images/clients/kuro_games_logo.svg.png
+      company_url: https://www.kurogames.com/
     - company: Level Infinite
       company_url: https://www.levelinfinite.com/
       company_logo: /images/clients/li-logo.png
