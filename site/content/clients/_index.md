@@ -170,6 +170,9 @@ clients:
     - company: Koei Tecmo
       company_url: https://www.koeitecmoeurope.com/
       company_logo: /images/clients/1200px-koei_tecmo_holdings_logo_20090401.svg.png
+    - company_url: https://www.kurogames.com/
+      company: Kuro Games
+      company_logo: /images/clients/kuro_games_logo.svg.png
     - company: Kwalee
       company_url: https://www.kwalee.com/
       company_logo: /images/clients/kwalee.png
