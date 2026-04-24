@@ -121,6 +121,9 @@ clients:
     - company_url: https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Kena-Bridge-of-Spirits-3054992.html?srsltid=AfmBOoqFh9NkAIEc0B7EM9AYVkJ0LSEY5dh6gEmR4BxQxm9RFtGlZouq
       company: "Kena: Bridge of Spirits"
       company_logo: /images/games/kena.jpg
+    - company: Kick
+      company_url: https://store.steampowered.com/app/3760370/Kick/
+      company_logo: /images/games/kick.jpg
     - company: Limerence
       company_url: https://store.steampowered.com/app/3875300/Limerence/
       company_logo: /images/games/limerence.jpg
@@ -309,6 +312,7 @@ testimonials:
   - testimonial: Aaron Deng
   - testimonial: "Agostino Simonetta "
   - testimonial: Alex Hutchinson
+  - testimonial: Christopher Dring
   - testimonial: Gavin Price
   - testimonial: Joe Brammer
   - testimonial: Krista Lee
