@@ -79,6 +79,9 @@ clients:
     - company: Conan Exiles
       company_url: https://store.steampowered.com/app/440900/Conan_Exiles/
       company_logo: /images/games/conan.jpg
+    - company: "Cthulhu: The Cosmic Abyss"
+      company_url: https://store.steampowered.com/app/2760560/Cthulhu_The_Cosmic_Abyss/
+      company_logo: /images/games/cthulhu.jpg
     - company: DAVE THE DIVER
       company_logo: /images/games/dtd-website.jpg
       company_url: https://store.steampowered.com/app/1868140/DAVE_THE_DIVER/
@@ -94,6 +97,9 @@ clients:
     - company_url: https://store.steampowered.com/app/3008130/Dying_Light_The_Beast/
       company_logo: /images/games/dltb.jpg
       company: "Dying Light: The Beast"
+    - company: Edge of Memories
+      company_url: https://store.steampowered.com/app/2738170/Edge_of_Memories/
+      company_logo: /images/games/edge.jpg
     - company: Everwind
       company_logo: /images/games/everwind-website.jpg
       company_url: https://store.steampowered.com/app/2253100/Everwind/
@@ -106,12 +112,18 @@ clients:
     - company: For The King II
       company_url: https://store.steampowered.com/app/1676840/For_The_King_II/
       company_logo: /images/games/ftk2-web.jpg
+    - company: "GreedFall: The Dying World"
+      company_url: https://store.steampowered.com/app/1997660/GreedFall_The_Dying_World/
+      company_logo: /images/games/greed.jpg
     - company_url: https://www.honorofkings.com/global-en/
       company: Honor Of Kings
       company_logo: /images/games/hok-image.jpg
     - company: Human Fall Flat
       company_logo: /images/games/hff-web.jpg
       company_url: https://store.steampowered.com/app/477160/Human_Fall_Flat/
+    - company: "Hunter: The Reckoning - Deathwish"
+      company_url: https://store.steampowered.com/app/4434610/Hunter_The_Reckoning__Deathwish/
+      company_logo: /images/games/hunter.jpg
     - company: "Icarus: Console Edition "
       company_url: https://store.playstation.com/en-gb/concept/10013354/
       company_logo: /images/games/icaweb.jpg
@@ -190,9 +202,15 @@ clients:
     - company: Stupid Never Dies
       company_url: https://store.steampowered.com/app/3486530/Stupid_Never_Dies/
       company_logo: /images/games/stupid.jpg
+    - company_url: https://store.steampowered.com/app/3290690/Styx_Blades_of_Greed/
+      company_logo: /images/games/styx.jpg
+      company: "Styx: Blades of Greed"
     - company: The Day I Became A Bird
       company_url: https://store.steampowered.com/app/3120030/The_Day_I_Became_A_Bird/
       company_logo: /images/games/dibab.jpg
+    - company: "The Mound: Omen of Cthulhu"
+      company_url: https://store.steampowered.com/app/2569760/The_Mound_Omen_of_Cthulhu/
+      company_logo: /images/games/mound.jpg
     - company: Wax Heads
       company_logo: /images/games/waxheads-website.jpg
       company_url: https://store.steampowered.com/app/2769240/Wax_Heads/
