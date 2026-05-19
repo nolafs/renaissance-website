@@ -326,6 +326,9 @@ clients:
     - company: Starbreeze
       company_url: https://www.starbreeze.com/
       company_logo: /images/clients/starbreeze.png
+    - company_url: https://stellarjockeys.com/
+      company: Stellar Jockeys
+      company_logo: /images/clients/stellarjockeys-profile_image-bcb63ffe1db5132d-300x300.png
     - company: Storm in a Teacup
       company_logo: /images/clients/client-storminateacup.jpg
       company_url: http://www.stcware.com/
