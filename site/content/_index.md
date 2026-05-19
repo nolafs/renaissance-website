@@ -67,6 +67,9 @@ clients:
     - company: ARMA Reforger
       company_url: https://store.steampowered.com/app/1874880/Arma_Reforger/
       company_logo: /images/games/arma-web.jpg
+    - company_url: https://store.steampowered.com/app/903930/Brigador_Killers/
+      company: Brigador Killers
+      company_logo: /images/games/brig.jpg
     - company_url: https://store.steampowered.com/app/2704090/Celestial_Return/
       company_logo: /images/games/celes-ret.jpg
       company: Celestial Return
