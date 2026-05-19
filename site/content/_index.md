@@ -115,6 +115,9 @@ clients:
     - company: "GreedFall: The Dying World"
       company_url: https://store.steampowered.com/app/1997660/GreedFall_The_Dying_World/
       company_logo: /images/games/greed.jpg
+    - company: Hell is Us
+      company_url: https://store.steampowered.com/app/1620730/Hell_is_Us/
+      company_logo: /images/games/hell.jpg
     - company_url: https://www.honorofkings.com/global-en/
       company: Honor Of Kings
       company_logo: /images/games/hok-image.jpg
@@ -124,6 +127,9 @@ clients:
     - company: "Hunter: The Reckoning - Deathwish"
       company_url: https://store.steampowered.com/app/4434610/Hunter_The_Reckoning__Deathwish/
       company_logo: /images/games/hunter.jpg
+    - company: Hunting Simulator 3
+      company_url: https://store.steampowered.com/app/2482760/Hunting_Simulator_3/
+      company_logo: /images/games/hunting.jpg
     - company: "Icarus: Console Edition "
       company_url: https://store.playstation.com/en-gb/concept/10013354/
       company_logo: /images/games/icaweb.jpg
@@ -166,6 +172,9 @@ clients:
     - company_url: https://store.steampowered.com/app/4100940/Poppy_Playtime__Chapter_5/
       company_logo: /images/games/mobpop5.jpg
       company: Poppy Playtime - Chapter 5
+    - company: Pro Cycling Manager 26
+      company_url: https://store.steampowered.com/app/3936530/Pro_Cycling_Manager_26/
+      company_logo: /images/games/pro-cyc.jpg
     - company_url: https://store.steampowered.com/app/2949320/Ratatan/
       company: Ratatan
       company_logo: /images/games/ratatan.jpg
@@ -187,6 +196,9 @@ clients:
     - company: Sanatorium
       company_url: https://store.steampowered.com/app/2059090/Sanatorium__A_Mental_Asylum_Simulator/
       company_logo: /images/games/sanat.jpg
+    - company: "Session: Skate Sim"
+      company_url: https://store.steampowered.com/app/861650/Session_Skate_Sim/
+      company_logo: /images/games/session.jpg
     - company_url: https://store.steampowered.com/app/4113940/Sovereign_Tower/
       company_logo: /images/games/sov-tow.jpg
       company: Sovereign Tower
@@ -211,9 +223,15 @@ clients:
     - company: "The Mound: Omen of Cthulhu"
       company_url: https://store.steampowered.com/app/2569760/The_Mound_Omen_of_Cthulhu/
       company_logo: /images/games/mound.jpg
+    - company_url: https://store.steampowered.com/app/3936520/Tour_de_France_2026/
+      company_logo: /images/games/tour.jpg
+      company: Tour de France 2026
     - company: Wax Heads
       company_logo: /images/games/waxheads-website.jpg
       company_url: https://store.steampowered.com/app/2769240/Wax_Heads/
+    - company_url: https://store.steampowered.com/app/3746290/Werewolf_The_Apocalypse__Rageborn/
+      company_logo: /images/games/werewolf.jpg
+      company: "Werewolf: The Apocalypse - Rageborn"
     - company: Wuthering Waves
       company_url: https://wutheringwaves.kurogames.com/en/main
       company_logo: /images/games/wut-wav.jpg
