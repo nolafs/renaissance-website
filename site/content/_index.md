@@ -79,6 +79,9 @@ clients:
     - company: Conan Exiles
       company_url: https://store.steampowered.com/app/440900/Conan_Exiles/
       company_logo: /images/games/conan.jpg
+    - company: Cosmo Tales
+      company_url: https://store.steampowered.com/app/3601630/Cosmo_Tales/
+      company_logo: /images/games/cosmo.jpg
     - company: "Cthulhu: The Cosmic Abyss"
       company_url: https://store.steampowered.com/app/2760560/Cthulhu_The_Cosmic_Abyss/
       company_logo: /images/games/cthulhu.jpg
