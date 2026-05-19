@@ -100,6 +100,9 @@ clients:
     - company: Edge of Memories
       company_url: https://store.steampowered.com/app/2738170/Edge_of_Memories/
       company_logo: /images/games/edge.jpg
+    - company_url: https://store.steampowered.com/app/2228250/Endurance_Motorsport_Series/
+      company: Endurance Motorsport Series
+      company_logo: /images/games/endurance.jpg
     - company: Everwind
       company_logo: /images/games/everwind-website.jpg
       company_url: https://store.steampowered.com/app/2253100/Everwind/
@@ -112,6 +115,9 @@ clients:
     - company: For The King II
       company_url: https://store.steampowered.com/app/1676840/For_The_King_II/
       company_logo: /images/games/ftk2-web.jpg
+    - company: Gear.Club Unlimited 3
+      company_url: https://store.steampowered.com/app/3659460/GearClub_Unlimited_3/
+      company_logo: /images/games/gear.jpg
     - company: "GreedFall: The Dying World"
       company_url: https://store.steampowered.com/app/1997660/GreedFall_The_Dying_World/
       company_logo: /images/games/greed.jpg
