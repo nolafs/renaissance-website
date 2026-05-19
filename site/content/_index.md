@@ -203,6 +203,9 @@ clients:
     - company: 10 Chambers
       company_logo: /images/clients/10-chambers-logo.png
       company_url: https://careers.10chambers.com/
+    - company: 505 Games
+      company_url: https://505games.com/
+      company_logo: /images/clients/505_games_logo.svg
     - company: Bohemia Interactive
       company_url: https://www.bohemia.net/
       company_logo: /images/clients/bohemia.png
@@ -293,6 +296,9 @@ clients:
     - company: Shoreline Games
       company_url: https://shorelinegames.com/
       company_logo: /images/clients/company-logo_shoreline-games.png
+    - company: Stellar Jockeys
+      company_url: https://stellarjockeys.com/
+      company_logo: /images/clients/stellarjockeys-profile_image-bcb63ffe1db5132d-300x300.png
     - company: Stormind Games
       company_url: https://stormindgames.com/
       company_logo: /images/clients/logo-stormind-games.webp
