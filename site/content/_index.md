@@ -67,6 +67,12 @@ clients:
     - company: ARMA Reforger
       company_url: https://store.steampowered.com/app/1874880/Arma_Reforger/
       company_logo: /images/games/arma-web.jpg
+    - company: Assetto Corsa Evo
+      company_url: https://store.steampowered.com/app/3058630/Assetto_Corsa_EVO/
+      company_logo: /images/games/ass-evo.jpg
+    - company_url: https://store.steampowered.com/app/3917090/Assetto_Corsa_Rally/
+      company: Assetto Corsa Rally
+      company_logo: /images/games/ass-rally.jpg
     - company_url: https://store.steampowered.com/app/903930/Brigador_Killers/
       company: Brigador Killers
       company_logo: /images/games/brig.jpg
