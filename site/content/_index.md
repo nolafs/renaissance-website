@@ -181,6 +181,9 @@ clients:
     - company: "Metal: Hellsinger"
       company_url: https://store.steampowered.com/app/1061910/Metal_Hellsinger/
       company_logo: /images/games/metal-hell.jpg
+    - company: Nivalis
+      company_url: https://store.steampowered.com/app/1488490/Nivalis/
+      company_logo: /images/games/nivalis.jpg
     - company: Path Of Exile
       company_url: https://store.steampowered.com/app/238960/Path_of_Exile/
       company_logo: /images/games/path-of-exile.jpg
