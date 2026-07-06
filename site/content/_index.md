@@ -365,6 +365,9 @@ clients:
     - company: Tencent Games
       company_url: https://www.tencent.com/en-us/
       company_logo: /images/clients/tencent-games.png
+    - company: The Indie Stone
+      company_logo: /images/clients/indie-stone.png
+      company_url: https://projectzomboid.com/blog/about-us/
     - company: Trailmark Games
       company_url: https://trailmarkgames.com/
       company_logo: /images/clients/tmg.png
