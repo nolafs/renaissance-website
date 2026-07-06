@@ -260,6 +260,9 @@ clients:
     - company: 505 Games
       company_url: https://505games.com/
       company_logo: /images/clients/505_games_logo.svg
+    - company: Blaze Entertainment
+      company_url: https://www.blazeretro.com/
+      company_logo: /images/clients/blaze.png
     - company: Bohemia Interactive
       company_url: https://www.bohemia.net/
       company_logo: /images/clients/bohemia.png
