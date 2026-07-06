@@ -380,6 +380,9 @@ clients:
     - company: Trailmark Games
       company_url: https://trailmarkgames.com/
       company_logo: /images/clients/tmg.png
+    - company_url: https://www.uient.com/
+      company_logo: /images/clients/u-i-ent.png
+      company: U&I Entertainment
   heading: Our Current Clients
   productsheading: Latest Games
   productstext: Our Latest projects
