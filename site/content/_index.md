@@ -356,6 +356,9 @@ clients:
     - company: Tencent Games
       company_url: https://www.tencent.com/en-us/
       company_logo: /images/clients/tencent-games.png
+    - company: Trailmark Games
+      company_url: https://trailmarkgames.com/
+      company_logo: /images/clients/tmg.png
   heading: Our Current Clients
   productsheading: Latest Games
   productstext: Our Latest projects
