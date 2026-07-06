@@ -73,6 +73,9 @@ clients:
     - company_url: https://store.steampowered.com/app/3917090/Assetto_Corsa_Rally/
       company: Assetto Corsa Rally
       company_logo: /images/games/ass-rally.jpg
+    - company_url: https://store.steampowered.com/app/4295810/A_Whisper_of_Fall_Jinyiwei/
+      company_logo: /images/games/whisper.jpg
+      company: "A Whisper of Fall: Jinyiwei"
     - company: Blades of Fire
       company_url: https://store.steampowered.com/app/2091020/Blades_of_Fire/
       company_logo: /images/games/blades.jpg
