@@ -329,9 +329,6 @@ clients:
     - company_url: https://www.nacongaming.com/en-GB/
       company_logo: /images/clients/nacon-logo-png_seeklogo-408310.png
       company: Nacon
-    - company: Passion Games
-      company_url: https://www.passion-animation.com/work/games/
-      company_logo: /images/clients/black_on_white.png
     - company: Raccoon Logic
       company_url: https://www.raccoonlogic.com/
       company_logo: /images/clients/raccoon-logic.png
