@@ -368,6 +368,9 @@ clients:
     - company: Typhoon
       company_logo: /images/clients/client-typhoon.jpg
       company_url: http://typhoonstudios.com/
+    - company_url: https://www.uient.com/
+      company: U&I Entertainment
+      company_logo: /images/clients/u-i-ent.png
     - company: Uncapped Games
       company_url: https://uncappedgames.com/
       company_logo: /images/clients/uncap-1.png
