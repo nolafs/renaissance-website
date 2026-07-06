@@ -193,6 +193,9 @@ clients:
     - company: Pro Cycling Manager 26
       company_url: https://store.steampowered.com/app/3936530/Pro_Cycling_Manager_26/
       company_logo: /images/games/pro-cyc.jpg
+    - company: Project Zomboid
+      company_logo: /images/games/pro-zom.jpg
+      company_url: https://store.steampowered.com/app/108600/Project_Zomboid/
     - company_url: https://store.steampowered.com/app/2949320/Ratatan/
       company: Ratatan
       company_logo: /images/games/ratatan.jpg
