@@ -241,6 +241,9 @@ clients:
     - company_url: https://store.steampowered.com/app/3936520/Tour_de_France_2026/
       company_logo: /images/games/tour.jpg
       company: Tour de France 2026
+    - company: WARDOGS
+      company_url: https://store.steampowered.com/app/1867240/WARDOGS/
+      company_logo: /images/games/wardogs.jpg
     - company: Wax Heads
       company_logo: /images/games/waxheads-website.jpg
       company_url: https://store.steampowered.com/app/2769240/Wax_Heads/
