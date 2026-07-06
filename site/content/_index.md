@@ -236,6 +236,9 @@ clients:
     - company: 3DClouds
       company_logo: /images/clients/3dc.png
       company_url: https://www.3dclouds.it/
+    - company: 4Divinity
+      company_logo: /images/clients/4divinity-logo.png
+      company_url: https://www.4divinity.com/
     - company: 505 Games
       company_url: https://505games.com/
       company_logo: /images/clients/505_games_logo.svg
