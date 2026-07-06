@@ -133,6 +133,9 @@ clients:
     - company: "GreedFall: The Dying World"
       company_url: https://store.steampowered.com/app/1997660/GreedFall_The_Dying_World/
       company_logo: /images/games/greed.jpg
+    - company: Guns of Eschaton
+      company_url: https://store.steampowered.com/app/3734220/Guns_of_Eschaton/
+      company_logo: /images/games/guns-of-e.jpg
     - company: Hell is Us
       company_url: https://store.steampowered.com/app/1620730/Hell_is_Us/
       company_logo: /images/games/hell.jpg
