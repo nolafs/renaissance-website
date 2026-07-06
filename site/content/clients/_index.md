@@ -5,6 +5,9 @@ clients:
     - company: 3d Clouds
       company_url: https://www.3dclouds.it/
       company_logo: /images/clients/3dcloudslogo.png
+    - company: 4Divinity
+      company_logo: /images/clients/4divinity-logo.png
+      company_url: https://www.4divinity.com/
     - company: 10 Chambers
       company_logo: /images/clients/10-chambers-logo.png
       company_url: https://careers.10chambers.com/
@@ -338,8 +341,8 @@ clients:
     - company: Tate Multimedia
       company_logo: /images/clients/tate.png
       company_url: https://www.tatemultimedia.com/
-    - company: Team 17
-      company_logo: /images/clients/client-team17.jpg
+    - company: Team17
+      company_logo: /images/clients/t17.png
       company_url: https://www.team17.com/
     - company: Tencent Games
       company_logo: /images/clients/tencent-games.png
@@ -359,6 +362,9 @@ clients:
     - company: Tiny Dragon Games
       company_url: https://www.tinydragongames.com/
       company_logo: /images/clients/tiny-dragon.png
+    - company: Trailmark Games
+      company_url: https://trailmarkgames.com/
+      company_logo: /images/clients/tmg.png
     - company: Typhoon
       company_logo: /images/clients/client-typhoon.jpg
       company_url: http://typhoonstudios.com/
