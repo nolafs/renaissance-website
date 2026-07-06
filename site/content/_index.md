@@ -199,6 +199,9 @@ clients:
     - company: "Session: Skate Sim"
       company_url: https://store.steampowered.com/app/861650/Session_Skate_Sim/
       company_logo: /images/games/session.jpg
+    - company_url: https://store.steampowered.com/app/1687540/Showa_American_Story/
+      company_logo: /images/games/showa.jpg
+      company: Showa American Story
     - company_url: https://store.steampowered.com/app/4113940/Sovereign_Tower/
       company_logo: /images/games/sov-tow.jpg
       company: Sovereign Tower
