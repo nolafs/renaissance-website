@@ -148,6 +148,9 @@ clients:
     - company: Hell is Us
       company_url: https://store.steampowered.com/app/1620730/Hell_is_Us/
       company_logo: /images/games/hell.jpg
+    - company_url: https://store.steampowered.com/app/2907400/Hokko_Spaces/
+      company_logo: /images/games/hokko.jpg
+      company: Hokko Spaces
     - company: Human Fall Flat
       company_logo: /images/games/hff-web.jpg
       company_url: https://store.steampowered.com/app/477160/Human_Fall_Flat/
