@@ -341,6 +341,9 @@ clients:
     - company: Stormind Games
       company_url: https://stormindgames.com/
       company_logo: /images/clients/logo-stormind-games.webp
+    - company: Team17
+      company_url: https://www.team17.com/
+      company_logo: /images/clients/t17.png
     - company: Tencent Games
       company_url: https://www.tencent.com/en-us/
       company_logo: /images/clients/tencent-games.png
