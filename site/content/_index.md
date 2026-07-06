@@ -79,6 +79,9 @@ clients:
     - company: Blades of Fire
       company_url: https://store.steampowered.com/app/2091020/Blades_of_Fire/
       company_logo: /images/games/blades.jpg
+    - company: "Bloodstained: The Scarlet Engagement"
+      company_logo: /images/games/blood-tse.jpg
+      company_url: https://store.steampowered.com/app/1883810/Bloodstained_The_Scarlet_Engagement/
     - company_url: https://store.steampowered.com/app/903930/Brigador_Killers/
       company: Brigador Killers
       company_logo: /images/games/brig.jpg
