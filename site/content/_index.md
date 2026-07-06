@@ -220,6 +220,9 @@ clients:
     - company: The Day I Became A Bird
       company_url: https://store.steampowered.com/app/3120030/The_Day_I_Became_A_Bird/
       company_logo: /images/games/dibab.jpg
+    - company: The Defiant
+      company_url: https://store.steampowered.com/app/3184960/The_Defiant/
+      company_logo: /images/games/defiant.jpg
     - company: "The Mound: Omen of Cthulhu"
       company_url: https://store.steampowered.com/app/2569760/The_Mound_Omen_of_Cthulhu/
       company_logo: /images/games/mound.jpg
