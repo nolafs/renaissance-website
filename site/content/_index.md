@@ -329,6 +329,9 @@ clients:
     - company: Passion Games
       company_url: https://www.passion-animation.com/work/games/
       company_logo: /images/clients/black_on_white.png
+    - company: Raccoon Logic
+      company_url: https://www.raccoonlogic.com/
+      company_logo: /images/clients/raccoon-logic.png
     - company: Salix Games
       company_url: https://www.salixgames.com/
       company_logo: /images/clients/picture4.png
