@@ -142,6 +142,9 @@ clients:
     - company_url: https://store.steampowered.com/app/4346690/Genigods_Nezha/
       company_logo: /images/games/genig.jpg
       company: "Genigods: Nezha"
+    - company_url: https://store.steampowered.com/app/2748340/Goblin_Cleanup/
+      company_logo: /images/games/gob-clean.jpg
+      company: Goblin Cleanup
     - company: "GreedFall: The Dying World"
       company_url: https://store.steampowered.com/app/1997660/GreedFall_The_Dying_World/
       company_logo: /images/games/greed.jpg
