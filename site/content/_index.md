@@ -130,6 +130,9 @@ clients:
     - company: Gear.Club Unlimited 3
       company_url: https://store.steampowered.com/app/3659460/GearClub_Unlimited_3/
       company_logo: /images/games/gear.jpg
+    - company_url: https://store.steampowered.com/app/4346690/Genigods_Nezha/
+      company_logo: /images/games/genig.jpg
+      company: "Genigods: Nezha"
     - company: "GreedFall: The Dying World"
       company_url: https://store.steampowered.com/app/1997660/GreedFall_The_Dying_World/
       company_logo: /images/games/greed.jpg
