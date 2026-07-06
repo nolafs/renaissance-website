@@ -217,6 +217,9 @@ clients:
     - company_url: https://store.steampowered.com/app/3290690/Styx_Blades_of_Greed/
       company_logo: /images/games/styx.jpg
       company: "Styx: Blades of Greed"
+    - company_url: https://store.steampowered.com/app/3846900/Sword_Sage_Awakening/
+      company_logo: /images/games/ssa.jpg
+      company: "Sword Sage: Awakening"
     - company: The Day I Became A Bird
       company_url: https://store.steampowered.com/app/3120030/The_Day_I_Became_A_Bird/
       company_logo: /images/games/dibab.jpg
