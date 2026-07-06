@@ -253,6 +253,9 @@ clients:
     - company: Wuthering Waves
       company_url: https://wutheringwaves.kurogames.com/en/main
       company_logo: /images/games/wut-wav.jpg
+    - company_url: https://store.steampowered.com/app/3371050/Zeverland/
+      company: Zeverland
+      company_logo: /images/games/zever.jpg
   clients_featured:
     - company: 3DClouds
       company_logo: /images/clients/3dc.png
