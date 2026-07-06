@@ -82,9 +82,6 @@ clients:
     - company_url: https://store.steampowered.com/app/2704090/Celestial_Return/
       company_logo: /images/games/celes-ret.jpg
       company: Celestial Return
-    - company: City 20
-      company_url: https://store.steampowered.com/app/1597980/City_20/
-      company_logo: /images/games/city-20-steam.jpg
     - company: Conan Exiles
       company_url: https://store.steampowered.com/app/440900/Conan_Exiles/
       company_logo: /images/games/conan.jpg
@@ -100,9 +97,6 @@ clients:
     - company: DayZ
       company_url: https://store.steampowered.com/app/221100/DayZ/
       company_logo: /images/games/dayz.jpg
-    - company: Den Of Wolves
-      company_url: https://store.steampowered.com/app/1818140/Den_of_Wolves/
-      company_logo: /images/games/den-of-wolves.jpg
     - company: Dragon Shelter
       company_url: https://store.steampowered.com/app/2712590/Dragon_Shelter/
       company_logo: /images/games/dragon.jpg
@@ -142,9 +136,6 @@ clients:
     - company: Hell is Us
       company_url: https://store.steampowered.com/app/1620730/Hell_is_Us/
       company_logo: /images/games/hell.jpg
-    - company_url: https://www.honorofkings.com/global-en/
-      company: Honor Of Kings
-      company_logo: /images/games/hok-image.jpg
     - company: Human Fall Flat
       company_logo: /images/games/hff-web.jpg
       company_url: https://store.steampowered.com/app/477160/Human_Fall_Flat/
@@ -154,36 +145,18 @@ clients:
     - company: Hunting Simulator 3
       company_url: https://store.steampowered.com/app/2482760/Hunting_Simulator_3/
       company_logo: /images/games/hunting.jpg
-    - company: "Icarus: Console Edition "
-      company_url: https://store.playstation.com/en-gb/concept/10013354/
-      company_logo: /images/games/icaweb.jpg
-    - company: Infinity Nikki
-      company_url: https://infinitynikki.infoldgames.com/en/home
-      company_logo: /images/games/infinity-nikki.jpg
-    - company: Inky Blinky Bob
-      company_url: https://store.steampowered.com/app/4305130/Inky_Blinky_Bob/
-      company_logo: /images/games/inkybb.jpg
-    - company_url: https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Kena-Bridge-of-Spirits-3054992.html?srsltid=AfmBOoqFh9NkAIEc0B7EM9AYVkJ0LSEY5dh6gEmR4BxQxm9RFtGlZouq
-      company: "Kena: Bridge of Spirits"
-      company_logo: /images/games/kena.jpg
     - company: Kick
       company_url: https://store.steampowered.com/app/3760370/Kick/
       company_logo: /images/games/kick.jpg
     - company: Limerence
       company_url: https://store.steampowered.com/app/3875300/Limerence/
       company_logo: /images/games/limerence.jpg
-    - company: Love & Deepspace
-      company_url: https://loveanddeepspace.infoldgames.com/en-EN/home
-      company_logo: /images/games/love-and-deepspace.png
     - company: Lunar Strike
       company_logo: /images/games/lunar-strike-web.jpg
       company_url: https://store.steampowered.com/app/3949580/Lunar_Strike/
     - company: MECHBORN
       company_url: https://store.steampowered.com/app/3531220/MECHBORN/
       company_logo: /images/games/mechb2.png
-    - company: "Metal: Hellsinger"
-      company_url: https://store.steampowered.com/app/1061910/Metal_Hellsinger/
-      company_logo: /images/games/metal-hell.jpg
     - company: Nivalis
       company_url: https://store.steampowered.com/app/1488490/Nivalis/
       company_logo: /images/games/nivalis.jpg
@@ -208,9 +181,6 @@ clients:
     - company_url: https://store.steampowered.com/app/3335310/Remothered_Red_Nuns_Legacy/
       company_logo: /images/games/remoth.jpg
       company: "Remothered: Red Nun's Legacy"
-    - company: Romeo Is A Dead Man
-      company_logo: /images/games/riadm-website.jpg
-      company_url: https://store.steampowered.com/app/3050900/ROMEO_IS_A_DEAD_MAN/
     - company: RuneScape
       company_logo: /images/games/rune-website.jpg
       company_url: https://store.steampowered.com/app/1343400/RuneScape/
@@ -266,9 +236,6 @@ clients:
     - company: 3DClouds
       company_logo: /images/clients/3dc.png
       company_url: https://www.3dclouds.it/
-    - company: 10 Chambers
-      company_logo: /images/clients/10-chambers-logo.png
-      company_url: https://careers.10chambers.com/
     - company: 505 Games
       company_url: https://505games.com/
       company_logo: /images/clients/505_games_logo.svg
@@ -284,12 +251,6 @@ clients:
     - company: Curveball Games
       company_url: https://curveball-leisure.com/games/
       company_logo: /images/clients/picture2.png
-    - company: Eldelic Games
-      company_url: https://www.eldelic.com/
-      company_logo: /images/clients/eldelic-games-logo-vector-2.png
-    - company: emberlab
-      company_url: https://emberlab.com/
-      company_logo: /images/clients/company-logo_emberlab.png
     - company: Funcom
       company_url: www.funcom.com
       company_logo: /images/clients/funcom.png
@@ -299,15 +260,9 @@ clients:
     - company: GPTRACK50 Inc.
       company_url: https://www.gptrack50.com/en/
       company_logo: /images/clients/gptrack-logo.png
-    - company: Grasshopper Manufacture
-      company_logo: /images/clients/grasshopper.png
-      company_url: https://www.grasshopper.co.jp/en/
     - company: Grinding Gear Games
       company_logo: /images/clients/ggg-logo.png
       company_url: https://www.grindinggear.com/
-    - company: Grip Studios
-      company_url: https://grip-studios.com/
-      company_logo: /images/clients/grip_studios_black.png
     - company: GRYPHLINE
       company_url: https://www.gryphline.com/en-us/home
       company_logo: /images/clients/company-logo_gryphline.png
@@ -317,9 +272,6 @@ clients:
     - company: GSE
       company_url: https://asia.hkgse.com/en
       company_logo: /images/clients/gse_logo.png
-    - company: Infold Games
-      company_url: https://www.infoldgames.com/en/home
-      company_logo: /images/clients/infold.png
     - company: Jagex
       company_url: https://www.jagex.com/
       company_logo: /images/clients/jagex.png
@@ -347,9 +299,6 @@ clients:
     - company: Passion Games
       company_url: https://www.passion-animation.com/work/games/
       company_logo: /images/clients/black_on_white.png
-    - company: Pathea
-      company_url: https://pathea.net/
-      company_logo: /images/clients/pathea.png
     - company: Salix Games
       company_url: https://www.salixgames.com/
       company_logo: /images/clients/picture4.png
@@ -371,9 +320,6 @@ clients:
     - company: Tencent Games
       company_url: https://www.tencent.com/en-us/
       company_logo: /images/clients/tencent-games.png
-    - company: Untold Games
-      company_url: https://untoldgames.com/
-      company_logo: /images/clients/untold-games-logo.png
   heading: Our Current Clients
   productsheading: Latest Games
   productstext: Our Latest projects
