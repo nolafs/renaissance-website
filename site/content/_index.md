@@ -223,6 +223,9 @@ clients:
     - company_url: https://store.steampowered.com/app/1687540/Showa_American_Story/
       company_logo: /images/games/showa.jpg
       company: Showa American Story
+    - company_url: https://store.steampowered.com/app/2333000/Silver_Pines/
+      company_logo: /images/games/silver-pines.jpg
+      company: Silver Pines
     - company_url: https://store.steampowered.com/app/4113940/Sovereign_Tower/
       company_logo: /images/games/sov-tow.jpg
       company: Sovereign Tower
