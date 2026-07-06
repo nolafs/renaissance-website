@@ -88,6 +88,9 @@ clients:
     - company_url: https://store.steampowered.com/app/2704090/Celestial_Return/
       company_logo: /images/games/celes-ret.jpg
       company: Celestial Return
+    - company_url: https://store.steampowered.com/app/3562200/Cloudscrapers/
+      company_logo: /images/games/clouds.jpg
+      company: Cloudscrapers
     - company: Conan Exiles
       company_url: https://store.steampowered.com/app/440900/Conan_Exiles/
       company_logo: /images/games/conan.jpg
