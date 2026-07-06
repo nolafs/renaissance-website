@@ -97,6 +97,9 @@ clients:
     - company: DAVE THE DIVER
       company_logo: /images/games/dtd-website.jpg
       company_url: https://store.steampowered.com/app/1868140/DAVE_THE_DIVER/
+    - company_url: https://store.steampowered.com/app/4394810/DAVE_THE_DIVER__In_the_Jungle_Content_Pack/
+      company_logo: /images/games/dtd-jungle.jpg
+      company: DAVE THE DIVER - In the Jungle Content Pack
     - company: DayZ
       company_url: https://store.steampowered.com/app/221100/DayZ/
       company_logo: /images/games/dayz.jpg
