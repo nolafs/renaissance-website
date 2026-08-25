@@ -85,6 +85,9 @@ clients:
     - company_url: https://store.steampowered.com/app/903930/Brigador_Killers/
       company: Brigador Killers
       company_logo: /images/games/brig.jpg
+    - company_logo: /images/games/bs2-rm.jpg
+      company: "Broken Sword - The Smoking Mirror: Reforged"
+      company_url: https://store.steampowered.com/app/3335460/Broken_Sword__The_Smoking_Mirror_Reforged/
     - company_url: https://store.steampowered.com/app/2704090/Celestial_Return/
       company_logo: /images/games/celes-ret.jpg
       company: Celestial Return
