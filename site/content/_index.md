@@ -305,6 +305,9 @@ clients:
     - company: Curveball Games
       company_url: https://curveball-leisure.com/games/
       company_logo: /images/clients/picture2.png
+    - company_url: https://www.digitallighthouse.it/index.php/work-en/videogame-en
+      company: Digital Lighthouse
+      company_logo: /images/clients/logo_digital_lighthouse.png
     - company: Funcom
       company_url: www.funcom.com
       company_logo: /images/clients/funcom.png
