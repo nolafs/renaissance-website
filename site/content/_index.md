@@ -127,6 +127,9 @@ clients:
     - company: Edge of Memories
       company_url: https://store.steampowered.com/app/2738170/Edge_of_Memories/
       company_logo: /images/games/edge.jpg
+    - company: Encryption
+      company_logo: /images/games/encrypt.jpg
+      company_url: https://www.digitallighthouse.it/index.php/work-en/videogame-en
     - company_url: https://store.steampowered.com/app/2228250/Endurance_Motorsport_Series/
       company: Endurance Motorsport Series
       company_logo: /images/games/endurance.jpg
