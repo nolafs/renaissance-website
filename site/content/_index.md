@@ -130,9 +130,6 @@ clients:
     - company: Everwind
       company_logo: /images/games/everwind-website.jpg
       company_url: https://store.steampowered.com/app/2253100/Everwind/
-    - company: Exoborne
-      company_logo: /images/games/exoborne.jpg
-      company_url: https://store.steampowered.com/app/2705130/Exoborne/
     - company: Flock Off!
       company_url: https://store.steampowered.com/app/3021550/Flock_Off/
       company_logo: /images/games/flock.jpg
@@ -353,15 +350,15 @@ clients:
     - company: Raccoon Logic
       company_url: https://www.raccoonlogic.com/
       company_logo: /images/clients/raccoon-logic.png
+    - company: Revolution Software
+      company_url: https://revolution.co.uk/
+      company_logo: /images/clients/revolution.png
     - company: Salix Games
       company_url: https://www.salixgames.com/
       company_logo: /images/clients/picture4.png
     - company: Seed Sparkle Lab
       company_logo: /images/clients/工作室logo（黑）.png
       company_url: https://www.starsandisland.com/en/#/
-    - company: Sharkmob
-      company_url: https://www.sharkmob.com/
-      company_logo: /images/clients/sharkmobtest.png
     - company: Shoreline Games
       company_url: https://shorelinegames.com/
       company_logo: /images/clients/company-logo_shoreline-games.png
