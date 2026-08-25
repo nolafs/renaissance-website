@@ -2,7 +2,7 @@
 title: Wax Heads
 date: 2026-05-05T12:00:00.000+01:00
 categories: worldwide-campaigns
-image: /images/case-studies/waxheads.jpg
+image: /images/case-studies/waxheads-2.jpg
 client: Curve Games
 description: Renaissance PR worked with Curve Games on Wax Heads covering the
   games release date announcement through until the launch on PC & consoles,
