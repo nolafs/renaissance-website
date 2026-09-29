@@ -169,6 +169,9 @@ clients:
     - company_url: https://store.steampowered.com/app/2907400/Hokko_Spaces/
       company_logo: /images/games/hokko.jpg
       company: Hokko Spaces
+    - company: Holstin
+      company_url: https://store.steampowered.com/app/2235430/Holstin/
+      company_logo: /images/games/holstin.jpg
     - company: Human Fall Flat
       company_logo: /images/games/hff-web.jpg
       company_url: https://store.steampowered.com/app/477160/Human_Fall_Flat/
