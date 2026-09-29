@@ -286,6 +286,9 @@ clients:
     - company_url: https://store.steampowered.com/app/3746290/Werewolf_The_Apocalypse__Rageborn/
       company_logo: /images/games/werewolf.jpg
       company: "Werewolf: The Apocalypse - Rageborn"
+    - company: Westlanders
+      company_url: https://store.steampowered.com/app/3886530/Westlanders/
+      company_logo: /images/games/westl.jpg
     - company: What Goes Up
       company_url: https://store.steampowered.com/app/2987600/What_Goes_Up/
       company_logo: /images/games/what-goes.jpg
