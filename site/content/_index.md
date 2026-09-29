@@ -259,6 +259,9 @@ clients:
     - company: "The Mound: Omen of Cthulhu"
       company_url: https://store.steampowered.com/app/2569760/The_Mound_Omen_of_Cthulhu/
       company_logo: /images/games/mound.jpg
+    - company: "The Walking Dead: Streets of Survival"
+      company_url: https://store.steampowered.com/app/3777850/The_Walking_Dead_Streets_of_Survival/
+      company_logo: /images/games/walking.jpg
     - company_url: https://store.steampowered.com/app/3936520/Tour_de_France_2026/
       company_logo: /images/games/tour.jpg
       company: Tour de France 2026
