@@ -268,6 +268,9 @@ clients:
     - company: WARDOGS
       company_url: https://store.steampowered.com/app/1867240/WARDOGS/
       company_logo: /images/games/wardogs.jpg
+    - company_url: https://store.steampowered.com/app/3960600/Warrior_Cats_Clans_of_the_Forest/
+      company_logo: /images/games/war-cats.jpg
+      company: "Warrior Cats: Clans of the Forest"
     - company: Wax Heads
       company_logo: /images/games/waxheads-website.jpg
       company_url: https://store.steampowered.com/app/2769240/Wax_Heads/
