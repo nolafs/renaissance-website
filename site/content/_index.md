@@ -58,6 +58,9 @@ clients:
     - company_url: https://afkjourney.farlightgames.com/official.html
       company: AFK Journey
       company_logo: /images/games/afk-journey.png
+    - company: Alien Breed 35th Anniversary Collection
+      company_url: https://store.steampowered.com/app/4870460/Alien_Breed_35th_Anniversary_Collection/
+      company_logo: /images/games/alien-breed.jpg
     - company: Aloft
       company_url: https://store.steampowered.com/app/1660080/ALOFT/
       company_logo: /images/games/aloft-header.jpg
@@ -181,9 +184,6 @@ clients:
     - company: Lunar Strike
       company_logo: /images/games/lunar-strike-web.jpg
       company_url: https://store.steampowered.com/app/3949580/Lunar_Strike/
-    - company: MECHBORN
-      company_url: https://store.steampowered.com/app/3531220/MECHBORN/
-      company_logo: /images/games/mechb2.png
     - company: Nivalis Nights
       company_url: https://store.steampowered.com/app/1488490/Nivalis_Nights/
       company_logo: /images/games/niv-nights.jpg
@@ -226,9 +226,6 @@ clients:
     - company: "Session: Skate Sim"
       company_url: https://store.steampowered.com/app/861650/Session_Skate_Sim/
       company_logo: /images/games/session.jpg
-    - company_url: https://store.steampowered.com/app/1687540/Showa_American_Story/
-      company_logo: /images/games/showa.jpg
-      company: Showa American Story
     - company_url: https://store.steampowered.com/app/2333000/Silver_Pines/
       company_logo: /images/games/silver-pines.jpg
       company: Silver Pines
