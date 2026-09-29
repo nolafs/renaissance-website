@@ -121,6 +121,9 @@ clients:
     - company_url: https://store.steampowered.com/app/3327120/Dreadline_Express/
       company: Dreadline Express
       company_logo: /images/games/dread.jpg
+    - company_url: https://store.steampowered.com/app/2870790/Dumpster_Gang/
+      company_logo: /images/games/dumpster.jpg
+      company: Dumpster Gang
     - company: Dune Awakening
       company_logo: /images/games/dune-awake-image.jpg
       company_url: https://store.steampowered.com/app/1172710/Dune_Awakening/
