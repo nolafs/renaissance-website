@@ -277,6 +277,9 @@ clients:
     - company_url: https://store.steampowered.com/app/3746290/Werewolf_The_Apocalypse__Rageborn/
       company_logo: /images/games/werewolf.jpg
       company: "Werewolf: The Apocalypse - Rageborn"
+    - company: "Worms: Galactic Tactics"
+      company_url: https://store.steampowered.com/app/3278930/Worms_Galactic_Tactics/
+      company_logo: /images/games/worms.jpg
     - company: Wuthering Waves
       company_url: https://wutheringwaves.kurogames.com/en/main
       company_logo: /images/games/wut-wav.jpg
