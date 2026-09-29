@@ -157,6 +157,9 @@ clients:
     - company_url: https://store.steampowered.com/app/2748340/Goblin_Cleanup/
       company_logo: /images/games/gob-clean.jpg
       company: Goblin Cleanup
+    - company_url: https://store.steampowered.com/app/4216840/Greak_2_Alliance_of_the_Storms/
+      company_logo: /images/games/greak2.jpg
+      company: "Greak 2: Alliance of the Storms"
     - company: "GreedFall: The Dying World"
       company_url: https://store.steampowered.com/app/1997660/GreedFall_The_Dying_World/
       company_logo: /images/games/greed.jpg
