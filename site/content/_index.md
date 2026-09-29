@@ -152,7 +152,7 @@ clients:
       company_url: https://store.steampowered.com/app/3659460/GearClub_Unlimited_3/
       company_logo: /images/games/gear.jpg
     - company_url: https://store.steampowered.com/app/4346690/Genigods_Nezha/
-      company_logo: /images/games/genig.jpg
+      company_logo: /images/games/header.jpg
       company: "Genigods: Nezha"
     - company_url: https://store.steampowered.com/app/2748340/Goblin_Cleanup/
       company_logo: /images/games/gob-clean.jpg
