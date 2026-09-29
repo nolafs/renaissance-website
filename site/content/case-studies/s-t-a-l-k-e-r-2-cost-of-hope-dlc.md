@@ -17,12 +17,12 @@ significant new chapter for the game & re-engage existing players.
 
 {{< imageSize image="/images/case-studies/stcoh1.png" align="left"  alt="stcoh1" width="656" height="397" processing="resize">}}
 
-Through coordinated outreach we generated **320 articles** with an estimated potential reach of **957 million UVPM**. This included 93 pieces from Tier 1 media & 66 reviews, with coverage appearing across IGN, GameRant,
+Through coordinated outreach we generated **320 articles** with an estimated potential reach of **957 million UVPM**. This included **93 pieces from Tier 1** media & **66 reviews**, with coverage appearing across IGN, GameRant,
 Vandal, GameStar, Radio Times, Rock Paper Shotgun and Eurogamer Germany. 
 
 {{< imageSize image="/images/case-studies/stcoh2.png" align="left"  alt="stcoh2" width="339" height="397" processing="resize">}}
 
-The creator campaign reached more than 300 targeted channels & distributed over 160 keys globally, ultimately resulting in 1,517 videos & streams from 523 YouTube & Twitch channels.
+The creator campaign reached more than **300 targeted channels** & distributed over 160 keys globally, ultimately resulting in **1,517 videos & streams** from **523 YouTube & Twitch channels**.
 
 {{< imageSize image="/images/case-studies/stcoh3.png" align="left"  alt="stcoh3" width="312" height="295" processing="resize">}}
 
