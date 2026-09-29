@@ -296,6 +296,9 @@ clients:
     - company: Cognition Europe
       company_logo: /images/clients/cognitioneurope_logo_black_small.jpg
       company_url: https://cognition.eu.com/
+    - company: Commodore
+      company_url: https://commodore.net/
+      company_logo: /images/clients/commodore-1-logo-png-transparent.png
     - company: Curve Games
       company_url: https://curvegames.com/
       company_logo: /images/clients/curve-games-logo.png
