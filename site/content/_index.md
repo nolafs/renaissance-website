@@ -247,6 +247,9 @@ clients:
     - company: "S.T.A.L.K.E.R. 2: Heart of Chornobyl"
       company_url: https://store.steampowered.com/app/1643320/STALKER_2_Heart_of_Chornobyl/
       company_logo: /images/games/stalker-2-header.jpg
+    - company_url: https://store.steampowered.com/app/3765020/STALKER_2_Cost_of_Hope/
+      company_logo: /images/games/stalk-coh.jpg
+      company: "S.T.A.L.K.E.R.2: Cost of Hope"
     - company: Starsand Island
       company_url: https://store.steampowered.com/app/2966320/Starsand_Island/
       company_logo: /images/games/starsand.jpg
