@@ -55,12 +55,6 @@ services:
     src="https://player.vimeo.com/api/player.js"></script>
 clients:
   clients:
-    - company_url: https://afkjourney.farlightgames.com/official.html
-      company: AFK Journey
-      company_logo: /images/games/afk-journey.png
-    - company: Alien Breed 35th Anniversary Collection
-      company_url: https://store.steampowered.com/app/4870460/Alien_Breed_35th_Anniversary_Collection/
-      company_logo: /images/games/alien-breed.jpg
     - company: Aloft
       company_url: https://store.steampowered.com/app/1660080/ALOFT/
       company_logo: /images/games/aloft-header.jpg
@@ -85,9 +79,6 @@ clients:
     - company: "Bloodstained: The Scarlet Engagement"
       company_logo: /images/games/blood-tse.jpg
       company_url: https://store.steampowered.com/app/1883810/Bloodstained_The_Scarlet_Engagement/
-    - company_url: https://store.steampowered.com/app/903930/Brigador_Killers/
-      company: Brigador Killers
-      company_logo: /images/games/brig.jpg
     - company_logo: /images/games/bs2-rm.jpg
       company: "Broken Sword - The Smoking Mirror: Reforged"
       company_url: https://store.steampowered.com/app/3335460/Broken_Sword__The_Smoking_Mirror_Reforged/
@@ -190,9 +181,6 @@ clients:
     - company: Limerence
       company_url: https://store.steampowered.com/app/3875300/Limerence/
       company_logo: /images/games/limerence.jpg
-    - company: Lunar Strike
-      company_logo: /images/games/lunar-strike-web.jpg
-      company_url: https://store.steampowered.com/app/3949580/Lunar_Strike/
     - company: Nivalis Nights
       company_url: https://store.steampowered.com/app/1488490/Nivalis_Nights/
       company_logo: /images/games/niv-nights.jpg
@@ -211,9 +199,6 @@ clients:
     - company: Pro Cycling Manager 26
       company_url: https://store.steampowered.com/app/3936530/Pro_Cycling_Manager_26/
       company_logo: /images/games/pro-cyc.jpg
-    - company: Project Zomboid
-      company_logo: /images/games/pro-zom.jpg
-      company_url: https://store.steampowered.com/app/108600/Project_Zomboid/
     - company_url: https://store.steampowered.com/app/2949320/Ratatan/
       company: Ratatan
       company_logo: /images/games/ratatan.jpg
@@ -398,9 +383,6 @@ clients:
     - company: Tencent Games
       company_url: https://www.tencent.com/en-us/
       company_logo: /images/clients/tencent-games.png
-    - company: The Indie Stone
-      company_logo: /images/clients/indie-stone.png
-      company_url: https://projectzomboid.com/blog/about-us/
     - company: Trailmark Games
       company_url: https://trailmarkgames.com/
       company_logo: /images/clients/tmg.png
