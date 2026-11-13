@@ -317,12 +317,6 @@ clients:
     - company: Bohemia Interactive
       company_url: https://www.bohemia.net/
       company_logo: /images/clients/bohemia.png
-    - company: Cognition Europe
-      company_logo: /images/clients/cognitioneurope_logo_black_small.jpg
-      company_url: https://cognition.eu.com/
-    - company: Commodore
-      company_url: https://commodore.net/
-      company_logo: /images/clients/commodore-1-logo-png-transparent.png
     - company: Curve Games
       company_url: https://curvegames.com/
       company_logo: /images/clients/curve-games-logo.png
@@ -338,6 +332,9 @@ clients:
     - company: gamescom
       company_logo: /images/clients/gamescom_log.png
       company_url: https://www.gamescom.global/en
+    - company: gamescom Latam
+      company_url: https://latam.gamescom.global/en/
+      company_logo: /images/clients/gamescom-latam.png
     - company: GPTRACK50 Inc.
       company_url: https://www.gptrack50.com/en/
       company_logo: /images/clients/gptrack-logo.png
@@ -362,9 +359,6 @@ clients:
     - company: Level Infinite
       company_url: https://www.levelinfinite.com/
       company_logo: /images/clients/li-logo.png
-    - company: Lilith Games
-      company_logo: /images/clients/lilith-games.png
-      company_url: https://www.lilith.com/?locale=en-US
     - company: Limit Break
       company_logo: /images/clients/lb_logo_full_lightmode_1200px.png
       company_url: https://www.limitbreak.co.uk/
@@ -389,12 +383,12 @@ clients:
     - company: Seed Sparkle Lab
       company_logo: /images/clients/工作室logo（黑）.png
       company_url: https://www.starsandisland.com/en/#/
+    - company: SEGA
+      company_url: https://www.sega.com/
+      company_logo: /images/clients/sega_logo.png
     - company: Shoreline Games
       company_url: https://shorelinegames.com/
       company_logo: /images/clients/company-logo_shoreline-games.png
-    - company: Stellar Jockeys
-      company_url: https://stellarjockeys.com/
-      company_logo: /images/clients/stellarjockeys-profile_image-bcb63ffe1db5132d-300x300.png
     - company: Stormind Games
       company_url: https://stormindgames.com/
       company_logo: /images/clients/logo-stormind-games.webp
