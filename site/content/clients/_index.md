@@ -110,6 +110,9 @@ clients:
     - company: gamescom
       company_logo: /images/clients/gamescomlogo.png
       company_url: https://www.gamescom.global/en
+    - company: gamescom Latam
+      company_url: https://latam.gamescom.global/en/
+      company_logo: /images/clients/gamescom-latam.png
     - company: Genigods Lab
       company_url: https://store.steampowered.com/app/4346690/Genigods_Nezha/
       company_logo: /images/clients/picture28.png
@@ -308,6 +311,9 @@ clients:
     - company: Seed Sparkle Lab
       company_logo: /images/clients/工作室logo（黑）.png
       company_url: https://www.starsandisland.com/en/#/
+    - company: SEGA
+      company_url: https://www.sega.com/
+      company_logo: /images/clients/sega_logo.png
     - company: Sharkmob
       company_url: https://www.sharkmob.com/
       company_logo: /images/clients/sharkmobtest.png
